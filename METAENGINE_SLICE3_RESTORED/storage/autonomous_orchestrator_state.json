@@ -1,5 +1,5 @@
 {
-  "cycle_count": 5,
+  "cycle_count": 7,
   "cycles": [
     {
       "cycle_id": 1,
@@ -171,6 +171,94 @@
         "benchmark_processes": 3,
         "improvement_loop_alive": true,
         "snapshot_at": "2026-08-16T08:25:14Z"
+      },
+      "probe": {
+        "total_providers": 8,
+        "working_providers": [],
+        "providers_with_keys": [
+          "groq-llama-70b",
+          "groq-mixtral"
+        ],
+        "providers_failed": [
+          {
+            "name": "groq-llama-70b",
+            "error": "FORBIDDEN: litellm.APIError: APIError: GroqException - {\"error\":{\"message\":\"Forbidden\"}}"
+          },
+          {
+            "name": "groq-mixtral",
+            "error": "FORBIDDEN: litellm.APIError: APIError: GroqException - {\"error\":{\"message\":\"Forbidden\"}}"
+          }
+        ]
+      },
+      "heal_actions": {
+        "killed_stuck": 0,
+        "restarted": 0
+      },
+      "meta_patches_generated": 1,
+      "discovery": null,
+      "recommended_shard_count": 1
+    },
+    {
+      "cycle_id": 6,
+      "started_at": "2026-08-16T08:35:23Z",
+      "duration_sec": 9.41,
+      "resources": {
+        "cpu_count": 2,
+        "mem_total_mb": 4041,
+        "mem_available_mb": 1727,
+        "mem_used_pct": 57.3,
+        "disk_free_gb": 2.8,
+        "benchmark_processes": 3,
+        "improvement_loop_alive": true,
+        "snapshot_at": "2026-08-16T08:35:14Z"
+      },
+      "probe": {
+        "total_providers": 8,
+        "working_providers": [],
+        "providers_with_keys": [
+          "groq-llama-70b",
+          "groq-mixtral"
+        ],
+        "providers_failed": [
+          {
+            "name": "groq-llama-70b",
+            "error": "FORBIDDEN: litellm.APIError: APIError: GroqException - {\"error\":{\"message\":\"Forbidden\"}}"
+          },
+          {
+            "name": "groq-mixtral",
+            "error": "FORBIDDEN: litellm.APIError: APIError: GroqException - {\"error\":{\"message\":\"Forbidden\"}}"
+          }
+        ]
+      },
+      "heal_actions": {
+        "killed_stuck": 0,
+        "restarted": 0
+      },
+      "meta_patches_generated": 1,
+      "discovery": {
+        "cycle_id": 6,
+        "duration_sec": 9.35,
+        "queries_run": 3,
+        "search_results_total": 10,
+        "candidates_found": 1,
+        "working_providers": 0,
+        "patches_generated": 0
+      },
+      "recommended_shard_count": 1
+    },
+    {
+      "cycle_id": 7,
+      "started_at": "2026-08-16T08:42:47Z",
+      "duration_sec": 3.2,
+      "resources": {
+        "cpu_count": 2,
+        "mem_total_mb": 4041,
+        "mem_available_mb": 1082,
+        "mem_used_pct": 73.2,
+        "disk_free_gb": 2.8,
+        "benchmark_processes": 4,
+        "improvement_loop_alive": true,
+        "snapshot_at": "2026-08-16T08:42:47Z"
       },
       "probe": {
         "total_providers": 8,

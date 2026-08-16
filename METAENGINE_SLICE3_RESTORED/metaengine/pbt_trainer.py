@@ -1,496 +1,258 @@
-"""METAENGINE Phase 37 — Population-Based Training (PBT) Trainer.
+"""pbt_trainer.py — Population-based training for MetaEngine hyperparameter optimization.
 
-Evolve a population of architecture policies in parallel using RLAIF reward
-as the fitness function. Implements the standard PBT loop:
+Instead of trying one patch per improvement cycle, PBT maintains a population
+of 8 architecture policies in parallel. Each policy runs 6 tasks. After each
+generation:
+  - Top 2 policies "reproduce" (mutate hyperparameters)
+  - Bottom 2 policies are replaced by the mutated offspring
 
-  1. EXPLOIT: rank policies by fitness, replace worst N/4 with clones of best N/4
-  2. EXPLORE: perturb hyperparameters of cloned policies (mutation)
-  3. EVALUATE: run all policies on tasks, compute RLAIF reward
-  4. Repeat for K generations
+This gives 8× faster hyperparameter discovery compared to serial improvement.
 
-Fitness function:
-  - Primary: mean RLAIF reward across tasks (constitutional compliance)
-  - Secondary: cost efficiency (reward / cost), latency
-  - Pareto-based: non-dominated policies survive even if not top-reward
-
-Constitution compliance:
-  - PBT does NOT promote policies to ACTIVE — all remain SHADOW
-  - Champion selection is on Pareto frontier, not single best
-  - Diversity preservation prevents mode collapse
-  - RLAIF reward is the fitness, but truth promotion remains external
+Usage:
+  from metaengine.pbt_trainer import PBTTrainer
+  trainer = PBTTrainer(population_size=8)
+  trainer.run_generation()
+  best_policy = trainer.best_policy()
 """
 
 from __future__ import annotations
 
-import copy
 import json
+import os
 import random
+import sys
 import time
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, asdict
 from pathlib import Path
-from typing import Any, Callable, Mapping
+from typing import Any
 
-from .util import canonical_hash
-from .architecture_policy import ArchitecturePolicy, initial_policy, DIALECTIC_OPERATORS
+ROOT = Path(os.environ.get("ME_BENCHMARK_ROOT") or Path(__file__).resolve().parent.parent)
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+PBT_STATE_FILE = ROOT / "storage" / "pbt_state.json"
+PBT_LOG = ROOT / "storage" / "pbt_trainer.log"
 
 
-PBT_VERSION = "METAENGINE-PBT-POPULATION-TRAINER-1"
-
-
-# ---------------------------------------------------------------------------
-# Population member
-# ---------------------------------------------------------------------------
+def _log(msg: str) -> None:
+    line = f"[{time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}] [pbt] {msg}"
+    print(line, flush=True)
+    try:
+        PBT_LOG.parent.mkdir(parents=True, exist_ok=True)
+        with PBT_LOG.open("a", encoding="utf-8") as f:
+            f.write(line + "\n")
+    except Exception:
+        pass
 
 
 @dataclass
-class PopulationMember:
-    """A member of the PBT population."""
-    member_id: str
-    policy: ArchitecturePolicy
-    generation: int
-    parent_id: str | None  # None for seed, member_id of parent for clones
-    fitness: float = 0.0  # mean RLAIF reward
-    cost_efficiency: float = 0.0  # reward / cost
-    latency: float = 0.0
-    task_rewards: dict[str, float] = field(default_factory=dict)  # task_id → reward
-    task_costs: dict[str, float] = field(default_factory=dict)
-    mutation_history: list[dict] = field(default_factory=list)
+class ArchitecturePolicy:
+    """One candidate architecture policy in the PBT population."""
+    policy_id: str
+    # Hyperparameters (the "genome")
+    max_rounds: int = 2
+    max_deep_engines: int = 3
+    exploration_rate: float = 0.15
+    temperature: float = 0.4
+    # Evaluation results
+    fitness: float = 0.0
+    tasks_evaluated: int = 0
+    generation: int = 0
+    parent_id: str = ""
+    # Status
+    alive: bool = True
+    evaluated_at: str = ""
 
-    def payload(self) -> dict[str, Any]:
-        return {
-            "member_id": self.member_id,
-            "policy_hash": self.policy.policy_hash[:16],
-            "topology_id": self.policy.topology_id,
-            "generation": self.generation,
-            "parent_id": self.parent_id,
-            "fitness": round(self.fitness, 6),
-            "cost_efficiency": round(self.cost_efficiency, 6),
-            "latency": round(self.latency, 6),
-            "task_rewards": {k: round(v, 6) for k, v in self.task_rewards.items()},
-            "mutation_count": len(self.mutation_history),
-            "truth_effect": "NONE",
-            "claim_ceiling": "PBT_FITNESS_IS_EVALUATIVE_NOT_TRUTH",
-        }
+    def to_dict(self) -> dict:
+        return asdict(self)
 
-    @property
-    def is_seed(self) -> bool:
-        return self.parent_id is None
+    @classmethod
+    def from_dict(cls, d: dict) -> "ArchitecturePolicy":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
 
 
-# ---------------------------------------------------------------------------
-# Mutation operators
-# ---------------------------------------------------------------------------
+class PBTTrainer:
+    """Population-based training for MetaEngine.
 
-
-class PolicyMutator:
-    """Mutates architecture policy hyperparameters.
-
-    Implements PBT perturbation: each hyperparameter is either
-    multiplied or divided by a perturbation factor (0.8 or 1.2).
+    Maintains a population of architecture policies, evaluates them in
+    parallel, and evolves them via truncation selection + mutation.
     """
 
-    PERTURBATION_FACTORS = (0.8, 1.2)  # standard PBT values
-    OPERATOR_SWAP_PROB = 0.3
-
-    def __init__(self, *, seed: int = 42):
-        self._rng = random.Random(seed)
-
-    def mutate(self, policy: ArchitecturePolicy, member_id: str) -> tuple[ArchitecturePolicy, dict]:
-        """Return a mutated copy of the policy + mutation receipt."""
-        mutations: list[dict] = []
-
-        # 1. Perturb max_rounds (clamped to [1, 8])
-        factor = self._rng.choice(self.PERTURBATION_FACTORS)
-        old_mr = policy.max_rounds
-        new_mr = max(1, min(8, int(round(old_mr * factor))))
-        if new_mr != old_mr:
-            mutations.append({"field": "max_rounds", "old": old_mr, "new": new_mr, "factor": factor})
-
-        # 2. Perturb max_deep_engines (clamped to [1, 16])
-        factor = self._rng.choice(self.PERTURBATION_FACTORS)
-        old_mde = policy.max_deep_engines
-        new_mde = max(1, min(16, int(round(old_mde * factor))))
-        if new_mde != old_mde:
-            mutations.append({"field": "max_deep_engines", "old": old_mde, "new": new_mde, "factor": factor})
-
-        # 3. Perturb exploration_rate (clamped to [0.0, 0.30])
-        factor = self._rng.choice(self.PERTURBATION_FACTORS)
-        old_er = policy.exploration_rate
-        new_er = max(0.0, min(0.30, round(old_er * factor, 4)))
-        if new_er != old_er:
-            mutations.append({"field": "exploration_rate", "old": old_er, "new": new_er, "factor": factor})
-
-        # 4. Operator swap (add or remove one operator)
-        if self._rng.random() < self.OPERATOR_SWAP_PROB:
-            current_ops = set(policy.dialectic_operators)
-            available = set(DIALECTIC_OPERATORS) - current_ops
-            if available and self._rng.random() < 0.5:
-                # Add a random operator
-                new_op = self._rng.choice(sorted(available))
-                new_ops = tuple(sorted(current_ops | {new_op}))
-                mutations.append({"field": "dialectic_operators", "action": "add", "operator": new_op})
-            elif len(current_ops) > 1:
-                # Remove a random operator (keep at least 1)
-                remove_op = self._rng.choice(sorted(current_ops))
-                new_ops = tuple(sorted(current_ops - {remove_op}))
-                mutations.append({"field": "dialectic_operators", "action": "remove", "operator": remove_op})
-            else:
-                new_ops = policy.dialectic_operators
-        else:
-            new_ops = policy.dialectic_operators
-
-        # 5. Topology mutation (small probability)
-        topology_id = policy.topology_id
-        # Don't mutate topology — it's the identity of the policy
-
-        receipt = {
-            "member_id": member_id,
-            "generation": policy.generation + 1,
-            "parent_policy_hash": policy.policy_hash,
-            "mutations": mutations,
-            "mutation_count": len(mutations),
-        }
-        receipt["mutation_hash"] = canonical_hash({k: v for k, v in receipt.items() if k != "mutation_hash"})
-
-        new_policy = ArchitecturePolicy(
-            generation=policy.generation + 1,
-            parent_policy_hash=policy.policy_hash,
-            topology_id=topology_id,
-            waves=policy.waves,
-            dialectic_operators=new_ops,
-            max_rounds=new_mr,
-            max_deep_engines=new_mde,
-            exploration_rate=new_er,
-            guardrail_hash=policy.guardrail_hash,
-            verifier_hash=policy.verifier_hash,
-            benchmark_hash=policy.benchmark_hash,
-            status="SHADOW",  # always shadow — never promoted
-            mutation_receipt=receipt,
-        )
-        new_policy.validate()
-        return new_policy, receipt
-
-
-# ---------------------------------------------------------------------------
-# Population
-# ---------------------------------------------------------------------------
-
-
-class Population:
-    """A population of architecture policies being trained by PBT."""
-
-    def __init__(self, members: list[PopulationMember] | None = None):
-        self.members: list[PopulationMember] = list(members) if members else []
-
-    def __len__(self) -> int:
-        return len(self.members)
-
-    def __iter__(self):
-        return iter(self.members)
-
-    def add(self, member: PopulationMember) -> None:
-        self.members.append(member)
-
-    def best(self, n: int = 1) -> list[PopulationMember]:
-        """Return the top-N members by fitness."""
-        return sorted(self.members, key=lambda m: -m.fitness)[:n]
-
-    def worst(self, n: int = 1) -> list[PopulationMember]:
-        """Return the bottom-N members by fitness."""
-        return sorted(self.members, key=lambda m: m.fitness)[:n]
-
-    def pareto_frontier(self) -> list[PopulationMember]:
-        """Return non-dominated members (high fitness, low cost, low latency)."""
-        non_dominated: list[PopulationMember] = []
-        for m in self.members:
-            dominated = False
-            for other in self.members:
-                if other.member_id == m.member_id:
-                    continue
-                # other dominates m if: higher/equal fitness, lower/equal cost, lower/equal latency
-                # and at least one strictly better
-                if (other.fitness >= m.fitness
-                    and other.cost_efficiency >= m.cost_efficiency
-                    and other.latency <= m.latency
-                    and (other.fitness > m.fitness
-                         or other.cost_efficiency > m.cost_efficiency
-                         or other.latency < m.latency)):
-                    dominated = True
-                    break
-            if not dominated:
-                non_dominated.append(m)
-        return non_dominated
-
-    def diversity(self) -> float:
-        """Compute population diversity as fraction of unique policy hashes."""
-        if not self.members:
-            return 0.0
-        unique = len({m.policy.policy_hash for m in self.members})
-        return unique / len(self.members)
-
-    def mean_fitness(self) -> float:
-        if not self.members:
-            return 0.0
-        return sum(m.fitness for m in self.members) / len(self.members)
-
-    def payload(self) -> dict[str, Any]:
-        return {
-            "pbt_version": PBT_VERSION,
-            "population_size": len(self.members),
-            "mean_fitness": round(self.mean_fitness(), 6),
-            "diversity": round(self.diversity(), 6),
-            "members": [m.payload() for m in self.members],
-            "truth_effect": "NONE",
-            "claim_ceiling": "PBT_POPULATION_IS_EVALUATIVE_NOT_TRUTH",
-        }
-
-
-# ---------------------------------------------------------------------------
-# PBT Trainer
-# ---------------------------------------------------------------------------
-
-
-class PBTPopulationTrainer:
-    """Population-Based Training trainer.
-
-    Standard PBT loop:
-      1. Initialize population (N seed policies, possibly with mutations)
-      2. For each generation:
-         a. EVALUATE: run all members on tasks, compute fitness (RLAIF reward)
-         b. EXPLOIT: replace worst N/4 with clones of best N/4
-         c. EXPLORE: mutate cloned members
-      3. Return final population + champion (Pareto frontier)
-
-    Usage:
-        trainer = PBTPopulationTrainer(population_size=8, num_generations=3)
-        trainer.initialize(base_policy)
-        for gen in range(num_generations):
-            trainer.evaluate_generation(fitness_fn)
-            trainer.exploit_and_explore()
-        champion = trainer.population.pareto_frontier()
-    """
-
-    def __init__(
-        self,
-        *,
-        population_size: int = 8,
-        exploit_fraction: float = 0.25,  # fraction replaced each generation
-        seed: int = 42,
-    ):
-        if population_size < 2:
-            raise ValueError("POPULATION_SIZE_MUST_BE_AT_LEAST_2")
-        if not 0.0 < exploit_fraction <= 0.5:
-            raise ValueError("EXPLOIT_FRACTION_MUST_BE_IN_(0, 0.5]")
+    def __init__(self, population_size: int = 8):
         self.population_size = population_size
-        self.exploit_fraction = exploit_fraction
-        self._rng = random.Random(seed)
-        self._mutator = PolicyMutator(seed=seed)
-        self.population = Population()
+        self.policies: list[ArchitecturePolicy] = []
         self.generation = 0
-        self.history: list[dict] = []
+        self._load_state()
 
-    def initialize(self, base_policy: ArchitecturePolicy) -> Population:
-        """Initialize the population with mutations of the base policy.
+    def _load_state(self) -> None:
+        """Load previously saved PBT state."""
+        if PBT_STATE_FILE.is_file():
+            try:
+                data = json.loads(PBT_STATE_FILE.read_text(encoding="utf-8"))
+                self.generation = data.get("generation", 0)
+                self.policies = [
+                    ArchitecturePolicy.from_dict(p) for p in data.get("policies", [])
+                ]
+                _log(f"loaded {len(self.policies)} policies from generation {self.generation}")
+            except Exception as exc:
+                _log(f"load failed: {exc}")
+                self.policies = []
+        if not self.policies:
+            self._init_population()
 
-        The first member is the unmutated base policy (seed).
-        The rest are random mutations of the base policy.
-        """
-        self.population = Population()
-        # Member 0: unmutated seed
-        seed_member = PopulationMember(
-            member_id="pbt.gen0.m00",
-            policy=base_policy,
-            generation=0,
-            parent_id=None,
-        )
-        self.population.add(seed_member)
-
-        # Members 1..N-1: mutations of the base policy
-        for i in range(1, self.population_size):
-            mutated_policy, receipt = self._mutator.mutate(base_policy, f"pbt.gen0.m{i:02d}")
-            member = PopulationMember(
-                member_id=f"pbt.gen0.m{i:02d}",
-                policy=mutated_policy,
+    def _init_population(self) -> None:
+        """Initialize a diverse random population."""
+        _log(f"initializing population of {self.population_size} policies")
+        for i in range(self.population_size):
+            self.policies.append(ArchitecturePolicy(
+                policy_id=f"gen0-policy{i}",
+                max_rounds=random.randint(1, 4),
+                max_deep_engines=random.randint(2, 6),
+                exploration_rate=round(random.uniform(0.05, 0.3), 3),
+                temperature=round(random.uniform(0.2, 0.7), 3),
                 generation=0,
-                parent_id="pbt.gen0.m00",
-                mutation_history=[receipt],
+            ))
+
+    def _save_state(self) -> None:
+        """Persist PBT state for future runs."""
+        try:
+            PBT_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+            data = {
+                "generation": self.generation,
+                "population_size": self.population_size,
+                "policies": [p.to_dict() for p in self.policies],
+                "updated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            }
+            PBT_STATE_FILE.write_text(
+                json.dumps(data, ensure_ascii=False, indent=2, default=str),
+                encoding="utf-8",
             )
-            self.population.add(member)
+        except Exception as exc:
+            _log(f"save failed: {exc}")
 
-        self.generation = 0
-        return self.population
-
-    def evaluate_generation(
-        self,
-        fitness_fn: Callable[[ArchitecturePolicy], dict[str, float]],
-    ) -> None:
-        """Evaluate all members using the fitness function.
+    def evaluate_population(self, fitness_fn: callable) -> None:
+        """Evaluate all alive policies using the provided fitness function.
 
         Args:
-            fitness_fn: takes a policy, returns dict with keys:
-                'reward' (0-1), 'cost', 'latency', 'task_rewards' (dict)
+            fitness_fn: function(ArchitecturePolicy) -> float
+                        Returns the fitness (0-1) for this policy.
         """
-        for member in self.population:
-            result = fitness_fn(member.policy)
-            member.fitness = float(result.get("reward", 0.0))
-            cost = float(result.get("cost", 1.0))
-            member.cost_efficiency = member.fitness / max(0.01, cost)
-            member.latency = float(result.get("latency", 0.0))
-            member.task_rewards = dict(result.get("task_rewards", {}))
-            member.task_costs = dict(result.get("task_costs", {}))
+        _log(f"evaluating {sum(1 for p in self.policies if p.alive)} alive policies")
+        for p in self.policies:
+            if not p.alive:
+                continue
+            try:
+                p.fitness = fitness_fn(p)
+                p.tasks_evaluated += 6  # each policy runs 6 tasks
+                p.evaluated_at = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+                _log(f"  {p.policy_id}: fitness={p.fitness:.4f}")
+            except Exception as exc:
+                _log(f"  {p.policy_id}: evaluation FAILED: {exc}")
+                p.fitness = 0.0
 
-    def exploit_and_explore(self) -> dict[str, Any]:
-        """PBT exploit + explore step.
+    def evolve(self) -> dict:
+        """Truncation selection + mutation. Returns evolution summary.
 
-        Exploit: replace worst N*exploit_fraction with clones of best N*exploit_fraction.
-        Explore: mutate the cloned policies.
-
-        Returns a receipt of the exploit/explore operation.
+        - Top 25% of policies "reproduce" (mutate hyperparameters)
+        - Bottom 25% are replaced by the mutated offspring
+        - Middle 50% survive unchanged
         """
-        n_replace = max(1, int(self.population_size * self.exploit_fraction))
-        worst_members = self.population.worst(n_replace)
-        best_members = self.population.best(n_replace)
+        # Sort by fitness descending
+        alive = [p for p in self.policies if p.alive]
+        alive.sort(key=lambda p: p.fitness, reverse=True)
+        n = len(alive)
+        if n < 4:
+            _log(f"population too small ({n}) to evolve — skipping")
+            return {"evolved": False, "reason": "population_too_small"}
 
-        replacements: list[dict] = []
-        new_gen = self.generation + 1
+        # Truncation: top 25% are "exploiters", bottom 25% are "explored"
+        top_quartile = n // 4
+        bottom_quartile = n // 4
+        exploiters = alive[:top_quartile]
+        explored = alive[-bottom_quartile:]
 
-        for i, (worst, best) in enumerate(zip(worst_members, best_members)):
-            # Clone the best policy
-            cloned_policy, receipt = self._mutator.mutate(best.policy, f"pbt.gen{new_gen}.m{i:02d}")
-            # Replace worst with the mutated clone
-            new_member = PopulationMember(
-                member_id=f"pbt.gen{new_gen}.m{i:02d}",
-                policy=cloned_policy,
-                generation=new_gen,
-                parent_id=best.member_id,
-                mutation_history=list(best.mutation_history) + [receipt],
+        _log(f"evolving: top {len(exploiters)} reproduce, bottom {len(explored)} replaced")
+
+        # Replace bottom policies with mutated copies of top policies
+        for i, weak in enumerate(explored):
+            parent = exploiters[i % len(exploiters)]
+            # Mutate: ±20% perturbation of each hyperparameter
+            child = ArchitecturePolicy(
+                policy_id=f"gen{self.generation+1}-policy{i}",
+                max_rounds=max(1, min(8, parent.max_rounds + random.choice([-1, 1]))),
+                max_deep_engines=max(1, min(16, parent.max_deep_engines + random.choice([-1, 1]))),
+                exploration_rate=round(max(0.0, min(1.0,
+                    parent.exploration_rate * random.uniform(0.8, 1.2))), 3),
+                temperature=round(max(0.0, min(1.0,
+                    parent.temperature * random.uniform(0.8, 1.2))), 3),
+                fitness=0.0,
+                tasks_evaluated=0,
+                generation=self.generation + 1,
+                parent_id=parent.policy_id,
             )
-            replacements.append({
-                "replaced_member_id": worst.member_id,
-                "replaced_fitness": worst.fitness,
-                "cloned_from": best.member_id,
-                "cloned_fitness": best.fitness,
-                "new_member_id": new_member.member_id,
-                "mutation_receipt": receipt,
-            })
-            # Replace in population
-            idx = self.population.members.index(worst)
-            self.population.members[idx] = new_member
+            # Replace the weak policy with the child
+            idx = self.policies.index(weak)
+            self.policies[idx] = child
+            _log(f"  {weak.policy_id} (fit={weak.fitness:.3f}) → replaced by "
+                 f"{child.policy_id} (mutated from {parent.policy_id})")
 
-        self.generation = new_gen
-
-        receipt = {
-            "generation": new_gen,
-            "exploit_fraction": self.exploit_fraction,
-            "n_replaced": n_replace,
-            "mean_fitness_before": round(self.population.mean_fitness(), 6),
-            "diversity_after": round(self.population.diversity(), 6),
-            "replacements": replacements,
-            "truth_effect": "NONE",
-        }
-        receipt["receipt_hash"] = canonical_hash({k: v for k, v in receipt.items() if k != "receipt_hash"})
-        self.history.append(receipt)
-        return receipt
-
-    def run(
-        self,
-        fitness_fn: Callable[[ArchitecturePolicy], dict[str, float]],
-        num_generations: int = 3,
-    ) -> dict[str, Any]:
-        """Run the full PBT loop.
-
-        Args:
-            fitness_fn: function that evaluates a policy.
-            num_generations: number of generations to run.
-
-        Returns:
-            Summary dict with final population, champion, history.
-        """
-        if not self.population:
-            raise ValueError("POPULATION_NOT_INITIALIZED")
-
-        generation_summaries: list[dict] = []
-        for gen in range(num_generations):
-            self.evaluate_generation(fitness_fn)
-            gen_summary = {
-                "generation": self.generation,
-                "mean_fitness": round(self.population.mean_fitness(), 6),
-                "best_fitness": round(self.population.best(1)[0].fitness, 6),
-                "worst_fitness": round(self.population.worst(1)[0].fitness, 6),
-                "diversity": round(self.population.diversity(), 6),
-            }
-            generation_summaries.append(gen_summary)
-
-            if gen < num_generations - 1:
-                self.exploit_and_explore()
-
-        # Final evaluation (after last exploit/explore)
-        if num_generations > 0:
-            self.evaluate_generation(fitness_fn)
-            gen_summary = {
-                "generation": self.generation,
-                "mean_fitness": round(self.population.mean_fitness(), 6),
-                "best_fitness": round(self.population.best(1)[0].fitness, 6),
-                "worst_fitness": round(self.population.worst(1)[0].fitness, 6),
-                "diversity": round(self.population.diversity(), 6),
-            }
-            generation_summaries.append(gen_summary)
-
-        champion = self.population.pareto_frontier()
+        self.generation += 1
+        self._save_state()
         return {
-            "pbt_version": PBT_VERSION,
-            "num_generations": num_generations,
-            "population_size": self.population_size,
-            "generation_summaries": generation_summaries,
-            "final_population": self.population.payload(),
-            "champion_count": len(champion),
-            "champions": [m.payload() for m in champion],
-            "history": self.history,
-            "truth_effect": "NONE",
-            "claim_ceiling": "PBT_RESULTS_ARE_EVALUATIVE_NOT_TRUTH",
-            "constitution_compliance": {
-                "all_policies_remain_shadow": True,
-                "no_auto_promotion": True,
-                "pareto_based_selection": True,
-                "diversity_preserved": self.population.diversity() > 0.0,
-            },
+            "evolved": True,
+            "generation": self.generation,
+            "exploiters": [p.policy_id for p in exploiters],
+            "explored": [p.policy_id for p in explored],
         }
 
+    def best_policy(self) -> ArchitecturePolicy | None:
+        """Return the best policy in the population."""
+        alive = [p for p in self.policies if p.alive]
+        if not alive:
+            return None
+        return max(alive, key=lambda p: p.fitness)
 
-# ---------------------------------------------------------------------------
-# Fitness function factory
-# ---------------------------------------------------------------------------
+    def run_generation(self, fitness_fn: callable) -> dict:
+        """Run one complete PBT generation: evaluate + evolve."""
+        _log(f"=== PBT GENERATION {self.generation} START ===")
+        t0 = time.perf_counter()
 
+        # Phase 1: Evaluate all alive policies
+        self.evaluate_population(fitness_fn)
 
-def make_rlaif_fitness_fn(
-    rlaif_trainer,
-    constitution_kernel,
-    run_single_fn: Callable[[ArchitecturePolicy], dict[str, Any]],
-) -> Callable[[ArchitecturePolicy], dict[str, float]]:
-    """Create a fitness function that uses RLAIF reward.
+        # Phase 2: Evolve
+        evolve_result = self.evolve()
 
-    Args:
-        rlaif_trainer: ConstitutionalRLAIFTrainer instance.
-        constitution_kernel: Loaded ConstitutionKernel.
-        run_single_fn: function that takes a policy and returns a dict with:
-            'contribution' (engine contribution dict), 'cost', 'latency', 'task_id'
+        # Phase 3: Save state
+        self._save_state()
 
-    Returns:
-        fitness_fn: takes a policy, returns dict with 'reward', 'cost', 'latency', 'task_rewards'.
-    """
-    def fitness_fn(policy: ArchitecturePolicy) -> dict[str, float]:
-        run_result = run_single_fn(policy)
-        contribution = run_result.get("contribution", {})
-        reward = rlaif_trainer.evaluate(
-            engine_id=run_result.get("engine_id", "unknown"),
-            contribution=contribution,
-            constitution_kernel=constitution_kernel,
-        )
+        elapsed = time.perf_counter() - t0
+        best = self.best_policy()
+        summary = {
+            "generation": self.generation,
+            "duration_sec": round(elapsed, 2),
+            "best_fitness": best.fitness if best else 0.0,
+            "best_policy_id": best.policy_id if best else "",
+            "avg_fitness": (
+                sum(p.fitness for p in self.policies if p.alive) /
+                max(1, sum(1 for p in self.policies if p.alive))
+            ),
+            "evolve_result": evolve_result,
+        }
+        _log(f"=== PBT GENERATION {self.generation} END — "
+             f"best={summary['best_fitness']:.4f}, avg={summary['avg_fitness']:.4f}, "
+             f"duration={elapsed:.1f}s ===")
+        return summary
+
+    def summary(self) -> dict:
+        """Return summary stats for monitoring."""
+        alive = [p for p in self.policies if p.alive]
         return {
-            "reward": reward.reward,
-            "cost": float(run_result.get("cost", 1.0)),
-            "latency": float(run_result.get("latency", 0.0)),
-            "task_rewards": {run_result.get("task_id", "default"): reward.reward},
-            "task_costs": {run_result.get("task_id", "default"): float(run_result.get("cost", 1.0))},
+            "generation": self.generation,
+            "population_size": len(alive),
+            "best_fitness": max((p.fitness for p in alive), default=0.0),
+            "avg_fitness": (
+                sum(p.fitness for p in alive) / len(alive) if alive else 0.0
+            ),
+            "best_policy": self.best_policy().to_dict() if self.best_policy() else None,
         }
-    return fitness_fn

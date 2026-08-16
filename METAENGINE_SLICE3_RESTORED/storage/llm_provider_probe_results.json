@@ -1,5 +1,5 @@
 {
-  "probed_at": "2026-08-16T08:25:14Z",
+  "probed_at": "2026-08-16T08:42:47Z",
   "total_providers": 8,
   "working_providers": 0,
   "results": [
@@ -11,7 +11,7 @@
       "response": "",
       "error": "FORBIDDEN: litellm.APIError: APIError: GroqException - {\"error\":{\"message\":\"Forbidden\"}}",
       "latency_ms": 0.0,
-      "probed_at": "2026-08-16T08:25:14Z"
+      "probed_at": "2026-08-16T08:42:44Z"
     },
     {
       "name": "groq-mixtral",
@@ -21,7 +21,7 @@
       "response": "",
       "error": "FORBIDDEN: litellm.APIError: APIError: GroqException - {\"error\":{\"message\":\"Forbidden\"}}",
       "latency_ms": 0.0,
-      "probed_at": "2026-08-16T08:25:14Z"
+      "probed_at": "2026-08-16T08:42:47Z"
     },
     {
       "name": "openrouter-llama",
@@ -31,7 +31,7 @@
       "response": "",
       "error": "env var OPENROUTER_API_KEY not set",
       "latency_ms": 0.0,
-      "probed_at": "2026-08-16T08:25:14Z"
+      "probed_at": "2026-08-16T08:42:47Z"
     },
     {
       "name": "openrouter-mistral",
@@ -41,7 +41,7 @@
       "response": "",
       "error": "env var OPENROUTER_API_KEY not set",
       "latency_ms": 0.0,
-      "probed_at": "2026-08-16T08:25:14Z"
+      "probed_at": "2026-08-16T08:42:47Z"
     },
     {
       "name": "together-llama",
@@ -51,7 +51,7 @@
       "response": "",
       "error": "env var TOGETHER_API_KEY not set",
       "latency_ms": 0.0,
-      "probed_at": "2026-08-16T08:25:14Z"
+      "probed_at": "2026-08-16T08:42:47Z"
     },
     {
       "name": "gemini-flash",
@@ -61,7 +61,7 @@
       "response": "",
       "error": "env var GEMINI_API_KEY not set",
       "latency_ms": 0.0,
-      "probed_at": "2026-08-16T08:25:14Z"
+      "probed_at": "2026-08-16T08:42:47Z"
     },
     {
       "name": "huggingface",
@@ -71,7 +71,7 @@
       "response": "",
       "error": "env var HUGGINGFACE_API_KEY not set",
       "latency_ms": 0.0,
-      "probed_at": "2026-08-16T08:25:14Z"
+      "probed_at": "2026-08-16T08:42:47Z"
     },
     {
       "name": "cohere",
@@ -81,7 +81,7 @@
       "response": "",
       "error": "env var COHERE_API_KEY not set",
       "latency_ms": 0.0,
-      "probed_at": "2026-08-16T08:25:14Z"
+      "probed_at": "2026-08-16T08:42:47Z"
     }
   ]
 }

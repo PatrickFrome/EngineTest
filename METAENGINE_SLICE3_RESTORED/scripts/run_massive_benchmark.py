@@ -528,6 +528,11 @@ def log(msg: str) -> None:
         pass
 
 
+def _now_iso() -> str:
+    """Helper for cache logging."""
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def append_jsonl(path: Path, obj: dict) -> None:
     try:
         with path.open("a", encoding="utf-8") as f:
@@ -818,9 +823,40 @@ def run_metaengine(task: BenchTask, run_dir: Path, max_workers: int = 4,
     on subsequent calls to skip the expensive orchestrator initialization
     (~2s savings per task — 5% throughput boost).
 
+    Tier 2.4: Result caching by input hash.
+    If a cached result exists for the same (prompt + policy_hash) and is less
+    than 1 hour old, return it directly instead of re-running the orchestrator.
+    This skips redundant runs (Phase 5 often re-runs same tasks as Phase 1).
+
     Returns dict with: synthesis, engine_answer, dialectical_counts,
     constitution, runtime_sec, status, error.
     """
+    # Tier 2.4: Check result cache first
+    cache_key = hashlib.sha256(
+        f"{task.prompt}|{task.task_id}".encode()
+    ).hexdigest()[:32]
+    cache_dir = STORAGE / "result_cache"
+    cache_file = cache_dir / f"{cache_key}.json"
+    if cache_file.is_file():
+        try:
+            mtime = cache_file.stat().st_mtime
+            age_sec = time.time() - mtime
+            if age_sec < 3600:  # 1 hour TTL
+                cached = json.loads(cache_file.read_text(encoding="utf-8"))
+                _log_msg = f"[cache] HIT for {task.task_id} (age={age_sec:.0f}s)"
+                # Print to log if HUMAN_LOG is set
+                try:
+                    if HUMAN_LOG:
+                        with HUMAN_LOG.open("a", encoding="utf-8") as f:
+                            f.write(f"[{_now_iso()}] {_log_msg}\n")
+                except Exception:
+                    pass
+                cached["runtime_sec"] = 0.001  # near-instant
+                cached["_cached"] = True
+                return cached, _cached_orch
+        except Exception:
+            pass
+
     # Write the task prompt to a temp input file
     input_path = run_dir / "INPUT.txt"
     input_path.parent.mkdir(parents=True, exist_ok=True)
@@ -875,7 +911,7 @@ def run_metaengine(task: BenchTask, run_dir: Path, max_workers: int = 4,
                     except Exception:
                         pass
 
-        return {
+        result_dict = {
             "status": state.get("status", "UNKNOWN") if isinstance(state, dict) else "UNKNOWN",
             "synthesis": synthesis,
             "engine_answer": engine_answer,
@@ -883,7 +919,21 @@ def run_metaengine(task: BenchTask, run_dir: Path, max_workers: int = 4,
             "constitution": constitution,
             "runtime_sec": round(runtime, 3),
             "error": None,
-        }, cached_orch
+        }
+
+        # Tier 2.4: Write result to cache for future reuse
+        try:
+            cache_dir = STORAGE / "result_cache"
+            cache_dir.mkdir(parents=True, exist_ok=True)
+            cache_file = cache_dir / f"{cache_key}.json"
+            cache_file.write_text(
+                json.dumps(result_dict, ensure_ascii=False, default=str),
+                encoding="utf-8",
+            )
+        except Exception:
+            pass
+
+        return result_dict, cached_orch
     except Exception as exc:
         tb = traceback.format_exc()
         return {

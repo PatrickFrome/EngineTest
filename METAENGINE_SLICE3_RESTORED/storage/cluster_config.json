@@ -1,8 +1,8 @@
 {
-  "shard_count": 3,
+  "shard_count": 4,
   "max_workers_per_shard": 2,
-  "launched_at": "2026-08-16T08:26:39Z",
+  "launched_at": "2026-08-16T08:42:16Z",
   "task_bank_size": 105,
-  "tasks_per_shard": 35,
-  "total_max_workers": 6
+  "tasks_per_shard": 26,
+  "total_max_workers": 8
 }

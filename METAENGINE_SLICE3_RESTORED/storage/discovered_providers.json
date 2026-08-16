@@ -1,55 +1,23 @@
 {
-  "updated_at": "2026-08-16T08:15:51Z",
-  "total": 3,
-  "working": 3,
+  "updated_at": "2026-08-16T08:43:04Z",
+  "total": 1,
+  "working": 1,
   "providers": [
     {
-      "provider_name": "openai",
+      "provider_name": "anthropic",
       "category": "llm_api",
-      "api_endpoint": "https://api.openai.com/v1",
-      "api_docs_url": "https://github.com/tashfeenahmed/freellmapi",
-      "signup_url": "https://github.com",
+      "api_endpoint": "https://api.anthropic.com/v1",
+      "api_docs_url": "https://claude.com/pricing",
+      "signup_url": "https://claude.com",
       "free_tier_rpm": 0,
-      "litellm_model_hint": "openai/gpt-4o-mini",
+      "litellm_model_hint": "anthropic/claude-3-5-sonnet-20240620",
       "works": true,
       "probe_response": "HTTP 403",
       "probe_error": "",
-      "probe_latency_ms": 24.51165099773789,
-      "discovered_at": "2026-08-16T08:15:42Z",
-      "source_query": "free OpenAI-compatible API endpoints list",
-      "source_url": "https://github.com/tashfeenahmed/freellmapi"
-    },
-    {
-      "provider_name": "groq",
-      "category": "llm_api",
-      "api_endpoint": "https://api.groq.com/openai",
-      "api_docs_url": "https://freellm.net/models/",
-      "signup_url": "https://freellm.net",
-      "free_tier_rpm": 0,
-      "litellm_model_hint": "groq/llama-3.1-70b-versatile",
-      "works": true,
-      "probe_response": "HTTP 403",
-      "probe_error": "",
-      "probe_latency_ms": 32.93915800168179,
-      "discovered_at": "2026-08-16T08:15:42Z",
-      "source_query": "free OpenAI-compatible API endpoints list",
-      "source_url": "https://freellm.net/models/"
-    },
-    {
-      "provider_name": "cohere",
-      "category": "llm_api",
-      "api_endpoint": "https://api.cohere.ai/v1",
-      "api_docs_url": "https://cohere.com/blog/free-developer-tier-announcement",
-      "signup_url": "https://cohere.com",
-      "free_tier_rpm": 0,
-      "litellm_model_hint": "cohere/command-r",
-      "works": true,
-      "probe_response": "HTTP 401",
-      "probe_error": "",
-      "probe_latency_ms": 286.1680529967998,
-      "discovered_at": "2026-08-16T08:15:46Z",
-      "source_query": "cohere trial API free",
-      "source_url": "https://cohere.com/blog/free-developer-tier-announcement"
+      "probe_latency_ms": 24.149704000592465,
+      "discovered_at": "2026-08-16T08:42:55Z",
+      "source_query": "anthropic free API tier",
+      "source_url": "https://claude.com/pricing"
     }
   ]
 }
