@@ -62,7 +62,20 @@ from typing import Any, Iterable
 # Paths
 # ---------------------------------------------------------------------------
 
-ROOT = Path("/home/z/my-project/METAENGINE_SLICE3_RESTORED")
+# ROOT must be auto-discovered so the script works both in the local sandbox
+# (/home/z/my-project/METAENGINE_SLICE3_RESTORED) and on CI runners like
+# GitHub Actions (where the working directory differs).
+# Strategy:
+#   1. ME_BENCHMARK_ROOT env var (highest priority — explicit override)
+#   2. Repo root inferred from this script's location (the script lives at
+#      <repo_root>/METAENGINE_SLICE3_RESTORED/scripts/run_massive_benchmark.py)
+#   3. Fallback to the local sandbox path for backward compatibility
+_SCRIPT_DIR = Path(__file__).resolve().parent
+_INFERRED_ROOT = _SCRIPT_DIR.parent  # .../METAENGINE_SLICE3_RESTORED
+ROOT = Path(os.environ.get("ME_BENCHMARK_ROOT") or _INFERRED_ROOT)
+if not (ROOT / "metaengine").is_dir() and Path("/home/z/my-project/METAENGINE_SLICE3_RESTORED").is_dir():
+    # Backward-compat fallback for the local sandbox
+    ROOT = Path("/home/z/my-project/METAENGINE_SLICE3_RESTORED")
 STORAGE = ROOT / "storage"
 TASKS_DIR_BASE = STORAGE / "massive_benchmark_tasks"
 STATUS_FILE_BASE = STORAGE / "massive_benchmark_status.json"

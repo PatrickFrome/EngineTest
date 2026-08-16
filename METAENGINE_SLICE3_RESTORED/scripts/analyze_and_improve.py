@@ -40,7 +40,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-ROOT = Path("/home/z/my-project/METAENGINE_SLICE3_RESTORED")
+# Auto-discover ROOT from script location (works on local sandbox + CI)
+ROOT = Path(os.environ.get("ME_BENCHMARK_ROOT") or Path(__file__).resolve().parent.parent)
 STORAGE = ROOT / "storage"
 PATCHES_DIR = ROOT / "metaengine" / "adaptation_patches"
 

@@ -51,7 +51,8 @@ from typing import Any, Iterable
 # Configuration
 # ---------------------------------------------------------------------------
 
-ROOT = Path("/home/z/my-project/METAENGINE_SLICE3_RESTORED")
+# Auto-discover ROOT from script location (works on local sandbox + CI)
+ROOT = Path(os.environ.get("ME_BENCHMARK_ROOT") or Path(__file__).resolve().parent.parent)
 WORKLOG_FILE = Path("/home/z/my-project/worklog.md")
 
 TURSO_DB_TOKEN = os.environ.get(
