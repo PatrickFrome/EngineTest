@@ -92,9 +92,15 @@ jobs:
           # Install the metaengine package itself (in editable mode) so
           # `from metaengine.orchestrator import ...` works at runtime.
           pip install -e . --no-deps
-          # Install only what the benchmark runner actually needs (not the full MetaEngine stack)
-          pip install structlog litellm
-          # Optional: install botorch/torch if available (large download, may skip on free tier)
+          # Install runtime dependencies needed by the benchmark runner:
+          # - structlog: structured logging (event_publisher.py)
+          # - litellm: multi-provider LLM routing (multi_provider_validator.py)
+          # - cryptography: signed provenance (signed_provenance.py)
+          # - jsonschema: schema validation (multiple modules)
+          # - botorch + torch: GP surrogate (botorch_surrogate.py) — large download
+          pip install structlog litellm cryptography jsonschema
+          # botorch is large (~2 GB with CUDA wheels); install CPU-only to save time/space
+          pip install torch --index-url https://download.pytorch.org/whl/cpu || echo "torch install skipped"
           pip install botorch || echo "botorch install skipped — heuristic surrogate will be used"
           # Verify the import works
           python3 -c "from metaengine.orchestrator import MetaOrchestrator; print('metaengine import OK')"
