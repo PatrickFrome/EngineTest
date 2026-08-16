@@ -1,0 +1,87 @@
+{
+  "probed_at": "2026-08-16T08:02:04Z",
+  "total_providers": 8,
+  "working_providers": 0,
+  "results": [
+    {
+      "name": "groq-llama-70b",
+      "litellm_model": "groq/llama-3.1-70b-versatile",
+      "has_key": true,
+      "works": false,
+      "response": "",
+      "error": "FORBIDDEN: litellm.APIError: APIError: GroqException - {\"error\":{\"message\":\"Forbidden\"}}",
+      "latency_ms": 0.0,
+      "probed_at": "2026-08-16T08:02:01Z"
+    },
+    {
+      "name": "groq-mixtral",
+      "litellm_model": "groq/mixtral-8x7b-32768",
+      "has_key": true,
+      "works": false,
+      "response": "",
+      "error": "FORBIDDEN: litellm.APIError: APIError: GroqException - {\"error\":{\"message\":\"Forbidden\"}}",
+      "latency_ms": 0.0,
+      "probed_at": "2026-08-16T08:02:04Z"
+    },
+    {
+      "name": "openrouter-llama",
+      "litellm_model": "openrouter/meta-llama/llama-3.1-8b-instruct:free",
+      "has_key": false,
+      "works": false,
+      "response": "",
+      "error": "env var OPENROUTER_API_KEY not set",
+      "latency_ms": 0.0,
+      "probed_at": "2026-08-16T08:02:04Z"
+    },
+    {
+      "name": "openrouter-mistral",
+      "litellm_model": "openrouter/mistralai/mistral-7b-instruct:free",
+      "has_key": false,
+      "works": false,
+      "response": "",
+      "error": "env var OPENROUTER_API_KEY not set",
+      "latency_ms": 0.0,
+      "probed_at": "2026-08-16T08:02:04Z"
+    },
+    {
+      "name": "together-llama",
+      "litellm_model": "together_ai/Meta-Llama-3.1-70B-Instruct-Turbo",
+      "has_key": false,
+      "works": false,
+      "response": "",
+      "error": "env var TOGETHER_API_KEY not set",
+      "latency_ms": 0.0,
+      "probed_at": "2026-08-16T08:02:04Z"
+    },
+    {
+      "name": "gemini-flash",
+      "litellm_model": "gemini/gemini-1.5-flash",
+      "has_key": false,
+      "works": false,
+      "response": "",
+      "error": "env var GEMINI_API_KEY not set",
+      "latency_ms": 0.0,
+      "probed_at": "2026-08-16T08:02:04Z"
+    },
+    {
+      "name": "huggingface",
+      "litellm_model": "huggingface/meta-llama/Meta-Llama-3-70B-Instruct",
+      "has_key": false,
+      "works": false,
+      "response": "",
+      "error": "env var HUGGINGFACE_API_KEY not set",
+      "latency_ms": 0.0,
+      "probed_at": "2026-08-16T08:02:04Z"
+    },
+    {
+      "name": "cohere",
+      "litellm_model": "cohere/command-r",
+      "has_key": false,
+      "works": false,
+      "response": "",
+      "error": "env var COHERE_API_KEY not set",
+      "latency_ms": 0.0,
+      "probed_at": "2026-08-16T08:02:04Z"
+    }
+  ]
+}
