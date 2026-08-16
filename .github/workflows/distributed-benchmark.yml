@@ -160,11 +160,17 @@ jobs:
           INSTANCE_ID="gha-shard${SHARD_ID}"
           MAX_WORKERS=2  # GitHub runner has 2 cores
 
+          # NOTE: --no-zai is REQUIRED in CI. The z-ai CLI rate-limits (429)
+          # on every call (sandbox quota), and each retry waits 60s. This
+          # would make a 5-task round take 30+ minutes. The multi_provider_validator
+          # (Groq/OpenRouter/etc) will be used automatically if any of those
+          # API keys are set; otherwise we fall back to deterministic scoring.
           timeout 19800 python3 scripts/run_massive_benchmark.py \
             --rounds 0 \
             --tasks-per-round 0 \
             --max-workers $MAX_WORKERS \
             --sleep-between-rounds 5 \
+            --no-zai \
             --instance-id "$INSTANCE_ID" \
             --shard-id $SHARD_ID \
             --shard-count $SHARD_COUNT \
