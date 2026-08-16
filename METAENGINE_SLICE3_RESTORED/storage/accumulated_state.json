@@ -64,10 +64,10 @@
   "synthesized_policy_count": 0,
   "run_count": 1,
   "run_ids": [
-    "meta23-c695ebcd-0f09-4a0b-98ab-868b31b3d7ba"
+    "meta23-dba94ccc-2a69-4b57-9365-17dc56e9ea83"
   ],
-  "first_run": "2026-08-16T08:17:06Z",
-  "last_run": "2026-08-16T08:17:06Z",
+  "first_run": "2026-08-16T08:30:41Z",
+  "last_run": "2026-08-16T08:30:41Z",
   "truth_effect": "NONE",
   "claim_ceiling": "ACCUMULATED_STATE_IS_OBSERVATIONAL_NOT_TRUTH",
   "constitution_compliance": {

@@ -1,5 +1,5 @@
 {
-  "cycle_count": 4,
+  "cycle_count": 5,
   "cycles": [
     {
       "cycle_id": 1,
@@ -131,6 +131,46 @@
         "benchmark_processes": 3,
         "improvement_loop_alive": true,
         "snapshot_at": "2026-08-16T08:15:14Z"
+      },
+      "probe": {
+        "total_providers": 8,
+        "working_providers": [],
+        "providers_with_keys": [
+          "groq-llama-70b",
+          "groq-mixtral"
+        ],
+        "providers_failed": [
+          {
+            "name": "groq-llama-70b",
+            "error": "FORBIDDEN: litellm.APIError: APIError: GroqException - {\"error\":{\"message\":\"Forbidden\"}}"
+          },
+          {
+            "name": "groq-mixtral",
+            "error": "FORBIDDEN: litellm.APIError: APIError: GroqException - {\"error\":{\"message\":\"Forbidden\"}}"
+          }
+        ]
+      },
+      "heal_actions": {
+        "killed_stuck": 0,
+        "restarted": 0
+      },
+      "meta_patches_generated": 1,
+      "discovery": null,
+      "recommended_shard_count": 1
+    },
+    {
+      "cycle_id": 5,
+      "started_at": "2026-08-16T08:25:14Z",
+      "duration_sec": 0.05,
+      "resources": {
+        "cpu_count": 2,
+        "mem_total_mb": 4041,
+        "mem_available_mb": 1664,
+        "mem_used_pct": 58.8,
+        "disk_free_gb": 0.9,
+        "benchmark_processes": 3,
+        "improvement_loop_alive": true,
+        "snapshot_at": "2026-08-16T08:25:14Z"
       },
       "probe": {
         "total_providers": 8,
