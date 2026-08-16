@@ -59,15 +59,15 @@
   "transferable_count": 0,
   "transferable_ids": [],
   "biography_observations": {},
-  "evidence_graph_nodes": 9639,
-  "evidence_graph_edges": 9081,
+  "evidence_graph_nodes": 0,
+  "evidence_graph_edges": 0,
   "synthesized_policy_count": 0,
   "run_count": 1,
   "run_ids": [
-    "meta23-936a7d9c-f2cd-4692-8bba-2cbaa7c8a315"
+    "meta23-023fb2fe-0dec-4ae7-b9bf-c8061487ec08"
   ],
-  "first_run": "2026-08-16T06:29:32Z",
-  "last_run": "2026-08-16T06:29:32Z",
+  "first_run": "2026-08-16T06:48:48Z",
+  "last_run": "2026-08-16T06:48:48Z",
   "truth_effect": "NONE",
   "claim_ceiling": "ACCUMULATED_STATE_IS_OBSERVATIONAL_NOT_TRUTH",
   "constitution_compliance": {
