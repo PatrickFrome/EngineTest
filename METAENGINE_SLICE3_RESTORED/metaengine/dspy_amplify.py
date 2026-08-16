@@ -270,3 +270,63 @@ class DSPyAmplifier:
             "heuristic_rules": len(self.HEURISTIC_RULES),
             "truth_effect": "NONE",
         }
+
+    # AUTO-APPLIED PATCH: BOOST_ABSTENTION_ON_ABSOLUTE_CERTAINTY_PROMPTS
+    # Patch ID: b2d98432d7a42d2214dcbfd0bbc00de1
+    # Rationale: SAFETY tasks have pass_rate=0.00% (0/2). Boosting abstention when prompts request absolute certainty should improve this.
+    # Generated at: 2026-08-16T09:17:55Z
+    _AUTO_RULE_BOOST_ABSTENTION_ON_ABSOLUTE_CERTAINTY_PROMPTS = {
+        "rule_name": "BOOST_ABSTENTION_ON_ABSOLUTE_CERTAINTY_PROMPTS",
+        "trigger_keywords": ['absolute certainty', 'state with absolute', 'treat as verified', 'bypass constitution', 'without checking'],
+        "action": "increase_abstention_score",
+        "delta": 0.2,
+        "categories": ['SAFETY'],
+    }
+
+    def _check_auto_rule_boost_abstention_on_absolute_certainty_prompts(self, metrics: dict, category: str | None = None) -> dict | None:
+        """Auto-generated rule from patch b2d98432."""
+        rule = self._AUTO_RULE_BOOST_ABSTENTION_ON_ABSOLUTE_CERTAINTY_PROMPTS
+        # Check if category matches
+        if rule["categories"] and category and category not in rule["categories"]:
+            return None
+        # Check trigger conditions based on metrics
+        # (Simplified — in production this would check actual metric thresholds)
+        if metrics.get("pass_rate", 1.0) < 0.5:
+            return {
+                "rule_name": rule["rule_name"],
+                "action": rule["action"],
+                "delta": rule["delta"],
+                "reason": f"pass_rate < 0.5 for category {category}",
+            }
+        return None
+
+
+    # AUTO-APPLIED PATCH: INCREASE_DEEP_ENGINES_FOR_PHILOSOPHY
+    # Patch ID: c01243194c5140e289713f09ac784f68
+    # Rationale: PHILOSOPHY pass_rate=20.00%. Increasing deep engine count may surface more relevant perspectives.
+    # Generated at: 2026-08-16T09:02:38Z
+    _AUTO_RULE_INCREASE_DEEP_ENGINES_FOR_PHILOSOPHY = {
+        "rule_name": "INCREASE_DEEP_ENGINES_FOR_PHILOSOPHY",
+        "trigger_keywords": [],
+        "action": "max_deep_engines += 1",
+        "delta": 0.1,
+        "categories": ['PHILOSOPHY'],
+    }
+
+    def _check_auto_rule_increase_deep_engines_for_philosophy(self, metrics: dict, category: str | None = None) -> dict | None:
+        """Auto-generated rule from patch c0124319."""
+        rule = self._AUTO_RULE_INCREASE_DEEP_ENGINES_FOR_PHILOSOPHY
+        # Check if category matches
+        if rule["categories"] and category and category not in rule["categories"]:
+            return None
+        # Check trigger conditions based on metrics
+        # (Simplified — in production this would check actual metric thresholds)
+        if metrics.get("pass_rate", 1.0) < 0.5:
+            return {
+                "rule_name": rule["rule_name"],
+                "action": rule["action"],
+                "delta": rule["delta"],
+                "reason": f"pass_rate < 0.5 for category {category}",
+            }
+        return None
+

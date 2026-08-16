@@ -635,6 +635,21 @@ def run_one_cycle(cycle_id: int) -> CycleResult:
     except Exception as exc:
         _log(f"[pbt] failed (non-fatal): {exc}")
 
+    # Tier 8.2: Continuous auto-apply patches to source code
+    # If the cycle accepted patches, apply them to the actual Python source.
+    # The patch_applier runs pytest first — if tests fail, it rolls back.
+    if cycle.accepted and cycle.patches_applied > 0:
+        try:
+            from metaengine.patch_applier import apply_all_patches
+            _log("[auto-apply] applying patches to source code...")
+            apply_result = apply_all_patches(run_tests_after=True)
+            if apply_result["tests_passed"]:
+                _log(f"[auto-apply] ✓ {apply_result['applied']} patches applied to source")
+            else:
+                _log(f"[auto-apply] ✗ tests failed — patches rolled back")
+        except Exception as exc:
+            _log(f"[auto-apply] failed (non-fatal): {exc}")
+
     cycle.ended_at = _now_iso()
     cycle.duration_sec = time.perf_counter() - t0
     _log(f"=== CYCLE {cycle_id} END — duration={cycle.duration_sec:.1f}s, accepted={cycle.accepted} ===")

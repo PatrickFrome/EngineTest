@@ -132,6 +132,27 @@ DEFAULT_PROVIDERS: list[ProviderConfig] = [
         free_tier_rpm=20,
         priority=60,
     ),
+    ProviderConfig(
+        name="openai",
+        litellm_model="openai/gpt-4o-mini",
+        api_key_env="OPENAI_API_KEY",
+        free_tier_rpm=60,
+        priority=100,  # auto-added providers have lower priority
+    ),
+    ProviderConfig(
+        name="anthropic",
+        litellm_model="anthropic/claude-3-5-sonnet-20240620",
+        api_key_env="ANTHROPIC_API_KEY",
+        free_tier_rpm=60,
+        priority=100,  # auto-added providers have lower priority
+    ),
+    ProviderConfig(
+        name="cohere",
+        litellm_model="cohere/command-r",
+        api_key_env="COHERE_API_KEY",
+        free_tier_rpm=60,
+        priority=100,  # auto-added providers have lower priority
+    ),
 ]
 
 

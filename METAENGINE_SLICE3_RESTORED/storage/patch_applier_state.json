@@ -1,0 +1,111 @@
+{
+  "applied_patches": [
+    {
+      "patch_id": "b2d98432d7a42d2214dcbfd0bbc00de1",
+      "patch_type": "AMPLIFY_RULE",
+      "title": "Boost abstention on absolute-certainty prompts",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "applied rule 'BOOST_ABSTENTION_ON_ABSOLUTE_CERTAINTY_PROMPTS'"
+    },
+    {
+      "patch_id": "c01243194c5140e289713f09ac784f68",
+      "patch_type": "AMPLIFY_RULE",
+      "title": "Increase deep engines for PHILOSOPHY tasks",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "applied rule 'INCREASE_DEEP_ENGINES_FOR_PHILOSOPHY'"
+    },
+    {
+      "patch_id": "1a6e356877112871ebd8f8b94d907616",
+      "patch_type": "MECHANISM_HYPOTHESIS",
+      "title": "Capture PHILOSOPHY dialectical pattern as mechanism",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "applied mechanism 'mech_philosophy_deep_dialectical_v1'"
+    },
+    {
+      "patch_id": "52abc941fb23795a2adbaf9ff044d684",
+      "patch_type": "MECHANISM_HYPOTHESIS",
+      "title": "Capture SAFETY dialectical pattern as mechanism",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "applied mechanism 'mech_safety_deep_dialectical_v1'"
+    },
+    {
+      "patch_id": "992657b2999a12c7f9ee2d796060f7f3",
+      "patch_type": "MECHANISM_HYPOTHESIS",
+      "title": "Capture ETHICS dialectical pattern as mechanism",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "applied mechanism 'mech_ethics_deep_dialectical_v1'"
+    },
+    {
+      "patch_id": "99f214028b6b5df1adc94d864bd08416",
+      "patch_type": "MECHANISM_HYPOTHESIS",
+      "title": "Capture LOGIC dialectical pattern as mechanism",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "applied mechanism 'mech_logic_deep_dialectical_v1'"
+    },
+    {
+      "patch_id": "9b04bd6a3ce1a07058aca3aaf386798e",
+      "patch_type": "MECHANISM_HYPOTHESIS",
+      "title": "Capture LOGIC dialectical pattern as mechanism",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "mechanism 'mech_logic_deep_dialectical_v1' already present"
+    },
+    {
+      "patch_id": "b7e97142d9d3109a0cc38177f8037067",
+      "patch_type": "MECHANISM_HYPOTHESIS",
+      "title": "Capture SAFETY dialectical pattern as mechanism",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "mechanism 'mech_safety_deep_dialectical_v1' already present"
+    },
+    {
+      "patch_id": "e06b2752953b8a1c5673ea2ec70ee8b8",
+      "patch_type": "MECHANISM_HYPOTHESIS",
+      "title": "Capture LOGIC dialectical pattern as mechanism",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "mechanism 'mech_logic_deep_dialectical_v1' already present"
+    },
+    {
+      "patch_id": "ed89fdedf7be802ba30ed43dbbf6427a",
+      "patch_type": "MECHANISM_HYPOTHESIS",
+      "title": "Capture LOGIC dialectical pattern as mechanism",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "mechanism 'mech_logic_deep_dialectical_v1' already present"
+    },
+    {
+      "patch_id": "meta_shard_count_1",
+      "patch_type": "META_TUNING",
+      "title": "Set cluster shard count to 1",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "meta-tuning shard_count=1 (informational)"
+    },
+    {
+      "patch_id": "16378229716552e6042c8655cfa5d3df",
+      "patch_type": "PROVIDER_ADDITION",
+      "title": "Add discovered provider: openai",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "applied provider 'openai'"
+    },
+    {
+      "patch_id": "6f9f7ec292fbb920188e9a37a885c669",
+      "patch_type": "PROVIDER_ADDITION",
+      "title": "Add discovered provider: anthropic",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "applied provider 'anthropic'"
+    },
+    {
+      "patch_id": "7315f9967acab7f9d96a36e3f50ca7c7",
+      "patch_type": "PROVIDER_ADDITION",
+      "title": "Add discovered provider: groq",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "provider 'groq' already in validator"
+    },
+    {
+      "patch_id": "aeb210a0aaee8c18703ea32fd3131f3b",
+      "patch_type": "PROVIDER_ADDITION",
+      "title": "Add discovered provider: cohere",
+      "applied_at": "2026-08-16T15:37:31Z",
+      "message": "applied provider 'cohere'"
+    }
+  ],
+  "rolled_back_patches": [],
+  "last_apply_at": "2026-08-16T15:37:31Z"
+}

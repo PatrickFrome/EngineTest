@@ -354,3 +354,83 @@ class MechanismLibrary:
     def assert_no_a3_influence(self) -> None:
         if self.has_a3_influence():
             raise ValueError("MECHANISM_LIBRARY_A3_INFLUENCE_FORBIDDEN_IN_SLICE3")
+
+
+# AUTO-APPLIED PATCH: Mechanism mech_philosophy_deep_dialectical_v1
+# Patch ID: 1a6e356877112871ebd8f8b94d907616
+# Rationale: PHILOSOPHY tasks pass at 50.00% with depth=1.00. Capturing this pattern as a reusable mechanism.
+# Generated at: 2026-08-16T09:23:01Z
+def _load_auto_mechanism_mech_philosophy_deep_dialectical_v1() -> dict:
+    """Auto-generated mechanism from patch 1a6e3568."""
+    return {
+        "mechanism_id": "mech_philosophy_deep_dialectical_v1",
+        "name": "Philosophy Deep Dialectical Pattern",
+        "description": "PHILOSOPHY tasks benefit from 1.00 dialectical depth",
+        "evidence": '{"pass_rate": 0.5, "avg_fitness": 0.7125, "avg_depth": 1.0, "rival_forks_per_task": 5.0, "sublations_per_task": 2.0}',
+        "applicable_to_categories": ['PHILOSOPHY'],
+        "source": "auto_applied_patch",
+        "patch_id": "1a6e356877112871ebd8f8b94d907616",
+    }
+
+_AUTO_MECHANISMS = _load_auto_mechanism_mech_philosophy_deep_dialectical_v1()
+
+
+
+# AUTO-APPLIED PATCH: Mechanism mech_safety_deep_dialectical_v1
+# Patch ID: 52abc941fb23795a2adbaf9ff044d684
+# Rationale: SAFETY tasks pass at 66.67% with depth=1.00. Capturing this pattern as a reusable mechanism.
+# Generated at: 2026-08-16T09:38:19Z
+def _load_auto_mechanism_mech_safety_deep_dialectical_v1() -> dict:
+    """Auto-generated mechanism from patch 52abc941."""
+    return {
+        "mechanism_id": "mech_safety_deep_dialectical_v1",
+        "name": "Safety Deep Dialectical Pattern",
+        "description": "SAFETY tasks benefit from 1.00 dialectical depth",
+        "evidence": '{"pass_rate": 0.6667, "avg_fitness": 0.7833, "avg_depth": 1.0, "rival_forks_per_task": 5.666666666666667, "sublations_per_task": 2.0}',
+        "applicable_to_categories": ['SAFETY'],
+        "source": "auto_applied_patch",
+        "patch_id": "52abc941fb23795a2adbaf9ff044d684",
+    }
+
+_AUTO_MECHANISMS = _load_auto_mechanism_mech_safety_deep_dialectical_v1()
+
+
+
+# AUTO-APPLIED PATCH: Mechanism mech_ethics_deep_dialectical_v1
+# Patch ID: 992657b2999a12c7f9ee2d796060f7f3
+# Rationale: ETHICS tasks pass at 60.00% with depth=1.00. Capturing this pattern as a reusable mechanism.
+# Generated at: 2026-08-16T09:07:44Z
+def _load_auto_mechanism_mech_ethics_deep_dialectical_v1() -> dict:
+    """Auto-generated mechanism from patch 992657b2."""
+    return {
+        "mechanism_id": "mech_ethics_deep_dialectical_v1",
+        "name": "Ethics Deep Dialectical Pattern",
+        "description": "ETHICS tasks benefit from 1.00 dialectical depth",
+        "evidence": '{"pass_rate": 0.6, "avg_fitness": 0.67, "avg_depth": 1.0, "rival_forks_per_task": 5.0, "sublations_per_task": 2.0}',
+        "applicable_to_categories": ['ETHICS'],
+        "source": "auto_applied_patch",
+        "patch_id": "992657b2999a12c7f9ee2d796060f7f3",
+    }
+
+_AUTO_MECHANISMS = _load_auto_mechanism_mech_ethics_deep_dialectical_v1()
+
+
+
+# AUTO-APPLIED PATCH: Mechanism mech_logic_deep_dialectical_v1
+# Patch ID: 99f214028b6b5df1adc94d864bd08416
+# Rationale: LOGIC tasks pass at 75.00% with depth=1.00. Capturing this pattern as a reusable mechanism.
+# Generated at: 2026-08-16T09:48:39Z
+def _load_auto_mechanism_mech_logic_deep_dialectical_v1() -> dict:
+    """Auto-generated mechanism from patch 99f21402."""
+    return {
+        "mechanism_id": "mech_logic_deep_dialectical_v1",
+        "name": "Logic Deep Dialectical Pattern",
+        "description": "LOGIC tasks benefit from 1.00 dialectical depth",
+        "evidence": '{"pass_rate": 0.75, "avg_fitness": 0.7, "avg_depth": 1.0, "rival_forks_per_task": 7.0, "sublations_per_task": 2.0}',
+        "applicable_to_categories": ['LOGIC'],
+        "source": "auto_applied_patch",
+        "patch_id": "99f214028b6b5df1adc94d864bd08416",
+    }
+
+_AUTO_MECHANISMS = _load_auto_mechanism_mech_logic_deep_dialectical_v1()
+
