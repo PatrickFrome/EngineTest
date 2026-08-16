@@ -493,7 +493,21 @@ def run_orchestration_cycle(cycle_id: int) -> dict:
         _log(f"[meta] generated {len(meta_patches)} meta-patches")
         save_meta_patches(meta_patches)
 
-    # Phase 5: Recommend shard count (informational — doesn't auto-apply)
+    # Phase 5: Run resource discovery every 3rd cycle (every ~30 min)
+    # This searches the web for new free LLM/compute providers and tests them.
+    discovery_summary = None
+    if cycle_id % 3 == 0:
+        try:
+            _log("[discovery] triggering resource discovery cycle")
+            from metaengine.resource_discovery_agent import run_discovery_cycle as _run_discovery
+            discovery_summary = _run_discovery(cycle_id)
+            _log(f"[discovery] cycle done — {discovery_summary.get('working_providers', 0)} "
+                 f"working providers, {discovery_summary.get('patches_generated', 0)} patches")
+        except Exception as exc:
+            _log(f"[discovery] failed: {exc}")
+            discovery_summary = {"error": str(exc)}
+
+    # Phase 6: Recommend shard count (informational — doesn't auto-apply)
     recommended_shards = recommend_shard_count(snap)
 
     cycle_summary = {
@@ -512,6 +526,7 @@ def run_orchestration_cycle(cycle_id: int) -> dict:
         },
         "heal_actions": heal_actions,
         "meta_patches_generated": len(meta_patches),
+        "discovery": discovery_summary,
         "recommended_shard_count": recommended_shards,
     }
     _log(f"=== ORCHESTRATION CYCLE {cycle_id} END — "
