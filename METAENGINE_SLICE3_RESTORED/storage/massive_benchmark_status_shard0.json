@@ -1,15 +1,136 @@
 {
-  "state": "RUNNING",
-  "started_at": "2026-08-16T09:34:33Z",
+  "state": "ROUND_COMPLETE",
+  "started_at": "2026-08-16T14:22:20Z",
   "task_bank_size": 105,
-  "rounds_completed": 223,
-  "current_round": 224,
+  "rounds_completed": 1490,
+  "current_round": 1490,
   "best_fitness": 0.5821,
   "best_round": 1,
+  "last_round_summary": {
+    "round_id": 1490,
+    "started_at": "2026-08-16T14:22:16Z",
+    "tasks_total": 27,
+    "elapsed_sec": 0.026,
+    "avg_fitness": 0.5821,
+    "avg_combined_score": 0.264196,
+    "avg_deterministic_score": 0.264196,
+    "avg_dialectical_depth": 1.0,
+    "avg_constitution_score": 0.75,
+    "avg_runtime_sec": 0.001,
+    "total_rival_forks": 159,
+    "total_sublations": 54,
+    "total_evidence_discriminators": 54,
+    "total_dialectical_nodes": 566,
+    "pass_rate": 0.3333,
+    "crashes": 0,
+    "zai_judge_used": 0,
+    "zai_judge_skipped": 27,
+    "categories": {
+      "ARITHMETIC": {
+        "count": 4,
+        "fitness": 2.3,
+        "pass": 1,
+        "depth": 4.0,
+        "avg_fitness": 0.575,
+        "pass_rate": 0.25,
+        "avg_depth": 1.0
+      },
+      "LOGIC": {
+        "count": 3,
+        "fitness": 1.8499999999999999,
+        "pass": 1,
+        "depth": 3.0,
+        "avg_fitness": 0.6167,
+        "pass_rate": 0.3333,
+        "avg_depth": 1.0
+      },
+      "REASONING": {
+        "count": 3,
+        "fitness": 1.7999999999999998,
+        "pass": 1,
+        "depth": 3.0,
+        "avg_fitness": 0.6,
+        "pass_rate": 0.3333,
+        "avg_depth": 1.0
+      },
+      "ANALYSIS": {
+        "count": 2,
+        "fitness": 1.1,
+        "pass": 1,
+        "depth": 2.0,
+        "avg_fitness": 0.55,
+        "pass_rate": 0.5,
+        "avg_depth": 1.0
+      },
+      "SAFETY": {
+        "count": 3,
+        "fitness": 1.8499999999999999,
+        "pass": 1,
+        "depth": 3.0,
+        "avg_fitness": 0.6167,
+        "pass_rate": 0.3333,
+        "avg_depth": 1.0
+      },
+      "PHILOSOPHY": {
+        "count": 2,
+        "fitness": 1.15,
+        "pass": 0,
+        "depth": 2.0,
+        "avg_fitness": 0.575,
+        "pass_rate": 0.0,
+        "avg_depth": 1.0
+      },
+      "SCIENCE": {
+        "count": 3,
+        "fitness": 1.9167,
+        "pass": 2,
+        "depth": 3.0,
+        "avg_fitness": 0.6389,
+        "pass_rate": 0.6667,
+        "avg_depth": 1.0
+      },
+      "ETHICS": {
+        "count": 2,
+        "fitness": 1.5,
+        "pass": 2,
+        "depth": 2.0,
+        "avg_fitness": 0.75,
+        "pass_rate": 1.0,
+        "avg_depth": 1.0
+      },
+      "MATH": {
+        "count": 2,
+        "fitness": 0.9,
+        "pass": 0,
+        "depth": 2.0,
+        "avg_fitness": 0.45,
+        "pass_rate": 0.0,
+        "avg_depth": 1.0
+      },
+      "CODE": {
+        "count": 1,
+        "fitness": 0.45,
+        "pass": 0,
+        "depth": 1.0,
+        "avg_fitness": 0.45,
+        "pass_rate": 0.0,
+        "avg_depth": 1.0
+      },
+      "HISTORY": {
+        "count": 2,
+        "fitness": 0.9,
+        "pass": 0,
+        "depth": 2.0,
+        "avg_fitness": 0.45,
+        "pass_rate": 0.0,
+        "avg_depth": 1.0
+      }
+    }
+  },
   "history": [
     {
-      "round_id": 204,
-      "started_at": "2026-08-16T09:31:42Z",
+      "round_id": 1471,
+      "started_at": "2026-08-16T14:19:31Z",
       "tasks_total": 27,
       "elapsed_sec": 0.014,
       "avg_fitness": 0.5821,
@@ -129,8 +250,976 @@
       }
     },
     {
-      "round_id": 205,
-      "started_at": "2026-08-16T09:31:51Z",
+      "round_id": 1472,
+      "started_at": "2026-08-16T14:19:40Z",
+      "tasks_total": 27,
+      "elapsed_sec": 0.014,
+      "avg_fitness": 0.5821,
+      "avg_combined_score": 0.264196,
+      "avg_deterministic_score": 0.264196,
+      "avg_dialectical_depth": 1.0,
+      "avg_constitution_score": 0.75,
+      "avg_runtime_sec": 0.001,
+      "total_rival_forks": 159,
+      "total_sublations": 54,
+      "total_evidence_discriminators": 54,
+      "total_dialectical_nodes": 566,
+      "pass_rate": 0.3333,
+      "crashes": 0,
+      "zai_judge_used": 0,
+      "zai_judge_skipped": 27,
+      "categories": {
+        "ARITHMETIC": {
+          "count": 4,
+          "fitness": 2.3,
+          "pass": 1,
+          "depth": 4.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.25,
+          "avg_depth": 1.0
+        },
+        "LOGIC": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "REASONING": {
+          "count": 3,
+          "fitness": 1.7999999999999998,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "ANALYSIS": {
+          "count": 2,
+          "fitness": 1.1,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "SAFETY": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "PHILOSOPHY": {
+          "count": 2,
+          "fitness": 1.15,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "SCIENCE": {
+          "count": 3,
+          "fitness": 1.9167,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6389,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "ETHICS": {
+          "count": 2,
+          "fitness": 1.5,
+          "pass": 2,
+          "depth": 2.0,
+          "avg_fitness": 0.75,
+          "pass_rate": 1.0,
+          "avg_depth": 1.0
+        },
+        "MATH": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "CODE": {
+          "count": 1,
+          "fitness": 0.45,
+          "pass": 0,
+          "depth": 1.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "HISTORY": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        }
+      }
+    },
+    {
+      "round_id": 1473,
+      "started_at": "2026-08-16T14:19:49Z",
+      "tasks_total": 27,
+      "elapsed_sec": 0.014,
+      "avg_fitness": 0.5821,
+      "avg_combined_score": 0.264196,
+      "avg_deterministic_score": 0.264196,
+      "avg_dialectical_depth": 1.0,
+      "avg_constitution_score": 0.75,
+      "avg_runtime_sec": 0.001,
+      "total_rival_forks": 159,
+      "total_sublations": 54,
+      "total_evidence_discriminators": 54,
+      "total_dialectical_nodes": 566,
+      "pass_rate": 0.3333,
+      "crashes": 0,
+      "zai_judge_used": 0,
+      "zai_judge_skipped": 27,
+      "categories": {
+        "ARITHMETIC": {
+          "count": 4,
+          "fitness": 2.3,
+          "pass": 1,
+          "depth": 4.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.25,
+          "avg_depth": 1.0
+        },
+        "LOGIC": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "REASONING": {
+          "count": 3,
+          "fitness": 1.7999999999999998,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "ANALYSIS": {
+          "count": 2,
+          "fitness": 1.1,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "SAFETY": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "PHILOSOPHY": {
+          "count": 2,
+          "fitness": 1.15,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "SCIENCE": {
+          "count": 3,
+          "fitness": 1.9167,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6389,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "ETHICS": {
+          "count": 2,
+          "fitness": 1.5,
+          "pass": 2,
+          "depth": 2.0,
+          "avg_fitness": 0.75,
+          "pass_rate": 1.0,
+          "avg_depth": 1.0
+        },
+        "MATH": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "CODE": {
+          "count": 1,
+          "fitness": 0.45,
+          "pass": 0,
+          "depth": 1.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "HISTORY": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        }
+      }
+    },
+    {
+      "round_id": 1474,
+      "started_at": "2026-08-16T14:19:58Z",
+      "tasks_total": 27,
+      "elapsed_sec": 0.013,
+      "avg_fitness": 0.5821,
+      "avg_combined_score": 0.264196,
+      "avg_deterministic_score": 0.264196,
+      "avg_dialectical_depth": 1.0,
+      "avg_constitution_score": 0.75,
+      "avg_runtime_sec": 0.001,
+      "total_rival_forks": 159,
+      "total_sublations": 54,
+      "total_evidence_discriminators": 54,
+      "total_dialectical_nodes": 566,
+      "pass_rate": 0.3333,
+      "crashes": 0,
+      "zai_judge_used": 0,
+      "zai_judge_skipped": 27,
+      "categories": {
+        "ARITHMETIC": {
+          "count": 4,
+          "fitness": 2.3,
+          "pass": 1,
+          "depth": 4.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.25,
+          "avg_depth": 1.0
+        },
+        "LOGIC": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "REASONING": {
+          "count": 3,
+          "fitness": 1.7999999999999998,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "ANALYSIS": {
+          "count": 2,
+          "fitness": 1.1,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "SAFETY": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "PHILOSOPHY": {
+          "count": 2,
+          "fitness": 1.15,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "SCIENCE": {
+          "count": 3,
+          "fitness": 1.9167,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6389,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "ETHICS": {
+          "count": 2,
+          "fitness": 1.5,
+          "pass": 2,
+          "depth": 2.0,
+          "avg_fitness": 0.75,
+          "pass_rate": 1.0,
+          "avg_depth": 1.0
+        },
+        "MATH": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "CODE": {
+          "count": 1,
+          "fitness": 0.45,
+          "pass": 0,
+          "depth": 1.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "HISTORY": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        }
+      }
+    },
+    {
+      "round_id": 1475,
+      "started_at": "2026-08-16T14:20:06Z",
+      "tasks_total": 27,
+      "elapsed_sec": 0.014,
+      "avg_fitness": 0.5821,
+      "avg_combined_score": 0.264196,
+      "avg_deterministic_score": 0.264196,
+      "avg_dialectical_depth": 1.0,
+      "avg_constitution_score": 0.75,
+      "avg_runtime_sec": 0.001,
+      "total_rival_forks": 159,
+      "total_sublations": 54,
+      "total_evidence_discriminators": 54,
+      "total_dialectical_nodes": 566,
+      "pass_rate": 0.3333,
+      "crashes": 0,
+      "zai_judge_used": 0,
+      "zai_judge_skipped": 27,
+      "categories": {
+        "ARITHMETIC": {
+          "count": 4,
+          "fitness": 2.3,
+          "pass": 1,
+          "depth": 4.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.25,
+          "avg_depth": 1.0
+        },
+        "LOGIC": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "REASONING": {
+          "count": 3,
+          "fitness": 1.7999999999999998,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "ANALYSIS": {
+          "count": 2,
+          "fitness": 1.1,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "SAFETY": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "PHILOSOPHY": {
+          "count": 2,
+          "fitness": 1.15,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "SCIENCE": {
+          "count": 3,
+          "fitness": 1.9167,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6389,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "ETHICS": {
+          "count": 2,
+          "fitness": 1.5,
+          "pass": 2,
+          "depth": 2.0,
+          "avg_fitness": 0.75,
+          "pass_rate": 1.0,
+          "avg_depth": 1.0
+        },
+        "MATH": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "CODE": {
+          "count": 1,
+          "fitness": 0.45,
+          "pass": 0,
+          "depth": 1.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "HISTORY": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        }
+      }
+    },
+    {
+      "round_id": 1476,
+      "started_at": "2026-08-16T14:20:15Z",
+      "tasks_total": 27,
+      "elapsed_sec": 0.047,
+      "avg_fitness": 0.5821,
+      "avg_combined_score": 0.264196,
+      "avg_deterministic_score": 0.264196,
+      "avg_dialectical_depth": 1.0,
+      "avg_constitution_score": 0.75,
+      "avg_runtime_sec": 0.001,
+      "total_rival_forks": 159,
+      "total_sublations": 54,
+      "total_evidence_discriminators": 54,
+      "total_dialectical_nodes": 566,
+      "pass_rate": 0.3333,
+      "crashes": 0,
+      "zai_judge_used": 0,
+      "zai_judge_skipped": 27,
+      "categories": {
+        "ARITHMETIC": {
+          "count": 4,
+          "fitness": 2.3,
+          "pass": 1,
+          "depth": 4.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.25,
+          "avg_depth": 1.0
+        },
+        "LOGIC": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "REASONING": {
+          "count": 3,
+          "fitness": 1.7999999999999998,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "ANALYSIS": {
+          "count": 2,
+          "fitness": 1.1,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "SAFETY": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "PHILOSOPHY": {
+          "count": 2,
+          "fitness": 1.15,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "SCIENCE": {
+          "count": 3,
+          "fitness": 1.9167,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6389,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "ETHICS": {
+          "count": 2,
+          "fitness": 1.5,
+          "pass": 2,
+          "depth": 2.0,
+          "avg_fitness": 0.75,
+          "pass_rate": 1.0,
+          "avg_depth": 1.0
+        },
+        "MATH": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "CODE": {
+          "count": 1,
+          "fitness": 0.45,
+          "pass": 0,
+          "depth": 1.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "HISTORY": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        }
+      }
+    },
+    {
+      "round_id": 1477,
+      "started_at": "2026-08-16T14:20:24Z",
+      "tasks_total": 27,
+      "elapsed_sec": 0.034,
+      "avg_fitness": 0.5821,
+      "avg_combined_score": 0.264196,
+      "avg_deterministic_score": 0.264196,
+      "avg_dialectical_depth": 1.0,
+      "avg_constitution_score": 0.75,
+      "avg_runtime_sec": 0.001,
+      "total_rival_forks": 159,
+      "total_sublations": 54,
+      "total_evidence_discriminators": 54,
+      "total_dialectical_nodes": 566,
+      "pass_rate": 0.3333,
+      "crashes": 0,
+      "zai_judge_used": 0,
+      "zai_judge_skipped": 27,
+      "categories": {
+        "ARITHMETIC": {
+          "count": 4,
+          "fitness": 2.3,
+          "pass": 1,
+          "depth": 4.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.25,
+          "avg_depth": 1.0
+        },
+        "LOGIC": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "REASONING": {
+          "count": 3,
+          "fitness": 1.7999999999999998,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "ANALYSIS": {
+          "count": 2,
+          "fitness": 1.1,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "SAFETY": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "PHILOSOPHY": {
+          "count": 2,
+          "fitness": 1.15,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "SCIENCE": {
+          "count": 3,
+          "fitness": 1.9167,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6389,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "ETHICS": {
+          "count": 2,
+          "fitness": 1.5,
+          "pass": 2,
+          "depth": 2.0,
+          "avg_fitness": 0.75,
+          "pass_rate": 1.0,
+          "avg_depth": 1.0
+        },
+        "MATH": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "CODE": {
+          "count": 1,
+          "fitness": 0.45,
+          "pass": 0,
+          "depth": 1.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "HISTORY": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        }
+      }
+    },
+    {
+      "round_id": 1478,
+      "started_at": "2026-08-16T14:20:33Z",
+      "tasks_total": 27,
+      "elapsed_sec": 0.027,
+      "avg_fitness": 0.5821,
+      "avg_combined_score": 0.264196,
+      "avg_deterministic_score": 0.264196,
+      "avg_dialectical_depth": 1.0,
+      "avg_constitution_score": 0.75,
+      "avg_runtime_sec": 0.001,
+      "total_rival_forks": 159,
+      "total_sublations": 54,
+      "total_evidence_discriminators": 54,
+      "total_dialectical_nodes": 566,
+      "pass_rate": 0.3333,
+      "crashes": 0,
+      "zai_judge_used": 0,
+      "zai_judge_skipped": 27,
+      "categories": {
+        "ARITHMETIC": {
+          "count": 4,
+          "fitness": 2.3,
+          "pass": 1,
+          "depth": 4.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.25,
+          "avg_depth": 1.0
+        },
+        "LOGIC": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "REASONING": {
+          "count": 3,
+          "fitness": 1.7999999999999998,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "ANALYSIS": {
+          "count": 2,
+          "fitness": 1.1,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "SAFETY": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "PHILOSOPHY": {
+          "count": 2,
+          "fitness": 1.15,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "SCIENCE": {
+          "count": 3,
+          "fitness": 1.9167,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6389,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "ETHICS": {
+          "count": 2,
+          "fitness": 1.5,
+          "pass": 2,
+          "depth": 2.0,
+          "avg_fitness": 0.75,
+          "pass_rate": 1.0,
+          "avg_depth": 1.0
+        },
+        "MATH": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "CODE": {
+          "count": 1,
+          "fitness": 0.45,
+          "pass": 0,
+          "depth": 1.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "HISTORY": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        }
+      }
+    },
+    {
+      "round_id": 1479,
+      "started_at": "2026-08-16T14:20:41Z",
+      "tasks_total": 27,
+      "elapsed_sec": 0.045,
+      "avg_fitness": 0.5821,
+      "avg_combined_score": 0.264196,
+      "avg_deterministic_score": 0.264196,
+      "avg_dialectical_depth": 1.0,
+      "avg_constitution_score": 0.75,
+      "avg_runtime_sec": 0.001,
+      "total_rival_forks": 159,
+      "total_sublations": 54,
+      "total_evidence_discriminators": 54,
+      "total_dialectical_nodes": 566,
+      "pass_rate": 0.3333,
+      "crashes": 0,
+      "zai_judge_used": 0,
+      "zai_judge_skipped": 27,
+      "categories": {
+        "ARITHMETIC": {
+          "count": 4,
+          "fitness": 2.3,
+          "pass": 1,
+          "depth": 4.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.25,
+          "avg_depth": 1.0
+        },
+        "LOGIC": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "REASONING": {
+          "count": 3,
+          "fitness": 1.7999999999999998,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "ANALYSIS": {
+          "count": 2,
+          "fitness": 1.1,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "SAFETY": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "PHILOSOPHY": {
+          "count": 2,
+          "fitness": 1.15,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "SCIENCE": {
+          "count": 3,
+          "fitness": 1.9167,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6389,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "ETHICS": {
+          "count": 2,
+          "fitness": 1.5,
+          "pass": 2,
+          "depth": 2.0,
+          "avg_fitness": 0.75,
+          "pass_rate": 1.0,
+          "avg_depth": 1.0
+        },
+        "MATH": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "CODE": {
+          "count": 1,
+          "fitness": 0.45,
+          "pass": 0,
+          "depth": 1.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "HISTORY": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        }
+      }
+    },
+    {
+      "round_id": 1480,
+      "started_at": "2026-08-16T14:20:50Z",
       "tasks_total": 27,
       "elapsed_sec": 0.015,
       "avg_fitness": 0.5821,
@@ -250,10 +1339,10 @@
       }
     },
     {
-      "round_id": 206,
-      "started_at": "2026-08-16T09:31:59Z",
+      "round_id": 1481,
+      "started_at": "2026-08-16T14:20:58Z",
       "tasks_total": 27,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.026,
       "avg_fitness": 0.5821,
       "avg_combined_score": 0.264196,
       "avg_deterministic_score": 0.264196,
@@ -371,10 +1460,10 @@
       }
     },
     {
-      "round_id": 207,
-      "started_at": "2026-08-16T09:32:08Z",
+      "round_id": 1482,
+      "started_at": "2026-08-16T14:21:07Z",
       "tasks_total": 27,
-      "elapsed_sec": 0.013,
+      "elapsed_sec": 0.025,
       "avg_fitness": 0.5821,
       "avg_combined_score": 0.264196,
       "avg_deterministic_score": 0.264196,
@@ -492,10 +1581,10 @@
       }
     },
     {
-      "round_id": 208,
-      "started_at": "2026-08-16T09:32:17Z",
+      "round_id": 1483,
+      "started_at": "2026-08-16T14:21:16Z",
       "tasks_total": 27,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.023,
       "avg_fitness": 0.5821,
       "avg_combined_score": 0.264196,
       "avg_deterministic_score": 0.264196,
@@ -613,10 +1702,10 @@
       }
     },
     {
-      "round_id": 209,
-      "started_at": "2026-08-16T09:32:25Z",
+      "round_id": 1484,
+      "started_at": "2026-08-16T14:21:25Z",
       "tasks_total": 27,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.026,
       "avg_fitness": 0.5821,
       "avg_combined_score": 0.264196,
       "avg_deterministic_score": 0.264196,
@@ -734,10 +1823,10 @@
       }
     },
     {
-      "round_id": 210,
-      "started_at": "2026-08-16T09:32:34Z",
+      "round_id": 1485,
+      "started_at": "2026-08-16T14:21:33Z",
       "tasks_total": 27,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.044,
       "avg_fitness": 0.5821,
       "avg_combined_score": 0.264196,
       "avg_deterministic_score": 0.264196,
@@ -855,10 +1944,10 @@
       }
     },
     {
-      "round_id": 211,
-      "started_at": "2026-08-16T09:32:43Z",
+      "round_id": 1486,
+      "started_at": "2026-08-16T14:21:42Z",
       "tasks_total": 27,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.037,
       "avg_fitness": 0.5821,
       "avg_combined_score": 0.264196,
       "avg_deterministic_score": 0.264196,
@@ -976,10 +2065,10 @@
       }
     },
     {
-      "round_id": 212,
-      "started_at": "2026-08-16T09:32:51Z",
+      "round_id": 1487,
+      "started_at": "2026-08-16T14:21:50Z",
       "tasks_total": 27,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.035,
       "avg_fitness": 0.5821,
       "avg_combined_score": 0.264196,
       "avg_deterministic_score": 0.264196,
@@ -1097,10 +2186,10 @@
       }
     },
     {
-      "round_id": 213,
-      "started_at": "2026-08-16T09:33:00Z",
+      "round_id": 1488,
+      "started_at": "2026-08-16T14:21:59Z",
       "tasks_total": 27,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.016,
       "avg_fitness": 0.5821,
       "avg_combined_score": 0.264196,
       "avg_deterministic_score": 0.264196,
@@ -1218,10 +2307,10 @@
       }
     },
     {
-      "round_id": 214,
-      "started_at": "2026-08-16T09:33:08Z",
+      "round_id": 1489,
+      "started_at": "2026-08-16T14:22:08Z",
       "tasks_total": 27,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.019,
       "avg_fitness": 0.5821,
       "avg_combined_score": 0.264196,
       "avg_deterministic_score": 0.264196,
@@ -1339,978 +2428,10 @@
       }
     },
     {
-      "round_id": 215,
-      "started_at": "2026-08-16T09:33:16Z",
+      "round_id": 1490,
+      "started_at": "2026-08-16T14:22:16Z",
       "tasks_total": 27,
-      "elapsed_sec": 0.014,
-      "avg_fitness": 0.5821,
-      "avg_combined_score": 0.264196,
-      "avg_deterministic_score": 0.264196,
-      "avg_dialectical_depth": 1.0,
-      "avg_constitution_score": 0.75,
-      "avg_runtime_sec": 0.001,
-      "total_rival_forks": 159,
-      "total_sublations": 54,
-      "total_evidence_discriminators": 54,
-      "total_dialectical_nodes": 566,
-      "pass_rate": 0.3333,
-      "crashes": 0,
-      "zai_judge_used": 0,
-      "zai_judge_skipped": 27,
-      "categories": {
-        "ARITHMETIC": {
-          "count": 4,
-          "fitness": 2.3,
-          "pass": 1,
-          "depth": 4.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.25,
-          "avg_depth": 1.0
-        },
-        "LOGIC": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "REASONING": {
-          "count": 3,
-          "fitness": 1.7999999999999998,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "ANALYSIS": {
-          "count": 2,
-          "fitness": 1.1,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "SAFETY": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "PHILOSOPHY": {
-          "count": 2,
-          "fitness": 1.15,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "SCIENCE": {
-          "count": 3,
-          "fitness": 1.9167,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6389,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "ETHICS": {
-          "count": 2,
-          "fitness": 1.5,
-          "pass": 2,
-          "depth": 2.0,
-          "avg_fitness": 0.75,
-          "pass_rate": 1.0,
-          "avg_depth": 1.0
-        },
-        "MATH": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "CODE": {
-          "count": 1,
-          "fitness": 0.45,
-          "pass": 0,
-          "depth": 1.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "HISTORY": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        }
-      }
-    },
-    {
-      "round_id": 216,
-      "started_at": "2026-08-16T09:33:25Z",
-      "tasks_total": 27,
-      "elapsed_sec": 0.014,
-      "avg_fitness": 0.5821,
-      "avg_combined_score": 0.264196,
-      "avg_deterministic_score": 0.264196,
-      "avg_dialectical_depth": 1.0,
-      "avg_constitution_score": 0.75,
-      "avg_runtime_sec": 0.001,
-      "total_rival_forks": 159,
-      "total_sublations": 54,
-      "total_evidence_discriminators": 54,
-      "total_dialectical_nodes": 566,
-      "pass_rate": 0.3333,
-      "crashes": 0,
-      "zai_judge_used": 0,
-      "zai_judge_skipped": 27,
-      "categories": {
-        "ARITHMETIC": {
-          "count": 4,
-          "fitness": 2.3,
-          "pass": 1,
-          "depth": 4.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.25,
-          "avg_depth": 1.0
-        },
-        "LOGIC": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "REASONING": {
-          "count": 3,
-          "fitness": 1.7999999999999998,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "ANALYSIS": {
-          "count": 2,
-          "fitness": 1.1,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "SAFETY": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "PHILOSOPHY": {
-          "count": 2,
-          "fitness": 1.15,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "SCIENCE": {
-          "count": 3,
-          "fitness": 1.9167,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6389,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "ETHICS": {
-          "count": 2,
-          "fitness": 1.5,
-          "pass": 2,
-          "depth": 2.0,
-          "avg_fitness": 0.75,
-          "pass_rate": 1.0,
-          "avg_depth": 1.0
-        },
-        "MATH": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "CODE": {
-          "count": 1,
-          "fitness": 0.45,
-          "pass": 0,
-          "depth": 1.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "HISTORY": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        }
-      }
-    },
-    {
-      "round_id": 217,
-      "started_at": "2026-08-16T09:33:33Z",
-      "tasks_total": 27,
-      "elapsed_sec": 0.014,
-      "avg_fitness": 0.5821,
-      "avg_combined_score": 0.264196,
-      "avg_deterministic_score": 0.264196,
-      "avg_dialectical_depth": 1.0,
-      "avg_constitution_score": 0.75,
-      "avg_runtime_sec": 0.001,
-      "total_rival_forks": 159,
-      "total_sublations": 54,
-      "total_evidence_discriminators": 54,
-      "total_dialectical_nodes": 566,
-      "pass_rate": 0.3333,
-      "crashes": 0,
-      "zai_judge_used": 0,
-      "zai_judge_skipped": 27,
-      "categories": {
-        "ARITHMETIC": {
-          "count": 4,
-          "fitness": 2.3,
-          "pass": 1,
-          "depth": 4.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.25,
-          "avg_depth": 1.0
-        },
-        "LOGIC": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "REASONING": {
-          "count": 3,
-          "fitness": 1.7999999999999998,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "ANALYSIS": {
-          "count": 2,
-          "fitness": 1.1,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "SAFETY": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "PHILOSOPHY": {
-          "count": 2,
-          "fitness": 1.15,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "SCIENCE": {
-          "count": 3,
-          "fitness": 1.9167,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6389,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "ETHICS": {
-          "count": 2,
-          "fitness": 1.5,
-          "pass": 2,
-          "depth": 2.0,
-          "avg_fitness": 0.75,
-          "pass_rate": 1.0,
-          "avg_depth": 1.0
-        },
-        "MATH": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "CODE": {
-          "count": 1,
-          "fitness": 0.45,
-          "pass": 0,
-          "depth": 1.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "HISTORY": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        }
-      }
-    },
-    {
-      "round_id": 218,
-      "started_at": "2026-08-16T09:33:42Z",
-      "tasks_total": 27,
-      "elapsed_sec": 0.014,
-      "avg_fitness": 0.5821,
-      "avg_combined_score": 0.264196,
-      "avg_deterministic_score": 0.264196,
-      "avg_dialectical_depth": 1.0,
-      "avg_constitution_score": 0.75,
-      "avg_runtime_sec": 0.001,
-      "total_rival_forks": 159,
-      "total_sublations": 54,
-      "total_evidence_discriminators": 54,
-      "total_dialectical_nodes": 566,
-      "pass_rate": 0.3333,
-      "crashes": 0,
-      "zai_judge_used": 0,
-      "zai_judge_skipped": 27,
-      "categories": {
-        "ARITHMETIC": {
-          "count": 4,
-          "fitness": 2.3,
-          "pass": 1,
-          "depth": 4.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.25,
-          "avg_depth": 1.0
-        },
-        "LOGIC": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "REASONING": {
-          "count": 3,
-          "fitness": 1.7999999999999998,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "ANALYSIS": {
-          "count": 2,
-          "fitness": 1.1,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "SAFETY": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "PHILOSOPHY": {
-          "count": 2,
-          "fitness": 1.15,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "SCIENCE": {
-          "count": 3,
-          "fitness": 1.9167,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6389,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "ETHICS": {
-          "count": 2,
-          "fitness": 1.5,
-          "pass": 2,
-          "depth": 2.0,
-          "avg_fitness": 0.75,
-          "pass_rate": 1.0,
-          "avg_depth": 1.0
-        },
-        "MATH": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "CODE": {
-          "count": 1,
-          "fitness": 0.45,
-          "pass": 0,
-          "depth": 1.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "HISTORY": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        }
-      }
-    },
-    {
-      "round_id": 219,
-      "started_at": "2026-08-16T09:33:50Z",
-      "tasks_total": 27,
-      "elapsed_sec": 0.014,
-      "avg_fitness": 0.5821,
-      "avg_combined_score": 0.264196,
-      "avg_deterministic_score": 0.264196,
-      "avg_dialectical_depth": 1.0,
-      "avg_constitution_score": 0.75,
-      "avg_runtime_sec": 0.001,
-      "total_rival_forks": 159,
-      "total_sublations": 54,
-      "total_evidence_discriminators": 54,
-      "total_dialectical_nodes": 566,
-      "pass_rate": 0.3333,
-      "crashes": 0,
-      "zai_judge_used": 0,
-      "zai_judge_skipped": 27,
-      "categories": {
-        "ARITHMETIC": {
-          "count": 4,
-          "fitness": 2.3,
-          "pass": 1,
-          "depth": 4.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.25,
-          "avg_depth": 1.0
-        },
-        "LOGIC": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "REASONING": {
-          "count": 3,
-          "fitness": 1.7999999999999998,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "ANALYSIS": {
-          "count": 2,
-          "fitness": 1.1,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "SAFETY": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "PHILOSOPHY": {
-          "count": 2,
-          "fitness": 1.15,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "SCIENCE": {
-          "count": 3,
-          "fitness": 1.9167,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6389,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "ETHICS": {
-          "count": 2,
-          "fitness": 1.5,
-          "pass": 2,
-          "depth": 2.0,
-          "avg_fitness": 0.75,
-          "pass_rate": 1.0,
-          "avg_depth": 1.0
-        },
-        "MATH": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "CODE": {
-          "count": 1,
-          "fitness": 0.45,
-          "pass": 0,
-          "depth": 1.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "HISTORY": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        }
-      }
-    },
-    {
-      "round_id": 220,
-      "started_at": "2026-08-16T09:33:59Z",
-      "tasks_total": 27,
-      "elapsed_sec": 0.014,
-      "avg_fitness": 0.5821,
-      "avg_combined_score": 0.264196,
-      "avg_deterministic_score": 0.264196,
-      "avg_dialectical_depth": 1.0,
-      "avg_constitution_score": 0.75,
-      "avg_runtime_sec": 0.001,
-      "total_rival_forks": 159,
-      "total_sublations": 54,
-      "total_evidence_discriminators": 54,
-      "total_dialectical_nodes": 566,
-      "pass_rate": 0.3333,
-      "crashes": 0,
-      "zai_judge_used": 0,
-      "zai_judge_skipped": 27,
-      "categories": {
-        "ARITHMETIC": {
-          "count": 4,
-          "fitness": 2.3,
-          "pass": 1,
-          "depth": 4.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.25,
-          "avg_depth": 1.0
-        },
-        "LOGIC": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "REASONING": {
-          "count": 3,
-          "fitness": 1.7999999999999998,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "ANALYSIS": {
-          "count": 2,
-          "fitness": 1.1,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "SAFETY": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "PHILOSOPHY": {
-          "count": 2,
-          "fitness": 1.15,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "SCIENCE": {
-          "count": 3,
-          "fitness": 1.9167,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6389,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "ETHICS": {
-          "count": 2,
-          "fitness": 1.5,
-          "pass": 2,
-          "depth": 2.0,
-          "avg_fitness": 0.75,
-          "pass_rate": 1.0,
-          "avg_depth": 1.0
-        },
-        "MATH": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "CODE": {
-          "count": 1,
-          "fitness": 0.45,
-          "pass": 0,
-          "depth": 1.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "HISTORY": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        }
-      }
-    },
-    {
-      "round_id": 221,
-      "started_at": "2026-08-16T09:34:07Z",
-      "tasks_total": 27,
-      "elapsed_sec": 0.014,
-      "avg_fitness": 0.5821,
-      "avg_combined_score": 0.264196,
-      "avg_deterministic_score": 0.264196,
-      "avg_dialectical_depth": 1.0,
-      "avg_constitution_score": 0.75,
-      "avg_runtime_sec": 0.001,
-      "total_rival_forks": 159,
-      "total_sublations": 54,
-      "total_evidence_discriminators": 54,
-      "total_dialectical_nodes": 566,
-      "pass_rate": 0.3333,
-      "crashes": 0,
-      "zai_judge_used": 0,
-      "zai_judge_skipped": 27,
-      "categories": {
-        "ARITHMETIC": {
-          "count": 4,
-          "fitness": 2.3,
-          "pass": 1,
-          "depth": 4.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.25,
-          "avg_depth": 1.0
-        },
-        "LOGIC": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "REASONING": {
-          "count": 3,
-          "fitness": 1.7999999999999998,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "ANALYSIS": {
-          "count": 2,
-          "fitness": 1.1,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "SAFETY": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "PHILOSOPHY": {
-          "count": 2,
-          "fitness": 1.15,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "SCIENCE": {
-          "count": 3,
-          "fitness": 1.9167,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6389,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "ETHICS": {
-          "count": 2,
-          "fitness": 1.5,
-          "pass": 2,
-          "depth": 2.0,
-          "avg_fitness": 0.75,
-          "pass_rate": 1.0,
-          "avg_depth": 1.0
-        },
-        "MATH": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "CODE": {
-          "count": 1,
-          "fitness": 0.45,
-          "pass": 0,
-          "depth": 1.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "HISTORY": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        }
-      }
-    },
-    {
-      "round_id": 222,
-      "started_at": "2026-08-16T09:34:16Z",
-      "tasks_total": 27,
-      "elapsed_sec": 0.013,
-      "avg_fitness": 0.5821,
-      "avg_combined_score": 0.264196,
-      "avg_deterministic_score": 0.264196,
-      "avg_dialectical_depth": 1.0,
-      "avg_constitution_score": 0.75,
-      "avg_runtime_sec": 0.001,
-      "total_rival_forks": 159,
-      "total_sublations": 54,
-      "total_evidence_discriminators": 54,
-      "total_dialectical_nodes": 566,
-      "pass_rate": 0.3333,
-      "crashes": 0,
-      "zai_judge_used": 0,
-      "zai_judge_skipped": 27,
-      "categories": {
-        "ARITHMETIC": {
-          "count": 4,
-          "fitness": 2.3,
-          "pass": 1,
-          "depth": 4.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.25,
-          "avg_depth": 1.0
-        },
-        "LOGIC": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "REASONING": {
-          "count": 3,
-          "fitness": 1.7999999999999998,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "ANALYSIS": {
-          "count": 2,
-          "fitness": 1.1,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "SAFETY": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "PHILOSOPHY": {
-          "count": 2,
-          "fitness": 1.15,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "SCIENCE": {
-          "count": 3,
-          "fitness": 1.9167,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6389,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "ETHICS": {
-          "count": 2,
-          "fitness": 1.5,
-          "pass": 2,
-          "depth": 2.0,
-          "avg_fitness": 0.75,
-          "pass_rate": 1.0,
-          "avg_depth": 1.0
-        },
-        "MATH": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "CODE": {
-          "count": 1,
-          "fitness": 0.45,
-          "pass": 0,
-          "depth": 1.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "HISTORY": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        }
-      }
-    },
-    {
-      "round_id": 223,
-      "started_at": "2026-08-16T09:34:24Z",
-      "tasks_total": 27,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.026,
       "avg_fitness": 0.5821,
       "avg_combined_score": 0.264196,
       "avg_deterministic_score": 0.264196,

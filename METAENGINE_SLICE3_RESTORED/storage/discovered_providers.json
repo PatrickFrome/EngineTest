@@ -1,6 +1,23 @@
 {
-  "updated_at": "2026-08-16T09:33:05Z",
-  "total": 0,
+  "updated_at": "2026-08-16T14:20:25Z",
+  "total": 1,
   "working": 0,
-  "providers": []
+  "providers": [
+    {
+      "provider_name": "huggingface",
+      "category": "dataset",
+      "api_endpoint": "https://api-inference.huggingface.co",
+      "api_docs_url": "https://huggingface.co/docs/datasets/index",
+      "signup_url": "https://huggingface.co",
+      "free_tier_rpm": 0,
+      "litellm_model_hint": "huggingface/meta-llama/Meta-Llama-3-70B-Instruct",
+      "works": false,
+      "probe_response": "",
+      "probe_error": "URLError: [Errno -5] No address associated with hostname",
+      "probe_latency_ms": 0.0,
+      "discovered_at": "2026-08-16T14:19:49Z",
+      "source_query": "huggingface datasets free",
+      "source_url": "https://huggingface.co/docs/datasets/index"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "cycle_count": 12,
+  "cycle_count": 18,
   "cycles": [
     {
       "cycle_id": 1,
@@ -96,6 +96,272 @@
       ],
       "search_results_total": 1,
       "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 9,
+      "started_at": "2026-08-16T09:44:04Z",
+      "duration_sec": 52.33,
+      "queries": [
+        "cohere trial API free",
+        "free benchmark datasets LLM evaluation",
+        "free OpenAI-compatible API endpoints list"
+      ],
+      "search_results_total": 2,
+      "candidates_found": 1,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 15,
+      "started_at": "2026-08-16T10:03:56Z",
+      "duration_sec": 51.2,
+      "queries": [
+        "free colabs kaggle free GPU",
+        "free OpenAI-compatible API endpoints list",
+        "gemini free API tier limits"
+      ],
+      "search_results_total": 0,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 10,
+      "started_at": "2026-08-16T10:14:56Z",
+      "duration_sec": 51.71,
+      "queries": [
+        "litellm supported providers free",
+        "MMLU dataset free download",
+        "openrouter free models list 2026"
+      ],
+      "search_results_total": 0,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 18,
+      "started_at": "2026-08-16T10:34:49Z",
+      "duration_sec": 51.47,
+      "queries": [
+        "huggingface datasets free",
+        "groq free tier rate limits 2026",
+        "free GPU cloud compute 2026"
+      ],
+      "search_results_total": 0,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 11,
+      "started_at": "2026-08-16T10:45:48Z",
+      "duration_sec": 51.69,
+      "queries": [
+        "free GPU cloud compute 2026",
+        "huggingface datasets free",
+        "huggingface inference API free models"
+      ],
+      "search_results_total": 0,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 21,
+      "started_at": "2026-08-16T11:05:41Z",
+      "duration_sec": 51.47,
+      "queries": [
+        "free LLM API providers 2026 no credit card",
+        "gemini free API tier limits",
+        "free serverless function providers"
+      ],
+      "search_results_total": 0,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 12,
+      "started_at": "2026-08-16T11:16:40Z",
+      "duration_sec": 52.35,
+      "queries": [
+        "free CI/CD minutes public repository",
+        "github metaengine LLM benchmark",
+        "groq free tier rate limits 2026"
+      ],
+      "search_results_total": 1,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 24,
+      "started_at": "2026-08-16T11:36:35Z",
+      "duration_sec": 51.46,
+      "queries": [
+        "huggingface inference API free models",
+        "free GPU cloud compute 2026",
+        "MMLU dataset free download"
+      ],
+      "search_results_total": 0,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 13,
+      "started_at": "2026-08-16T11:46:49Z",
+      "duration_sec": 8.56,
+      "queries": [
+        "github actions free tier limits 2026",
+        "github autonomous AI system open source",
+        "together AI free credit signup"
+      ],
+      "search_results_total": 10,
+      "candidates_found": 2,
+      "working_providers": 1,
+      "patches_generated": 1
+    },
+    {
+      "cycle_id": 27,
+      "started_at": "2026-08-16T12:06:47Z",
+      "duration_sec": 9.4,
+      "queries": [
+        "anthropic free API tier",
+        "free serverless function providers",
+        "github autonomous AI system open source"
+      ],
+      "search_results_total": 20,
+      "candidates_found": 1,
+      "working_providers": 1,
+      "patches_generated": 1
+    },
+    {
+      "cycle_id": 14,
+      "started_at": "2026-08-16T12:17:12Z",
+      "duration_sec": 23.33,
+      "queries": [
+        "free serverless function providers",
+        "free LLM API providers 2026 no credit card",
+        "anthropic free API tier"
+      ],
+      "search_results_total": 10,
+      "candidates_found": 1,
+      "working_providers": 1,
+      "patches_generated": 1
+    },
+    {
+      "cycle_id": 30,
+      "started_at": "2026-08-16T12:37:24Z",
+      "duration_sec": 36.8,
+      "queries": [
+        "litellm supported providers free",
+        "MMLU dataset free download",
+        "openrouter free models list 2026"
+      ],
+      "search_results_total": 0,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 15,
+      "started_at": "2026-08-16T12:48:03Z",
+      "duration_sec": 51.25,
+      "queries": [
+        "free colabs kaggle free GPU",
+        "free OpenAI-compatible API endpoints list",
+        "gemini free API tier limits"
+      ],
+      "search_results_total": 0,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 33,
+      "started_at": "2026-08-16T13:08:18Z",
+      "duration_sec": 52.3,
+      "queries": [
+        "github actions free tier limits 2026",
+        "github autonomous AI system open source",
+        "together AI free credit signup"
+      ],
+      "search_results_total": 5,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 16,
+      "started_at": "2026-08-16T13:18:56Z",
+      "duration_sec": 52.94,
+      "queries": [
+        "free benchmark datasets LLM evaluation",
+        "openrouter free models list 2026",
+        "cohere trial API free"
+      ],
+      "search_results_total": 2,
+      "candidates_found": 1,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 36,
+      "started_at": "2026-08-16T13:39:11Z",
+      "duration_sec": 52.4,
+      "queries": [
+        "free benchmark datasets LLM evaluation",
+        "openrouter free models list 2026",
+        "cohere trial API free"
+      ],
+      "search_results_total": 2,
+      "candidates_found": 1,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 17,
+      "started_at": "2026-08-16T13:49:48Z",
+      "duration_sec": 51.67,
+      "queries": [
+        "MMLU dataset free download",
+        "huggingface inference API free models",
+        "litellm supported providers free"
+      ],
+      "search_results_total": 0,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 39,
+      "started_at": "2026-08-16T14:09:51Z",
+      "duration_sec": 38.23,
+      "queries": [
+        "github metaengine LLM benchmark",
+        "together AI free credit signup",
+        "free CI/CD minutes public repository"
+      ],
+      "search_results_total": 6,
+      "candidates_found": 0,
+      "working_providers": 0,
+      "patches_generated": 0
+    },
+    {
+      "cycle_id": 18,
+      "started_at": "2026-08-16T14:20:25Z",
+      "duration_sec": 37.32,
+      "queries": [
+        "huggingface datasets free",
+        "groq free tier rate limits 2026",
+        "free GPU cloud compute 2026"
+      ],
+      "search_results_total": 5,
+      "candidates_found": 1,
       "working_providers": 0,
       "patches_generated": 0
     }
@@ -212,6 +478,22 @@
       "discovered_at": "2026-08-16T08:42:55Z",
       "source_query": "anthropic free API tier",
       "source_url": "https://claude.com/pricing"
+    },
+    {
+      "provider_name": "huggingface",
+      "category": "dataset",
+      "api_endpoint": "https://api-inference.huggingface.co",
+      "api_docs_url": "https://huggingface.co/docs/datasets/index",
+      "signup_url": "https://huggingface.co",
+      "free_tier_rpm": 0,
+      "litellm_model_hint": "huggingface/meta-llama/Meta-Llama-3-70B-Instruct",
+      "works": false,
+      "probe_response": "",
+      "probe_error": "URLError: [Errno -5] No address associated with hostname",
+      "probe_latency_ms": 0.0,
+      "discovered_at": "2026-08-16T14:19:49Z",
+      "source_query": "huggingface datasets free",
+      "source_url": "https://huggingface.co/docs/datasets/index"
     }
   ],
   "working_providers": []
