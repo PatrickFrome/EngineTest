@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/semantic_challenge_manifest.schema.json",
+  "type": "object",
+  "required": ["challenge_version", "campaign_id", "benchmark_id", "author", "created_at", "cases", "claim_ceiling"],
+  "properties": {
+    "challenge_version": {"const": "DESTRUKTION-SEMANTIC-CHALLENGE-1.0"},
+    "campaign_id": {"type": "string"},
+    "benchmark_id": {"type": "string"},
+    "author": {
+      "type": "object",
+      "required": ["id", "independent_of_dae_development", "dae_predictions_seen", "gold_seen"],
+      "properties": {
+        "id": {"type": "string", "minLength": 2},
+        "independent_of_dae_development": {"const": true},
+        "dae_predictions_seen": {"const": false},
+        "gold_seen": {"const": false}
+      },
+      "additionalProperties": false
+    },
+    "created_at": {"type": "string", "minLength": 1},
+    "cases": {
+      "type": "array", "minItems": 7,
+      "items": {
+        "type": "object",
+        "required": ["case_id", "phenomenon", "anchor_unit_id", "variant_text", "relation_to_anchor", "allowed_variant_statuses", "rationale"],
+        "properties": {
+          "case_id": {"type": "string", "minLength": 3},
+          "phenomenon": {"enum": ["NEGATION", "QUOTED_OPPONENT", "ATTRIBUTION_SHIFT", "MODALITY_WEAKENING", "PARAPHRASE", "TRANSLATION", "DECOY_TERMINOLOGY"]},
+          "anchor_unit_id": {"type": "string"},
+          "variant_text": {"type": "string", "minLength": 1},
+          "relation_to_anchor": {"enum": ["PRESERVE", "CHANGE_REQUIRED", "ABSTAIN_OR_QUALIFY", "ALLOWED_SET_ONLY"]},
+          "allowed_variant_statuses": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["SUPPORTED", "QUALIFIED", "REJECTED", "INSUFFICIENT"]}},
+          "rationale": {"type": "string", "minLength": 12},
+          "evidence_refs": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "claim_ceiling": {"type": "string"}
+  },
+  "additionalProperties": false
+}

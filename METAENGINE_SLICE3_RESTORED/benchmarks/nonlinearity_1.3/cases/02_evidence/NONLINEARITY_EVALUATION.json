@@ -1,0 +1,88 @@
+{
+  "metric_version": "16X-NONLINEARITY-PROXY-1.3.1",
+  "hermeneutic_nonlinearity_proxy": 0.8326,
+  "epistemic_nonlinearity_proxy": 0.8571,
+  "depth_proxy": 0.8229,
+  "components": {
+    "hermeneutic": {
+      "multi_path_branching": 0.8225806451612904,
+      "recursive_return": 1.0,
+      "source_reground_cycles": 0.625,
+      "core4_rival_divergence": 0.7098,
+      "cross_architecture_trace_depth": 1.0,
+      "agenda_source_distribution": 0.8382329862509084
+    },
+    "epistemic": {
+      "methodological_plurality": 0.7142857142857143,
+      "core4_independent_pressure": 1.0,
+      "reversible_operator_pressure": 1.0,
+      "counterfactual_pressure": 1.0,
+      "semantic_boundary_pressure": 1.0,
+      "interrogative_destabilization": 1.0,
+      "peer_method_uptake": 1.0,
+      "state_multiplicity": 0.5,
+      "dissent_preservation_when_present": 0.5
+    },
+    "depth": {
+      "recursive_round_depth": 0.6666666666666666,
+      "reground_cycle_depth": 0.625,
+      "core4_transformational_yield": 0.46875,
+      "core4_architecture_coverage": 1.0,
+      "five_layer_trace_completeness": 1.0,
+      "peer_second_order_uptake": 1.0,
+      "round2_transform_growth": 1.0
+    }
+  },
+  "epistemic_safety": {
+    "provenance_complete": true,
+    "majority_vote_unused": true,
+    "derived_truth_promotion_violations": 0,
+    "reentry_claim_ceiling_present": true
+  },
+  "raw": {
+    "agenda_items": 31,
+    "avg_source_engines_per_agenda_item": 8.2258,
+    "return_edges": 12,
+    "reentry_generative_positions": 30,
+    "core4_mean_divergence": 0.7098,
+    "reentry_claim_types": [
+      "CANONICALIZATION_RESIDUE",
+      "COUNTERFACTUAL_GATE",
+      "CROSS_LINEAGE_DIFFERENTIAL",
+      "INTERROGATIVE_FRAME_ATOM",
+      "OPERATOR_ECOLOGY_PROBE",
+      "OPERATOR_MUTATION_CANDIDATE",
+      "SCOPE_LATTICE_PROBE",
+      "SECOND_ORDER_DESTRUCTION",
+      "SEMANTIC_DIFFERENTIAL",
+      "SOURCE_BOUNDED_CLAIM"
+    ],
+    "core4_active_engines": [
+      "engine_01",
+      "engine_02",
+      "engine_03",
+      "engine_04"
+    ],
+    "hermeneutic_cycle_count": 20,
+    "round1_positions": 10,
+    "round2_positions": 20,
+    "peer_second_order_type_coverage": 1.0,
+    "claim_nodes": 24,
+    "claim_edges": 73,
+    "conflicts": 0,
+    "arbitration_states": {
+      "GENERATIVE_ONLY": 23,
+      "INSUFFICIENT_EVIDENCE": 1
+    }
+  },
+  "claim_ceiling": "ARCHITECTURAL_PROXY_FOR_NONLINEARITY_AND_DEPTH; NOT_EXTERNAL_PHILOSOPHICAL_QUALITY_VALIDATION",
+  "evaluation_hash": "ff32fbcdf6415889b6f833416793e9767c5c136e366a3884462893b737b04e7e",
+  "delta_vs_1_2_equivalent": {
+    "hermeneutic_nonlinearity_proxy": 0.3713,
+    "epistemic_nonlinearity_proxy": 0.746,
+    "depth_proxy": 0.68,
+    "claim_node_delta": 0,
+    "native_position_delta": 0,
+    "claim_edge_delta": 0
+  }
+}

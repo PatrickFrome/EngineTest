@@ -1,0 +1,99 @@
+{
+  "challenge_version": "DESTRUKTION-SEMANTIC-CHALLENGE-1.0",
+  "campaign_id": "XVAL-66AACD28896115C3",
+  "benchmark_id": "BENCH-E04C164EC08BCCCC",
+  "author": {
+    "id": "REPLACE_WITH_INDEPENDENT_CHALLENGE_AUTHOR",
+    "independent_of_dae_development": true,
+    "dae_predictions_seen": false,
+    "gold_seen": false
+  },
+  "created_at": "2026-08-11T19:00:04Z",
+  "cases": [
+    {
+      "case_id": "CH-001-NEGATION",
+      "phenomenon": "NEGATION",
+      "anchor_unit_id": "BU-1C1AF4E6A3068AD7",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "relation_to_anchor": "ALLOWED_SET_ONLY",
+      "allowed_variant_statuses": [
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION_AND_WHY_THIS_VARIANT_TESTS_THE_PHENOMENON",
+      "evidence_refs": []
+    },
+    {
+      "case_id": "CH-002-QUOTED_OPPONENT",
+      "phenomenon": "QUOTED_OPPONENT",
+      "anchor_unit_id": "BU-290C724AC47553FA",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "relation_to_anchor": "ALLOWED_SET_ONLY",
+      "allowed_variant_statuses": [
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION_AND_WHY_THIS_VARIANT_TESTS_THE_PHENOMENON",
+      "evidence_refs": []
+    },
+    {
+      "case_id": "CH-003-ATTRIBUTION_SHIFT",
+      "phenomenon": "ATTRIBUTION_SHIFT",
+      "anchor_unit_id": "BU-30B0AC2EC04197ED",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "relation_to_anchor": "ALLOWED_SET_ONLY",
+      "allowed_variant_statuses": [
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION_AND_WHY_THIS_VARIANT_TESTS_THE_PHENOMENON",
+      "evidence_refs": []
+    },
+    {
+      "case_id": "CH-004-MODALITY_WEAKENING",
+      "phenomenon": "MODALITY_WEAKENING",
+      "anchor_unit_id": "BU-3F88A445A2EC82D7",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "relation_to_anchor": "ALLOWED_SET_ONLY",
+      "allowed_variant_statuses": [
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION_AND_WHY_THIS_VARIANT_TESTS_THE_PHENOMENON",
+      "evidence_refs": []
+    },
+    {
+      "case_id": "CH-005-PARAPHRASE",
+      "phenomenon": "PARAPHRASE",
+      "anchor_unit_id": "BU-4A2A58F4CAF951A3",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "relation_to_anchor": "PRESERVE",
+      "allowed_variant_statuses": [
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION_AND_WHY_THIS_VARIANT_TESTS_THE_PHENOMENON",
+      "evidence_refs": []
+    },
+    {
+      "case_id": "CH-006-TRANSLATION",
+      "phenomenon": "TRANSLATION",
+      "anchor_unit_id": "BU-4C72077718639D59",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "relation_to_anchor": "PRESERVE",
+      "allowed_variant_statuses": [
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION_AND_WHY_THIS_VARIANT_TESTS_THE_PHENOMENON",
+      "evidence_refs": []
+    },
+    {
+      "case_id": "CH-007-DECOY_TERMINOLOGY",
+      "phenomenon": "DECOY_TERMINOLOGY",
+      "anchor_unit_id": "BU-521A42ABFEBDE27C",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "relation_to_anchor": "ALLOWED_SET_ONLY",
+      "allowed_variant_statuses": [
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION_AND_WHY_THIS_VARIANT_TESTS_THE_PHENOMENON",
+      "evidence_refs": []
+    }
+  ],
+  "claim_ceiling": "INDEPENDENT_ADVERSARIAL_EXPECTATIONS_NOT_GOLD_FOR_UNSEEN_PHILOSOPHICAL_TRUTH"
+}

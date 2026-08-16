@@ -1,0 +1,78 @@
+{
+  "output_dir": "/mnt/data/destruktion_010_work/Destruktion_4.0_AI_CHAT_PORTABLE_0.9.0-alpha.1/experiments/open-set-hermeneutics-0.10/refinery",
+  "report": {
+    "report_version": "DAE-CORPUS-REFINERY-0.1",
+    "engine_version": "0.10.0-alpha.1",
+    "generated_at": "2026-08-11T17:15:53Z",
+    "source_id": "LOCAL-SHA256-B8EE307BEB056C56FBE2872CEF3E7319E14F8D4F7E1E9305055338F66084DED6",
+    "artifact_sha256": "3fb6a4174ad50fa7a679a033803f02e588022d5270be387cc908580548d71523",
+    "page_run_mode": "TRANSIENT_FRESH_PAGE_RUN",
+    "counts": {
+      "ooxml_segments": 19,
+      "renderer_segments": 15,
+      "argument_segments": 9,
+      "claim_ledger_entries": 8,
+      "formulas": 0,
+      "exact_duplicate_groups": 0,
+      "near_duplicate_groups": 0,
+      "archived_tool_logs": 0,
+      "layers": {
+        "PROJECT_CLAIM": 2,
+        "RECONSTRUCTION": 3,
+        "RIVAL_OBJECTION": 3,
+        "SOURCE": 7,
+        "UNRESOLVED": 4
+      },
+      "hypotheses": 3,
+      "case_matrices": 0
+    },
+    "validation": {
+      "total_errors": 0,
+      "schemas_checked": 5,
+      "claim_ledger_lines_checked": 8
+    },
+    "gates": {
+      "corpus_preservation": "PASS",
+      "source_resolution": "SUSPEND",
+      "canonical_argument": "SUSPEND",
+      "hypothesis_use": "REVIEW"
+    },
+    "output_contract": {
+      "source_text_included": false,
+      "docx_copied": false,
+      "rendered_pdf_included": false,
+      "extracted_text_included": false,
+      "deleted_segments": 0
+    },
+    "claim_ceiling": "CORPUS_NORMALIZATION_AND_REVIEW_ROUTING_ONLY_EXTERNAL_SEMANTIC_VALIDATION_PENDING"
+  },
+  "claim_ledger_summary": {
+    "ledger_version": "DAE-CLAIM-LEDGER-SUMMARY-1.0",
+    "source_id": "LOCAL-SHA256-B8EE307BEB056C56FBE2872CEF3E7319E14F8D4F7E1E9305055338F66084DED6",
+    "entry_count": 8,
+    "by_origin_layer": {
+      "PROJECT_CLAIM": 1,
+      "RECONSTRUCTION": 1,
+      "RIVAL_OBJECTION": 2,
+      "SOURCE": 4
+    },
+    "by_claim_type": {
+      "CONCLUSION": 1,
+      "OBJECTION": 2,
+      "PROJECT_ASSERTION": 1,
+      "QUESTION": 1,
+      "RECONSTRUCTION": 1,
+      "SOURCE_PASSAGE": 2
+    },
+    "by_scale": {
+      "LOCAL": 7,
+      "UNIVERSAL": 1
+    },
+    "by_status": {
+      "UNADJUDICATED": 8
+    },
+    "apb_reconstructed": 0,
+    "strongest_rival_attested": 0,
+    "claim_ceiling": "QUEUE_STATISTICS_ONLY_NOT_ARGUMENT_OR_TRUTH_COUNTS"
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/portable_project.schema.json",
+  "title": "Destruktion AI-chat portable project manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "portable_project_version",
+    "package_version",
+    "engine_version",
+    "generated_at",
+    "title",
+    "entrypoint",
+    "agent_instructions",
+    "default_language",
+    "supported_inputs",
+    "execution_profiles",
+    "required_read_order",
+    "required_assets",
+    "runtime_commands",
+    "routing",
+    "invariants",
+    "output_contract",
+    "current_state",
+    "excluded_from_archive",
+    "claim_ceiling"
+  ],
+  "$defs": {
+    "relativePath": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?![A-Za-z]:[\\\\/])(?!.*(?:^|/)\\.\\.(?:/|$)).+"
+    },
+    "command": {
+      "type": "string",
+      "minLength": 1,
+      "not": {
+        "pattern": "(?:^|\\s)(?:/workspace/|/root/|file://|[A-Za-z]:[\\\\/])"
+      }
+    },
+    "executionProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "available_when",
+        "procedure",
+        "provenance_label",
+        "claim_ceiling"
+      ],
+      "properties": {
+        "available_when": {
+          "type": "string",
+          "minLength": 1
+        },
+        "procedure": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "provenance_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim_ceiling": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "properties": {
+    "portable_project_version": {
+      "const": "DAE-AI-CHAT-1.0"
+    },
+    "package_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "engine_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entrypoint": {
+      "$ref": "#/$defs/relativePath"
+    },
+    "agent_instructions": {
+      "$ref": "#/$defs/relativePath"
+    },
+    "default_language": {
+      "const": "ru"
+    },
+    "supported_inputs": {
+      "type": "array",
+      "minItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "DOCX",
+          "PDF",
+          "TXT",
+          "MD",
+          "JSON",
+          "ZIP_WITH_READABLE_FILES"
+        ]
+      }
+    },
+    "execution_profiles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "EXECUTION_AVAILABLE",
+        "DOCUMENT_ONLY"
+      ],
+      "properties": {
+        "EXECUTION_AVAILABLE": {
+          "$ref": "#/$defs/executionProfile"
+        },
+        "DOCUMENT_ONLY": {
+          "$ref": "#/$defs/executionProfile"
+        }
+      }
+    },
+    "required_read_order": {
+      "type": "array",
+      "minItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/relativePath"
+      }
+    },
+    "required_assets": {
+      "type": "array",
+      "minItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "role",
+          "size_bytes",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "$ref": "#/$defs/relativePath"
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "size_bytes": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "runtime_commands": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "install",
+        "verify",
+        "project_card",
+        "living",
+        "expert"
+      ],
+      "properties": {
+        "install": {
+          "$ref": "#/$defs/command"
+        },
+        "verify": {
+          "$ref": "#/$defs/command"
+        },
+        "project_card": {
+          "$ref": "#/$defs/command"
+        },
+        "living": {
+          "$ref": "#/$defs/command"
+        },
+        "expert": {
+          "$ref": "#/$defs/command"
+        },
+        "operator_competition": {
+          "$ref": "#/$defs/command"
+        },
+        "micro_local_ecology": {
+          "$ref": "#/$defs/command"
+        }
+      }
+    },
+    "routing": {
+      "type": "object",
+      "minProperties": 5,
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "intent_examples",
+          "mode",
+          "primary_output"
+        ],
+        "properties": {
+          "intent_examples": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "mode": {
+            "type": "string",
+            "minLength": 1
+          },
+          "primary_output": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "invariants": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "core_frozen",
+        "mandatory_etymology",
+        "mandatory_etymological_significance",
+        "discovery_is_justification",
+        "active_move_requires_gain",
+        "source_claims_require_locators",
+        "document_only_may_claim_code_execution"
+      ],
+      "properties": {
+        "core_frozen": {
+          "const": true
+        },
+        "mandatory_etymology": {
+          "const": true
+        },
+        "mandatory_etymological_significance": {
+          "const": false
+        },
+        "discovery_is_justification": {
+          "const": false
+        },
+        "active_move_requires_gain": {
+          "const": true
+        },
+        "source_claims_require_locators": {
+          "const": true
+        },
+        "document_only_may_claim_code_execution": {
+          "const": false
+        }
+      }
+    },
+    "output_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mandatory_etymology",
+        "primary_living_output",
+        "final_expert_output",
+        "execution_provenance_required",
+        "source_limit_required",
+        "self_destruction_required"
+      ],
+      "properties": {
+        "mandatory_etymology": {
+          "const": true
+        },
+        "primary_living_output": {
+          "const": "PHILOSOPHICAL_FIELD_NOTE"
+        },
+        "final_expert_output": {
+          "const": "FINAL_ANALYTICS"
+        },
+        "execution_provenance_required": {
+          "const": true
+        },
+        "source_limit_required": {
+          "const": true
+        },
+        "self_destruction_required": {
+          "const": true
+        }
+      }
+    },
+    "current_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "protocol_families",
+        "living_conditional_families",
+        "generative_gestures",
+        "tests",
+        "sample_run"
+      ],
+      "properties": {
+        "protocol_families": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "living_conditional_families": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "generative_gestures": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "tests": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sample_run": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "constellations",
+            "nodes",
+            "edges",
+            "cross_constellation_edges",
+            "ety_cards",
+            "ety_full",
+            "unresolved_ety_fields"
+          ],
+          "properties": {
+            "constellations": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "nodes": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "edges": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "cross_constellation_edges": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "ety_cards": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "ety_full": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "unresolved_ety_fields": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "regression": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source_resistance_terms": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "method_mutations": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "source_resistance": {
+          "type": "string",
+          "minLength": 1
+        },
+        "experimental_method_mutation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "operator_competition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "open_set_operator_discovery": {
+          "type": "string",
+          "minLength": 1
+        },
+        "micro_local_ecology": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "excluded_from_archive": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "claim_ceiling": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

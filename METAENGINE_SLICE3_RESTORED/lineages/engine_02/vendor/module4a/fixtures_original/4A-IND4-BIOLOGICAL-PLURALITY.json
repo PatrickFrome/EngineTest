@@ -1,0 +1,99 @@
+{
+  "record_id": "4A-IND4-BIOLOGICAL-PLURALITY",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "SEP Biological Individuals 2024",
+      "2.25 Biological-Individuality Stress Test"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + IND4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "OTHER",
+    "description": "A biological system with organismal, symbiotic, metabolic and lineage structures.",
+    "role": [
+      "candidate-unit-field"
+    ],
+    "object_type": "biological_system"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "The system counts as one biological individual under a specified criterion and scale.",
+    "claim_facets": {
+      "basis": [
+        "EMP",
+        "HIST"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT21"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "Physiological and evolutionary individuality can select different but structured units; the chosen unit must be indexed to explanandum and criterion."
+    },
+    "promotion_flags": [
+      "SCOPE",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C3",
+    "g_target": "G2",
+    "gap": "NONE",
+    "bridge_burden": "Do not promote one biological criterion to all kinds/levels of individuality."
+  },
+  "audit": {
+    "native_domain": "philosophy of biology",
+    "native_method": "evolutionary/physiological individuality analysis",
+    "activated_operators": [
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "UNDERDETERMINATION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "RIVAL_HANDLING",
+      "SCOPE_CONTROL"
+    ],
+    "rtr": "MEDIUM"
+  },
+  "extensions": {
+    "ind4": {
+      "module_id": "IND4",
+      "version": "0.1",
+      "domain": "biology",
+      "candidate_unit": "system indexed to physiological or evolutionary individuality",
+      "boundary_criterion": [
+        "BIOLOGICAL",
+        "CAUSAL_DYNAMIC",
+        "FUNCTIONAL"
+      ],
+      "integration_mechanism": "metabolic/control integration or Darwinian lineage/fitness alignment depending on explanandum",
+      "granularity": "organism / holobiont / group / lineage",
+      "nesting": "nested biological individuals may be admissible",
+      "overlap": "criterion-dependent overlap remains possible",
+      "counterpartition": "alternative partition by physiological versus evolutionary criterion",
+      "discriminator": "metabolic cohesion, reproduction/lineage, fitness alignment, immune/control dynamics",
+      "revision_trigger": "A case where the candidate partition loses explanatory advantage over its counterpartition."
+    }
+  },
+  "outcome": "UNDERDETERMINED"
+}

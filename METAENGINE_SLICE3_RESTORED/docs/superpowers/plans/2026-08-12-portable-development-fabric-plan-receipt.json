@@ -1,0 +1,47 @@
+{
+  "design_spec_sha256": "b6b97e58f1ff3de01e731276d7cb7b7b0b07211aff005b1837ea0543b5920dc3",
+  "plans": {
+    "2026-08-12-external-facts-errata.md": {
+      "bytes": 1969,
+      "lines": 19,
+      "sha256": "40fe8dbdb8fd1560cdabeab474f20f21c400bb7da5faf6ae5599c1363035a72d"
+    },
+    "2026-08-12-portable-development-fabric-master.md": {
+      "bytes": 5696,
+      "lines": 77,
+      "sha256": "771a14cf9ef236d61626c63ca33ce4c506614ce5c72c1e142c7732633805e316"
+    },
+    "2026-08-12-stage-a-portable-local-kernel.md": {
+      "bytes": 18401,
+      "lines": 455,
+      "sha256": "4a1e9a08e7133cff003f0e1b1e6a1a2032ba6c7004bd3f5bb25936dbc1c2f623"
+    },
+    "2026-08-12-stage-b-local-ai-swarm.md": {
+      "bytes": 4552,
+      "lines": 85,
+      "sha256": "23273cf9ddacb8200966311671b024dc1b4b3efd4b60d9d6bb0c370730a855a3"
+    },
+    "2026-08-12-stage-c-connected-services.md": {
+      "bytes": 6199,
+      "lines": 109,
+      "sha256": "eb38a800a98a44e88bddb1e1b753548a23ebf4946d4191ab96d7f82273304566"
+    },
+    "2026-08-12-stage-d-remote-edge-fabric.md": {
+      "bytes": 4166,
+      "lines": 84,
+      "sha256": "dcb9ba84e59a67ddfdd9a98bd392a523d47eabf351b5ed43f1bd704091ef1430"
+    },
+    "2026-08-12-stage-e-github-ci-plane.md": {
+      "bytes": 2731,
+      "lines": 56,
+      "sha256": "2766db135eb19acc4d8c5a0ce949eff69736294e46e8eccc3b672c1122a8cd1f"
+    },
+    "2026-08-12-stage-f-development-intelligence.md": {
+      "bytes": 3443,
+      "lines": 65,
+      "sha256": "8749169bd4d2d9838e08db4efe70dfb6a76c81af889c7cd68967328eca9986fb"
+    }
+  },
+  "receipt_version": "METAENGINE-DEVFABRIC-IMPLEMENTATION-PLAN-RECEIPT-1",
+  "source_artifact_sha256": "8e7a9f483192180b5f870e5301253cfe2266f5392754cbc680854b505f8a54b0"
+}

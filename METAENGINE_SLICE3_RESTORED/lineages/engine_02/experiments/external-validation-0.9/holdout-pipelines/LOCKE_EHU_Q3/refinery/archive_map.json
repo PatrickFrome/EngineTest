@@ -1,0 +1,24 @@
+{
+  "archive_map_version": "DAE-ARCHIVE-MAP-1.0",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T19:20:39Z",
+  "source_id": "LOCAL-SHA256-ED92B1C202ACAC947DEC0BC7DA0CE20F1FDB30AA7C10DD116E6A212CA969FD75",
+  "policy": {
+    "deletion": "FORBIDDEN",
+    "canonicalization": "FIRST_OCCURRENCE_AS_REPRESENTATIVE_WITH_ALL_OCCURRENCES_PRESERVED",
+    "near_duplicate_action": "LINK_ONLY_REVIEW_REQUIRED",
+    "tool_log_action": "ARCHIVE_LAYER_WITHOUT_ERASURE"
+  },
+  "counts": {
+    "segments_total": 10,
+    "deleted_segments": 0,
+    "exact_duplicate_groups": 0,
+    "exact_duplicate_occurrences_archived": 0,
+    "near_duplicate_groups": 0,
+    "tool_log_segments_archived": 0
+  },
+  "exact_duplicate_groups": [],
+  "near_duplicate_groups": [],
+  "archive_entries": [],
+  "claim_ceiling": "NON_DESTRUCTIVE_CONSOLIDATION_MAP_ONLY_NOT_TEXTUAL_OR_SEMANTIC_EQUIVALENCE"
+}

@@ -1,0 +1,623 @@
+{
+  "payload_hash": "36f6a486e1144ceed5135d72a2737a2463229c6342cd9b94e589a0268462710e",
+  "payload": {
+    "transfer_version": "METAENGINE-TRANSFER-TEST-1",
+    "stage_id": "METAENGINE-1-SLICE-4-TRANSFER",
+    "mechanism_id": "sparse-conditional-routing",
+    "mechanism_card_hash": "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+    "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+    "contract_hash": "766670054e3731e8aeb81bb72c60f2347517f665cff3b8e08aef7393e56f3872",
+    "task_suite_hash": "fadec0a0832ae1d8c02a7bfb8c7b5eb583fd174e1a520560a207a5f23cd6fa0b",
+    "results": [
+      {
+        "implementation_kind": "HASH_BASELINE",
+        "arm": "DENSE_ALL",
+        "task_results": [
+          {
+            "task_id": "task.code_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "hash.a",
+              "hash.b",
+              "hash.c",
+              "hash.d"
+            ],
+            "task_quality": 0.65,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "33ac1fcf541388d075919882c4023c8dae44aab46782270ab0cb0545b1a2585b"
+          },
+          {
+            "task_id": "task.inverted_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "hash.a",
+              "hash.b",
+              "hash.c",
+              "hash.d"
+            ],
+            "task_quality": 0.95,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "55b1eee07749a57054768bf9e6e5c9ab4fb9778c5922f9f5cb6a3a96b9fa4070"
+          },
+          {
+            "task_id": "task.mixed_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "hash.a",
+              "hash.b",
+              "hash.c",
+              "hash.d"
+            ],
+            "task_quality": 1.05,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "c1072794ff7258c009615b570e6b80de33910088abfb77cb73f269a042a31a64"
+          },
+          {
+            "task_id": "task.prose_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "hash.a",
+              "hash.b",
+              "hash.c",
+              "hash.d"
+            ],
+            "task_quality": 0.625,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "b13f07c481fd898b6609eb1a53b5d405b99ceb3b34526af8a7318fce4d28a5a4"
+          }
+        ]
+      },
+      {
+        "implementation_kind": "HASH_BASELINE",
+        "arm": "RANDOM_TOP_K",
+        "task_results": [
+          {
+            "task_id": "task.code_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "hash.a",
+              "hash.d"
+            ],
+            "task_quality": 0.616667,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "eb189334f7b86c7afc4dae60001fae4286b99997c9eb96e28be5ae022205f211"
+          },
+          {
+            "task_id": "task.inverted_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "hash.a",
+              "hash.d"
+            ],
+            "task_quality": 1.033333,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "510e4427a48b85458d457a2c294531420a08804f5302314d312f9099c67edbaa"
+          },
+          {
+            "task_id": "task.mixed_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "hash.a",
+              "hash.d"
+            ],
+            "task_quality": 1.016667,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "64af9d0b7b42ab4598e1077a94ea67f8c12c441e51ee59bb47f6159d093e3f24"
+          },
+          {
+            "task_id": "task.prose_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "hash.a",
+              "hash.d"
+            ],
+            "task_quality": 0.533333,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "0106b847657fcaa6808bbc065240a9ded759fdd23545424ca7c965215b46be1b"
+          }
+        ]
+      },
+      {
+        "implementation_kind": "HASH_BASELINE",
+        "arm": "ROUTED_TOP_K",
+        "task_results": [
+          {
+            "task_id": "task.code_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "hash.b",
+              "hash.c"
+            ],
+            "task_quality": 0.65,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "414cd4f2eb29bc0b2ab7e8cce8663987c682772baca88eeb85b5af7b094bcdd1"
+          },
+          {
+            "task_id": "task.inverted_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "hash.b",
+              "hash.c"
+            ],
+            "task_quality": 0.85,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "841ff70a6bb32e82995bf7cf71255221b0a939ebe62cf756d255a89483ddad7d"
+          },
+          {
+            "task_id": "task.mixed_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "hash.b",
+              "hash.c"
+            ],
+            "task_quality": 1.05,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "f1ce0ab13a7d5741435bf3ed88acba3c7c3061781ea74b69b5bf3566b318b579"
+          },
+          {
+            "task_id": "task.prose_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "HASH_BASELINE",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "hash.a",
+              "hash.c"
+            ],
+            "task_quality": 0.75,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "d532259fd5868730b8f11ef640b31ab7e269e9b6428eff17f1573fcff327fd7b"
+          }
+        ]
+      },
+      {
+        "implementation_kind": "LEXICAL",
+        "arm": "DENSE_ALL",
+        "task_results": [
+          {
+            "task_id": "task.code_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "LEXICAL",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "lex.code",
+              "lex.data",
+              "lex.logic",
+              "lex.prose"
+            ],
+            "task_quality": 0.675,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "4451f66b52498fa771dfbcf34fefaee8e704d95b56bbce0c89553837d67cb6c7"
+          },
+          {
+            "task_id": "task.inverted_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "LEXICAL",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "lex.code",
+              "lex.data",
+              "lex.logic",
+              "lex.prose"
+            ],
+            "task_quality": 0.6,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "337c1c4a94327baf3b4bebe325bb0e6301a95b3673ad8d8fb43e89ace1f8a43f"
+          },
+          {
+            "task_id": "task.mixed_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "LEXICAL",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "lex.code",
+              "lex.data",
+              "lex.logic",
+              "lex.prose"
+            ],
+            "task_quality": 0.625,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "526bb0b9ef5b242ba2c8a9f8c094b41915a08fa9733fa7d0faaaf75c38ef48d7"
+          },
+          {
+            "task_id": "task.prose_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "LEXICAL",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "lex.code",
+              "lex.data",
+              "lex.logic",
+              "lex.prose"
+            ],
+            "task_quality": 0.6,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "49b10b6d44f6c8e911c5745265a907a95bb2a0ac27a599c03080302dbcde9d55"
+          }
+        ]
+      },
+      {
+        "implementation_kind": "LEXICAL",
+        "arm": "RANDOM_TOP_K",
+        "task_results": [
+          {
+            "task_id": "task.code_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "LEXICAL",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "lex.code",
+              "lex.prose"
+            ],
+            "task_quality": 0.766667,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "8533267f64a2f876097bc9768002594c7e26177cdf8587a8c0a610a2ab63d3cd"
+          },
+          {
+            "task_id": "task.inverted_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "LEXICAL",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "lex.code",
+              "lex.prose"
+            ],
+            "task_quality": 0.883333,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "b9869b147ee28b1c81365f5b9b3699fb7463cc2bd6b723a56874e6ee1ec07a8d"
+          },
+          {
+            "task_id": "task.mixed_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "LEXICAL",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "lex.code",
+              "lex.prose"
+            ],
+            "task_quality": 0.566667,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "5c35d7ecd42c71be6e86e5f1feebf41d263498cbbfe4b5987a4ace6a76ded7aa"
+          },
+          {
+            "task_id": "task.prose_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "LEXICAL",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "lex.code",
+              "lex.prose"
+            ],
+            "task_quality": 0.983333,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "f2f408ab317dd1a0715cd6ddd6ad653743136f02b2e291d8408229ade5764838"
+          }
+        ]
+      },
+      {
+        "implementation_kind": "LEXICAL",
+        "arm": "ROUTED_TOP_K",
+        "task_results": [
+          {
+            "task_id": "task.code_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "LEXICAL",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "lex.code",
+              "lex.data"
+            ],
+            "task_quality": 1.1,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "12262cbf813bf215b6de1239ce7ab224a0a9d782559958afeac6704f36440c4c"
+          },
+          {
+            "task_id": "task.inverted_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "LEXICAL",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "lex.code",
+              "lex.data"
+            ],
+            "task_quality": 0.25,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "f5e0c8c878e62305f484b99e937abc200054d862d51ffb752141fc3c27727be9"
+          },
+          {
+            "task_id": "task.mixed_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "LEXICAL",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "lex.code",
+              "lex.prose"
+            ],
+            "task_quality": 0.4,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "c3bed27b9839d5f092ce05cf029dd9bf54cea93a0592615c2ea7d42a41a65523"
+          },
+          {
+            "task_id": "task.prose_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "LEXICAL",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "lex.prose",
+              "lex.code"
+            ],
+            "task_quality": 1.0,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "ca69191736a4cfea3c44cf0b0b353d6e9106aa2e48fbf3265b47561f47016bf9"
+          }
+        ]
+      },
+      {
+        "implementation_kind": "SEMANTIC_CLUSTER",
+        "arm": "DENSE_ALL",
+        "task_results": [
+          {
+            "task_id": "task.code_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "sem.analytical",
+              "sem.creative",
+              "sem.expressive",
+              "sem.tech"
+            ],
+            "task_quality": 0.65,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "c297c422e6cacf6403599fa9ccc2048bca8c274eea421d44cb24ef499228587f"
+          },
+          {
+            "task_id": "task.inverted_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "sem.analytical",
+              "sem.creative",
+              "sem.expressive",
+              "sem.tech"
+            ],
+            "task_quality": 0.8,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "0eae41775621de0245a151d034724bca4847f489153402346cc2cc778ecae0ee"
+          },
+          {
+            "task_id": "task.mixed_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "sem.analytical",
+              "sem.creative",
+              "sem.expressive",
+              "sem.tech"
+            ],
+            "task_quality": 0.575,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "2872465d7764930d1995c9bd655b6e85f698c3bea8e03121c49de9225166c5f8"
+          },
+          {
+            "task_id": "task.prose_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "DENSE_ALL",
+            "selected_specialists": [
+              "sem.analytical",
+              "sem.creative",
+              "sem.expressive",
+              "sem.tech"
+            ],
+            "task_quality": 0.7,
+            "active_resource_count": 4,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "fe94e2699141c935a6ecfc9f726d9364c0c10df4e0521b9b1514727fe063cc7c"
+          }
+        ]
+      },
+      {
+        "implementation_kind": "SEMANTIC_CLUSTER",
+        "arm": "RANDOM_TOP_K",
+        "task_results": [
+          {
+            "task_id": "task.code_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "sem.analytical",
+              "sem.tech"
+            ],
+            "task_quality": 1.083333,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "5862b69111840b84f0b7e50b2c28b63cefdced2467e89f395adc91ab19dcff51"
+          },
+          {
+            "task_id": "task.inverted_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "sem.analytical",
+              "sem.tech"
+            ],
+            "task_quality": 0.416667,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "7457c3513c4c86ffdfc2312931a326e95ff54473f96ff2384159c9295aa83898"
+          },
+          {
+            "task_id": "task.mixed_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "sem.analytical",
+              "sem.tech"
+            ],
+            "task_quality": 0.7,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "f6e657af77243a47698b334d62ff9ef8bbaf555065a222709e29555881699c37"
+          },
+          {
+            "task_id": "task.prose_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "RANDOM_TOP_K",
+            "selected_specialists": [
+              "sem.analytical",
+              "sem.tech"
+            ],
+            "task_quality": 0.483333,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "6391ae444149b03aa809b1bc394e462f3dbbac1077fc8a3e24facb808c048c2c"
+          }
+        ]
+      },
+      {
+        "implementation_kind": "SEMANTIC_CLUSTER",
+        "arm": "ROUTED_TOP_K",
+        "task_results": [
+          {
+            "task_id": "task.code_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "sem.tech",
+              "sem.analytical"
+            ],
+            "task_quality": 1.15,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "8b03e10091f5fcc91d2ff8e6d6bfbbe900ddbdb9b8dbfebf264976cd9724525a"
+          },
+          {
+            "task_id": "task.inverted_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "sem.analytical",
+              "sem.tech"
+            ],
+            "task_quality": 0.25,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "19e9019a7a2485f8710364fd83539077876dd8f6d8654dbf63821717e9f98917"
+          },
+          {
+            "task_id": "task.mixed_b",
+            "regime": "REGIME_B_AMBIGUOUS",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "sem.creative",
+              "sem.tech"
+            ],
+            "task_quality": 0.4,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "9cc220f7dee6b797a55a33dd6dd295ff8e3aee32080b4deb69e15a571b77342c"
+          },
+          {
+            "task_id": "task.prose_a",
+            "regime": "REGIME_A_SEPARABLE",
+            "implementation_kind": "SEMANTIC_CLUSTER",
+            "arm": "ROUTED_TOP_K",
+            "selected_specialists": [
+              "sem.creative",
+              "sem.analytical"
+            ],
+            "task_quality": 1.0,
+            "active_resource_count": 2,
+            "processing_resource_units": 2.0,
+            "reproducibility_hash": "467d3af675f38396f7cf6d89a3e5fbe1d62a4a1c52eb61824d0be79478e0638f"
+          }
+        ]
+      }
+    ],
+    "transfer_summary": [
+      {
+        "implementation_kind": "HASH_BASELINE",
+        "routed_better_than_dense": false,
+        "mean_quality_routed": 0.825,
+        "mean_quality_dense": 0.81875
+      },
+      {
+        "implementation_kind": "LEXICAL",
+        "routed_better_than_dense": true,
+        "mean_quality_routed": 0.6875,
+        "mean_quality_dense": 0.625
+      },
+      {
+        "implementation_kind": "SEMANTIC_CLUSTER",
+        "routed_better_than_dense": false,
+        "mean_quality_routed": 0.7,
+        "mean_quality_dense": 0.68125
+      }
+    ],
+    "transfer_decision": "PARTIAL_TRANSFER",
+    "truth_effect": "NONE",
+    "assimilation_effect": "NONE",
+    "receipt_hash": "36f6a486e1144ceed5135d72a2737a2463229c6342cd9b94e589a0268462710e"
+  },
+  "signature_hex": "576ebc2fe45c4382e4bd268721e70d020354a39e07c290f2c138f61ee1cb6a00819944067c21086f69bdac3041c46dea6910d41ecff0e3c3922e8b36843c020d",
+  "public_key_hex": "ed1746e16fd34ac178b4c7aea958e17a86afd4a3167770638b5cc06669009123",
+  "algorithm": "Ed25519"
+}

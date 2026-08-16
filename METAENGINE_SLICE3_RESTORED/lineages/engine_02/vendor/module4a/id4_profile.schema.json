@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/module/id4-0.1.json",
+  "title": "ID4-0.1 Identity Profile",
+  "type": "object",
+  "required": [
+    "module_id",
+    "version",
+    "domain_object",
+    "mode",
+    "candidate_criterion",
+    "allowed_change",
+    "termination_condition",
+    "identity_maker_status",
+    "revision_trigger"
+  ],
+  "properties": {
+    "module_id": {
+      "const": "ID4"
+    },
+    "version": {
+      "const": "0.1"
+    },
+    "domain_object": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mode": {
+      "enum": [
+        "SYNCHRONIC",
+        "DIACHRONIC",
+        "CROSS_REALIZATION",
+        "TYPE_TOKEN",
+        "BELONGING",
+        "OTHER",
+        "UNRESOLVED"
+      ]
+    },
+    "candidate_criterion": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "allowed_change": {
+      "type": "string",
+      "minLength": 1
+    },
+    "termination_condition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reidentification_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "identity_maker_status": {
+      "enum": [
+        "EVIDENCE_ONLY",
+        "CONSTITUTIVE_CONDITION",
+        "CAUSAL_CONTINUITY",
+        "NORMATIVE_RULE",
+        "RECONSTRUCTIVE_HYPOTHESIS",
+        "UNRESOLVED"
+      ]
+    },
+    "fission_replacement": {
+      "type": "string"
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "revision_trigger": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

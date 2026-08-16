@@ -1,0 +1,11 @@
+{
+  "file": "/mnt/data/d4next/cross_corpus_run/ARISTOTLE/living/living_analysis.json",
+  "conformant": true,
+  "counts": {
+    "ERROR": 0,
+    "REVIEW": 0,
+    "WARNING": 0,
+    "INFO": 0
+  },
+  "issues": []
+}

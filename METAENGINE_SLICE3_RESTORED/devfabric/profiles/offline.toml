@@ -1,0 +1,4 @@
+profile = "offline"
+allow_external = false
+require_cloud_credentials = false
+zero_spend = true

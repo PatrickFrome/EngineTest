@@ -1,0 +1,138 @@
+{
+  "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+  "entries": [
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "source_record_id": "src.claude.1",
+      "source_class": "CLOSED_BEHAVIORAL_ONLY",
+      "license_name": "Proprietary",
+      "license_sha256": null,
+      "stored": false,
+      "blocker_reason": "CLOSED_NO_SOURCE_BYTES",
+      "entry_hash": "4a2d37044e1b3bbe98e7f09460820d03da340a9b39ce8f9078d067dd03f5177c"
+    },
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "source_record_id": "src.deepseek.1",
+      "source_class": "PERMISSIVE_CODE",
+      "license_name": "MIT (claimed; unverified in this environment)",
+      "license_sha256": null,
+      "stored": false,
+      "blocker_reason": "BLOCKED_NO_NETWORK",
+      "entry_hash": "f0dd2944842f543654a4e4665ba2bba93c18a4781a5669be1e9addba3ceb0a03"
+    },
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "source_record_id": "src.gemini-deep-think.1",
+      "source_class": "CLOSED_BEHAVIORAL_ONLY",
+      "license_name": "Proprietary",
+      "license_sha256": null,
+      "stored": false,
+      "blocker_reason": "CLOSED_NO_SOURCE_BYTES",
+      "entry_hash": "5816144ad5ac381558345a7d8f5d58d85ddcbafcae8492a6fa0f4865f484dcf4"
+    },
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "source_record_id": "src.glm.1",
+      "source_class": "PERMISSIVE_CODE",
+      "license_name": "MIT (claimed; unverified in this environment)",
+      "license_sha256": null,
+      "stored": false,
+      "blocker_reason": "BLOCKED_NO_NETWORK",
+      "entry_hash": "45bd019ce687d76c4e2803dc9d1414af6622507ff1aec09b4d2c664c5616b592"
+    },
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "source_record_id": "src.gpt-5.6.1",
+      "source_class": "CLOSED_BEHAVIORAL_ONLY",
+      "license_name": "Proprietary",
+      "license_sha256": null,
+      "stored": false,
+      "blocker_reason": "CLOSED_NO_SOURCE_BYTES",
+      "entry_hash": "6ba90639beebf60cfa04d0e02822def60c34100cb56a860a788e04980ce4d4dd"
+    },
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "source_record_id": "src.kimi-k3.1",
+      "source_class": "RESTRICTED_REFERENCE",
+      "license_name": "Moonshot custom license (reference-only)",
+      "license_sha256": null,
+      "stored": false,
+      "blocker_reason": "BLOCKED_NO_NETWORK",
+      "entry_hash": "667b20553d73a33a52da8e894923f1f8747a20d87da87f4c5369dd16936d53a2"
+    },
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "source_record_id": "src.kimi-linear.1",
+      "source_class": "PERMISSIVE_CODE",
+      "license_name": "MIT (claimed; unverified in this environment)",
+      "license_sha256": null,
+      "stored": false,
+      "blocker_reason": "BLOCKED_NO_NETWORK",
+      "entry_hash": "719272226402b0ea4350bab1a2888c92143d18a80ee9b214b43607d21d9bcd9f"
+    },
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "source_record_id": "src.llama4.1",
+      "source_class": "RESTRICTED_REFERENCE",
+      "license_name": "Llama Community License (custom; reference-only)",
+      "license_sha256": null,
+      "stored": false,
+      "blocker_reason": "BLOCKED_NO_NETWORK",
+      "entry_hash": "7eccfa6b869f8395fc6e31a914e9e712b375be913b24dbd86c79f6a95a766e2e"
+    },
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "d17f5a7c3a83542fdf8e77f47475afa647d04708d1d0893959f0e62810b4212b",
+      "size": 32049,
+      "source_record_id": "src.metaengine.design.1",
+      "source_class": "PERMISSIVE_CODE",
+      "license_name": "MetaEngine-Internal-Permissive",
+      "license_sha256": "42b5f3555de9358d6d7d753e365b58a8cddb1bbee2c2fc8fd43ccd48693159e3",
+      "stored": true,
+      "blocker_reason": null,
+      "entry_hash": "e558bf9381a2b80ca2ffd8bcd85606fba41d7a0335c8bbabc6e655863585b51e"
+    },
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "source_record_id": "src.mistral.1",
+      "source_class": "PERMISSIVE_CODE",
+      "license_name": "Apache-2.0 (claimed; unverified in this environment)",
+      "license_sha256": null,
+      "stored": false,
+      "blocker_reason": "BLOCKED_NO_NETWORK",
+      "entry_hash": "8d59a76c61b3c2a00df417a254c21f59150c875d120e1ef173657f175965195f"
+    },
+    {
+      "vault_version": "METAENGINE-REFERENCE-VAULT-1",
+      "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 0,
+      "source_record_id": "src.qwen.1",
+      "source_class": "PERMISSIVE_CODE",
+      "license_name": "Apache-2.0 (claimed; unverified in this environment)",
+      "license_sha256": null,
+      "stored": false,
+      "blocker_reason": "BLOCKED_NO_NETWORK",
+      "entry_hash": "0dcc3a12ec600e4d1ec37b86f3644f28aaf4bc3ebdaa4ddac532e5f94a095c10"
+    }
+  ],
+  "vault_hash": "474469408cdf60a05f09765e57fe63a9560b19d42713de4e6fb6a43819b7cf03"
+}

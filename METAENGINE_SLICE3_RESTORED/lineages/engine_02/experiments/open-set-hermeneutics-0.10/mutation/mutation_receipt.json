@@ -1,0 +1,71 @@
+{
+  "mutation_engine_version": "DAE-OPERATOR-MUTATION-1.3",
+  "evaluated_at": "2026-08-11T17:17:01.513Z",
+  "delta_id": "DELTA-DESCARTES-OPENSET-001",
+  "baseline_registry_sha256": "22b0529e368b217641b991dc2c34a863fda5861d147e3cbb2cd8300dfc5785df",
+  "candidate_registry_sha256": "de7df70f7518592c5c2dec43c09f1d2ac064c60a31eee3c13564d35f49ee3d46",
+  "target_before_sha256": "b75fc9d86aaf372aac03e44ef30bf95032473911df1524cf86e8a4f23d2590dd",
+  "target_after_sha256": "f553d0db478e02911df180700edb0a9ec2d2401e45cfda9fe053b8211fcf765b",
+  "runtime_reachability": "FULL",
+  "executable_probe": {
+    "probe_text_sha256": "feb47120034ce9f9a3895d6b9bcc658f4fff13ff8419fb9835b9a4228a5123f2",
+    "before": {
+      "operator_id": "__ABSENT__",
+      "active": false,
+      "matched_triggers": []
+    },
+    "after": [
+      {
+        "operator_id": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+        "matches": [
+          "thinking",
+          "understanding",
+          "exist",
+          "mind",
+          "thought"
+        ],
+        "active": true
+      }
+    ],
+    "behavior_changed": true
+  },
+  "built_in_negative_tests": [
+    {
+      "name": "candidate differs from baseline",
+      "passed": true
+    },
+    {
+      "name": "operator ids unique after mutation",
+      "passed": true
+    },
+    {
+      "name": "protocol refs preserved or suspension explicit",
+      "passed": true
+    },
+    {
+      "name": "same source fixture enforced",
+      "passed": true
+    }
+  ],
+  "decision": {
+    "decision": "ACCEPTED_CANDIDATE",
+    "promotion_ready": true,
+    "gates": {
+      "structurally_and_semantically_valid": true,
+      "resistant_source_bound_to_same_fixture": true,
+      "incompatible_unitizations_present": true,
+      "new_distinction_present": true,
+      "source_traceability_non_degrading": true,
+      "negative_tests_pass": true,
+      "runtime_reachability_full": true,
+      "mutation_effect_observed": true
+    },
+    "reason": "The delta changes an executable operator under a same-source before/after fixture, adds GG1, preserves traceability and passes negative gates."
+  },
+  "counts": {
+    "ERROR": 0,
+    "REVIEW": 0,
+    "WARNING": 0
+  },
+  "issues": []
+}

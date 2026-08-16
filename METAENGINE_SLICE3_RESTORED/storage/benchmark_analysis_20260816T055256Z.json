@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-08-16T05:52:56Z",
+  "total_results": 30,
+  "categories": {
+    "ARITHMETIC": {
+      "category": "ARITHMETIC",
+      "total": 15,
+      "passed": 3,
+      "failed": 12,
+      "crashes": 0,
+      "avg_fitness": 0.5452,
+      "avg_det_score": 0.1905,
+      "avg_combined": 0.1905,
+      "avg_depth": 1.0,
+      "avg_constitution": 0.75,
+      "avg_runtime": 51.107,
+      "total_rival_forks": 105,
+      "total_sublations": 30,
+      "total_evidence_discriminators": 30,
+      "total_dialectical_nodes": 347,
+      "pass_rate": 0.2,
+      "common_failures": [],
+      "common_patterns": []
+    },
+    "LOGIC": {
+      "category": "LOGIC",
+      "total": 12,
+      "passed": 5,
+      "failed": 7,
+      "crashes": 0,
+      "avg_fitness": 0.5639,
+      "avg_det_score": 0.2278,
+      "avg_combined": 0.2278,
+      "avg_depth": 1.0,
+      "avg_constitution": 0.75,
+      "avg_runtime": 52.933,
+      "total_rival_forks": 80,
+      "total_sublations": 24,
+      "total_evidence_discriminators": 24,
+      "total_dialectical_nodes": 277,
+      "pass_rate": 0.4167,
+      "common_failures": [],
+      "common_patterns": []
+    },
+    "REASONING": {
+      "category": "REASONING",
+      "total": 3,
+      "passed": 0,
+      "failed": 3,
+      "crashes": 0,
+      "avg_fitness": 0.525,
+      "avg_det_score": 0.15,
+      "avg_combined": 0.15,
+      "avg_depth": 1.0,
+      "avg_constitution": 0.75,
+      "avg_runtime": 52.576,
+      "total_rival_forks": 21,
+      "total_sublations": 6,
+      "total_evidence_discriminators": 6,
+      "total_dialectical_nodes": 72,
+      "pass_rate": 0.0,
+      "common_failures": [],
+      "common_patterns": []
+    }
+  },
+  "patches_generated": 3,
+  "patches": [
+    {
+      "patch_id": "d00e9ec983632c18d5e19b6efbd918c9",
+      "patch_type": "ROUTING_HINT",
+      "target_module": "metaengine/learned_router.py",
+      "title": "Route numeric tasks to dedicated solver",
+      "rationale": "ARITHMETIC tasks have pass_rate=20.00% (3/15). MetaEngine is dialectical, not arithmetic — routing numeric tasks to a dedicated solver should improve pass_rate.",
+      "patch_content": {
+        "rule_name": "ROUTE_NUMERIC_TASKS_TO_DEDICATED_SOLVER",
+        "trigger_keywords": [
+          "multiplied by",
+          "factorial",
+          "square root",
+          "GCD",
+          "LCM",
+          "remainder"
+        ],
+        "action": "route_to_engine_05_or_external_calculator",
+        "applies_to_categories": [
+          "ARITHMETIC"
+        ],
+        "expected_improvement": "ARITHMETIC pass_rate from 20.00% to 0.7"
+      },
+      "confidence": 0.7,
+      "generated_at": "2026-08-16T05:52:56Z"
+    },
+    {
+      "patch_id": "6546330f506028c52f50c786e52f8b03",
+      "patch_type": "AMPLIFY_RULE",
+      "target_module": "metaengine/dspy_amplify.py",
+      "title": "Increase deep engines for LOGIC tasks",
+      "rationale": "LOGIC pass_rate=41.67%. Increasing deep engine count may surface more relevant perspectives.",
+      "patch_content": {
+        "rule_name": "INCREASE_DEEP_ENGINES_FOR_LOGIC",
+        "action": "max_deep_engines += 1",
+        "applies_to_categories": [
+          "LOGIC"
+        ],
+        "expected_improvement": "LOGIC pass_rate from 41.67% to 0.6"
+      },
+      "confidence": 0.5,
+      "generated_at": "2026-08-16T05:52:56Z"
+    },
+    {
+      "patch_id": "e0b91a9c1dbb45f828c4249faddeb03c",
+      "patch_type": "AMPLIFY_RULE",
+      "target_module": "metaengine/dspy_amplify.py",
+      "title": "Increase deep engines for REASONING tasks",
+      "rationale": "REASONING pass_rate=0.00%. Increasing deep engine count may surface more relevant perspectives.",
+      "patch_content": {
+        "rule_name": "INCREASE_DEEP_ENGINES_FOR_REASONING",
+        "action": "max_deep_engines += 1",
+        "applies_to_categories": [
+          "REASONING"
+        ],
+        "expected_improvement": "REASONING pass_rate from 0.00% to 0.6"
+      },
+      "confidence": 0.5,
+      "generated_at": "2026-08-16T05:52:56Z"
+    }
+  ]
+}

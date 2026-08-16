@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/resistance_discovery.schema.json",
+  "title": "Destruktion Resistant-Source Discovery Report",
+  "type": "object",
+  "required": ["resistance_discovery_version", "discovery_contract", "policy", "input", "summary", "cases", "claim_ceiling"],
+  "properties": {
+    "resistance_discovery_version": { "const": "DAE-RESISTANCE-DISCOVERY-1.0" },
+    "discovery_contract": {
+      "type": "object",
+      "required": ["automatic_source_semantics_claimed", "automatic_operator_acceptance", "promotion_from_discovery_forbidden"],
+      "properties": {
+        "automatic_source_semantics_claimed": { "const": false },
+        "automatic_operator_acceptance": { "const": false },
+        "promotion_from_discovery_forbidden": { "const": true }
+      }
+    },
+    "input": { "type": "object" },
+    "summary": { "type": "object" },
+    "policy": { "type": "object" },
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["case_id", "source_id", "selector", "status", "support", "signals", "incompatible_unitizations", "mutation_hypothesis", "review_requirements"],
+        "properties": {
+          "status": { "const": "DISCOVERY_HYPOTHESIS_REVIEW_REQUIRED" },
+          "incompatible_unitizations": { "type": "array", "minItems": 2 },
+          "operator_delta_seed": {
+            "type": "object",
+            "required": ["gateable", "promotion_forbidden", "suggested_delta"],
+            "properties": {
+              "gateable": { "const": false },
+              "promotion_forbidden": { "const": true }
+            }
+          }
+        }
+      }
+    },
+    "claim_ceiling": { "type": "string", "minLength": 1 }
+  }
+}

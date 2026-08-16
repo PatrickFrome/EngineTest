@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/external_validation_result.schema.json",
+  "type": "object",
+  "required": ["result_version", "campaign_id", "evaluated_at", "outcome", "systems", "pareto_front", "self_confirmation_audit", "claim_ceiling"],
+  "properties": {
+    "result_version": {"const": "DESTRUKTION-EXTERNAL-VALIDATION-RESULT-1.0"},
+    "campaign_id": {"type": "string"},
+    "evaluated_at": {"type": "string"},
+    "outcome": {"enum": ["BLOCKED_PENDING_EXTERNAL_DATA", "INVALID_CAMPAIGN", "DAE_DOMINATED_ON_FROZEN_SAMPLE", "DAE_PARETO_NONDOMINATED_ON_FROZEN_SAMPLE", "TRADEOFF_UNRESOLVED_ON_FROZEN_SAMPLE"]},
+    "systems": {"type": "object"},
+    "pareto_front": {"type": "array", "items": {"type": "string"}},
+    "self_confirmation_audit": {"type": "object"},
+    "claim_ceiling": {"type": "string"}
+  },
+  "additionalProperties": true
+}

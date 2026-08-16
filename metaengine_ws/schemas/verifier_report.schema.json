@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metaengine.local/schemas/verifier_report.schema.json",
+  "title": "MetaEngine 2.3 external verifier report",
+  "type": "object",
+  "required": ["verifier_version", "verification_status", "metrics", "hard_failures", "observed_outcome", "promotion_eligible", "candidate_hash", "verifier_hash"],
+  "properties": {
+    "verifier_version": {"const": "16X-EXTERNAL-OUTCOME-VERIFIER-2.3"},
+    "verification_status": {"enum": ["INSUFFICIENT_EXTERNAL_EVIDENCE", "EXTERNALLY_VERIFIED", "EXTERNAL_VERIFICATION_FAILED"]},
+    "metrics": {"type": "object", "additionalProperties": {"type": "number"}},
+    "hard_failures": {"type": "array", "items": {"type": "string"}},
+    "observed_outcome": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "promotion_eligible": {"type": "boolean"},
+    "candidate_hash": {"type": "string"},
+    "verifier_hash": {"type": "string", "minLength": 64, "maxLength": 64}
+  },
+  "additionalProperties": true
+}

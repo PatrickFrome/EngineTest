@@ -1,0 +1,80 @@
+{
+  "k0_version": "METAENGINE-CONSTITUTION-K0-1",
+  "invariants": [
+    {
+      "id": "PROVENANCE_PRIMARY_EVIDENCE",
+      "statement": "Derived context never silently replaces primary evidence.",
+      "legacy_guardrail_ids": [
+        "ORIGINAL_SOURCE_IS_THE_ONLY_PRIMARY_EVIDENCE",
+        "DERIVED_CONTEXT_IS_GENERATIVE_ONLY"
+      ]
+    },
+    {
+      "id": "CANONICAL_NOT_SCIENTIFIC_TRUTH",
+      "statement": "Canonical integrity does not itself establish scientific truth.",
+      "legacy_guardrail_ids": []
+    },
+    {
+      "id": "NO_TRUTH_FROM_RANKING_OR_VOTING",
+      "statement": "Ranking, majority, reward, or popularity cannot promote a claim to truth by themselves.",
+      "legacy_guardrail_ids": [
+        "NO_TRUTH_PROMOTION_FROM_RANKING_OR_VOTING"
+      ]
+    },
+    {
+      "id": "PRESERVE_ABSTENTION",
+      "statement": "Missing, unknown, or abstained evidence cannot be silently converted to success, failure, or zero.",
+      "legacy_guardrail_ids": [
+        "ABSTENTION_MUST_BE_PRESERVED"
+      ]
+    },
+    {
+      "id": "MUTATION_REQUIRES_RECEIPT",
+      "statement": "Persistent mutation requires content-addressed provenance and evidence.",
+      "legacy_guardrail_ids": [
+        "EVERY_MUTATION_REQUIRES_A_RECEIPT"
+      ]
+    },
+    {
+      "id": "SEPARATE_GENERATION_AND_PROMOTION",
+      "statement": "A generator cannot be its sole promotion authority.",
+      "legacy_guardrail_ids": []
+    },
+    {
+      "id": "FROZEN_EVALUATION_CONTRACT",
+      "statement": "An experiment cannot mutate its verifier or evaluator contract after execution starts.",
+      "legacy_guardrail_ids": [
+        "SELF_UPDATE_CANNOT_MUTATE_VERIFIERS_OR_SAFETY_BOUNDARY"
+      ]
+    },
+    {
+      "id": "NO_NORMAL_KERNEL_SELF_MUTATION",
+      "statement": "Normal architecture or policy evolution cannot modify K0 semantics.",
+      "legacy_guardrail_ids": [
+        "SELF_UPDATE_CANNOT_MUTATE_VERIFIERS_OR_SAFETY_BOUNDARY"
+      ]
+    },
+    {
+      "id": "NO_EXECUTABLE_SELF_MODIFICATION",
+      "statement": "Normal policy evolution cannot self-modify executable code.",
+      "legacy_guardrail_ids": [
+        "SELF_UPDATE_CANNOT_MUTATE_VERIFIERS_OR_SAFETY_BOUNDARY"
+      ]
+    },
+    {
+      "id": "PRIVACY_PERMISSION_FAIL_CLOSED",
+      "statement": "Secrets, privacy, permissions, and authority boundaries fail closed.",
+      "legacy_guardrail_ids": []
+    },
+    {
+      "id": "IMMUTABLE_HISTORY_WITH_SUPERSESSION",
+      "statement": "Historical lineage and evidence are not rewritten; later claims may supersede, narrow, contradict, or retract them.",
+      "legacy_guardrail_ids": []
+    },
+    {
+      "id": "ROLLBACK_RECOVERY_REQUIRED",
+      "statement": "Canonical promotion requires a defined recovery or rollback path.",
+      "legacy_guardrail_ids": []
+    }
+  ]
+}

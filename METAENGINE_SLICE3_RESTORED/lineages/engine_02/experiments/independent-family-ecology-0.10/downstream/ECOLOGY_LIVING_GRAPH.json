@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "node_id": "DLQ-0CEDA39434D4B3",
+      "node_type": "LOCAL_INQUIRY",
+      "window_id": "MW-001",
+      "selector_ids": [
+        "OX-P000004-7F3EC278E1",
+        "OX-P000005-AC515DACDC"
+      ],
+      "proposition": "Which local interrogative regime preserves the source-linked distinctions of W1 — Temporal enactment with the lowest distortion?",
+      "claim_ceiling": "QUESTION_NOT_VERDICT"
+    },
+    {
+      "node_id": "OP-TEMPORAL_ENACTMENT_SOURCE_BORN",
+      "node_type": "SOURCE_BORN_OPERATOR",
+      "window_id": null,
+      "selector_ids": [],
+      "proposition": "TEMPORAL_ENACTMENT_SOURCE_BORN",
+      "claim_ceiling": "ROUTING_OPERATOR_NOT_ONTOLOGY"
+    },
+    {
+      "node_id": "DLQ-2F012B85B3445A",
+      "node_type": "LOCAL_INQUIRY",
+      "window_id": "MW-002",
+      "selector_ids": [
+        "OX-P000007-DA969A8DA8",
+        "OX-P000008-64E5B5A08C"
+      ],
+      "proposition": "Which local interrogative regime preserves the source-linked distinctions of W2 — Practice and material mediation with the lowest distortion?",
+      "claim_ceiling": "QUESTION_NOT_VERDICT"
+    },
+    {
+      "node_id": "OP-PRACTICE_MEDIATION_SOURCE_BORN",
+      "node_type": "SOURCE_BORN_OPERATOR",
+      "window_id": null,
+      "selector_ids": [],
+      "proposition": "PRACTICE_MEDIATION_SOURCE_BORN",
+      "claim_ceiling": "ROUTING_OPERATOR_NOT_ONTOLOGY"
+    },
+    {
+      "node_id": "DLQ-7E827162A90135",
+      "node_type": "LOCAL_INQUIRY",
+      "window_id": "MW-003",
+      "selector_ids": [
+        "OX-P000010-47557663C0",
+        "OX-P000011-EEB6E1B4F4"
+      ],
+      "proposition": "Which local interrogative regime preserves the source-linked distinctions of W3 — Absence and trace with the lowest distortion?",
+      "claim_ceiling": "QUESTION_NOT_VERDICT"
+    },
+    {
+      "node_id": "OP-ABSENCE_DISCLOSURE_SOURCE_BORN",
+      "node_type": "SOURCE_BORN_OPERATOR",
+      "window_id": null,
+      "selector_ids": [],
+      "proposition": "ABSENCE_DISCLOSURE_SOURCE_BORN",
+      "claim_ceiling": "ROUTING_OPERATOR_NOT_ONTOLOGY"
+    },
+    {
+      "node_id": "DLQ-81230B70174702",
+      "node_type": "LOCAL_INQUIRY",
+      "window_id": "MW-004",
+      "selector_ids": [
+        "OX-P000013-52AACF230F",
+        "OX-P000014-C0EB878ECD"
+      ],
+      "proposition": "Which local interrogative regime preserves the source-linked distinctions of W4 — Geviert-style relation control with the lowest distortion?",
+      "claim_ceiling": "QUESTION_NOT_VERDICT"
+    },
+    {
+      "node_id": "OP-GEVIERT_CO_CONSTITUTIVE_GATHERING",
+      "node_type": "SOURCE_BORN_OPERATOR",
+      "window_id": null,
+      "selector_ids": [],
+      "proposition": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+      "claim_ceiling": "ROUTING_OPERATOR_NOT_ONTOLOGY"
+    },
+    {
+      "node_id": "DLQ-6FCDF8C2B50AAB",
+      "node_type": "LOCAL_INQUIRY",
+      "window_id": "MW-005",
+      "selector_ids": [
+        "OX-P000016-0A87B1FFB2",
+        "OX-P000017-FCB39A0844"
+      ],
+      "proposition": "Which local interrogative regime preserves the source-linked distinctions of W5 — Cross-family composition with the lowest distortion?",
+      "claim_ceiling": "QUESTION_NOT_VERDICT"
+    },
+    {
+      "node_id": "DLQ-AFD02D004054FE",
+      "node_type": "LOCAL_INQUIRY",
+      "window_id": "MW-006",
+      "selector_ids": [
+        "OX-P000019-A4CB9E295B",
+        "OX-P000020-BF0D2FE2FE"
+      ],
+      "proposition": "Which local interrogative regime preserves the source-linked distinctions of W6 — Descriptive negative control with the lowest distortion?",
+      "claim_ceiling": "QUESTION_NOT_VERDICT"
+    },
+    {
+      "node_id": "DLR-3E6C7F4EB9DC36",
+      "node_type": "LOCAL_RESIDUAL",
+      "window_id": "MW-006",
+      "selector_ids": [
+        "OX-P000019-A4CB9E295B",
+        "OX-P000020-BF0D2FE2FE"
+      ],
+      "proposition": "Local routing remains ABSTAIN_UNRESOLVED.",
+      "claim_ceiling": "RESIDUAL_REOPENS_QUESTION_NOT_EVIDENCE_OF_TRUTH"
+    },
+    {
+      "node_id": "BOUNDARY-MB-001",
+      "node_type": "HERMENEUTIC_BOUNDARY",
+      "window_id": null,
+      "selector_ids": [],
+      "proposition": "OPERATOR_REGIME_SHIFT: MW-001 → MW-002",
+      "claim_ceiling": "BOUNDARY_DESCRIPTOR_NOT_GLOBAL_THEORY"
+    },
+    {
+      "node_id": "BOUNDARY-MB-002",
+      "node_type": "HERMENEUTIC_BOUNDARY",
+      "window_id": null,
+      "selector_ids": [],
+      "proposition": "OPERATOR_REGIME_SHIFT: MW-002 → MW-003",
+      "claim_ceiling": "BOUNDARY_DESCRIPTOR_NOT_GLOBAL_THEORY"
+    },
+    {
+      "node_id": "BOUNDARY-MB-003",
+      "node_type": "HERMENEUTIC_BOUNDARY",
+      "window_id": null,
+      "selector_ids": [],
+      "proposition": "OPERATOR_REGIME_SHIFT: MW-003 → MW-004",
+      "claim_ceiling": "BOUNDARY_DESCRIPTOR_NOT_GLOBAL_THEORY"
+    },
+    {
+      "node_id": "BOUNDARY-MB-004",
+      "node_type": "HERMENEUTIC_BOUNDARY",
+      "window_id": null,
+      "selector_ids": [],
+      "proposition": "PARTIAL_OPERATOR_OVERLAP: MW-004 → MW-005",
+      "claim_ceiling": "BOUNDARY_DESCRIPTOR_NOT_GLOBAL_THEORY"
+    },
+    {
+      "node_id": "BOUNDARY-MB-005",
+      "node_type": "HERMENEUTIC_BOUNDARY",
+      "window_id": null,
+      "selector_ids": [],
+      "proposition": "OPEN_BOUNDARY: MW-005 → MW-006",
+      "claim_ceiling": "OPEN_BOUNDARY_MUST_NOT_BE_SYNTHESIZED_AWAY"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "DLE-0001",
+      "from": "DLQ-0CEDA39434D4B3",
+      "to": "OP-TEMPORAL_ENACTMENT_SOURCE_BORN",
+      "relation": "LOCALLY_TESTS"
+    },
+    {
+      "edge_id": "DLE-0002",
+      "from": "DLQ-2F012B85B3445A",
+      "to": "OP-PRACTICE_MEDIATION_SOURCE_BORN",
+      "relation": "LOCALLY_TESTS"
+    },
+    {
+      "edge_id": "DLE-0003",
+      "from": "DLQ-7E827162A90135",
+      "to": "OP-ABSENCE_DISCLOSURE_SOURCE_BORN",
+      "relation": "LOCALLY_TESTS"
+    },
+    {
+      "edge_id": "DLE-0004",
+      "from": "DLQ-81230B70174702",
+      "to": "OP-GEVIERT_CO_CONSTITUTIVE_GATHERING",
+      "relation": "LOCALLY_TESTS"
+    },
+    {
+      "edge_id": "DLE-0005",
+      "from": "DLQ-6FCDF8C2B50AAB",
+      "to": "OP-GEVIERT_CO_CONSTITUTIVE_GATHERING",
+      "relation": "LOCALLY_TESTS"
+    },
+    {
+      "edge_id": "DLE-0006",
+      "from": "DLQ-6FCDF8C2B50AAB",
+      "to": "OP-TEMPORAL_ENACTMENT_SOURCE_BORN",
+      "relation": "LOCALLY_TESTS"
+    },
+    {
+      "edge_id": "DLE-0007",
+      "from": "DLQ-AFD02D004054FE",
+      "to": "DLR-3E6C7F4EB9DC36",
+      "relation": "OPENS_RESIDUAL"
+    },
+    {
+      "edge_id": "DLE-0008",
+      "from": "DLQ-0CEDA39434D4B3",
+      "to": "BOUNDARY-MB-001",
+      "relation": "ENDS_AT_BOUNDARY"
+    },
+    {
+      "edge_id": "DLE-0009",
+      "from": "BOUNDARY-MB-001",
+      "to": "DLQ-2F012B85B3445A",
+      "relation": "REOPENS_AS"
+    },
+    {
+      "edge_id": "DLE-0010",
+      "from": "DLQ-2F012B85B3445A",
+      "to": "BOUNDARY-MB-002",
+      "relation": "ENDS_AT_BOUNDARY"
+    },
+    {
+      "edge_id": "DLE-0011",
+      "from": "BOUNDARY-MB-002",
+      "to": "DLQ-7E827162A90135",
+      "relation": "REOPENS_AS"
+    },
+    {
+      "edge_id": "DLE-0012",
+      "from": "DLQ-7E827162A90135",
+      "to": "BOUNDARY-MB-003",
+      "relation": "ENDS_AT_BOUNDARY"
+    },
+    {
+      "edge_id": "DLE-0013",
+      "from": "BOUNDARY-MB-003",
+      "to": "DLQ-81230B70174702",
+      "relation": "REOPENS_AS"
+    },
+    {
+      "edge_id": "DLE-0014",
+      "from": "DLQ-81230B70174702",
+      "to": "BOUNDARY-MB-004",
+      "relation": "ENDS_AT_BOUNDARY"
+    },
+    {
+      "edge_id": "DLE-0015",
+      "from": "BOUNDARY-MB-004",
+      "to": "DLQ-6FCDF8C2B50AAB",
+      "relation": "REOPENS_AS"
+    },
+    {
+      "edge_id": "DLE-0016",
+      "from": "DLQ-6FCDF8C2B50AAB",
+      "to": "BOUNDARY-MB-005",
+      "relation": "ENDS_AT_BOUNDARY"
+    },
+    {
+      "edge_id": "DLE-0017",
+      "from": "BOUNDARY-MB-005",
+      "to": "DLQ-AFD02D004054FE",
+      "relation": "REOPENS_AS"
+    }
+  ],
+  "raw_text_included": false
+}

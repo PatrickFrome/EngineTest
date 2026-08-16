@@ -1,0 +1,53 @@
+{
+  "allowed_use": [
+    "BEHAVIORAL_REFERENCE",
+    "PUBLIC_GOVERNANCE_REFERENCE"
+  ],
+  "architecture_claims": [
+    {
+      "claim_id": "claude-public-constitution",
+      "evidence_locator": "https://www.anthropic.com/constitution",
+      "kind": "PUBLISHER_CLAIM",
+      "statement": "Anthropic publishes a constitution describing behavioral principles; it is governance/training-policy evidence rather than internal model architecture."
+    }
+  ],
+  "blob_descriptors": [],
+  "blockers": [
+    "BEHAVIORAL_AND_GOVERNANCE_EVIDENCE_ONLY",
+    "NO_PUBLIC_INTERNAL_SOURCE"
+  ],
+  "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+  "exact_commit_or_release": "anthropic-constitution-page-retrieved-2026-08-13",
+  "forbidden_use": [
+    "HIDDEN_ARCHITECTURE_FACT",
+    "INTERNAL_SOURCE_ASSUMPTION",
+    "RUNTIME_DEPENDENCY"
+  ],
+  "ingestion_status": "REGISTERED_ONLY",
+  "license_evidence_locator": "https://www.anthropic.com/legal/consumer-terms",
+  "license_expression": "LicenseRef-Anthropic-Public-Documentation",
+  "license_name": "Anthropic proprietary public documentation",
+  "license_sha256": null,
+  "mechanism_candidates": [
+    {
+      "falsification_test": "Compare prose-only governance against compiled test cases on a fixed adversarial suite.",
+      "hypothesized_effect": "Reduce drift between stated principles and evaluated behavior.",
+      "mechanism_id": "constitution-derived-testing",
+      "semantic_definition": "Compile general behavioral principles into specific positive and adversarial conformance tests.",
+      "source_fact_boundary": "The public constitution establishes a principle corpus; implementation and causal transfer details remain unobserved.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ],
+  "official_source_locator": "https://www.anthropic.com/constitution",
+  "publisher": "Anthropic",
+  "record_sha256": "bd3ab4a6d86df54097101a9bd3b747fa76cff4d9428a98f612cc410933548002",
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "retained_reference_paths": [],
+  "retrieved_at": "2026-08-13T20:00:00Z",
+  "source_class": "CLOSED_BEHAVIORAL_ONLY",
+  "source_id": "anthropic-claude-public",
+  "source_sha256": null,
+  "source_sha256_scope": null,
+  "system_name": "Claude",
+  "version": "public-constitution-2026-08-13"
+}

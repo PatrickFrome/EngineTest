@@ -1,0 +1,21 @@
+{
+  "command": "compare current compiled kernel against minimal, OPA-style library, and synthesis alternatives",
+  "completed_step_commit": "73a3f4aab2dc18997db495d657aab5185ffc6958",
+  "evidence_hash": "bb6286889824e50e0e4e1eb158d3038c7f182ba74f81da83a80d914c4ddd7ac4",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "ARCHITECTURE_LIBRARY_COMPARATIVE_ANALYSIS",
+  "observed": {
+    "current": "JSON K0/K1 + Python compiler + explicit conformance matrix",
+    "external_reference_status": "PUBLIC_DOCUMENT_REFERENCE_SOURCE_BYTES_NOT_INGESTED_SLICE3_PENDING",
+    "library": "OPA-style policy decision/enforcement separation; useful pattern, runtime dependency deferred",
+    "minimal": "legacy tuple-only guardrails; rejected as incomplete and duplication-prone",
+    "references": [
+      "https://www.openpolicyagent.org/docs",
+      "https://www.anthropic.com/news/specific-versus-general-principles-for-constitutional-ai",
+      "https://www.anthropic.com/news/constitutional-ai-harmlessness-from-ai-feedback"
+    ],
+    "selected": "SYNTHESIS",
+    "synthesis": "compact general principles + declarative policy + explicit conformance tests + local fail-closed enforcement"
+  }
+}

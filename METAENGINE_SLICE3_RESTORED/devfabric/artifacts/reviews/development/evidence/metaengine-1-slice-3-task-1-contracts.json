@@ -1,0 +1,49 @@
+{
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "kind": "SLICE_3_SOURCE_CONTRACT_TDD",
+  "completed_step_id": "METAENGINE-1-SLICE-3-TASK-1",
+  "completed_step_commit": "223a5d1ff75f7bdd9e387b950ebb20ccd34b2ddd",
+  "commands": [
+    {
+      "phase": "RED",
+      "command": ".venv/bin/python -m pytest tests/test_architecture_sources.py tests/test_schemas.py::test_architecture_source_schemas_enforce_contract -q",
+      "exit_status": 2,
+      "observed": "ModuleNotFoundError: No module named 'metaengine.architecture_sources'"
+    },
+    {
+      "phase": "GREEN",
+      "command": ".venv/bin/python -m pytest tests/test_architecture_sources.py tests/test_schemas.py::test_architecture_source_schemas_enforce_contract -q",
+      "exit_status": 0,
+      "observed": "18 passed"
+    },
+    {
+      "phase": "FOCUSED_REGRESSION",
+      "command": ".venv/bin/python -m pytest tests/test_architecture_sources.py tests/test_schemas.py::test_all_schema_documents_compile tests/test_schemas.py::test_architecture_source_schemas_enforce_contract tests/test_constitution_kernel.py tests/test_organization_policy.py -q",
+      "exit_status": 0,
+      "observed": "37 passed"
+    },
+    {
+      "phase": "STATIC",
+      "command": ".venv/bin/python -m compileall -q metaengine && .venv/bin/ruff check metaengine/architecture_sources.py tests/test_architecture_sources.py tests/test_schemas.py && git diff --check",
+      "exit_status": 0,
+      "observed": "All checks passed"
+    }
+  ],
+  "file_sha256": {
+    "metaengine/architecture_sources.py": "3b53ed29a9641f65c39c6c7b0dbe0b6d5ad5cccd1e295f58d92ccc310d10fa37",
+    "schemas/architecture_source_record.schema.json": "af8969b5b9b81b52f340ab81449ae2d49695f8fdf791ca12170f908485dc6f1d",
+    "schemas/reference_vault_pack.schema.json": "d7e2df7e11dc63c54ccd7956b57e4e64651cc1b5a9ea5d8409c84537bbc34f19",
+    "tests/test_architecture_sources.py": "8021f60d672b6a988a258871e2da4c38a5c23f77c902d91d0e92d303e5c8a84b",
+    "tests/test_schemas.py": "d06ae3b03ab7e4d5536233e6b33c792a0facba696c0bec86292ef3d6609f6814"
+  },
+  "observed_contract": {
+    "source_classes": 3,
+    "ingestion_states": 4,
+    "maximum_slice_3_mechanism_status": "A1_MECHANISM_HYPOTHESIS",
+    "canonical_hash_algorithm": "sha256",
+    "runtime_dependencies_added": 0,
+    "network_calls_in_core": 0,
+    "cloud_writes": 0
+  },
+  "baseline_note": "Portable-recovery all-tests failures caused by intentionally absent generated/release assets remain a separately recorded baseline and were not treated as Slice 3 failures."
+}

@@ -1,0 +1,85 @@
+{
+  "allowed_use": [
+    "ANALYSIS",
+    "CLEAN_ROOM_REIMPLEMENTATION",
+    "REFERENCE"
+  ],
+  "architecture_claims": [
+    {
+      "claim_id": "deepseek-reference-code-retained",
+      "evidence_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/87e509a2e5a100d221c97df52c6e8be7835f0057/inference/model.py",
+      "kind": "SOURCE_FACT",
+      "statement": "The retained pack contains the official license, README, and selected inference model reference code from the pinned revision."
+    },
+    {
+      "claim_id": "deepseek-sparse-attention-publisher-claim",
+      "evidence_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/87e509a2e5a100d221c97df52c6e8be7835f0057/README.md",
+      "kind": "PUBLISHER_CLAIM",
+      "statement": "The official repository describes DeepSeek Sparse Attention as a fine-grained sparse-attention approach for long-context efficiency."
+    }
+  ],
+  "blob_descriptors": [
+    {
+      "digest": "6c73a30c14a2938abaa6afe98ebb19e6d81dac5bd4ace0cb05c61c20afa37b85",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "5c48bdc9f6ef95f725096ff5434012da927b516f",
+      "media_type": "text/plain",
+      "relative_path": "LICENSE",
+      "size": 1065
+    },
+    {
+      "digest": "dffcdf358a42599945d49293a4f210dbe589141085207b76c081c9ace1f8fd74",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "a281b2a2d4e6f1905e95954d86ea75a156c88d65",
+      "media_type": "text/markdown",
+      "relative_path": "README.md",
+      "size": 6899
+    },
+    {
+      "digest": "bfe5b89186b579910b6d59fa7e0cf1f7a75ceb4ec5d0f5b54f0ccbe77cdb6a63",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "666a3bf24da8a07aa66b139c966a6c3c4d86b125",
+      "media_type": "text/x-python",
+      "relative_path": "inference/model.py",
+      "size": 38639
+    }
+  ],
+  "blockers": [],
+  "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+  "exact_commit_or_release": "87e509a2e5a100d221c97df52c6e8be7835f0057",
+  "forbidden_use": [
+    "AUTOMATIC_PROMOTION",
+    "AUTOMATIC_RUNTIME_DEPENDENCY"
+  ],
+  "ingestion_status": "INGESTED",
+  "license_evidence_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/87e509a2e5a100d221c97df52c6e8be7835f0057/LICENSE",
+  "license_expression": "MIT",
+  "license_name": "MIT License",
+  "license_sha256": "6c73a30c14a2938abaa6afe98ebb19e6d81dac5bd4ace0cb05c61c20afa37b85",
+  "mechanism_candidates": [
+    {
+      "falsification_test": "Compare dense and sparse evidence selection under equal quality and compute budgets across at least two context regimes.",
+      "hypothesized_effect": "Reduce long-context compute while preserving task-relevant evidence.",
+      "mechanism_id": "sparse-evidence-attention",
+      "semantic_definition": "Select a bounded evidence subset before applying expensive full-resolution attention.",
+      "source_fact_boundary": "The public repository documents and exposes reference code for a sparse-attention design; causal transfer to MetaEngine is untested.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ],
+  "official_source_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/87e509a2e5a100d221c97df52c6e8be7835f0057",
+  "publisher": "DeepSeek AI",
+  "record_sha256": "8932cc6ce288a9b5985e0c35cc7979aac7c0970fcaa9d71ca2e7ddf06c05ec06",
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "retained_reference_paths": [
+    "LICENSE",
+    "README.md",
+    "inference/model.py"
+  ],
+  "retrieved_at": "2026-08-13T20:00:00Z",
+  "source_class": "PERMISSIVE_CODE",
+  "source_id": "deepseek-v3.2-exp-87e509a",
+  "source_sha256": "b0dde546f20d04fde3b975d8dd212254f49871e5bb69cecd3764086f6ffdcdc6",
+  "source_sha256_scope": "RETAINED_SOURCE_PACK",
+  "system_name": "DeepSeek-V3.2-Exp",
+  "version": "87e509a"
+}

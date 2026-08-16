@@ -1,0 +1,102 @@
+{
+  "local_adjudications": [
+    {
+      "window_id": "MW-001",
+      "heading": "W1 — Temporal enactment",
+      "epistemic_status": "QUALIFIED_LOCAL_ROUTING",
+      "selected_candidates": [
+        "TEMPORAL_ENACTMENT_SOURCE_BORN"
+      ],
+      "profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "residual_hints": [],
+      "unserved_signal_families": [],
+      "warrant": "Routing is qualified only by source-linked distinction gain and distortion loss; it is not a truth verdict.",
+      "claim_ceiling": "LOCAL_ROUTING_ADJUDICATION_NOT_AUTHORIAL_ONTOLOGY_OR_EXTERNAL_SEMANTIC_VALIDATION"
+    },
+    {
+      "window_id": "MW-002",
+      "heading": "W2 — Practice and material mediation",
+      "epistemic_status": "QUALIFIED_LOCAL_ROUTING",
+      "selected_candidates": [
+        "PRACTICE_MEDIATION_SOURCE_BORN"
+      ],
+      "profile_hints": [
+        "PRACTICE_MEDIATION"
+      ],
+      "residual_hints": [],
+      "unserved_signal_families": [],
+      "warrant": "Routing is qualified only by source-linked distinction gain and distortion loss; it is not a truth verdict.",
+      "claim_ceiling": "LOCAL_ROUTING_ADJUDICATION_NOT_AUTHORIAL_ONTOLOGY_OR_EXTERNAL_SEMANTIC_VALIDATION"
+    },
+    {
+      "window_id": "MW-003",
+      "heading": "W3 — Absence and trace",
+      "epistemic_status": "QUALIFIED_LOCAL_ROUTING",
+      "selected_candidates": [
+        "ABSENCE_DISCLOSURE_SOURCE_BORN"
+      ],
+      "profile_hints": [
+        "ABSENCE_DISCLOSURE"
+      ],
+      "residual_hints": [],
+      "unserved_signal_families": [],
+      "warrant": "Routing is qualified only by source-linked distinction gain and distortion loss; it is not a truth verdict.",
+      "claim_ceiling": "LOCAL_ROUTING_ADJUDICATION_NOT_AUTHORIAL_ONTOLOGY_OR_EXTERNAL_SEMANTIC_VALIDATION"
+    },
+    {
+      "window_id": "MW-004",
+      "heading": "W4 — Geviert-style relation control",
+      "epistemic_status": "QUALIFIED_LOCAL_ROUTING",
+      "selected_candidates": [
+        "GEVIERT_CO_CONSTITUTIVE_GATHERING"
+      ],
+      "profile_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "residual_hints": [],
+      "unserved_signal_families": [],
+      "warrant": "Routing is qualified only by source-linked distinction gain and distortion loss; it is not a truth verdict.",
+      "claim_ceiling": "LOCAL_ROUTING_ADJUDICATION_NOT_AUTHORIAL_ONTOLOGY_OR_EXTERNAL_SEMANTIC_VALIDATION"
+    },
+    {
+      "window_id": "MW-005",
+      "heading": "W5 — Cross-family composition",
+      "epistemic_status": "QUALIFIED_LOCAL_COMPOSITION",
+      "selected_candidates": [
+        "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+        "TEMPORAL_ENACTMENT_SOURCE_BORN"
+      ],
+      "profile_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "residual_hints": [],
+      "unserved_signal_families": [],
+      "warrant": "Routing is qualified only by source-linked distinction gain and distortion loss; it is not a truth verdict.",
+      "claim_ceiling": "LOCAL_ROUTING_ADJUDICATION_NOT_AUTHORIAL_ONTOLOGY_OR_EXTERNAL_SEMANTIC_VALIDATION"
+    },
+    {
+      "window_id": "MW-006",
+      "heading": "W6 — Descriptive negative control",
+      "epistemic_status": "INSUFFICIENT_LOCAL_ROUTING",
+      "selected_candidates": [],
+      "profile_hints": [],
+      "residual_hints": [],
+      "unserved_signal_families": [],
+      "warrant": "No available source-born operator is locally warranted; abstention is retained as information.",
+      "claim_ceiling": "LOCAL_ROUTING_ADJUDICATION_NOT_AUTHORIAL_ONTOLOGY_OR_EXTERNAL_SEMANTIC_VALIDATION"
+    }
+  ],
+  "global_adjudication": {
+    "epistemic_status": "POLYPHONIC_GLOBAL_ABSTENTION",
+    "thesis_allowed": false,
+    "global_selected_candidates": [],
+    "rationale": "Distinct local operator regimes or unresolved windows are present; a single global operator would erase source-linked heterogeneity."
+  }
+}

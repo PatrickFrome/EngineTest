@@ -1,0 +1,80 @@
+{
+  "actual_gate_writes": 0,
+  "captured_at": "2026-08-12",
+  "manifest_version": "METAENGINE-DEVFABRIC-CONNECTED-SERVICES-1",
+  "services": {
+    "antigravity": {
+      "canonical_authority": false,
+      "external": true,
+      "health": "OPTIONAL_CLI_UNAVAILABLE",
+      "p3_allowed": false,
+      "role": "optional_independent_ai_worker",
+      "write_intents": [],
+      "zero_spend_behavior": "FAIL_CLOSED_IF_QUOTA_UNKNOWN"
+    },
+    "create_state": {
+      "canonical_authority": false,
+      "external": true,
+      "health": "CONNECTED_READ_ONLY",
+      "p3_allowed": false,
+      "role": "semantic_memory_projection",
+      "write_intents": ["CAPTURE_MEMORY"]
+    },
+    "google_drive": {
+      "canonical_authority": false,
+      "external": true,
+      "health": "CONNECTED_READ_ONLY",
+      "p3_allowed": false,
+      "recovery_folder_available": true,
+      "role": "content_addressed_recovery_replica",
+      "write_intents": ["UPLOAD_ARTIFACT"]
+    },
+    "linear": {
+      "canonical_authority": false,
+      "external": true,
+      "health": "CONNECTED_READ_ONLY",
+      "p3_allowed": false,
+      "project_exists": false,
+      "role": "human_task_projection",
+      "team_available": true,
+      "write_intents": ["PROJECT_TASK"]
+    },
+    "neon": {
+      "canonical_authority": false,
+      "external": true,
+      "health": "RETIRED_BY_PROJECT_POLICY",
+      "p3_allowed": false,
+      "role": "disabled_disposable_database_sandbox",
+      "write_intents": []
+    },
+    "posthog": {
+      "canonical_authority": false,
+      "external": true,
+      "health": "CONNECTED_READ_ONLY",
+      "organization_available": true,
+      "p3_allowed": false,
+      "role": "privacy_minimized_development_telemetry",
+      "write_intents": ["EMIT_TELEMETRY"]
+    },
+    "replit": {
+      "canonical_authority": false,
+      "existing_apps_available": true,
+      "external": true,
+      "health": "CONNECTED_EXISTING_APPS_NEW_WORKER_BLOCKED_SUBSCRIPTION",
+      "p3_allowed": false,
+      "role": "optional_independent_worker",
+      "write_intents": [],
+      "zero_spend_behavior": "DO_NOT_CREATE_PAID_WORKER"
+    },
+    "supabase": {
+      "canonical_authority": true,
+      "external": true,
+      "health": "CONNECTED_READ_ONLY",
+      "p3_allowed": false,
+      "role": "sole_canonical_checkpoint_and_policy_authority",
+      "write_intents": ["APPEND_RECEIPT", "PROPOSE_CHECKPOINT"]
+    }
+  },
+  "stage": "C",
+  "zero_spend": true
+}

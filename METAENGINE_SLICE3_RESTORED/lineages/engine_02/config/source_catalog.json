@@ -1,0 +1,300 @@
+{
+  "catalog_version": "DAE-SOURCES-0.5",
+  "access_date": "2026-08-11",
+  "sources": {
+    "W4A-KANT-A158-B197": {
+      "citation": "Immanuel Kant, Critique of Pure Reason, A158/B197",
+      "kind": "PRIMARY",
+      "url": null,
+      "locator_quality": "EDITION_LOCATOR"
+    },
+    "W4A-KANT-SEP-CONCEPTUALISM": {
+      "citation": "Stanford Encyclopedia of Philosophy, Kant's Transcendental Idealism / conceptualism control",
+      "kind": "SECONDARY",
+      "url": "https://plato.stanford.edu/",
+      "locator_quality": "CATALOG_ONLY"
+    },
+    "W4A-01": {
+      "citation": "Edmund Husserl, Stanford Encyclopedia of Philosophy, Fall 2025",
+      "kind": "SECONDARY",
+      "url": "https://plato.stanford.edu/archives/fall2025/entries/husserl/",
+      "locator_quality": "STABLE_URL"
+    },
+    "W4A-02": {
+      "citation": "Martin Heidegger, Being and Time, section 31, Stambaugh/Schmidt p.141",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/pages/en/BeingandTimeSS/BeingandTimeSS.141.html",
+      "locator_quality": "SECTION_AND_PAGE"
+    },
+    "W4A-03": {
+      "citation": "Martin Heidegger, Being and Time, section 9, Stambaugh/Schmidt p.41",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/pages/en/BeingandTimeSS/BeingandTimeSS.041.html",
+      "locator_quality": "SECTION_AND_PAGE"
+    },
+    "W4A-04": {
+      "citation": "Martin Heidegger, Identity and Difference / Principle of Identity",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/hb/hbiddiff.html",
+      "locator_quality": "WORK_LEVEL"
+    },
+    "W4A-05": {
+      "citation": "Material Constitution, Stanford Encyclopedia of Philosophy, 2026",
+      "kind": "SECONDARY",
+      "url": "https://plato.stanford.edu/entries/material-constitution/",
+      "locator_quality": "STABLE_URL"
+    },
+    "W4A-06": {
+      "citation": "Identity Over Time, Stanford Encyclopedia of Philosophy, 2026",
+      "kind": "SECONDARY",
+      "url": "https://plato.stanford.edu/entries/identity-time/",
+      "locator_quality": "STABLE_URL"
+    },
+    "W4A-07": {
+      "citation": "Sortals, Stanford Encyclopedia of Philosophy, 2025",
+      "kind": "SECONDARY",
+      "url": "https://plato.stanford.edu/entries/sortals/",
+      "locator_quality": "STABLE_URL"
+    },
+    "W4A-08": {
+      "citation": "Biological Individuals, Stanford Encyclopedia of Philosophy, 2024",
+      "kind": "SECONDARY",
+      "url": "https://plato.stanford.edu/entries/biology-individual/",
+      "locator_quality": "STABLE_URL"
+    },
+    "W4A-09": {
+      "citation": "Gilbert Simondon official site, biography/ILFI synopsis",
+      "kind": "ORIENTATION_ONLY",
+      "url": "https://www.gilbert.simondon.fr/content/biography",
+      "locator_quality": "INSUFFICIENT_FOR_GOLD"
+    },
+    "HUSSERL-CM": {
+      "citation": "Edmund Husserl, Cartesian Meditations",
+      "kind": "PRIMARY",
+      "url": null,
+      "locator_quality": "SECTION_LOCATORS_REQUIRED"
+    },
+    "LEGACY-BR-A-2.22": {
+      "citation": "Destruktion legacy branch A, stage 2.22",
+      "kind": "INTERNAL_PROVENANCE",
+      "url": null,
+      "locator_quality": "INTERNAL"
+    },
+    "LEGACY-BR-A-2.23": {
+      "citation": "Destruktion legacy branch A, stage 2.23",
+      "kind": "INTERNAL_PROVENANCE",
+      "url": null,
+      "locator_quality": "INTERNAL"
+    },
+    "LEGACY-BR-A-2.24": {
+      "citation": "Destruktion legacy branch A, stage 2.24",
+      "kind": "INTERNAL_PROVENANCE",
+      "url": null,
+      "locator_quality": "INTERNAL"
+    },
+    "LEGACY-BR-A-2.25": {
+      "citation": "Destruktion legacy branch A, stage 2.25",
+      "kind": "INTERNAL_PROVENANCE",
+      "url": null,
+      "locator_quality": "INTERNAL"
+    },
+    "W4D-01": {
+      "citation": "Martin Heidegger, GA65 section 61, Machenschaft",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/pages/de/GA65/GA65.126.html",
+      "locator_quality": "SECTION_AND_PAGE"
+    },
+    "W4D-02": {
+      "citation": "Martin Heidegger, GA65 section 61 continuation",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/pages/de/GA65/GA65.127.html",
+      "locator_quality": "SECTION_AND_PAGE"
+    },
+    "W4D-03": {
+      "citation": "Martin Heidegger, GA7 Die Frage nach der Technik, pp.7-8",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/pages/de/GA07/GA07.007.html",
+      "locator_quality": "PAGE_RANGE"
+    },
+    "W4D-04": {
+      "citation": "Martin Heidegger, GA7 Die Frage nach der Technik, pp.20-22",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/pages/de/GA07/GA07.020.html",
+      "locator_quality": "PAGE_RANGE"
+    },
+    "W4D-05": {
+      "citation": "Martin Heidegger, GA7 Die Frage nach der Technik, pp.19,25,29,33-34",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/pages/de/GA07/GA07.019.html",
+      "locator_quality": "MULTIPLE_PAGES"
+    },
+    "W4D-06": {
+      "citation": "Martin Heidegger, GA79 Das Ge-Stell, pp.32,37,40-43,51",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/pages/de/GA79/GA79.032.html",
+      "locator_quality": "MULTIPLE_PAGES"
+    },
+    "W4D-07": {
+      "citation": "Martin Heidegger, GA7 Überwindung der Metaphysik, pp.78,96",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/pages/de/GA07/GA07.078.html",
+      "locator_quality": "MULTIPLE_PAGES"
+    },
+    "W4D-08": {
+      "citation": "Philosophy of Technology, Stanford Encyclopedia of Philosophy, revised 2026",
+      "kind": "SECONDARY_NATIVE_RIVAL",
+      "url": "https://plato.stanford.edu/entries/technology/",
+      "locator_quality": "STABLE_URL"
+    },
+    "W4D-09": {
+      "citation": "IEEE P8000.1 Trustworthiness of AI Working Group, 2026",
+      "kind": "TECHNICAL_GOVERNANCE_CONTROL",
+      "url": "https://sagroups.ieee.org/8000/",
+      "locator_quality": "WORKING_GROUP_PAGE_NOT_FINAL_STANDARD_TEXT"
+    },
+    "W4D-10": {
+      "citation": "IEEE 2863-2026 Organizational Governance of AI",
+      "kind": "TECHNICAL_GOVERNANCE_CONTROL",
+      "url": "https://standards.ieee.org/ieee/2863/10142/",
+      "locator_quality": "STANDARD_LANDING_PAGE"
+    },
+    "V38": {
+      "citation": "Вопрос о бытии и русский язык, каноническая редакция v3.8, 9 August 2026",
+      "kind": "INTERNAL_PRIMARY_SOURCE",
+      "url": null,
+      "locator_quality": "HASHED_DOCX_AND_CANONICAL_MARKDOWN_LINES"
+    },
+    "HGA-KLOSTERMANN-PLAN": {
+      "citation": "Vittorio Klostermann, Martin Heidegger Gesamtausgabe — Editionsplan, accessed 11 August 2026",
+      "kind": "OFFICIAL_EDITION_METADATA",
+      "url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan",
+      "locator_quality": "VOLUME_LEVEL_BIBLIOGRAPHY_NOT_PRIMARY_TEXT"
+    },
+    "HGA-BEYNG-CATALOG": {
+      "citation": "Ereignis / beyng.com, Heidegger Gesamtausgabe navigation index, accessed 11 August 2026",
+      "kind": "SECONDARY_NAVIGATION_INDEX",
+      "url": "https://www.beyng.com/hb/gesamt.html",
+      "locator_quality": "NAVIGATION_ONLY_NOT_BIBLIOGRAPHIC_AUTHORITY"
+    },
+    "HGA-GA01-P001": {
+      "citation": "Martin Heidegger, GA 1 Frühe Schriften, Das Realitätsproblem in der modernen Philosophie, p. 1, digital access copy",
+      "kind": "PRIMARY_ACCESS_COPY",
+      "url": "https://www.beyng.com/pages/de/GA01/GA01.001.html",
+      "locator_quality": "GA_VOLUME_AND_PAGE_WITH_EDITION_RECONCILIATION_PENDING"
+    },
+    "HGA-BEYNG-GA01-TOC": {
+      "citation": "Ereignis / beyng.com, GA 1 Frühe Schriften table of contents, accessed 11 August 2026",
+      "kind": "SECONDARY_NAVIGATION_INDEX",
+      "url": "https://www.beyng.com/pages/de/GA01/GA01.ToC.html",
+      "locator_quality": "WORK_BOUNDARY_NAVIGATION_ONLY_REFERENCE_USE"
+    },
+    "HGA-PJ25-1912-REALITAET": {
+      "citation": "Martin Heidegger, Das Realitätsproblem in der modernen Philosophie, Philosophisches Jahrbuch 25 (1912), pp. 353–363, journal archive scan",
+      "kind": "PRIMARY_ORIGINAL_PUBLICATION_DIGITAL_ARCHIVE",
+      "url": "https://philosophisches-jahrbuch.de/wp-content/uploads/2018/10/PJ25_S353-363_Heidegger_Das-Realit%C3%A4tsproblem-in-der-modernen-Philosophie.pdf",
+      "locator_quality": "JOURNAL_VOLUME_AND_PRINTED_PAGE; GA1_WORK_LEVEL_CROSSWALK"
+    },
+    "HGA-USER-DOSSIER-GA01-REALITAET-2026": {
+      "citation": "User-supplied composite research dossier, GA 1_1 — Das Realitätsproblem in der modernen Philosophie, DOCX created 9 August 2026, sha256:10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+      "kind": "USER_SUPPLIED_COMPOSITE_RESEARCH_DOSSIER",
+      "url": null,
+      "locator_quality": "CONTENT_HASH_AND_RENDERER_DERIVED_PAGE; NOT_PRIMARY_GA_TEXT"
+    },
+    "HGA-SEC-BECOMING-HEIDEGGER": {
+      "citation": "Theodore Kisiel and Thomas Sheehan (eds.), Becoming Heidegger, 2nd rev. ed., New Yearbook for Phenomenology and Phenomenological Philosophy IX, 2009/2010, pp. 19–32",
+      "kind": "SCHOLARLY_EDITION_AND_SECONDARY_FRAMING",
+      "url": "https://www.newyearbook-phenomenology.com/published-volumes.html",
+      "locator_quality": "VOLUME_AND_PAGE_RANGE"
+    },
+    "HGA-SEC-BARASH-2003": {
+      "citation": "Jeffrey Andrew Barash, Martin Heidegger and the Problem of Historical Meaning, 2nd rev. ed., Fordham University Press, 2003",
+      "kind": "SECONDARY_RESEARCH",
+      "url": "https://www.fordhampress.com/9780823292158/martin-heidegger-and-the-problem-of-historical-meaning/",
+      "locator_quality": "BOOK_AND_CHAPTER; QUOTED_PASSAGES_REQUIRE_EDITION_PAGES"
+    },
+    "HGA-SEC-JANI-2017": {
+      "citation": "Anna Jani, Das Realitätsproblem beim frühen Heidegger und eine Reflexion von Scheler auf die Realität der Welt, in Perspektiven mit Heidegger, 2017, pp. 117–131",
+      "kind": "SECONDARY_RESEARCH",
+      "url": "https://real.mtak.hu/72999/",
+      "locator_quality": "REPOSITORY_METADATA_AND_BOOK_PAGE_RANGE"
+    },
+    "HGA-SEC-GLAZEBROOK-2001": {
+      "citation": "Trish Glazebrook, Heidegger and Scientific Realism, Continental Philosophy Review 34(4), 2001, pp. 361–401",
+      "kind": "SECONDARY_RESEARCH",
+      "url": "https://doi.org/10.1023/A:1013148922905",
+      "locator_quality": "DOI_AND_PAGE_RANGE"
+    },
+    "EXT-W3C-SHACL": {
+      "citation": "W3C, Shapes Constraint Language (SHACL), Recommendation, 20 July 2017",
+      "kind": "OFFICIAL_STANDARD",
+      "url": "https://www.w3.org/TR/shacl/",
+      "locator_quality": "STABLE_URL"
+    },
+    "EXT-W3C-PROV-O": {
+      "citation": "W3C, PROV-O: The PROV Ontology, Recommendation, 30 April 2013",
+      "kind": "OFFICIAL_STANDARD",
+      "url": "https://www.w3.org/TR/prov-o/",
+      "locator_quality": "STABLE_URL"
+    },
+    "EXT-W3C-WEB-ANNOTATION": {
+      "citation": "W3C, Web Annotation Data Model, Recommendation, 23 February 2017",
+      "kind": "OFFICIAL_STANDARD",
+      "url": "https://www.w3.org/TR/annotation-model/",
+      "locator_quality": "VERSIONED_RECOMMENDATION"
+    },
+    "EXT-TEI-P5-PB": {
+      "citation": "Text Encoding Initiative, TEI P5 element pb (page beginning), P5 4.12.0",
+      "kind": "OFFICIAL_COMMUNITY_STANDARD",
+      "url": "https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-pb.html",
+      "locator_quality": "CURRENT_VERSIONED_DOCUMENTATION"
+    },
+    "EXT-IIIF-PRESENTATION-3": {
+      "citation": "IIIF, Presentation API 3.0, Manifest/Canvas/Range model",
+      "kind": "OFFICIAL_COMMUNITY_STANDARD",
+      "url": "https://iiif.io/api/presentation/3.0/",
+      "locator_quality": "VERSIONED_SPECIFICATION"
+    },
+    "EXT-AIF-2006": {
+      "citation": "Chesñevar et al., Towards an Argument Interchange Format, Knowledge Engineering Review 21(4), 2006",
+      "kind": "PRIMARY_RESEARCH",
+      "url": "https://doi.org/10.1017/S0269888906001044",
+      "locator_quality": "DOI"
+    },
+    "EXT-CARNEADES-2007": {
+      "citation": "Gordon, Prakken and Walton, The Carneades model of argument and burden of proof, Artificial Intelligence 171, 2007",
+      "kind": "PRIMARY_RESEARCH",
+      "url": "https://doi.org/10.1016/j.artint.2007.04.010",
+      "locator_quality": "DOI"
+    },
+    "EXT-RO-CRATE-1.3": {
+      "citation": "RO-Crate Metadata Specification 1.3",
+      "kind": "OFFICIAL_COMMUNITY_STANDARD",
+      "url": "https://www.researchobject.org/ro-crate/specification/1.3/",
+      "locator_quality": "VERSIONED_STABLE_URL"
+    },
+    "EXT-NANOPUB": {
+      "citation": "Nanopublication Guidelines, assertion/provenance/publication-info model",
+      "kind": "OFFICIAL_COMMUNITY_GUIDELINE",
+      "url": "https://nanopub.net/guidelines/working_draft/",
+      "locator_quality": "WORKING_DRAFT"
+    },
+    "EXT-OSF-PREREG": {
+      "citation": "Center for Open Science, OSF Registrations and Preregistrations",
+      "kind": "OFFICIAL_PLATFORM_GUIDANCE",
+      "url": "https://help.osf.io/article/330-welcome-to-registrations",
+      "locator_quality": "STABLE_GUIDANCE_URL"
+    },
+    "EXT-KRIPPENDORFF-ALPHA": {
+      "citation": "Klaus Krippendorff, Computing Krippendorff's Alpha-Reliability, 2011",
+      "kind": "PRIMARY_METHOD_SOURCE",
+      "url": "https://repository.upenn.edu/entities/publication/034a6030-c584-4d14-9d3d-7b7e8d16df20",
+      "locator_quality": "INSTITUTIONAL_REPOSITORY"
+    },
+    "EXT-INCEPTION": {
+      "citation": "INCEpTION User Guide, agreement and adjudication workflow",
+      "kind": "OFFICIAL_SOFTWARE_DOCUMENTATION",
+      "url": "https://inception-project.github.io/documentation/latest/user-guide",
+      "locator_quality": "CURRENT_DOCUMENTATION"
+    }
+  }
+}

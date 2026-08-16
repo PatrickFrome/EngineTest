@@ -1,0 +1,39 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "HGA-CATALOG-SOURCE-AUDIT-001",
+  "protocol_id": "V38-SOURCE-AUDIT",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "HGA-CATALOG-2026-08-11",
+    "description": "Сопоставление официального издательского Editionsplan с навигационным индексом beyng.com.",
+    "source_refs": ["HGA-KLOSTERMANN-PLAN", "HGA-BEYNG-CATALOG"]
+  },
+  "operator": {
+    "agent_id": "dae-ga-pilot",
+    "role": "automated-method-audit"
+  },
+  "started_at": "2026-08-11T04:20:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "SOURCE_IDENTIFIED": {
+      "status": "YES",
+      "evidence_refs": ["HGA-KLOSTERMANN-PLAN", "HGA-BEYNG-CATALOG"],
+      "note": "Разведены официальный издательский план и вторичный навигационный индекс."
+    },
+    "TEXT_ORDERS": {
+      "status": "YES",
+      "evidence_refs": ["HGA-KLOSTERMANN-PLAN#GA1", "HGA-GA01-P001#p.1"],
+      "note": "Дата исходного текста, поздняя редакция тома, место в GA и дата цифрового доступа представлены разными полями."
+    },
+    "GENRE_WEIGHT": {
+      "status": "YES",
+      "note": "Editionsplan доказывает библиографический состав, но не содержание философских тезисов; beyng.com служит доступом и навигацией. Требуется человеческая аттестация этого жанрового решения."
+    },
+    "SOURCE_PROJECT_SEPARATED": {
+      "status": "YES",
+      "evidence_refs": ["HGA-KLOSTERMANN-PLAN#catalog", "HGA-BEYNG-CATALOG#navigation"],
+      "note": "Каталожные сведения не преобразованы в авторские тезисы Хайдеггера."
+    }
+  },
+  "declared_outcome": "REVIEW"
+}

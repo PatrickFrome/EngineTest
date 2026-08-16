@@ -1,0 +1,146 @@
+{
+  "record_id": "4D-BS4-HUMAN-RESOURCEIZATION-TENSION",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4D-05#human-not-mere-reserve",
+      "W4D-06#qualified-Bestand-Stueck"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4D-0.1-DOCX-RECONSTRUCTION + DAE-0.1",
+    "agent": "dae-4d-reconstruction-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4D-0.1-DOCX"
+    ],
+    "activity_id": "MODULE-MIGRATION-4D-0.1-ENGINE-RECONSTRUCTION",
+    "timestamp": "2026-08-11T12:30:00Z",
+    "artifact_hash": "sha256:b0a3e5039fda3ec05d01352139e6fcb3add10d89ba38953a7450787a2751c276"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "GA7 says the human, as originally challenged into ordering, never becomes merely standing-reserve.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "ASSERTED",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-05#human-not-mere-reserve"
+    ]
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "GA79 says the human can be a qualified Bestand-Stück in a way explicitly different from a machine.",
+    "claim_facets": {
+      "basis": [
+        "MIXED"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-05#human-not-mere-reserve",
+      "W4D-06#qualified-Bestand-Stueck"
+    ]
+  },
+  "transition": {
+    "inference_mode": "UNRESOLVED",
+    "relation": {
+      "rt_id": "RT00"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "RT00 preserves a genuine cross-text tension instead of forcing identity, contradiction or harmonization before expert review.",
+      "support_refs": [
+        "W4D-05#human-not-mere-reserve",
+        "W4D-06#qualified-Bestand-Stueck"
+      ],
+      "discriminator": "Show availability, substitutability and demand linkage together; mere usefulness is insufficient."
+    }
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G3",
+    "gap": "SMALL",
+    "bridge_burden": "Preserve textual tension and test concrete substitutability, scheduling and replacement mechanisms."
+  },
+  "audit": {
+    "native_domain": "Heidegger studies / philosophy of technology",
+    "native_method": "primary-text reconstruction plus typed technology discrimination",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "UNDERDETERMINATION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY",
+      "DISCRIMINATOR",
+      "SCOPE_CONTROL",
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "HIGH",
+    "cost_note": "Module schemas were reconstructed from the supplied DOCX because the asserted JSON toolkit was not provided."
+  },
+  "rivals": [
+    {
+      "description": "Heidegger excludes humans from standing-reserve without qualification.",
+      "relation_rt_id": "RT02",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Test both source passages and the force of 'merely'."
+    },
+    {
+      "description": "Heidegger reduces humans to machines in standing-reserve.",
+      "relation_rt_id": "RT03",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Test the explicit denial of simple human-machine identity."
+    }
+  ],
+  "extensions": {
+    "bs4": {
+      "module_id": "BS4",
+      "version": "0.1-engine-reconstruction",
+      "availability": "Readiness and on-call status must be traced through an explicit operational demand chain.",
+      "substitutability": "Replacement is indexed to system function and may not erase object or agent differences outside that function.",
+      "demand_linkage": "The record must identify the order, schedule, allocation or dispatch relation that calls the entity into availability.",
+      "autonomy_shift": "Isolated objecthood recedes relative to system function without being declared metaphysically unreal.",
+      "context_dependence": "The same entity may be disclosed and handled differently in another practice.",
+      "reversibility": "Test whether redesign, withdrawal or practice change can alter resourceization without destroying the entity.",
+      "counterdescription": "Artifact/function/organization analysis may explain the case without a strong standing-reserve diagnosis.",
+      "discriminator": "Show availability, substitutability and demand linkage together; mere usefulness is insufficient.",
+      "revision_trigger": "A counterdescription explains the same operational facts with lower ontological cost or the relation changes across contexts.",
+      "resourceization_level": "CONTESTED",
+      "human_case": "CONTESTED"
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "UNRESOLVED",
+      "relation_rationale": "RT00 preserves a genuine cross-text tension instead of forcing identity, contradiction or harmonization before expert review.",
+      "semantic_review_status": "STRUCTURAL_ONLY",
+      "human_review_required": true,
+      "review_notes": [
+        "Original 4D JSON records and schemas were not attached; this record is an engine reconstruction from the DOCX specification.",
+        "Verify source passages, relation type, unitization and module field values before expert promotion."
+      ]
+    }
+  },
+  "outcome": "UNDERDETERMINED",
+  "open_questions": [
+    "Does the module discriminator add explanatory value beyond the strongest native counterprofile?"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/module/ma4-0.1.json",
+  "title": "MA4-0.1 Machenschaft / Makeability Profile",
+  "type": "object",
+  "required": [
+    "module_id",
+    "version",
+    "source_period",
+    "bearer_level",
+    "makeability_dimensions",
+    "calculability_relation",
+    "human_agency_status",
+    "scope",
+    "totalization_status",
+    "counterprofile",
+    "revision_trigger"
+  ],
+  "properties": {
+    "module_id": {
+      "const": "MA4"
+    },
+    "version": {
+      "const": "0.1"
+    },
+    "source_period": {
+      "type": "string",
+      "minLength": 1
+    },
+    "bearer_level": {
+      "enum": [
+        "HUMAN_PRACTICE",
+        "OBJECT_INTERPRETATION",
+        "BEINGNESS_INTERPRETATION",
+        "HISTORY_OF_BEING_DIAGNOSIS",
+        "OTHER",
+        "UNRESOLVED"
+      ]
+    },
+    "makeability_dimensions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "PRODUCIBILITY",
+          "PLANABILITY",
+          "CALCULABILITY",
+          "MANIPULABILITY",
+          "OBJECTIFIABILITY",
+          "PROCEDURALIZATION",
+          "STANDARDIZATION",
+          "SCALABILITY",
+          "SELF_MAKING_INTERPRETATION",
+          "OTHER",
+          "UNRESOLVED"
+        ]
+      }
+    },
+    "calculability_relation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "experience_relation": {
+      "type": "string"
+    },
+    "causality_relation": {
+      "type": "string"
+    },
+    "human_agency_status": {
+      "enum": [
+        "NOT_PRIMARY",
+        "PARTICIPATORY",
+        "PRIMARY",
+        "CONTESTED",
+        "UNRESOLVED"
+      ]
+    },
+    "scope": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "LOCAL_PRACTICE",
+          "SCIENCE",
+          "ENGINEERING",
+          "ECONOMY",
+          "POLITICS",
+          "CULTURE",
+          "METAPHYSICS",
+          "HISTORY_OF_BEING",
+          "OTHER"
+        ]
+      }
+    },
+    "totalization_status": {
+      "enum": [
+        "LOCAL",
+        "REGIONAL",
+        "STRONG_UNIVERSAL",
+        "INTERPRETER_ASSIGNED",
+        "CONTESTED",
+        "UNRESOLVED"
+      ]
+    },
+    "counterprofile": {
+      "type": "string",
+      "minLength": 1
+    },
+    "discriminator": {
+      "type": "string"
+    },
+    "revision_trigger": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

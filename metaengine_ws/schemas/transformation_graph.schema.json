@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Transformation Graph 2.0",
+  "type": "object",
+  "required": [
+    "graph_version",
+    "nodes",
+    "edges",
+    "metrics",
+    "claim_ceiling",
+    "graph_hash"
+  ],
+  "properties": {
+    "graph_version": {
+      "const": "16X-TRANSFORMATION-GRAPH-2.0"
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 17,
+      "items": {
+        "type": "object",
+        "required": [
+          "node_id",
+          "type",
+          "truth_effect"
+        ],
+        "properties": {
+          "node_id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "engine_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "round": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "metadata": {
+            "type": "object"
+          },
+          "truth_effect": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "from",
+          "to",
+          "kind",
+          "metadata",
+          "truth_effect"
+        ],
+        "properties": {
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "metadata": {
+            "type": "object"
+          },
+          "truth_effect": {
+            "const": "NONE"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "required": [
+        "node_count",
+        "edge_count",
+        "transformation_types",
+        "type_diversity",
+        "causal_depth",
+        "source_reground_count",
+        "peer_pairs",
+        "unresolved_tensions",
+        "cycle_pressure",
+        "topology_mutation_edges"
+      ]
+    },
+    "claim_ceiling": {
+      "type": "string"
+    },
+    "graph_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": false
+}

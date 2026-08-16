@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/module/ind4-0.1.json",
+  "title": "IND4-0.1 Individuation Profile",
+  "type": "object",
+  "required": [
+    "module_id",
+    "version",
+    "domain",
+    "candidate_unit",
+    "boundary_criterion",
+    "integration_mechanism",
+    "granularity",
+    "counterpartition",
+    "revision_trigger"
+  ],
+  "properties": {
+    "module_id": {
+      "const": "IND4"
+    },
+    "version": {
+      "const": "0.1"
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidate_unit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "boundary_criterion": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "PHENOMENAL",
+          "SPATIOTEMPORAL",
+          "CAUSAL_DYNAMIC",
+          "FUNCTIONAL",
+          "BIOLOGICAL",
+          "SOCIAL_INSTITUTIONAL",
+          "FORMAL_IDEAL",
+          "PROCESS_EVENT",
+          "EXISTENTIAL",
+          "TECHNICAL_DISTRIBUTED",
+          "OTHER",
+          "UNRESOLVED"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "integration_mechanism": {
+      "type": "string",
+      "minLength": 1
+    },
+    "granularity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nesting": {
+      "type": "string"
+    },
+    "overlap": {
+      "type": "string"
+    },
+    "counterpartition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "discriminator": {
+      "type": "string"
+    },
+    "revision_trigger": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

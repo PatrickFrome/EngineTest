@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/operator_regression_result.schema.json",
+  "title": "Destruktion operator cross-corpus regression result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "result_version",
+    "engine_version",
+    "generated_at",
+    "candidate_operator",
+    "outcome",
+    "operator_state",
+    "recommended_action",
+    "promotion_status",
+    "corpus_results",
+    "summary",
+    "claim_ceiling"
+  ],
+  "properties": {
+    "result_version": {"const": "DAE-OPERATOR-REGRESSION-RESULT-1.1"},
+    "engine_version": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "candidate_operator": {"type": "string"},
+    "outcome": {
+      "enum": [
+        "SURVIVES_CROSS_CORPUS_REGRESSION",
+        "QUARANTINE_OVERGENERALIZATION",
+        "RETIRE_NO_TRANSFER",
+        "REVIEW_MIXED"
+      ]
+    },
+    "operator_state": {
+      "enum": ["EXPERIMENTAL_TRANSFERABLE", "QUARANTINED", "RETIRED", "EXPERIMENTAL_UNRESOLVED"]
+    },
+    "recommended_action": {
+      "enum": ["RETAIN_EXPERIMENTAL_FOR_FURTHER_REGRESSION", "QUARANTINE_FROM_DEFAULT_ROUTING", "RETIRE_CANDIDATE", "REVISE_AND_RERUN"]
+    },
+    "promotion_status": {"const": "EXPERIMENTAL_NOT_CORE"},
+    "corpus_results": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "corpus_id",
+          "label",
+          "control_role",
+          "central_terms",
+          "coverage_ratio",
+          "operator_candidate",
+          "profile_hints",
+          "candidate_mutation_found",
+          "expectation_pass",
+          "checks"
+        ],
+        "properties": {
+          "corpus_id": {"type": "string"},
+          "label": {"type": "string"},
+          "control_role": {"type": "string"},
+          "central_terms": {"type": "array", "items": {"type": "string"}},
+          "coverage_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+          "operator_candidate": {"type": "string"},
+          "profile_hints": {"type": "array", "items": {"type": "string"}},
+          "candidate_mutation_found": {"type": "boolean"},
+          "expectation_pass": {"type": "boolean"},
+          "checks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["check", "passed", "observed", "expected"],
+              "properties": {
+                "check": {"type": "string"},
+                "passed": {"type": "boolean"},
+                "observed": {"type": "string"},
+                "expected": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "corpora",
+        "expectations_passed",
+        "positive_transfer_passed",
+        "negative_controls_passed",
+        "mixed_controls_passed",
+        "origin_passed",
+        "overgeneralization_detected"
+      ],
+      "properties": {
+        "corpora": {"type": "integer", "minimum": 3},
+        "expectations_passed": {"type": "integer", "minimum": 0},
+        "positive_transfer_passed": {"type": "integer", "minimum": 0},
+        "negative_controls_passed": {"type": "integer", "minimum": 0},
+        "mixed_controls_passed": {"type": "integer", "minimum": 0},
+        "origin_passed": {"type": "boolean"},
+        "overgeneralization_detected": {"type": "boolean"}
+      }
+    },
+    "claim_ceiling": {
+      "const": "INTERNAL_CROSS_CORPUS_OPERATOR_REGRESSION_NOT_EXTERNAL_PHILOSOPHICAL_VALIDATION_OR_CORE_PROMOTION"
+    }
+  }
+}

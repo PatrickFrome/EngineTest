@@ -1,0 +1,18 @@
+{
+  "run_id": "4D-EPOCHAL-INVALID-001",
+  "branch_id": "4D",
+  "engine_version": "0.2.3-alpha.1",
+  "core_version": "CORE 4.0.0-alpha.1",
+  "description": "Negative mutation: universal finalization before reconstruction and discrimination.",
+  "execution": [
+    {
+      "step": 1,
+      "record_id": "4D-GE4-PLANETARY-TOTALIZATION",
+      "record_path": "../4d_candidates/4D-GE4-PLANETARY-TOTALIZATION.json",
+      "module_id": "GE4",
+      "phase": "FINALIZATION",
+      "scope": "UNIVERSAL",
+      "bridge_status": "ABSENT"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Local-only example; never commit a real token.
+MCP_EDGE_TOKEN=replace-with-local-development-token

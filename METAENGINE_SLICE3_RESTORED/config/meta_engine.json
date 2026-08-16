@@ -1,0 +1,656 @@
+{
+  "meta_engine_id": "DESTRUKTION-16X-METAENGINE-2.3",
+  "version": "2.3.0-alpha.1",
+  "engine_count": 16,
+  "implementation_disclosure": "Engines 01-04 are local native executors. Engines 05-16 are clean-room reference simulations and are never counted as real frontier executors. Architectural influence is distinct from implementation equivalence.",
+  "principle": "All immutable lineages may contribute diagnostic structure, but only actual executor output can create transformations and only externally verified outcomes can update biographies or promote a declarative architecture policy. Candidate policies run as isolated parallel worlds under a generation freeze barrier. Self-update may change bounded topology, dialectic operators and budgets; it cannot mutate code, verifiers, guardrails, truth policy, benchmark or tool permissions.",
+  "barriers": [
+    "CAPABILITY_ROUTING",
+    "PARALLEL_DIAGNOSTIC_PRIMARY",
+    "PRIMARY_INTERWEAVE",
+    "PRIMARY_CLAIM_GRAPH",
+    "PRIMARY_DISAGREEMENT",
+    "SELF_ORGANIZING_SPARSE_DEEP_EXECUTION",
+    "TRANSFORMATION_GRAPH",
+    "ENGINE_BIOGRAPHY_UPDATE",
+    "CROSS_ENGINE_REVIEW",
+    "ADAPTIVE_ARBITRATION",
+    "FUSION_WITHOUT_ERASURE",
+    "PERSIST_AND_CHECKPOINT",
+    "PARALLEL_EXPERIMENT_COMPILE",
+    "PARALLEL_WORLD_EXECUTION",
+    "CROSS_WORLD_FREEZE_BARRIER",
+    "CROSS_WORLD_DIFFERENTIAL",
+    "FRONTIER_TASK_LEDGER",
+    "TYPED_HANDOFF_GUARDRAILS",
+    "CANDIDATE_EVALUATOR_ENSEMBLE",
+    "PROGRESS_LEDGER_REPLAN",
+    "SHADOW_POLICY_ACCEPTANCE_GATE",
+    "GENERATION_FROZEN_CHAMPION",
+    "PARALLEL_SHADOW_WORLDS",
+    "EXTERNAL_OUTCOME_VERIFIER",
+    "CONFIDENCE_AND_SAFETY_GATE",
+    "ATOMIC_POLICY_PROMOTION_OR_ROLLBACK"
+  ],
+  "invariants": {
+    "all_engines_scheduled_each_primary_wave": true,
+    "native_lineages_immutable": true,
+    "native_output_retained": true,
+    "missing_is_unavailable_not_zero": true,
+    "majority_is_not_truth": true,
+    "abstention_preserved": true,
+    "conflict_preserved_until_evidence_resolution": true,
+    "mutation_requires_receipt": true,
+    "database_backends_are_replicas_not_epistemic_authorities": true,
+    "degraded_lineage_cannot_claim_full_reproducibility": true,
+    "all_16_remain_scheduled_after_routing": true,
+    "routing_changes_role_not_membership": true,
+    "generative_output_is_not_truth_evidence": true,
+    "material_disagreement_blocks_promotion": true,
+    "claim_provenance_must_be_retained": true,
+    "arbitration_never_uses_simple_majority_as_truth": true,
+    "all_16_architectures_interwoven": true,
+    "all_directed_engine_pairs_have_bridge_contract": true,
+    "mixing_cannot_create_truth": true,
+    "hybrid_derived_artifacts_are_generative_only_until_native_evidence_gate": true,
+    "native_lineages_remain_byte_preserved": true,
+    "engines_01_04_receive_recursive_reentry": true,
+    "reentry_dossier_separates_primary_source_from_derived_context": true,
+    "reentry_outputs_are_second_order_generative": true,
+    "every_recursive_cycle_requires_source_regrounding": true,
+    "hermeneutic_depth_metrics_are_structural_proxies_not_truth": true,
+    "native_truth_positions_cannot_increase_from_reentry_alone": true,
+    "all_16_receive_two_polycentric_recursive_rounds": true,
+    "third_polycentric_round_requires_incremental_novelty": true,
+    "peer_presence_alone_does_not_count_as_novelty": true,
+    "later_recursive_weaves_preserve_prior_structural_agenda_links": true,
+    "polycentric_reentry_outputs_are_second_order_generative": true,
+    "useful_effects_are_logged_separately_from_truth_claims": true,
+    "adaptive_recursion_must_stop_when_novelty_collapses": true,
+    "all_16_receive_lightweight_diagnostic_primary": true,
+    "deep_execution_is_sparse_and_budgeted": true,
+    "expected_gain_is_scheduler_heuristic_not_truth": true,
+    "engine_biographies_are_contextual_not_global_authority_weights": true,
+    "temporary_coalitions_have_no_truth_authority": true,
+    "persistent_disagreement_can_mutate_topology": true,
+    "transformation_graph_edges_have_no_truth_effect": true,
+    "source_regrounding_required_after_derived_reentry": true,
+    "architecture_candidates_can_be_retained_quarantined_or_retired": true,
+    "recursive_echo_and_proliferation_can_stop_depth": true,
+    "typed_state_cache_is_hash_bound_not_semantic_guessing": true,
+    "core4_specialized_native_reentry_used_when_schema_valid": true,
+    "deep_execution_is_sparse_and_gain_budgeted": true,
+    "expected_gain_is_not_truth_weight": true,
+    "engine_biographies_are_contextual_priors_not_authority_scores": true,
+    "disagreement_can_reorganize_topology": true,
+    "transformation_graph_cannot_promote_truth": true,
+    "recursive_depth_requires_marginal_gain": true,
+    "architecture_candidates_can_be_generated_and_retired": true,
+    "typed_state_cache_requires_exact_hash_identity": true,
+    "source_regrounding_required_for_derived_reentry_promotion": true,
+    "parallel_worlds_are_isolated": true,
+    "experimental_worlds_cannot_update_shared_biographies_before_freeze": true,
+    "cold_worlds_use_isolated_cache": true,
+    "cross_world_comparison_occurs_only_after_freeze_barrier": true,
+    "ablation_worlds_are_explicitly_non_full16_experiments": true,
+    "topology_population_candidates_are_compared_without_truth_promotion": true,
+    "frontier_task_ledger_separates_facts_assumptions_and_unknowns": true,
+    "typed_handoffs_are_hash_bound_and_guarded": true,
+    "automated_candidate_ranking_has_no_epistemic_authority": true,
+    "progress_stall_can_replan_execution_but_not_claim_status": true,
+    "policy_evolution_is_shadow_only_until_external_acceptance": true,
+    "candidate_archive_preserves_pareto_diversity": true,
+    "unverified_results_cannot_update_biographies": true,
+    "static_type_maps_cannot_create_transformations": true,
+    "typed_handoff_must_reach_the_executor": true,
+    "reference_simulations_are_not_real_executors": true,
+    "self_update_is_declarative_not_arbitrary_code_generation": true,
+    "verifier_guardrails_truth_policy_and_permissions_are_immutable": true,
+    "policy_updates_occur_only_after_generation_freeze": true,
+    "promotion_requires_paired_external_outcomes_and_safety_noninferiority": true,
+    "every_promoted_policy_has_a_rollback_target": true
+  },
+  "parallelism": {
+    "default_max_workers": 16,
+    "barrier_timeout_seconds": 900
+  },
+  "backends": {
+    "local": "PORTABLE_APPEND_ONLY_RECORD",
+    "supabase": "SOLE_CANONICAL_CLOUD_LEDGER_AND_PROMOTION_AUTHORITY",
+    "neon": "RETIRED_NO_READS_NO_WRITES"
+  },
+  "engines": [
+    {
+      "engine_id": "engine_01",
+      "ordinal": 1,
+      "name": "Destruktion COMPLETE 0.13 — frame-atom externalization",
+      "version": "0.13.0-alpha.1",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "NODE_NATIVE",
+      "roles": [
+        "frame_atom_externalization",
+        "interrogative_induction",
+        "micro_local_ecology",
+        "operator_competition",
+        "cross_corpus_transfer",
+        "expert_cycle"
+      ],
+      "source_archive": "Engine_1.zip",
+      "source_archive_sha256": "f8bfd30ae447edffcb72059b3576ab79df73230ec856bf5677d73cf4335f2c87",
+      "native_test": {
+        "native": "DEGRADED_HISTORICAL_EVIDENCE",
+        "passed": 94,
+        "failed": 2,
+        "note": "two release-evidence tests reference missing historical src/engine.mjs"
+      },
+      "focus": null,
+      "stages": [],
+      "claim_ceiling": "NATIVE_CLAIM_CEILING_PRESERVED"
+    },
+    {
+      "engine_id": "engine_02",
+      "ordinal": 2,
+      "name": "Destruktion integrated 0.10 — open-set/operator evolution",
+      "version": "0.10.0-alpha.1",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "NODE_NATIVE",
+      "roles": [
+        "open_set_operator_discovery",
+        "reversible_operator_mutation",
+        "operator_evolution",
+        "external_validation_protocol",
+        "micro_local_operator_ecology"
+      ],
+      "source_archive": "Engine_2.zip",
+      "source_archive_sha256": "faec0824fc7d55993ef0eeb6e7c3d81f78a6cd5cae1a969c0d60ef4f3d4823f1",
+      "native_test": {
+        "native": "PASS",
+        "passed": 129,
+        "failed": 0
+      },
+      "focus": null,
+      "stages": [],
+      "claim_ceiling": "NATIVE_CLAIM_CEILING_PRESERVED"
+    },
+    {
+      "engine_id": "engine_03",
+      "ordinal": 3,
+      "name": "Destruktion UNIFIED 0.15 — shared semantic boundary",
+      "version": "0.15.0-alpha.1",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "NODE_UNIFIED",
+      "roles": [
+        "shared_semantic_boundary",
+        "cross_lineage_differential",
+        "native_output_retention",
+        "lineage_fixity",
+        "canonical_normalization"
+      ],
+      "source_archive": "Engine_3.zip",
+      "source_archive_sha256": "0f1e29abaacd44d57fb765d3a40d31722e663342012b312acdf3211bab476eee",
+      "native_test": {
+        "native": "PASS",
+        "passed": 18,
+        "failed": 0
+      },
+      "focus": null,
+      "stages": [],
+      "claim_ceiling": "NATIVE_CLAIM_CEILING_PRESERVED"
+    },
+    {
+      "engine_id": "engine_04",
+      "ordinal": 4,
+      "name": "Destruktion portable 0.16 — parse-program synthesis",
+      "version": "0.16.0-alpha.1",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "NODE_NATIVE",
+      "roles": [
+        "semantic_role",
+        "semantic_scope",
+        "discourse_uncertainty",
+        "nested_scope_lattice",
+        "multi_expert_adjudication",
+        "source_parse_birth",
+        "parse_program_synthesis",
+        "counterfactual_regression"
+      ],
+      "source_archive": "Engine_4.zip",
+      "source_archive_sha256": "3874f34d7f747a1a4b8e22a8c44ab92c06f0701d91a4a57c4bc6a7c40034d75f",
+      "native_test": {
+        "native": "PASS",
+        "passed": 120,
+        "failed": 0
+      },
+      "focus": null,
+      "stages": [],
+      "claim_ceiling": "NATIVE_CLAIM_CEILING_PRESERVED"
+    },
+    {
+      "engine_id": "engine_05",
+      "ordinal": 5,
+      "name": "Reference contract — Letta / MemGPT architectural pattern",
+      "version": "1.1-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "persistent_memory",
+        "shared_memory",
+        "archival_retrieval",
+        "concept_biography",
+        "checkpoint_memory"
+      ],
+      "source_archive": "engine_5.zip",
+      "source_archive_sha256": "39e645345b469084574d7d301f6c465ec88aa13c56301cc3c942106887bb50d3",
+      "native_test": {
+        "native": "PASS",
+        "passed": 3,
+        "failed": 0
+      },
+      "focus": "stateful agents with layered persistent memory, shared memory, archival retrieval and agent-managed context",
+      "stages": [
+        "LOAD_AGENT",
+        "ASSEMBLE_ACTIVE_CONTEXT",
+        "REASON",
+        "USE_TOOLS",
+        "READ_OR_WRITE_MEMORY",
+        "COMPACT_OR_ARCHIVE",
+        "PERSIST_STATE",
+        "NEXT_CONVERSATION"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_06",
+      "ordinal": 6,
+      "name": "Reference contract — Microsoft GraphRAG architectural pattern",
+      "version": "1.1-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "graph_extraction",
+        "community_structure",
+        "local_global_drift_retrieval",
+        "graph_citations"
+      ],
+      "source_archive": "engine_6.zip",
+      "source_archive_sha256": "b9dca4a8d01f5d32f31201091ceccb1e396cb6b78b86116d8f3dd92a52642f3d",
+      "native_test": {
+        "native": "PASS",
+        "passed": 3,
+        "failed": 0
+      },
+      "focus": "graph extraction, community structure and graph-aware local/global/DRIFT retrieval over large corpora",
+      "stages": [
+        "LOAD_DOCUMENTS",
+        "CHUNK",
+        "EXTRACT_GRAPH_AND_CLAIMS",
+        "EMBED",
+        "DETECT_COMMUNITIES",
+        "GENERATE_REPORTS",
+        "SELECT_QUERY_MODE",
+        "ASSEMBLE_CONTEXT",
+        "REASON",
+        "CITE_GRAPH_AND_TEXT"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_07",
+      "ordinal": 7,
+      "name": "Reference contract — FutureHouse / PaperQA2 / Robin architectural pattern",
+      "version": "1.1-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "scientific_evidence",
+        "hypothesis_loop",
+        "test_design",
+        "contradiction_tracking"
+      ],
+      "source_archive": "engine_7.zip",
+      "source_archive_sha256": "97f7d2afe9aab48fcbf1ee8aaa4b07ff97ce5ef9003b15885d49add261ac3826",
+      "native_test": {
+        "native": "PASS",
+        "passed": 3,
+        "failed": 0
+      },
+      "focus": "evidence-centric scientific literature research plus an iterative hypothesis–experiment–analysis loop",
+      "stages": [
+        "QUEST",
+        "LITERATURE_SEARCH",
+        "EVIDENCE_GATHER",
+        "SOURCE_EVALUATION",
+        "SYNTHESIS",
+        "HYPOTHESIS",
+        "TEST_OR_DATA",
+        "ANALYSIS",
+        "UPDATE_HYPOTHESES",
+        "FOLLOW_UP_OR_REPORT"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_08",
+      "ordinal": 8,
+      "name": "Reference contract — Microsoft Magentic-One / MagenticLite architectural pattern",
+      "version": "1.1-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "manager_planner",
+        "specialist_delegation",
+        "critical_point_gate",
+        "context_compaction"
+      ],
+      "source_archive": "engine_8.zip",
+      "source_archive_sha256": "90fb8e5bf9def305e051b6f280f3f4c94a3461d1fb2ef79e775f1ef6ab119e15",
+      "native_test": {
+        "native": "PASS",
+        "passed": 3,
+        "failed": 0
+      },
+      "focus": "manager-led specialist orchestration evolving toward a compact planner/coder/delegator plus browser agent, context harness and human critical-point control",
+      "stages": [
+        "USER_TASK",
+        "INCREMENTAL_PLAN",
+        "SELECT_TOOL_OR_AGENT",
+        "EXECUTE_IN_SANDBOX",
+        "OBSERVE_RESULT",
+        "COMPACT_CONTEXT",
+        "CHECK_CRITICAL_POINT",
+        "REPLAN_OR_CONTINUE",
+        "VERIFY",
+        "COMPLETE"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_09",
+      "ordinal": 9,
+      "name": "Reference contract — OpenAI Deep Research public-interface pattern",
+      "version": "1.1-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "adaptive_research",
+        "gap_tracking",
+        "tool_routing",
+        "citation_synthesis"
+      ],
+      "source_archive": "engine_9.zip",
+      "source_archive_sha256": "98d5d57af08f94ee66c6c1f77cdbce3bb623dfa5567749c8ed8d35c31b12b01a",
+      "native_test": {
+        "native": "PASS",
+        "passed": 3,
+        "failed": 0
+      },
+      "focus": "adaptive long-horizon research over web, files, MCP data and code analysis with citation-rich synthesis",
+      "stages": [
+        "HIGH_LEVEL_QUERY",
+        "INITIAL_PLAN",
+        "SEARCH_OR_FILE_OR_MCP",
+        "READ_EVIDENCE",
+        "IDENTIFY_GAPS",
+        "PIVOT_OR_ANALYZE_WITH_CODE",
+        "ITERATE",
+        "CITATION_AUDIT",
+        "SYNTHESIZE"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_10",
+      "ordinal": 10,
+      "name": "Reference contract — CAMEL / OWL architectural pattern",
+      "version": "1.1-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "dynamic_workforce",
+        "agent_society",
+        "parallel_delegation",
+        "worker_memory"
+      ],
+      "source_archive": "engine_10.zip",
+      "source_archive_sha256": "763118458bf587499961b1681fa20653b394dbb94a5735ae7186109cd18a7853",
+      "native_test": {
+        "native": "PASS",
+        "passed": 3,
+        "failed": 0
+      },
+      "focus": "agent societies, role-playing collaboration, dynamic workforce orchestration and tool-rich specialist execution",
+      "stages": [
+        "TASK_INTAKE",
+        "DECOMPOSE",
+        "MATCH_WORKERS",
+        "PARALLEL_OR_ROLEPLAY_EXECUTION",
+        "TOOL_USE",
+        "COLLECT_RESULTS",
+        "CRITIQUE_OR_REASSIGN",
+        "MERGE_WITH_DISSENT",
+        "LEARN_WORKFLOW",
+        "END"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_11",
+      "ordinal": 11,
+      "name": "Reference contract — Microsoft Agent Framework architectural pattern",
+      "version": "1.0-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "multi_agent_workflow",
+        "sequential_parallel_composition",
+        "policy_gate",
+        "workflow_events"
+      ],
+      "source_archive": "engine_11.zip",
+      "source_archive_sha256": "a5f769eb722e3defd3d548954a2d50d30161a9d9c2b38d7c89d3552d2148f93b",
+      "native_test": {
+        "native": "PASS",
+        "passed": 2,
+        "failed": 0
+      },
+      "focus": "production-grade multi-agent workflows, state, checkpoints, observability and governance",
+      "stages": [
+        "REQUEST",
+        "POLICY_MIDDLEWARE",
+        "SELECT_WORKFLOW",
+        "ORCHESTRATE_AGENTS",
+        "TOOL_CALLS",
+        "STATE_UPDATE",
+        "CHECKPOINT",
+        "HUMAN_GATE_IF_NEEDED",
+        "OBSERVE",
+        "COMPLETE"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_12",
+      "ordinal": 12,
+      "name": "Reference contract — LangGraph architectural pattern",
+      "version": "1.0-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "durable_state_graph",
+        "checkpoint_resume",
+        "conditional_routing",
+        "thread_state"
+      ],
+      "source_archive": "engine_12.zip",
+      "source_archive_sha256": "284a7a6f1845171c82b6e1fdc88c95d42ee2d223be0a472dac3c7f92195d2de8",
+      "native_test": {
+        "native": "PASS",
+        "passed": 2,
+        "failed": 0
+      },
+      "focus": "durable stateful graph orchestration with explicit control, persistence and interrupts",
+      "stages": [
+        "REQUEST",
+        "LOAD_THREAD_STATE",
+        "ROUTE",
+        "RUN_NODE_OR_SUBGRAPH",
+        "MERGE_STATE",
+        "CHECKPOINT",
+        "OPTIONAL_INTERRUPT",
+        "LOOP_OR_END",
+        "PERSIST_LONG_TERM_MEMORY"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_13",
+      "ordinal": 13,
+      "name": "Reference contract — GPT Researcher architectural pattern",
+      "version": "1.0-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "planner_executor_editor",
+        "parallel_research",
+        "review_revision",
+        "publication"
+      ],
+      "source_archive": "engine_13.zip",
+      "source_archive_sha256": "8cb5b966ba0d3276b397d96b73daf88ed535ad421cb942591dbc79360df0f929",
+      "native_test": {
+        "native": "PASS",
+        "passed": 2,
+        "failed": 0
+      },
+      "focus": "planner–executor research with source tracking, aggregation and publishing",
+      "stages": [
+        "QUERY",
+        "AGENT_FACTORY",
+        "PLAN",
+        "PARALLEL_RESEARCH",
+        "SOURCE_SUMMARIES",
+        "FILTER",
+        "EDITORIAL_OUTLINE",
+        "DRAFT",
+        "REVIEW",
+        "REVISION",
+        "PUBLISH"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_14",
+      "ordinal": 14,
+      "name": "Reference contract — Stanford STORM / Co-STORM architectural pattern",
+      "version": "1.0-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "multi_perspective_research",
+        "question_generation",
+        "outline_synthesis",
+        "source_grounded_writing"
+      ],
+      "source_archive": "engine_14.zip",
+      "source_archive_sha256": "6b2031df2adaf15fd6b2aa2146798c67328d77d99ed7638d7deb33c7ab3e1fd6",
+      "native_test": {
+        "native": "PASS",
+        "passed": 2,
+        "failed": 0
+      },
+      "focus": "multi-perspective knowledge curation and grounded long-form synthesis",
+      "stages": [
+        "INTAKE",
+        "PERSPECTIVE_DISCOVERY",
+        "QUESTION_PORTFOLIO",
+        "RETRIEVAL",
+        "GROUNDED_DIALOGUE",
+        "KNOWLEDGE_STORE",
+        "OUTLINE",
+        "SECTION_WRITING",
+        "POLISH",
+        "AUDIT"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_15",
+      "ordinal": 15,
+      "name": "Reference contract — Sakana AI Scientist-v2 architectural pattern",
+      "version": "1.0-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "research_tree",
+        "hypothesis_branching",
+        "experiment_manager",
+        "branch_pruning",
+        "novelty_search"
+      ],
+      "source_archive": "engine_15.zip",
+      "source_archive_sha256": "767dd75fa79217faa7315af80bc06aabf6b62ff03c72beb7981095c0f4af691a",
+      "native_test": {
+        "native": "PASS",
+        "passed": 2,
+        "failed": 0
+      },
+      "focus": "open-ended autonomous research via progressive agentic tree search and experiment management",
+      "stages": [
+        "IDEATE",
+        "ROOT_BRANCHES",
+        "SELECT_BRANCH",
+        "EXPAND_HYPOTHESIS",
+        "RUN_EXPERIMENT",
+        "ANALYZE",
+        "UPDATE_TREE",
+        "PRUNE_OR_BRANCH",
+        "REPEAT_WITH_BUDGET",
+        "WRITE",
+        "REVIEW"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    },
+    {
+      "engine_id": "engine_16",
+      "ordinal": 16,
+      "name": "Reference contract — DSPy architectural pattern",
+      "version": "1.0-clean-room",
+      "lineage_policy": "IMMUTABLE_NATIVE_LINEAGE",
+      "execution_mode": "PYTHON_REFERENCE_CONTRACT",
+      "roles": [
+        "typed_signatures",
+        "program_optimization",
+        "trace_learning",
+        "pareto_candidate_selection"
+      ],
+      "source_archive": "engine_16.zip",
+      "source_archive_sha256": "db1ec8b9858f8619a17f3857f25ac784263666455a2336c2c5cc2451daafafe4",
+      "native_test": {
+        "native": "PASS",
+        "passed": 2,
+        "failed": 0
+      },
+      "focus": "declarative, evaluable and optimizable language-model programs",
+      "stages": [
+        "DECLARE_SIGNATURES",
+        "COMPOSE_MODULES",
+        "RUN_BASELINE",
+        "EVALUATE",
+        "COLLECT_TRACES",
+        "OPTIMIZER_PROPOSES_CANDIDATES",
+        "VALIDATE_CANDIDATES",
+        "SELECT_PARETO_OR_BEST",
+        "FREEZE_COMPILED_PROGRAM"
+      ],
+      "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES"
+    }
+  ],
+  "epistemic_coordination": {
+    "version": "ECL-1.1",
+    "router": "CAPABILITY_ROUTER",
+    "claim_graph": "PROVENANCE_PRESERVING_CLAIM_GRAPH",
+    "disagreement": "DISAGREEMENT_AS_RESEARCH_SIGNAL",
+    "arbitration": "EVIDENCE_AND_DISSENT_AWARE_NO_MAJORITY_TRUTH",
+    "default_execution_mode": "FULL_16X"
+  }
+}

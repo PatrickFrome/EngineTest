@@ -1,0 +1,79 @@
+{
+  "alternatives_considered": [
+    {
+      "evidence_hashes": [
+        "54671a7b3cc2c2e7d08421cf382c2f6ff74daa2a583aed10a54ceb49e8fcf47f",
+        "58e807e7d3ce7847cde413d7b6edb4b9792a37f405559f9a61565970d72d4a0b",
+        "8cd5c8e652c046c9b2c83b8c39b357587358ffb1740d5626a38fefa9b91e2e97",
+        "9083df5d3d98f0bf62cac576f1dadcb3e893f2b1f3d8a262268fcdb27fbe636d"
+      ],
+      "kind": "CURRENT",
+      "summary": "Retain typed immutable receipt plus explicit fail-closed transition checker."
+    },
+    {
+      "evidence_hashes": [
+        "7a33c4eb76089ad1d7d23e249db069fb7e598985dc2c7a594ff2fcede661bf2b"
+      ],
+      "kind": "LIBRARY",
+      "summary": "Reuse the existing content-addressed DevFabric gate/receipt mechanism as the closest proven internal pattern."
+    },
+    {
+      "evidence_hashes": [
+        "58e807e7d3ce7847cde413d7b6edb4b9792a37f405559f9a61565970d72d4a0b"
+      ],
+      "kind": "MINIMAL",
+      "summary": "Use a prose checklist only; rejected because it cannot deterministically block a transition."
+    },
+    {
+      "evidence_hashes": [
+        "58e807e7d3ce7847cde413d7b6edb4b9792a37f405559f9a61565970d72d4a0b",
+        "7a33c4eb76089ad1d7d23e249db069fb7e598985dc2c7a594ff2fcede661bf2b",
+        "9083df5d3d98f0bf62cac576f1dadcb3e893f2b1f3d8a262268fcdb27fbe636d",
+        "9fc42ea29863938b805706f1dd14d8b88cc1889867762a599d6fdfc04d120667"
+      ],
+      "kind": "SYNTHESIS",
+      "summary": "Combine content-addressed receipts, explicit Constitution/Library/Policy snapshots, and fail-closed transition semantics."
+    }
+  ],
+  "architecture_library_snapshot_hash": "d5b32e0a8b9983cd36faed2cf105ecf3670cf9490578f0d939cbbdf4b1103445",
+  "capability_hypothesis": "A content-addressed review receipt plus explicit snapshot checks prevents later MetaEngine development from silently advancing on stale constitutional, architectural-library, or policy context.",
+  "completed_step_commit": "9c92733b9b57c9b4182783958a9e3a949f065367",
+  "completed_step_evidence_hashes": [
+    "0bcde07355b9662d2ba38a24ff8b178e6e46de982651e51f33a4e618201d83e8",
+    "54671a7b3cc2c2e7d08421cf382c2f6ff74daa2a583aed10a54ceb49e8fcf47f",
+    "58e807e7d3ce7847cde413d7b6edb4b9792a37f405559f9a61565970d72d4a0b",
+    "8cd5c8e652c046c9b2c83b8c39b357587358ffb1740d5626a38fefa9b91e2e97",
+    "9083df5d3d98f0bf62cac576f1dadcb3e893f2b1f3d8a262268fcdb27fbe636d",
+    "9fc42ea29863938b805706f1dd14d8b88cc1889867762a599d6fdfc04d120667"
+  ],
+  "completed_step_id": "METAENGINE-1-SLICE-0",
+  "complexity_delta": "SMALL_BOUNDED_NEW_PROTOCOL_AND_CHECKER",
+  "constitution_hash": "1aea578f249b12de06ab3ff342b59f5fc27fb335923beb79284c62c030ba9014",
+  "constitutional_findings": [
+    "NO_AUTHORITY_PRIVACY_TRUTH_OR_PROMOTION_SEMANTICS_EXPANDED",
+    "SLICE_0_GATE_IS_NOT_K0_AND_CANNOT_AMEND_CONSTITUTION",
+    "KNOWN_HANDOFF_5_OF_6_GUARDRAIL_GAP_REMAINS_AND_MUST_BE_CLOSED_IN_SLICE_1"
+  ],
+  "decision": "ACCEPT_CONTINUE",
+  "library_findings": [
+    "EXISTING_DEVFABRIC_CONTENT_ADDRESSED_GATE_PATTERN_REUSED",
+    "PROSE_CHECKLIST_REJECTED_AS_NON_ENFORCEABLE",
+    "FORMAL_ARCHITECTURE_LIBRARY_NOT_YET_PRESENT_BOOTSTRAP_REPORT_SNAPSHOT_USED"
+  ],
+  "next_step_allowed": true,
+  "policy_findings": [
+    "ARCHITECTURE_POLICY_UNCHANGED",
+    "D6_G1_SHADOW_ONLY_ADAPTATION_UNCHANGED",
+    "CHAMPION_CP001_AND_CANONICAL_PROMOTION_AUTHORITY_UNCHANGED"
+  ],
+  "policy_snapshot_hash": "9823f12f7d3a292b0a56bc6cfdcc53d4b19f5e25f477970a87fdd6aee448ad53",
+  "rationale": "Slice 0 implements the smallest machine-enforceable transition gate that binds a completed development state to Constitution, Architecture/Mechanism Library, and policy snapshots. The prose-only alternative cannot enforce the new development law, while broader semantic automation would be premature before compiled K0/K1 and the formal Architecture Library exist.",
+  "receipt_hash": "235013a00c9e3598227576c20024cde4e10656ed876513f063e1ca6c4b3a7543",
+  "relevant_mechanism_ids": [
+    "CONTENT_ADDRESSED_GATE",
+    "EXPLICIT_REVIEW_CONTEXT_BINDING",
+    "FAIL_CLOSED_TRANSITION"
+  ],
+  "required_followup_experiment": "METAENGINE-1-SLICE-1-CONSTITUTIONAL-CONFORMANCE",
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1"
+}

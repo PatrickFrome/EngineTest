@@ -1,0 +1,5 @@
+profile = "max-swarm"
+allow_external = true
+require_free_quota_confirmation = true
+zero_spend = true
+max_parallel = 8

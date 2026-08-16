@@ -1,0 +1,74 @@
+{
+  "ecology_version": "DAE-MICRO-LOCAL-OPERATOR-ECOLOGY-MANIFEST-1.0",
+  "description": "Preregistered micro-local routing benchmark for the Aristotle mixed-regime corpus. Whole-corpus composition in 0.8 must decompose into locally distinct windows, preserve operator boundaries, allow abstention, and reject a higher-level collapse that would erase localization.",
+  "corpus_id": "ARISTOTLE",
+  "competition_manifest_file": "../operator-competition-0.8/operator_competition_manifest.json",
+  "competition_result_file": "../operator-competition-0.8/run/operator_competition_result.json",
+  "segmentation_manifest_file": "../cross-corpus-operator-regression-0.7/ARISTOTLE/refinery/segmentation_manifest.json",
+  "windows": [
+    {
+      "window_id": "AR_SUBSTANCE_PRIORITY",
+      "label": "Primary-substance priority window",
+      "evidence_segment_ids": ["OX-P000004-00030EBED3", "OX-P000005-654422A27F", "OX-P000006-207B6C554E"],
+      "profile_hints": ["ASYMMETRIC_DEPENDENCE"],
+      "expected_decision": "SELECT_LOCAL_WINNER",
+      "expected_selected_candidates": ["SPINOZA_ASYMMETRIC_DEPENDENCE"],
+      "rationale": "The preregistered micro-profile is one-way priority/dependence; local variation must not be imported merely because it occurs elsewhere in the same corpus."
+    },
+    {
+      "window_id": "AR_RELATIVES_REFERENCE",
+      "label": "Relatives/reference-to-another window",
+      "evidence_segment_ids": ["OX-P000007-CC24926337", "OX-P000008-2416EAD5C2", "OX-P000009-2666F685A0", "OX-P000010-2984C7F7FA"],
+      "profile_hints": ["LOCAL_MODE_VARIATION"],
+      "expected_decision": "SELECT_LOCAL_WINNER",
+      "expected_selected_candidates": ["ARISTOTLE_LOCAL_MODE_VARIATION"],
+      "rationale": "The preregistered micro-profile marks a distinct local regime; the substance-priority operator must not colonize the relatives window."
+    },
+    {
+      "window_id": "AR_RECONSTRUCTION_BRIDGE",
+      "label": "Source-bounded two-regime reconstruction window",
+      "evidence_segment_ids": ["OX-P000012-A9BBC209AE", "OX-P000013-D104B65607"],
+      "profile_hints": ["ASYMMETRIC_DEPENDENCE", "LOCAL_MODE_VARIATION"],
+      "expected_decision": "LOCAL_COMPOSITION",
+      "expected_selected_candidates": ["SPINOZA_ASYMMETRIC_DEPENDENCE", "ARISTOTLE_LOCAL_MODE_VARIATION"],
+      "rationale": "This reconstruction explicitly compares both regimes, so composition is warranted here without implying that composition belongs to each source passage."
+    },
+    {
+      "window_id": "AR_GLOBALIZATION_CHALLENGE",
+      "label": "Global relation-first challenge window",
+      "evidence_segment_ids": ["OX-P000016-2BE7DE3C48", "OX-P000018-7F2D5301D5", "OX-P000019-EAF57BA764"],
+      "profile_hints": [],
+      "expected_decision": "ABSTAIN_UNRESOLVED",
+      "expected_selected_candidates": [],
+      "rationale": "A project-level universalization claim plus rival objections is not itself a source-born local operator profile; the ecology must abstain rather than choose the least-bad operator."
+    }
+  ],
+  "boundaries": [
+    {
+      "boundary_id": "AR_B1_SUBSTANCE_TO_RELATIVES",
+      "left_window_id": "AR_SUBSTANCE_PRIORITY",
+      "right_window_id": "AR_RELATIVES_REFERENCE",
+      "expected_status": "PRESERVE_OPERATOR_BOUNDARY"
+    },
+    {
+      "boundary_id": "AR_B2_RELATIVES_TO_RECONSTRUCTION",
+      "left_window_id": "AR_RELATIVES_REFERENCE",
+      "right_window_id": "AR_RECONSTRUCTION_BRIDGE",
+      "expected_status": "PRESERVE_OPERATOR_BOUNDARY"
+    },
+    {
+      "boundary_id": "AR_B3_RECONSTRUCTION_TO_GLOBALIZATION",
+      "left_window_id": "AR_RECONSTRUCTION_BRIDGE",
+      "right_window_id": "AR_GLOBALIZATION_CHALLENGE",
+      "expected_status": "UNRESOLVED_BOUNDARY"
+    }
+  ],
+  "scoring": {
+    "dominance_margin": 2,
+    "composition_gain_threshold": 1
+  },
+  "synthesis": {
+    "expected_decision": "REJECT_GLOBAL_COLLAPSE_PRESERVE_WINDOW_PROVENANCE"
+  },
+  "claim_ceiling": "INTERNAL_PREREGISTERED_MICRO_LOCAL_ROUTING_NOT_EXTERNAL_SEMANTIC_VALIDATION"
+}

@@ -1,0 +1,71 @@
+{
+  "registry_version": "DAE-REFINERY-SOURCE-ALIASES-1.0",
+  "claim_ceiling": "LEXICAL_SOURCE_TARGET_CANDIDATES_ONLY",
+  "sources": [
+    {
+      "source_id": "HGA-PJ25-1912-REALITAET",
+      "patterns": [
+        "Das\\s+Realit(?:ä|ae)tsproblem",
+        "Philosophisches\\s+Jahrbuch\\s*25",
+        "PJ\\s*25[^\\p{L}\\p{N}]{0,12}(?:353|363)"
+      ]
+    },
+    {
+      "source_id": "HGA-KLOSTERMANN-PLAN",
+      "patterns": [
+        "Klostermann",
+        "Editionsplan"
+      ]
+    },
+    {
+      "source_id": "HGA-BEYNG-CATALOG",
+      "patterns": [
+        "beyng\\.com",
+        "gesamt\\.html"
+      ]
+    },
+    {
+      "source_id": "HGA-BEYNG-GA01-TOC",
+      "patterns": [
+        "GA0?1\\.ToC",
+        "GA\\s*1[^\\p{L}\\p{N}]{0,20}(?:оглавлен|Inhalt)"
+      ]
+    },
+    {
+      "source_id": "HGA-SEC-BECOMING-HEIDEGGER",
+      "patterns": [
+        "Becoming\\s+Heidegger",
+        "Kisiel",
+        "Sheehan"
+      ]
+    },
+    {
+      "source_id": "HGA-SEC-BARASH-2003",
+      "patterns": [
+        "Barash",
+        "Бараш"
+      ]
+    },
+    {
+      "source_id": "HGA-SEC-JANI-2017",
+      "patterns": [
+        "Anna\\s+Jani",
+        "Анна\\s+Яни"
+      ]
+    },
+    {
+      "source_id": "HGA-SEC-GLAZEBROOK-2001",
+      "patterns": [
+        "Glazebrook",
+        "Глейзбрук"
+      ]
+    },
+    {
+      "source_id": "V38",
+      "patterns": [
+        "Вопрос\\s+о\\s+бытии\\s+и\\s+русский\\s+язык",
+        "каноническ(?:ая|ой)\\s+редакци(?:я|и)\\s*v?3\\.8"
+      ]
+    }
+  ]
+}

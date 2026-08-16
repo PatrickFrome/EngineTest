@@ -1,0 +1,11 @@
+{
+  "package_id": "MODULE-MIGRATION-4D-0.1",
+  "archive_name": "Destruktion_4.0_MODULE-MIGRATION-4D_0.1_toolkit.zip",
+  "archive_sha256": "b5516538d87112bdce482749db8328ad83710a54cdf1185c079e2edfe1bf27d3",
+  "integrity_check": "PASS",
+  "verified_entries": 19,
+  "import_mode": "BYTE-PRESERVING-ARCHIVE-EXTRACTION",
+  "engine_relationship": "UPSTREAM-EVIDENCE-FOR-vendor/module4d-COMPATIBILITY-PROFILE",
+  "core_mutated": false,
+  "preservation_rule": "Files declared by SHA256SUMS.txt are upstream artifacts and must remain byte-identical. Engine adaptations belong in vendor/module4d."
+}

@@ -1,0 +1,181 @@
+{
+  "operator_delta_version": "DAE-OPERATOR-DELTA-1.0",
+  "delta_id": "DELTA-GX1-RESIDUAL-SPLIT-001",
+  "created_at": "2026-08-11T15:45:00Z",
+  "name": "Split residual probe into exclusion and cost probes",
+  "status": "READY_FOR_GATE",
+  "resistant_source": {
+    "source_id": "DECLARATIVE-GESTURE-FIXTURE",
+    "selector": "span:gx1-resistant-001",
+    "span_sha256": null,
+    "why_resistant": "The same successful concept can hide either an excluded phenomenon or the cost of its own explanatory compression; one residual node collapses these unitizations."
+  },
+  "incompatible_unitizations": [
+    {
+      "unitization_id": "U-EXCLUSION",
+      "description": "Read the remainder as a phenomenon excluded by the successful frame.",
+      "analytic_consequence": "Probe what cannot become visible inside the concept."
+    },
+    {
+      "unitization_id": "U-COST",
+      "description": "Read the remainder as a cost produced by the successful frame itself.",
+      "analytic_consequence": "Probe the distinction compressed by the concept even when nothing is simply outside it."
+    }
+  ],
+  "target": {
+    "registry_section": "generative_gestures",
+    "operator_id": "GX1"
+  },
+  "observed_failure": {
+    "failure_type": "RIVAL_UNITIZATION_COLLAPSE",
+    "description": "GX1 emits only one residual grammar for two incompatible kinds of resistance.",
+    "lost_distinction": "exclusion outside a frame vs distinction-loss produced by the frame"
+  },
+  "mutation": {
+    "kind": "SPLIT",
+    "proposal": "Split GX1 into two executable declarative gestures so resistant material can distinguish exclusion from compression-cost without adding runtime code.",
+    "cost": "The gesture ecology gains another branch and therefore another source of traversal pressure.",
+    "reversibility": "Restore GX1 from rollback_target.json and discard the candidate registry.",
+    "variants": [
+      {
+        "new_id": "GX1A-EXCLUSION",
+        "changes": {
+          "title": "Residual Probe — Exclusion",
+          "question": "What is excluded from view precisely because the concept succeeds?",
+          "outputs": [
+            "RESIDUAL_CANDIDATE",
+            "SELF_CRITIQUE"
+          ],
+          "activation": {
+            "all": [
+              {
+                "op": "gte",
+                "path": "hypothesis.evidence_count",
+                "value": 10
+              },
+              {
+                "op": "truthy",
+                "path": "lens.positive_kernel"
+              },
+              {
+                "op": "truthy",
+                "path": "lens.self_critique"
+              }
+            ]
+          },
+          "active_reason": "A successful frame has enough recurrence to test an excluded phenomenon.",
+          "inactive_reason": "No stable success/exclusion tension is visible.",
+          "emission_program": [
+            {
+              "role": "RESIDUAL_CANDIDATE",
+              "node_key": "EXCLUDED_PHENOMENON",
+              "title": "Excluded phenomenon",
+              "proposition": "The success of “{{lens.positive_kernel}}” leaves this candidate outside its frame: {{lens.self_critique}}",
+              "parents": [
+                "QUESTION"
+              ],
+              "residual_kind": "R3-R"
+            },
+            {
+              "role": "SELF_CRITIQUE",
+              "node_key": "EXCLUSION_CRITIQUE",
+              "title": "Self-critique from exclusion",
+              "proposition": "{{lens.self_critique}}",
+              "parents": [
+                "NODE:EXCLUDED_PHENOMENON"
+              ],
+              "residual_kind": "R3-R"
+            }
+          ]
+        },
+        "unitization_refs": [
+          "U-EXCLUSION"
+        ]
+      },
+      {
+        "new_id": "GX1B-SUCCESS-COST",
+        "changes": {
+          "title": "Residual Probe — Success Cost",
+          "question": "Which distinction is lost because the concept succeeds by compression?",
+          "outputs": [
+            "DECONFLATION",
+            "OPEN_RESIDUAL"
+          ],
+          "activation": {
+            "all": [
+              {
+                "op": "gte",
+                "path": "hypothesis.evidence_count",
+                "value": 10
+              },
+              {
+                "op": "truthy",
+                "path": "lens.positive_kernel"
+              },
+              {
+                "op": "truthy",
+                "path": "lens.self_critique"
+              }
+            ]
+          },
+          "active_reason": "A successful frame has enough recurrence to test the cost of its compression.",
+          "inactive_reason": "No stable success/compression tension is visible.",
+          "emission_program": [
+            {
+              "role": "DECONFLATION",
+              "node_key": "SUCCESS_COST_DISTINCTION",
+              "title": "Cost internal to explanatory success",
+              "proposition": "The explanatory gain “{{lens.positive_kernel}}” may itself compress a distinction: {{lens.deconflation}}",
+              "parents": [
+                "QUESTION"
+              ]
+            },
+            {
+              "role": "OPEN_RESIDUAL",
+              "node_key": "SUCCESS_COST_RESIDUAL",
+              "title": "R3-R — internal cost remainder",
+              "proposition": "{{lens.self_critique}}",
+              "parents": [
+                "NODE:SUCCESS_COST_DISTINCTION"
+              ],
+              "residual_kind": "R3-R"
+            }
+          ]
+        },
+        "unitization_refs": [
+          "U-COST"
+        ]
+      }
+    ]
+  },
+  "before_after_test": {
+    "fixture": {
+      "source_id": "DECLARATIVE-GESTURE-FIXTURE",
+      "selector": "span:gx1-resistant-001",
+      "same_material": true,
+      "probe_text": "A successful explanatory concept orients the field while compressing one internal distinction."
+    },
+    "before_observation": "GX1 produces one residual grammar, so exclusion and internal compression-cost collapse into one analytic consequence.",
+    "after_observation": "GX1A and GX1B produce distinct executable node programs for exclusion and compression-cost while sharing the same source fixture.",
+    "new_gains": [
+      "GG1_NEW_DISTINCTION"
+    ],
+    "discriminator": "If the remainder disappears when the frame is widened it behaves as exclusion; if it persists as lost granularity inside the widened frame it behaves as compression-cost.",
+    "traceability": {
+      "before_routes": 1,
+      "after_routes": 2
+    },
+    "negative_tests": [
+      {
+        "name": "Both variants preserve source-bound protocol refs and compile in the declarative runtime",
+        "passed": true,
+        "note": "Checked by the semantic gate and declarative runtime test."
+      }
+    ]
+  },
+  "acceptance_gate": {
+    "new_distinction_required": true,
+    "source_traceability_must_not_degrade": true,
+    "negative_tests_must_not_regress": true
+  }
+}

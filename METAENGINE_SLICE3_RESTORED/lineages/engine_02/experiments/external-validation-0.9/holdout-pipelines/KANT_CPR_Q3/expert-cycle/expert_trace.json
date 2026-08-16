@@ -1,0 +1,175 @@
+{
+  "trace_version": "DAE-AUTONOMOUS-EXPERT-TRACE-1.0",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T19:20:34Z",
+  "run_id": "EXPERT-AUTO-LOCAL-SHA256-8777678EAEC399137604AA4912E669227E2CAFDECE0D58CC76772CE61118E6EF-D22EF9CCF073",
+  "profile_origin": "AUTO_GENERATED_FROM_REFINERY",
+  "profile_sha256": "43e93b32a1cc7a69df0f6980449203f7b5696355da6e3c0cb9a1c77c5a19cc01",
+  "refinery_manifest_sha256": "c21aa029471bd9334511543c1b025de7b5e3a7b3676bd5ba9105f801df4283d5",
+  "passes": [
+    "RECONSTRUCTOR",
+    "CRITIC",
+    "ADJUDICATOR",
+    "SYNTHESIS"
+  ],
+  "prepasses": [
+    {
+      "pass": "ETYMOLOGICAL_PASS",
+      "protocol_version": "ETY-0.2",
+      "run_id": "ETY-LOCAL_SHA256_8777678EAEC399137604AA4912E669227E2CAFDECE0D58CC76772CE6111-C54866370BB7",
+      "pass_sha256": "0e9679c5787b0509e63982bfce55ed5948ae0b91c87093261924759ec81e9fab",
+      "cards": 1,
+      "full_cards": 0,
+      "unresolved_fields": 12,
+      "semantic_promotion_performed": false
+    }
+  ],
+  "privacy": {
+    "source_text_retained": false,
+    "prompts_retained": false,
+    "model_response_ids_retained": false,
+    "verbatim_output_guard": "EIGHT_TOKEN_SEQUENCE_BLOCK_WITH_DETERMINISTIC_PASS_FALLBACK"
+  },
+  "model_fallback_count": 0,
+  "successful_model_passes": 0,
+  "theses": [
+    {
+      "thesis_id": "AUTO_CORPUS_GENRE",
+      "deterministic_gate": {
+        "status": "QUALIFIED",
+        "confidence": 0.76,
+        "allowed_statuses": [
+          "QUALIFIED"
+        ],
+        "gate": "STRUCTURAL_GENRE_PARTIALLY_CONFIRMED",
+        "decisive_reasons": [
+          "Роль контейнера: COMPOSITE_CONTAINER.",
+          "Непустых маршрутизированных слоёв происхождения: 1.",
+          "Разрешённых ссылок на уровне утверждений: 0."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED"
+          ],
+          "evidence_selector_count": 1,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "AUTO_CORPUS_GENRE",
+            "pass": "RECONSTRUCTOR",
+            "A": "Автоматическая сегментация различает источниковые, реконструктивные, проектные, критические и процедурные слои.",
+            "P": "Жанровый статус корпуса ограничивает доказательную роль содержащихся в нём утверждений.",
+            "B": "Система должна отделять структурную характеристику документа от содержательной истинности его тезисов.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.76,
+            "operative_relations": [
+              "RT02",
+              "RT15",
+              "RT17"
+            ],
+            "source_origin": "MIXED",
+            "evidence_selectors": [
+              "OX-P000004-1E7880DE52"
+            ],
+            "strongest_rival": {
+              "statement": "Все сегменты документа принадлежат одному источниковому голосу и могут суммироваться без различения происхождения.",
+              "impact": "DEFEATED",
+              "answer": "Структурные признаки многослойного составного контейнера непосредственно различают документ и единый первичный источник."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Статус анализируемого корпуса»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Маршрутизация происхождения остаётся консервативной и не заменяет источниковедческую проверку."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED"
+          ],
+          "evidence_selector_count": 1,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "AUTO_CORPUS_GENRE",
+            "pass": "CRITIC",
+            "A": "Автоматическая сегментация различает источниковые, реконструктивные, проектные, критические и процедурные слои.",
+            "P": "Жанровый статус корпуса ограничивает доказательную роль содержащихся в нём утверждений.",
+            "B": "Система должна отделять структурную характеристику документа от содержательной истинности его тезисов.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.76,
+            "operative_relations": [
+              "RT02",
+              "RT15",
+              "RT17"
+            ],
+            "source_origin": "MIXED",
+            "evidence_selectors": [
+              "OX-P000004-1E7880DE52"
+            ],
+            "strongest_rival": {
+              "statement": "Все сегменты документа принадлежат одному источниковому голосу и могут суммироваться без различения происхождения.",
+              "impact": "DEFEATED",
+              "answer": "Структурные признаки многослойного составного контейнера непосредственно различают документ и единый первичный источник."
+            },
+            "analysis": "Проверен сильнейший соперник: Все сегменты документа принадлежат одному источниковому голосу и могут суммироваться без различения происхождения.",
+            "limitations": [
+              "Маршрутизация происхождения остаётся консервативной и не заменяет источниковедческую проверку."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED"
+          ],
+          "evidence_selector_count": 1,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "AUTO_CORPUS_GENRE",
+            "pass": "ADJUDICATOR",
+            "A": "Автоматическая сегментация различает источниковые, реконструктивные, проектные, критические и процедурные слои.",
+            "P": "Жанровый статус корпуса ограничивает доказательную роль содержащихся в нём утверждений.",
+            "B": "Система должна отделять структурную характеристику документа от содержательной истинности его тезисов.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.76,
+            "operative_relations": [
+              "RT02",
+              "RT15",
+              "RT17"
+            ],
+            "source_origin": "MIXED",
+            "evidence_selectors": [
+              "OX-P000004-1E7880DE52"
+            ],
+            "strongest_rival": {
+              "statement": "Все сегменты документа принадлежат одному источниковому голосу и могут суммироваться без различения происхождения.",
+              "impact": "DEFEATED",
+              "answer": "Структурные признаки многослойного составного контейнера непосредственно различают документ и единый первичный источник."
+            },
+            "analysis": "Роль контейнера: COMPOSITE_CONTAINER. Непустых маршрутизированных слоёв происхождения: 1. Разрешённых ссылок на уровне утверждений: 0.",
+            "limitations": [
+              "Маршрутизация происхождения остаётся консервативной и не заменяет источниковедческую проверку."
+            ],
+            "final_answer": "QUALIFIED: Роль контейнера: COMPOSITE_CONTAINER. Непустых маршрутизированных слоёв происхождения: 1. Разрешённых ссылок на уровне утверждений: 0."
+          }
+        }
+      ]
+    }
+  ]
+}

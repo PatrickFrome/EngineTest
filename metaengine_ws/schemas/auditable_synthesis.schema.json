@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metaengine.local/schemas/auditable_synthesis.schema.json",
+  "title": "MetaEngine 2.3 auditable nonlinear synthesis",
+  "type": "object",
+  "required": ["synthesis_version", "source_readings", "rival_readings", "conditional_syntheses", "unresolved_claims", "external_verification_status", "majority_vote_used", "synthesis_hash"],
+  "properties": {
+    "synthesis_version": {"const": "16X-AUDITABLE-NONLINEAR-SYNTHESIS-2.3"},
+    "source_readings": {"type": "array"},
+    "rival_readings": {"type": "array"},
+    "conditional_syntheses": {"type": "array"},
+    "unresolved_claims": {"type": "array"},
+    "external_verification_status": {"type": ["string", "null"]},
+    "majority_vote_used": {"const": false},
+    "synthesis_hash": {"type": "string", "minLength": 64, "maxLength": 64}
+  },
+  "additionalProperties": true
+}

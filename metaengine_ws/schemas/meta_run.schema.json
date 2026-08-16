@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Destruktion 16X Meta Run 2.0\u20132.3",
+  "type": "object",
+  "required": [
+    "meta_run_id",
+    "engine_version",
+    "input_hash",
+    "status",
+    "barrier",
+    "engine_states",
+    "fusion",
+    "claim_ceiling",
+    "routing_plan_hash",
+    "coordination"
+  ],
+  "properties": {
+    "meta_run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "engine_version": {
+      "enum": [
+        "2.0.0-alpha.1",
+        "2.1.0-alpha.1",
+        "2.2.0-alpha.1",
+        "2.3.0-alpha.1"
+      ]
+    },
+    "input_hash": {
+      "type": "string",
+      "minLength": 64
+    },
+    "status": {
+      "type": "string"
+    },
+    "barrier": {
+      "type": "string"
+    },
+    "engine_states": {
+      "type": "object",
+      "minProperties": 16
+    },
+    "fusion": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "claim_ceiling": {
+      "type": "string"
+    },
+    "routing_plan_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "architecture_policy_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "telemetry_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "coordination": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

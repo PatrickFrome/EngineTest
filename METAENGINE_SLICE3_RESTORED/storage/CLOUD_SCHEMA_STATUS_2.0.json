@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "verified_at": "2026-08-12",
+  "neon_project_id": "falling-hat-08217783",
+  "supabase_project_id": "jbztmeomxtpskkvlhlcy",
+  "required_tables": [
+    "architecture_candidate_ledger",
+    "coalition_ledger",
+    "depth_budget_ledger",
+    "engine_biography_ledger",
+    "native_reentry_receipt_ledger",
+    "scheduler_round_ledger",
+    "topology_ledger",
+    "transformation_edge_ledger",
+    "transformation_ledger"
+  ],
+  "neon_present": 9,
+  "supabase_present": 9,
+  "symmetric": true,
+  "epistemic_authority": false
+}

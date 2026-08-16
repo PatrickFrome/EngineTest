@@ -1,0 +1,7 @@
+{
+  "profile_version": "METAENGINE-NOODLE-STAGE-D-1",
+  "status": "NOT_BOOTSTRAPPED_NO_NOODLE_CLI",
+  "tool_surface_source": "devfabric/cloudflare/src/mcp_contract.ts",
+  "canonical_authority": false,
+  "deployment": "NO_DEPLOYMENT_PERFORMED"
+}

@@ -1,0 +1,52 @@
+{
+  "candidate_archive": [],
+  "claim_ceiling": "FRONTIER_CANDIDATES_ARE_SHADOW_ONLY",
+  "control_plane_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "control_plane_version": "16X-FRONTIER-EVIDENCE-CONTROL-2.2",
+  "invariants": {
+    "derived_candidates_cannot_promote_truth": true
+  },
+  "pattern_sources": [
+    {
+      "integration": "integration-0",
+      "pattern": "pattern-0",
+      "system": "system-0"
+    },
+    {
+      "integration": "integration-1",
+      "pattern": "pattern-1",
+      "system": "system-1"
+    },
+    {
+      "integration": "integration-2",
+      "pattern": "pattern-2",
+      "system": "system-2"
+    },
+    {
+      "integration": "integration-3",
+      "pattern": "pattern-3",
+      "system": "system-3"
+    },
+    {
+      "integration": "integration-4",
+      "pattern": "pattern-4",
+      "system": "system-4"
+    },
+    {
+      "integration": "integration-5",
+      "pattern": "pattern-5",
+      "system": "system-5"
+    }
+  ],
+  "policy_candidates": [],
+  "rounds": [],
+  "task_ledger": {
+    "assumptions": [],
+    "facts": [],
+    "input_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "ledger_version": "16X-FRONTIER-TASK-LEDGER-2.2",
+    "task_ledger_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "unknowns": [],
+    "workstreams": []
+  }
+}

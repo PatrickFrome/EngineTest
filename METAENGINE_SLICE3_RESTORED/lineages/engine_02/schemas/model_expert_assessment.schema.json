@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/model_expert_assessment.schema.json",
+  "title": "Structured model assessment for one expert thesis",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["thesis_id", "pass", "A", "P", "B", "proposed_status", "confidence", "operative_relations", "source_origin", "evidence_selectors", "strongest_rival", "analysis", "limitations", "final_answer"],
+  "properties": {
+    "thesis_id": {"type": "string", "minLength": 1},
+    "pass": {"enum": ["RECONSTRUCTOR", "CRITIC", "ADJUDICATOR"]},
+    "A": {"type": "string"},
+    "P": {"type": "string"},
+    "B": {"type": "string"},
+    "proposed_status": {"enum": ["SUPPORTED", "QUALIFIED", "REJECTED", "INSUFFICIENT"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "operative_relations": {"type": "array", "items": {"type": "string", "pattern": "^RT(?:0[0-9]|1[0-9]|2[0-8])$"}},
+    "source_origin": {"enum": ["SOURCE", "RECONSTRUCTION", "PROJECT_CLAIM", "RIVAL_OBJECTION", "PROTOCOL_TOOL_LOG", "MIXED", "UNRESOLVED"]},
+    "evidence_selectors": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "strongest_rival": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["statement", "impact", "answer"],
+      "properties": {
+        "statement": {"type": "string"},
+        "impact": {"enum": ["DEFEATED", "LIMITS_CLAIM", "DECISIVE", "UNRESOLVED"]},
+        "answer": {"type": "string"}
+      }
+    },
+    "analysis": {"type": "string"},
+    "limitations": {"type": "array", "items": {"type": "string"}},
+    "final_answer": {"type": "string"}
+  }
+}

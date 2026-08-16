@@ -1,0 +1,25 @@
+{
+  "ledger_version": "DAE-CLAIM-LEDGER-SUMMARY-1.0",
+  "source_id": "LOCAL-SHA256-EBC8D2EFE094A5E75BCD8B77C451BE17ABA066319E0D07B78730298194465305",
+  "entry_count": 7,
+  "by_origin_layer": {
+    "PROJECT_CLAIM": 1,
+    "RECONSTRUCTION": 1,
+    "UNRESOLVED": 5
+  },
+  "by_claim_type": {
+    "CONCLUSION": 3,
+    "RECONSTRUCTION": 1,
+    "UNRESOLVED_ASSERTION": 3
+  },
+  "by_scale": {
+    "LOCAL": 3,
+    "UNIVERSAL": 4
+  },
+  "by_status": {
+    "UNADJUDICATED": 7
+  },
+  "apb_reconstructed": 0,
+  "strongest_rival_attested": 0,
+  "claim_ceiling": "QUEUE_STATISTICS_ONLY_NOT_ARGUMENT_OR_TRUTH_COUNTS"
+}

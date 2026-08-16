@@ -1,0 +1,166 @@
+{
+  "bank_version": "DAE-HYPOTHESIS-BANK-1.2",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T17:36:02Z",
+  "source_id": "LOCAL-SHA256-6E75E0071F712C7A654F70125378F7BB59324F780F3647E992ECEBEFEC3FB10C",
+  "registry_version": "DAE-REFINERY-TOPICS-1.0",
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP-EMERGENT_SOURCE_ENACTMENT",
+      "topic_id": "EMERGENT_SOURCE_ENACTMENT",
+      "label": "Source-forced constellation: enactment / Temporal / conduct / Expectation / present / future",
+      "research_question": "Which distinctions, dependencies or representation failures among enactment, Temporal, conduct, Expectation, present, future, practice, repeated, waiting become invisible when the current topic registry determines the problem in advance?",
+      "origin": "SOURCE_FORCED_REGISTRY_RESISTANCE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "SOURCE_RESISTANCE",
+        "TERM_ENACTMENT",
+        "TERM_TEMPORAL",
+        "TERM_CONDUCT",
+        "TERM_EXPECTATION",
+        "TERM_PRESENT",
+        "TERM_FUTURE",
+        "TERM_PRACTICE",
+        "TERM_REPEATED",
+        "TERM_WAITING"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000001-E7D18AB5B0",
+        "OX-P000005-904568844D",
+        "OX-P000007-454A072AFA",
+        "OX-P000008-8652386329",
+        "OX-P000004-7F3EC278E1",
+        "OX-P000006-E068E1CC55"
+      ],
+      "evidence_count": 6,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "enactment",
+        "Temporal",
+        "conduct",
+        "Expectation",
+        "present",
+        "future",
+        "practice",
+        "repeated",
+        "waiting"
+      ],
+      "operator_candidate": {
+        "family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+        "candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+        "signal_counts": {
+          "DIFFERENTIAL": 0,
+          "REFERENCE_RELATIVE": 0,
+          "SYSTEM_FIELD": 0,
+          "ASYMMETRIC_DEPENDENCE": 0,
+          "RECIPROCITY_GATHERING": 0,
+          "DISTANCE_DIFFERENTIATION": 0,
+          "PRIORITY": 0,
+          "TEMPORALITY": 9,
+          "EXPECTATION": 8,
+          "ENACTMENT_PRACTICE": 12,
+          "REPETITION_RHYTHM": 5,
+          "MATERIAL_MEDIATION": 1,
+          "ABSENCE_WITHDRAWAL": 0,
+          "TRACE_DISCLOSURE": 0,
+          "ADDRESS_RESPONSE": 0
+        },
+        "active_signal_families": [
+          "TEMPORALITY",
+          "EXPECTATION",
+          "ENACTMENT_PRACTICE",
+          "REPETITION_RHYTHM",
+          "MATERIAL_MEDIATION"
+        ],
+        "central_term_cooccurrence_segments": 5,
+        "profile_hints": [
+          "TEMPORAL_ENACTMENT",
+          "PRACTICE_MEDIATION"
+        ],
+        "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_PROCESS_ONTOLOGY"
+      },
+      "source_resistance_trigger": "Curated topic coverage captured 0/9 source-central terms; 9 remained outside the recognized problem-space.",
+      "revision_condition": "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations."
+    }
+  ],
+  "case_matrices": [],
+  "source_resistance": {
+    "status": "REGISTRY_BLIND_SPOT",
+    "central_terms": [
+      "enactment",
+      "Temporal",
+      "conduct",
+      "Expectation",
+      "present",
+      "future",
+      "practice",
+      "repeated",
+      "waiting"
+    ],
+    "covered_terms": [],
+    "uncovered_terms": [
+      "enactment",
+      "Temporal",
+      "conduct",
+      "Expectation",
+      "present",
+      "future",
+      "practice",
+      "repeated",
+      "waiting"
+    ],
+    "coverage_ratio": 0,
+    "explicit_stress_terms": [],
+    "source_native_terms": [
+      "Expectation",
+      "Temporal",
+      "conduct",
+      "present",
+      "enactment",
+      "future",
+      "practice",
+      "repeated",
+      "waiting"
+    ],
+    "centrality_basis": "MULTILINGUAL_SOURCE_FREQUENCY_PLUS_SOURCE_DOCUMENT_FREQUENCY_WITH_OPTIONAL_EXPLICIT_STRESS_HINTS",
+    "operator_candidate": {
+      "family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+      "candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0,
+        "TEMPORALITY": 9,
+        "EXPECTATION": 8,
+        "ENACTMENT_PRACTICE": 12,
+        "REPETITION_RHYTHM": 5,
+        "MATERIAL_MEDIATION": 1,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "active_signal_families": [
+        "TEMPORALITY",
+        "EXPECTATION",
+        "ENACTMENT_PRACTICE",
+        "REPETITION_RHYTHM",
+        "MATERIAL_MEDIATION"
+      ],
+      "central_term_cooccurrence_segments": 5,
+      "profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_PROCESS_ONTOLOGY"
+    },
+    "emergent_hypotheses": [
+      "HYP-EMERGENT_SOURCE_ENACTMENT"
+    ],
+    "principle": "SOURCE_CENTRALITY_CAN_FORCE_TOPIC_AND_OPERATOR_REVISION_BUT_CANNOT_BY_ITSELF_VALIDATE_A_PHILOSOPHICAL_CLAIM"
+  },
+  "claim_ceiling": "HYPOTHESIS_DISCOVERY_ONLY_NOT_CORROBORATION_OR_VALIDATION"
+}

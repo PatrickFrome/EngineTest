@@ -1,0 +1,38 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "HGA-GA01-LOCAL-CLAIM-001",
+  "protocol_id": "V38-CLAIM-DISCIPLINE",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "HGA-GA01-P001-RT04",
+    "description": "Локальный тезис: на GA 1, p. 1 освобождение от мнимой самоочевидности названо необходимой предпосылкой более глубокого осознания проблемы.",
+    "source_refs": ["HGA-GA01-P001#p.1"]
+  },
+  "operator": {
+    "agent_id": "dae-ga-pilot",
+    "role": "automated-method-audit"
+  },
+  "started_at": "2026-08-11T04:20:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "ORIGIN_MARKED": {
+      "status": "YES",
+      "evidence_refs": ["HGA-GA01-P001#p.1"],
+      "note": "Происхождение — прямое текстовое утверждение немецкого access copy, не поздняя реконструкция."
+    },
+    "JUSTIFICATION_MODE": {
+      "status": "YES",
+      "note": "Текстовое описание с автоматическим кандидатом RT04; не причинный и не онтологический вывод."
+    },
+    "SCALE_MARKED": {
+      "status": "YES",
+      "note": "Допустим только локальный вывод о функции одной формулы на одной странице раннего текста."
+    },
+    "REVISION_TRIGGER": {
+      "status": "YES",
+      "evidence_refs": ["HGA-GA01-P001#edition-reconciliation-pending"],
+      "note": "Понизить или удалить вывод, если сверка с конкретным печатным изданием изменит чтение, пагинацию или контекст."
+    }
+  },
+  "declared_outcome": "PASS"
+}

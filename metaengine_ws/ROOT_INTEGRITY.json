@@ -1,0 +1,28 @@
+{
+  "project": "Destruktion 4.0 METAENGINE 16X",
+  "version": "2.1.0-alpha.1",
+  "content_file_count": 10209,
+  "content_root_sha256": "bcbdfe3c206ddebcb765c3fdd82af9ddf843971eb32c647bf3f0833f61c6c603",
+  "inventory_sha256": "40ae6c3d040afbf25ea04958b1cb5ff66f8a371b97a57b2f45c41c409bc67ce0",
+  "sha256sums_sha256": "a0c65e69b6a64ce22db07e0430b3a267aa500f3ad2a671cfae207f408d968e6c",
+  "lineage_fixity": {
+    "baseline": "2.0.0-alpha.1",
+    "current": "2.1.0-alpha.1",
+    "fixity_domain_excludes": [
+      "__pycache__",
+      "*.pyc",
+      ".pytest_cache"
+    ],
+    "baseline_lineage_files": 9839,
+    "current_lineage_files": 9839,
+    "matched_identical": 9839,
+    "missing": [],
+    "added": [],
+    "changed": [],
+    "byte_fixity": true
+  },
+  "release_stage_completed_executions": 281204,
+  "full_native_worlds": 117,
+  "regression_tests": "42/42",
+  "claim_ceiling": "INTERNAL_PARALLEL_ARCHITECTURAL_EVIDENCE_NOT_EXTERNAL_TRUTH_VALIDATION"
+}

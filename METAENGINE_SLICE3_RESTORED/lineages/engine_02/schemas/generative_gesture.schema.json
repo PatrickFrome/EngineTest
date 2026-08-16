@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/generative_gesture.schema.json",
+  "title": "Destruktion declarative generative gesture",
+  "type": "object",
+  "required": ["gesture_id", "title", "question", "protocol_refs", "activation", "emission_program", "firewall"],
+  "properties": {
+    "gesture_id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "question": { "type": "string", "minLength": 1 },
+    "trigger": { "type": "string" },
+    "protocol_refs": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "activation": { "$ref": "#/$defs/rule" },
+    "active_reason": { "type": "string" },
+    "inactive_reason": { "type": "string" },
+    "emission_program": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/emission" } },
+    "firewall": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "rule": {
+      "type": "object",
+      "oneOf": [
+        { "required": ["all"], "properties": { "all": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/rule" } } } },
+        { "required": ["any"], "properties": { "any": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/rule" } } } },
+        { "required": ["not"], "properties": { "not": { "$ref": "#/$defs/rule" } } },
+        {
+          "required": ["op"],
+          "properties": {
+            "op": { "enum": ["truthy", "gte", "length_gte", "equals", "includes_any", "family_any", "topic_in"] },
+            "path": { "type": "string" },
+            "value": {},
+            "values": { "type": "array" }
+          }
+        }
+      ]
+    },
+    "emission": {
+      "type": "object",
+      "required": ["role", "node_key", "title", "proposition"],
+      "properties": {
+        "role": { "type": "string", "minLength": 1 },
+        "node_key": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "proposition": { "type": "string", "minLength": 1 },
+        "parents": { "type": "array", "items": { "type": "string" } },
+        "residual_kind": { "type": ["string", "null"] },
+        "for_each": { "type": "string" },
+        "as": { "type": "string" },
+        "when": { "$ref": "#/$defs/rule" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

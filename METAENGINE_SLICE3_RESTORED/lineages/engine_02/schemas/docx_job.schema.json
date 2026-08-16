@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/docx_job.schema.json",
+  "title": "Destruktion DOCX intake job",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "job_version",
+    "source_admission",
+    "bibliographic",
+    "access_policy",
+    "crosswalk"
+  ],
+  "properties": {
+    "job_version": {"const": "DAE-DOCX-JOB-1.0"},
+    "source_admission": {"enum": ["CATALOGUED", "LOCAL_HASH"]},
+    "source_id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9._-]{2,127}$"},
+    "bibliographic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["author", "title", "publication", "year", "language", "genre"],
+      "properties": {
+        "author": {"type": "string", "minLength": 1},
+        "title": {"type": "string", "minLength": 1},
+        "publication": {"type": "string", "minLength": 1},
+        "year": {"type": "integer", "minimum": -9999, "maximum": 9999, "not": {"const": 0}},
+        "volume": {"type": "string", "minLength": 1},
+        "printed_pages": {"type": "string", "minLength": 1},
+        "language": {"type": "string", "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$"},
+        "source_url": {"type": "string", "minLength": 1},
+        "genre": {"type": "string", "minLength": 1}
+      }
+    },
+    "access_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["analysis_class", "raw_text_retention", "redistribution", "allow_derived_outputs", "basis"],
+      "properties": {
+        "analysis_class": {"enum": ["DERIVATIVE_ONLY", "REUSABLE_TEXT"]},
+        "raw_text_retention": {"enum": ["TRANSIENT", "PROJECT", "RELEASE"]},
+        "redistribution": {"enum": ["NOT_AUTHORIZED", "UNKNOWN", "AUTHORIZED"]},
+        "allow_derived_outputs": {"const": true},
+        "basis": {"type": "string", "minLength": 1},
+        "restrictions_checked_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "crosswalk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_edition", "status", "target_locator", "evidence_refs"],
+      "properties": {
+        "target_edition": {"type": "string", "minLength": 1},
+        "status": {"enum": ["NONE", "WORK_LEVEL_CONFIRMED", "PAGE_LEVEL_PARTIAL", "PAGE_LEVEL_CONFIRMED"]},
+        "target_locator": {"type": "string", "minLength": 1},
+        "evidence_refs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "note": {"type": "string"}
+      }
+    },
+    "structure": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "drop_line_patterns": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "analyze_notes": {"type": "boolean"}
+      }
+    },
+    "rendering": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "page_label_prefix": {"type": "string", "pattern": "^[A-Z][A-Z0-9_-]{0,15}$"}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"source_admission": {"const": "CATALOGUED"}}},
+      "then": {"required": ["source_id"]}
+    },
+    {
+      "if": {"properties": {"access_policy": {"properties": {"analysis_class": {"const": "DERIVATIVE_ONLY"}}}}},
+      "then": {"properties": {"access_policy": {"properties": {"raw_text_retention": {"const": "TRANSIENT"}}}}}
+    }
+  ]
+}

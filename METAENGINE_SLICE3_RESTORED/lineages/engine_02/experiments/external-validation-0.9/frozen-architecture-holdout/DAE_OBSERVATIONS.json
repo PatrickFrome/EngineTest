@@ -1,0 +1,892 @@
+{
+  "observations_version": "DESTRUKTION-HOLDOUT-DAE-OBSERVATIONS-0.9",
+  "benchmark_id": "HB-8B928271E125A87B",
+  "generated_at": "2026-08-11T19:25:40Z",
+  "observations": [
+    {
+      "excerpt_id": "BERKELEY_PHK_Q1",
+      "excerpt_sha256": "935ecba8ecdaf4f3790b883922cdf61ac92288caf4b02aabdfd9b3d94ca545ab",
+      "hypothesis_bank_sha256": "32e57ec90fd5f677e7b7ecce8a3aefed9b84d555b8d66751296fbb953f303e91",
+      "relation_profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "processual_profile_hints": [],
+      "operator_family": "RELATION_GENESIS_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 3,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 3,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 3,
+        "TEMPORALITY": 3,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 5,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 3,
+        "ADDRESS_RESPONSE": 4
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "BERKELEY_PHK_Q2",
+      "excerpt_sha256": "d49a3326037b2f98b9838cf96b3d5c7e1b01d0cb02e8c27f66c8a02b2346b73d",
+      "hypothesis_bank_sha256": "046de9fe1b6b9a84f758ce7e6b86d5240fb0556e32be473ea216a9a8ad72cb38",
+      "relation_profile_hints": [
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION",
+        "RESPONSIVE_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 1,
+        "PRIORITY": 1,
+        "TEMPORALITY": 2,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 1,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 8,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 3,
+        "ADDRESS_RESPONSE": 4
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "BERKELEY_PHK_Q3",
+      "excerpt_sha256": "e87d33a617154955cd0f97d6ea690ba35e28d6a0a10aa6366cf3db4fb1779047",
+      "hypothesis_bank_sha256": "ae6cbe6d645d0c7a80887f40354339a15e4231f602af7330909dd90f4f09b5c5",
+      "relation_profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "processual_profile_hints": [],
+      "operator_family": "RELATION_GENESIS_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 17,
+        "SYSTEM_FIELD": 2,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 6,
+        "PRIORITY": 1,
+        "TEMPORALITY": 2,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 1,
+        "MATERIAL_MEDIATION": 25,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 1,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "HOBBES_LEVIATHAN_Q1",
+      "excerpt_sha256": "e628742f64e5593e40c056f88d7271bad89e22644cc88db040f0eb086b1f0802",
+      "hypothesis_bank_sha256": "2e9fd731cd088eff3edfc13b904aecab1ec03abfe8c55a5adbc9092b93649c63",
+      "relation_profile_hints": [],
+      "processual_profile_hints": [],
+      "operator_family": "GENERIC_SOURCE_FORCED_REVISION",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 3,
+        "TEMPORALITY": 5,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 0,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 1
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "HOBBES_LEVIATHAN_Q2",
+      "excerpt_sha256": "5d21ff76365b873ffb07af7c515207ec4ef2e7ff5e4bc14c5545d6d89e459635",
+      "hypothesis_bank_sha256": "ebbd5a290daf94542e45ffbf64e0d4444db4daec019fc18d423290e3eef06a02",
+      "relation_profile_hints": [],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "operator_family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0,
+        "TEMPORALITY": 1,
+        "EXPECTATION": 1,
+        "ENACTMENT_PRACTICE": 1,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 2,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "HOBBES_LEVIATHAN_Q3",
+      "excerpt_sha256": "54b2095d992362354b3c1a674eab13446e3b8f5922c87e77e00d95e23864343e",
+      "hypothesis_bank_sha256": "dcf69903c36ce34c6f257e1cace64fc9158f8134cbe567cd71ddcb53cc9ee665",
+      "relation_profile_hints": [],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT"
+      ],
+      "operator_family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 3,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 1,
+        "TEMPORALITY": 6,
+        "EXPECTATION": 1,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 1,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "HUME_EHU_Q1",
+      "excerpt_sha256": "5260812c697ec0da7a388ecd4ca45b72250d7bf2fe90289d6bf71f5e89638fea",
+      "hypothesis_bank_sha256": "63f7d91a7b8294ff8ba0b6d501e185a25b7e8e5ad1717f51f40ed93571c21e67",
+      "relation_profile_hints": [
+        "DIFFERENTIAL_CONSTITUTION",
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "processual_profile_hints": [],
+      "operator_family": "RELATION_GENESIS_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 3,
+        "REFERENCE_RELATIVE": 1,
+        "SYSTEM_FIELD": 2,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 1,
+        "DISTANCE_DIFFERENTIATION": 1,
+        "PRIORITY": 0,
+        "TEMPORALITY": 6,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 9,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 1,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "HUME_EHU_Q2",
+      "excerpt_sha256": "df103051a0bf9a852117cec995b1f4c40fea90a92608f8ea4279cc24b4af4657",
+      "hypothesis_bank_sha256": "708718204108863d9e702e37e1155099b1a8fc1e40c72d51346d373bac40ca57",
+      "relation_profile_hints": [
+        "DIFFERENTIAL_CONSTITUTION"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 1,
+        "REFERENCE_RELATIVE": 1,
+        "SYSTEM_FIELD": 3,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 1,
+        "TEMPORALITY": 4,
+        "EXPECTATION": 1,
+        "ENACTMENT_PRACTICE": 3,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 15,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 1,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "HUME_EHU_Q3",
+      "excerpt_sha256": "326e21f0c59c9e2c7ec73bd670a3b43e1457e03366b06033583be2595913f350",
+      "hypothesis_bank_sha256": "78103c52eb2dbb81bb7e6e7339713196ab585925601d831b2fea561f43e397d0",
+      "relation_profile_hints": [
+        "DIFFERENTIAL_CONSTITUTION",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 1,
+        "REFERENCE_RELATIVE": 1,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 3,
+        "PRIORITY": 3,
+        "TEMPORALITY": 10,
+        "EXPECTATION": 1,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 2,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-LUCIANI-40D9C1347419",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "KANT_CPR_Q1",
+      "excerpt_sha256": "baa4d78db69fb66b009b04942a02bb8e9cd8c35589dc5a02936c48df0734532f",
+      "hypothesis_bank_sha256": "45ace780fd5bfcc70880a0b67c2f5d83f5c80756fd98bc2734a1c6e99b8d3566",
+      "relation_profile_hints": [
+        "DIFFERENTIAL_CONSTITUTION",
+        "ASYMMETRIC_DEPENDENCE",
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "processual_profile_hints": [],
+      "operator_family": "RELATION_GENESIS_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 2,
+        "REFERENCE_RELATIVE": 4,
+        "SYSTEM_FIELD": 3,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 3,
+        "DISTANCE_DIFFERENTIATION": 3,
+        "PRIORITY": 1,
+        "TEMPORALITY": 5,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 13,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 2,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "KANT_CPR_Q2",
+      "excerpt_sha256": "3210e339a9c2bbd60168dc77a72dcf5be73e64a0dbdbe187c83399d6677db701",
+      "hypothesis_bank_sha256": "b6717d61f8a15fc3de2793aa1c57a90a347eab846dffe542edfe5fdf7f891267",
+      "relation_profile_hints": [
+        "DIFFERENTIAL_CONSTITUTION",
+        "ASYMMETRIC_DEPENDENCE",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "processual_profile_hints": [
+        "ABSENCE_DISCLOSURE"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 5,
+        "REFERENCE_RELATIVE": 2,
+        "SYSTEM_FIELD": 3,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 1,
+        "PRIORITY": 1,
+        "TEMPORALITY": 6,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 4,
+        "ABSENCE_WITHDRAWAL": 1,
+        "TRACE_DISCLOSURE": 2,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "KANT_CPR_Q3",
+      "excerpt_sha256": "9b0c302624ee1245e17ad852e15e5b28d94481250704632f0d2934fd773cb8c1",
+      "hypothesis_bank_sha256": "acf6b4e0d7e18a2e89ac8501104879299ab7fb10c7421eff025e31be8a9f103f",
+      "relation_profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 4,
+        "SYSTEM_FIELD": 2,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 1,
+        "DISTANCE_DIFFERENTIATION": 1,
+        "PRIORITY": 2,
+        "TEMPORALITY": 6,
+        "EXPECTATION": 2,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 7,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 1,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "LOCKE_EHU_Q1",
+      "excerpt_sha256": "ed969b81c8ee8831669fc2c69cfc4a9174f58259e366ba61e8129552f34f2be0",
+      "hypothesis_bank_sha256": "24ba914b8a27b761657563726ffef3e3108526d8dc3773b46c88189eef686f6d",
+      "relation_profile_hints": [
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION",
+        "RESPONSIVE_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 1,
+        "PRIORITY": 4,
+        "TEMPORALITY": 4,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 1,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 12,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 1
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "LOCKE_EHU_Q2",
+      "excerpt_sha256": "378a010ea3282c4576e072afe6f68d4f51deab8aa8f840d4b77512b509eeaa86",
+      "hypothesis_bank_sha256": "80e4f5ec31129a9a46dc083c3ca1e693b186f76472c0426071c0c4443ab7d265",
+      "relation_profile_hints": [
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "processual_profile_hints": [],
+      "operator_family": "RELATION_GENESIS_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 5,
+        "PRIORITY": 3,
+        "TEMPORALITY": 1,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 3,
+        "MATERIAL_MEDIATION": 17,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 1
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "LOCKE_EHU_Q3",
+      "excerpt_sha256": "4d705ae562fabe33172be40827c6f66b2061d73ce955606a7a3589e7dc477d26",
+      "hypothesis_bank_sha256": "f4b2dd1c4ba2dbf36c7500869d44ca3796050a1d6f9c96bc5a7c8238d6eafd5b",
+      "relation_profile_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION",
+        "RESPONSIVE_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 1,
+        "DISTANCE_DIFFERENTIATION": 1,
+        "PRIORITY": 1,
+        "TEMPORALITY": 1,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 1,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 21,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 3,
+        "ADDRESS_RESPONSE": 2
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "MILL_LIBERTY_Q1",
+      "excerpt_sha256": "067df59e25fed972069ba5a06fc31a7dccdb7f70636cc9d8c38dda1689497eb7",
+      "hypothesis_bank_sha256": "caa5d51e6a57f48af291f32f5a78acf571c33fd065d74695eeef29a7ac8d4dcd",
+      "relation_profile_hints": [
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION",
+        "RESPONSIVE_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 1,
+        "PRIORITY": 0,
+        "TEMPORALITY": 3,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 1,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 2,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 1
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "MILL_LIBERTY_Q2",
+      "excerpt_sha256": "72a5091cadd563c8fdf49ceada10ce234b8ab4c1bce9061a711383131bfe2d64",
+      "hypothesis_bank_sha256": "72b1bdcad9db5f0ae349d4919aaf88a3118015b79d95958d8ce49275e7936ac0",
+      "relation_profile_hints": [
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "processual_profile_hints": [],
+      "operator_family": "RELATION_GENESIS_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 1,
+        "PRIORITY": 1,
+        "TEMPORALITY": 2,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 3,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 1,
+        "ADDRESS_RESPONSE": 1
+      },
+      "open_set_status": "OPEN_SET_RIVAL_REQUIRED",
+      "open_set_candidate": "F-OPEN-BUT_NOT_ALL-55242C4E0181",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "MILL_LIBERTY_Q3",
+      "excerpt_sha256": "1320524c77e6ce671018e31e119e2fe756793d94a574db1c15132dec7ba4da53",
+      "hypothesis_bank_sha256": "5d134a0a88918a22b5f265ad233f48f99a66e261504cbe6a32239be944b3e179",
+      "relation_profile_hints": [],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "operator_family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 2,
+        "TEMPORALITY": 2,
+        "EXPECTATION": 1,
+        "ENACTMENT_PRACTICE": 14,
+        "REPETITION_RHYTHM": 1,
+        "MATERIAL_MEDIATION": 2,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 2,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "OPEN_SET_RIVAL_REQUIRED",
+      "open_set_candidate": "F-OPEN-NOT_BUT_PUBLIC-3E3520E94C78",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "NIETZSCHE_BGE_Q1",
+      "excerpt_sha256": "1632d61671b15cce0dab3b0edcbf34bfc753fcc2cf469654113afe407088935b",
+      "hypothesis_bank_sha256": "356a716cf7f230556f545c9f6470bc601149c3ed1b35d5d017beb03033efb609",
+      "relation_profile_hints": [
+        "DIFFERENTIAL_CONSTITUTION",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 2,
+        "REFERENCE_RELATIVE": 1,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 3,
+        "PRIORITY": 0,
+        "TEMPORALITY": 1,
+        "EXPECTATION": 1,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 1,
+        "MATERIAL_MEDIATION": 0,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 1
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "NIETZSCHE_BGE_Q2",
+      "excerpt_sha256": "b059ecf939d46efbdabbe4eecae1f28a2a692c1eefa5b554bffc16c98a0dc13d",
+      "hypothesis_bank_sha256": "1f91bb8a426bdc083d0b187b6a56e8c1177f2492d5ee66d7f35d0c244528c5f7",
+      "relation_profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 1,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 1,
+        "TEMPORALITY": 7,
+        "EXPECTATION": 1,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 4,
+        "ABSENCE_WITHDRAWAL": 1,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "NIETZSCHE_BGE_Q3",
+      "excerpt_sha256": "9156e01e311dd38342bc9445d22c62b7e5603c0122336a95eea89831bfe1bf9f",
+      "hypothesis_bank_sha256": "b430df6d9bb5b5db91ff6f8a6fbe94b55199199d13795d078d65c0cc4add61bb",
+      "relation_profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "CO_CONSTITUTIVE_OR_RECIPROCAL"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "ABSENCE_DISCLOSURE"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 2,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 1,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 1,
+        "TEMPORALITY": 8,
+        "EXPECTATION": 1,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 2,
+        "MATERIAL_MEDIATION": 0,
+        "ABSENCE_WITHDRAWAL": 1,
+        "TRACE_DISCLOSURE": 1,
+        "ADDRESS_RESPONSE": 1
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "PLATO_REPUBLIC_Q1",
+      "excerpt_sha256": "5bb0e2a25a8223b372b8e5bd4d9e2f848f2639ab30b1e3dd088b8c78ae05861c",
+      "hypothesis_bank_sha256": "ed2a959d3f46e1c056806ef0b315071aa975bc1185ba95b3ac2023f4912d2a38",
+      "relation_profile_hints": [],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION",
+        "ABSENCE_DISCLOSURE"
+      ],
+      "operator_family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 7,
+        "TEMPORALITY": 2,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 2,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 1,
+        "ABSENCE_WITHDRAWAL": 1,
+        "TRACE_DISCLOSURE": 1,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "PLATO_REPUBLIC_Q2",
+      "excerpt_sha256": "da740f1835354d71f4e386a93fb4a6885fa0598cd85f06ee526c794a68c85e8a",
+      "hypothesis_bank_sha256": "6dd98f14424ef4df7836463711d71ac7b24a35296c611235034e65c284137637",
+      "relation_profile_hints": [
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION",
+        "RESPONSIVE_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 1,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 3,
+        "PRIORITY": 0,
+        "TEMPORALITY": 10,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 2,
+        "REPETITION_RHYTHM": 2,
+        "MATERIAL_MEDIATION": 0,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 7
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "PLATO_REPUBLIC_Q3",
+      "excerpt_sha256": "ea691ce846eae7e8427d125fee5c614c15dbed5639ca9d0746856bdf605adc2b",
+      "hypothesis_bank_sha256": "3f5b842929a567785e6c7b594b520250b7d31fcdd44005e8225feb98025eb559",
+      "relation_profile_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "processual_profile_hints": [],
+      "operator_family": "RELATION_GENESIS_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 1,
+        "DISTANCE_DIFFERENTIATION": 1,
+        "PRIORITY": 0,
+        "TEMPORALITY": 4,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 3,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 2
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "ROUSSEAU_SOCIAL_CONTRACT_Q1",
+      "excerpt_sha256": "025e338b9cf8e12611e456be19d52619f4a82ce7c03af37d56736e786b712a55",
+      "hypothesis_bank_sha256": "18e45c7cefe46e5008a53ea9f7f3269252ce61c65c24989f1eb711e2a17e1c13",
+      "relation_profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "processual_profile_hints": [],
+      "operator_family": "RELATION_GENESIS_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 1,
+        "REFERENCE_RELATIVE": 4,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 2,
+        "RECIPROCITY_GATHERING": 1,
+        "DISTANCE_DIFFERENTIATION": 2,
+        "PRIORITY": 3,
+        "TEMPORALITY": 0,
+        "EXPECTATION": 1,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 4,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 1,
+        "ADDRESS_RESPONSE": 1
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "ROUSSEAU_SOCIAL_CONTRACT_Q2",
+      "excerpt_sha256": "05a1298db0b092770421767ad16eab3a156fc3dc6af8a065318d73c38d24d1a4",
+      "hypothesis_bank_sha256": "299db69ca804c30a0c15779a674ba2990290f1998cfc3c252045333431896832",
+      "relation_profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 1,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 1,
+        "PRIORITY": 1,
+        "TEMPORALITY": 10,
+        "EXPECTATION": 2,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 2,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    },
+    {
+      "excerpt_id": "ROUSSEAU_SOCIAL_CONTRACT_Q3",
+      "excerpt_sha256": "969f2ed7e967218841f5bfc1af56075d3248ae3314a607e7ef588d79e9524d9a",
+      "hypothesis_bank_sha256": "e3f48b7e338facec456d65e11bcee0ee3365e686a1eba0c14aeb1d9fa144bcf8",
+      "relation_profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "processual_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION",
+        "RESPONSIVE_ENACTMENT"
+      ],
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "signal_counts": {
+        "DIFFERENTIAL": 2,
+        "REFERENCE_RELATIVE": 2,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 4,
+        "DISTANCE_DIFFERENTIATION": 2,
+        "PRIORITY": 5,
+        "TEMPORALITY": 6,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 2,
+        "REPETITION_RHYTHM": 1,
+        "MATERIAL_MEDIATION": 1,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 1,
+        "ADDRESS_RESPONSE": 1
+      },
+      "open_set_status": "NO_OPEN_SET_PRESSURE",
+      "open_set_candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "claim_ceiling": "DAE_ARCHITECTURAL_SIGNAL_OBSERVATION_NOT_GOLD"
+    }
+  ],
+  "claim_ceiling": "MACHINE_SIGNAL_TRACE_FOR_AUDIT_NOT_HUMAN_GOLD"
+}

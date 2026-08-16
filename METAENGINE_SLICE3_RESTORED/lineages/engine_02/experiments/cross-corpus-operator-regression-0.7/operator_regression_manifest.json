@@ -1,0 +1,13 @@
+{
+  "regression_version": "DAE-OPERATOR-REGRESSION-MANIFEST-1.0",
+  "candidate_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+  "description": "Cross-corpus resistant-source regression: Geviert-origin operator must transfer to differential and asymmetric cases, preserve local mode variation, and remain inactive on a cogito negative control.",
+  "corpora": [
+    {"corpus_id":"GEVIERT","label":"Heidegger Geviert origin case","control_role":"ORIGIN_POSITIVE","refinery_directory":"GEVIERT/refinery","living_analysis_file":"GEVIERT/living/living_analysis.json","expected_mutation":true,"expected_profile_hints":["CO_CONSTITUTIVE_OR_RECIPROCAL","DIFFERENCE_PRESERVING_PROXIMITY"],"rationale":"Origin case: source resists relata-first representation and ties gathering to preserved distance."},
+    {"corpus_id":"SAUSSURE","label":"Saussure value and difference transfer","control_role":"TRANSFER_POSITIVE","refinery_directory":"SAUSSURE/refinery","living_analysis_file":"SAUSSURE/living/living_analysis.json","expected_mutation":true,"expected_profile_hints":["DIFFERENTIAL_CONSTITUTION"],"rationale":"Independent transfer: differential value tests whether source-driven relation genesis generalizes beyond Heidegger without importing Fourfold vocabulary."},
+    {"corpus_id":"SPINOZA","label":"Spinoza substance-mode asymmetry","control_role":"MIXED_CONTROL","refinery_directory":"SPINOZA/refinery","living_analysis_file":"SPINOZA/living/living_analysis.json","expected_mutation":true,"expected_profile_hints":["ASYMMETRIC_DEPENDENCE"],"rationale":"Non-collapse control: the operator may activate only if it preserves one-way dependence and priority rather than forcing reciprocal co-constitution."},
+    {"corpus_id":"ARISTOTLE","label":"Aristotle primary substance and relatives","control_role":"MIXED_CONTROL","refinery_directory":"ARISTOTLE/refinery","living_analysis_file":"ARISTOTLE/living/living_analysis.json","expected_mutation":true,"expected_profile_hints":["ASYMMETRIC_DEPENDENCE","LOCAL_MODE_VARIATION"],"rationale":"Mixed-regime control: primary-substance priority and the category of relatives must not be flattened into one global relation ontology."},
+    {"corpus_id":"DESCARTES","label":"Descartes cogito negative control","control_role":"NEGATIVE_CONTROL","refinery_directory":"DESCARTES/refinery","living_analysis_file":"DESCARTES/living/living_analysis.json","expected_mutation":false,"expected_profile_hints":[],"rationale":"Negative control: philosophical centrality and occasional dependence language must not activate relation-genesis when the local explanandum is cogito certainty and thinking selfhood."}
+  ],
+  "claim_ceiling": "INTERNAL_CROSS_CORPUS_OPERATOR_REGRESSION_NOT_EXTERNAL_PHILOSOPHICAL_VALIDATION"
+}

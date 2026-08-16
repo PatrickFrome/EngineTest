@@ -1,0 +1,23 @@
+{
+  "source_map_version": "DAE-SOURCE-MAP-1.0",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T19:20:39Z",
+  "document_source_id": "LOCAL-SHA256-ED92B1C202ACAC947DEC0BC7DA0CE20F1FDB30AA7C10DD116E6A212CA969FD75",
+  "document_artifact": {
+    "sha256": "e20685b7e3b23ed48ace9ef89247e65ffc638f9a4982687ba105ee538e437ae8",
+    "role": "COMPOSITE_CONTAINER",
+    "admission": "LOCAL_HASH"
+  },
+  "catalog_targets": [],
+  "ga_volume_candidates": [],
+  "unresolved_marker_clusters": [],
+  "coverage": {
+    "segments_scanned": 10,
+    "segments_with_catalog_alias": 0,
+    "segments_with_ga_locator": 0,
+    "pseudo_citation_occurrences": 0,
+    "hyperlink_occurrences": 0,
+    "resolved_claim_level_citations": 0
+  },
+  "claim_ceiling": "SOURCE_TARGET_AND_CITATION_MARKER_CANDIDATES_ONLY_NOT_CLAIM_LEVEL_SOURCE_RESOLUTION"
+}

@@ -1,0 +1,35 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "HGA-GA01-REALITAET-MODERATE-CLAIM-001",
+  "protocol_id": "V38-CLAIM-DISCIPLINE",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "HGA-GA01-REALITAET-MODERATE",
+    "description": "Ограниченная реконструкция: статья защищает критический реализм как исследовательскую программу, признавая незавершённость определения природы реального.",
+    "source_refs": ["HGA-PJ25-1912-REALITAET#S356-S363", "HGA-GA01-REALITAET-ARG-001#C-MODERATE"]
+  },
+  "operator": {"agent_id": "dae-ga1-work-pilot", "role": "automated-method-audit"},
+  "started_at": "2026-08-11T05:10:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "ORIGIN_MARKED": {
+      "status": "YES",
+      "evidence_refs": ["HGA-PJ25-1912-REALITAET#S356-S363", "HGA-GA01-REALITAET-ARG-001#ARG-MODERATE-PRO"],
+      "note": "Это абдуктивная реконструкция нескольких текстовых переходов, а не цитата и не поздняя самоинтерпретация."
+    },
+    "JUSTIFICATION_MODE": {
+      "status": "YES",
+      "note": "Режим — сопоставительная абдукция с явным аргументом против и диалектическим статусом CONTESTED."
+    },
+    "SCALE_MARKED": {
+      "status": "YES",
+      "note": "Вывод относится только к статье 1912 года и не характеризует GA 1 целиком или траекторию к Sein und Zeit."
+    },
+    "REVISION_TRIGGER": {
+      "status": "YES",
+      "evidence_refs": ["HGA-GA01-REALITAET-ARG-001#ARG-MODERATE-CON", "HGA-GA01-REALITAET-ABLATION#N-MODAL"],
+      "note": "Понизить реконструкцию, если независимый bridge от регулярности и коммуникации к реальным носителям не выдержит кантианского, структурного или антикругового rival."
+    }
+  },
+  "declared_outcome": "PASS"
+}

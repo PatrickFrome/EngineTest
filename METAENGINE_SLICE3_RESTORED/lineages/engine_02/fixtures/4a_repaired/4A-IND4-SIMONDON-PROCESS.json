@@ -1,0 +1,136 @@
+{
+  "record_id": "4A-IND4-SIMONDON-PROCESS",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4A-09#individuation-summary",
+      "LEGACY-BR-A-2.25#simondon-process-priority"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4A-0.2-repair + DAE-0.1",
+    "agent": "automation-repair-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4A-0.1/4A-IND4-SIMONDON-PROCESS"
+    ],
+    "activity_id": "MODULE-MIGRATION-4A-0.2-SEMANTIC-REPAIR",
+    "timestamp": "2026-08-11T12:00:00Z",
+    "artifact_hash": "sha256:69fafe1a9bdfe62f50c5be410b95d963d0737b26cb507e413a37eb13dcc8e1a3"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "STATE",
+    "description": "A metastable preindividual system rich in unresolved potentials.",
+    "role": [
+      "preindividual-field"
+    ],
+    "object_type": "metastable_system"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "EVENT",
+    "description": "An individuation process generates an individuated unit together with a correlated milieu.",
+    "role": [
+      "individuation-process"
+    ],
+    "object_type": "ontogenetic_process"
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT00",
+      "additional_arguments": [
+        {
+          "argument_id": "M",
+          "role": "correlated-milieu",
+          "referent_kind": "OTHER",
+          "value": {
+            "literal": "associated milieu"
+          },
+          "status": "CONDITIONAL"
+        }
+      ]
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "Process-first reconstruction may explain boundary emergence and unit formation, but process priority is not a universal axiom."
+    },
+    "promotion_flags": [
+      "NODE_KIND",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G2",
+    "gap": "NONE",
+    "bridge_burden": "Cross-domain transfer from physical to vital/psychic/collective individuation requires a new bridge."
+  },
+  "audit": {
+    "native_domain": "Simondonian individuation",
+    "native_method": "ontogenetic/process analysis",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O2",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "MEDIUM"
+  },
+  "extensions": {
+    "ind4": {
+      "module_id": "IND4",
+      "version": "0.1",
+      "domain": "process/ontogenesis",
+      "candidate_unit": "individual emerging with associated milieu",
+      "boundary_criterion": [
+        "PROCESS_EVENT",
+        "CAUSAL_DYNAMIC"
+      ],
+      "integration_mechanism": "resolution/propagation within a metastable system",
+      "granularity": "domain-specific phase of individuation",
+      "nesting": "subsequent individuation can occur",
+      "overlap": "not globally fixed",
+      "counterpartition": "substance/structure-based account of the same unit",
+      "discriminator": "which model better explains boundary emergence, persistence and causal powers",
+      "revision_trigger": "A region where process-model adds no explanatory gain over a stable-unit model."
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "STATE_TRANSITION",
+      "relation_applies_to": "TRANSITION",
+      "relation_rationale": "The available orientation source does not establish an interventionist causal relation; RT00 preserves the ontogenetic reconstruction without counterfeit causal precision.",
+      "semantic_review_status": "REPAIRED_PENDING_EXPERT",
+      "human_review_required": true,
+      "review_notes": [
+        "RT06 was removed pending primary-text and causal-bridge evidence; W4A-09 remains orientation-only."
+      ]
+    }
+  },
+  "outcome": "UNDERDETERMINED",
+  "rivals": [
+    {
+      "description": "Individuation is an intervention-sensitive causal production process.",
+      "relation_rt_id": "RT06",
+      "bridge": "Requires causal assumptions, mechanisms and counterfactual or intervention evidence.",
+      "discriminator": "Provide a model in which changes to the preindividual state yield discriminating outcome changes."
+    },
+    {
+      "description": "Individuation is a constitutive or ontogenetic reconstruction not reducible to causal production.",
+      "relation_rt_id": "RT09",
+      "bridge": "Requires bearer, product, identity and persistence criteria.",
+      "discriminator": "Separate constitution of the unit from causal generation of an event."
+    }
+  ]
+}

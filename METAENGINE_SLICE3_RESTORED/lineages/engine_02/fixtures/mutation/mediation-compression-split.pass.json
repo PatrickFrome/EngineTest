@@ -1,0 +1,99 @@
+{
+  "operator_delta_version": "DAE-OPERATOR-DELTA-1.0",
+  "delta_id": "DELTA-MEDIATION-COMPRESSION-SPLIT-001",
+  "created_at": "2026-08-11T15:45:00Z",
+  "name": "Split orientation-compression from adjudicative substitution",
+  "status": "READY_FOR_GATE",
+  "resistant_source": {
+    "source_id": "FIXTURE-RESISTANT-MEDIATION-001",
+    "selector": "span:120-188",
+    "span_sha256": null,
+    "why_resistant": "The same abridged dossier is harmless as orientation but distorting when it becomes the final object of adjudication."
+  },
+  "incompatible_unitizations": [
+    {
+      "unitization_id": "U-ORIENTATION",
+      "description": "The dossier is one reversible orientation aid pointing beyond itself.",
+      "analytic_consequence": "Compression is admissible when claims remain low-burden and traceback remains constitutive."
+    },
+    {
+      "unitization_id": "U-SUBSTITUTION",
+      "description": "The dossier is treated as the adjudicative object that replaces the heterogeneous source field.",
+      "analytic_consequence": "The same compression becomes a category error because losses now determine the verdict."
+    }
+  ],
+  "target": {
+    "registry_section": "conditional_families",
+    "operator_id": "F-MEDIATION-COMPRESSION"
+  },
+  "observed_failure": {
+    "failure_type": "RIVAL_UNITIZATION_COLLAPSE",
+    "description": "One family currently handles orientation and substitution under the same trigger ecology, obscuring the role change that makes compression epistemically dangerous.",
+    "lost_distinction": "Accuracy of a summary and sufficiency of that summary for adjudication are different properties."
+  },
+  "mutation": {
+    "kind": "SPLIT",
+    "proposal": "Split the family by epistemic role so the same compressed artifact can be treated differently when it orients inquiry versus when it substitutes for the source.",
+    "cost": "More branching and a risk of overtyping epistemic roles before the use-context is known.",
+    "reversibility": "Restore F-MEDIATION-COMPRESSION from rollback_target.json and remove both split variants.",
+    "variants": [
+      {
+        "new_id": "F-MEDIATION-ORIENTATION",
+        "unitization_refs": ["U-ORIENTATION"],
+        "changes": {
+          "title": "Mediation as reversible orientation",
+          "triggers": ["overview", "summary", "orientation", "dossier", "обзор", "свод", "ориентир", "досье"],
+          "diagnostic": "Is this compressed representation explicitly role-bounded to orientation, with a live route back to the source context?",
+          "constructive_move": "Permit bounded compression while preserving source routes, visible losses and a ceiling on claims licensed by the derivative artifact.",
+          "self_risk": "Turning source traceback into ritual bureaucracy even when the summary is used only for low-burden navigation.",
+          "positive_model": "Reversible orientation with declared loss and claim ceiling."
+        }
+      },
+      {
+        "new_id": "F-MEDIATION-SUBSTITUTION",
+        "unitization_refs": ["U-SUBSTITUTION"],
+        "changes": {
+          "title": "Mediation as adjudicative substitution",
+          "triggers": ["adjudication", "final object", "substitute", "dossier", "вердикт", "замещение", "досье"],
+          "diagnostic": "Has a derivative artifact silently become the object on which high-burden adjudication is performed?",
+          "constructive_move": "Suspend high-burden adjudication until rival unitizations and source contexts can answer back to the compressed representation.",
+          "self_risk": "Assuming every use of a dossier is substitution merely because the source field is large.",
+          "positive_model": "Role-sensitive anti-substitution gate with rival unitization preservation."
+        }
+      }
+    ]
+  },
+  "before_after_test": {
+    "fixture": {
+      "source_id": "FIXTURE-RESISTANT-MEDIATION-001",
+      "selector": "span:120-188",
+      "same_material": true,
+      "probe_text": "An abridged dossier becomes the final object of adjudication while the source field is no longer reopened."
+    },
+    "before_observation": "The baseline family detects mediation generically but does not force a split between orientation and adjudicative substitution.",
+    "after_observation": "The split preserves two incompatible readings of the same artifact and activates a dedicated substitution branch under adjudicative use.",
+    "new_gains": ["GG1_NEW_DISTINCTION", "GG3_NEW_RIVAL", "GG4_NEW_TEST"],
+    "discriminator": "If changing only the epistemic role of the same compressed artifact changes which branch should activate, the split earns its keep.",
+    "traceability": {
+      "before_routes": 1,
+      "after_routes": 2
+    },
+    "negative_tests": [
+      {
+        "name": "Low-burden orientation remains admissible",
+        "passed": true,
+        "note": "The orientation variant retains a constructive path instead of treating all compression as substitution."
+      },
+      {
+        "name": "High-burden substitution remains contestable",
+        "passed": true,
+        "note": "The substitution variant suspends adjudication rather than fabricating a source-level verdict."
+      }
+    ]
+  },
+  "acceptance_gate": {
+    "new_distinction_required": true,
+    "source_traceability_must_not_degrade": true,
+    "negative_tests_must_not_regress": true
+  }
+}

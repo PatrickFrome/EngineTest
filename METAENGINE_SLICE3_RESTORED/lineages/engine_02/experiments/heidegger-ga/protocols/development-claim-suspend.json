@@ -1,0 +1,49 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "HGA-DIACHRONIC-CLAIM-001",
+  "protocol_id": "V38-GATE-12",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "HGA-GA01-TO-GA02-DEVELOPMENT",
+    "description": "Сильный пробный тезис: постановка проблемы реальности в GA 1 необходимо развивается в фундаментальную онтологию GA 2.",
+    "source_refs": ["HGA-GA01-P001#p.1", "HGA-KLOSTERMANN-PLAN#GA2"]
+  },
+  "operator": {
+    "agent_id": "dae-ga-pilot",
+    "role": "automated-method-audit"
+  },
+  "started_at": "2026-08-11T04:20:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "THESIS_SCOPE": {
+      "status": "YES",
+      "evidence_refs": ["HGA-GA01-P001#p.1", "HGA-KLOSTERMANN-PLAN#GA2"],
+      "note": "Тезис ограничен предполагаемой диахронической связью GA 1 → GA 2."
+    },
+    "BRIDGE_TYPED": {
+      "status": "UNKNOWN",
+      "evidence_refs": [],
+      "note": "Одна страница GA 1 и издательское описание GA 2 не устанавливают генетический, логический или проблемно-исторический bridge."
+    },
+    "LEVELS_SEPARATED": {
+      "status": "YES",
+      "note": "Разведены доступ к цифровой странице, её локальное описание, историческая реконструкция и онтологический вывод; человеческая аттестация ещё отсутствует."
+    },
+    "RIVAL_STEELMAN": {
+      "status": "UNKNOWN",
+      "evidence_refs": [],
+      "note": "Не проверена альтернатива: разрыв, смена вопроса или поздняя ретроспективная самостилизация развития."
+    },
+    "K_AND_DELTA": {
+      "status": "UNKNOWN",
+      "evidence_refs": [],
+      "note": "Не выделены общее минимальное ядро и различающий остаток между ранним Realitätsproblem и аналитикой Dasein."
+    },
+    "NEGATIVE_TEST": {
+      "status": "YES",
+      "evidence_refs": ["HGA-PILOT-PLAN#N-CHRONOLOGY-SWAP"],
+      "note": "Тезис должен быть понижен, если слепая хронологическая перестановка не ухудшает распознавание предполагаемой линии развития."
+    }
+  },
+  "declared_outcome": "SUSPEND"
+}

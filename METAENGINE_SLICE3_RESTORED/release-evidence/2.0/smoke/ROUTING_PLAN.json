@@ -1,0 +1,108 @@
+{
+  "all_16_scheduled": true,
+  "assignments": [
+    {
+      "engine_id": "engine_01",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_02",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_03",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_04",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_05",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_06",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_07",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_08",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_09",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_10",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_11",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_12",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_13",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_14",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_15",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    },
+    {
+      "engine_id": "engine_16",
+      "expected_gain": 0.5,
+      "role": "PRIMARY",
+      "scheduled": true
+    }
+  ],
+  "mode": "SPARSE_DEEP",
+  "plan_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "role_counts": {
+    "PRIMARY": 16
+  },
+  "routing_version": "16X-SELF-ORGANIZING-2.0",
+  "task_fingerprint": {}
+}

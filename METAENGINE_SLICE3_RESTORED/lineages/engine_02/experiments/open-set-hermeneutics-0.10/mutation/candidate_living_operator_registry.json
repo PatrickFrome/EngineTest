@@ -1,0 +1,1602 @@
+{
+  "registry_version": "D3-LIVING-OPERATORS-1.1-OPENSET",
+  "title": "Nonlinear genealogical-constructive operator ecology",
+  "principle": "Operations are selected by tensions, source-central residues and representation failures. The source may force topic and operator mutation; the ecology is a revisable graph, not a mandatory sequence.",
+  "layer": {
+    "layer_id": "D3-EXPLORATORY-0.2",
+    "kind": "EXPERIMENTAL_GENERATIVE_OVERLAY",
+    "core_mutation": false,
+    "firewall": "DISCOVERY_IS_NOT_JUSTIFICATION"
+  },
+  "protocol_sources": [
+    "Destruktion 2.25",
+    "Destruktion 2.27",
+    "Destruktion 2.28",
+    "D3-EXPLORATORY-0.2 source-resistance/operator-mutation run",
+    "ETY-0.2 Mandatory Etymological–Semantic Protocol",
+    "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.3"
+  ],
+  "generative_gestures": [
+    {
+      "gesture_id": "GX1",
+      "title": "Residual Probe",
+      "question": "What is excluded from view precisely because the concept succeeds?",
+      "trigger": "A concept explains a broad class while leaving an identifiable phenomenon outside its frame.",
+      "outputs": [
+        "RESIDUAL_CANDIDATE",
+        "SELF_CRITIQUE"
+      ],
+      "firewall": "A residual is a candidate phenomenon, not proof that the successful concept is false.",
+      "protocol_refs": [
+        "2.0 §8.3",
+        "2.17.M",
+        "D3-EXPLORATORY §3"
+      ],
+      "activation": {
+        "all": [
+          {
+            "op": "gte",
+            "path": "hypothesis.evidence_count",
+            "value": 10
+          },
+          {
+            "op": "truthy",
+            "path": "lens.positive_kernel"
+          },
+          {
+            "op": "truthy",
+            "path": "lens.self_critique"
+          }
+        ]
+      },
+      "active_reason": "The topic recurs in {{hypothesis.evidence_count}} selector candidates and has an identifiable success/blindness tension.",
+      "inactive_reason": "No broad successful explanatory field with a determinate residual is yet visible.",
+      "emission_program": [
+        {
+          "role": "RESIDUAL_CANDIDATE",
+          "node_key": "SUCCESS_BLINDNESS",
+          "title": "Residual produced by explanatory success",
+          "proposition": "The success of “{{lens.positive_kernel}}” may exclude this phenomenon from view: {{lens.self_critique}}",
+          "parents": [
+            "QUESTION"
+          ],
+          "residual_kind": "R3-R"
+        },
+        {
+          "role": "SELF_CRITIQUE",
+          "node_key": "SUCCESS_SELF_CRITIQUE",
+          "title": "Self-critique from the residual",
+          "proposition": "{{lens.self_critique}}",
+          "parents": [
+            "NODE:SUCCESS_BLINDNESS"
+          ],
+          "residual_kind": "R3-R"
+        }
+      ]
+    },
+    {
+      "gesture_id": "GX2",
+      "title": "Countergenetic Fork",
+      "question": "By what other genesis could this have become a different problem?",
+      "trigger": "The question depends on contestable poles, inheritance or lexical/conceptual continuity.",
+      "outputs": [
+        "PROBLEM_GENESIS",
+        "COUNTERGENETIC_FORK",
+        "COUNTER_GENEALOGY",
+        "LEXICAL_GENEALOGY",
+        "CONCEPTUAL_GENEALOGY",
+        "PROBLEM_GENEALOGY",
+        "DECONFLATION"
+      ],
+      "firewall": "A generated countergenealogy remains exploratory until independently evidenced.",
+      "protocol_refs": [
+        "2.0 §§5.2–5.6",
+        "D3-EXPLORATORY §4"
+      ],
+      "activation": {
+        "any": [
+          {
+            "op": "family_any",
+            "values": [
+              "F-LANGUAGE-TRANSLATION",
+              "F-EPOCH-HISTORY",
+              "F-BEING-ROLES",
+              "F-HISTORICITY"
+            ]
+          },
+          {
+            "op": "length_gte",
+            "path": "hypothesis.matched_groups",
+            "value": 2
+          }
+        ]
+      },
+      "active_reason": "The question depends on several lexical/conceptual poles or a contestable historical inheritance.",
+      "inactive_reason": "No countergenetic trigger beyond the current problem formulation is established.",
+      "emission_program": [
+        {
+          "role": "PROBLEM_GENESIS",
+          "node_key": "PROBLEM_GENESIS",
+          "title": "How the initial question was produced",
+          "proposition": "{{lens.problem_genesis}}"
+        },
+        {
+          "role": "LEXICAL_GENEALOGY",
+          "node_key": "LEXICAL",
+          "title": "Lexical line",
+          "proposition": "{{lens.genealogies.lexical}}",
+          "parents": [
+            "NODE:PROBLEM_GENESIS"
+          ]
+        },
+        {
+          "role": "CONCEPTUAL_GENEALOGY",
+          "node_key": "CONCEPTUAL",
+          "title": "Conceptual line",
+          "proposition": "{{lens.genealogies.conceptual}}",
+          "parents": [
+            "NODE:PROBLEM_GENESIS"
+          ]
+        },
+        {
+          "role": "PROBLEM_GENEALOGY",
+          "node_key": "PROBLEM",
+          "title": "Problem-scene line",
+          "proposition": "{{lens.genealogies.problem}}",
+          "parents": [
+            "NODE:PROBLEM_GENESIS"
+          ]
+        },
+        {
+          "role": "COUNTER_GENEALOGY",
+          "node_key": "COUNTER",
+          "title": "Counter-genealogy",
+          "proposition": "{{lens.counter_genealogy}}",
+          "parents": [
+            "ROLE:LEXICAL_GENEALOGY",
+            "ROLE:CONCEPTUAL_GENEALOGY",
+            "ROLE:PROBLEM_GENEALOGY"
+          ]
+        },
+        {
+          "role": "COUNTERGENETIC_FORK",
+          "node_key": "RIVAL_QUESTION",
+          "title": "Rival question rather than rival answer",
+          "proposition": "If {{derived.counter_genealogy_lcfirst}}, the initial question “{{hypothesis.research_question}}” must be reformulated before it is answered.",
+          "parents": [
+            "NODE:COUNTER"
+          ]
+        },
+        {
+          "role": "DECONFLATION",
+          "node_key": "DIFFERENCE",
+          "title": "Difference created by the fork",
+          "proposition": "{{lens.deconflation}}",
+          "parents": [
+            "NODE:PROBLEM_GENESIS",
+            "NODE:RIVAL_QUESTION"
+          ]
+        }
+      ]
+    },
+    {
+      "gesture_id": "GX3",
+      "title": "Reverse Arrow",
+      "question": "What can the dismantled position now dismantle in our reconstruction?",
+      "trigger": "Deconflation or critique has substantially weakened the inherited position.",
+      "outputs": [
+        "REVERSE_TEST",
+        "MUTATION",
+        "DESTROYED"
+      ],
+      "firewall": "Reversal must expose a determinate loss, not restore the old position by nostalgia.",
+      "protocol_refs": [
+        "2.0 §7.1",
+        "D3-EXPLORATORY §5"
+      ],
+      "activation": {
+        "all": [
+          {
+            "op": "truthy",
+            "path": "lens.destroyed"
+          },
+          {
+            "op": "truthy",
+            "path": "lens.preserved"
+          }
+        ]
+      },
+      "active_reason": "The lens already weakens an inherited necessity while retaining a phenomenon that can answer back.",
+      "inactive_reason": "No determinate downgrade is available for a reverse arrow.",
+      "emission_program": [
+        {
+          "role": "REVERSE_TEST",
+          "node_key": "REVERSE",
+          "title": "The dismantled position answers back",
+          "proposition": "The inherited position still sees something the new reconstruction could lose: {{lens.preserved}}"
+        },
+        {
+          "role": "DESTROYED",
+          "node_key": "R1",
+          "title": "R1 — dismantled necessity",
+          "proposition": "{{lens.destroyed}}",
+          "parents": [
+            "NODE:REVERSE"
+          ]
+        },
+        {
+          "role": "MUTATION",
+          "node_key": "REVERSED_KERNEL",
+          "title": "Reconstruction after the reverse arrow",
+          "proposition": "{{lens.mutation}}",
+          "parents": [
+            "NODE:REVERSE"
+          ]
+        }
+      ]
+    },
+    {
+      "gesture_id": "GX4",
+      "title": "Polyphonic Reconstruction",
+      "question": "What remains visible only when no winner is selected too early?",
+      "trigger": "Two or more admissible rivals or an underdetermined explanandum are available.",
+      "outputs": [
+        "RIVAL_RECONSTRUCTION",
+        "POLYPHONIC_FIELD",
+        "SURPRISE"
+      ],
+      "firewall": "Polyphony does not block preference when discriminating evidence becomes available.",
+      "protocol_refs": [
+        "2.0 §7.2",
+        "2.6",
+        "D3-EXPLORATORY §6"
+      ],
+      "activation": {
+        "op": "length_gte",
+        "path": "lens.rivals",
+        "value": 2
+      },
+      "active_reason": "{{lens.rivals.length}} admissible reconstructions are available; premature selection would erase contrastive gain.",
+      "inactive_reason": "Fewer than two admissible rivals are available.",
+      "emission_program": [
+        {
+          "role": "RIVAL_RECONSTRUCTION",
+          "node_key": "RIVAL_{{index1}}",
+          "title": "Live reconstruction {{index1}}",
+          "proposition": "{{rival}}",
+          "for_each": "lens.rivals",
+          "as": "rival"
+        },
+        {
+          "role": "POLYPHONIC_FIELD",
+          "node_key": "NON_DOMINATED",
+          "title": "Non-dominated constellation",
+          "proposition": "No winner is selected at discovery time. Each reconstruction must state what only it makes visible, what it prevents from being asked, and which phenomenon exists only inside its problem-space.",
+          "parents": [
+            "ROLE:RIVAL_RECONSTRUCTION"
+          ],
+          "residual_kind": "R3-A"
+        },
+        {
+          "role": "SURPRISE",
+          "node_key": "COLLISION",
+          "title": "Abductive collision",
+          "proposition": "{{lens.surprise}} The conjecture is traceable to a collision among {{derived.family_positive_models_top3}}.",
+          "parents": [
+            "NODE:NON_DOMINATED"
+          ],
+          "residual_kind": "R3-G"
+        }
+      ]
+    },
+    {
+      "gesture_id": "GX5",
+      "title": "Formal-Indication Generator",
+      "question": "Can the constructive gain guide inquiry without becoming a new foundation?",
+      "trigger": "Positive appropriation is stronger than a retained fragment but not yet an independently supported theory.",
+      "outputs": [
+        "POSITIVE_KERNEL",
+        "FORMAL_INDICATION",
+        "PRESERVED",
+        "EXPLANATORY_BALANCE"
+      ],
+      "firewall": "Direction, enactment test, limit and revision trigger are mandatory; poetic naming is insufficient.",
+      "protocol_refs": [
+        "2.0 §§7.3–7.5",
+        "2.0 §13",
+        "D3-EXPLORATORY §§7–8"
+      ],
+      "activation": {
+        "all": [
+          {
+            "op": "truthy",
+            "path": "lens.positive_kernel"
+          },
+          {
+            "op": "truthy",
+            "path": "lens.formal_indication.direction"
+          },
+          {
+            "op": "truthy",
+            "path": "lens.formal_indication.enactment"
+          },
+          {
+            "op": "truthy",
+            "path": "lens.formal_indication.limit"
+          }
+        ]
+      },
+      "active_reason": "A constructive gain can be expressed as direction, negation, enactment test and limit without theory promotion.",
+      "inactive_reason": "No sufficiently articulated positive appropriation is available.",
+      "emission_program": [
+        {
+          "role": "POSITIVE_KERNEL",
+          "node_key": "ANEIGNUNG",
+          "title": "Positive appropriation",
+          "proposition": "{{lens.positive_kernel}}"
+        },
+        {
+          "role": "FORMAL_INDICATION",
+          "node_key": "FORMAL_INDICATION",
+          "title": "Formal indication before theory",
+          "proposition": "{{derived.formal_indication_text}}",
+          "parents": [
+            "NODE:ANEIGNUNG"
+          ]
+        },
+        {
+          "role": "PRESERVED",
+          "node_key": "R2",
+          "title": "R2 — philosophical gain retained",
+          "proposition": "{{lens.preserved}}",
+          "parents": [
+            "NODE:ANEIGNUNG"
+          ]
+        },
+        {
+          "role": "EXPLANATORY_BALANCE",
+          "node_key": "GAIN_PRICE",
+          "title": "Gain, price and discriminator",
+          "proposition": "Gain: {{lens.positive_kernel}} Price: {{lens.self_critique}} Discriminator: {{lens.revision_trigger}}",
+          "parents": [
+            "NODE:ANEIGNUNG",
+            "NODE:FORMAL_INDICATION"
+          ]
+        }
+      ]
+    },
+    {
+      "gesture_id": "GX6",
+      "title": "R3 Branching",
+      "question": "Can the remainder become a determinate new research object?",
+      "trigger": "R3 can specify an explanandum, corpus target or discriminating test.",
+      "outputs": [
+        "OPEN_RESIDUAL",
+        "RESEARCH_BRANCH",
+        "REVISION_TRIGGER"
+      ],
+      "firewall": "Only R3-G creates a branch; an unspecified lack of material remains R3-U.",
+      "protocol_refs": [
+        "2.0 §§8.3, 15, 18",
+        "D3-EXPLORATORY §§9–11"
+      ],
+      "activation": {
+        "all": [
+          {
+            "op": "truthy",
+            "path": "lens.open"
+          },
+          {
+            "op": "truthy",
+            "path": "lens.revision_trigger"
+          }
+        ]
+      },
+      "active_reason": "The remainder specifies a discriminating reopening condition and can become a research branch.{{derived.resolution_qualification}}",
+      "inactive_reason": "The remainder is not yet determinate enough to create a branch.",
+      "emission_program": [
+        {
+          "role": "OPEN_RESIDUAL",
+          "node_key": "R3_TYPED",
+          "title": "{{derived.residual_kind}} — typed open remainder",
+          "proposition": "{{lens.open}}",
+          "parents": [
+            "QUESTION"
+          ],
+          "residual_kind": "{{derived.residual_kind}}"
+        },
+        {
+          "role": "RESEARCH_BRANCH",
+          "node_key": "R3_G_BRANCH",
+          "title": "R3-G — new research node",
+          "proposition": "New research object: {{lens.revision_trigger}}",
+          "parents": [
+            "NODE:R3_TYPED"
+          ],
+          "residual_kind": "R3-G"
+        },
+        {
+          "role": "REVISION_TRIGGER",
+          "node_key": "REOPEN",
+          "title": "Concrete reopening condition",
+          "proposition": "{{lens.revision_trigger}}",
+          "parents": [
+            "NODE:R3_G_BRANCH"
+          ],
+          "residual_kind": "R3-G"
+        }
+      ]
+    },
+    {
+      "gesture_id": "GX7",
+      "title": "Source Resistance / Operator Mutation",
+      "question": "What in the source is systematically missed because the current unit, topic or relation ontology is already deciding what can appear?",
+      "trigger": "Source-backed central terms or relation forms remain outside the curated registry, causing a documented representation blind spot. Explicit project theses alone cannot activate method mutation.",
+      "outputs": [
+        "SOURCE_RESISTANCE",
+        "REPRESENTATION_FAILURE",
+        "OPERATOR_DELTA"
+      ],
+      "firewall": "Only source-forced representation failure licenses an experimental operator delta. The delta is not a philosophical truth claim and must remain reversible, source-linked, rival-unitized and cross-corpus regression-testable. Open-set deltas remain rivals to known-family deltas and may not be collapsed into the known profile vocabulary before local testing.",
+      "protocol_refs": [
+        "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1",
+        "D3-EXPLORATORY-0.2"
+      ],
+      "activation": {
+        "op": "equals",
+        "path": "hypothesis.origin",
+        "value": "SOURCE_FORCED_REGISTRY_RESISTANCE"
+      },
+      "active_reason": "{{hypothesis.source_resistance_trigger}}",
+      "inactive_reason": "GX7 is source-forced rather than thesis-forced: an explicit project claim may demand adjudication, but it cannot by itself license mutation of the method.",
+      "emission_program": [
+        {
+          "role": "SOURCE_RESISTANCE",
+          "node_key": "SOURCE_RESISTANCE",
+          "title": "Source resistance to the current problem-space",
+          "proposition": "{{derived.source_resistance_text}}",
+          "parents": [
+            "QUESTION"
+          ],
+          "residual_kind": "R3-G"
+        },
+        {
+          "role": "REPRESENTATION_FAILURE",
+          "node_key": "REPRESENTATION_FAILURE",
+          "title": "Representation failure as an object of inquiry",
+          "proposition": "Test whether the current unitization makes the source appear only after it has already been translated into known nodes and relations. {{lens.self_critique}}",
+          "parents": [
+            "NODE:SOURCE_RESISTANCE"
+          ],
+          "residual_kind": "R3-G"
+        },
+        {
+          "role": "OPERATOR_DELTA",
+          "node_key": "OPERATOR_DELTA",
+          "title": "Experimental operator delta",
+          "proposition": "{{derived.operator_delta_text}}",
+          "parents": [
+            "NODE:REPRESENTATION_FAILURE"
+          ],
+          "residual_kind": "R3-G"
+        },
+        {
+          "role": "OPERATOR_DELTA",
+          "node_key": "OPEN_SET_OPERATOR_DELTA",
+          "title": "Open-set experimental operator family",
+          "proposition": "{{derived.open_set_operator_delta_text}}",
+          "parents": [
+            "NODE:REPRESENTATION_FAILURE"
+          ],
+          "residual_kind": "R3-G",
+          "when": {
+            "op": "equals",
+            "path": "hypothesis.open_set_candidate.status",
+            "value": "OPEN_SET_RIVAL_REQUIRED"
+          }
+        }
+      ]
+    }
+  ],
+  "supporting_operation_vocabulary": [
+    {
+      "operator_id": "OP-PROBLEM-GENESIS",
+      "role": "PROBLEM_GENESIS",
+      "protocol_refs": [
+        "2.0 §5.2"
+      ],
+      "requires_any": [
+        "QUESTION"
+      ],
+      "philosophical_function": "Reconstruct the operations that first made the aporia appear necessary."
+    },
+    {
+      "operator_id": "OP-LEXICAL-GENEALOGY",
+      "role": "LEXICAL_GENEALOGY",
+      "protocol_refs": [
+        "2.0 §5.3",
+        "2.1.A"
+      ],
+      "requires_any": [
+        "QUESTION"
+      ],
+      "philosophical_function": "Follow word histories without treating etymology as proof."
+    },
+    {
+      "operator_id": "OP-CONCEPTUAL-GENEALOGY",
+      "role": "CONCEPTUAL_GENEALOGY",
+      "protocol_refs": [
+        "2.0 §5.4",
+        "2.1.C"
+      ],
+      "requires_any": [
+        "QUESTION"
+      ],
+      "philosophical_function": "Track functions that can migrate even when the old vocabulary disappears."
+    },
+    {
+      "operator_id": "OP-PROBLEM-GENEALOGY",
+      "role": "PROBLEM_GENEALOGY",
+      "protocol_refs": [
+        "2.0 §5.5"
+      ],
+      "requires_any": [
+        "PROBLEM_GENESIS"
+      ],
+      "philosophical_function": "Track transformations of the problem scene rather than a single doctrine."
+    },
+    {
+      "operator_id": "OP-COUNTER-GENEALOGY",
+      "role": "COUNTER_GENEALOGY",
+      "protocol_refs": [
+        "2.0 §5.6",
+        "2.14.J"
+      ],
+      "requires_any": [
+        "LEXICAL_GENEALOGY",
+        "CONCEPTUAL_GENEALOGY"
+      ],
+      "philosophical_function": "Construct a non-teleological rival history and retain discontinuities."
+    },
+    {
+      "operator_id": "OP-MOTIVATING-FIELD",
+      "role": "MOTIVATING_FIELD",
+      "protocol_refs": [
+        "2.0 §6.1"
+      ],
+      "requires_any": [
+        "QUESTION"
+      ],
+      "philosophical_function": "Recover the plural field of practices and phenomena without inventing a pure origin."
+    },
+    {
+      "operator_id": "OP-DECONFLATION",
+      "role": "DECONFLATION",
+      "protocol_refs": [
+        "2.0 §6.3"
+      ],
+      "requires_any": [
+        "QUESTION"
+      ],
+      "philosophical_function": "Restore differences compressed by one noun, scale or grammar."
+    },
+    {
+      "operator_id": "OP-REGIONALIZATION",
+      "role": "REGIONALIZATION",
+      "protocol_refs": [
+        "2.0 §6.4",
+        "2.0 §6.5"
+      ],
+      "requires_any": [
+        "DECONFLATION"
+      ],
+      "philosophical_function": "Find where the inherited concept remains true and where it illegitimately expands."
+    },
+    {
+      "operator_id": "OP-REVERSE-TEST",
+      "role": "REVERSE_TEST",
+      "protocol_refs": [
+        "2.0 §7.1"
+      ],
+      "requires_any": [
+        "DECONFLATION",
+        "REGIONALIZATION"
+      ],
+      "philosophical_function": "Let the dismantled position expose the new reconstruction's loss."
+    },
+    {
+      "operator_id": "OP-RIVAL-RECONSTRUCTION",
+      "role": "RIVAL_RECONSTRUCTION",
+      "protocol_refs": [
+        "2.0 §7.2",
+        "2.6.H"
+      ],
+      "requires_any": [
+        "PROBLEM_GENESIS",
+        "MOTIVATING_FIELD"
+      ],
+      "repeat": 2,
+      "philosophical_function": "Keep at least two genuinely live accounts of the same explanandum."
+    },
+    {
+      "operator_id": "OP-POSITIVE-ANEIGNUNG",
+      "role": "POSITIVE_KERNEL",
+      "protocol_refs": [
+        "2.0 §7.3"
+      ],
+      "requires_all": [
+        "REVERSE_TEST",
+        "RIVAL_RECONSTRUCTION",
+        "DECONFLATION"
+      ],
+      "philosophical_function": "Preserve the motivating phenomenon while limiting and transforming its inherited articulation."
+    },
+    {
+      "operator_id": "OP-FORMAL-INDICATION",
+      "role": "FORMAL_INDICATION",
+      "protocol_refs": [
+        "2.0 §7.4",
+        "2.0 §13"
+      ],
+      "requires_any": [
+        "POSITIVE_KERNEL"
+      ],
+      "philosophical_function": "Offer a direction, negation, enactment test, limit and revision trigger instead of a final definition."
+    },
+    {
+      "operator_id": "OP-CONCEPTUAL-COLLISION",
+      "role": "SURPRISE",
+      "protocol_refs": [
+        "2.0 §7.2",
+        "2.2.B",
+        "2.20.K"
+      ],
+      "requires_any": [
+        "SPECIALIZED_PROBE",
+        "COUNTER_GENEALOGY"
+      ],
+      "minimum_distinct_families": 2,
+      "philosophical_function": "Cross non-neighbouring lenses and formulate an abductive mutation that neither branch contained alone."
+    },
+    {
+      "operator_id": "OP-EXPLANATORY-BALANCE",
+      "role": "EXPLANATORY_BALANCE",
+      "protocol_refs": [
+        "2.0 §7.5",
+        "2.0 §14"
+      ],
+      "requires_any": [
+        "POSITIVE_KERNEL"
+      ],
+      "philosophical_function": "Name gain, price, discriminator and the new difficulty created by the reconstruction."
+    },
+    {
+      "operator_id": "OP-SELF-DESTRUCTION",
+      "role": "SELF_CRITIQUE",
+      "protocol_refs": [
+        "2.0 §8.1",
+        "2.0 §8.2"
+      ],
+      "requires_any": [
+        "POSITIVE_KERNEL",
+        "SURPRISE"
+      ],
+      "philosophical_function": "Test inversion, new foundation, anthropocentrism, residual loss and the method's own preference for difference."
+    },
+    {
+      "operator_id": "OP-KERNEL-MUTATION",
+      "role": "MUTATION",
+      "protocol_refs": [
+        "2.0 §8.1",
+        "2.0 §15"
+      ],
+      "requires_all": [
+        "POSITIVE_KERNEL",
+        "SELF_CRITIQUE"
+      ],
+      "philosophical_function": "Rewrite the positive kernel after its self-critique instead of merely appending a disclaimer."
+    },
+    {
+      "operator_id": "OP-R1-DESTROYED",
+      "role": "DESTROYED",
+      "protocol_refs": [
+        "2.0 §8.3"
+      ],
+      "requires_any": [
+        "SELF_CRITIQUE",
+        "MUTATION"
+      ],
+      "philosophical_function": "Name the necessity that has lost its force without pretending that the motivating phenomenon vanished."
+    },
+    {
+      "operator_id": "OP-R2-PRESERVED",
+      "role": "PRESERVED",
+      "protocol_refs": [
+        "2.0 §8.3",
+        "2.0 §7.3"
+      ],
+      "requires_all": [
+        "POSITIVE_KERNEL",
+        "REVERSE_TEST"
+      ],
+      "philosophical_function": "Name the philosophical gain that survives both critique and the reverse test."
+    },
+    {
+      "operator_id": "OP-RESIDUAL",
+      "role": "OPEN_RESIDUAL",
+      "protocol_refs": [
+        "2.0 §8.3"
+      ],
+      "requires_any": [
+        "SELF_CRITIQUE",
+        "MUTATION"
+      ],
+      "philosophical_function": "Preserve the unresolved remainder as productive material rather than failure."
+    },
+    {
+      "operator_id": "OP-REVISION-TRIGGER",
+      "role": "REVISION_TRIGGER",
+      "protocol_refs": [
+        "2.0 §13",
+        "2.0 §15",
+        "2.0 §18"
+      ],
+      "requires_any": [
+        "OPEN_RESIDUAL"
+      ],
+      "philosophical_function": "State a concrete event that reopens this analysis."
+    }
+  ],
+  "conditional_families": [
+    {
+      "family_id": "F-LANGUAGE-TRANSLATION",
+      "title": "Translation, boundary cases and functional successors",
+      "protocol_refs": [
+        "2.1"
+      ],
+      "triggers": [
+        "term",
+        "word",
+        "translation",
+        "realitas",
+        "wirklichkeit",
+        "sprache",
+        "язык",
+        "термин",
+        "генеалог"
+      ],
+      "diagnostic": "Could translation or diachronic reuse be smoothing over different phenomena?",
+      "constructive_move": "Build a multilingual drift map and follow functions after the vocabulary changes.",
+      "self_risk": "Treating linguistic difference itself as ontological difference.",
+      "positive_model": "Functional-successor map with explicit discontinuities."
+    },
+    {
+      "family_id": "F-GIVENNESS-REFLECTION",
+      "title": "Modes of givenness and anti-substitution",
+      "protocol_refs": [
+        "2.2"
+      ],
+      "triggers": [
+        "conscious",
+        "bewusstsein",
+        "reflection",
+        "givenness",
+        "акт",
+        "содержание",
+        "предмет",
+        "access"
+      ],
+      "diagnostic": "Are phenomenal presence, prereflective self-givenness, intentionality and reflection being treated as interchangeable?",
+      "constructive_move": "Use orthogonal dimensions and retain what reflection transforms rather than merely reveals.",
+      "self_risk": "Turning every distinction into an independent faculty.",
+      "positive_model": "Plural modes-of-givenness profile."
+    },
+    {
+      "family_id": "F-AFFECT-BODY",
+      "title": "Affect, embodiment and privileged phenomena",
+      "protocol_refs": [
+        "2.3"
+      ],
+      "triggers": [
+        "affect",
+        "stimmung",
+        "angst",
+        "body",
+        "leib",
+        "körper",
+        "настроен",
+        "телес"
+      ],
+      "diagnostic": "Is one extreme mood or a thin body model being promoted into a universal disclosure structure?",
+      "constructive_move": "Compare affective granularity, embodied completeness and competing phenomenologies.",
+      "self_risk": "Romanticizing immediacy as epistemic privilege.",
+      "positive_model": "Selective disclosure indexed by body, situation and affect."
+    },
+    {
+      "family_id": "F-MOOD-METHOD",
+      "title": "Mood as method",
+      "protocol_refs": [
+        "2.4"
+      ],
+      "triggers": [
+        "grundstimmung",
+        "mood",
+        "attunement",
+        "метод",
+        "настроен",
+        "эпох"
+      ],
+      "diagnostic": "Does affective access become proof, or does a selected mood confirm the ontology that selected it?",
+      "constructive_move": "Triangulate across moods, subjects and scales; distinguish awakening, induction and discovery.",
+      "self_risk": "Anti-rational privilege of rare experiences.",
+      "positive_model": "Cross-attunement invariant with explicit scale limits."
+    },
+    {
+      "family_id": "F-VERIFICATION",
+      "title": "Phenomenological verification",
+      "protocol_refs": [
+        "2.5",
+        "2.13"
+      ],
+      "triggers": [
+        "evidence",
+        "verify",
+        "proof",
+        "phenomen",
+        "свидетель",
+        "провер",
+        "подтверж",
+        "trace"
+      ],
+      "diagnostic": "What mode of showing supports the claim, and what would count against it?",
+      "constructive_move": "Match proof force to claim scope and use traces for non-object phenomena without immunizing them.",
+      "self_risk": "Replacing objectivism with unfalsifiable inapparency.",
+      "positive_model": "Verification ecology with asymmetric but discriminating tests."
+    },
+    {
+      "family_id": "F-MEDIATION-COMPRESSION",
+      "title": "Mediation, compression and reconstructability",
+      "protocol_refs": [
+        "D3-EXPLORATORY first run §§3–25"
+      ],
+      "triggers": [
+        "overview",
+        "summary",
+        "selection",
+        "edition",
+        "anthology",
+        "compendium",
+        "handbook",
+        "compression",
+        "mediation",
+        "gesamtausgabe",
+        "обзор",
+        "свод",
+        "отбор",
+        "издание",
+        "компресс",
+        "посреднич"
+      ],
+      "diagnostic": "Is an accurate derivative representation being promoted from orientation to understanding or adjudication, and can its losses still be reconstructed?",
+      "constructive_move": "Type the representation's epistemic role, lower allowed compression as claim burden rises, and preserve a traceback from synthesis through claims and evidence to source context.",
+      "self_risk": "Treating formal reconstructability as sufficient understanding, or turning every useful summary into a suspect substitute.",
+      "positive_model": "Role-Bounded Compression with explicit loss, alternative unitizations and reversible source routes."
+    },
+    {
+      "family_id": "F-UNDERDETERMINATION",
+      "title": "Ontological underdetermination and rivals",
+      "protocol_refs": [
+        "2.6"
+      ],
+      "triggers": [
+        "ontology",
+        "онтолог",
+        "rival",
+        "alternative",
+        "universal",
+        "конкур",
+        "доказ"
+      ],
+      "diagnostic": "Does the same material support several ontologies, perhaps at different levels?",
+      "constructive_move": "Align explananda, formulate the strongest competitor and retain a minimal shared commitment.",
+      "self_risk": "Using pluralism to avoid all ontological commitment.",
+      "positive_model": "Minimal commitment plus a registry of theoretical excess."
+    },
+    {
+      "family_id": "F-REALITY-PROFILES",
+      "title": "Dependence profiles and the reality predicate family",
+      "protocol_refs": [
+        "2.7",
+        "2.8",
+        "2.9"
+      ],
+      "triggers": [
+        "reality",
+        "realism",
+        "realität",
+        "wirklichkeit",
+        "existenz",
+        "реальн",
+        "действительн",
+        "mode"
+      ],
+      "diagnostic": "Are existence, origin, maintenance, identity, access and correction being collapsed into one independence test?",
+      "constructive_move": "Index dependence and corrective constraint by entity type and access regime.",
+      "self_risk": "Making every profile incomparable and therefore immune to criticism.",
+      "positive_model": "Mode-indexed realization profile."
+    },
+    {
+      "family_id": "F-BEING-ROLES",
+      "title": "Roles of Sein and functional succession",
+      "protocol_refs": [
+        "2.10"
+      ],
+      "triggers": [
+        "sein",
+        "being",
+        "бытие",
+        "existenz",
+        "lichtung",
+        "ereignis"
+      ],
+      "diagnostic": "Is Sein functioning as predicate, horizon, difference, event, name of intelligibility or hidden universal bearer?",
+      "constructive_move": "Suspend unity and map role migrations from Sein to later operators.",
+      "self_risk": "Fragmenting the question of being before testing possible unity.",
+      "positive_model": "Meta-ontological role constellation."
+    },
+    {
+      "family_id": "F-ONTOLOGICAL-DIFFERENCE",
+      "title": "Ontological difference",
+      "protocol_refs": [
+        "2.11"
+      ],
+      "triggers": [
+        "difference",
+        "differenz",
+        "unterschied",
+        "being",
+        "entity",
+        "сущее",
+        "различ"
+      ],
+      "diagnostic": "Is the difference stronger than the material it differentiates, or are its relata being reified?",
+      "constructive_move": "Audit the 'and', asymmetry, genetic burden and diachronic successors of difference.",
+      "self_risk": "Turning difference into the highest identity.",
+      "positive_model": "Material-bounded differentiating operation."
+    },
+    {
+      "family_id": "F-LATE-OPERATORS",
+      "title": "Lichtung, Austrag, Ereignis and withdrawal",
+      "protocol_refs": [
+        "2.12",
+        "2.13"
+      ],
+      "triggers": [
+        "lichtung",
+        "austrag",
+        "ereignis",
+        "entzug",
+        "withdraw",
+        "сокры",
+        "поздн"
+      ],
+      "diagnostic": "Does a late operator add a distinction or only rename explanatory depth while shielding itself from tests?",
+      "constructive_move": "Separate functions by date and test indirect consequences through traces and rivals.",
+      "self_risk": "Equating darkness of vocabulary with depth.",
+      "positive_model": "Late-operator profile with a verification ceiling."
+    },
+    {
+      "family_id": "F-EPOCH-HISTORY",
+      "title": "Seinsgeschichte, epoch and counterhistory",
+      "protocol_refs": [
+        "2.14"
+      ],
+      "triggers": [
+        "epoch",
+        "seinsgeschichte",
+        "geschick",
+        "history",
+        "diachronic",
+        "истори",
+        "эпох",
+        "trajectory"
+      ],
+      "diagnostic": "Is a heterogeneous archive compressed into a directional epochal narrative?",
+      "constructive_move": "Require overlap, cross-domain sampling, causal bridges and a counterhistory.",
+      "self_risk": "Replacing one macro-narrative with an equally smooth counterstory.",
+      "positive_model": "Plural, overlapping historical regimes without a guaranteed telos."
+    },
+    {
+      "family_id": "F-TECHNOLOGY",
+      "title": "Machenschaft, Gestell, Bestand and ordering",
+      "protocol_refs": [
+        "2.15"
+      ],
+      "triggers": [
+        "machenschaft",
+        "technik",
+        "technology",
+        "gestell",
+        "bestand",
+        "ordering",
+        "техник",
+        "постав"
+      ],
+      "diagnostic": "Is every technical use being treated as evidence of one total ordering regime?",
+      "constructive_move": "Use operational signatures, multistability and counterpractice to regionalize Gestell.",
+      "self_risk": "Reducing the phenomenon of technology to a checklist of operations.",
+      "positive_model": "Technological positioning regime with contestable reach."
+    },
+    {
+      "family_id": "F-CYBERNETICS",
+      "title": "Calculability, information, steering and cybernetics",
+      "protocol_refs": [
+        "2.16"
+      ],
+      "triggers": [
+        "cyber",
+        "information",
+        "feedback",
+        "steering",
+        "berechen",
+        "информац",
+        "управлен",
+        "control"
+      ],
+      "diagnostic": "Are calculability, semantic information and total control being inferred from one another?",
+      "constructive_move": "Expose feedback asymmetry, requisite variety, opacity and the external origin of objectives.",
+      "self_risk": "Assuming every feedback system has the same ontology.",
+      "positive_model": "Cybernetic operational regime bounded by opacity and variety."
+    },
+    {
+      "family_id": "F-TECHNICAL-LANGUAGE",
+      "title": "Technical language and artificial speech",
+      "protocol_refs": [
+        "2.17"
+      ],
+      "triggers": [
+        "language",
+        "sprache",
+        "llm",
+        "ai",
+        "formalization",
+        "язык",
+        "речь",
+        "машин"
+      ],
+      "diagnostic": "Is transmission confused with language as such, or implementation with semantics?",
+      "constructive_move": "Separate message, information, saying, pragmatics, formalization and agency attribution.",
+      "self_risk": "Protecting human language through an undefined remainder.",
+      "positive_model": "Linguistic operational regime plus an explicit residual ledger."
+    },
+    {
+      "family_id": "F-SEMANTIC-GROUNDING",
+      "title": "Sign, meaning, reference, grounding and world-relation",
+      "protocol_refs": [
+        "2.18"
+      ],
+      "triggers": [
+        "sign",
+        "meaning",
+        "reference",
+        "grounding",
+        "weltbezug",
+        "zeichen",
+        "значен",
+        "референ",
+        "symbol"
+      ],
+      "diagnostic": "Does grounding name discrimination, reference, embodiment, social use or worldhood without separating them?",
+      "constructive_move": "Map correction sources and inherited reference without turning direct contact into the sole norm.",
+      "self_risk": "Replacing an internalist regress with a vague appeal to world involvement.",
+      "positive_model": "Semantic constraint ecology."
+    },
+    {
+      "family_id": "F-WORLD-ACCESS",
+      "title": "World, environment and world-formation",
+      "protocol_refs": [
+        "2.19"
+      ],
+      "triggers": [
+        "welt",
+        "umwelt",
+        "world",
+        "animal",
+        "environment",
+        "мир",
+        "животн",
+        "access"
+      ],
+      "diagnostic": "Is world-access forced into a human/nonhuman binary or measured by a single deprivation standard?",
+      "constructive_move": "Profile flexibility, salience, normativity, counterfactuality and scale across species and systems.",
+      "self_risk": "Calling every adaptive coupling a world and losing the distinction.",
+      "positive_model": "Ecological world-access profile."
+    },
+    {
+      "family_id": "F-AS-STRUCTURE",
+      "title": "Aspectual articulation and the as-structure",
+      "protocol_refs": [
+        "2.20"
+      ],
+      "triggers": [
+        "als",
+        "as-structure",
+        "aspect",
+        "articulation",
+        "как",
+        "артикуляц",
+        "concept"
+      ],
+      "diagnostic": "Are practical discrimination, predication, conceptuality and ontological disclosure collapsed into one 'as'?",
+      "constructive_move": "Mark the scope and truth-aptness of each aspectual articulation.",
+      "self_risk": "Reducing all access to explicit conceptual classification.",
+      "positive_model": "Aspectual articulation profile."
+    },
+    {
+      "family_id": "F-NORMATIVITY-LOGOS",
+      "title": "Logos, negation, truth, error and reasons",
+      "protocol_refs": [
+        "2.21"
+      ],
+      "triggers": [
+        "logos",
+        "truth",
+        "false",
+        "error",
+        "reason",
+        "norm",
+        "истин",
+        "ошиб",
+        "основан",
+        "assert"
+      ],
+      "diagnostic": "Are disclosure, correctness, error, cause and answerability treated as one normative order?",
+      "constructive_move": "Separate truth axes, negation types and independent correction sources.",
+      "self_risk": "Making answerability the sole measure of every meaningful articulation.",
+      "positive_model": "Normative articulation ecology."
+    },
+    {
+      "family_id": "F-ENABLEMENT",
+      "title": "Possibility and conditions of enablement",
+      "protocol_refs": [
+        "2.25 branch 2.22"
+      ],
+      "triggers": [
+        "possibility",
+        "condition",
+        "enable",
+        "ermöglich",
+        "beding",
+        "voraussetzung",
+        "услов",
+        "возмож",
+        "access"
+      ],
+      "diagnostic": "What exactly becomes possible: existence, access, recognition, assertion, objectivity or only this theory?",
+      "constructive_move": "Type necessity/sufficiency, index the access regime and test alternative access.",
+      "self_risk": "Promoting a methodological requirement into an ontological condition.",
+      "positive_model": "Ermöglichungsprofil rather than a universal condition of possibility."
+    },
+    {
+      "family_id": "F-CONSTITUTION",
+      "title": "Constitution, genesis, production and validity",
+      "protocol_refs": [
+        "2.25 branch 2.23"
+      ],
+      "triggers": [
+        "constitution",
+        "konstitution",
+        "stiftung",
+        "genesis",
+        "production",
+        "validity",
+        "конститу",
+        "производ"
+      ],
+      "diagnostic": "Which bearer constitutes what: sense, identity, validity, objectivity, status or existence?",
+      "constructive_move": "Trace migrated constitutive functions and distinguish production from object-identity across domains.",
+      "self_risk": "Over-deconflating a genuinely unified constitutive process.",
+      "positive_model": "Typed Konstitutionsprofil."
+    },
+    {
+      "family_id": "F-IDENTITY",
+      "title": "Identity, sameness, persistence and criteria",
+      "protocol_refs": [
+        "2.25 branch 2.24"
+      ],
+      "triggers": [
+        "identity",
+        "identität",
+        "selbigkeit",
+        "persistence",
+        "same",
+        "тождеств",
+        "идентич",
+        "устойчив"
+      ],
+      "diagnostic": "Is a recognition criterion being mistaken for what makes something the same, especially under fission?",
+      "constructive_move": "Index the sortal, time, bearer and branching behaviour before asserting persistence.",
+      "self_risk": "Turning identity into a mere bookkeeping convention.",
+      "positive_model": "Plural identity profile with explicit identity-makers and limits."
+    },
+    {
+      "family_id": "F-INDIVIDUATION",
+      "title": "Individuation, boundary and granularity",
+      "protocol_refs": [
+        "2.25 branch 2.25"
+      ],
+      "triggers": [
+        "individuation",
+        "individual",
+        "unit",
+        "boundary",
+        "whole",
+        "part",
+        "agent",
+        "индивид",
+        "границ",
+        "единиц"
+      ],
+      "diagnostic": "What counts as one before identity is tested, and which rival partition fits the same material?",
+      "constructive_move": "Index boundaries and integration to domain, scale and discriminating constraints; allow nesting and overlap.",
+      "self_risk": "Granularity relativism or process absolutism.",
+      "positive_model": "Constraint-indexed individuation."
+    },
+    {
+      "family_id": "F-BOUNDARY",
+      "title": "Boundary, threshold, membrane and horizon",
+      "protocol_refs": [
+        "2.27 branch 2.26"
+      ],
+      "triggers": [
+        "boundary",
+        "border",
+        "limit",
+        "threshold",
+        "membrane",
+        "horizon",
+        "inside",
+        "outside",
+        "grenze",
+        "schwelle",
+        "übergang",
+        "границ",
+        "порог",
+        "мембран",
+        "горизонт"
+      ],
+      "diagnostic": "Is a spatial surface silently doing the work of causal, statistical, social, temporal or normative differentiation?",
+      "constructive_move": "Type the bounded phenomenon, the maintained difference, permeability, scale, overlap and breakdown signature; compare a line, zone, threshold and selective interface.",
+      "self_risk": "Boundary absolutism on one side and a relational escape that dissolves every entity on the other.",
+      "positive_model": "Boundary as selective difference-maintenance, indexed to function and scale."
+    },
+    {
+      "family_id": "F-RELATION-COUPLING",
+      "title": "Relation, dependence, mediation and coupling",
+      "protocol_refs": [
+        "2.27 branch 2.27"
+      ],
+      "triggers": [
+        "relation",
+        "relationship",
+        "coupling",
+        "dependence",
+        "mediation",
+        "interaction",
+        "network",
+        "bezug",
+        "verhältnis",
+        "kopplung",
+        "vermittlung",
+        "отношен",
+        "связ",
+        "зависим",
+        "сцеплен",
+        "сет"
+      ],
+      "diagnostic": "Are ready-made relata, reciprocal arrows or covariation being used as if they already specified the kind, mechanism and direction of a relation?",
+      "constructive_move": "Type relata and edge, test common causes and hidden mediators, specify mechanism and asymmetry, and ask whether the relation constitutes, maintains or merely summarizes its terms.",
+      "self_risk": "Relation-absolutism, network escape or the empty claim that everything is connected.",
+      "positive_model": "Typed relational claim with explicit topology, mechanism, direction and ontological burden."
+    },
+    {
+      "family_id": "F-GROUND",
+      "title": "Ground, cause, reason, motive and abyss",
+      "protocol_refs": [
+        "2.28 branch 2.22"
+      ],
+      "triggers": [
+        "ground",
+        "grund",
+        "cause",
+        "reason",
+        "motive",
+        "abgrund",
+        "основан",
+        "причин",
+        "почему"
+      ],
+      "diagnostic": "Which relation hides under 'ground', and why is regress allowed to stop here?",
+      "constructive_move": "Type ground relations, distinguish demand-for-ground and adopt plural local stopping rules.",
+      "self_risk": "Making a grounding ecology into the new ground of all grounds.",
+      "positive_model": "Typed Grounding Ecology."
+    },
+    {
+      "family_id": "F-FREEDOM",
+      "title": "Freedom, projection, thrownness and finite possibility",
+      "protocol_refs": [
+        "2.28 branch 2.23"
+      ],
+      "triggers": [
+        "freedom",
+        "freiheit",
+        "entwurf",
+        "geworfen",
+        "faktiz",
+        "свобод",
+        "самопроект",
+        "возмож"
+      ],
+      "diagnostic": "What kind of freedom is claimed, and where do the available possibilities come from?",
+      "constructive_move": "Separate ontological, practical and political freedom; map possibility provenance and exclusions.",
+      "self_risk": "Using finitude to aestheticize concrete coercion.",
+      "positive_model": "Finite Possibility Appropriation."
+    },
+    {
+      "family_id": "F-AUTHENTICITY",
+      "title": "Selfhood, conscience, resoluteness and authenticity",
+      "protocol_refs": [
+        "2.28 branch 2.24"
+      ],
+      "triggers": [
+        "authentic",
+        "eigentlich",
+        "conscience",
+        "gewissen",
+        "resolute",
+        "selfhood",
+        "selbst",
+        "подлин",
+        "совест",
+        "решим"
+      ],
+      "diagnostic": "Can formal resoluteness distinguish good from fanatic content without certifying its own ontology?",
+      "constructive_move": "Keep finite self-appropriation reflexive, social and corrigible rather than content-empty or inward.",
+      "self_risk": "Smuggling an evaluative hierarchy into an allegedly descriptive mode.",
+      "positive_model": "Finite Reflexive Self-Appropriation."
+    },
+    {
+      "family_id": "F-HISTORICITY",
+      "title": "Heritage, repetition, fate and generation",
+      "protocol_refs": [
+        "2.28 branch 2.25"
+      ],
+      "triggers": [
+        "heritage",
+        "erbe",
+        "wiederholung",
+        "schicksal",
+        "geschick",
+        "generation",
+        "наслед",
+        "судьб",
+        "историч"
+      ],
+      "diagnostic": "Does inheritance legitimate itself, or does present selection fabricate one destiny?",
+      "constructive_move": "Trace provenance, counter-heritage, transformative repetition, dissent and scale.",
+      "self_risk": "Making plurality another comforting macro-narrative.",
+      "positive_model": "Plural Historical Self-Appropriation."
+    },
+    {
+      "family_id": "F-COLLECTIVE-SELF",
+      "title": "Mitsein, we-structures and collective agency",
+      "protocol_refs": [
+        "2.28 branch 2.26"
+      ],
+      "triggers": [
+        "collective",
+        "mitsein",
+        "we",
+        "wir",
+        "volk",
+        "group",
+        "community",
+        "коллектив",
+        "мы",
+        "народ"
+      ],
+      "diagnostic": "Where does co-presence become shared action, a group agent or a privileged collective subject?",
+      "constructive_move": "Trace coordination, position-formation, dissent, exit and overlapping memberships.",
+      "self_risk": "Reifying the group or dissolving real group agency into individuals.",
+      "positive_model": "Layered Plural We / Distributed Collective Agency."
+    },
+    {
+      "family_id": "F-INSTITUTION-AUTHORITY",
+      "title": "Institution, authority, power and state",
+      "protocol_refs": [
+        "2.28 branch 2.27"
+      ],
+      "triggers": [
+        "institution",
+        "authority",
+        "state",
+        "macht",
+        "zwang",
+        "herrschaft",
+        "институт",
+        "власт",
+        "государ"
+      ],
+      "diagnostic": "Do authorization, legitimacy, expertise, coercion and truth change places inside an office?",
+      "constructive_move": "Separate role from person, decision from truth and power from justified authority; preserve review.",
+      "self_risk": "Assuming all institutions can be made equally revocable or procedural.",
+      "positive_model": "Corrigible Institutional Order."
+    },
+    {
+      "family_id": "F-REPRESENTATION-DECISION",
+      "title": "Leadership, representation, decision and responsibility",
+      "protocol_refs": [
+        "2.28 branch 2.28"
+      ],
+      "triggers": [
+        "leadership",
+        "führung",
+        "representation",
+        "entscheidung",
+        "decision",
+        "obedience",
+        "responsibility",
+        "лидер",
+        "представ",
+        "решен",
+        "ответствен"
+      ],
+      "diagnostic": "Who may speak, decide or interpret for whom, and can dissent appear as counterevidence without exile?",
+      "constructive_move": "Trace bounded delegation, distinguish decision from truth, align control with responsibility and test followerlessness.",
+      "self_risk": "Idealizing corrigibility where emergency or structural asymmetry blocks it.",
+      "positive_model": "Corrigible Delegated Coordination."
+    },
+    {
+      "family_id": "F-RELATION-GENESIS",
+      "title": "Relata/Relation Genesis and Co-constitution",
+      "protocol_refs": [
+        "SOURCE-RESISTANCE 0.1",
+        "2.27 branch 2.27"
+      ],
+      "triggers": [
+        "relation-first",
+        "relata",
+        "co-constit",
+        "co-emergent",
+        "geviert",
+        "vierung",
+        "versammeln",
+        "gathering",
+        "spiegel-spiel",
+        "relation",
+        "bezug",
+        "verhältnis",
+        "соопредел",
+        "отношен"
+      ],
+      "diagnostic": "Does the analysis presuppose fully individuated relata before testing whether the relation partly constitutes, differentiates or co-emerges with its terms?",
+      "constructive_move": "Run competing representation modes: RELATA_FIRST, RECIPROCAL_RELATION, CO_CONSTITUTIVE, RELATION_FIRST and UNRESOLVED_ONTOLOGY; compare what each makes visible and what it destroys.",
+      "self_risk": "Relation-absolutism can become a new universal ontology, while co-constitution can translate a resistant source into fashionable relational vocabulary.",
+      "positive_model": "A reversible relation-genesis profile whose relata, direction and ontological burden can themselves be reopened."
+    },
+    {
+      "family_id": "F-REPRESENTATION-RESISTANCE",
+      "title": "Representation Failure, Unitization and Method Mutation",
+      "protocol_refs": [
+        "SOURCE-RESISTANCE 0.1",
+        "D3-EXPLORATORY §18"
+      ],
+      "triggers": [
+        "source_resistance",
+        "registry",
+        "representation",
+        "node",
+        "edge",
+        "unitization",
+        "graph",
+        "operator",
+        "method_mutation",
+        "method",
+        "blind spot",
+        "слеп",
+        "репрезентац",
+        "оператор",
+        "узел"
+      ],
+      "diagnostic": "Is the current analytic representation merely incomplete, or does its own unitization systematically prevent the source phenomenon from appearing?",
+      "constructive_move": "Compare at least one rival unitization, record the lost distinction, emit an operator delta only when the source-linked loss recurs, and keep a rollback path.",
+      "self_risk": "Treating every mismatch as proof that the method must mutate produces novelty inflation and makes the system impossible to falsify.",
+      "positive_model": "Source-forced but reversible method mutation with explicit regression and retirement conditions."
+    },
+    {
+      "family_id": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+      "title": "Open-set source family: thinking / understanding / exist / mind",
+      "protocol_refs": [
+        "OPEN-SET-HERMENEUTIC-DISCOVERY-0.10",
+        "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1"
+      ],
+      "triggers": [
+        "thinking",
+        "understanding",
+        "exist",
+        "mind",
+        "thought"
+      ],
+      "diagnostic": "What becomes visible in the local source field (thinking, understanding, exist, mind, thought) before it is translated into a pre-existing operator family?",
+      "constructive_move": "Compare term-field, window-transition and negative-boundary unitizations; preserve a null result when none adds a source-linked distinction.",
+      "self_risk": "Open-set discovery can become an exception factory that rewards novelty; retire the family if it does not add repeatable local discrimination beyond ordinary routing.",
+      "positive_model": "Micro-local source-signature probe with no presupposed ontology and explicit rollback to ordinary routing."
+    }
+  ],
+  "openness_contract": {
+    "minimum_rivals": 2,
+    "minimum_genealogy_types": 2,
+    "minimum_distinct_families": 2,
+    "required_roles": [
+      "PROBLEM_GENESIS",
+      "DECONFLATION",
+      "COUNTER_GENEALOGY",
+      "REVERSE_TEST",
+      "POSITIVE_KERNEL",
+      "SELF_CRITIQUE",
+      "MUTATION",
+      "OPEN_RESIDUAL",
+      "REVISION_TRIGGER"
+    ],
+    "stop_principle": "SUFFICIENT_OPENNESS_NOT_CLOSURE"
+  },
+  "operator_evolution_governance": {
+    "policy_version": "OPERATOR-EVOLUTION-0.1",
+    "principle": "SOURCE_FORCED_MUTATION_MUST_BE_TRANSFER_TESTED_AND_CAN_BE_QUARANTINED_OR_RETIRED",
+    "states": [
+      "EXPERIMENTAL_CANDIDATE_NOT_CORE",
+      "EXPERIMENTAL_TRANSFERABLE",
+      "EXPERIMENTAL_UNRESOLVED",
+      "QUARANTINED",
+      "RETIRED"
+    ],
+    "promotion_rule": "No cross-corpus regression result promotes an operator to frozen CORE; external semantic validation and human review remain separate.",
+    "forgetting_rule": "Negative-control overgeneralization quarantines the candidate; absence of positive transfer retires it instead of accumulating it as a default lens.",
+    "required_controls": [
+      "ORIGIN_POSITIVE",
+      "TRANSFER_POSITIVE",
+      "NEGATIVE_CONTROL"
+    ],
+    "mixed_control_role": "Test whether the operator can preserve locally different relation regimes rather than flattening them into one ontology.",
+    "mutation_runtime": "EXECUTABLE_DECLARATIVE_CANDIDATE_REGISTRY_WITH_ROLLBACK"
+  },
+  "operator_competition_governance": {
+    "policy_version": "OPERATOR-COMPETITION-0.1",
+    "principle": "SOURCE_BORN_OPERATORS_COMPETE_LOCALLY_BY_DISTINCTION_GAIN_AND_DISTORTION_LOSS_WITHOUT_GLOBAL_CORE_PROMOTION",
+    "decisions": [
+      "SELECT_LOCAL_WINNER",
+      "LOCAL_COMPOSITION",
+      "KEEP_RIVALS_UNRESOLVED",
+      "ABSTAIN_UNRESOLVED"
+    ],
+    "source_birth_rule": "Manifest declaration is insufficient; origin profile hints and origin living method mutation must both be observed.",
+    "composition_rule": "Compose only when candidates add non-redundant local coverage; composition does not license a global meta-ontology.",
+    "abstention_rule": "If no source-born candidate is locally viable, preserve UNRESOLVED rather than force a winner.",
+    "claim_ceiling": "LOCAL_ROUTING_HEURISTIC_NOT_PHILOSOPHICAL_TRUTH_OR_CORE_PROMOTION"
+  },
+  "runtime_contract": {
+    "runtime": "DAE-LIVING-DECLARATIVE-1.1",
+    "activation": "DATA_DRIVEN_BOOLEAN_AST",
+    "emission": "DATA_DRIVEN_NODE_PROGRAM",
+    "new_gesture_requires": [
+      "gesture_id",
+      "protocol_refs",
+      "activation",
+      "emission_program"
+    ],
+    "mutation_gate": "DAE-OPERATOR-MUTATION-1.2",
+    "candidate_registry_is_not_silent_promotion": true,
+    "rollback_required": true,
+    "open_set_operator_discovery": "MICRO_LOCAL_UNKNOWN_FAMILY_RIVAL_0.10"
+  }
+}

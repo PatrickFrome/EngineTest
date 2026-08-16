@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "destruktion-metaengine-16x"
+version = "2.3.0a1"
+description = "A provenance-preserving, outcome-gated 16-lineage meta-engine with controlled policy learning"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+  "jsonschema>=4.21,<5",
+  "pytest>=8,<9"
+]
+
+[project.scripts]
+destruktion-meta16 = "metaengine.cli:main"
+metaengine-dev = "metaengine.devfabric.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["metaengine*"]
+
+[dependency-groups]
+dev = [
+  "pytest>=8,<9",
+  "jsonschema>=4.21,<5",
+  "hypothesis",
+  "ruff",
+  "mypy",
+  "pip-audit",
+  "semgrep",
+]

@@ -1,0 +1,127 @@
+{
+  "policy_version": "16X-DECLARATIVE-ARCHITECTURE-POLICY-2.3",
+  "generation": 1,
+  "parent_policy_hash": "bf0afbceb99f5b714f53d42f581075ddb582206962a46bd30b9722af89440786",
+  "topology_id": "HERMENEUTIC_SPIRAL",
+  "waves": [
+    [
+      "engine_01",
+      "engine_03",
+      "engine_04",
+      "engine_07"
+    ],
+    [
+      "engine_02",
+      "engine_06",
+      "engine_14",
+      "engine_15"
+    ],
+    [
+      "engine_05",
+      "engine_08",
+      "engine_09",
+      "engine_10"
+    ],
+    [
+      "engine_11",
+      "engine_12",
+      "engine_13",
+      "engine_16"
+    ]
+  ],
+  "dialectic_operators": [
+    "SOURCE_READING",
+    "RIVAL_FORK",
+    "EVIDENCE_DISCRIMINATOR",
+    "SOURCE_RETURN",
+    "HORIZON_DISCLOSURE",
+    "SEMANTIC_COUNTERFACTUAL",
+    "GENEALOGICAL_RETURN"
+  ],
+  "engine_architecture_mix": {
+    "engine_01": [
+      "SOURCE_READING",
+      "HORIZON_DISCLOSURE"
+    ],
+    "engine_02": [
+      "OPERATOR_MUTATION",
+      "SEMANTIC_COUNTERFACTUAL"
+    ],
+    "engine_03": [
+      "DOUBLE_HERMENEUTIC",
+      "SOURCE_RETURN"
+    ],
+    "engine_04": [
+      "RIVAL_FORK",
+      "SEMANTIC_COUNTERFACTUAL"
+    ],
+    "engine_05": [
+      "GENEALOGICAL_RETURN"
+    ],
+    "engine_06": [
+      "EVIDENCE_DISCRIMINATOR",
+      "SOURCE_RETURN"
+    ],
+    "engine_07": [
+      "EVIDENCE_DISCRIMINATOR"
+    ],
+    "engine_08": [
+      "SOURCE_READING",
+      "SOURCE_RETURN"
+    ],
+    "engine_09": [
+      "SOURCE_RETURN",
+      "EVIDENCE_DISCRIMINATOR"
+    ],
+    "engine_10": [
+      "RIVAL_FORK"
+    ],
+    "engine_11": [
+      "OPERATOR_MUTATION",
+      "SOURCE_RETURN"
+    ],
+    "engine_12": [
+      "GENEALOGICAL_RETURN",
+      "SOURCE_RETURN"
+    ],
+    "engine_13": [
+      "HORIZON_DISCLOSURE",
+      "RIVAL_FORK"
+    ],
+    "engine_14": [
+      "DOUBLE_HERMENEUTIC",
+      "SUBLATION_WITH_RESIDUE"
+    ],
+    "engine_15": [
+      "RIVAL_FORK",
+      "SEMANTIC_COUNTERFACTUAL"
+    ],
+    "engine_16": [
+      "OPERATOR_MUTATION",
+      "EVIDENCE_DISCRIMINATOR"
+    ]
+  },
+  "max_rounds": 4,
+  "max_deep_engines": 8,
+  "exploration_rate": 0.15,
+  "guardrail_hash": "7ca26b082e1c4dc1de5f3d098f957d0330a5b9f2cf70da12160a672c01a2eb38",
+  "verifier_hash": "EXTERNAL_VERIFIER_PINNED_BY_CAMPAIGN",
+  "benchmark_hash": "SEALED_BY_CAMPAIGN",
+  "status": "ACTIVE",
+  "mutation_receipt": {
+    "mutation_id": "g01-m021",
+    "algebra": "CROSSOVER_OPERATOR_SET",
+    "added_operators": [
+      "HORIZON_DISCLOSURE",
+      "SEMANTIC_COUNTERFACTUAL",
+      "GENEALOGICAL_RETURN"
+    ],
+    "parent_policy_hash": "bf0afbceb99f5b714f53d42f581075ddb582206962a46bd30b9722af89440786",
+    "forbidden_fields_touched": [],
+    "mutation_hash": "05e20be9c72b73d64af8bb652a2677e96b74972d21a4aa8bfd8dcab2da7f5ba2",
+    "promotion_receipt_hash": "9433ca5dfd8268f1a83ac9d73d23546581ed6a0fc4e6096e146ea525be2a75b6"
+  },
+  "self_modifying_code_allowed": false,
+  "truth_effect": "NONE",
+  "policy_hash": "47bc9ce599eeddd9fbba44fb20b2be9496ad4fa02d81411eb1afbccd5dd03e12"
+}

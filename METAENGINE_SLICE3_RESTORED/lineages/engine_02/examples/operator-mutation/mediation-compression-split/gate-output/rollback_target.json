@@ -1,0 +1,36 @@
+{
+  "delta_id": "DELTA-MEDIATION-COMPRESSION-SPLIT-001",
+  "target": {
+    "registry_section": "conditional_families",
+    "operator_id": "F-MEDIATION-COMPRESSION"
+  },
+  "restore": {
+    "family_id": "F-MEDIATION-COMPRESSION",
+    "title": "Mediation, compression and reconstructability",
+    "protocol_refs": [
+      "D3-EXPLORATORY first run §§3–25"
+    ],
+    "triggers": [
+      "overview",
+      "summary",
+      "selection",
+      "edition",
+      "anthology",
+      "compendium",
+      "handbook",
+      "compression",
+      "mediation",
+      "gesamtausgabe",
+      "обзор",
+      "свод",
+      "отбор",
+      "издание",
+      "компресс",
+      "посреднич"
+    ],
+    "diagnostic": "Is an accurate derivative representation being promoted from orientation to understanding or adjudication, and can its losses still be reconstructed?",
+    "constructive_move": "Type the representation's epistemic role, lower allowed compression as claim burden rises, and preserve a traceback from synthesis through claims and evidence to source context.",
+    "self_risk": "Treating formal reconstructability as sufficient understanding, or turning every useful summary into a suspect substitute.",
+    "positive_model": "Role-Bounded Compression with explicit loss, alternative unitizations and reversible source routes."
+  }
+}

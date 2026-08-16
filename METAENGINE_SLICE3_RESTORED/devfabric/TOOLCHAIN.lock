@@ -1,0 +1,29 @@
+{
+  "audit_lock_format": "pylock.toml (PEP 751 export from uv.lock)",
+  "lock_version": "METAENGINE-DEVFABRIC-TOOLCHAIN-1",
+  "python_floor": "3.11",
+  "python_runtime": "3.13.5",
+  "required_tools": {
+    "hypothesis": {
+      "status": "UNRESOLVED_OFFLINE"
+    },
+    "mypy": {
+      "status": "UNRESOLVED_OFFLINE"
+    },
+    "pip-audit": {
+      "status": "UNRESOLVED_OFFLINE"
+    },
+    "pytest": {
+      "status": "SYSTEM_PRESENT_OUTSIDE_DECLARED_RANGE",
+      "version": "9.0.2"
+    },
+    "ruff": {
+      "status": "UNRESOLVED_OFFLINE"
+    },
+    "semgrep": {
+      "status": "UNRESOLVED_OFFLINE"
+    }
+  },
+  "resolution_error": "PyPI DNS unavailable in execution container; uv.lock intentionally not fabricated",
+  "resolution_status": "UNRESOLVED_OFFLINE"
+}

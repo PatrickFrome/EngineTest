@@ -1,0 +1,50 @@
+from __future__ import annotations
+
+from enum import Enum
+
+
+class SlotId(str, Enum):
+    C0 = "C0"
+    C1 = "C1"
+    C2 = "C2"
+    C3 = "C3"
+    C4 = "C4"
+    C5 = "C5"
+    C6 = "C6"
+    C7 = "C7"
+
+
+class SlotState(str, Enum):
+    ACTIVE = "ACTIVE"
+    IDLE = "IDLE"
+    REVIEW_ONLY = "REVIEW_ONLY"
+    SUSPENDED = "SUSPENDED"
+    RECLAIMABLE = "RECLAIMABLE"
+
+
+class IntegrationMode(str, Enum):
+    EXCLUSIVE = "EXCLUSIVE"
+    PARALLEL = "PARALLEL"
+    REDUNDANT = "REDUNDANT"
+    IMPLEMENT_REVIEW = "IMPLEMENT_REVIEW"
+
+
+class CandidateEligibility(str, Enum):
+    ELIGIBLE = "ELIGIBLE"
+    STALE_FENCED = "STALE_FENCED"
+    STALE_TASK_VERSION = "STALE_TASK_VERSION"
+    MISSING_REVIEW = "MISSING_REVIEW"
+    REJECTED = "REJECTED"
+
+
+class ConflictClass(str, Enum):
+    PATH_WRITE_CONFLICT = "PATH_WRITE_CONFLICT"
+    INTERFACE_CONTRACT_CONFLICT = "INTERFACE_CONTRACT_CONFLICT"
+    DEPENDENCY_VERSION_CONFLICT = "DEPENDENCY_VERSION_CONFLICT"
+    STALE_BASE_CONFLICT = "STALE_BASE_CONFLICT"
+    SEMANTIC_DECISION_CONFLICT = "SEMANTIC_DECISION_CONFLICT"
+    VERIFICATION_CONFLICT = "VERIFICATION_CONFLICT"
+    PRIVACY_POLICY_CONFLICT = "PRIVACY_POLICY_CONFLICT"
+
+
+SLOT_ORDER = tuple(SlotId(f"C{i}") for i in range(8))

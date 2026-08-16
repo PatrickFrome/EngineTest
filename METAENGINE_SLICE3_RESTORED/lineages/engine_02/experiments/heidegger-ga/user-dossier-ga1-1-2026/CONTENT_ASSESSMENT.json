@@ -1,0 +1,136 @@
+{
+  "assessment_version": "DAE-COMPOSITE-DOSSIER-ASSESSMENT-0.1",
+  "engine_version": "0.2.3-alpha.1",
+  "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+  "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+  "genre_verdict": "COMPOSITE_RESEARCH_DOSSIER_WITH_ITERATIVE_ANALYSIS_AND_INTERACTION_RESIDUE",
+  "admission_status": "QUARANTINED_SECONDARY_HYPOTHESIS_AND_STRESS_TEST_CORPUS",
+  "not_admitted_as": [
+    "PRIMARY_HEIDEGGER_TEXT",
+    "GA1_EDITION_WITNESS",
+    "INDEPENDENT_SECONDARY_SCHOLARSHIP",
+    "COMPLETED_D28_PROTOCOL_RUN",
+    "SEMANTIC_GOLD_CORPUS"
+  ],
+  "observed_structure": {
+    "renderer_pages": 697,
+    "renderer_page_authority": "TECHNICAL_ONLY",
+    "ooxml_paragraphs": 33870,
+    "paragraphs_with_text": 27805,
+    "heading_styles": {"Heading1": 726, "Heading2": 451, "Heading3": 168},
+    "tables": 16,
+    "hyperlinks": 0,
+    "pseudo_citation_markers": 335,
+    "short_fragment_share": 0.365762,
+    "exact_duplicate_occurrence_share_for_paragraphs_ge_20_chars": 0.0081,
+    "interaction_residue": {
+      "next_stage_prompts": 6,
+      "search_completed_notices": 2,
+      "guide_read_notices": 1
+    }
+  },
+  "machine_run": {
+    "units": 13242,
+    "candidate_records": 840,
+    "candidate_rate": 0.063435,
+    "ambiguous_units": 340,
+    "ambiguous_candidate_share": 0.404762,
+    "conformant_records": 840,
+    "validation_errors": 0,
+    "review_flags": 2045,
+    "selected_relation_counts": {
+      "RT00": 340,
+      "RT01": 103,
+      "RT02": 7,
+      "RT03": 18,
+      "RT04": 2,
+      "RT05": 61,
+      "RT06": 25,
+      "RT08": 17,
+      "RT09": 2,
+      "RT12": 2,
+      "RT14": 4,
+      "RT16": 4,
+      "RT17": 13,
+      "RT18": 112,
+      "RT19": 72,
+      "RT20": 4,
+      "RT21": 5,
+      "RT23": 26,
+      "RT28": 23
+    },
+    "claim_ceiling": "LEXICAL_REVIEW_QUEUE_NOT_ARGUMENT_COUNT_OR_SEMANTIC_ACCURACY"
+  },
+  "comparison_with_primary_1912_run": {
+    "primary_source": "HGA-PJ25-1912-REALITAET",
+    "primary_printed_pages": 11,
+    "primary_units": 280,
+    "primary_candidate_records": 24,
+    "dossier_renderer_pages": 697,
+    "dossier_units": 13242,
+    "dossier_candidate_records": 840,
+    "diagnostic": "The dossier includes later Heidegger, methodological development, rival philosophies, protocol revisions and seven cross-domain stress tests. It cannot be substituted for or aligned pagewise with the 1912 article.",
+    "lexical_scope_warning": "The German-only term index gives DASEIN=257 in the dossier versus DASEIN=0 in the 1912 article. This diagnoses diachronic/meta-analytic scope contamination, not a conceptual frequency comparison between equivalent corpora."
+  },
+  "intellectual_assets": [
+    {
+      "asset": "ACT_CONTENT_OBJECT_AND_SETZUNG_BESTIMMUNG_DISTINCTIONS",
+      "value": "HIGH",
+      "decision": "ALREADY_SUBSUMED",
+      "destination": "full-work-1912 reconstruction and V38-D2.8-CORE",
+      "reason": "The dossier develops the distinctions extensively, but the project already encodes them using the primary article and the canonical v3.8 protocol."
+    },
+    {
+      "asset": "REGIONAL_REALIZATION_PROFILE",
+      "value": "HIGH_AS_RESEARCH_DESIGN",
+      "decision": "ALREADY_SUBSUMED_NO_DUPLICATE_PROTOCOL",
+      "destination": "V38-ONTOLOGY-GATE plus the v3.8 conditional Realisierungsprofil module",
+      "reason": "Mode of being, origin, maintenance, identity, access, corrective constraint and suspension are already present in the canonical project source."
+    },
+    {
+      "asset": "SEVEN_CASE_STRESS_TEST",
+      "value": "HIGH_AS_FUTURE_TEST_MATRIX",
+      "decision": "RETAIN_AS_HYPOTHESIS_BANK",
+      "destination": "future heterogeneous-corpus validation",
+      "reason": "Stone, organism, pain, money, artifact, mathematical object and fictional object expose different dependency and access profiles, but no independently coded gold cases are present."
+    },
+    {
+      "asset": "SELF_DESTRUCTIVE_META_CRITIQUE",
+      "value": "HIGH",
+      "decision": "ROUTED_TO_EXISTING_PROTOCOLS",
+      "destination": "V38-META-DESTRUCTION and V38-ANTI-SELF-CIRCULATION",
+      "reason": "The dossier repeatedly attacks its own universalizations; the existing protocols already operationalize this discipline."
+    },
+    {
+      "asset": "DIACHRONIC_HEIDEGGER_DEVELOPMENT_CLAIMS",
+      "value": "POTENTIALLY_HIGH",
+      "decision": "SUSPEND",
+      "destination": "future source-resolved GA sequence",
+      "reason": "The file has no claim-level edition map or resolvable bibliography and therefore cannot establish a trajectory from 1912 through later Heidegger."
+    },
+    {
+      "asset": "TERM_GENEALOGY_REALITAS_WIRKLICHKEIT_EXISTENZ_SEIN",
+      "value": "PROMISING_BUT_UNFINISHED",
+      "decision": "SUSPEND",
+      "destination": "separate source-controlled term-destruction stage",
+      "reason": "The document ends as this next stage begins; tool traces are present, but the completed protocol/result is absent."
+    }
+  ],
+  "implemented_from_this_run": [
+    "DIRECT_DOCX_INTAKE_COMMAND",
+    "OOXML_STRUCTURE_AND_CONTAMINATION_AUDIT",
+    "RENDERER_DERIVED_PAGE_AUTHORITY_FLAG",
+    "TRANSIENT_PDF_AND_TEXT_RETENTION_POLICY",
+    "UNICODE_AWARE_RUSSIAN_WORD_BOUNDARIES",
+    "PRE_POST_FIX_ABLATION",
+    "PSEUDO_CITATION_WITHOUT_LINKS_WARNING"
+  ],
+  "protocol_outcomes": {
+    "source_audit": "FAIL",
+    "d28_core_as_one_completed_run": "FAIL",
+    "anti_self_circulation": "FAIL",
+    "late_ontology_model": "SUSPEND",
+    "meta_destruction": "SUSPEND"
+  },
+  "final_verdict": "THE_DOCX_HAS_HIGH_VALUE_AS_A_COMPOSITE_HYPOTHESIS_AND_STRESS_TEST_DOSSIER_BUT_FAILS_ADMISSION_AS_PRIMARY_OR_INDEPENDENT_EVIDENCE; ITS_USEFUL_MODELS_ARE_EITHER_ALREADY_SUBSUMED_BY_V3_8_OR_RETAINED_FOR_FUTURE_SOURCE_RESOLVED_TESTING"
+}

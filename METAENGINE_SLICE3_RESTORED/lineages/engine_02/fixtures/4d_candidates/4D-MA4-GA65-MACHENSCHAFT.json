@@ -1,0 +1,153 @@
+{
+  "record_id": "4D-MA4-GA65-MACHENSCHAFT",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4D-01#GA65-61-p126",
+      "W4D-02#GA65-61-p127"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4D-0.1-DOCX-RECONSTRUCTION + DAE-0.1",
+    "agent": "dae-4d-reconstruction-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4D-0.1-DOCX"
+    ],
+    "activity_id": "MODULE-MIGRATION-4D-0.1-ENGINE-RECONSTRUCTION",
+    "timestamp": "2026-08-11T12:30:00Z",
+    "artifact_hash": "sha256:b0a3e5039fda3ec05d01352139e6fcb3add10d89ba38953a7450787a2751c276"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "GA65 section 61 rejects ordinary malicious human scheming as the operative meaning of Machenschaft in the Seinsfrage.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "ASSERTED",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-01#GA65-61-p126"
+    ]
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Machenschaft is reconstructed as an interpretation of beingness through makeability, presence, objectifiability and related calculability structures.",
+    "claim_facets": {
+      "basis": [
+        "MIXED"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-01#GA65-61-p126",
+      "W4D-02#GA65-61-p127"
+    ]
+  },
+  "transition": {
+    "inference_mode": "UNRESOLVED",
+    "relation": {
+      "rt_id": "RT18"
+    },
+    "bridge": {
+      "status": "EXPLICIT",
+      "statement": "RT18 classifies the source-governed semantic constraint on Machenschaft; it does not turn the term into a causal or moral predicate.",
+      "support_refs": [
+        "W4D-01#GA65-61-p126",
+        "W4D-02#GA65-61-p127"
+      ],
+      "discriminator": "Show a structured interpretation of beingness through makeability rather than the bare presence of human production."
+    }
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G3",
+    "gap": "SMALL",
+    "bridge_burden": "Textual reconstruction does not by itself establish a universal ontology of modernity."
+  },
+  "audit": {
+    "native_domain": "Heidegger studies / philosophy of technology",
+    "native_method": "primary-text reconstruction plus typed technology discrimination",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "UNDERDETERMINATION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY",
+      "DISCRIMINATOR",
+      "SCOPE_CONTROL",
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "HIGH",
+    "cost_note": "Module schemas were reconstructed from the supplied DOCX because the asserted JSON toolkit was not provided."
+  },
+  "rivals": [
+    {
+      "description": "Machenschaft means malicious human plotting or domination.",
+      "relation_rt_id": "RT25",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Test whether the source bearer is human conduct or a beingness interpretation."
+    },
+    {
+      "description": "Human making causally produces the diagnosed historical disclosure.",
+      "relation_rt_id": "RT06",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Require causal assumptions and evidence rather than lexical proximity to machen."
+    }
+  ],
+  "extensions": {
+    "ma4": {
+      "module_id": "MA4",
+      "version": "0.1-engine-reconstruction",
+      "bearer_level": "BEINGNESS_HISTORY_DIAGNOSIS",
+      "makeability_dimensions": [
+        "PRODUCIBILITY",
+        "PLANABILITY",
+        "CALCULABILITY",
+        "MANIPULABILITY",
+        "OBJECTIFIABILITY",
+        "PROCEDURALIZATION"
+      ],
+      "calculability_relation": "MANIFESTATION",
+      "experience_relation": "Erlebnis is recorded as a source-linked correlate requiring separate reconstruction, not as a synonym.",
+      "causality_relation": "Causal dominance is part of the diagnosis but does not establish an interventionist RT06 claim.",
+      "human_agency_status": "NOT_PRIMARY",
+      "scope": "EPOCHAL",
+      "totalization_status": "EPOCHAL_SOURCE_CLAIM",
+      "counterprofile": "Local making, planning and calculation described without a history-of-being diagnosis.",
+      "discriminator": "Show a structured interpretation of beingness through makeability rather than the bare presence of human production.",
+      "revision_trigger": "Primary-text or comparative evidence showing that the profile adds no distinction beyond ordinary making and planning."
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "UNRESOLVED",
+      "relation_rationale": "RT18 classifies the source-governed semantic constraint on Machenschaft; it does not turn the term into a causal or moral predicate.",
+      "semantic_review_status": "STRUCTURAL_ONLY",
+      "human_review_required": true,
+      "review_notes": [
+        "Original 4D JSON records and schemas were not attached; this record is an engine reconstruction from the DOCX specification.",
+        "Verify source passages, relation type, unitization and module field values before expert promotion."
+      ]
+    }
+  },
+  "outcome": "QUALIFY",
+  "open_questions": [
+    "Does the module discriminator add explanatory value beyond the strongest native counterprofile?"
+  ]
+}

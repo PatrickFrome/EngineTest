@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "16X Interwoven Architecture Mesh 1.2",
+  "type": "object",
+  "required": [
+    "mesh_version",
+    "engine_primitives",
+    "hybrid_organs",
+    "signals",
+    "pairwise_bridges",
+    "research_agenda",
+    "cross_architecture_traces",
+    "metrics",
+    "claim_ceiling",
+    "mesh_hash"
+  ],
+  "properties": {
+    "mesh_version": {
+      "enum": [
+        "16X-INTERWOVEN-ARCHITECTURE-1.2",
+        "16X-SELF-REORGANIZING-INTERWOVEN-ARCHITECTURE-2.0"
+      ]
+    },
+    "engine_primitives": {
+      "type": "object",
+      "minProperties": 16,
+      "maxProperties": 16
+    },
+    "hybrid_organs": {
+      "type": "array",
+      "minItems": 6
+    },
+    "signals": {
+      "type": "array"
+    },
+    "pairwise_bridges": {
+      "type": "array",
+      "minItems": 240,
+      "maxItems": 240
+    },
+    "research_agenda": {
+      "type": "array"
+    },
+    "cross_architecture_traces": {
+      "type": "array"
+    },
+    "metrics": {
+      "type": "object",
+      "required": [
+        "engine_coverage",
+        "directed_pairwise_bridges",
+        "derived_truth_promotion_violations",
+        "all_16_have_15_incoming_and_outgoing_bridges",
+        "active_directed_pairwise_bridges",
+        "architecture_primitive_instances"
+      ]
+    },
+    "claim_ceiling": {
+      "type": "string"
+    },
+    "mesh_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": true
+}

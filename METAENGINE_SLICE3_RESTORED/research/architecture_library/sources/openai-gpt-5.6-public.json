@@ -1,0 +1,53 @@
+{
+  "allowed_use": [
+    "BEHAVIORAL_REFERENCE",
+    "PUBLIC_INTERFACE_DESCRIPTION"
+  ],
+  "architecture_claims": [
+    {
+      "claim_id": "gpt-5.6-public-model-interface",
+      "evidence_locator": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "kind": "PUBLISHER_CLAIM",
+      "statement": "The official model page documents the public model identifier and product capabilities, not internal implementation architecture."
+    }
+  ],
+  "blob_descriptors": [],
+  "blockers": [
+    "BEHAVIORAL_EVIDENCE_ONLY",
+    "NO_PUBLIC_INTERNAL_SOURCE"
+  ],
+  "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+  "exact_commit_or_release": "gpt-5.6-sol-model-page-retrieved-2026-08-13",
+  "forbidden_use": [
+    "HIDDEN_ARCHITECTURE_FACT",
+    "INTERNAL_SOURCE_ASSUMPTION",
+    "RUNTIME_DEPENDENCY"
+  ],
+  "ingestion_status": "REGISTERED_ONLY",
+  "license_evidence_locator": "https://openai.com/policies/terms-of-use/",
+  "license_expression": "LicenseRef-OpenAI-Public-Documentation",
+  "license_name": "OpenAI proprietary public documentation",
+  "license_sha256": null,
+  "mechanism_candidates": [
+    {
+      "falsification_test": "Compare fixed and adaptive budgets using public behavior under a frozen evaluation contract.",
+      "hypothesized_effect": "Allocate extra reasoning only when it improves measured outcomes.",
+      "mechanism_id": "adaptive-reasoning-budget",
+      "semantic_definition": "Select a bounded reasoning budget based on task requirements.",
+      "source_fact_boundary": "Public product controls and behavior motivate the hypothesis; they do not reveal hidden architecture.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ],
+  "official_source_locator": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+  "publisher": "OpenAI",
+  "record_sha256": "e0e4dae1a065b0cb269c29c7785fa8791e807c31b93e244fd8afc2e29ccbc450",
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "retained_reference_paths": [],
+  "retrieved_at": "2026-08-13T20:00:00Z",
+  "source_class": "CLOSED_BEHAVIORAL_ONLY",
+  "source_id": "openai-gpt-5.6-public",
+  "source_sha256": null,
+  "source_sha256_scope": null,
+  "system_name": "GPT-5.6",
+  "version": "gpt-5.6-sol"
+}

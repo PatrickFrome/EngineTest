@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/studio/ecology_downstream_result.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "result_version",
+    "engine_version",
+    "generated_at",
+    "outcome",
+    "integration_policy",
+    "source_ecology_sha256",
+    "source_corpus_id",
+    "living_graph",
+    "expert_layer",
+    "boundaries",
+    "summary",
+    "claim_ceiling"
+  ],
+  "properties": {
+    "result_version": {
+      "const": "DAE-ECOLOGY-DOWNSTREAM-RESULT-1.0"
+    },
+    "engine_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "outcome": {
+      "enum": [
+        "PRESERVES_MICRO_LOCAL_ECOLOGY_DOWNSTREAM",
+        "DOWNSTREAM_PRESERVATION_FAILED"
+      ]
+    },
+    "integration_policy": {
+      "const": "WINDOW_OPERATOR_RESIDUAL_BOUNDARY_PROVENANCE_PRESERVED_THROUGH_LIVING_AND_EXPERT_LAYERS"
+    },
+    "source_ecology_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "source_corpus_id": {
+      "type": "string"
+    },
+    "living_graph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "nodes",
+        "edges",
+        "raw_text_included"
+      ],
+      "properties": {
+        "nodes": {
+          "type": "array"
+        },
+        "edges": {
+          "type": "array"
+        },
+        "raw_text_included": {
+          "const": false
+        }
+      }
+    },
+    "expert_layer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "local_adjudications",
+        "global_adjudication"
+      ],
+      "properties": {
+        "local_adjudications": {
+          "type": "array"
+        },
+        "global_adjudication": {
+          "type": "object"
+        }
+      }
+    },
+    "boundaries": {
+      "type": "array"
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "claim_ceiling": {
+      "const": "DOWNSTREAM_PRESERVATION_OF_LOCAL_ROUTING_AND_BOUNDARIES_NOT_EXTERNAL_SEMANTIC_VALIDATION_OR_CORE_PROMOTION"
+    }
+  }
+}

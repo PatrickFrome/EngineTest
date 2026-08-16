@@ -1,0 +1,38 @@
+{
+  "ledger_version": "DAE-CLAIM-LEDGER-SUMMARY-1.0",
+  "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+  "entry_count": 2387,
+  "by_origin_layer": {
+    "PROJECT_CLAIM": 86,
+    "PROTOCOL_TOOL_LOG": 57,
+    "RECONSTRUCTION": 147,
+    "RIVAL_OBJECTION": 102,
+    "SOURCE": 623,
+    "UNRESOLVED": 1372
+  },
+  "by_claim_type": {
+    "CONCLUSION": 149,
+    "OBJECTION": 107,
+    "PROJECT_ASSERTION": 84,
+    "PROTOCOL_ACTIVITY": 57,
+    "QUESTION": 433,
+    "RECONSTRUCTION": 143,
+    "SOURCE_PASSAGE": 609,
+    "UNRESOLVED_ASSERTION": 805
+  },
+  "by_scale": {
+    "DIACHRONIC": 96,
+    "EPOCHAL": 11,
+    "LOCAL": 1900,
+    "UNIVERSAL": 85,
+    "WORK": 295
+  },
+  "by_status": {
+    "ARCHIVED_DUPLICATE": 16,
+    "ARCHIVED_TOOL_LOG": 53,
+    "UNADJUDICATED": 2318
+  },
+  "apb_reconstructed": 0,
+  "strongest_rival_attested": 0,
+  "claim_ceiling": "QUEUE_STATISTICS_ONLY_NOT_ARGUMENT_OR_TRUTH_COUNTS"
+}

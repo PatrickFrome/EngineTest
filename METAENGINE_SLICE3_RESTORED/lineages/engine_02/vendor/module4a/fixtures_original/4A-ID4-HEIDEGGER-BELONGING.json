@@ -1,0 +1,98 @@
+{
+  "record_id": "4A-ID4-HEIDEGGER-BELONGING",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "Heidegger GA11 Identität und Differenz / beyng.com",
+      "2.24 Heidegger Explanandum-Switch Audit"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + ID4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "Heidegger shifts from the formal identity principle toward a question of belonging-together of human being and Being.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "HIST"
+      ],
+      "force": "ASSERTED",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "This belonging-together is not thereby a replacement criterion for numerical identity or persistence of ordinary entities.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "FORM"
+      ],
+      "force": "ASSERTED",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT17"
+    },
+    "bridge": {
+      "status": "EXPLICIT",
+      "statement": "Belonging can relate distinct relata; therefore success of the ontological belonging analysis does not entail x=y or persistence criteria."
+    },
+    "promotion_flags": [
+      "RELATION",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G2",
+    "gap": "NONE"
+  },
+  "audit": {
+    "native_domain": "Heidegger GA11 / identity metaphysics",
+    "native_method": "close reading + logical contrast",
+    "activated_operators": [
+      "O3",
+      "O4",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY"
+    ],
+    "rtr": "LOW"
+  },
+  "extensions": {
+    "id4": {
+      "module_id": "ID4",
+      "version": "0.1",
+      "domain_object": "Mensch–Sein belonging versus numerical identity",
+      "mode": "BELONGING",
+      "candidate_criterion": [
+        "Zusammengehörigkeit/belonging-together"
+      ],
+      "allowed_change": "not a persistence criterion",
+      "termination_condition": "not applicable as ordinary numerical identity",
+      "reidentification_evidence": [],
+      "identity_maker_status": "RECONSTRUCTIVE_HYPOTHESIS",
+      "fission_replacement": "not the explanandum",
+      "alternatives": [
+        "numerical identity",
+        "ontological belonging as distinct relation"
+      ],
+      "revision_trigger": "Textual evidence that Heidegger intends Zusammengehörigkeit as ordinary x=y or persistence criterion."
+    }
+  },
+  "outcome": "QUALIFY"
+}

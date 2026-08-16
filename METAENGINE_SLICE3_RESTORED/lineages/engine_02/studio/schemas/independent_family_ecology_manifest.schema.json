@@ -1,0 +1,235 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/studio/independent_family_ecology_manifest.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ecology_version",
+    "description",
+    "candidates",
+    "target",
+    "scoring",
+    "claim_ceiling"
+  ],
+  "properties": {
+    "ecology_version": {
+      "const": "DAE-MICRO-LOCAL-ECOLOGY-MANIFEST-1.0"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "candidate_id",
+          "label",
+          "origin_corpus_id",
+          "origin_refinery_directory",
+          "origin_living_analysis_file",
+          "source_operator",
+          "birth_profile_hints",
+          "required_profile_hints",
+          "optional_profile_hints",
+          "incompatible_profile_hints",
+          "rationale"
+        ],
+        "properties": {
+          "candidate_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "origin_corpus_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "origin_refinery_directory": {
+            "type": "string",
+            "minLength": 1
+          },
+          "origin_living_analysis_file": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_operator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "birth_profile_hints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "required_profile_hints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "optional_profile_hints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "incompatible_profile_hints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "corpus_id",
+        "label",
+        "source_docx",
+        "document_language",
+        "windowing",
+        "expected_windows",
+        "expected_synthesis_decision"
+      ],
+      "properties": {
+        "corpus_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_docx": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_language": {
+          "type": "string",
+          "minLength": 1
+        },
+        "windowing": {
+          "type": "object",
+          "additionalProperties": true,
+          "required": [
+            "mode",
+            "heading_level",
+            "include_layers",
+            "minimum_text_chars",
+            "maximum_window_paragraphs"
+          ],
+          "properties": {
+            "mode": {
+              "const": "HEADING_BOUNDED_ARGUMENT_WINDOWS"
+            },
+            "heading_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 6
+            },
+            "include_layers": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            },
+            "minimum_text_chars": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "maximum_window_paragraphs": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
+        "expected_windows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "heading",
+              "expected_decision",
+              "expected_selected_candidates",
+              "rationale"
+            ],
+            "properties": {
+              "heading": {
+                "type": "string"
+              },
+              "expected_decision": {
+                "enum": [
+                  "SELECT_LOCAL_WINNER",
+                  "LOCAL_COMPOSITION",
+                  "KEEP_RIVALS_UNRESOLVED",
+                  "ABSTAIN_UNRESOLVED"
+                ]
+              },
+              "expected_selected_candidates": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              },
+              "rationale": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "expected_synthesis_decision": {
+          "enum": [
+            "PRESERVE_POLYPHONIC_LOCALITY",
+            "SINGLE_LOCAL_REGIME_AVAILABLE"
+          ]
+        }
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dominance_margin",
+        "composition_gain_threshold"
+      ],
+      "properties": {
+        "dominance_margin": {
+          "type": "number",
+          "minimum": 0
+        },
+        "composition_gain_threshold": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "claim_ceiling": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

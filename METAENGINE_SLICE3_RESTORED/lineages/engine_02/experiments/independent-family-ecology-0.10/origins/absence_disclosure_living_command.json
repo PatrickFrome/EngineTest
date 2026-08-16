@@ -1,0 +1,32 @@
+{
+  "output_dir": "/mnt/data/d4_010/Destruktion_4.0_AI_CHAT_PORTABLE_0.10.0-alpha.1/experiments/independent-family-ecology-0.10/origins/absence_disclosure_living",
+  "run_id": "LIVING-LOCAL_SHA256_F63C1C2F9CF9F94A667E28F6FDCE7E86DA2ECBF1C1AB05701206A765CA6-A3781EBDAF14",
+  "validation": {
+    "file": "<memory>",
+    "conformant": true,
+    "counts": {
+      "ERROR": 0,
+      "REVIEW": 0,
+      "WARNING": 0,
+      "INFO": 0
+    },
+    "issues": []
+  },
+  "sufficient_openness": {
+    "principle": "SUFFICIENT_OPENNESS_NOT_CLOSURE",
+    "satisfied": true,
+    "criteria": {
+      "problem_transformed": true,
+      "new_distinction": true,
+      "live_rival_or_counterquestion": true,
+      "reverse_pressure_or_explicit_skip": true,
+      "constructive_indication_or_explicit_skip": true,
+      "typed_residual": true,
+      "reopening_condition": true,
+      "source_resistance_handled_or_explicitly_absent": true,
+      "discovery_justification_firewall": true
+    },
+    "missing": [],
+    "interpretation": "The run stops provisionally because the problem has changed under constraints, live alternatives remain, the constructive move is revisable and the remainder is typed. No truth verdict or CORE promotion follows."
+  }
+}

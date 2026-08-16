@@ -1,0 +1,154 @@
+{
+  "pass_version": "DAE-ETYMOLOGY-PASS-1.0",
+  "protocol_version": "ETY-0.2",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T19:20:29Z",
+  "run_id": "ETY-LOCAL_SHA256_56ECE66CA4C20FDD8C838B2B1A226F9533ADA40300C7E8682468BF8D447-90BA2EA6351D",
+  "source": {
+    "source_id": "LOCAL-SHA256-56ECE66CA4C20FDD8C838B2B1A226F9533ADA40300C7E8682468BF8D447CF2BB",
+    "artifact_sha256": "e33ea8ecdfbd5096c8528c67f0ca09f9fb5c935fe7b68ee2ca6edc15a94c0520",
+    "hypothesis_bank_sha256": "78103c52eb2dbb81bb7e6e7339713196ab585925601d831b2fea561f43e397d0",
+    "raw_source_included": false
+  },
+  "registry": {
+    "registry_version": "DAE-ETYMOLOGY-REGISTRY-1.0",
+    "sha256": "b80f04d6566d7477ff8279134754de63aecea8ad504ed6edfdcf1191941b609c",
+    "source_note": "Entries are project-level starting dispositions derived from the supplied protocol. Historical derivations remain provisional until independently lexicographically sourced."
+  },
+  "cards": [
+    {
+      "card_id": "ETY-CARD-CONCEPT",
+      "concept_id": "CONCEPT",
+      "topic_ids": [
+        "AUTO_CORPUS_GENRE"
+      ],
+      "level": "ETY-MIN",
+      "escalation_reasons": [],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-ETY-PROFILE-AUTO_CORPUS_GENRE"
+        ],
+        "selector_count": 0,
+        "selectors": [],
+        "selectors_truncated": false
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "CONCEPT",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "UNRESOLVED",
+          "value": "Source language unresolved.",
+          "source_refs": []
+        },
+        "lemma": {
+          "resolution": "UNRESOLVED",
+          "value": "Lemma unresolved.",
+          "source_refs": []
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical and synchronic sense range remains unresolved.",
+          "source_refs": []
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": []
+        },
+        "philosophical_function": {
+          "resolution": "UNRESOLVED",
+          "value": "The local philosophical function remains unresolved.",
+          "source_refs": []
+        },
+        "translations": {
+          "resolution": "UNRESOLVED",
+          "value": "Standard, alternative and working translations remain unresolved.",
+          "source_refs": []
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": null,
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    }
+  ],
+  "coverage": {
+    "central_concepts": 1,
+    "cards_emitted": 1,
+    "ety_min_executed": 1,
+    "ety_full_required": 0,
+    "ety_full_executed": 0,
+    "coverage_complete": true,
+    "unresolved_fields": 12,
+    "knowledge_resolution": "PARTIAL",
+    "interpretation": "Coverage is complete because every central concept received ETY-MIN and every escalated concept received all ETY-FULL contours. This does not mean that unresolved historical, local or phenomenological fields have been answered."
+  },
+  "output_contract": {
+    "mandatory_execution": true,
+    "mandatory_significance": false,
+    "local_context_precedes_origin": true,
+    "authorial_etymology_separated": true,
+    "counter_etymology_required_for_full": true,
+    "phenomenological_check_required_for_full": true,
+    "bridge_required_for_semantic_promotion": true,
+    "semantic_promotion_performed": false,
+    "null_result_is_valid": true,
+    "raw_source_included": false
+  },
+  "claim_ceiling": "MANDATORY_ETYMOLOGICAL_SEMANTIC_COVERAGE_NOT_CONCEPTUAL_OR_ONTOLOGICAL_PROOF"
+}

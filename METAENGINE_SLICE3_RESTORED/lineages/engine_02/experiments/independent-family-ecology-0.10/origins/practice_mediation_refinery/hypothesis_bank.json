@@ -1,0 +1,173 @@
+{
+  "bank_version": "DAE-HYPOTHESIS-BANK-1.2",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T17:36:12Z",
+  "source_id": "LOCAL-SHA256-0934DCCAD4919B15DD2037A729F3CBAFB71E786D41D5379171A8C632DDDF0B8B",
+  "registry_version": "DAE-REFINERY-TOPICS-1.0",
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+      "topic_id": "EMERGENT_SOURCE_MEDIATION",
+      "label": "Source-forced constellation: mediation / Practice / bodily / conduct / material / mediated",
+      "research_question": "Which distinctions, dependencies or representation failures among mediation, Practice, bodily, conduct, material, mediated, objects, performance, place, repeated become invisible when the current topic registry determines the problem in advance?",
+      "origin": "SOURCE_FORCED_REGISTRY_RESISTANCE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "SOURCE_RESISTANCE",
+        "TERM_MEDIATION",
+        "TERM_PRACTICE",
+        "TERM_BODILY",
+        "TERM_CONDUCT",
+        "TERM_MATERIAL",
+        "TERM_MEDIATED",
+        "TERM_OBJECTS",
+        "TERM_PERFORMANCE",
+        "TERM_PLACE",
+        "TERM_REPEATED"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000001-4765B2B822",
+        "OX-P000007-05FC6AAF48",
+        "OX-P000008-9BEB191C39",
+        "OX-P000005-B8C2D9C26B",
+        "OX-P000006-E584CDF953",
+        "OX-P000004-DA969A8DA8"
+      ],
+      "evidence_count": 6,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "mediation",
+        "Practice",
+        "bodily",
+        "conduct",
+        "material",
+        "mediated",
+        "objects",
+        "performance",
+        "place",
+        "repeated",
+        "repetition",
+        "ritual"
+      ],
+      "operator_candidate": {
+        "family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+        "candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+        "signal_counts": {
+          "DIFFERENTIAL": 0,
+          "REFERENCE_RELATIVE": 0,
+          "SYSTEM_FIELD": 0,
+          "ASYMMETRIC_DEPENDENCE": 0,
+          "RECIPROCITY_GATHERING": 0,
+          "DISTANCE_DIFFERENTIATION": 0,
+          "PRIORITY": 0,
+          "TEMPORALITY": 0,
+          "EXPECTATION": 0,
+          "ENACTMENT_PRACTICE": 12,
+          "REPETITION_RHYTHM": 4,
+          "MATERIAL_MEDIATION": 15,
+          "ABSENCE_WITHDRAWAL": 0,
+          "TRACE_DISCLOSURE": 0,
+          "ADDRESS_RESPONSE": 0
+        },
+        "active_signal_families": [
+          "ENACTMENT_PRACTICE",
+          "REPETITION_RHYTHM",
+          "MATERIAL_MEDIATION"
+        ],
+        "central_term_cooccurrence_segments": 5,
+        "profile_hints": [
+          "PRACTICE_MEDIATION"
+        ],
+        "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_PROCESS_ONTOLOGY"
+      },
+      "source_resistance_trigger": "Curated topic coverage captured 0/12 source-central terms; 12 remained outside the recognized problem-space.",
+      "revision_condition": "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations."
+    }
+  ],
+  "case_matrices": [],
+  "source_resistance": {
+    "status": "REGISTRY_BLIND_SPOT",
+    "central_terms": [
+      "mediation",
+      "Practice",
+      "bodily",
+      "conduct",
+      "material",
+      "mediated",
+      "objects",
+      "performance",
+      "place",
+      "repeated",
+      "repetition",
+      "ritual"
+    ],
+    "covered_terms": [],
+    "uncovered_terms": [
+      "mediation",
+      "Practice",
+      "bodily",
+      "conduct",
+      "material",
+      "mediated",
+      "objects",
+      "performance",
+      "place",
+      "repeated",
+      "repetition",
+      "ritual"
+    ],
+    "coverage_ratio": 0,
+    "explicit_stress_terms": [],
+    "source_native_terms": [
+      "Practice",
+      "objects",
+      "performance",
+      "repeated",
+      "repetition",
+      "mediation",
+      "bodily",
+      "conduct",
+      "material",
+      "mediated",
+      "place",
+      "ritual"
+    ],
+    "centrality_basis": "MULTILINGUAL_SOURCE_FREQUENCY_PLUS_SOURCE_DOCUMENT_FREQUENCY_WITH_OPTIONAL_EXPLICIT_STRESS_HINTS",
+    "operator_candidate": {
+      "family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+      "candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0,
+        "TEMPORALITY": 0,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 12,
+        "REPETITION_RHYTHM": 4,
+        "MATERIAL_MEDIATION": 15,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "active_signal_families": [
+        "ENACTMENT_PRACTICE",
+        "REPETITION_RHYTHM",
+        "MATERIAL_MEDIATION"
+      ],
+      "central_term_cooccurrence_segments": 5,
+      "profile_hints": [
+        "PRACTICE_MEDIATION"
+      ],
+      "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_PROCESS_ONTOLOGY"
+    },
+    "emergent_hypotheses": [
+      "HYP-EMERGENT_SOURCE_MEDIATION"
+    ],
+    "principle": "SOURCE_CENTRALITY_CAN_FORCE_TOPIC_AND_OPERATOR_REVISION_BUT_CANNOT_BY_ITSELF_VALIDATE_A_PHILOSOPHICAL_CLAIM"
+  },
+  "claim_ceiling": "HYPOTHESIS_DISCOVERY_ONLY_NOT_CORROBORATION_OR_VALIDATION"
+}

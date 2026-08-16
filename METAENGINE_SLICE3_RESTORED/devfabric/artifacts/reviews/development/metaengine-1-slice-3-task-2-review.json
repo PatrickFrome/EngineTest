@@ -1,0 +1,82 @@
+{
+  "alternatives_considered": [
+    {
+      "evidence_hashes": [
+        "94b042a778e0ea3ed2ce67ea23a0de01c3ac5ac929bce38ccc37ff5b4eab4e1f",
+        "dd8929bcdb324d9a637243d91cf62c2e3eee9843a0e025532be80af58bba3981"
+      ],
+      "kind": "CURRENT",
+      "summary": "Retain the fail-closed filesystem CAS with exact-byte revalidation and shared CONTROL secret scanning."
+    },
+    {
+      "evidence_hashes": [
+        "2895abea81040f1b51cd5877b6dec41004b6a81947880809f5661f65e302a88b",
+        "ec533f2e79c3e1a8d8a16b96d37ec86214f3d5cf2b5b6df9e1f39eb2ae950ce3"
+      ],
+      "kind": "LIBRARY",
+      "summary": "Use Git LFS, submodules, or a cloud object database now; deferred because each adds availability or authority coupling before local identity is proven."
+    },
+    {
+      "evidence_hashes": [
+        "dd8929bcdb324d9a637243d91cf62c2e3eee9843a0e025532be80af58bba3981"
+      ],
+      "kind": "MINIMAL",
+      "summary": "Store retained files by source path only; rejected because overwrite, deduplication, and independent identity remain ambiguous."
+    },
+    {
+      "evidence_hashes": [
+        "4634f4e45e4fe7065f716effb7099ce1684cd5322f085a46cee615d36be384e3",
+        "50c53b1eafec9c8625a4f6146e3d2a943336c85a6862a6768d5c157f96c69998",
+        "94b042a778e0ea3ed2ce67ea23a0de01c3ac5ac929bce38ccc37ff5b4eab4e1f",
+        "ec533f2e79c3e1a8d8a16b96d37ec86214f3d5cf2b5b6df9e1f39eb2ae950ce3"
+      ],
+      "kind": "SYNTHESIS",
+      "summary": "Use a local OCI-like SHA-256 blob layout, no-overwrite atomic publication, shared security scanning, and independently hash-bound verification receipts."
+    }
+  ],
+  "architecture_library_snapshot_hash": "d5b32e0a8b9983cd36faed2cf105ecf3670cf9490578f0d939cbbdf4b1103445",
+  "capability_hypothesis": "An external no-overwrite CAS with deterministic receipts separates source identity from storage availability and makes repeated ingestion independently verifiable.",
+  "completed_step_commit": "e00de3686aedad7182e1ffd62ce6ef82d523c065",
+  "completed_step_evidence_hashes": [
+    "2895abea81040f1b51cd5877b6dec41004b6a81947880809f5661f65e302a88b",
+    "4634f4e45e4fe7065f716effb7099ce1684cd5322f085a46cee615d36be384e3",
+    "50c53b1eafec9c8625a4f6146e3d2a943336c85a6862a6768d5c157f96c69998",
+    "94b042a778e0ea3ed2ce67ea23a0de01c3ac5ac929bce38ccc37ff5b4eab4e1f",
+    "dd8929bcdb324d9a637243d91cf62c2e3eee9843a0e025532be80af58bba3981",
+    "ec533f2e79c3e1a8d8a16b96d37ec86214f3d5cf2b5b6df9e1f39eb2ae950ce3"
+  ],
+  "completed_step_id": "METAENGINE-1-SLICE-3-TASK-2",
+  "complexity_delta": "BOUNDED_LOCAL_CAS_NO_NETWORK_DATABASE_OR_RUNTIME_DEPENDENCY",
+  "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+  "constitutional_findings": [
+    "FOREIGN_BYTES_ARE_INERT_EXTERNAL_AND_CONTENT_ADDRESSED",
+    "PATH_SECRET_SIZE_AND_FILE_TYPE_BOUNDARIES_FAIL_CLOSED",
+    "PREEXISTING_CACHE_CONTENT_IS_REVERIFIED_NOT_TRUSTED",
+    "NO_CONSTITUTION_POLICY_OR_PROMOTION_AUTHORITY_CHANGE"
+  ],
+  "decision": "ACCEPT_CONTINUE",
+  "library_findings": [
+    "LOCAL_CAS_SELECTED_OVER_PATH_ONLY_GIT_LFS_SUBMODULE_AND_CLOUD_DATABASE",
+    "AVAILABILITY_IS_SEPARATE_FROM_SHA256_IDENTITY",
+    "SHARED_SECURITY_SCANNER_REMOVES_VAULT_CONTROL_POLICY_DRIFT",
+    "ACTUAL_OFFICIAL_SOURCE_PACKS_REMAIN_NEXT_TASKS"
+  ],
+  "next_step_allowed": true,
+  "policy_findings": [
+    "REFERENCE_VAULT_EXCLUDED_FROM_GIT_AND_CONTROL",
+    "D6_G1_AND_ACTIVE_POLICY_UNCHANGED",
+    "MCP_SURFACE_UNCHANGED",
+    "NO_CREDENTIAL_ACCESS_OR_CLOUD_WRITE"
+  ],
+  "policy_snapshot_hash": "1888a575abae2ba844f53a005a23c48ed5581722d2a64cf6df40f60bbda66f32",
+  "rationale": "Task 2 stores only prevalidated regular-file bytes under exact SHA-256 addresses, refuses corrupt pre-existing blobs, publishes without overwrite, and independently verifies every retained byte. Vault bytes are excluded from Git and CONTROL, while one shared scanner keeps vault and capsule secret policy consistent.",
+  "receipt_hash": "98c1b631bd55e043d6dd0ff750ad1677a494daa8091283c48759bbcb5cae7677",
+  "relevant_mechanism_ids": [
+    "ATOMIC_NO_OVERWRITE_CAS",
+    "CONTENT_ADDRESS_REVERIFICATION",
+    "EXTERNAL_REFERENCE_VAULT",
+    "SHARED_SECRET_BYTE_SCANNER"
+  ],
+  "required_followup_experiment": "METAENGINE-1-SLICE-3-TASK-3-OFFLINE-CATALOG-BUILDER",
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1"
+}

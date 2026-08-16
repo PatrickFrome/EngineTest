@@ -1,0 +1,82 @@
+{
+  "alternatives_considered": [
+    {
+      "evidence_hashes": [
+        "0f76ddaf3aa763552a3c48f2e7febda2b1b5bba7cb267f5813a19a3bb0f8351e",
+        "e91b56064f318d80565d5434014ea1bef3defcab3316ac2837f33afbe4fe433d"
+      ],
+      "kind": "CURRENT",
+      "summary": "Retain the offline catalog builder, deterministic tracked outputs, and independent verify command."
+    },
+    {
+      "evidence_hashes": [
+        "ca209925ad410e03d94363f3a687b1c2b80dcb4c34f50f4a6a9cfe422cded3ad",
+        "e75da6c4c0d81024fa275400ead4fe38a21c3179e19f8f3a0dae5573b3579393"
+      ],
+      "kind": "LIBRARY",
+      "summary": "Adopt ORAS/OCI registry and full attestation tooling now; deferred until local offline semantics and first-wave bytes are proven."
+    },
+    {
+      "evidence_hashes": [
+        "91d562f32d747356ce06020b4b8d2b0c7e350517e5e216079b77e254ed1543e5",
+        "e91b56064f318d80565d5434014ea1bef3defcab3316ac2837f33afbe4fe433d"
+      ],
+      "kind": "MINIMAL",
+      "summary": "Hand-author source cards and hashes; rejected because order, stale receipts, and cross-file consistency would rely on operator discipline."
+    },
+    {
+      "evidence_hashes": [
+        "0f76ddaf3aa763552a3c48f2e7febda2b1b5bba7cb267f5813a19a3bb0f8351e",
+        "1be40cfb81b8374c0f5e68afe91930ca73b9ab404e8b9d121d5d1ad8aaf343f5",
+        "91d562f32d747356ce06020b4b8d2b0c7e350517e5e216079b77e254ed1543e5"
+      ],
+      "kind": "SYNTHESIS",
+      "summary": "Generate small tracked cards from a pinned catalog and local staging, publish the registry last, and require a fresh byte-verification receipt."
+    }
+  ],
+  "architecture_library_snapshot_hash": "d5b32e0a8b9983cd36faed2cf105ecf3670cf9490578f0d939cbbdf4b1103445",
+  "capability_hypothesis": "A deterministic builder plus fresh verifier can turn exact local source bytes into a portable research database without making a network service authoritative.",
+  "completed_step_commit": "5b64db9c4e7e3d54c012b39ea37939839c3ae505",
+  "completed_step_evidence_hashes": [
+    "0f76ddaf3aa763552a3c48f2e7febda2b1b5bba7cb267f5813a19a3bb0f8351e",
+    "1be40cfb81b8374c0f5e68afe91930ca73b9ab404e8b9d121d5d1ad8aaf343f5",
+    "91d562f32d747356ce06020b4b8d2b0c7e350517e5e216079b77e254ed1543e5",
+    "ca209925ad410e03d94363f3a687b1c2b80dcb4c34f50f4a6a9cfe422cded3ad",
+    "e75da6c4c0d81024fa275400ead4fe38a21c3179e19f8f3a0dae5573b3579393",
+    "e91b56064f318d80565d5434014ea1bef3defcab3316ac2837f33afbe4fe433d"
+  ],
+  "completed_step_id": "METAENGINE-1-SLICE-3-TASK-3",
+  "complexity_delta": "BOUNDED_OFFLINE_CLI_AND_PINNED_TEN_SOURCE_CATALOG",
+  "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+  "constitutional_findings": [
+    "OUTPUT_IDENTITY_IS_ROOT_INDEPENDENT_AND_CONTENT_ADDRESSED",
+    "STALE_PASS_RECEIPTS_FAIL_CLOSED",
+    "NETWORK_RETRIEVAL_REMAINS_OUTSIDE_CORE_AND_VERIFIER",
+    "NO_TRUTH_PROMOTION_OR_A2_A3_ASSIMILATION"
+  ],
+  "decision": "ACCEPT_CONTINUE",
+  "library_findings": [
+    "TEN_REQUIRED_SOURCE_FAMILIES_PINNED_WITH_EXACT_CLASS_AND_CEILING",
+    "MANUAL_CARD_AUTHORING_REJECTED_AS_DRIFT_PRONE",
+    "REMOTE_OCI_ATTESTATION_TOOLING_DEFERRED_UNTIL_LOCAL_PROOF",
+    "ACTUAL_PERMISSIVE_SOURCE_BYTES_ARE_THE_REQUIRED_NEXT_EVIDENCE"
+  ],
+  "next_step_allowed": true,
+  "policy_findings": [
+    "REGISTRY_GENERATION_HAS_NO_CANONICAL_OR_RUNTIME_AUTHORITY",
+    "D6_G1_ACTIVE_POLICY_AND_MCP_SURFACE_UNCHANGED",
+    "REGISTERED_ONLY_RESTRICTED_AND_CLOSED_TARGETS_CANNOT_SUPPLY_SOURCE_DIGESTS",
+    "NO_CREDENTIAL_ACCESS_OR_CLOUD_WRITE"
+  ],
+  "policy_snapshot_hash": "1888a575abae2ba844f53a005a23c48ed5581722d2a64cf6df40f60bbda66f32",
+  "rationale": "Task 3 provides a deterministic, network-free operator adapter that derives records, packs, receipts, mechanism cards, and the registry snapshot from local staging. Two independent roots produce identical output, absolute runtime paths are absent, registry publication occurs last, and a self-consistent but stale PASS receipt is rejected.",
+  "receipt_hash": "085b3ef5025fdea66bb580dcfd7f9ee0a850d7d0e7d2e63d4ba2997a9b23c82f",
+  "relevant_mechanism_ids": [
+    "DETERMINISTIC_OFFLINE_CATALOG_BUILDER",
+    "FRESH_VERIFICATION_RECEIPT_BINDING",
+    "REGISTRY_LAST_PUBLICATION",
+    "ROOT_INDEPENDENT_SOURCE_SNAPSHOT"
+  ],
+  "required_followup_experiment": "METAENGINE-1-SLICE-3-TASK-4-MATERIAL-FIRST-SOURCE-WAVE",
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1"
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/benchmark_packet.schema.json",
+  "title": "Destruktion blind annotation packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["packet_version", "benchmark_id", "manifest_sha256", "packet_id", "assignment_token", "blinding", "codebook", "instructions", "units", "claim_ceiling"],
+  "properties": {
+    "packet_version": {"const": "DAE-BLIND-PACKET-1.0"},
+    "benchmark_id": {"type": "string", "pattern": "^BENCH-[A-F0-9]{16}$"},
+    "manifest_sha256": {"$ref": "#/$defs/sha256"},
+    "packet_id": {"type": "string", "pattern": "^PACKET-[AB]-[A-F0-9]{12}$"},
+    "assignment_token": {"type": "string", "pattern": "^[A-F0-9]{24}$"},
+    "blinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["system_status_removed", "system_confidence_removed", "system_reasons_removed", "predictions_file_disclosed"],
+      "properties": {
+        "system_status_removed": {"const": true},
+        "system_confidence_removed": {"const": true},
+        "system_reasons_removed": {"const": true},
+        "predictions_file_disclosed": {"const": false}
+      }
+    },
+    "codebook": {"type": "object"},
+    "instructions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["independent_source_review", "selector_role", "status_required", "evidence_required"],
+      "properties": {
+        "independent_source_review": {"type": "string", "minLength": 1},
+        "selector_role": {"type": "string", "minLength": 1},
+        "status_required": {"const": true},
+        "evidence_required": {"const": true}
+      }
+    },
+    "units": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "claim_ceiling": {"const": "BLIND_ANNOTATION_MATERIAL_NOT_GOLD_OR_SYSTEM_OUTPUT"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

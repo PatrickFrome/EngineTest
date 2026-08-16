@@ -1,0 +1,45 @@
+{
+  "cycle": "MODULE-MIGRATION-4D-0.1",
+  "core": "CORE 4.0.0-alpha.1",
+  "generic_core_gaps": [],
+  "module_level_findings": [
+    {
+      "id": "MF-4D-01",
+      "finding": "Machenschaft → Gestell is not a synonym chain",
+      "severity": "DIACHRONIC-ARCHITECTURAL",
+      "detail": "Machenschaft is a late-1930s history-of-being interpretation of makeability/objectifiability; Gestell is a later ordering/revealing diagnosis. Their relation is reconstructive and must be bridged, not presumed."
+    },
+    {
+      "id": "MF-4D-02",
+      "finding": "Gestell requires a discrimination burden",
+      "severity": "POSITIVE",
+      "detail": "A totalizing Gestell claim is methodologically weak if every modern technology counts by definition. The module requires concrete ordering signatures and counterdescriptions."
+    },
+    {
+      "id": "MF-4D-03",
+      "finding": "Bestand is contextual resourceization, not simple object identity",
+      "severity": "POSITIVE",
+      "detail": "Availability, substitutability and chained demand can organize an artifact/person as standing-reserve within a system while alternative descriptions/practices remain possible."
+    },
+    {
+      "id": "MF-4D-04",
+      "finding": "Human-standing-reserve language is internally qualified",
+      "severity": "TEXTUAL-TENSION",
+      "detail": "GA7 says the human never becomes merely Bestand; GA79 says the human can be a Bestand-Stück in a distinctive way. The profile preserves the tension rather than flattening it."
+    },
+    {
+      "id": "MF-4D-05",
+      "finding": "Concrete technology requires native design/governance analysis",
+      "severity": "DOMAIN-DEFERENCE",
+      "detail": "Current philosophy of technology treats technology as heterogeneous design/artifact/sociotechnical practice. Multi-criteria design, lifecycle governance and responsibility structures can instantiate some ordering pressures without proving a single total technological essence."
+    },
+    {
+      "id": "MF-4D-06",
+      "finding": "Late technology diagnosis must not erase corrigibility",
+      "severity": "ANTI-TOTALIZATION",
+      "detail": "Contemporary governance and responsibility frameworks show that technical systems can contain review, human oversight and correction channels. These do not refute Heidegger, but force a more discriminating Gestell claim."
+    }
+  ],
+  "verdict": "PASS-WITH-TECHNOLOGY-DISCRIMINATION-FIREWALL",
+  "next_cycle": "MODULE-MIGRATION-4E: Ereignis / Gelassenheit / Thing / Fourfold / Alternative Revealing and Positive Technology Relation"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "destruktion-automation-engine",
+  "version": "0.10.0-alpha.1",
+  "description": "Nonlinear genealogical-constructive analysis with an external audit envelope for Destruktion CORE 4.0",
+  "type": "module",
+  "bin": {
+    "destruktion": "./bin/destruktion.mjs"
+  },
+  "scripts": {
+    "build:fixtures": "node ./scripts/build-repaired-fixtures.mjs",
+    "build:4d": "node ./scripts/build-4d-fixtures.mjs",
+    "build:protocols": "node ./scripts/build-v38-protocol-registry.mjs",
+    "build:ga-catalog": "node ./scripts/build-heidegger-ga-catalog.mjs",
+    "pilot:ga1-work": "node ./scripts/run-heidegger-ga1-work-pilot.mjs",
+    "test": "node --test",
+    "validate:fixtures": "node ./bin/destruktion.mjs validate ./fixtures/4a_repaired",
+    "validate:runs": "node ./bin/destruktion.mjs validate-run ./fixtures/runs/unstable-valid.json",
+    "validate:4d": "node ./bin/destruktion.mjs validate-run-4d ./fixtures/runs4d/epochal-valid.json",
+    "validate:protocols": "node ./bin/destruktion.mjs protocol-run ./fixtures/protocols/claim-discipline-pass.json",
+    "portable:manifest": "node ./scripts/generate-portable-project.mjs",
+    "portable:check": "node ./bin/destruktion.mjs portable-check",
+    "portable": "npm run portable:manifest && npm run portable:check && npm test",
+    "release": "npm run build:fixtures && npm run build:4d && npm run build:protocols && npm run portable:manifest && node ./scripts/generate-release-artifacts.mjs && node ./scripts/augment-release-open-set-0.10.mjs && npm run portable:check",
+    "test:evolution": "node --test ./tests/evolution/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ajv": "8.17.1"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

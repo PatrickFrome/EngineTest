@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "16X Disagreement Map 1.2",
+  "type": "object",
+  "required": [
+    "disagreement_version",
+    "conflict_count",
+    "material_conflict_count",
+    "conflicts",
+    "policy",
+    "map_hash"
+  ],
+  "properties": {
+    "disagreement_version": {
+      "const": "16X-DISAGREEMENT-1.2"
+    },
+    "conflict_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "material_conflict_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "max_tension_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "conflicts": {
+      "type": "array"
+    },
+    "map_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": true
+}

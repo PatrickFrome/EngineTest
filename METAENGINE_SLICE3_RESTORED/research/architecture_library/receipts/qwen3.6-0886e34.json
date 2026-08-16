@@ -1,0 +1,10 @@
+{
+  "findings": [],
+  "pack_root_sha256": "d75ef6264b51e7627c7649b3ff69c95f8f7e0f294c31f295e28b86862d29d4a5",
+  "receipt_sha256": "ed3c8c5772220505958965609043944a27b5ede4473d665b0953c140eba7bf60",
+  "receipt_version": "REFERENCE-VAULT-VERIFICATION-1",
+  "source_id": "qwen3.6-0886e34",
+  "status": "PASS",
+  "verified_blob_count": 2,
+  "verified_total_bytes": 23125
+}

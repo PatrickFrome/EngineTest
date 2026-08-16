@@ -1,0 +1,9 @@
+{
+  "all_worlds_completed": true,
+  "barrier": "CROSS_WORLD_FREEZE_BARRIER",
+  "completed": 1,
+  "elapsed_s": 1.0,
+  "failed": 0,
+  "freeze_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "no_cross_world_read_before_freeze": true
+}

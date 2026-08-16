@@ -1,0 +1,101 @@
+{
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1",
+  "completed_step_id": "METAENGINE-1-SLICE-4",
+  "completed_step_commit": "7f8224a94e7e0ad21d35827f768ce59f8540d85f",
+  "completed_step_evidence_hashes": [
+    "0075560e89b5f88f587d31f1904775f9b1f018804b3cfb9d8e490d22920933dc",
+    "1c9c72dc292a39effc91ce75bb182eee921fa469b2f8135431865ab9fa5ab6aa",
+    "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+    "51da1e538a9bec515f4be6fe82251f77d92434f228d3d062de12f24ef08546a1",
+    "615aada3d8d85cd89b6cdd7ac49ee1be046154d3968d45f5ceb8d267736ab573",
+    "67ef0e5fa83a8f43c299c2d237942bbc00d94a0b157297a635020444ca9c8de8",
+    "cb28fee9d7b6abf86c1105e021c29bd4d9257b6c576ff64cd6497bacf04139ab"
+  ],
+  "constitution_hash": "195e287005995a244c8ec9e817effc8776693a3d58a788d5451218a2dfd3b742",
+  "architecture_library_snapshot_hash": "c82332a080a04daf773fdc2fa91c63da88ddf934260bab173b953170d4a2622d",
+  "policy_snapshot_hash": "9256e6c8208ef4b8dd144011971de97039d0e846476129fd1c1885437ec21662",
+  "relevant_mechanism_ids": [
+    "EVALUATOR_CIRCULARITY_FIX",
+    "EXPERIMENT_CONTRACT_V1",
+    "SPARSE_ROUTING_TOURNAMENT_V1",
+    "sparse-conditional-routing"
+  ],
+  "alternatives_considered": [
+    {
+      "kind": "CURRENT",
+      "summary": "Original Slice-4 evaluator had selector=scorer circularity (affinity used for both routing and scoring); SUPPORTED_LOCAL was tautological.",
+      "evidence_hashes": [
+        "0075560e89b5f88f587d31f1904775f9b1f018804b3cfb9d8e490d22920933dc",
+        "1c9c72dc292a39effc91ce75bb182eee921fa469b2f8135431865ab9fa5ab6aa",
+        "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+        "51da1e538a9bec515f4be6fe82251f77d92434f228d3d062de12f24ef08546a1",
+        "615aada3d8d85cd89b6cdd7ac49ee1be046154d3968d45f5ceb8d267736ab573",
+        "67ef0e5fa83a8f43c299c2d237942bbc00d94a0b157297a635020444ca9c8de8",
+        "cb28fee9d7b6abf86c1105e021c29bd4d9257b6c576ff64cd6497bacf04139ab"
+      ]
+    },
+    {
+      "kind": "LIBRARY",
+      "summary": "Use an external ML evaluation framework; rejected (imports foreign runtime dependency for a small frozen-contract concern).",
+      "evidence_hashes": [
+        "0075560e89b5f88f587d31f1904775f9b1f018804b3cfb9d8e490d22920933dc",
+        "1c9c72dc292a39effc91ce75bb182eee921fa469b2f8135431865ab9fa5ab6aa",
+        "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+        "51da1e538a9bec515f4be6fe82251f77d92434f228d3d062de12f24ef08546a1",
+        "615aada3d8d85cd89b6cdd7ac49ee1be046154d3968d45f5ceb8d267736ab573",
+        "67ef0e5fa83a8f43c299c2d237942bbc00d94a0b157297a635020444ca9c8de8",
+        "cb28fee9d7b6abf86c1105e021c29bd4d9257b6c576ff64cd6497bacf04139ab"
+      ]
+    },
+    {
+      "kind": "MINIMAL",
+      "summary": "Keep affinity scoring but acknowledge it is a sanity check not a causal test; rejected (violates design doc §9 \"MUST NOT embed the desired winner by construction\").",
+      "evidence_hashes": [
+        "0075560e89b5f88f587d31f1904775f9b1f018804b3cfb9d8e490d22920933dc",
+        "1c9c72dc292a39effc91ce75bb182eee921fa469b2f8135431865ab9fa5ab6aa",
+        "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+        "51da1e538a9bec515f4be6fe82251f77d92434f228d3d062de12f24ef08546a1",
+        "615aada3d8d85cd89b6cdd7ac49ee1be046154d3968d45f5ceb8d267736ab573",
+        "67ef0e5fa83a8f43c299c2d237942bbc00d94a0b157297a635020444ca9c8de8",
+        "cb28fee9d7b6abf86c1105e021c29bd4d9257b6c576ff64cd6497bacf04139ab"
+      ]
+    },
+    {
+      "kind": "SYNTHESIS",
+      "summary": "Introduce an independent ground-truth quality matrix per task, frozen in the contract, used ONLY for scoring (not selection). Router still uses affinity; evaluator uses ground-truth. This breaks circularity and makes negative/null result possible. Selected.",
+      "evidence_hashes": [
+        "0075560e89b5f88f587d31f1904775f9b1f018804b3cfb9d8e490d22920933dc",
+        "1c9c72dc292a39effc91ce75bb182eee921fa469b2f8135431865ab9fa5ab6aa",
+        "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+        "51da1e538a9bec515f4be6fe82251f77d92434f228d3d062de12f24ef08546a1",
+        "615aada3d8d85cd89b6cdd7ac49ee1be046154d3968d45f5ceb8d267736ab573",
+        "67ef0e5fa83a8f43c299c2d237942bbc00d94a0b157297a635020444ca9c8de8",
+        "cb28fee9d7b6abf86c1105e021c29bd4d9257b6c576ff64cd6497bacf04139ab"
+      ]
+    }
+  ],
+  "decision": "ACCEPT_WITH_FOLLOWUP_EXPERIMENT",
+  "rationale": "Critical fix: the original Slice-4 evaluator used specialist_affinity for BOTH routing selection AND quality scoring, making SUPPORTED_LOCAL tautological (selector=scorer circularity, violating design doc §9). Fixed by introducing an independent ground-truth quality matrix per task, frozen in the contract, used ONLY for scoring. The router still selects by affinity; the evaluator now scores by ground-truth. Regime B includes adversarial tasks where the affinity-high specialist has LOW ground-truth quality, making CONTEXTUAL/FALSIFIED possible. Re-run result: SUPPORTED_LOCAL, but now with non-zero routing_error_rate (0.167 for capability vs 0.0 before) and a smaller Regime B advantage — a honest result. truth_effect=NONE, assimilation_effect=NONE, mechanism stays A1. Snapshots unchanged.",
+  "complexity_delta": "Added ground_truth field to TaskRequirement (frozen in contract); changed _evaluate_task to score by ground-truth instead of affinity. No new module; 21 tests still pass. Contract hash changed (new field), receipt hash changed (new scoring).",
+  "capability_hypothesis": "An independent ground-truth evaluator breaks the selector=scorer circularity and produces falsifiable evidence: the capability router can now LOSE if its affinity-based selection picks specialists with low ground-truth quality.",
+  "required_followup_experiment": "Heterogeneous transfer test with independently implemented resources. Additionally, design adversarial contracts where the EXPECTED result is FALSIFIED_LOCAL to prove the evaluator can produce negative results.",
+  "constitutional_findings": [
+    "FROZEN_EVALUATION_CONTRACT: the ground-truth matrix is frozen in the experiment contract; a change creates a new experiment identity (new contract hash).",
+    "PRESERVE_ABSTENTION: specialists not in ground_truth default to 0.0 (UNOBSERVED contribution), never fabricated.",
+    "CANONICAL_NOT_SCIENTIFIC_TRUTH: SUPPORTED_LOCAL is a local experiment result with truth_effect=NONE; it does not establish scientific truth.",
+    "NO_NORMAL_KERNEL_SELF_MUTATION: the fix is ordinary evolution (bug fix within Slice 4 followup), not a constitutional amendment."
+  ],
+  "library_findings": [
+    "The evaluator circularity was identified in the critical analysis (Task 25) as the highest-severity finding.",
+    "Design doc §9 explicitly requires the scoring model MUST NOT embed the desired winner by construction; the original affinity-based scoring violated this.",
+    "The fix introduces a ground-truth matrix that is INDEPENDENT of the capability affinity: the router cannot see it, the evaluator uses only it.",
+    "Regime B now includes adversarial tasks (task.code_reason_b: spec.code has CODE affinity 1.0 but ground-truth 0.20) where the capability router makes a routing error."
+  ],
+  "policy_findings": [
+    "Canonical checkpoint/champion/promotion/D6-G1 state unchanged; snapshots unchanged (constitution 1b6311bd, arch_library c82332a0, policy 1888a575).",
+    "The 18-tool chat-facing Federation MCP allowlist is unchanged.",
+    "No mechanism assimilation; mechanism stays A1; truth_effect=NONE."
+  ],
+  "next_step_allowed": true,
+  "receipt_hash": "048f362039f2fb17515555ba0333b3709cb2652701d05800dae24a535478073b"
+}

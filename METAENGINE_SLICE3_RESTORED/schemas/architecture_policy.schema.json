@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metaengine.local/schemas/architecture_policy.schema.json",
+  "title": "MetaEngine 2.3 declarative architecture policy",
+  "type": "object",
+  "required": ["policy_version", "generation", "topology_id", "waves", "dialectic_operators", "guardrail_hash", "status", "policy_hash"],
+  "properties": {
+    "policy_version": {"const": "16X-DECLARATIVE-ARCHITECTURE-POLICY-2.3"},
+    "generation": {"type": "integer", "minimum": 0},
+    "parent_policy_hash": {"type": ["string", "null"]},
+    "topology_id": {"type": "string", "minLength": 1},
+    "waves": {"type": "array", "items": {"type": "array", "items": {"pattern": "^engine_[0-9]{2}$"}}},
+    "dialectic_operators": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "engine_architecture_mix": {"type": "object", "minProperties": 16},
+    "max_rounds": {"type": "integer", "minimum": 1, "maximum": 8},
+    "max_deep_engines": {"type": "integer", "minimum": 1, "maximum": 16},
+    "exploration_rate": {"type": "number", "minimum": 0, "maximum": 0.3},
+    "guardrail_hash": {"type": "string", "minLength": 64, "maxLength": 64},
+    "status": {"enum": ["DRAFT", "SHADOW", "ELIGIBLE", "CANARY", "ACTIVE", "QUARANTINED", "ROLLED_BACK", "RETIRED"]},
+    "self_modifying_code_allowed": {"const": false},
+    "truth_effect": {"const": "NONE"},
+    "policy_hash": {"type": "string", "minLength": 64, "maxLength": 64}
+  },
+  "additionalProperties": true
+}

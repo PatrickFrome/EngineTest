@@ -1,0 +1,301 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Destruktion: Studio",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Doctor",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "doctor"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Setup",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "setup"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Portable check",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "core",
+        "portable-check"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Tests",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "test"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Snapshot",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "snapshot",
+        "${input:snapshotLabel}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: New experiment",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "experiment:new",
+        "${input:experimentName}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: New operator delta",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "delta:new",
+        "${input:deltaName}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Gate operator delta",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "delta:gate",
+        "${input:deltaPath}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Promote operator candidate",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "delta:promote",
+        "${input:gateDir}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Mutant living cycle",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "run:living-mutant",
+        "${input:refineryPath}",
+        "--registry",
+        "${input:registryPath}",
+        "--seed",
+        "${input:seed}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Living declarative",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "run:living-declarative",
+        "${input:refineryPath}",
+        "--seed",
+        "${input:seed}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Mutant declarative living",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "run:living-mutant-declarative",
+        "${input:refineryPath}",
+        "--registry",
+        "${input:registryPath}",
+        "--seed",
+        "${input:seed}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: A/B/C living comparison",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "compare:living",
+        "${input:refineryPath}",
+        "--registry",
+        "${input:registryPath}",
+        "--seed",
+        "${input:seed}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Studio runtime tests",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "--test",
+        "tests/studio/*.test.mjs"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Full DOCX cycle",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "cycle:docx",
+        "${input:docxPath}",
+        "--job",
+        "${input:jobPath}",
+        "--seed",
+        "${input:seed}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Discover resistance fixture",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "discover:resistance",
+        "fixtures/discovery/recurring-rival-routing"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: Discovery history",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "discover:history"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: External validation init",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "validation:init",
+        "${input:benchmarkDir}",
+        "--out",
+        "${input:validationCampaignDir}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Destruktion: External validation status",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "studio/studio.mjs",
+        "validation:status",
+        "${input:validationCampaignDir}"
+      ],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "snapshotLabel",
+      "type": "promptString",
+      "description": "Snapshot label",
+      "default": "manual"
+    },
+    {
+      "id": "experimentName",
+      "type": "promptString",
+      "description": "Experiment name"
+    },
+    {
+      "id": "deltaName",
+      "type": "promptString",
+      "description": "Operator-delta name"
+    },
+    {
+      "id": "docxPath",
+      "type": "promptString",
+      "description": "Path to DOCX"
+    },
+    {
+      "id": "jobPath",
+      "type": "promptString",
+      "description": "Path to docx job JSON"
+    },
+    {
+      "id": "seed",
+      "type": "promptString",
+      "description": "Living-cycle seed",
+      "default": "research-route-a"
+    },
+    {
+      "id": "deltaPath",
+      "type": "promptString",
+      "description": "Path to operator_delta.json"
+    },
+    {
+      "id": "gateDir",
+      "type": "promptString",
+      "description": "Path to mutation gate output directory"
+    },
+    {
+      "id": "refineryPath",
+      "type": "promptString",
+      "description": "Path to refinery directory"
+    },
+    {
+      "id": "registryPath",
+      "type": "promptString",
+      "description": "Path to accepted living_operator_registry.json"
+    },
+    {
+      "id": "benchmarkDir",
+      "type": "promptString",
+      "description": "Path to CORE benchmark directory"
+    },
+    {
+      "id": "validationCampaignDir",
+      "type": "promptString",
+      "description": "Path to external validation campaign directory"
+    }
+  ]
+}

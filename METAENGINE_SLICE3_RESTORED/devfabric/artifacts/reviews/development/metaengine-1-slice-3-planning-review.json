@@ -1,0 +1,78 @@
+{
+  "alternatives_considered": [
+    {
+      "evidence_hashes": [
+        "8c66058026cdea4e964453f5648f62ab3591a914ab31b694880ca8e81c652190",
+        "8e000a6bf0945f0ef4527a6e6d6eb80b1a4308190b95584a41bae63cdb2dcb17"
+      ],
+      "kind": "CURRENT",
+      "summary": "Implement the approved tracked registry plus external content-addressed vault design."
+    },
+    {
+      "evidence_hashes": [
+        "1a5aaddba68fe5dcc112066ee136846b1fd77d99b233b88ebdb4c96a37db91b7",
+        "8c66058026cdea4e964453f5648f62ab3591a914ab31b694880ca8e81c652190"
+      ],
+      "kind": "LIBRARY",
+      "summary": "Vendor repositories or place source blobs in a canonical cloud database; rejected for runtime, license, authority, and portability coupling."
+    },
+    {
+      "evidence_hashes": [
+        "8c66058026cdea4e964453f5648f62ab3591a914ab31b694880ca8e81c652190"
+      ],
+      "kind": "MINIMAL",
+      "summary": "Keep mutable research links and prose notes only; rejected because retained bytes and claims would not be independently reproducible."
+    },
+    {
+      "evidence_hashes": [
+        "8c66058026cdea4e964453f5648f62ab3591a914ab31b694880ca8e81c652190",
+        "95d7f2d18bf1cb047988825eccfb6766c94042d458801b87f1ccddbc1d0c5c95"
+      ],
+      "kind": "SYNTHESIS",
+      "summary": "Use OCI-like exact-byte descriptors, SPDX license identity, tracked metadata, and a local external CAS without claiming standards conformance."
+    }
+  ],
+  "architecture_library_snapshot_hash": "d5b32e0a8b9983cd36faed2cf105ecf3670cf9490578f0d939cbbdf4b1103445",
+  "capability_hypothesis": "A tracked source registry plus external CAS can make architecture research independently reproducible without importing foreign runtime authority into Core.",
+  "completed_step_commit": "93cad9cc9ea7539306a9c190415313df70e73979",
+  "completed_step_evidence_hashes": [
+    "1a5aaddba68fe5dcc112066ee136846b1fd77d99b233b88ebdb4c96a37db91b7",
+    "8c66058026cdea4e964453f5648f62ab3591a914ab31b694880ca8e81c652190",
+    "8e000a6bf0945f0ef4527a6e6d6eb80b1a4308190b95584a41bae63cdb2dcb17",
+    "95d7f2d18bf1cb047988825eccfb6766c94042d458801b87f1ccddbc1d0c5c95"
+  ],
+  "completed_step_id": "METAENGINE-1-SLICE-3-PLANNING",
+  "complexity_delta": "DOCUMENTATION_ONLY_BOUNDED_DESIGN_AND_TDD_PLAN",
+  "constitution_hash": "bbcdd652e97d2ab4136f00d655baf458eaeb1182cc30adacd07568095e40f28a",
+  "constitutional_findings": [
+    "NO_K0_OR_K1_AUTHORITY_CHANGE",
+    "FOREIGN_BYTES_REMAIN_INERT_AND_EXTERNAL_TO_CORE",
+    "LICENSE_PATH_HASH_AND_PROVENANCE_FAILURES_FAIL_CLOSED",
+    "INGESTION_CONFERS_NO_TRUTH_OR_PROMOTION_AUTHORITY"
+  ],
+  "decision": "ACCEPT_CONTINUE",
+  "library_findings": [
+    "EXTERNAL_CAS_SELECTED_OVER_VENDORING_AND_CANONICAL_CLOUD_STORAGE",
+    "OCI_SPDX_IN_TOTO_AND_SLSA_USED_AS_PATTERNS_WITHOUT_FALSE_CONFORMANCE",
+    "MECHANISM_STATUS_CEILING_IS_A0_A1_FOR_SLICE_3",
+    "FIRST_WAVE_REQUIRES_MATERIAL_BYTES_FOR_FIVE_PERMISSIVE_SOURCES"
+  ],
+  "next_step_allowed": true,
+  "policy_findings": [
+    "ACTIVE_AND_CHAMPION_POLICY_UNCHANGED",
+    "D6_G1_SHADOW_ADAPTATION_UNCHANGED",
+    "FEDERATION_MCP_SURFACE_REMAINS_18_TOOLS",
+    "NO_CANONICAL_CLOUD_WRITE_OR_CREDENTIAL_ACCESS_REQUIRED"
+  ],
+  "policy_snapshot_hash": "1888a575abae2ba844f53a005a23c48ed5581722d2a64cf6df40f60bbda66f32",
+  "rationale": "The planning checkpoint translates the already approved Slice 3 direction into a bounded, test-first, provider-neutral implementation. It adds no runtime dependency, cloud authority, promotion path, MCP surface, or D6-G1 mutation. Exact revision, license, byte identity, and A0/A1 ceilings fail closed.",
+  "receipt_hash": "93c376fe9c8a7d82055f913c19a9425e2ae6f0433705f3b3a3dffe45a0ba2e18",
+  "relevant_mechanism_ids": [
+    "CONTENT_ADDRESSED_SOURCE_REGISTRY",
+    "EPISTEMIC_SOURCE_CEILING",
+    "EXTERNAL_REFERENCE_VAULT",
+    "IMMUTABLE_REVISION_BINDING"
+  ],
+  "required_followup_experiment": "METAENGINE-1-SLICE-3-TASK-1-SOURCE-DOMAIN-CONTRACT",
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1"
+}

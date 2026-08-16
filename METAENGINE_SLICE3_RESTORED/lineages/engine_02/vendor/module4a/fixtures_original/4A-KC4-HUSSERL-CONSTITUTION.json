@@ -1,0 +1,104 @@
+{
+  "record_id": "4A-KC4-HUSSERL-CONSTITUTION",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "Husserl SEP 2025",
+      "Cartesian Meditations §§22–23,33,47,55 via 2.23"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + KC4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "PRACTICE",
+    "description": "Intentional and synthetic processes present an object across multiple modes of givenness.",
+    "role": [
+      "constituting-synthesis"
+    ],
+    "object_type": "intentional_synthesis"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "STATE",
+    "description": "The object is held as one and the same intentional object with a stable constituted sense across those givennesses.",
+    "role": [
+      "constituted-objectivity"
+    ],
+    "status": [
+      {
+        "label": "identity-as-intended",
+        "domain": "phenomenology"
+      }
+    ],
+    "object_type": "intentional_object"
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT07"
+    },
+    "bridge": {
+      "status": "EXPLICIT",
+      "statement": "Synthetic identification constitutes the object as one and the same for the relevant intentional horizon; this does not by itself amount to causal production of the object's existence."
+    },
+    "promotion_flags": [
+      "ROLE_STATUS"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "Husserlian phenomenology",
+    "native_method": "intentional/constitutive analysis",
+    "activated_operators": [
+      "O3",
+      "O4",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "UNDERDETERMINATION"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY"
+    ],
+    "rtr": "MEDIUM",
+    "cost_note": "Constitution layer is profiled, not globalized."
+  },
+  "rivals": [
+    {
+      "description": "Constitution is read primarily as meaning/objectivity constitution rather than ontic production."
+    }
+  ],
+  "extensions": {
+    "kc4": {
+      "module_id": "KC4",
+      "version": "0.1",
+      "constituted_layer": "IDENTITY_AS_INTENDED",
+      "bearer": [
+        "intentional synthesis",
+        "horizon of possible givenness"
+      ],
+      "dependence_type": [
+        "SEMANTIC",
+        "IDENTITY",
+        "EPISTEMIC"
+      ],
+      "modality": "CONSTITUTIVE",
+      "alternative_access": "Perceptual misidentification shows that synthesis and numerical identity can diverge.",
+      "correction_source": [
+        "further perception",
+        "intersubjective correction",
+        "contradiction"
+      ],
+      "production_test": "STATUS_OR_SENSE_DISAPPEARS",
+      "revision_trigger": "Evidence that the phenomenological dependence is also an ontic production relation."
+    }
+  },
+  "outcome": "QUALIFY"
+}

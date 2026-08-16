@@ -1,0 +1,1 @@
+The meaning of the concept changed across early, middle, and late stages. Earlier interpretations should remain retrievable instead of being overwritten. Build a concept biography, compare historical transitions, preserve discarded hypotheses, and identify when a later reading retroactively distorts an earlier one.

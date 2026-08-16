@@ -1,0 +1,21 @@
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+.worktrees/
+devfabric/state/*
+!devfabric/state/.gitkeep
+devfabric/artifacts/candidates/*
+devfabric/artifacts/reports/runtime/*
+dist/
+.env
+.env.*
+!.env.example
+
+# Stage D Cloudflare local/runtime state
+devfabric/cloudflare/node_modules/
+devfabric/cloudflare/.wrangler/
+devfabric/cloudflare/.dev.vars
+devfabric/cloudflare/.dev.vars.*
+!devfabric/cloudflare/.dev.vars.example

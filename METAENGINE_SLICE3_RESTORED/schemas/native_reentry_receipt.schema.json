@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Native Reentry Receipt 2.0",
+  "type": "object",
+  "required": [
+    "receipt_version",
+    "engine_id",
+    "round",
+    "compiled_mode",
+    "adapter_status",
+    "transformations",
+    "source_reground_required",
+    "truth_promotion_allowed",
+    "elapsed_seconds",
+    "parallel_native_and_specialized",
+    "claim_ceiling",
+    "receipt_hash"
+  ],
+  "properties": {
+    "receipt_version": {
+      "const": "16X-NATIVE-REENTRY-RECEIPT-2.0"
+    },
+    "engine_id": {
+      "type": "string",
+      "pattern": "^engine_(0[1-9]|1[0-6])$"
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4
+    },
+    "compiled_mode": {
+      "type": "string"
+    },
+    "adapter_status": {
+      "type": "string"
+    },
+    "specialized_native": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "transformations": {
+      "type": "array",
+      "minItems": 1
+    },
+    "source_reground_required": {
+      "const": true
+    },
+    "truth_promotion_allowed": {
+      "const": false
+    },
+    "elapsed_seconds": {
+      "type": "number",
+      "minimum": 0
+    },
+    "parallel_native_and_specialized": {
+      "type": "boolean"
+    },
+    "claim_ceiling": {
+      "type": "string"
+    },
+    "receipt_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": false
+}

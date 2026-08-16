@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/module/to4-0.1.json",
+  "title": "TO4-0.1 Technical-Organizational Ordering Profile",
+  "type": "object",
+  "required": [
+    "module_id",
+    "version",
+    "system",
+    "design_or_operation_mode",
+    "goals_functions",
+    "ordering_dimensions",
+    "human_roles",
+    "governance",
+    "control_responsibility",
+    "value_status",
+    "corrigibility",
+    "heideggerian_fit",
+    "revision_trigger"
+  ],
+  "properties": {
+    "module_id": {
+      "const": "TO4"
+    },
+    "version": {
+      "const": "0.1"
+    },
+    "system": {
+      "type": "string",
+      "minLength": 1
+    },
+    "design_or_operation_mode": {
+      "enum": [
+        "DESIGN",
+        "OPERATION",
+        "INFRASTRUCTURE",
+        "AI_SYSTEM",
+        "SCIENTIFIC_TECHNOLOGY",
+        "ORGANIZATIONAL_SYSTEM",
+        "OTHER",
+        "UNRESOLVED"
+      ]
+    },
+    "goals_functions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "ordering_dimensions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "CALCULATION",
+          "OPTIMIZATION",
+          "STANDARDIZATION",
+          "SCALING",
+          "RESOURCE_ALLOCATION",
+          "MONITORING",
+          "PREDICTION",
+          "AUTOMATION",
+          "CONTROL",
+          "LIFECYCLE_MANAGEMENT",
+          "PERSONALIZATION",
+          "OTHER"
+        ]
+      }
+    },
+    "criteria_tradeoffs": {
+      "type": "string"
+    },
+    "human_roles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "governance": {
+      "type": "string",
+      "minLength": 1
+    },
+    "control_responsibility": {
+      "type": "string",
+      "minLength": 1
+    },
+    "value_status": {
+      "enum": [
+        "VALUE_NEUTRAL_CLAIM",
+        "VALUE_LADEN_FUNCTIONAL",
+        "VALUE_SENSITIVE_DESIGN",
+        "CONTESTED",
+        "UNRESOLVED"
+      ]
+    },
+    "corrigibility": {
+      "type": "string",
+      "minLength": 1
+    },
+    "material_environmental_dependency": {
+      "type": "string"
+    },
+    "heideggerian_fit": {
+      "enum": [
+        "NO_FIT",
+        "PARTIAL_FIT",
+        "STRONG_FIT",
+        "TOTALIZING_FIT_UNJUSTIFIED",
+        "UNRESOLVED"
+      ]
+    },
+    "native_method": {
+      "type": "string"
+    },
+    "revision_trigger": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

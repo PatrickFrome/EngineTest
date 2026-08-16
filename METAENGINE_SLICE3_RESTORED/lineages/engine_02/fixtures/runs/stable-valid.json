@@ -1,0 +1,29 @@
+{
+  "run_id": "4A-DEMO-STABLE-VALID",
+  "engine_version": "0.2.3-alpha.1",
+  "core_version": "CORE 4.0.0-alpha.1",
+  "description": "Valid short branch: constitution preserves already stabilized relata.",
+  "execution": [
+    {
+      "step": 1,
+      "record_id": "demo-em4",
+      "module_id": "EM4",
+      "relata_stability_before": "NOT_APPLICABLE",
+      "relata_stability_after": "NOT_APPLICABLE"
+    },
+    {
+      "step": 2,
+      "record_id": "demo-kc4",
+      "module_id": "KC4",
+      "relata_stability_before": "NOT_APPLICABLE",
+      "relata_stability_after": "STABLE"
+    },
+    {
+      "step": 3,
+      "record_id": "demo-id4",
+      "module_id": "ID4",
+      "relata_stability_before": "STABLE",
+      "relata_stability_after": "STABLE"
+    }
+  ]
+}

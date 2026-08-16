@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/module/em4-0.1.json",
+  "title": "EM4-0.1 Enablement Profile",
+  "type": "object",
+  "required": [
+    "module_id",
+    "version",
+    "enablement_type",
+    "modality",
+    "index",
+    "promotion_ceiling",
+    "revision_trigger"
+  ],
+  "properties": {
+    "module_id": {
+      "const": "EM4"
+    },
+    "version": {
+      "const": "0.1"
+    },
+    "enablement_type": {
+      "enum": [
+        "LOGICAL",
+        "NOMOLOGICAL",
+        "CAUSAL",
+        "PRACTICAL",
+        "EXISTENTIAL",
+        "TRANSCENDENTAL",
+        "CONSTITUTIVE",
+        "OTHER",
+        "UNRESOLVED"
+      ]
+    },
+    "modality": {
+      "enum": [
+        "NECESSARY",
+        "SUFFICIENT",
+        "NECESSARY_NOT_SUFFICIENT",
+        "FACILITATING",
+        "CONSTITUTIVE",
+        "UNRESOLVED"
+      ]
+    },
+    "index": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_basis": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "TXT",
+          "HIST",
+          "EMP",
+          "FORM",
+          "PHEN",
+          "RECONSTRUCTION",
+          "OTHER"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "alternative_access": {
+      "type": "string"
+    },
+    "promotion_ceiling": {
+      "enum": [
+        "ACCESS",
+        "OBJECT_AS_ACCESSIBLE",
+        "OBJECTIVITY",
+        "MODE_OF_BEING",
+        "ONTOLOGY",
+        "UNRESOLVED"
+      ]
+    },
+    "revision_trigger": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

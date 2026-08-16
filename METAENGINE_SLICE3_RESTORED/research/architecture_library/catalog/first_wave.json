@@ -1,0 +1,621 @@
+{
+  "catalog_version": "ARCHITECTURE-SOURCE-CATALOG-1",
+  "sources": [
+    {
+      "source_id": "deepseek-v3.2-exp-87e509a",
+      "publisher": "DeepSeek AI",
+      "system_name": "DeepSeek-V3.2-Exp",
+      "version": "87e509a",
+      "source_class": "PERMISSIVE_CODE",
+      "ingestion_status": "INGESTED",
+      "official_source_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/87e509a2e5a100d221c97df52c6e8be7835f0057",
+      "exact_commit_or_release": "87e509a2e5a100d221c97df52c6e8be7835f0057",
+      "retrieved_at": "2026-08-13T20:00:00Z",
+      "license_name": "MIT License",
+      "license_expression": "MIT",
+      "license_evidence_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/87e509a2e5a100d221c97df52c6e8be7835f0057/LICENSE",
+      "license_relative_path": "LICENSE",
+      "allowed_use": [
+        "ANALYSIS",
+        "CLEAN_ROOM_REIMPLEMENTATION",
+        "REFERENCE"
+      ],
+      "forbidden_use": [
+        "AUTOMATIC_PROMOTION",
+        "AUTOMATIC_RUNTIME_DEPENDENCY"
+      ],
+      "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+      "architecture_claims": [
+        {
+          "claim_id": "deepseek-sparse-attention-publisher-claim",
+          "kind": "PUBLISHER_CLAIM",
+          "statement": "The official repository describes DeepSeek Sparse Attention as a fine-grained sparse-attention approach for long-context efficiency.",
+          "evidence_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/87e509a2e5a100d221c97df52c6e8be7835f0057/README.md"
+        },
+        {
+          "claim_id": "deepseek-reference-code-retained",
+          "kind": "SOURCE_FACT",
+          "statement": "The retained pack contains the official license, README, and selected inference model reference code from the pinned revision.",
+          "evidence_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/87e509a2e5a100d221c97df52c6e8be7835f0057/inference/model.py"
+        }
+      ],
+      "mechanism_candidates": [
+        {
+          "mechanism_id": "sparse-evidence-attention",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Select a bounded evidence subset before applying expensive full-resolution attention.",
+          "source_fact_boundary": "The public repository documents and exposes reference code for a sparse-attention design; causal transfer to MetaEngine is untested.",
+          "hypothesized_effect": "Reduce long-context compute while preserving task-relevant evidence.",
+          "falsification_test": "Compare dense and sparse evidence selection under equal quality and compute budgets across at least two context regimes."
+        }
+      ],
+      "blockers": [],
+      "files": [
+        {
+          "staged_path": "LICENSE",
+          "relative_path": "LICENSE",
+          "media_type": "text/plain",
+          "git_blob_id": "5c48bdc9f6ef95f725096ff5434012da927b516f",
+          "source_revision": "87e509a2e5a100d221c97df52c6e8be7835f0057"
+        },
+        {
+          "staged_path": "README.md",
+          "relative_path": "README.md",
+          "media_type": "text/markdown",
+          "git_blob_id": "a281b2a2d4e6f1905e95954d86ea75a156c88d65",
+          "source_revision": "87e509a2e5a100d221c97df52c6e8be7835f0057"
+        },
+        {
+          "staged_path": "inference/model.py",
+          "relative_path": "inference/model.py",
+          "media_type": "text/x-python",
+          "git_blob_id": "666a3bf24da8a07aa66b139c966a6c3c4d86b125",
+          "source_revision": "87e509a2e5a100d221c97df52c6e8be7835f0057"
+        }
+      ]
+    },
+    {
+      "source_id": "qwen3.6-0886e34",
+      "publisher": "Qwen Team",
+      "system_name": "Qwen3.6",
+      "version": "0886e34",
+      "source_class": "PERMISSIVE_CODE",
+      "ingestion_status": "INGESTED",
+      "official_source_locator": "https://github.com/QwenLM/Qwen3.6/tree/0886e34d2d6947e631b8338088a1293862243300",
+      "exact_commit_or_release": "0886e34d2d6947e631b8338088a1293862243300",
+      "retrieved_at": "2026-08-13T20:00:00Z",
+      "license_name": "Apache License 2.0",
+      "license_expression": "Apache-2.0",
+      "license_evidence_locator": "https://github.com/QwenLM/Qwen3.6/blob/0886e34d2d6947e631b8338088a1293862243300/LICENSE",
+      "license_relative_path": "LICENSE",
+      "allowed_use": [
+        "ANALYSIS",
+        "CLEAN_ROOM_REIMPLEMENTATION",
+        "REFERENCE"
+      ],
+      "forbidden_use": [
+        "AUTOMATIC_PROMOTION",
+        "AUTOMATIC_RUNTIME_DEPENDENCY"
+      ],
+      "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+      "architecture_claims": [
+        {
+          "claim_id": "qwen-hybrid-architecture-publisher-claim",
+          "kind": "PUBLISHER_CLAIM",
+          "statement": "The official README describes a hybrid architecture lineage using gated delta networks, attention, and sparse mixture-of-experts components.",
+          "evidence_locator": "https://github.com/QwenLM/Qwen3.6/blob/0886e34d2d6947e631b8338088a1293862243300/README.md"
+        },
+        {
+          "claim_id": "qwen-documentation-only-retained-scope",
+          "kind": "SOURCE_FACT",
+          "statement": "The retained pack contains official license and README bytes; it does not claim to contain the model implementation.",
+          "evidence_locator": "https://github.com/QwenLM/Qwen3.6/tree/0886e34d2d6947e631b8338088a1293862243300"
+        }
+      ],
+      "mechanism_candidates": [
+        {
+          "mechanism_id": "hybrid-compressed-state-full-attention",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Interleave bounded-state sequence processing with periodic full-attention operations.",
+          "source_fact_boundary": "The official README describes a hybrid lineage; no causal MetaEngine implementation or ablation exists.",
+          "hypothesized_effect": "Preserve global correction while reducing average context-processing cost.",
+          "falsification_test": "Ablate the bounded-state and full-attention paths independently under equal resource budgets."
+        }
+      ],
+      "blockers": [
+        "OFFICIAL_REPOSITORY_PACK_RETAINS_DOCUMENTATION_NOT_MODEL_IMPLEMENTATION"
+      ],
+      "files": [
+        {
+          "staged_path": "LICENSE",
+          "relative_path": "LICENSE",
+          "media_type": "text/plain",
+          "git_blob_id": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "source_revision": "0886e34d2d6947e631b8338088a1293862243300"
+        },
+        {
+          "staged_path": "README.md",
+          "relative_path": "README.md",
+          "media_type": "text/markdown",
+          "git_blob_id": "7d09becbf7ccfb3db2368548592d010f5da708d3",
+          "source_revision": "0886e34d2d6947e631b8338088a1293862243300"
+        }
+      ]
+    },
+    {
+      "source_id": "kimi-linear-8c1d85e",
+      "publisher": "Moonshot AI",
+      "system_name": "Kimi-Linear",
+      "version": "8c1d85e",
+      "source_class": "PERMISSIVE_CODE",
+      "ingestion_status": "INGESTED",
+      "official_source_locator": "https://github.com/MoonshotAI/Kimi-Linear/tree/8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3",
+      "exact_commit_or_release": "8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3",
+      "retrieved_at": "2026-08-13T20:00:00Z",
+      "license_name": "MIT License",
+      "license_expression": "MIT",
+      "license_evidence_locator": "https://github.com/MoonshotAI/Kimi-Linear/blob/8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3/LICENSE",
+      "license_relative_path": "LICENSE",
+      "allowed_use": [
+        "ANALYSIS",
+        "CLEAN_ROOM_REIMPLEMENTATION",
+        "REFERENCE"
+      ],
+      "forbidden_use": [
+        "AUTOMATIC_PROMOTION",
+        "AUTOMATIC_RUNTIME_DEPENDENCY"
+      ],
+      "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+      "architecture_claims": [
+        {
+          "claim_id": "kimi-linear-kda-publisher-claim",
+          "kind": "PUBLISHER_CLAIM",
+          "statement": "The official README describes Kimi Delta Attention and a hybrid organization of KDA and global MLA layers.",
+          "evidence_locator": "https://github.com/MoonshotAI/Kimi-Linear/blob/8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3/README.md"
+        },
+        {
+          "claim_id": "kimi-linear-documentation-retained",
+          "kind": "SOURCE_FACT",
+          "statement": "The retained pack contains official license and README bytes; external kernel implementations are not silently attributed to this source.",
+          "evidence_locator": "https://github.com/MoonshotAI/Kimi-Linear/tree/8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3"
+        }
+      ],
+      "mechanism_candidates": [
+        {
+          "mechanism_id": "hybrid-compressed-state-full-attention",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Combine a compressed recurrent or delta state path with periodic global attention.",
+          "source_fact_boundary": "The official source describes KDA/global-MLA organization; independent MetaEngine transfer is untested.",
+          "hypothesized_effect": "Lower long-context state cost without losing global error correction.",
+          "falsification_test": "Compare compressed-only, attention-only, and hybrid variants under equal memory and quality targets."
+        },
+        {
+          "mechanism_id": "latent-context-compression",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Maintain a bounded latent state that summarizes prior context for later computation.",
+          "source_fact_boundary": "The public source motivates reduced state/KV requirements; the responsible causal mechanism remains a hypothesis.",
+          "hypothesized_effect": "Reduce retained context state while preserving answer-relevant information.",
+          "falsification_test": "Measure retrieval loss and task quality as latent-state capacity is ablated."
+        }
+      ],
+      "blockers": [
+        "TECHNICAL_REPORT_PDF_DEFERRED_FROM_RETAINED_PACK",
+        "EXTERNAL_KERNEL_REPOSITORY_REQUIRES_SEPARATE_SOURCE_RECORD"
+      ],
+      "files": [
+        {
+          "staged_path": "LICENSE",
+          "relative_path": "LICENSE",
+          "media_type": "text/plain",
+          "git_blob_id": "27ed4ed26dbc5c630df7b7cbcb097b90330520c5",
+          "source_revision": "8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3"
+        },
+        {
+          "staged_path": "README.md",
+          "relative_path": "README.md",
+          "media_type": "text/markdown",
+          "git_blob_id": "188288206fb333490b032d80df460033bf88c885",
+          "source_revision": "8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3"
+        }
+      ]
+    },
+    {
+      "source_id": "mistral-inference-9eaeb91",
+      "publisher": "Mistral AI",
+      "system_name": "mistral-inference",
+      "version": "9eaeb91",
+      "source_class": "PERMISSIVE_CODE",
+      "ingestion_status": "INGESTED",
+      "official_source_locator": "https://github.com/mistralai/mistral-inference/tree/9eaeb91c17450e09021b6065a1d5cc69876507c8",
+      "exact_commit_or_release": "9eaeb91c17450e09021b6065a1d5cc69876507c8",
+      "retrieved_at": "2026-08-13T20:00:00Z",
+      "license_name": "Apache License 2.0",
+      "license_expression": "Apache-2.0",
+      "license_evidence_locator": "https://github.com/mistralai/mistral-inference/blob/9eaeb91c17450e09021b6065a1d5cc69876507c8/LICENSE",
+      "license_relative_path": "LICENSE",
+      "allowed_use": [
+        "ANALYSIS",
+        "CLEAN_ROOM_REIMPLEMENTATION",
+        "REFERENCE"
+      ],
+      "forbidden_use": [
+        "AUTOMATIC_PROMOTION",
+        "AUTOMATIC_RUNTIME_DEPENDENCY"
+      ],
+      "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+      "architecture_claims": [
+        {
+          "claim_id": "mistral-reference-implementation-retained",
+          "kind": "SOURCE_FACT",
+          "statement": "The retained pack contains official license, README, transformer, and mixture-of-experts reference code from the pinned revision.",
+          "evidence_locator": "https://github.com/mistralai/mistral-inference/tree/9eaeb91c17450e09021b6065a1d5cc69876507c8/src/mistral_inference"
+        },
+        {
+          "claim_id": "mistral-repository-archived",
+          "kind": "SOURCE_FACT",
+          "statement": "The official repository is archived; the exact retained revision remains immutable reference evidence rather than an active dependency.",
+          "evidence_locator": "https://github.com/mistralai/mistral-inference/tree/9eaeb91c17450e09021b6065a1d5cc69876507c8"
+        }
+      ],
+      "mechanism_candidates": [
+        {
+          "mechanism_id": "sparse-conditional-routing",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Route each input to a bounded subset of specialist computations selected by an explicit router.",
+          "source_fact_boundary": "The retained official reference code includes mixture-of-experts organization; MetaEngine causal transfer is untested.",
+          "hypothesized_effect": "Increase specialist capacity without activating every specialist for every request.",
+          "falsification_test": "Ablate routing, expert count, and dense baselines under equal compute and complexity budgets."
+        }
+      ],
+      "blockers": [
+        "UPSTREAM_REPOSITORY_ARCHIVED"
+      ],
+      "files": [
+        {
+          "staged_path": "LICENSE",
+          "relative_path": "LICENSE",
+          "media_type": "text/plain",
+          "git_blob_id": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "source_revision": "9eaeb91c17450e09021b6065a1d5cc69876507c8"
+        },
+        {
+          "staged_path": "README.md",
+          "relative_path": "README.md",
+          "media_type": "text/markdown",
+          "git_blob_id": "9c25e2c21f263177227bfdad41754147ba001229",
+          "source_revision": "9eaeb91c17450e09021b6065a1d5cc69876507c8"
+        },
+        {
+          "staged_path": "src/mistral_inference/transformer.py",
+          "relative_path": "src/mistral_inference/transformer.py",
+          "media_type": "text/x-python",
+          "git_blob_id": "09e9cab6ab4b0749bad81b04ea492da6dfc31fe3",
+          "source_revision": "9eaeb91c17450e09021b6065a1d5cc69876507c8"
+        },
+        {
+          "staged_path": "src/mistral_inference/moe.py",
+          "relative_path": "src/mistral_inference/moe.py",
+          "media_type": "text/x-python",
+          "git_blob_id": "9ce8a8a9c62e9a8edff797c0262b393c30ea38e7",
+          "source_revision": "9eaeb91c17450e09021b6065a1d5cc69876507c8"
+        }
+      ]
+    },
+    {
+      "source_id": "glm-4.5-170f20b",
+      "publisher": "Z.ai",
+      "system_name": "GLM-4.5",
+      "version": "170f20b",
+      "source_class": "PERMISSIVE_CODE",
+      "ingestion_status": "INGESTED",
+      "official_source_locator": "https://github.com/zai-org/GLM-4.5/tree/170f20b2c10659008fdbc909d478bc2a75bc3627",
+      "exact_commit_or_release": "170f20b2c10659008fdbc909d478bc2a75bc3627",
+      "retrieved_at": "2026-08-13T20:00:00Z",
+      "license_name": "MIT License",
+      "license_expression": "MIT",
+      "license_evidence_locator": "https://github.com/zai-org/GLM-4.5/blob/170f20b2c10659008fdbc909d478bc2a75bc3627/LICENSE",
+      "license_relative_path": "LICENSE",
+      "allowed_use": [
+        "ANALYSIS",
+        "CLEAN_ROOM_REIMPLEMENTATION",
+        "REFERENCE"
+      ],
+      "forbidden_use": [
+        "AUTOMATIC_PROMOTION",
+        "AUTOMATIC_RUNTIME_DEPENDENCY"
+      ],
+      "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+      "architecture_claims": [
+        {
+          "claim_id": "glm-hybrid-reasoning-mode-publisher-claim",
+          "kind": "PUBLISHER_CLAIM",
+          "statement": "The official README documents hybrid thinking and non-thinking usage modes.",
+          "evidence_locator": "https://github.com/zai-org/GLM-4.5/blob/170f20b2c10659008fdbc909d478bc2a75bc3627/README.md"
+        },
+        {
+          "claim_id": "glm-documentation-only-retained-scope",
+          "kind": "SOURCE_FACT",
+          "statement": "The retained pack contains official license and README bytes; model implementations in external frameworks are not attributed to this repository.",
+          "evidence_locator": "https://github.com/zai-org/GLM-4.5/tree/170f20b2c10659008fdbc909d478bc2a75bc3627"
+        }
+      ],
+      "mechanism_candidates": [
+        {
+          "mechanism_id": "adaptive-reasoning-budget",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Select a bounded reasoning mode or budget based on task requirements.",
+          "source_fact_boundary": "The official source documents multiple reasoning modes; a causal budget-selection policy is not provided as transferable evidence.",
+          "hypothesized_effect": "Spend additional reasoning resources only where they improve outcome quality.",
+          "falsification_test": "Compare fixed-low, fixed-high, and adaptive budgets with quality, latency, and cost jointly measured."
+        }
+      ],
+      "blockers": [
+        "OFFICIAL_REPOSITORY_PACK_RETAINS_DOCUMENTATION_NOT_MODEL_IMPLEMENTATION"
+      ],
+      "files": [
+        {
+          "staged_path": "LICENSE",
+          "relative_path": "LICENSE",
+          "media_type": "text/plain",
+          "git_blob_id": "827fdc3a6b57acf622dd6bf4d36bac98509d6a58",
+          "source_revision": "170f20b2c10659008fdbc909d478bc2a75bc3627"
+        },
+        {
+          "staged_path": "README.md",
+          "relative_path": "README.md",
+          "media_type": "text/markdown",
+          "git_blob_id": "3c032e93f96f388d7a18169d0993fc3db40264af",
+          "source_revision": "170f20b2c10659008fdbc909d478bc2a75bc3627"
+        }
+      ]
+    },
+    {
+      "source_id": "kimi-k3-3cb39df",
+      "publisher": "Moonshot AI",
+      "system_name": "Kimi K3",
+      "version": "3cb39df",
+      "source_class": "RESTRICTED_REFERENCE",
+      "ingestion_status": "REGISTERED_ONLY",
+      "official_source_locator": "https://github.com/MoonshotAI/Kimi-K3/tree/3cb39dfd32e51c3328e2e4b4af21341247d06c43",
+      "exact_commit_or_release": "3cb39dfd32e51c3328e2e4b4af21341247d06c43",
+      "retrieved_at": "2026-08-13T20:00:00Z",
+      "license_name": "Kimi K3 Model License",
+      "license_expression": "LicenseRef-Kimi-K3-2026",
+      "license_evidence_locator": "https://github.com/MoonshotAI/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/LICENSE",
+      "license_relative_path": null,
+      "allowed_use": [
+        "PUBLIC_CLAIM_REGISTRATION",
+        "REFERENCE_ANALYSIS"
+      ],
+      "forbidden_use": [
+        "AUTOMATIC_PROMOTION",
+        "CORE_COPY",
+        "RUNTIME_DEPENDENCY"
+      ],
+      "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+      "architecture_claims": [
+        {
+          "claim_id": "kimi-k3-architecture-publisher-claim",
+          "kind": "PUBLISHER_CLAIM",
+          "statement": "The official README describes KDA, Attention Residuals, and Stable LatentMoE.",
+          "evidence_locator": "https://github.com/MoonshotAI/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/README.md"
+        }
+      ],
+      "mechanism_candidates": [
+        {
+          "mechanism_id": "residual-organization-paths",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Preserve an explicit residual path around a multi-stage organization transform.",
+          "source_fact_boundary": "The public source names Attention Residuals; hidden implementation details and MetaEngine transfer remain unverified.",
+          "hypothesized_effect": "Preserve recoverable signal and reduce destructive coordination transformations.",
+          "falsification_test": "Ablate residual paths while holding topology and resource budget constant."
+        },
+        {
+          "mechanism_id": "sparse-conditional-routing",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Route work through a bounded subset of specialists selected for each request.",
+          "source_fact_boundary": "The public source names a latent mixture-of-experts system; license and transfer constraints keep it reference-only.",
+          "hypothesized_effect": "Increase conditional capacity without activating the full specialist set.",
+          "falsification_test": "Compare dense, random-routed, and learned-routed organizations under a frozen evaluator."
+        }
+      ],
+      "blockers": [
+        "CUSTOM_LICENSE_REQUIRES_SEPARATE_USE_REVIEW",
+        "REFERENCE_BYTES_NOT_RETAINED_SLICE_3"
+      ],
+      "files": []
+    },
+    {
+      "source_id": "llama4-0e0b8c5",
+      "publisher": "Meta",
+      "system_name": "Llama 4",
+      "version": "0e0b8c5",
+      "source_class": "RESTRICTED_REFERENCE",
+      "ingestion_status": "REGISTERED_ONLY",
+      "official_source_locator": "https://github.com/meta-llama/llama-models/tree/0e0b8c519242d5833d8c11bffc1232b77ad7f301/models/llama4",
+      "exact_commit_or_release": "0e0b8c519242d5833d8c11bffc1232b77ad7f301",
+      "retrieved_at": "2026-08-13T20:00:00Z",
+      "license_name": "Llama 4 Community License Agreement",
+      "license_expression": "LicenseRef-Llama-4-Community",
+      "license_evidence_locator": "https://github.com/meta-llama/llama-models/blob/0e0b8c519242d5833d8c11bffc1232b77ad7f301/models/llama4/LICENSE",
+      "license_relative_path": null,
+      "allowed_use": [
+        "PUBLIC_CLAIM_REGISTRATION",
+        "REFERENCE_ANALYSIS"
+      ],
+      "forbidden_use": [
+        "AUTOMATIC_PROMOTION",
+        "CORE_COPY",
+        "RUNTIME_DEPENDENCY"
+      ],
+      "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+      "architecture_claims": [
+        {
+          "claim_id": "llama4-model-card-publisher-claim",
+          "kind": "PUBLISHER_CLAIM",
+          "statement": "The official model card is registered as public reference evidence under the Llama 4 Community License boundary.",
+          "evidence_locator": "https://github.com/meta-llama/llama-models/blob/0e0b8c519242d5833d8c11bffc1232b77ad7f301/models/llama4/MODEL_CARD.md"
+        }
+      ],
+      "mechanism_candidates": [
+        {
+          "mechanism_id": "sparse-conditional-routing",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Route work through a bounded subset of specialists selected for each request.",
+          "source_fact_boundary": "Only public model-card claims are registered; restricted source material is not copied into Core.",
+          "hypothesized_effect": "Increase conditional capacity without uniform activation cost.",
+          "falsification_test": "Test a clean-room provider-neutral router against dense and random-routing baselines."
+        }
+      ],
+      "blockers": [
+        "CUSTOM_LICENSE_REQUIRES_SEPARATE_USE_REVIEW",
+        "REFERENCE_BYTES_NOT_RETAINED_SLICE_3"
+      ],
+      "files": []
+    },
+    {
+      "source_id": "openai-gpt-5.6-public",
+      "publisher": "OpenAI",
+      "system_name": "GPT-5.6",
+      "version": "gpt-5.6-sol",
+      "source_class": "CLOSED_BEHAVIORAL_ONLY",
+      "ingestion_status": "REGISTERED_ONLY",
+      "official_source_locator": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "exact_commit_or_release": "gpt-5.6-sol-model-page-retrieved-2026-08-13",
+      "retrieved_at": "2026-08-13T20:00:00Z",
+      "license_name": "OpenAI proprietary public documentation",
+      "license_expression": "LicenseRef-OpenAI-Public-Documentation",
+      "license_evidence_locator": "https://openai.com/policies/terms-of-use/",
+      "license_relative_path": null,
+      "allowed_use": [
+        "BEHAVIORAL_REFERENCE",
+        "PUBLIC_INTERFACE_DESCRIPTION"
+      ],
+      "forbidden_use": [
+        "HIDDEN_ARCHITECTURE_FACT",
+        "INTERNAL_SOURCE_ASSUMPTION",
+        "RUNTIME_DEPENDENCY"
+      ],
+      "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+      "architecture_claims": [
+        {
+          "claim_id": "gpt-5.6-public-model-interface",
+          "kind": "PUBLISHER_CLAIM",
+          "statement": "The official model page documents the public model identifier and product capabilities, not internal implementation architecture.",
+          "evidence_locator": "https://developers.openai.com/api/docs/models/gpt-5.6-sol"
+        }
+      ],
+      "mechanism_candidates": [
+        {
+          "mechanism_id": "adaptive-reasoning-budget",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Select a bounded reasoning budget based on task requirements.",
+          "source_fact_boundary": "Public product controls and behavior motivate the hypothesis; they do not reveal hidden architecture.",
+          "hypothesized_effect": "Allocate extra reasoning only when it improves measured outcomes.",
+          "falsification_test": "Compare fixed and adaptive budgets using public behavior under a frozen evaluation contract."
+        }
+      ],
+      "blockers": [
+        "NO_PUBLIC_INTERNAL_SOURCE",
+        "BEHAVIORAL_EVIDENCE_ONLY"
+      ],
+      "files": []
+    },
+    {
+      "source_id": "anthropic-claude-public",
+      "publisher": "Anthropic",
+      "system_name": "Claude",
+      "version": "public-constitution-2026-08-13",
+      "source_class": "CLOSED_BEHAVIORAL_ONLY",
+      "ingestion_status": "REGISTERED_ONLY",
+      "official_source_locator": "https://www.anthropic.com/constitution",
+      "exact_commit_or_release": "anthropic-constitution-page-retrieved-2026-08-13",
+      "retrieved_at": "2026-08-13T20:00:00Z",
+      "license_name": "Anthropic proprietary public documentation",
+      "license_expression": "LicenseRef-Anthropic-Public-Documentation",
+      "license_evidence_locator": "https://www.anthropic.com/legal/consumer-terms",
+      "license_relative_path": null,
+      "allowed_use": [
+        "BEHAVIORAL_REFERENCE",
+        "PUBLIC_GOVERNANCE_REFERENCE"
+      ],
+      "forbidden_use": [
+        "HIDDEN_ARCHITECTURE_FACT",
+        "INTERNAL_SOURCE_ASSUMPTION",
+        "RUNTIME_DEPENDENCY"
+      ],
+      "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+      "architecture_claims": [
+        {
+          "claim_id": "claude-public-constitution",
+          "kind": "PUBLISHER_CLAIM",
+          "statement": "Anthropic publishes a constitution describing behavioral principles; it is governance/training-policy evidence rather than internal model architecture.",
+          "evidence_locator": "https://www.anthropic.com/constitution"
+        }
+      ],
+      "mechanism_candidates": [
+        {
+          "mechanism_id": "constitution-derived-testing",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Compile general behavioral principles into specific positive and adversarial conformance tests.",
+          "source_fact_boundary": "The public constitution establishes a principle corpus; implementation and causal transfer details remain unobserved.",
+          "hypothesized_effect": "Reduce drift between stated principles and evaluated behavior.",
+          "falsification_test": "Compare prose-only governance against compiled test cases on a fixed adversarial suite."
+        }
+      ],
+      "blockers": [
+        "NO_PUBLIC_INTERNAL_SOURCE",
+        "BEHAVIORAL_AND_GOVERNANCE_EVIDENCE_ONLY"
+      ],
+      "files": []
+    },
+    {
+      "source_id": "google-gemini-deep-think-public",
+      "publisher": "Google DeepMind",
+      "system_name": "Gemini Deep Think",
+      "version": "gemini-3.1-deep-think-public",
+      "source_class": "CLOSED_BEHAVIORAL_ONLY",
+      "ingestion_status": "REGISTERED_ONLY",
+      "official_source_locator": "https://deepmind.google/models/gemini/deep-think/",
+      "exact_commit_or_release": "gemini-deep-think-page-retrieved-2026-08-13",
+      "retrieved_at": "2026-08-13T20:00:00Z",
+      "license_name": "Google proprietary public documentation",
+      "license_expression": "LicenseRef-Google-Public-Documentation",
+      "license_evidence_locator": "https://policies.google.com/terms",
+      "license_relative_path": null,
+      "allowed_use": [
+        "BEHAVIORAL_REFERENCE",
+        "PUBLIC_CAPABILITY_REFERENCE"
+      ],
+      "forbidden_use": [
+        "HIDDEN_ARCHITECTURE_FACT",
+        "INTERNAL_SOURCE_ASSUMPTION",
+        "RUNTIME_DEPENDENCY"
+      ],
+      "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+      "architecture_claims": [
+        {
+          "claim_id": "gemini-deep-think-public-description",
+          "kind": "PUBLISHER_CLAIM",
+          "statement": "The official page describes Deep Think as a public reasoning capability; no internal source implementation is registered.",
+          "evidence_locator": "https://deepmind.google/models/gemini/deep-think/"
+        }
+      ],
+      "mechanism_candidates": [
+        {
+          "mechanism_id": "parallel-hypothesis-generation-and-critique",
+          "status": "A1_MECHANISM_HYPOTHESIS",
+          "semantic_definition": "Generate multiple candidate hypotheses and compare or critique them before selecting an answer.",
+          "source_fact_boundary": "Public reasoning descriptions motivate the behavioral hypothesis; hidden implementation details remain unknown.",
+          "hypothesized_effect": "Improve hard-problem reliability by preserving competing possibilities before convergence.",
+          "falsification_test": "Compare single-path, parallel-without-critique, and parallel-with-critique variants under equal total compute."
+        }
+      ],
+      "blockers": [
+        "NO_PUBLIC_INTERNAL_SOURCE",
+        "BEHAVIORAL_EVIDENCE_ONLY"
+      ],
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "record_id": "4D-GE4-GA7-INSTRUMENTAL-FIREWALL",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4D-03#GA7-pp7-8",
+      "W4D-04#GA7-pp20-22"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4D-0.1-DOCX-RECONSTRUCTION + DAE-0.1",
+    "agent": "dae-4d-reconstruction-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4D-0.1-DOCX"
+    ],
+    "activity_id": "MODULE-MIGRATION-4D-0.1-ENGINE-RECONSTRUCTION",
+    "timestamp": "2026-08-11T12:30:00Z",
+    "artifact_hash": "sha256:b0a3e5039fda3ec05d01352139e6fcb3add10d89ba38953a7450787a2751c276"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "The instrumental-anthropological description of technology is correct within its stated scope.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "ASSERTED",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-03#GA7-pp7-8"
+    ]
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Therefore that description exhausts the essence-question and no disclosure or ordering analysis is required.",
+    "claim_facets": {
+      "basis": [
+        "MIXED"
+      ],
+      "force": "HYPOTHETICAL",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-03#GA7-pp7-8",
+      "W4D-04#GA7-pp20-22"
+    ]
+  },
+  "transition": {
+    "inference_mode": "UNRESOLVED",
+    "relation": {
+      "rt_id": "RT00"
+    },
+    "bridge": {
+      "status": "ABSENT",
+      "statement": "RT00 blocks an unsupported transition from a scoped instrumental definition to an exhaustive essence conclusion.",
+      "support_refs": [
+        "W4D-03#GA7-pp7-8",
+        "W4D-04#GA7-pp20-22"
+      ],
+      "discriminator": "Identify concrete availability, substitutability and demand-chain mechanisms plus countercases where the fit weakens."
+    },
+    "promotion_flags": [
+      "RELATION",
+      "SCOPE"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G4",
+    "gap": "LARGE",
+    "bridge_burden": "A correct local definition needs a separate argument to become an exhaustive essence claim."
+  },
+  "audit": {
+    "native_domain": "Heidegger studies / philosophy of technology",
+    "native_method": "primary-text reconstruction plus typed technology discrimination",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "UNDERDETERMINATION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY",
+      "DISCRIMINATOR",
+      "SCOPE_CONTROL",
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "HIGH",
+    "cost_note": "Module schemas were reconstructed from the supplied DOCX because the asserted JSON toolkit was not provided."
+  },
+  "rivals": [
+    {
+      "description": "Instrumental definition is locally correct but non-exhaustive.",
+      "relation_rt_id": "RT02",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Keep definition and scope explicit."
+    },
+    {
+      "description": "Gestell introduces a disclosure/manifestation explanandum distinct from instrumentality.",
+      "relation_rt_id": "RT19",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Identify the ordering signature and alternative disclosure mode."
+    }
+  ],
+  "extensions": {
+    "ge4": {
+      "module_id": "GE4",
+      "version": "0.1-engine-reconstruction",
+      "disclosure_mode": [
+        "CHALLENGING_FORTH",
+        "ORDERING",
+        "SECURING_AVAILABILITY"
+      ],
+      "ordering_signature": [
+        "AVAILABILITY",
+        "ORDERABILITY",
+        "SUBSTITUTABILITY",
+        "CALCULABILITY",
+        "SECURING",
+        "CHAINED_DEMAND"
+      ],
+      "human_position": [
+        "CHALLENGER",
+        "CHALLENGED_PARTICIPANT",
+        "NOT_MERE_RESERVE"
+      ],
+      "target_domain": [
+        "technology",
+        "nature",
+        "labor",
+        "information",
+        "institutions"
+      ],
+      "alternative_disclosure": "Artifact, design, mediation and governance descriptions may reveal typed mechanisms without an epochal diagnosis.",
+      "danger_status": "DANGER_SAVING_AMBIGUITY",
+      "counterprofile": "A heterogeneous technical practice with local ordering but effective alternatives, correction and non-resourceized relations.",
+      "discriminator": "Identify concrete availability, substitutability and demand-chain mechanisms plus countercases where the fit weakens.",
+      "revision_trigger": "The diagnosis fails to discriminate cases or merely redescribes every modern technology as Gestell.",
+      "totalization_status": "CONTESTED"
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "FROM_CLAIM",
+      "relation_rationale": "RT00 blocks an unsupported transition from a scoped instrumental definition to an exhaustive essence conclusion.",
+      "semantic_review_status": "STRUCTURAL_ONLY",
+      "human_review_required": true,
+      "review_notes": [
+        "Original 4D JSON records and schemas were not attached; this record is an engine reconstruction from the DOCX specification.",
+        "Verify source passages, relation type, unitization and module field values before expert promotion."
+      ]
+    }
+  },
+  "outcome": "BLOCK",
+  "open_questions": [
+    "Does the module discriminator add explanatory value beyond the strongest native counterprofile?"
+  ]
+}

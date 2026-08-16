@@ -1,0 +1,16 @@
+{
+  "baseline": "2.0.0-alpha.1",
+  "current": "2.1.0-alpha.1",
+  "fixity_domain_excludes": [
+    "__pycache__",
+    "*.pyc",
+    ".pytest_cache"
+  ],
+  "baseline_lineage_files": 9839,
+  "current_lineage_files": 9839,
+  "matched_identical": 9839,
+  "missing": [],
+  "added": [],
+  "changed": [],
+  "byte_fixity": true
+}

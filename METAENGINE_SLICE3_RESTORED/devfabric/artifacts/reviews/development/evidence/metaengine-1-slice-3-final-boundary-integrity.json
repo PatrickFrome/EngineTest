@@ -1,0 +1,35 @@
+{
+  "completed_step_commit": "18ec64ed7a27e63e71028c78df0e3ee7e85d0f2e",
+  "completed_step_id": "METAENGINE-1-SLICE-3",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "kind": "SLICE_3_FINAL_BOUNDARY_INTEGRITY",
+  "observations": {
+    "git_diff_check": "PASS",
+    "git_fsck_full_strict": "PASS",
+    "git_status_lines_after_runtime_cleanup": 0,
+    "reference_vault_ignored": true,
+    "reference_vault_tracked": false,
+    "registry_ingested_source_count": 5,
+    "registry_snapshot_sha256": "b50ee520f2dd605fb48f94c44dbb5fd26980fbcacf6a2150aafe178d41f631e8",
+    "registry_source_count": 10,
+    "registry_verified_blob_count": 13,
+    "registry_verified_total_bytes": 150521
+  },
+  "output_sha256": {
+    "context_snapshot": "a75a9b588227aede097a5dca9b75977259c93056462ec2efb0629f4b52315f2c",
+    "git_diff_check": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "git_fsck": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "git_status": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vault_boundary": "3d286d47de96b3fdab426c5be0ab613e867f4b6accd39614839fc75bd0aaf82f"
+  },
+  "review_context": {
+    "architecture_library_file_count": 46,
+    "architecture_library_snapshot_hash": "c82332a080a04daf773fdc2fa91c63da88ddf934260bab173b953170d4a2622d",
+    "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+    "git_head": "18ec64ed7a27e63e71028c78df0e3ee7e85d0f2e",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "policy_file_count": 6,
+    "policy_snapshot_hash": "1888a575abae2ba844f53a005a23c48ed5581722d2a64cf6df40f60bbda66f32",
+    "python": "3.13.5"
+  }
+}

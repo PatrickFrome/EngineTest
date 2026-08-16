@@ -1,0 +1,85 @@
+{
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1",
+  "completed_step_id": "METAENGINE-1-SLICE-3",
+  "completed_step_commit": "18ec64ed7a27e63e71028c78df0e3ee7e85d0f2e",
+  "completed_step_evidence_hashes": [
+    "7952a1a75c9c959771a565e3d5ae0c57eb584a2cd12d969235f91eeb7bfabc32",
+    "91610e163bdaac3739939123aef837223ae3cada874a91f7e4756efbef7bf8a2",
+    "9b0ae8a14cb995781a82ee7e154d1ef923dff7b29ef3f2c94b876481a85fd185",
+    "e2f7af7bf3725b9c3c4864197065a8d066be0f52de51b98cba8bbd2f0a29bf6a",
+    "f7069e1ce46c29040c976420bcc9d22907f31ddac407ca20f98b7af34fe9dad8"
+  ],
+  "constitution_hash": "195e287005995a244c8ec9e817effc8776693a3d58a788d5451218a2dfd3b742",
+  "architecture_library_snapshot_hash": "c82332a080a04daf773fdc2fa91c63da88ddf934260bab173b953170d4a2622d",
+  "policy_snapshot_hash": "9256e6c8208ef4b8dd144011971de97039d0e846476129fd1c1885437ec21662",
+  "relevant_mechanism_ids": [
+    "CONTENT_ADDRESSED_REFERENCE_VAULT",
+    "DUAL_HASH_PROVENANCE_BRIDGE",
+    "FAIL_CLOSED_ARCHITECTURE_LIBRARY_REVIEW_BINDING",
+    "SPARSE_CONDITIONAL_ROUTING"
+  ],
+  "alternatives_considered": [
+    {
+      "kind": "CURRENT",
+      "summary": "Bind the complete current Slice 3 tracked library state with an explicit 46-file fail-closed allowlist.",
+      "evidence_hashes": [
+        "91610e163bdaac3739939123aef837223ae3cada874a91f7e4756efbef7bf8a2",
+        "9b0ae8a14cb995781a82ee7e154d1ef923dff7b29ef3f2c94b876481a85fd185",
+        "e2f7af7bf3725b9c3c4864197065a8d066be0f52de51b98cba8bbd2f0a29bf6a"
+      ]
+    },
+    {
+      "kind": "LIBRARY",
+      "summary": "Add directory glob or Git-index Merkle enumeration to the review engine now; deferred because it adds review-engine semantics and Git/runtime coupling before scale requires it.",
+      "evidence_hashes": [
+        "9b0ae8a14cb995781a82ee7e154d1ef923dff7b29ef3f2c94b876481a85fd185",
+        "f7069e1ce46c29040c976420bcc9d22907f31ddac407ca20f98b7af34fe9dad8"
+      ]
+    },
+    {
+      "kind": "MINIMAL",
+      "summary": "Keep the pre-Slice-3 three-file Architecture Library snapshot and rely on registry digests informally; rejected because source/mechanism drift would not stale development review.",
+      "evidence_hashes": [
+        "91610e163bdaac3739939123aef837223ae3cada874a91f7e4756efbef7bf8a2",
+        "9b0ae8a14cb995781a82ee7e154d1ef923dff7b29ef3f2c94b876481a85fd185"
+      ]
+    },
+    {
+      "kind": "SYNTHESIS",
+      "summary": "Use the explicit 46-file allowlist now, while registry/retrieval content hashes and receipts provide compact inner integrity; move to Merkle enumeration only when library scale proves the complexity justified.",
+      "evidence_hashes": [
+        "7952a1a75c9c959771a565e3d5ae0c57eb584a2cd12d969235f91eeb7bfabc32",
+        "91610e163bdaac3739939123aef837223ae3cada874a91f7e4756efbef7bf8a2",
+        "9b0ae8a14cb995781a82ee7e154d1ef923dff7b29ef3f2c94b876481a85fd185",
+        "e2f7af7bf3725b9c3c4864197065a8d066be0f52de51b98cba8bbd2f0a29bf6a",
+        "f7069e1ce46c29040c976420bcc9d22907f31ddac407ca20f98b7af34fe9dad8"
+      ]
+    }
+  ],
+  "decision": "ACCEPT_WITH_FOLLOWUP_EXPERIMENT",
+  "rationale": "Slice 3 closes the architecture-source ingestion and review-binding loop without granting foreign code canonical or runtime authority. Exact revisions, Git object identities, retained SHA-256 CAS bytes, source/mechanism cards, and verification receipts are now review-bound. No A1 mechanism has yet earned assimilation status, so the next allowed step is a causal provider-neutral mechanism tournament rather than promotion.",
+  "complexity_delta": "EXPLICIT_46_FILE_REVIEW_BINDING_PLUS_FIVE_FINAL_EVIDENCE_RECEIPTS",
+  "capability_hypothesis": "A reproducible, review-bound architecture library reduces architectural drift and enables falsifiable mechanism transfer experiments without importing foreign runtime authority into MetaEngine Core.",
+  "required_followup_experiment": "METAENGINE-1-SLICE-4-SPARSE-CONDITIONAL-ROUTING-MECHANISM-TOURNAMENT",
+  "constitutional_findings": [
+    "PROVENANCE_PRIMARY_EVIDENCE_PRESERVED",
+    "FOREIGN_REFERENCE_BYTES_REMAIN_EXTERNAL_TO_GIT_CONTROL_AND_CANONICAL_AUTHORITY",
+    "NO_CANONICAL_PROMOTION_CHAMPION_MUTATION_OR_EXECUTABLE_SELF_MODIFICATION",
+    "INGESTION_REMAINS_SEPARATE_FROM_ASSIMILATION"
+  ],
+  "library_findings": [
+    "ARCHITECTURE_LIBRARY_SNAPSHOT_BINDS_46_TRACKED_ARTIFACTS",
+    "TEN_SOURCES_REGISTERED_FIVE_PERMISSIVE_PACKS_INGESTED",
+    "THIRTEEN_BLOB_DESCRIPTORS_VERIFY_150521_RETAINED_BYTES",
+    "ALL_MECHANISMS_REMAIN_A1_WITH_ASSIMILATION_EFFECT_NONE",
+    "SPARSE_CONDITIONAL_ROUTING_SELECTED_FOR_NEXT_CAUSAL_EXPERIMENT"
+  ],
+  "policy_findings": [
+    "CONSTITUTION_HASH_UNCHANGED_DURING_TASK_5",
+    "POLICY_HASH_UNCHANGED_DURING_TASK_5",
+    "D6_G1_ACTIVE_POLICY_CHAMPION_AND_18_TOOL_MCP_SURFACE_UNCHANGED",
+    "NEW_LIBRARY_ARTIFACTS_REQUIRE_EXPLICIT_REVIEW_ADMISSION"
+  ],
+  "next_step_allowed": true,
+  "receipt_hash": "e6ec242158f196ba5987ea5da7b1a361704f4d721b3e898971797f6478f9a18b"
+}

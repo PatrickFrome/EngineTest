@@ -1,0 +1,1 @@
+Develop competing hypotheses about whether a historical philosophical shift is semantic, social, technological, or methodological. Generate multiple perspectives, retrieve evidence, construct a relation graph, maintain memory, branch experiments, optimize the research program, preserve dissent, and synthesize only what remains source-grounded.

@@ -1,0 +1,55 @@
+{
+  "hard": {
+    "allowed_integration_modes": [
+      "EXCLUSIVE",
+      "PARALLEL",
+      "REDUNDANT",
+      "IMPLEMENT_REVIEW"
+    ],
+    "authority_boundaries": [
+      "PROPOSAL_ONLY",
+      "NO_CANONICAL_PROMOTION",
+      "FENCED_TASK_SCOPE"
+    ],
+    "mandatory_reviewers": [
+      "C6"
+    ],
+    "privacy_ceiling": "P2",
+    "prohibited_actions": [
+      "CANONICAL_BYPASS",
+      "SECRET_RETRIEVAL",
+      "DIRECT_CANONICAL_WRITE"
+    ],
+    "role": "ARCHITECTURE",
+    "slot": "C1",
+    "subsystem_ownership": [
+      "architecture contracts",
+      "ADRs",
+      "protocol evolution"
+    ]
+  },
+  "soft": {
+    "capability_weights": {
+      "architecture": 0.95,
+      "coding": 0.35,
+      "research": 0.7
+    },
+    "concurrency_preference": 3,
+    "exploration_weight": 0.15,
+    "preferred_task_classes": [
+      "architecture",
+      "protocol-design",
+      "ADR"
+    ],
+    "preferred_workers": [
+      "gpt-5.6-sol",
+      "openhands"
+    ],
+    "provider_priors": {},
+    "review_pairings": [
+      "C6",
+      "C7"
+    ]
+  },
+  "version": "d6-role-v1"
+}

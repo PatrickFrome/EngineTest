@@ -1,0 +1,36 @@
+{
+  "engine_merge_manifest_version": "1.0",
+  "release": "Destruktion_4.0_COMPLETE_0.5_ENGINE_INTEGRATION",
+  "generated_at": "2026-08-11T17:29:07.660129Z",
+  "inputs": [
+    {
+      "name": "Destruktion_4.0_AI_CHAT_PORTABLE_0.9.0-alpha.1",
+      "sha256": "62e521470bc3a56b2cebb18e4b7904ed297c147f1b5eca7d3ac24440e96ec713",
+      "role": "NEW_FROZEN_ENGINE_BASELINE"
+    },
+    {
+      "name": "Destruktion_4.0_0.9.0_MICRO_LOCAL_ECOLOGY_REGRESSION",
+      "sha256": "bb73118301adfb9a53adc13de13670f4f79b29c78fc43bbe838aaab24a68c906",
+      "role": "REGRESSION_CROSS_CHECK",
+      "overlap_with_engine": "9_OF_9_BYTE_IDENTICAL",
+      "extra_file": "REPLAY.md"
+    },
+    {
+      "name": "Destruktion_4.0_COMPLETE_0.4",
+      "sha256": "c1d0fe34c698d120530a6f35b1e60d99aeed9e0aa5263f752380a0c69652b3dc",
+      "role": "STUDIO_REFLEXIVE_LAYER_SOURCE"
+    }
+  ],
+  "merge_policy": {
+    "engine_assets_rewritten": false,
+    "studio_is_external_layer": true,
+    "declarative_gx7_added_outside_frozen_set": true,
+    "discovery_self_promotion_forbidden": true,
+    "cross_corpus_auto_core_promotion_forbidden": true,
+    "global_operator_collapse_on_localization_loss_forbidden": true
+  },
+  "reports": [
+    "ENGINE_INTEGRATION_REPORT_0.5.md",
+    "STUDIO_0.5_VALIDATION_REPORT.md"
+  ]
+}

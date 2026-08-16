@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/annotation_set.schema.json",
+  "title": "Destruktion independent annotation set",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["agreement_version", "dataset_id", "codebook_id", "coders", "units", "thresholds"],
+  "properties": {
+    "agreement_version": {"const": "DAE-ANNOTATIONS-1.0"},
+    "dataset_id": {"type": "string", "minLength": 1},
+    "codebook_id": {"type": "string", "minLength": 1},
+    "coders": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "independent"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{1,63}$"},
+          "independent": {"type": "boolean"}
+        }
+      }
+    },
+    "units": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["unit_id", "annotations"],
+        "properties": {
+          "unit_id": {"type": "string", "minLength": 1},
+          "annotations": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": {
+              "type": ["object", "null"],
+              "additionalProperties": false,
+              "required": ["dominant", "secondary"],
+              "properties": {
+                "dominant": {"type": ["string", "null"], "minLength": 1},
+                "secondary": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+                "confidence": {"type": "integer", "minimum": 1, "maximum": 3}
+              }
+            }
+          }
+        }
+      }
+    },
+    "thresholds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["alpha_min", "alpha_ci_lower_min", "multilabel_match_min", "multilabel_f1_min", "bootstrap_iterations", "seed"],
+      "properties": {
+        "alpha_min": {"type": "number", "minimum": -1, "maximum": 1},
+        "alpha_ci_lower_min": {"type": "number", "minimum": -1, "maximum": 1},
+        "multilabel_match_min": {"type": "number", "minimum": 0, "maximum": 1},
+        "multilabel_f1_min": {"type": "number", "minimum": 0, "maximum": 1},
+        "bootstrap_iterations": {"type": "integer", "minimum": 100, "maximum": 10000},
+        "seed": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

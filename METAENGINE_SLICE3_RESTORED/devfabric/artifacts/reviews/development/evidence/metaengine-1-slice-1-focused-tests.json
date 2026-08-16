@@ -1,0 +1,12 @@
+{
+  "command": "python -m pytest tests/test_constitution_kernel.py tests/test_controlled_learning_2_3.py -q",
+  "completed_step_commit": "73a3f4aab2dc18997db495d657aab5185ffc6958",
+  "evidence_hash": "0f1c0cf9b2fd87756ed6f9ab041206943c2754917f6914e48691cd8ca8e667a5",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "PYTEST_CONSTITUTION_SECURITY_FOCUSED",
+  "observed": {
+    "failed": 0,
+    "passed": 30
+  }
+}

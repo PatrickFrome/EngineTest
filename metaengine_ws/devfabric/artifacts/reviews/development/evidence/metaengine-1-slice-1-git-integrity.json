@@ -1,0 +1,12 @@
+{
+  "command": "git diff --check && git status --porcelain=v1",
+  "completed_step_commit": "73a3f4aab2dc18997db495d657aab5185ffc6958",
+  "evidence_hash": "ac11d18295423f2a361e7e5859448a31922fe82bb74e6ee85bbc3d383b6dae75",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "GIT_INTEGRITY",
+  "observed": {
+    "diff_check": "PASS",
+    "status_porcelain": ""
+  }
+}

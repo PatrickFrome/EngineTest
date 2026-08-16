@@ -1,0 +1,1 @@
+A concept should not be treated as an isolated object if its identity changes through the relations, exclusions, history, and uses by which it becomes intelligible. Yet a relational vocabulary can itself become a dogma if every difference is redescribed as relation. A method therefore needs both generative alternatives and the capacity to abstain.

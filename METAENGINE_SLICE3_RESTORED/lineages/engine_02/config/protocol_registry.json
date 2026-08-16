@@ -1,0 +1,1964 @@
+{
+  "registry_version": "V38-PROTOCOLS-1.0",
+  "generated_at": "2026-08-11T12:00:00Z",
+  "source": {
+    "title": "Вопрос о бытии и русский язык — каноническая редакция v3.8",
+    "document_sha256": "8d9ae11ea434a2a8e522bd18cf1b351434d20c890c44ce8a49f2d71aeec425c7",
+    "extract_sha256": "e6ed2875982862cd9fb3aafd98ff4a3faba8c936e1893412ba7f265d95e65466",
+    "extract_path": "vendor/v38/extract/canonical_v3.8.md"
+  },
+  "claim_ceiling": "PROTOCOL_CONFORMANCE_AND_REVIEW_ROUTING_ONLY",
+  "answer_statuses": [
+    "YES",
+    "NO",
+    "UNKNOWN",
+    "NA"
+  ],
+  "protocols": [
+    {
+      "id": "V38-PRECODE-SCENE",
+      "version": "1.0",
+      "title_ru": "P−1: сцена до кода",
+      "group": "CORE",
+      "status": "ACTIVE_CORE",
+      "automation": "MIXED",
+      "activation": "ALWAYS",
+      "source_locators": [
+        "#L253-L292",
+        "#L25677-L25689"
+      ],
+      "value": "Снижает самоподтверждение и кодовое производство феномена.",
+      "checks": [
+        {
+          "id": "SCENE_PLAIN",
+          "prompt": "Сцена описана обычным языком до проектных кодов?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "VORGRIFF_EXPLICIT",
+          "prompt": "Зафиксированы вопрос, ожидание и принцип отбора исследователя?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "ALTERNATIVES_VISIBLE",
+          "prompt": "Отмечены доступные участникам альтернативы без их преждевременной оценки?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-SOURCE-AUDIT",
+      "version": "1.0",
+      "title_ru": "Источниковый и хронологический шлюз",
+      "group": "CORE",
+      "status": "ACTIVE_CORE",
+      "automation": "MIXED",
+      "activation": "ALWAYS",
+      "source_locators": [
+        "#L1300-L1405",
+        "#L25475-L25488",
+        "#L20014-L20093"
+      ],
+      "value": "Предотвращает анахронизм, ложную атрибуцию и одинаковый вес неодинаковых свидетельств.",
+      "checks": [
+        {
+          "id": "SOURCE_IDENTIFIED",
+          "prompt": "Указаны источник, редакция, язык, дата, жанр и точный локатор?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "TEXT_ORDERS",
+          "prompt": "Разведены дата создания, публикации, место в собрании и поздняя композиция?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "GENRE_WEIGHT",
+          "prompt": "Доказательный вес соотнесён с жанром и редакторским вмешательством?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "SOURCE_PROJECT_SEPARATED",
+          "prompt": "Цитата, реконструкция, перевод и проектный вывод разведены?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-ONTOLOGY-GATE",
+      "version": "1.0",
+      "title_ru": "Фундаментально-онтологический шлюз",
+      "group": "CORE",
+      "status": "ACTIVE_CORE",
+      "automation": "MIXED",
+      "activation": "ALWAYS",
+      "source_locators": [
+        "#L339-L362",
+        "#L25454-L25474",
+        "#L25709-L25720"
+      ],
+      "value": "Защищает онтологический уровень от категориальных скачков.",
+      "checks": [
+        {
+          "id": "TARGET_MODE",
+          "prompt": "Названы исследуемое сущее, способ бытия или регион?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "NO_REIFICATION",
+          "prompt": "Бытие не превращено в сущую причину, процесс, отношение или систему?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "ACCESS_EXISTENCE_SPLIT",
+          "prompt": "Условие доступа не перенесено на существование без отдельного моста?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "DEPENDENCY_PROFILE",
+          "prompt": "Разведены происхождение, поддержание, тождество и доступ?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "RIVALS_PRESENT",
+          "prompt": "Представлены альтернативные онтологии того же explanandum и масштаба?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-CLAIM-DISCIPLINE",
+      "version": "1.0",
+      "title_ru": "Режимы утверждения и доказательная дисциплина",
+      "group": "CORE",
+      "status": "ACTIVE_CORE",
+      "automation": "DETERMINISTIC",
+      "activation": "ALWAYS",
+      "source_locators": [
+        "#L169-L182",
+        "#L25520-L25543",
+        "#L673-L701"
+      ],
+      "value": "Не позволяет переносить силу между текстовым, феноменальным, эмпирическим и нормативным каналами.",
+      "checks": [
+        {
+          "id": "ORIGIN_MARKED",
+          "prompt": "Отмечено происхождение тезиса: текст, язык, сцена, данные, норма или реконструкция?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "JUSTIFICATION_MODE",
+          "prompt": "Отмечен режим обоснования: описание, вывод, абдукция, сравнение, контрфактический тест или принцип?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "SCALE_MARKED",
+          "prompt": "Явно указан масштаб допустимого вывода?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "REVISION_TRIGGER",
+          "prompt": "Задано условие понижения, приостановки или удаления?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-D2.8-CORE",
+      "version": "1.0",
+      "title_ru": "Обязательное ядро D2.8-PROJ",
+      "group": "CORE",
+      "status": "ACTIVE_CORE",
+      "automation": "MIXED",
+      "activation": "ALWAYS",
+      "source_locators": [
+        "#L25669-L25735"
+      ],
+      "value": "Минимальный исполнимый каркас действующего метода.",
+      "checks": [
+        {
+          "id": "P_MINUS_1",
+          "prompt": "Выполнена независимая сцена P−1?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "LOCAL_RECONSTRUCTION",
+          "prompt": "Корпус и переход A→P→B реконструированы локально?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "PROBLEMGENESIS",
+          "prompt": "История слова, функции и вопроса разведены; для сильной генеалогии дана контргенеалогия?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "DECONFLATION",
+          "prompt": "Феноменальное, семантическое, эпистемическое, прагматическое, временное и онтологическое разведены?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "META_RESIDUE",
+          "prompt": "Зафиксированы R1/R2/R3 и условие повторного запуска?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-GATE-12",
+      "version": "1.0",
+      "title_ru": "GATE-12: шлюз сильного перехода",
+      "group": "CORE",
+      "status": "ACTIVE_CORE",
+      "automation": "MIXED",
+      "activation": "ON_STRONG_TRANSITION",
+      "source_locators": [
+        "#L25736-L25776"
+      ],
+      "value": "Концентрирует повторяющиеся двенадцатишаговые шлюзы в одном действующем стандарте.",
+      "checks": [
+        {
+          "id": "THESIS_SCOPE",
+          "prompt": "Точный тезис и масштаб зафиксированы?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "BRIDGE_TYPED",
+          "prompt": "Переход A→P→B типизирован и мост имеет свидетельство?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "LEVELS_SEPARATED",
+          "prompt": "Доступ, описание, интерпретация и онтологический вывод разведены?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "RIVAL_STEELMAN",
+          "prompt": "Сильнейшая альтернатива работает на том же explanandum, уровне и масштабе?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "K_AND_DELTA",
+          "prompt": "Минимальное ядро K и различающий остаток ΔO указаны отдельно?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "NEGATIVE_TEST",
+          "prompt": "Задан выполнимый тест, способный понизить или удалить вывод?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-META-DESTRUCTION",
+      "version": "1.0",
+      "title_ru": "Метадеструкция применённого протокола",
+      "group": "CORE",
+      "status": "ACTIVE_CORE",
+      "automation": "HUMAN_REVIEW",
+      "activation": "AT_FINALIZATION",
+      "source_locators": [
+        "#L25633-L25668",
+        "#L27347-L27383"
+      ],
+      "value": "Удерживает автоматизацию от превращения в самоподтверждающийся ритуал.",
+      "checks": [
+        {
+          "id": "PROTOCOL_VORGRIFF",
+          "prompt": "Предпочтения и Vorgriff самого протокола названы?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "CODE_INFLATION",
+          "prompt": "Проверено, не заменяет ли выполнение рубрик исследовательское суждение?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "INDEPENDENT_REDESCRIPTION",
+          "prompt": "Материал повторно описан без словаря результата?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "SELF_CONFIRMATION",
+          "prompt": "Контргипотеза допускает исчезновение собственного словаря проекта?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-STOP-KILL",
+      "version": "1.0",
+      "title_ru": "Правило остановки, suspension point и KILL",
+      "group": "CORE",
+      "status": "ACTIVE_CORE",
+      "automation": "DETERMINISTIC",
+      "activation": "ALWAYS",
+      "source_locators": [
+        "#L183-L196",
+        "#L25791-L25806",
+        "#L27474-L27524"
+      ],
+      "value": "Делает отрицательный результат допустимым и блокирует бесконечное расширение.",
+      "checks": [
+        {
+          "id": "STOP_CONDITIONS",
+          "prompt": "Мотивирующий феномен, rivals, K/ΔO, масштаб и отрицательный тест зафиксированы?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "KILL_PREDECLARED",
+          "prompt": "Условия отказа объявлены до просмотра основного результата?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "SUSPENSION_EXPLICIT",
+          "prompt": "При недоопределённости выбран SUSPEND, а не сильный вывод?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "NO_RETROFIT",
+          "prompt": "Порог и kill-правила не понижены задним числом?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-POWER-GATE",
+      "version": "1.0",
+      "title_ru": "POWER-GATE",
+      "group": "GATE",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "MIXED",
+      "activation": "ON_POWER_OR_HIGH_STAKES",
+      "source_locators": [
+        "#L638-L672",
+        "#L19836-L19910"
+      ],
+      "value": "Локализует власть в интерфейсах, времени, санкциях и праве толкования.",
+      "checks": [
+        {
+          "id": "OPTION_SET_OWNER",
+          "prompt": "Установлено, кто формирует набор, видимость и цену альтернатив?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "REFUSAL_COST",
+          "prompt": "Описана фактическая цена отказа, паузы, ухода и обжалования?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "VOICE_ACCESS",
+          "prompt": "Проверены признанная форма выражения, слышимость и контроль интерпретации?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "APPEAL_AVAILABLE",
+          "prompt": "Есть независимый пересмотр и защита от возмездия?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "REVIEW"
+        }
+      ]
+    },
+    {
+      "id": "V38-NORM-GATE",
+      "version": "1.0",
+      "title_ru": "NORM-GATE",
+      "group": "GATE",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "MIXED",
+      "activation": "ON_NORMATIVE_CLAIM",
+      "source_locators": [
+        "#L638-L672",
+        "#L19911-L19969"
+      ],
+      "value": "Блокирует вывод должного из описания, осуществимости или онтологии.",
+      "checks": [
+        {
+          "id": "NORM_TYPE",
+          "prompt": "Тип нормы и источник требования названы?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "COMPETENCE_BURDEN",
+          "prompt": "Компетенция и носитель бремени публичного оправдания указаны?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "LEGAL_JUST_SPLIT",
+          "prompt": "Юридическая действительность, легитимность и справедливость разведены?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "LESS_RESTRICTIVE",
+          "prompt": "Рассмотрена менее ограничивающая альтернатива и распределение вреда?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-TRUTH-CLAIM",
+      "version": "1.0",
+      "title_ru": "Протокол истинностного притязания",
+      "group": "GATE",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "MIXED",
+      "activation": "ON_TRUTH_CLAIM",
+      "source_locators": [
+        "#L9169-L9195"
+      ],
+      "value": "Совмещает предметную проверку, медиаторы доступа и пересмотр без релятивизма.",
+      "checks": [
+        {
+          "id": "WORUEBER",
+          "prompt": "Явно указано сущее или дело, о котором утверждается?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "ACCESS_CHAIN",
+          "prompt": "Описаны способ обнаружения и посредники доступа?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "FALSIFIER",
+          "prompt": "Указано, что подтвердит или опровергнет формулу?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "ALTERNATIVE_READING",
+          "prompt": "Представлено контрчтение и возможное сокрытие?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "REVISION",
+          "prompt": "Новые данные, меняющие формулу, названы заранее?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-ANTI-SELF-CIRCULATION",
+      "version": "1.0",
+      "title_ru": "Протокол против самоциркуляции",
+      "group": "CORE",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "MIXED",
+      "activation": "AT_VERSION_REVIEW",
+      "source_locators": [
+        "#L7361-L7380"
+      ],
+      "value": "Предотвращает доказательство теории её собственным объёмом и словарём.",
+      "checks": [
+        {
+          "id": "EXTERNAL_CONSTRAINT",
+          "prompt": "Есть первичный текст, сцена или данные, ограничивающие тезис извне проекта?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "NOVELTY_QUARANTINE",
+          "prompt": "Новый термин имеет незаменимый вопрос и контрпример?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "CONSOLIDATION",
+          "prompt": "Повторы вынесены из активного ядра в архив?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "EXTERNAL_FALSIFIABILITY",
+          "prompt": "Возражение может реально изменить решение, а не быть поглощено теорией?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-GERMAN-RUSSIAN-CONCEPT",
+      "version": "1.0",
+      "title_ru": "Немецко-русский протокол понятия",
+      "group": "LANGUAGE",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "MIXED",
+      "activation": "ON_TRANSLATION",
+      "source_locators": [
+        "#L25489-L25519"
+      ],
+      "value": "Сохраняет перевод как контролируемое различение, а не равенство терминов.",
+      "checks": [
+        {
+          "id": "TERM_PHASE",
+          "prompt": "Точное написание, историческая фаза и функция термина указаны?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "THREE_TRANSLATIONS",
+          "prompt": "Сопоставлены минимум три перевода и потери каждого?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "NO_MORPH_PROOF",
+          "prompt": "Словообразование и этимология не используются как доказательство тезиса?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "EXAMPLE_COUNTEREXAMPLE",
+          "prompt": "Даны феноменальный пример и контрпример?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "STATUS_ASSIGNED",
+          "prompt": "Назначен статус: прямой термин, реконструкция, R3/R4T или региональное понятие?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-RUSSIAN-LEXICAL",
+      "version": "1.0",
+      "title_ru": "Русская лексико-феноменологическая деструкция",
+      "group": "LANGUAGE",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "MIXED",
+      "activation": "ON_RUSSIAN_LANGUAGE_CLAIM",
+      "source_locators": [
+        "#L18181-L18218",
+        "#L19456-L19487"
+      ],
+      "value": "Отсекает этимологизм и делает русские различия проверяемыми гипотезами.",
+      "checks": [
+        {
+          "id": "CONTEXT_CONSTRUCTION",
+          "prompt": "Единицей служит конструкция в живом контексте, а не лемма или морфема?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "LEX_LEVELS",
+          "prompt": "LEX-R1/R2/R3/R4T и история перевода разведены?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "CORPUS_NEGATIVE",
+          "prompt": "Есть корпусные контексты, конкурирующие конструкции и отрицательные случаи?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "NO_LANGUAGE_ONTOLOGY",
+          "prompt": "Языковое различие не повышено до онтологии, психологии народа или нормы?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "REVISION_CONDITION",
+          "prompt": "Минимальное различие и условие его пересмотра сформулированы?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-TRANSLATION-BRIDGE",
+      "version": "1.0",
+      "title_ru": "Перевод между несводимыми традициями",
+      "group": "LANGUAGE",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "MIXED",
+      "activation": "ON_CROSS_TRADITION_TRANSFER",
+      "source_locators": [
+        "#L26442-L26460"
+      ],
+      "value": "Не позволяет полифонии превратиться в эклектическое отождествление.",
+      "checks": [
+        {
+          "id": "SOURCE_QUESTION",
+          "prompt": "Исходный вопрос и функция понятия в своей традиции указаны?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "PROJECT_FUNCTION",
+          "prompt": "Функция заимствования в проекте названа отдельно?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "BRIDGE_TYPE",
+          "prompt": "Отношение SRC/REC/BRG/COR/CON/GEN типизировано?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "FORBIDDEN_TRANSFER",
+          "prompt": "Назван запрещённый перенос между традициями или уровнями?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-DASEIN",
+      "version": "1.0",
+      "title_ru": "Анализ Dasein в русскоязычном тексте",
+      "group": "DOMAIN",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "HUMAN_REVIEW",
+      "activation": "ON_DASEIN",
+      "source_locators": [
+        "#L1267-L1299"
+      ],
+      "value": "Высокоценный предметный модуль; автоматизируется как экспертный вопросник, не как истинностный классификатор.",
+      "checks": [
+        {
+          "id": "HISTORICAL_LAYER",
+          "prompt": "Исторический слой и функция Dasein установлены?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "NO_HUMAN_SUBSTITUTION",
+          "prompt": "Dasein не заменено словом «человек» до установления уровня?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "EXISTENCE_SPLIT",
+          "prompt": "Existenz, existentia, Vorhandensein и Ek-sistenz разведены?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "ANTHROPOLOGY_BOUNDARY",
+          "prompt": "Зафиксирована граница перехода к философской антропологии?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-HERMENEUTIC-CASE",
+      "version": "1.0",
+      "title_ru": "Герменевтический анализ случая",
+      "group": "DOMAIN",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "HUMAN_REVIEW",
+      "activation": "ON_CASE_INTERPRETATION",
+      "source_locators": [
+        "#L5413-L5444"
+      ],
+      "value": "Полезен для case review; требует человеческого герменевтического суждения.",
+      "checks": [
+        {
+          "id": "FORESTRUCTURE",
+          "prompt": "Vorhabe, Vorsicht и Vorgriff названы раздельно?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "POSSIBILITY_LEVELS",
+          "prompt": "Экзистенциальная возможность, фактический доступ и разрешение разведены?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "RIVAL_INTERPRETATION",
+          "prompt": "Есть конкурентное истолкование и отрицательный случай?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "RESISTANCE",
+          "prompt": "Учтено сопротивление тела, материала, текста, другого и последствий?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-SPEECH-LANGUAGE",
+      "version": "1.0",
+      "title_ru": "Анализ речи и языка",
+      "group": "DOMAIN",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "HUMAN_REVIEW",
+      "activation": "ON_SPEECH_OR_COMMUNICATION",
+      "source_locators": [
+        "#L6340-L6371"
+      ],
+      "value": "Сильный модуль для поддержанной коммуникации и анализа интерфейсов.",
+      "checks": [
+        {
+          "id": "HISTORICAL_SPEECH_LAYER",
+          "prompt": "Разведены Rede, фактическая Sprache, поздняя Sage и коммуникационная теория?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "MEDIUM_ACCESS",
+          "prompt": "Описаны медиум, телесная/сенсорная доступность и посредники?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "RIGHTS_OF_SPEECH",
+          "prompt": "Проверены право говорить, молчать, задавать тему и переистолковывать?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "SILENCE_MODES",
+          "prompt": "Молчание различено как выбор, ожидание, отказ, невозможность и принуждение?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-DEATH",
+      "version": "1.0",
+      "title_ru": "Десятиуровневый анализ смерти",
+      "group": "DOMAIN",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "HUMAN_REVIEW",
+      "activation": "ON_DEATH_OR_END_OF_LIFE",
+      "source_locators": [
+        "#L10083-L10092"
+      ],
+      "value": "Ценный защитный модуль для высокорисковой темы; всегда требует специалиста.",
+      "checks": [
+        {
+          "id": "DEATH_TERMS",
+          "prompt": "Tod, Sterben, Ableben и Verenden разведены?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "ACCESS_AND_LEVEL",
+          "prompt": "Источник доступа и онтологический/онтический уровень указаны?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "BODY_SOCIAL_RISK",
+          "prompt": "Учтены телесные условия и социальное распределение риска?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "NO_CLINICAL_NORM_TRANSFER",
+          "prompt": "Философская формула не перенесена в диагноз, рекомендацию или норму без моста?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-CONSCIENCE",
+      "version": "1.0",
+      "title_ru": "Анализ «голоса совести»",
+      "group": "DOMAIN",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "HUMAN_REVIEW",
+      "activation": "ON_CONSCIENCE_OR_INNER_VOICE",
+      "source_locators": [
+        "#L10965-L11005"
+      ],
+      "value": "Снижает риск моральной, клинической и властной гиперинтерпретации.",
+      "checks": [
+        {
+          "id": "PHENOMENON_MEDIUM",
+          "prompt": "Феномен и его медиум описаны без презумпции акустического голоса?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "SOURCE_VOICES",
+          "prompt": "Публичные, семейные, религиозные, травматические и институциональные голоса проверены?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "SAFETY",
+          "prompt": "Проверены кризис, принуждение, навязчивость и опасный приказ?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "REVOCABILITY",
+          "prompt": "Решение можно исправить, отвергнуть и отозвать?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-TEMPORALITY",
+      "version": "1.0",
+      "title_ru": "Временной анализ феномена",
+      "group": "DOMAIN",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "HUMAN_REVIEW",
+      "activation": "ON_TEMPORAL_CLAIM",
+      "source_locators": [
+        "#L11694-L11727"
+      ],
+      "value": "Предметный модуль, полезный как структурированная экспертная проверка.",
+      "checks": [
+        {
+          "id": "ECSTATIC_UNITY",
+          "prompt": "Будущее, бывшее и настоящее описаны в единстве, а не как три отрезка?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "MODE_MARKED",
+          "prompt": "Модус временения указан?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "RHYTHMS_POWER",
+          "prompt": "Учтены телесные, материальные, институциональные ритмы и владелец срока?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "NO_UNIVERSALIZER",
+          "prompt": "Временность не превращена в универсальный объяснитель?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-WORLD-TIME",
+      "version": "1.0",
+      "title_ru": "Анализ временной ситуации и мирового времени",
+      "group": "DOMAIN",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "MIXED",
+      "activation": "ON_WORLD_TIME_OR_DEADLINE",
+      "source_locators": [
+        "#L12389-L12420",
+        "#L33717-L33725"
+      ],
+      "value": "Хорошо операционализируемый мост между временной интерпретацией и институтами.",
+      "checks": [
+        {
+          "id": "DATABLE_EVENT",
+          "prompt": "Указаны датирующее событие, протяжённость и время-для?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "PUBLIC_SCALE",
+          "prompt": "Публичная шкала и измерительный прибор описаны?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "DEADLINE_OWNER",
+          "prompt": "Назван институциональный владелец срока и право на паузу?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "CHRONOLOGY_LIMIT",
+          "prompt": "Хронология не подменяет экзистенциальную временность?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-HISTORICITY",
+      "version": "1.0",
+      "title_ru": "Историчность и унаследованная возможность",
+      "group": "DOMAIN",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "HUMAN_REVIEW",
+      "activation": "ON_HISTORICAL_CLAIM",
+      "source_locators": [
+        "#L13081-L13112",
+        "#L33726-L33733"
+      ],
+      "value": "Удерживает историю от редукции к хронологии или наследованию нормы.",
+      "checks": [
+        {
+          "id": "TRANSMISSION_CHAIN",
+          "prompt": "Событие, бывший мир, материальный след и способ передачи различены?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "REPEATABLE_POSSIBILITY",
+          "prompt": "Повторимая возможность отделена от реставрации и приказа традиции?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "EXCLUDED_VOICES",
+          "prompt": "Отмечены исключённые голоса и политический субъект?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "NORMATIVE_CLAIM",
+          "prompt": "Нормативное притязание вынесено в отдельный шлюз?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-TEMPORALITY-BRIDGE",
+      "version": "1.0",
+      "title_ru": "Шлюз Zeitlichkeit → Temporalität",
+      "group": "DOMAIN",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "HUMAN_REVIEW",
+      "activation": "ON_TEMPORALITY_TO_TEMPORALITAET",
+      "source_locators": [
+        "#L13785-L13820",
+        "#L33734-L33743"
+      ],
+      "value": "Специализированный high-burden bridge; не допускает автоматического принятия.",
+      "checks": [
+        {
+          "id": "SEINSART_SCENE",
+          "prompt": "Исследуемый Seinsart и феноменальная сцена зафиксированы?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "HORIZON_SOURCE",
+          "prompt": "Горизонтальная схема и первичный источник указаны?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "ACCESS_STRUCTURE_SPLIT",
+          "prompt": "Условие доступа отделено от структуры бытия?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "ALTERNATIVE_HORIZON",
+          "prompt": "Есть контрпример, альтернативный горизонт и условие пересмотра?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-GESTELL-4D",
+      "version": "1.0",
+      "title_ru": "Machenschaft–Gestell–Bestand–Ordering",
+      "group": "DOMAIN",
+      "status": "ACTIVE_TRIGGERED",
+      "automation": "MIXED",
+      "activation": "ON_TECHNOLOGY_GESTELL",
+      "source_locators": [
+        "V4D#protocol",
+        "#L17100-L17637"
+      ],
+      "value": "Интегрирует ценный дискриминационный принцип 4D без подтверждения его 9/9 самоотчёта.",
+      "checks": [
+        {
+          "id": "DIACHRONIC_RECONSTRUCTION",
+          "prompt": "Machenschaft и Gestell связаны явным или оспоримым диахроническим мостом, а не синонимией?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "CONCRETE_DISCRIMINATION",
+          "prompt": "Высокий тезис опирается на конкретные TO4/BS4-профили и counterprofile?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "TECHNICAL_OBJECT_FIREWALL",
+          "prompt": "Технический или современный объект сам по себе не считается подтверждением Gestell?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "TOTALIZATION_REVIEW",
+          "prompt": "Эпохальное/универсальное притязание отправлено на независимый review?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-PREREGISTRATION",
+      "version": "1.0",
+      "title_ru": "Preregistration исследовательского цикла",
+      "group": "RESEARCH",
+      "status": "ACTIVE_RESEARCH",
+      "automation": "DETERMINISTIC",
+      "activation": "BEFORE_DATA_INSPECTION",
+      "source_locators": [
+        "#L27893-L27942",
+        "#L33763-L33770"
+      ],
+      "value": "Прямо исполнимо через freeze/verify; ключевой вклад v3.8 в автоматический инструмент.",
+      "checks": [
+        {
+          "id": "PLAN_FROZEN",
+          "prompt": "До основной выборки заморожены ID, единица, кодбук, выборка, seed, метрики и пороги?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "KILL_FROZEN",
+          "prompt": "KILL-критерии и действия при провале зафиксированы заранее?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "DEVIATION_POLICY",
+          "prompt": "Изменения оформляются как явные отклонения с сохранением исходного плана?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-DATA-GATE",
+      "version": "1.0",
+      "title_ru": "DATA/AUTH/LIC/CODER-шлюз",
+      "group": "RESEARCH",
+      "status": "ACTIVE_RESEARCH",
+      "automation": "DETERMINISTIC",
+      "activation": "BEFORE_EMPIRICAL_RUN",
+      "source_locators": [
+        "#L28070-L28112",
+        "#L33771-L33778"
+      ],
+      "value": "Автоматически блокирует псевдоэмпирический вывод при отсутствии данных или независимости.",
+      "checks": [
+        {
+          "id": "DATA_LEGITIMATE",
+          "prompt": "Данные доступны легитимно и их происхождение проверяемо?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "AUTH_EXPLICIT",
+          "prompt": "Авторизация и ограничения доступа не предполагаются молча?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "LICENSE_EXPLICIT",
+          "prompt": "Лицензия разрешает заявленную обработку и распространение?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "CODERS_AVAILABLE",
+          "prompt": "Назначено требуемое число независимых кодировщиков?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-BLIND-ANNOTATION",
+      "version": "1.0",
+      "title_ru": "Независимое слепое кодирование",
+      "group": "RESEARCH",
+      "status": "ACTIVE_RESEARCH",
+      "automation": "DETERMINISTIC",
+      "activation": "ON_ANNOTATION_STUDY",
+      "source_locators": [
+        "#L28004-L28037",
+        "#L33788-L33795"
+      ],
+      "value": "Снижает лексический, гипотезный и авторский прайминг.",
+      "checks": [
+        {
+          "id": "BLIND_PHASES",
+          "prompt": "Фазы CONTEXT/MASK/L2-ONLY/META-NULL и скрываемые поля определены заранее?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "NO_CONTACT",
+          "prompt": "До расчёта метрик кодировщики не обменивались решениями?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "RAW_LABELS_PRESERVED",
+          "prompt": "Исходные метки сохранены отдельно от adjudication?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "CODER_IDENTITY",
+          "prompt": "Разные идентичности кодировщиков проверены; повтор одного аналитика не считается IAA?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-RELIABILITY",
+      "version": "1.0",
+      "title_ru": "Шлюз межэкспертной воспроизводимости",
+      "group": "RESEARCH",
+      "status": "ACTIVE_RESEARCH",
+      "automation": "DETERMINISTIC",
+      "activation": "AFTER_BLIND_ANNOTATION",
+      "source_locators": [
+        "#L28038-L28069",
+        "#L33779-L33787"
+      ],
+      "value": "Прямо исполнимо через модуль Krippendorff α и bootstrap CI.",
+      "checks": [
+        {
+          "id": "ALPHA_REPORTED",
+          "prompt": "Опубликованы nominal α и доверительный интервал, а не только процент совпадений?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "RARE_CODES",
+          "prompt": "Показаны матрица ошибок и устойчивость редких кодов?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "THRESHOLD_APPLIED",
+          "prompt": "Заранее заданный порог применён без ретроспективного снижения?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "VALIDITY_SEPARATE",
+          "prompt": "Надёжность не объявлена валидностью или онтологической истинностью?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-NEGATIVE-ABLATION",
+      "version": "1.0",
+      "title_ru": "Отрицательные тесты и абляция",
+      "group": "RESEARCH",
+      "status": "ACTIVE_RESEARCH",
+      "automation": "DETERMINISTIC",
+      "activation": "AFTER_BASELINE",
+      "source_locators": [
+        "#L26905-L26936",
+        "#L28070-L28100"
+      ],
+      "value": "Проверяет добавочную ценность интерфейса, а не только внутреннее согласие.",
+      "checks": [
+        {
+          "id": "NEGATIVE_TESTS_FIXED",
+          "prompt": "Операции маскирования, удаления столбца/метаданных и перестановки определены заранее?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "ABLATION_DIMENSIONS",
+          "prompt": "Каждое измерение удаляется поочерёдно с измеримым критерием потери?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "CONTROL_MODELS",
+          "prompt": "Есть baseline без рамки и сильная композиция конкурентов?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "FAIL_ACTION",
+          "prompt": "Для каждого провала задано объединение, понижение или удаление?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-SNAPSHOT-REPLICATION",
+      "version": "1.0",
+      "title_ru": "SNAP и репликационный протокол",
+      "group": "RESEARCH",
+      "status": "ACTIVE_RESEARCH",
+      "automation": "DETERMINISTIC",
+      "activation": "ON_CORPUS_STUDY",
+      "source_locators": [
+        "#L30413-L30442",
+        "#L33744-L33762"
+      ],
+      "value": "Делает корпусный результат воспроизводимым и предотвращает смешение снимков.",
+      "checks": [
+        {
+          "id": "SNAP_METADATA",
+          "prompt": "Сохранены корпус, версия/дата, запрос, фильтры, знаменатель, seed и исключения?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "STABLE_IDS",
+          "prompt": "Единицы имеют устойчивые ID и дедуплицированы до разметки?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "GENRE_EPOCH",
+          "prompt": "Анализ повторён по жанрам и эпохам?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "DATASET_SEPARATE",
+          "prompt": "Полные выгрузки и решения хранятся отдельно от мастер-документа?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-MASTER-UPDATE",
+      "version": "1.0",
+      "title_ru": "Обновление мастер-документа",
+      "group": "GOVERNANCE",
+      "status": "ACTIVE_CORE",
+      "automation": "DETERMINISTIC",
+      "activation": "AT_RELEASE",
+      "source_locators": [
+        "#L26954-L26966",
+        "#L33661-L33715"
+      ],
+      "value": "Исполнимое управление изменениями и защита от инфляции версий.",
+      "checks": [
+        {
+          "id": "MATERIAL_CHANGE",
+          "prompt": "Версия меняет вопрос, различение, статус, контрпример или маршрут?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "DECISION_REGISTER",
+          "prompt": "Записано: сохранено, объединено, удалено, понижено, приостановлено?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "NEGATIVE_PRESERVED",
+          "prompt": "Отрицательные результаты и прежняя формула сохранены в архиве?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "REGISTRIES_UPDATED",
+          "prompt": "Обновлены реестр, матрица, зависимости, контрпримеры и журнал?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-NEUTRAL-DESTRUCTION",
+      "version": "1.0",
+      "title_ru": "Нейтральная деструкция",
+      "group": "ARCHIVAL_DERIVATIVE",
+      "status": "OPTIONAL_ARCHIVAL_DERIVATIVE",
+      "automation": "HUMAN_REVIEW",
+      "activation": "EXPLICIT_OPTIONAL",
+      "source_locators": [
+        "#L25861-L25891",
+        "#L20095-L20137"
+      ],
+      "value": "Сохраняется как обзорный режим; основные функции поглощены D2.8.",
+      "checks": [
+        {
+          "id": "PRESTRUCTURE_EXPLICIT",
+          "prompt": "Предструктура и привилегированный вопрос названы?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "VISIBLE_HIDDEN",
+          "prompt": "Для каждой категории указано, что она открывает и скрывает?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "REVERSIBLE",
+          "prompt": "Категориальную разметку можно снять без потери исходного материала?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "UNRESOLVED_END",
+          "prompt": "Финал сохраняет нерешённые альтернативы вместо обязательной доктрины?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-REGIONAL-CASE",
+      "version": "1.0",
+      "title_ru": "Анализ конкретного случая",
+      "group": "ARCHIVAL_DERIVATIVE",
+      "status": "OPTIONAL_ARCHIVAL_DERIVATIVE",
+      "automation": "HUMAN_REVIEW",
+      "activation": "EXPLICIT_OPTIONAL",
+      "source_locators": [
+        "#L20138-L20179"
+      ],
+      "value": "Полезен как прикладной case-template, но не доказывает онтологию.",
+      "checks": [
+        {
+          "id": "FACT_INTERPRETATION",
+          "prompt": "Факт, переживание, интерпретация и социальное условие разведены?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "CYCLE",
+          "prompt": "Реконструирован цикл ситуации, толка, ответа и последствий?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "SMALL_TEST",
+          "prompt": "Альтернатива проверяется малым обратимым действием?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "REVIEW_EFFECT",
+          "prompt": "Задан критерий оценки последствий и пересмотра?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-RESPONSE-EVENT",
+      "version": "1.0",
+      "title_ru": "Анализ ответного события",
+      "group": "ARCHIVAL_DERIVATIVE",
+      "status": "OPTIONAL_ARCHIVAL_DERIVATIVE",
+      "automation": "HUMAN_REVIEW",
+      "activation": "EXPLICIT_OPTIONAL",
+      "source_locators": [
+        "#L21525-L21556"
+      ],
+      "value": "Содержательно ценный региональный модуль; вынесен из ядра ответности.",
+      "checks": [
+        {
+          "id": "REACTION_RESPONSE_ACTION",
+          "prompt": "Реакция, присвоенный ответ, действие и поступок разведены?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "ACCESS_POWER_RISK",
+          "prompt": "Доступные ответы оценены с учётом власти, зависимости, ресурсов и риска?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "CONSEQUENCES_VOICE",
+          "prompt": "Получатели последствий и их возможность возразить указаны?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "DIGNITY_BOUNDARY",
+          "prompt": "Интерпретация не нарушает достоинство, молчание и границы компетенции?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-PROMISE",
+      "version": "1.0",
+      "title_ru": "Анализ обещания",
+      "group": "ARCHIVAL_DERIVATIVE",
+      "status": "OPTIONAL_ARCHIVAL_DERIVATIVE",
+      "automation": "HUMAN_REVIEW",
+      "activation": "EXPLICIT_OPTIONAL",
+      "source_locators": [
+        "#L22370-L22418"
+      ],
+      "value": "Полезен для прикладного анализа обязательств, но не относится к автоматическому CORE.",
+      "checks": [
+        {
+          "id": "FORMULA_UNDERSTANDING",
+          "prompt": "Точная формула и совпадение понимания сторон зафиксированы?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "VOLUNTARY_FEASIBLE",
+          "prompt": "Добровольность, возможность, срок и условия проверены?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "RELIANCE",
+          "prompt": "Решения адресата, построенные на слове, указаны?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "REPAIR",
+          "prompt": "Разведены исправимый и необратимый ущерб; задана будущая практика?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-FIDELITY",
+      "version": "1.0",
+      "title_ru": "Анализ верности",
+      "group": "ARCHIVAL_DERIVATIVE",
+      "status": "OPTIONAL_ARCHIVAL_DERIVATIVE",
+      "automation": "HUMAN_REVIEW",
+      "activation": "EXPLICIT_OPTIONAL",
+      "source_locators": [
+        "#L22868-L22920"
+      ],
+      "value": "Содержательно полезен, но частично перекрыт NORM/POWER и promise-модулем.",
+      "checks": [
+        {
+          "id": "OBJECT_OF_FIDELITY",
+          "prompt": "Названо, чему сохраняется верность: букве, человеку, делу, правде или образу?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "CHANGE_RECONSIDERED",
+          "prompt": "Изменение обстоятельств и конфликт верностей учтены?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "HARM_NOT_HIDDEN",
+          "prompt": "Верность не используется для сокрытия вреда или запрета выхода?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        },
+        {
+          "id": "REVISION_POSSIBLE",
+          "prompt": "Сохраняется возможность правдивого пересмотра?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-LIVING-BODY",
+      "version": "1.0",
+      "title_ru": "Анализ живого тела",
+      "group": "ARCHIVAL_DERIVATIVE",
+      "status": "OPTIONAL_ARCHIVAL_DERIVATIVE",
+      "automation": "HUMAN_REVIEW",
+      "activation": "EXPLICIT_OPTIONAL",
+      "source_locators": [
+        "#L23796-L23840"
+      ],
+      "value": "Ценный защитный модуль для телесных и поддержанных действий.",
+      "checks": [
+        {
+          "id": "LEIB_KOERPER",
+          "prompt": "Живое тело, физическое тело, схема и образ тела разведены?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "ACCESS_VARIATION",
+          "prompt": "Боль, усталость, сон, возраст, инвалидность и поддержка не сведены к дефициту?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "FIRST_THIRD_PERSON",
+          "prompt": "Асимметричные доступы первого и третьего лица сохранены?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "NO_NORMAL_BODY",
+          "prompt": "Один телесный стандарт не объявлен универсальной нормой?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "V38-POWER-CASE",
+      "version": "1.0",
+      "title_ru": "Властный анализ случая",
+      "group": "ARCHIVAL_DERIVATIVE",
+      "status": "OPTIONAL_ARCHIVAL_DERIVATIVE",
+      "automation": "HUMAN_REVIEW",
+      "activation": "EXPLICIT_OPTIONAL",
+      "source_locators": [
+        "#L24555-L24612"
+      ],
+      "value": "Детализирует POWER-GATE для прикладных случаев.",
+      "checks": [
+        {
+          "id": "CONTROL_RESOURCES",
+          "prompt": "Контроль сведений, времени, пространства, ресурсов и технологий нанесён на карту?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "FORMAL_REAL_ALTERNATIVES",
+          "prompt": "Формальные альтернативы отделены от реально безопасных?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "CUMULATIVE_PATTERN",
+          "prompt": "Эпизод отделён от накопительного паттерна контроля?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "COLLECTIVE_OPTION",
+          "prompt": "Проверена коллективная форма изменения распределения риска?",
+          "required": true,
+          "evidence_required": false,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        }
+      ]
+    },
+    {
+      "id": "V38-NORM-INSTITUTION",
+      "version": "1.0",
+      "title_ru": "Нормативно-институциональный анализ",
+      "group": "ARCHIVAL_DERIVATIVE",
+      "status": "OPTIONAL_ARCHIVAL_DERIVATIVE",
+      "automation": "HUMAN_REVIEW",
+      "activation": "EXPLICIT_OPTIONAL",
+      "source_locators": [
+        "#L25241-L25307"
+      ],
+      "value": "Детализирует NORM-GATE для институционального аудита.",
+      "checks": [
+        {
+          "id": "NORM_COMPETENCE",
+          "prompt": "Тип нормы, адресат, компетенция и механизм поддержания указаны?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "PROCEDURAL_QUALITY",
+          "prompt": "Публичность, понятность, перспективность, равенство применения и участие проверены?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "REAL_ACCESS_APPEAL",
+          "prompt": "Реальный доступ к праву, мотивировке, независимой апелляции и защите существует?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": true,
+          "on_no": "SUSPEND"
+        },
+        {
+          "id": "REPEAL_TRIGGER",
+          "prompt": "Контрпримеры и последствия, требующие пересмотра или отмены, названы?",
+          "required": true,
+          "evidence_required": true,
+          "human_judgment": false,
+          "on_no": "SUSPEND"
+        }
+      ]
+    }
+  ]
+}

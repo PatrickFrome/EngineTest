@@ -1,0 +1,449 @@
+{
+  "registry_version": "16X-1.1",
+  "capabilities": [
+    {
+      "capability": "FRAME_ATOM_EXTERNALIZATION",
+      "provider": "engine_01",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "INTERROGATIVE_INDUCTION",
+      "provider": "engine_01",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "MICRO_LOCAL_ECOLOGY",
+      "provider": "engine_01",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "OPERATOR_COMPETITION",
+      "provider": "engine_01",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CROSS_CORPUS_TRANSFER",
+      "provider": "engine_01",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "EXPERT_CYCLE",
+      "provider": "engine_01",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "OPEN_SET_OPERATOR_DISCOVERY",
+      "provider": "engine_02",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "REVERSIBLE_OPERATOR_MUTATION",
+      "provider": "engine_02",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "OPERATOR_EVOLUTION",
+      "provider": "engine_02",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "EXTERNAL_VALIDATION_PROTOCOL",
+      "provider": "engine_02",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "MICRO_LOCAL_OPERATOR_ECOLOGY",
+      "provider": "engine_02",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "SHARED_SEMANTIC_BOUNDARY",
+      "provider": "engine_03",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CROSS_LINEAGE_DIFFERENTIAL",
+      "provider": "engine_03",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "NATIVE_OUTPUT_RETENTION",
+      "provider": "engine_03",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "LINEAGE_FIXITY",
+      "provider": "engine_03",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CANONICAL_NORMALIZATION",
+      "provider": "engine_03",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "SEMANTIC_ROLE",
+      "provider": "engine_04",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "SEMANTIC_SCOPE",
+      "provider": "engine_04",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "DISCOURSE_UNCERTAINTY",
+      "provider": "engine_04",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "NESTED_SCOPE_LATTICE",
+      "provider": "engine_04",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "MULTI_EXPERT_ADJUDICATION",
+      "provider": "engine_04",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "SOURCE_PARSE_BIRTH",
+      "provider": "engine_04",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "PARSE_PROGRAM_SYNTHESIS",
+      "provider": "engine_04",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "COUNTERFACTUAL_REGRESSION",
+      "provider": "engine_04",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "PERSISTENT_MEMORY",
+      "provider": "engine_05",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "SHARED_MEMORY",
+      "provider": "engine_05",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "ARCHIVAL_RETRIEVAL",
+      "provider": "engine_05",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CONCEPT_BIOGRAPHY",
+      "provider": "engine_05",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CHECKPOINT_MEMORY",
+      "provider": "engine_05",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "GRAPH_EXTRACTION",
+      "provider": "engine_06",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "COMMUNITY_STRUCTURE",
+      "provider": "engine_06",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "LOCAL_GLOBAL_DRIFT_RETRIEVAL",
+      "provider": "engine_06",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "GRAPH_CITATIONS",
+      "provider": "engine_06",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "SCIENTIFIC_EVIDENCE",
+      "provider": "engine_07",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "HYPOTHESIS_LOOP",
+      "provider": "engine_07",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "TEST_DESIGN",
+      "provider": "engine_07",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CONTRADICTION_TRACKING",
+      "provider": "engine_07",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "MANAGER_PLANNER",
+      "provider": "engine_08",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "SPECIALIST_DELEGATION",
+      "provider": "engine_08",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CRITICAL_POINT_GATE",
+      "provider": "engine_08",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CONTEXT_COMPACTION",
+      "provider": "engine_08",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "ADAPTIVE_RESEARCH",
+      "provider": "engine_09",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "GAP_TRACKING",
+      "provider": "engine_09",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "TOOL_ROUTING",
+      "provider": "engine_09",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CITATION_SYNTHESIS",
+      "provider": "engine_09",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "DYNAMIC_WORKFORCE",
+      "provider": "engine_10",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "AGENT_SOCIETY",
+      "provider": "engine_10",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "PARALLEL_DELEGATION",
+      "provider": "engine_10",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "WORKER_MEMORY",
+      "provider": "engine_10",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "MULTI_AGENT_WORKFLOW",
+      "provider": "engine_11",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "SEQUENTIAL_PARALLEL_COMPOSITION",
+      "provider": "engine_11",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "POLICY_GATE",
+      "provider": "engine_11",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "WORKFLOW_EVENTS",
+      "provider": "engine_11",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "DURABLE_STATE_GRAPH",
+      "provider": "engine_12",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CHECKPOINT_RESUME",
+      "provider": "engine_12",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "CONDITIONAL_ROUTING",
+      "provider": "engine_12",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "THREAD_STATE",
+      "provider": "engine_12",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "PLANNER_EXECUTOR_EDITOR",
+      "provider": "engine_13",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "PARALLEL_RESEARCH",
+      "provider": "engine_13",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "REVIEW_REVISION",
+      "provider": "engine_13",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "PUBLICATION",
+      "provider": "engine_13",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "MULTI_PERSPECTIVE_RESEARCH",
+      "provider": "engine_14",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "QUESTION_GENERATION",
+      "provider": "engine_14",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "OUTLINE_SYNTHESIS",
+      "provider": "engine_14",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "SOURCE_GROUNDED_WRITING",
+      "provider": "engine_14",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "RESEARCH_TREE",
+      "provider": "engine_15",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "HYPOTHESIS_BRANCHING",
+      "provider": "engine_15",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "EXPERIMENT_MANAGER",
+      "provider": "engine_15",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "BRANCH_PRUNING",
+      "provider": "engine_15",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "NOVELTY_SEARCH",
+      "provider": "engine_15",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "TYPED_SIGNATURES",
+      "provider": "engine_16",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "PROGRAM_OPTIMIZATION",
+      "provider": "engine_16",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "TRACE_LEARNING",
+      "provider": "engine_16",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    },
+    {
+      "capability": "PARETO_CANDIDATE_SELECTION",
+      "provider": "engine_16",
+      "mode": "PARALLEL_COMPLEMENTARY",
+      "native_authority": true
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/module/ge4-0.1.json",
+  "title": "GE4-0.1 Gestell / Enframing Profile",
+  "type": "object",
+  "required": [
+    "module_id",
+    "version",
+    "source_period",
+    "disclosure_mode",
+    "ordering_signature",
+    "human_position",
+    "target_domain",
+    "alternative_disclosure",
+    "totalization_status",
+    "danger_status",
+    "discriminator",
+    "revision_trigger"
+  ],
+  "properties": {
+    "module_id": {
+      "const": "GE4"
+    },
+    "version": {
+      "const": "0.1"
+    },
+    "source_period": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disclosure_mode": {
+      "enum": [
+        "CHALLENGING_FORTH",
+        "ORDERING",
+        "SECURING_AVAILABILITY",
+        "CALCULATIVE_FORECASTING",
+        "OTHER",
+        "UNRESOLVED"
+      ]
+    },
+    "ordering_signature": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "AVAILABILITY",
+          "ORDERABILITY",
+          "SUBSTITUTABILITY",
+          "CALCULABILITY",
+          "SECURING",
+          "STANDARDIZATION",
+          "CHAINED_DEMAND",
+          "OPTIMIZATION",
+          "UNIVERSAL_ORDERING_CLAIM",
+          "OTHER",
+          "UNRESOLVED"
+        ]
+      }
+    },
+    "human_position": {
+      "enum": [
+        "CHALLENGER_ONLY",
+        "CHALLENGED_PARTICIPANT",
+        "QUALIFIED_STANDING_RESERVE",
+        "CONTESTED",
+        "UNRESOLVED"
+      ]
+    },
+    "target_domain": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "NATURE",
+          "ARTIFACTS",
+          "LABOR",
+          "INFORMATION",
+          "PUBLIC_OPINION",
+          "INSTITUTIONS",
+          "SCIENCE",
+          "CULTURE",
+          "ALL_PRESENT_BEINGS",
+          "OTHER"
+        ]
+      }
+    },
+    "relation_to_instrumentality": {
+      "enum": [
+        "INSTRUMENTAL_CORRECT_BUT_INSUFFICIENT",
+        "ANTI_INSTRUMENTAL",
+        "UNRESOLVED"
+      ]
+    },
+    "alternative_disclosure": {
+      "type": "string",
+      "minLength": 1
+    },
+    "totalization_status": {
+      "enum": [
+        "LOCAL",
+        "REGIONAL",
+        "STRONG_UNIVERSAL",
+        "HEIDEGGERIAN_UNIVERSAL_DIAGNOSIS",
+        "CONTESTED",
+        "UNRESOLVED"
+      ]
+    },
+    "danger_status": {
+      "enum": [
+        "NONE",
+        "RESTRICTED",
+        "EPOCHAL_DANGER_CLAIM",
+        "AMBIVALENT_DANGER_SAVING",
+        "UNRESOLVED"
+      ]
+    },
+    "discriminator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision_trigger": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

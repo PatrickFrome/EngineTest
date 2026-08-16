@@ -1,0 +1,12 @@
+{
+  "command": "python -m pytest tests/devfabric -q",
+  "completed_step_commit": "9c92733b9b57c9b4182783958a9e3a949f065367",
+  "evidence_hash": "9083df5d3d98f0bf62cac576f1dadcb3e893f2b1f3d8a262268fcdb27fbe636d",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "PYTEST_DEVFABRIC_FULL",
+  "observed": {
+    "failed": 0,
+    "suite": "tests/devfabric"
+  }
+}

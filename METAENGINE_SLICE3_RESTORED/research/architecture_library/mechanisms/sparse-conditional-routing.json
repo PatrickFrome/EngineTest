@@ -1,0 +1,41 @@
+{
+  "assimilation_effect": "NONE",
+  "card_sha256": "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+  "mechanism_card_version": "ARCHITECTURE-MECHANISM-CARD-1",
+  "mechanism_id": "sparse-conditional-routing",
+  "origin_source_ids": [
+    "kimi-k3-3cb39df",
+    "llama4-0e0b8c5",
+    "mistral-inference-9eaeb91"
+  ],
+  "status": "A1_MECHANISM_HYPOTHESIS",
+  "variants": [
+    {
+      "falsification_test": "Compare dense, random-routed, and learned-routed organizations under a frozen evaluator.",
+      "hypothesized_effect": "Increase conditional capacity without activating the full specialist set.",
+      "mechanism_id": "sparse-conditional-routing",
+      "semantic_definition": "Route work through a bounded subset of specialists selected for each request.",
+      "source_fact_boundary": "The public source names a latent mixture-of-experts system; license and transfer constraints keep it reference-only.",
+      "source_id": "kimi-k3-3cb39df",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    },
+    {
+      "falsification_test": "Test a clean-room provider-neutral router against dense and random-routing baselines.",
+      "hypothesized_effect": "Increase conditional capacity without uniform activation cost.",
+      "mechanism_id": "sparse-conditional-routing",
+      "semantic_definition": "Route work through a bounded subset of specialists selected for each request.",
+      "source_fact_boundary": "Only public model-card claims are registered; restricted source material is not copied into Core.",
+      "source_id": "llama4-0e0b8c5",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    },
+    {
+      "falsification_test": "Ablate routing, expert count, and dense baselines under equal compute and complexity budgets.",
+      "hypothesized_effect": "Increase specialist capacity without activating every specialist for every request.",
+      "mechanism_id": "sparse-conditional-routing",
+      "semantic_definition": "Route each input to a bounded subset of specialist computations selected by an explicit router.",
+      "source_fact_boundary": "The retained official reference code includes mixture-of-experts organization; MetaEngine causal transfer is untested.",
+      "source_id": "mistral-inference-9eaeb91",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ]
+}

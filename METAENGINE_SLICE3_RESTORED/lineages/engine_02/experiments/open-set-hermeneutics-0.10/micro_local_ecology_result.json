@@ -1,0 +1,129 @@
+{
+  "ecology_version": "DAE-MICRO-LOCAL-ECOLOGY-0.10",
+  "source_id": "LOCAL-SHA256-B8EE307BEB056C56FBE2872CEF3E7319E14F8D4F7E1E9305055338F66084DED6",
+  "source_resistance_status": "REGISTRY_BLIND_SPOT",
+  "open_set_status": "OPEN_SET_RIVAL_REQUIRED",
+  "routing_policy": "WINDOW_LOCAL_KNOWN_PROFILE_PLUS_OPEN_SET_RIVAL_WITH_ABSTENTION",
+  "routes": [
+    {
+      "window_id": "MW-000004-000006-C0E1A7B615B5",
+      "segment_ids": [
+        "OX-P000004-B3B6EA4EBB",
+        "OX-P000005-83796144BA",
+        "OX-P000006-095C07370A"
+      ],
+      "ordinal_start": 4,
+      "ordinal_end": 6,
+      "central_terms": [
+        "thinking",
+        "exist",
+        "mind",
+        "thought",
+        "understanding"
+      ],
+      "known_profile_hints": [],
+      "decision": "OPEN_SET_LOCAL_CANDIDATE",
+      "selected_candidates": [
+        "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060"
+      ],
+      "rationale": "The local window is source-central but does not resolve into the known profile vocabulary; the unknown family remains provisional and reversible."
+    },
+    {
+      "window_id": "MW-000005-000007-4F080B9FF235",
+      "segment_ids": [
+        "OX-P000005-83796144BA",
+        "OX-P000006-095C07370A",
+        "OX-P000007-D5B16A79B8"
+      ],
+      "ordinal_start": 5,
+      "ordinal_end": 7,
+      "central_terms": [
+        "thinking",
+        "exist",
+        "mind",
+        "thought",
+        "understanding"
+      ],
+      "known_profile_hints": [],
+      "decision": "OPEN_SET_LOCAL_CANDIDATE",
+      "selected_candidates": [
+        "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060"
+      ],
+      "rationale": "The local window is source-central but does not resolve into the known profile vocabulary; the unknown family remains provisional and reversible."
+    },
+    {
+      "window_id": "MW-000006-000008-3224EC217AC2",
+      "segment_ids": [
+        "OX-P000006-095C07370A",
+        "OX-P000007-D5B16A79B8",
+        "OX-P000008-24F9BB0F36"
+      ],
+      "ordinal_start": 6,
+      "ordinal_end": 8,
+      "central_terms": [
+        "thinking",
+        "exist",
+        "mind",
+        "understanding"
+      ],
+      "known_profile_hints": [],
+      "decision": "OPEN_SET_LOCAL_CANDIDATE",
+      "selected_candidates": [
+        "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060"
+      ],
+      "rationale": "The local window is source-central but does not resolve into the known profile vocabulary; the unknown family remains provisional and reversible."
+    },
+    {
+      "window_id": "MW-000007-000009-EAD020A1ADCF",
+      "segment_ids": [
+        "OX-P000007-D5B16A79B8",
+        "OX-P000008-24F9BB0F36",
+        "OX-P000009-1CC49F4488"
+      ],
+      "ordinal_start": 7,
+      "ordinal_end": 9,
+      "central_terms": [
+        "thinking",
+        "exist",
+        "understanding"
+      ],
+      "known_profile_hints": [],
+      "decision": "OPEN_SET_LOCAL_CANDIDATE",
+      "selected_candidates": [
+        "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060"
+      ],
+      "rationale": "The local window is source-central but does not resolve into the known profile vocabulary; the unknown family remains provisional and reversible."
+    },
+    {
+      "window_id": "MW-000008-000010-6F9167DABE48",
+      "segment_ids": [
+        "OX-P000008-24F9BB0F36",
+        "OX-P000009-1CC49F4488",
+        "OX-P000010-9F52B6218D"
+      ],
+      "ordinal_start": 8,
+      "ordinal_end": 10,
+      "central_terms": [
+        "thinking",
+        "mind",
+        "understanding"
+      ],
+      "known_profile_hints": [],
+      "decision": "OPEN_SET_LOCAL_CANDIDATE",
+      "selected_candidates": [
+        "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060"
+      ],
+      "rationale": "The local window is source-central but does not resolve into the known profile vocabulary; the unknown family remains provisional and reversible."
+    }
+  ],
+  "counts": {
+    "windows": 5,
+    "known_only": 0,
+    "open_set_only": 5,
+    "rival_routes": 0,
+    "abstentions": 0,
+    "route_transitions": 0
+  },
+  "outcome": "MICRO_LOCAL_ROUTING_AVAILABLE",
+  "claim_ceiling": "LOCAL_OPERATOR_ROUTING_HEURISTIC_NOT_PHILOSOPHICAL_TRUTH_OR_OPERATOR_PROMOTION"
+}

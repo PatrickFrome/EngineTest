@@ -1,0 +1,18 @@
+{
+  "adaptation_signal": "VERIFIED_OUTCOMES_ONLY",
+  "canonical_authority": "SUPABASE_ONLY",
+  "conflict_thresholds": {
+    "increase_below": 0.1,
+    "reduce_above": 0.25
+  },
+  "hard_genome_policy": "IMMUTABLE_BY_AUTOMATION",
+  "producer_concurrency": {
+    "default": 4,
+    "max": 6,
+    "min": 2
+  },
+  "protocol_version": "D6.1",
+  "slot_count": 8,
+  "soft_genome_policy": "BOUNDED_EMPIRICAL_ADAPTATION",
+  "topology_change_policy": "BENCHMARK_AND_EXTERNAL_GATE_REQUIRED"
+}

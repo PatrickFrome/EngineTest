@@ -1,0 +1,1576 @@
+{
+  "source_map_version": "DAE-SOURCE-MAP-1.0",
+  "engine_version": "0.2.4-alpha.1",
+  "generated_at": "2026-08-11T06:07:51Z",
+  "document_source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+  "document_artifact": {
+    "sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+    "role": "COMPOSITE_CONTAINER",
+    "admission": "CATALOGUED"
+  },
+  "catalog_targets": [
+    {
+      "catalog_source_id": "HGA-KLOSTERMANN-PLAN",
+      "catalog_kind": "OFFICIAL_EDITION_METADATA",
+      "resolution_status": "LEXICAL_ALIAS_CANDIDATE",
+      "evidence_basis": [
+        "ALIAS_PATTERN_1"
+      ],
+      "mention_count": 1,
+      "selectors": [
+        "OX-P012932-E367239EF0"
+      ],
+      "selectors_truncated": false,
+      "human_review_required": true
+    },
+    {
+      "catalog_source_id": "HGA-PJ25-1912-REALITAET",
+      "catalog_kind": "PRIMARY_ORIGINAL_PUBLICATION_DIGITAL_ARCHIVE",
+      "resolution_status": "LEXICAL_ALIAS_CANDIDATE",
+      "evidence_basis": [
+        "ALIAS_PATTERN_1"
+      ],
+      "mention_count": 2,
+      "selectors": [
+        "OX-P000001-5D78ADC8AF",
+        "OX-P000002-A0434D5772"
+      ],
+      "selectors_truncated": false,
+      "human_review_required": true
+    },
+    {
+      "catalog_source_id": "HGA-SEC-BECOMING-HEIDEGGER",
+      "catalog_kind": "SCHOLARLY_EDITION_AND_SECONDARY_FRAMING",
+      "resolution_status": "LEXICAL_ALIAS_CANDIDATE",
+      "evidence_basis": [
+        "ALIAS_PATTERN_1",
+        "ALIAS_PATTERN_2"
+      ],
+      "mention_count": 2,
+      "selectors": [
+        "OX-P000637-FD4D6760D0",
+        "OX-P001117-44CDC40B38"
+      ],
+      "selectors_truncated": false,
+      "human_review_required": true
+    },
+    {
+      "catalog_source_id": "HGA-SEC-GLAZEBROOK-2001",
+      "catalog_kind": "SECONDARY_RESEARCH",
+      "resolution_status": "LEXICAL_ALIAS_CANDIDATE",
+      "evidence_basis": [
+        "ALIAS_PATTERN_2"
+      ],
+      "mention_count": 1,
+      "selectors": [
+        "OX-P000637-FD4D6760D0"
+      ],
+      "selectors_truncated": false,
+      "human_review_required": true
+    }
+  ],
+  "ga_volume_candidates": [
+    {
+      "volume": 1,
+      "mention_count": 129,
+      "selectors": [
+        "OX-P000001-5D78ADC8AF",
+        "OX-P000002-A0434D5772",
+        "OX-P000004-C944B8092E",
+        "OX-P000378-4627EEFD39",
+        "OX-P000389-880DAF69DD",
+        "OX-P000393-611A252643",
+        "OX-P000397-E20611081F",
+        "OX-P000472-643CE9D4E9",
+        "OX-P000546-D64621156A",
+        "OX-P000560-FF9AC9DB7D",
+        "OX-P000561-30B0CF3A3B",
+        "OX-P000573-9207F1600D",
+        "OX-P000632-7F0AC39C4E",
+        "OX-P000643-71DA7161C6",
+        "OX-P000651-15EECE82B9",
+        "OX-P000652-D6EEBB7103",
+        "OX-P000653-A1B49146D3",
+        "OX-P000657-BE8A80B1F4",
+        "OX-P000661-68F4AF784A",
+        "OX-P000698-E526515FE9",
+        "OX-P000730-B9E4A67A27",
+        "OX-P000759-C6825C9A5F",
+        "OX-P000781-36E7E46979",
+        "OX-P000819-51A7636240",
+        "OX-P000852-229E9CD543",
+        "OX-P000855-7A5A7E4AA0",
+        "OX-P000857-56D276B2FF",
+        "OX-P000861-8D5E2EFAB9",
+        "OX-P000873-C2070496D5",
+        "OX-P000878-DE98CD8F47",
+        "OX-P000884-D5F930CAFA",
+        "OX-P000911-F3FFCAE6F5",
+        "OX-P000935-BF8B1E6083",
+        "OX-P000937-8A5CA20937",
+        "OX-P000944-44701A2713",
+        "OX-P001527-5F87F33807",
+        "OX-P001653-FB839BD0A2",
+        "OX-P001713-EB3CF09BA6",
+        "OX-P001766-6E2FCB154D",
+        "OX-P001779-B5DF731F33",
+        "OX-P002258-A642C58560",
+        "OX-P002267-C856F792DE",
+        "OX-P004076-B514F39A87",
+        "OX-P004077-081987DF11",
+        "OX-P004087-3E7E17AC09",
+        "OX-P004506-42B9513F2F",
+        "OX-P004508-A9D70B8D1A",
+        "OX-P004812-1576EA0E9E",
+        "OX-P005047-C0609B755B",
+        "OX-P006309-2F8F2249BE",
+        "OX-P006315-3E83A932E7",
+        "OX-P007160-4AFCA2FDC7",
+        "OX-P007806-FD6890C40D",
+        "OX-P007808-B0A45BF729",
+        "OX-P007885-FAF698ADAB",
+        "OX-P007901-A9D70B8D1A",
+        "OX-P008204-890A6AC4B2",
+        "OX-P008251-F787F31040",
+        "OX-P008267-F88F61D79C",
+        "OX-P008545-A0FB37AD2A",
+        "OX-P009216-272D197101",
+        "OX-P009415-0B80F15891",
+        "OX-P009416-8DF16DF495",
+        "OX-P009464-A4DC40EAE8",
+        "OX-P009467-3535D416A0",
+        "OX-P009546-C461E556C9",
+        "OX-P009613-B44AB638C1",
+        "OX-P009790-FEB00C91F9",
+        "OX-P009880-6EABC525C3",
+        "OX-P010353-564C16522D",
+        "OX-P010571-99D0BBF200",
+        "OX-P010712-AED2D54444",
+        "OX-P010934-52DFB26B33",
+        "OX-P011173-EB6DBBC24E",
+        "OX-P011212-FBAA935C2F",
+        "OX-P011367-700F439BA6",
+        "OX-P011840-820C8102E9",
+        "OX-P012026-BD9784D027",
+        "OX-P012033-8017D463C1",
+        "OX-P012133-91BD038CBA",
+        "OX-P012154-97F4AB99C8",
+        "OX-P012164-42E9F54BF5",
+        "OX-P012219-5533C3629A",
+        "OX-P012263-9C6166330E",
+        "OX-P012528-B560D5FD05",
+        "OX-P013318-993FCDEC99",
+        "OX-P013322-7FD8A32235",
+        "OX-P013688-BC67CCD7F0",
+        "OX-P013765-824526A734",
+        "OX-P013768-A9D70B8D1A",
+        "OX-P013874-AA64777782",
+        "OX-P013939-EB3CF09BA6",
+        "OX-P015167-E3ABA79889",
+        "OX-P015708-A710593A18",
+        "OX-P016015-CEEB53DB66",
+        "OX-P016508-50D1D7BCAE",
+        "OX-P018359-6A4488F459",
+        "OX-P018560-57EDB01B1D",
+        "OX-P018924-EA2371D948",
+        "OX-P019589-77A921CCCF",
+        "OX-P019677-C51FEC6CA6",
+        "OX-P021561-7D5187DB94",
+        "OX-P023574-310A2F90C4",
+        "OX-P023870-4880B78635",
+        "OX-P024375-8FC39A52BB",
+        "OX-P024419-4F29284CF0",
+        "OX-P024528-66C675BBB0",
+        "OX-P025605-95F1374AA8",
+        "OX-P027912-840E5DCCF6",
+        "OX-P027933-A9D70B8D1A",
+        "OX-P027988-A9D70B8D1A",
+        "OX-P028059-FC024B8095",
+        "OX-P028068-A9D70B8D1A",
+        "OX-P028111-CC7B0A806C",
+        "OX-P028155-F771C302D5",
+        "OX-P028169-A9D70B8D1A",
+        "OX-P028188-F3A48076D3",
+        "OX-P028247-5C3D7C5EB5",
+        "OX-P028900-DBD3D87C1D",
+        "OX-P029690-A36BF26A3B",
+        "OX-P029966-A9D70B8D1A",
+        "OX-P030287-F74A588A3F",
+        "OX-P030429-BA8BD86F46",
+        "OX-P030782-8AB2941428",
+        "OX-P032153-1B48A6004E",
+        "OX-P033578-8C1C6F8869",
+        "OX-P033713-6C48ECA074"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 2,
+      "mention_count": 4,
+      "selectors": [
+        "OX-P001065-E0A932A261",
+        "OX-P003409-05F610C01E",
+        "OX-P003483-2075B306E9",
+        "OX-P004196-0310B7D018"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 3,
+      "mention_count": 5,
+      "selectors": [
+        "OX-P001066-1F88A1D17C",
+        "OX-P003985-024658CA85",
+        "OX-P004614-01D940964B",
+        "OX-P004697-EBFFAE1819",
+        "OX-P004778-F52C71D6AC"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 5,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001087-984A18CED0"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 6,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001088-BA8A51BE76"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 7,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001089-53D7CD47DF"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 9,
+      "mention_count": 2,
+      "selectors": [
+        "OX-P001073-3880A6848B",
+        "OX-P001090-3880A6848B"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 10,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001091-FB52490D76"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 11,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001092-4F3614CE55"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 12,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001093-79592587B0"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 14,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001094-36A0B5E099"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 17,
+      "mention_count": 21,
+      "selectors": [
+        "OX-P001058-ECA804302E",
+        "OX-P003409-05F610C01E",
+        "OX-P003412-193B671C31",
+        "OX-P003446-21B45EA85C",
+        "OX-P003449-5308B38035",
+        "OX-P003492-42B60E160B",
+        "OX-P003498-DD6511BB7E",
+        "OX-P003511-2D1BA05AD4",
+        "OX-P003537-8258C99F7F",
+        "OX-P003983-E5A41EEACF",
+        "OX-P004312-88136B120C",
+        "OX-P004329-8B92186852",
+        "OX-P004510-EFE9CAD95C",
+        "OX-P012376-9893BD1009",
+        "OX-P012430-69AEE1C3F7",
+        "OX-P012714-83BB33D783",
+        "OX-P013072-FCA7D324D0",
+        "OX-P013074-430CDC1B97",
+        "OX-P013097-ADCB134589",
+        "OX-P013124-D182A243BC"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 18,
+      "mention_count": 8,
+      "selectors": [
+        "OX-P001059-86E35A75F8",
+        "OX-P001067-EA440364B1",
+        "OX-P003446-21B45EA85C",
+        "OX-P003454-96AB962C3B",
+        "OX-P003555-ECE3F91819",
+        "OX-P003557-04DC520974",
+        "OX-P003574-17948F9B30",
+        "OX-P003984-2616F40592"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 19,
+      "mention_count": 10,
+      "selectors": [
+        "OX-P001060-0C1D67FC57",
+        "OX-P001068-6CBC2DA49F",
+        "OX-P003464-4C5CE502FD",
+        "OX-P003690-8381C1DBB5",
+        "OX-P003692-CCD7CAA718",
+        "OX-P003715-AAFE89A8E3",
+        "OX-P003739-676FD87AD2",
+        "OX-P003755-B1E71FD1DB",
+        "OX-P003984-2616F40592",
+        "OX-P004003-AF99E70432"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 20,
+      "mention_count": 25,
+      "selectors": [
+        "OX-P001061-C45093D6A5",
+        "OX-P003446-21B45EA85C",
+        "OX-P003469-32D2C629B4",
+        "OX-P003763-B54C78A37B",
+        "OX-P003765-CF854F0C09",
+        "OX-P003770-F14D3C07E7",
+        "OX-P003815-6456C8E1F0",
+        "OX-P003816-D979A90420",
+        "OX-P003983-E5A41EEACF",
+        "OX-P004512-7D6F64F1D1",
+        "OX-P008261-7550EFCF0F",
+        "OX-P008453-0858666D80",
+        "OX-P008693-01448612C1",
+        "OX-P009140-D6EEC1F596",
+        "OX-P011226-299BD88FD0",
+        "OX-P013197-DDE744C60D",
+        "OX-P013198-424FAA56DC",
+        "OX-P013256-514D0AB1B1",
+        "OX-P013258-9C041B8812",
+        "OX-P015820-2B384D9A2D",
+        "OX-P025602-312A061CD0",
+        "OX-P028286-C3DCD650EE",
+        "OX-P029474-2DA469A1EF",
+        "OX-P029475-3E2CCF8590",
+        "OX-P030485-DA5013DBD0"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 21,
+      "mention_count": 8,
+      "selectors": [
+        "OX-P001062-5B4BFAF4DC",
+        "OX-P003474-A34DF5745B",
+        "OX-P003829-E654026433",
+        "OX-P003840-DD8A182A85",
+        "OX-P003874-55609FB0FD",
+        "OX-P003921-48560249C7",
+        "OX-P003984-2616F40592",
+        "OX-P003985-024658CA85"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 22,
+      "mention_count": 8,
+      "selectors": [
+        "OX-P001063-DC0E12EDFA",
+        "OX-P003446-21B45EA85C",
+        "OX-P003479-63C4E8152C",
+        "OX-P003897-49240EAA66",
+        "OX-P003899-2EAF146FFD",
+        "OX-P003921-48560249C7",
+        "OX-P003929-E562D24453",
+        "OX-P003984-2616F40592"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 23,
+      "mention_count": 4,
+      "selectors": [
+        "OX-P003920-A2C922BFA0",
+        "OX-P003921-48560249C7",
+        "OX-P003929-E562D24453"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 24,
+      "mention_count": 27,
+      "selectors": [
+        "OX-P000985-0A4B6EF327",
+        "OX-P001064-E8BF8B27F0",
+        "OX-P001069-85013BE238",
+        "OX-P001301-8F74D28FC3",
+        "OX-P003446-21B45EA85C",
+        "OX-P003487-2D86846746",
+        "OX-P003921-48560249C7",
+        "OX-P003929-E562D24453",
+        "OX-P003985-024658CA85",
+        "OX-P004010-A640674698",
+        "OX-P004196-0310B7D018",
+        "OX-P004210-328F33424D",
+        "OX-P004247-A89898EE89",
+        "OX-P004264-B36DEAC11A",
+        "OX-P004270-91EAD20C3E",
+        "OX-P004271-3C66853D33",
+        "OX-P004312-88136B120C",
+        "OX-P004439-F7C3FE564B",
+        "OX-P004504-905DAE336A",
+        "OX-P004516-80912E0CF1",
+        "OX-P004609-778E5FDF84",
+        "OX-P004688-443AF14F58",
+        "OX-P008466-315554D3A0",
+        "OX-P008470-1FE2517C0F",
+        "OX-P014787-2AC29C4400",
+        "OX-P015820-2B384D9A2D"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 25,
+      "mention_count": 5,
+      "selectors": [
+        "OX-P003985-024658CA85",
+        "OX-P004569-6D211A41F2",
+        "OX-P004608-AD484FF994",
+        "OX-P004615-6F1022EBCD",
+        "OX-P004697-EBFFAE1819"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 26,
+      "mention_count": 8,
+      "selectors": [
+        "OX-P004610-4A6F09019D",
+        "OX-P005007-42BA19541A",
+        "OX-P005009-77FC4B4DB9",
+        "OX-P005022-FE6E4BF1CF",
+        "OX-P005057-1E737A71D9",
+        "OX-P005098-737D1A338F",
+        "OX-P005108-C553E07490",
+        "OX-P005866-0D36665B55"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 27,
+      "mention_count": 5,
+      "selectors": [
+        "OX-P004612-8961698EC5",
+        "OX-P005186-008368F668",
+        "OX-P005188-9BEFC96DA6",
+        "OX-P005215-B052411151",
+        "OX-P005234-5D7BDFD4CA"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 28,
+      "mention_count": 5,
+      "selectors": [
+        "OX-P004622-A8B472C648",
+        "OX-P005244-E272332252",
+        "OX-P005252-EC64FA6EFF",
+        "OX-P005287-0A1942A709",
+        "OX-P005300-D74C8DA670"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 29,
+      "mention_count": 25,
+      "selectors": [
+        "OX-P001074-A6FB3B0367",
+        "OX-P004624-94A10D9403",
+        "OX-P004636-452D4C67A8",
+        "OX-P005455-F447B1CACA",
+        "OX-P005463-FDE3DCBB55",
+        "OX-P005475-F189DD45BF",
+        "OX-P005601-1DC5D603A5",
+        "OX-P005654-08657739FF",
+        "OX-P005663-F726DFC056",
+        "OX-P005726-9035531BBC",
+        "OX-P005758-EB6C30DEF4",
+        "OX-P005806-9F95FC94B0",
+        "OX-P005820-FE54F06C10",
+        "OX-P005870-F22EF7E8BD",
+        "OX-P017081-7FFCEF56F0",
+        "OX-P017190-98F38F5F2B",
+        "OX-P017257-8BA2DFC56E",
+        "OX-P018967-25025030A0",
+        "OX-P019697-36A6E0F06D",
+        "OX-P019736-8A0FADB86D",
+        "OX-P019800-CA4E9D1CAB",
+        "OX-P020288-E2E188B41B",
+        "OX-P020289-E8417AA0EF",
+        "OX-P020635-F704F6530C",
+        "OX-P021362-E7C3E88DFE"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 31,
+      "mention_count": 14,
+      "selectors": [
+        "OX-P001075-53FBD220DC",
+        "OX-P005988-C517B84EE9",
+        "OX-P005991-EA22B52212",
+        "OX-P006051-9F07674EBC",
+        "OX-P006071-6F75D8D545",
+        "OX-P006073-1BE475E595",
+        "OX-P006089-BE690DFF15",
+        "OX-P006145-1A75E93246",
+        "OX-P006198-85C0117400",
+        "OX-P006200-91C35CC5F1",
+        "OX-P006224-FCF2018DEC",
+        "OX-P006613-FCF9B81B4A",
+        "OX-P007521-B0F7AB8AE0",
+        "OX-P007727-223B5601ED"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 32,
+      "mention_count": 5,
+      "selectors": [
+        "OX-P006057-6677A67CA0",
+        "OX-P006071-6F75D8D545",
+        "OX-P006487-FCDE809453",
+        "OX-P006489-8C07ABED55",
+        "OX-P007364-E34FB2A722"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 33,
+      "mention_count": 7,
+      "selectors": [
+        "OX-P001076-A572A27A2F",
+        "OX-P006060-5717BF92A1",
+        "OX-P006071-6F75D8D545",
+        "OX-P006560-965C690871",
+        "OX-P006563-C481DE170A",
+        "OX-P006590-7002D22467",
+        "OX-P006613-FCF9B81B4A"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 34,
+      "mention_count": 12,
+      "selectors": [
+        "OX-P001077-44146C0794",
+        "OX-P006063-2B4251E209",
+        "OX-P006071-6F75D8D545",
+        "OX-P006630-DD959A7163",
+        "OX-P006632-7191E8BC17",
+        "OX-P006722-EF00451975",
+        "OX-P006730-A82D448F35",
+        "OX-P006743-2C063CA36B",
+        "OX-P006823-27366BB455",
+        "OX-P006834-915A265912",
+        "OX-P007172-75FEF1BF3E",
+        "OX-P007525-A38E70106E"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 35,
+      "mention_count": 9,
+      "selectors": [
+        "OX-P006066-47C7FF1B37",
+        "OX-P006071-6F75D8D545",
+        "OX-P006882-814E2E8B73",
+        "OX-P006893-183BD40381",
+        "OX-P006912-EB22F01744",
+        "OX-P006938-3163E6FA09",
+        "OX-P006989-EA575981BF",
+        "OX-P006994-E23D701559",
+        "OX-P007527-86AC074916"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 36,
+      "mention_count": 6,
+      "selectors": [
+        "OX-P005991-EA22B52212",
+        "OX-P006069-650F338D20",
+        "OX-P006071-6F75D8D545",
+        "OX-P007019-84D5ACD1C5",
+        "OX-P007020-FF5D10F8CC",
+        "OX-P007027-0F27F250EE"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 38,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P007805-9E3BDAA768"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 40,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001078-B5A42F3BAD"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 41,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001079-AF27210B44"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 45,
+      "mention_count": 11,
+      "selectors": [
+        "OX-P001095-7512483865",
+        "OX-P007805-9E3BDAA768",
+        "OX-P018967-25025030A0",
+        "OX-P020199-0701A54C31",
+        "OX-P020251-3F53FFC165",
+        "OX-P020293-BD3EBA4441",
+        "OX-P020465-9CA2BBB83D",
+        "OX-P020479-C31CDE7197",
+        "OX-P020642-8A2D6A2A22",
+        "OX-P021438-3DC4579459",
+        "OX-P021482-B5E30B383A"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 54,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001096-72AEA48291"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 55,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001097-8B845AA993"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 56,
+      "mention_count": 10,
+      "selectors": [
+        "OX-P000994-2D9112BFA1",
+        "OX-P001640-4DD7970BDD",
+        "OX-P001643-76DC5E19A6",
+        "OX-P001649-AB9CA7C024",
+        "OX-P001715-1071B4AFFA",
+        "OX-P001737-CF1F4BA1CB",
+        "OX-P001840-C04A8182AE",
+        "OX-P002277-B00CA0ED20",
+        "OX-P012880-C2F999A99A",
+        "OX-P012932-E367239EF0"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 58,
+      "mention_count": 13,
+      "selectors": [
+        "OX-P001001-C4AD598445",
+        "OX-P001640-4DD7970BDD",
+        "OX-P001643-76DC5E19A6",
+        "OX-P001649-AB9CA7C024",
+        "OX-P001838-86FBEEFA2B",
+        "OX-P001841-D2EFF141C7",
+        "OX-P001843-D68F7C1970",
+        "OX-P001883-0ED6D3BB3A",
+        "OX-P002278-A409F355D3",
+        "OX-P002536-7B3B1EF853",
+        "OX-P002560-92D4176452",
+        "OX-P012980-369AF7F4DC",
+        "OX-P013016-D3A1DF4BAE"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 59,
+      "mention_count": 18,
+      "selectors": [
+        "OX-P001010-3BDF968F35",
+        "OX-P001640-4DD7970BDD",
+        "OX-P001643-76DC5E19A6",
+        "OX-P001649-AB9CA7C024",
+        "OX-P001944-DDE28C080D",
+        "OX-P001945-D4321E4F3E",
+        "OX-P001972-5A54A710D6",
+        "OX-P001992-6CAAE8E985",
+        "OX-P002038-F7C9433DFD",
+        "OX-P002052-2704D4962A",
+        "OX-P002057-289FC1292A",
+        "OX-P002118-A34972CA1A",
+        "OX-P002136-F225BD3752",
+        "OX-P002258-A642C58560",
+        "OX-P002279-B1664E6E77",
+        "OX-P005769-55168A2D95",
+        "OX-P013046-7DE84C87EC",
+        "OX-P013048-A1DD39FC62"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 60,
+      "mention_count": 15,
+      "selectors": [
+        "OX-P001015-088698E6DA",
+        "OX-P002332-929FC03157",
+        "OX-P002334-F39B660EA8",
+        "OX-P002339-6A657744E9",
+        "OX-P002348-CE707E44CC",
+        "OX-P002350-4AC976D0FF",
+        "OX-P002364-8AA8CD60E9",
+        "OX-P002380-8AFE392A44",
+        "OX-P002481-6328EB2888",
+        "OX-P002561-5C24DDEC47",
+        "OX-P003280-F712D6D7A2",
+        "OX-P003364-81580B61AA",
+        "OX-P003365-6C4AE2BF42",
+        "OX-P004329-8B92186852",
+        "OX-P023343-1ADE03319C"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 61,
+      "mention_count": 13,
+      "selectors": [
+        "OX-P001024-B45B4DD99F",
+        "OX-P001033-85A1ED8363",
+        "OX-P002341-CE946AE2C1",
+        "OX-P002348-CE707E44CC",
+        "OX-P002430-4BDC232846",
+        "OX-P002720-4E28660ACA",
+        "OX-P002722-601BDF51E6",
+        "OX-P002730-FA01B35D02",
+        "OX-P002742-4598BDB594",
+        "OX-P002744-9253B21744",
+        "OX-P002775-7BCE0D602F",
+        "OX-P002796-217E745058",
+        "OX-P003366-B0778534DC"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 62,
+      "mention_count": 10,
+      "selectors": [
+        "OX-P001034-CA89367E09",
+        "OX-P001043-7CD9BB2B67",
+        "OX-P002343-EE3748344F",
+        "OX-P002348-CE707E44CC",
+        "OX-P002814-7F574617C2",
+        "OX-P002885-1A1688E1ED",
+        "OX-P002894-D5DB7E7A2F",
+        "OX-P002916-D831DF8D21",
+        "OX-P002970-2F2377190F",
+        "OX-P003367-AF5813B87A"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 63,
+      "mention_count": 20,
+      "selectors": [
+        "OX-P001044-614573716C",
+        "OX-P001045-F08430417A",
+        "OX-P002345-1B97D74D25",
+        "OX-P002348-CE707E44CC",
+        "OX-P002467-FFE97D192E",
+        "OX-P002653-E9863343C4",
+        "OX-P002675-7A64197676",
+        "OX-P002677-AF03E9D3A3",
+        "OX-P003034-5FCE3C299E",
+        "OX-P003036-7CA0D1AA00",
+        "OX-P003110-FE61D40B19",
+        "OX-P003126-94B73702A6",
+        "OX-P003140-B610138117",
+        "OX-P003149-2EB45F7F9F",
+        "OX-P003164-50CA917594",
+        "OX-P003167-7E74FDD3D8",
+        "OX-P003197-C097A10D8F",
+        "OX-P003200-A9EA6A6D5B",
+        "OX-P003364-81580B61AA",
+        "OX-P003368-F456861158"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 64,
+      "mention_count": 4,
+      "selectors": [
+        "OX-P003412-193B671C31",
+        "OX-P003459-A1CD76AB9A",
+        "OX-P003651-5EF029D325",
+        "OX-P003653-1C4443AA90"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 65,
+      "mention_count": 11,
+      "selectors": [
+        "OX-P001098-A66DA2A3D6",
+        "OX-P018967-25025030A0",
+        "OX-P020344-842C38A0FB",
+        "OX-P020406-84C06D39A6",
+        "OX-P020417-12D9DE5AE0",
+        "OX-P020490-5761C6EDE2",
+        "OX-P020516-AD5BDF5DA8",
+        "OX-P020651-E0A6C56C0F",
+        "OX-P020747-5CFF53B0A9",
+        "OX-P021497-7B5AB9ABB7",
+        "OX-P021512-C35F1C6D97"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 66,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001099-5DC0A3AA9E"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 67,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001100-828E2CB6B1"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 69,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001101-888834EBC5"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 79,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P001102-431E750902"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 80,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P006246-80B630A317"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    },
+    {
+      "volume": 82,
+      "mention_count": 1,
+      "selectors": [
+        "OX-P023028-C75620BA4C"
+      ],
+      "resolution_status": "VOLUME_LOCATOR_ONLY"
+    }
+  ],
+  "unresolved_marker_clusters": [
+    {
+      "marker_sha256": "221cd5a4dc4686a8abe2b0625634a187e548c3709eed96eef5aea1f3ab3782da",
+      "occurrence_count": 167,
+      "selectors": [
+        "OX-P000297-B959EC3351",
+        "OX-P000313-373154D4D2",
+        "OX-P001338-F80060D067",
+        "OX-P001947-D462F18BCC",
+        "OX-P002038-F7C9433DFD",
+        "OX-P002380-8AFE392A44",
+        "OX-P002430-4BDC232846",
+        "OX-P002467-FFE97D192E",
+        "OX-P002560-92D4176452",
+        "OX-P002653-E9863343C4",
+        "OX-P002744-9253B21744",
+        "OX-P002775-7BCE0D602F",
+        "OX-P002796-217E745058",
+        "OX-P002961-5530315E73",
+        "OX-P002997-6DB92B8E4C",
+        "OX-P003044-067D5C8FBC",
+        "OX-P003126-94B73702A6",
+        "OX-P003140-B610138117",
+        "OX-P003181-F387B326A9",
+        "OX-P003197-C097A10D8F",
+        "OX-P003208-1D572BD09C",
+        "OX-P003537-8258C99F7F",
+        "OX-P003890-12EB3DC25C",
+        "OX-P003937-D397587568",
+        "OX-P003951-389D0A5005",
+        "OX-P004010-A640674698",
+        "OX-P004086-BF00C6871A",
+        "OX-P004103-A46AEDAAF4",
+        "OX-P004217-A172B7A01F",
+        "OX-P004246-2341550520",
+        "OX-P004261-4A0EB297FF",
+        "OX-P004268-13DE540534",
+        "OX-P004271-3C66853D33",
+        "OX-P004439-F7C3FE564B",
+        "OX-P004688-443AF14F58",
+        "OX-P004707-0E3E03E438",
+        "OX-P004721-EBFDBB88C3",
+        "OX-P004734-5ADCE296E6",
+        "OX-P004778-F52C71D6AC",
+        "OX-P004830-51FF3002C6",
+        "OX-P004841-C6167AA7A9",
+        "OX-P004902-6D57D83B08",
+        "OX-P004962-543B29D839",
+        "OX-P005037-7DDAF379B2",
+        "OX-P005046-B0621A086B",
+        "OX-P005057-1E737A71D9",
+        "OX-P005072-BE5E581F42",
+        "OX-P005098-737D1A338F",
+        "OX-P005108-C553E07490",
+        "OX-P005156-B9344E2FD6",
+        "OX-P005176-5DB2EBF792",
+        "OX-P005215-B052411151",
+        "OX-P005234-5D7BDFD4CA",
+        "OX-P005300-D74C8DA670",
+        "OX-P005325-15D442573B",
+        "OX-P005366-8970F0EEE0",
+        "OX-P005404-8F91F70007",
+        "OX-P005414-12AC1928BC",
+        "OX-P005475-F189DD45BF",
+        "OX-P005518-FA7D02F38C",
+        "OX-P005531-17A61DA906",
+        "OX-P005601-1DC5D603A5",
+        "OX-P005654-08657739FF",
+        "OX-P006145-1A75E93246",
+        "OX-P006198-85C0117400",
+        "OX-P006293-0DA7BA635F",
+        "OX-P006306-10B6474FD0",
+        "OX-P006403-3A65D1E45E",
+        "OX-P006433-DD59BAE3AF",
+        "OX-P006453-7D805665F2",
+        "OX-P006507-E61B0B32C4",
+        "OX-P006590-7002D22467",
+        "OX-P006722-EF00451975",
+        "OX-P006730-A82D448F35",
+        "OX-P006743-2C063CA36B",
+        "OX-P006893-183BD40381",
+        "OX-P006912-EB22F01744",
+        "OX-P006943-026AA09893",
+        "OX-P006994-E23D701559",
+        "OX-P007034-AA18EBFE5D",
+        "OX-P008251-F787F31040",
+        "OX-P008266-D48957D717",
+        "OX-P008453-0858666D80",
+        "OX-P008568-221CD5A4DC",
+        "OX-P008602-82BA939F8D",
+        "OX-P008706-221CD5A4DC",
+        "OX-P008772-1D4DC269F9",
+        "OX-P009144-221CD5A4DC",
+        "OX-P010229-FA170134D3",
+        "OX-P010261-E13667A9A8",
+        "OX-P010333-69F1BA28C9",
+        "OX-P010508-DB9F246E44",
+        "OX-P010622-5444F1379C",
+        "OX-P011239-B94AF3CA0C",
+        "OX-P012162-9DE00468DE",
+        "OX-P012376-9893BD1009",
+        "OX-P012714-83BB33D783",
+        "OX-P012910-A47D5EA3F7",
+        "OX-P013039-6D152580D1",
+        "OX-P013048-A1DD39FC62",
+        "OX-P013096-1D5F1ED6B8",
+        "OX-P013212-58896C9EFC",
+        "OX-P013301-E0F0968358",
+        "OX-P013343-5E13AD6410",
+        "OX-P014820-B21F7304C7",
+        "OX-P015095-E5D3264122",
+        "OX-P015820-2B384D9A2D",
+        "OX-P016019-9267CAB417",
+        "OX-P016130-21F5C658E8",
+        "OX-P016220-7C53A0FA3D",
+        "OX-P016430-87C3E72760",
+        "OX-P016506-D98AE62C23",
+        "OX-P016698-65197D0B44",
+        "OX-P016753-C92778D071",
+        "OX-P016840-9E8F7D044C",
+        "OX-P017112-6F18CBDFF6",
+        "OX-P017154-B1629D3870",
+        "OX-P017202-17850EBD3A",
+        "OX-P017235-4FD09722F7",
+        "OX-P017359-3B13AA04E1",
+        "OX-P017482-B28E8CC0CD",
+        "OX-P017543-73613BE2BD",
+        "OX-P017697-EA7133B34D",
+        "OX-P017723-0D053A6C36",
+        "OX-P017746-5E5CC1153F",
+        "OX-P017770-27032E0C98",
+        "OX-P018155-C7E50AA5FD",
+        "OX-P018627-FB97173AAD",
+        "OX-P019020-296DDEA670",
+        "OX-P019105-A89D3ABF1B",
+        "OX-P019464-221CD5A4DC",
+        "OX-P019755-6CC4CB2F08",
+        "OX-P019835-221CD5A4DC",
+        "OX-P020276-E95213EC90",
+        "OX-P020380-651D8E521E",
+        "OX-P020406-84C06D39A6",
+        "OX-P020446-221CD5A4DC",
+        "OX-P020522-E1136AEFD4",
+        "OX-P022249-221CD5A4DC",
+        "OX-P022280-92AD945508",
+        "OX-P022444-221CD5A4DC",
+        "OX-P022575-EFEACE404E",
+        "OX-P022602-221CD5A4DC",
+        "OX-P022638-221CD5A4DC",
+        "OX-P022741-3F20C34E2B",
+        "OX-P022851-A497FAC2D6",
+        "OX-P022967-6FE5B8E4CA",
+        "OX-P023029-34B39096E0",
+        "OX-P023239-E39008E94A",
+        "OX-P023521-CF84205C31",
+        "OX-P023522-F9F90536ED",
+        "OX-P024114-E9ACC43C11",
+        "OX-P025019-221CD5A4DC",
+        "OX-P025020-B4F7433927",
+        "OX-P025602-312A061CD0",
+        "OX-P025845-C3054B00DF",
+        "OX-P026218-13F00B34DB",
+        "OX-P028184-02DE419E47",
+        "OX-P028189-866168D819",
+        "OX-P028305-38C5C64876",
+        "OX-P029485-221CD5A4DC",
+        "OX-P030311-221CD5A4DC",
+        "OX-P030485-DA5013DBD0",
+        "OX-P031819-1EAC7BC000",
+        "OX-P031825-2DB0F78B98",
+        "OX-P032461-EEF2F86A28",
+        "OX-P032804-893604AE11"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "1cbfbc2d28f583a9d1249731dfb5cdeed49488c6f9682ba9a5ce86085c7e67cf",
+      "occurrence_count": 53,
+      "selectors": [
+        "OX-P000066-4DD98F06A5",
+        "OX-P000292-B7F0DFC833",
+        "OX-P000984-6D8DAA0F92",
+        "OX-P000985-0A4B6EF327",
+        "OX-P001113-BA86E027B6",
+        "OX-P001135-9D35BBF230",
+        "OX-P001165-F7F5F04774",
+        "OX-P001172-63F31410F6",
+        "OX-P001464-41BD1E501A",
+        "OX-P003511-2D1BA05AD4",
+        "OX-P003973-6C24863A51",
+        "OX-P004615-6F1022EBCD",
+        "OX-P004621-BCC8052B8F",
+        "OX-P004691-5AC5328A4B",
+        "OX-P005179-2E670CD525",
+        "OX-P005358-CAB21CB55A",
+        "OX-P005385-C55D41D2BC",
+        "OX-P005554-257F3AADF0",
+        "OX-P005566-4D48F38FC5",
+        "OX-P006089-BE690DFF15",
+        "OX-P006329-BD7C53ECF8",
+        "OX-P006371-FAAE24A842",
+        "OX-P006613-FCF9B81B4A",
+        "OX-P006804-7CBF37C64D",
+        "OX-P007891-0CBE1E05DB",
+        "OX-P009880-6EABC525C3",
+        "OX-P010271-9790E88730",
+        "OX-P010315-FD6719F76C",
+        "OX-P010421-A1E07E71D5",
+        "OX-P010515-E5AF69C975",
+        "OX-P011109-5703CE367D",
+        "OX-P011252-2043E25A56",
+        "OX-P012430-69AEE1C3F7",
+        "OX-P012996-1CBFBC2D28",
+        "OX-P013210-76AB32CAE6",
+        "OX-P014314-0C7E7BBFB7",
+        "OX-P014345-2DB773A412",
+        "OX-P014594-D16FFBB281",
+        "OX-P014677-1CBFBC2D28",
+        "OX-P017270-BCBCDC32FB",
+        "OX-P019705-13C5558E7D",
+        "OX-P020237-A80B621225",
+        "OX-P020365-01B17497FC",
+        "OX-P020758-9B6A22042D",
+        "OX-P021482-B5E30B383A",
+        "OX-P021512-C35F1C6D97",
+        "OX-P022146-C9DED922A6",
+        "OX-P025554-BB0A14CD37",
+        "OX-P026104-A5649ED4B4",
+        "OX-P026206-CEBD9278EF",
+        "OX-P028384-0BCAA5AABC",
+        "OX-P029993-C923517DB7",
+        "OX-P031889-CAE27945E5"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "a9b0547d933a81b8ced53045a65f940634e61cd333f2ee18cbc5b2e2dd30112a",
+      "occurrence_count": 12,
+      "selectors": [
+        "OX-P001143-6F68DFF01B",
+        "OX-P004617-831D0DF818",
+        "OX-P004809-7C1FAAA0F5",
+        "OX-P004944-7D894D6981",
+        "OX-P005579-0620F944B3",
+        "OX-P006862-9BFF2C79F1",
+        "OX-P007035-146963039C",
+        "OX-P007156-824BE016B1",
+        "OX-P007460-94CCB9CD1C",
+        "OX-P015459-0632A4C0EA",
+        "OX-P016790-2241F7BDD8",
+        "OX-P023342-F8FC44F900"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "6bde93645e16dda0a74c4d1e84915c7ad02c8f83ae8450eae524a7ffe69b4313",
+      "occurrence_count": 11,
+      "selectors": [
+        "OX-P025715-D3D0A31E14",
+        "OX-P025962-EFF0529937",
+        "OX-P026223-651881B84B",
+        "OX-P026402-8637CCE323",
+        "OX-P026616-B70F893D02",
+        "OX-P029348-38B9D096C2",
+        "OX-P031826-1D6BD11202",
+        "OX-P032085-3EBA5A49A3",
+        "OX-P032113-20C8E28901",
+        "OX-P032151-0C2E704B75",
+        "OX-P033462-07601AC4AA"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "8cea927107b94a09b2c823c727d20dea069999eadcb3f6f8430dc34a18ed2656",
+      "occurrence_count": 11,
+      "selectors": [
+        "OX-P000018-F44F207810",
+        "OX-P000042-89322D9E16",
+        "OX-P000055-F581171C2F",
+        "OX-P000077-E939798B4F",
+        "OX-P000087-47CB419A49",
+        "OX-P000108-368047DD6D",
+        "OX-P000171-219A31F91C",
+        "OX-P000212-04D73D8EB1",
+        "OX-P000226-B59F2DDAE1",
+        "OX-P000252-F266A4EA7B",
+        "OX-P000259-ECAB9A381F"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "2031ed5850b6d0590a8585ea3a1a7a4a5f428f34ca72cda0e73157083f9b7733",
+      "occurrence_count": 9,
+      "selectors": [
+        "OX-P004155-ED6E55B905",
+        "OX-P004208-A0D1905720",
+        "OX-P005465-6ED1C36F98",
+        "OX-P005663-F726DFC056",
+        "OX-P005806-9F95FC94B0",
+        "OX-P005820-FE54F06C10",
+        "OX-P006040-57F6DCE0B6",
+        "OX-P007575-E4C6B79DFA",
+        "OX-P015120-3C3C3313F8"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "fb98672f0c0a16e623667825a2076693d53aa771fe3ac8b3f44920721ced6c3e",
+      "occurrence_count": 9,
+      "selectors": [
+        "OX-P001043-7CD9BB2B67",
+        "OX-P003929-E562D24453",
+        "OX-P004613-4CE74F954B",
+        "OX-P004623-79D64ADF5D",
+        "OX-P004625-C548D6F7DB",
+        "OX-P005192-E6BBE50326",
+        "OX-P005264-B29BBE3CF7",
+        "OX-P005610-5E9C509D86",
+        "OX-P006632-7191E8BC17"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "0758063fe4aa140082bae4c2d6e7bd1fea60ef016d02d425b78ffd0a37a5b8d6",
+      "occurrence_count": 7,
+      "selectors": [
+        "OX-P012466-314D41B4E2",
+        "OX-P012606-CF8A200918",
+        "OX-P014119-A94B4878A4",
+        "OX-P014555-A4E9E7FE38",
+        "OX-P014783-6FFDE197E8",
+        "OX-P015011-0758063FE4",
+        "OX-P017837-D28DB6EB80"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "08e13689127ef75e0d9dbb9a9ca6bf89942070531a5e49e21f02a109836287fa",
+      "occurrence_count": 6,
+      "selectors": [
+        "OX-P000118-BAFBB384D2",
+        "OX-P000130-E4B3134CFD",
+        "OX-P000142-04341D11F9",
+        "OX-P000188-F2AE9A9306",
+        "OX-P000199-DE37F53D36",
+        "OX-P000237-1090C76CE4"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "0a638c2962aa3a3ff7992cb853da00bce0606efc72db62147fc8a89a59d71d0a",
+      "occurrence_count": 5,
+      "selectors": [
+        "OX-P000004-C944B8092E",
+        "OX-P005674-222EE7913D",
+        "OX-P007899-FC27ABECE0",
+        "OX-P009613-B44AB638C1",
+        "OX-P011296-FF93A4E314"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "3f5b5c140ee5048b874386332e750ae37dc2bee88e8674b3fc44c79003ecacc8",
+      "occurrence_count": 3,
+      "selectors": [
+        "OX-P001763-90678E194E",
+        "OX-P002625-736B91BC0B",
+        "OX-P002718-59893B2B1B"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "d73fddd82e81b2e898699d583a5b73ec073b6f187eeef28449e2d99df061a4c4",
+      "occurrence_count": 3,
+      "selectors": [
+        "OX-P001388-648B003AEC",
+        "OX-P006226-16F1462372",
+        "OX-P013381-0112181317"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "09d3d7adca4e7c165c708d3bb9554fe8fcb46db95eab41a10741fc30ac3cc3ed",
+      "occurrence_count": 2,
+      "selectors": [
+        "OX-P007849-625406BB95",
+        "OX-P007898-58F8F79F7E"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "11056b6e524d47c6af3624cb6528479134ce84d3e87b3c83d0258250d63e745a",
+      "occurrence_count": 2,
+      "selectors": [
+        "OX-P001023-ED231B7285",
+        "OX-P001127-1CDB31140C"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "68802f79e6178cb77c09c3dfd641d3ed693ec02bdc66cb57eae2e90e002d18c5",
+      "occurrence_count": 2,
+      "selectors": [
+        "OX-P003749-A30D2E5831",
+        "OX-P003755-B1E71FD1DB"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "7562e64b7060fa7747c651bcc004295bd55e41ad5aa712d65877fc35f21bf6b6",
+      "occurrence_count": 2,
+      "selectors": [
+        "OX-P002348-CE707E44CC",
+        "OX-P003446-21B45EA85C"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "9fbd5582093549cae1478763d9c3af00f049a3749cc44e7d04ba36ebbbcd95e0",
+      "occurrence_count": 2,
+      "selectors": [
+        "OX-P002057-289FC1292A",
+        "OX-P002074-B469F9BAB0"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "a2675a4dbff8a9ebc39739f52387cad97f4dec57ffc0b2a66bc7313e0973c948",
+      "occurrence_count": 2,
+      "selectors": [
+        "OX-P001992-6CAAE8E985",
+        "OX-P002136-F225BD3752"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "cc8074668ae2c4498a3149340d8ae3dfe730580782c18bdcc2bfe15e1a7c9707",
+      "occurrence_count": 2,
+      "selectors": [
+        "OX-P031703-81612AF28C",
+        "OX-P032017-8BB03F8158"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "cfc2d613395ebc1ae2f0bc81dd158f8c3e547e2b5894dc5c8ee8a3146b89c583",
+      "occurrence_count": 2,
+      "selectors": [
+        "OX-P001137-0ABBA4B903",
+        "OX-P001928-01363F80DD"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "05665925b255b9526a17c849e8a5b51a7d37651e8e901c12a2b01fcc7225c9fc",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P012350-6399DE53C5"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "097af3624ea31b7ff3bc48ce41e56968bd4adbdb60ba5bf281fe84c2fced4ca1",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P000033-566EEE91C5"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "1c70450ba07a9a803b0445bb502188dbea848657b4ecea96247bed814f64e5a7",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P001141-1F53B35BDE"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "1e341cfa94b9bb26570395e50fc67a73909af92b7474e1cffe65e898f7ce0a09",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P031204-BE2B2249B0"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "2147ec51e47b134a864d4863b3214c2ef74286a9e0148e5ef32b8dabdeb10027",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P006854-E3A3F87D33"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "3064030ecc18f9b464a38cdc7c66b2cf0d03b32d0de16636f4ae74e73a97fcb3",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P001301-8F74D28FC3"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "38c4cf1a4bec22fc1d92e3cd75c8e56fe0a24054aa05278b3308e3ff3a1e5288",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P003826-6C391DF69C"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "3ef7d3633ecb717ca05c76f0177edc10cb55d2e9356e46cd88a1d2b8d84bc1fb",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P002509-DEACD9A6E0"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "54ef2e9531198da16ed25075da9920fbd2c4b589d903090028849d7da5a844e1",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P012527-14C9706F73"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "5938b6a2abfa287327fd1d2669a9472129b79dfb57741fa83402a0a4d22d32e6",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P004933-9C2F29C275"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "81898b0d39e302d9c08b70c1b4e94e2fb19e6471bc4885c74b18b2eb0456891b",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P001510-A738DDD764"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "8489783201ca1784a48cafb98353ea8dd73b54d21673058cd05581a612cfd2c3",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P007438-10787FCA3E"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "8cbc1c050797f5f2f3bd1ced13b18841c47c66cab2f79309d3c5dcbff7fc0013",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P002677-AF03E9D3A3"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "8ed1562f38c2efcae3a8d1ac32a66b927f8b9a203f0b1c25c2e49af89e4c41b1",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P001883-0ED6D3BB3A"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "97ce8131ac634c751afee15caf267e93469fdf3bbe59631ff698466eb62bc9aa",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P005425-8D416312BE"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "9dd8fab097197768ac875c9de4c580b26ed0e5966c09a7b4c8f65e8ea3215e5c",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P004504-905DAE336A"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "c4216912b78eccc39f7235a051ea198add12bd2bdbe8411f1fb1b359d2cec9da",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P005132-E0BFB68C1F"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "c5d9a72745d0a8eb7527e39f3de52670b014751b64e0b46dc7bac7b323f9b30d",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P000374-D5A136C300"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "c94a611f633fe8ef3b5874ca75ac415177ab42f6f3f030d39969b10b5cf534fb",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P018967-25025030A0"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "d27d370937ab139e623cce6bd966d71cb0b99141aef656b195c7b89f17ce8f99",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P006071-6F75D8D545"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "d8bb72ae07282927fcc442a2c56bd201d6122b97e9640bf40d06b756d3322520",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P001649-AB9CA7C024"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "e3e7efa9a2a79a478dee2b80f74e7a829f5efc56714a34b8e514048063c20d45",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P001123-FC97D82E96"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "e9270828aa22daec842db11cbbbe0064383285eed75014731ef852328e288b32",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P001376-A610AC798E"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    },
+    {
+      "marker_sha256": "eca0024ab608a5b33d93e208cac4b84341b031c8d4a96fdeb19e81f86cb3de72",
+      "occurrence_count": 1,
+      "selectors": [
+        "OX-P003618-1C92601B71"
+      ],
+      "resolution_status": "UNRESOLVED_PSEUDO_CITATION"
+    }
+  ],
+  "coverage": {
+    "segments_scanned": 33870,
+    "segments_with_catalog_alias": 5,
+    "segments_with_ga_locator": 446,
+    "pseudo_citation_occurrences": 336,
+    "hyperlink_occurrences": 0,
+    "resolved_claim_level_citations": 0
+  },
+  "claim_ceiling": "SOURCE_TARGET_AND_CITATION_MARKER_CANDIDATES_ONLY_NOT_CLAIM_LEVEL_SOURCE_RESOLUTION"
+}

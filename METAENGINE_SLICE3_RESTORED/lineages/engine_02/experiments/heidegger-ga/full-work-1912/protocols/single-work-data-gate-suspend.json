@@ -1,0 +1,37 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "HGA-GA01-REALITAET-DATA-GATE-001",
+  "protocol_id": "V38-DATA-GATE",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "HGA-GA01-REALITAET-BENCHMARK",
+    "description": "Переход от допустимого однотекстового производного анализа к эмпирическому benchmark качества интерпретации.",
+    "source_refs": ["HGA-PJ25-1912-REALITAET#S353-S363", "HGA-GA01-REALITAET-SOURCE-MANIFEST#access-policy"]
+  },
+  "operator": {"agent_id": "dae-ga1-work-pilot", "role": "automated-research-gate"},
+  "started_at": "2026-08-11T05:10:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "DATA_LEGITIMATE": {
+      "status": "YES",
+      "evidence_refs": ["HGA-PJ25-1912-REALITAET#sha256:76972a6965f1213ee3c383d23038320a5c6a238f31c3e1effceb054b853f2791"],
+      "note": "Происхождение одной статьи и фиксация байтов проверяемы; это не означает наличие корпуса GA."
+    },
+    "AUTH_EXPLICIT": {
+      "status": "YES",
+      "evidence_refs": ["HGA-GA01-REALITAET-SOURCE-MANIFEST#DERIVATIVE_ONLY"],
+      "note": "Явно разрешён только производный локальный анализ без удержания и распространения полного текста; beyng.com остаётся reference-only."
+    },
+    "LICENSE_EXPLICIT": {
+      "status": "UNKNOWN",
+      "evidence_refs": [],
+      "note": "Публичная доступность архива не истолкована как лицензия на повторное распространение или корпусное обучение."
+    },
+    "CODERS_AVAILABLE": {
+      "status": "NO",
+      "evidence_refs": [],
+      "note": "Независимые немецкоязычные кодировщики не назначены."
+    }
+  },
+  "declared_outcome": "SUSPEND"
+}

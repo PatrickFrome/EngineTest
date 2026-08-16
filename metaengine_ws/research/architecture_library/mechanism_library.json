@@ -1,0 +1,571 @@
+{
+  "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+  "candidates": [
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.adaptive_reasoning_budget",
+      "semantic_definition": "Allocate reasoning depth/budget adaptively per query.",
+      "origin_source_ids": [
+        "src.gemini-deep-think.1",
+        "src.gpt-5.6.1",
+        "src.qwen.1"
+      ],
+      "source_fact_boundary": "Observed as behavior in closed systems and as a mode toggle in Qwen3 public material.",
+      "hypothesized_effect": "Better quality/cost trade-off across query difficulty.",
+      "task_scope": [
+        "REASONING"
+      ],
+      "prerequisites": [
+        "budget_controller"
+      ],
+      "resource_cost": "UNOBSERVED",
+      "complexity_cost": "budget policy + early-exit heads",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "UNOBSERVED",
+      "status": "A0_OBSERVED",
+      "promotion_authority": null,
+      "mechanism_hash": "a16c57774cb59e017702da69b91de6a257af166615274c6703357b4b127cbeae"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.constitution_derived_testing",
+      "semantic_definition": "Derive tests/invariants from a constitutional rule set.",
+      "origin_source_ids": [
+        "src.claude.1",
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "MetaEngine K0/K1 invariants are the source fact; Claude constitutional-AI is behavioral evidence only.",
+      "hypothesized_effect": "Automated, provenance-bound test generation from invariants.",
+      "task_scope": [
+        "TESTING"
+      ],
+      "prerequisites": [
+        "constitution_kernel"
+      ],
+      "resource_cost": "low",
+      "complexity_cost": "invariant->test compiler",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "LOW",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "baded6e0b264c70fb6845dc29457e644e78efc3ae74fbe5e82a8b81191569bea"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.dynamic_specialist_swarm_instantiation",
+      "semantic_definition": "Dynamically instantiate a swarm of specialist workers conditioned on the task.",
+      "origin_source_ids": [
+        "src.gpt-5.6.1",
+        "src.kimi-k3.1"
+      ],
+      "source_fact_boundary": "Agentic behavior observed; mechanism is hypothesized, not confirmed.",
+      "hypothesized_effect": "Better task-specific quality at the cost of orchestration overhead.",
+      "task_scope": [
+        "AGENTIC",
+        "PLANNING"
+      ],
+      "prerequisites": [
+        "orchestrator_role"
+      ],
+      "resource_cost": "UNOBSERVED",
+      "complexity_cost": "specialist pool + dispatcher",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "UNOBSERVED",
+      "status": "A0_OBSERVED",
+      "promotion_authority": null,
+      "mechanism_hash": "232c0e52bc4dce236a354c86b2592434c04b4033d6d7c8526c527d4a75b2cf87"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.hybrid_compressed_full_attention",
+      "semantic_definition": "Alternate between compressed-state and full-attention layers within a single organization.",
+      "origin_source_ids": [
+        "src.deepseek.1",
+        "src.kimi-linear.1"
+      ],
+      "source_fact_boundary": "Public papers describe hybrid attention patterns; exact layer ratios are implementation-specific.",
+      "hypothesized_effect": "Balances long-context reach with local precision at controlled memory cost.",
+      "task_scope": [
+        "GENERATION",
+        "LONG_CONTEXT"
+      ],
+      "prerequisites": [
+        "compressor_head"
+      ],
+      "resource_cost": "UNOBSERVED",
+      "complexity_cost": "dual-path attention + scheduler",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "UNOBSERVED",
+      "status": "A0_OBSERVED",
+      "promotion_authority": null,
+      "mechanism_hash": "56981e80f7ee281e5493f6449e185f2c086f9aa9bce6408f5ea0a70bde59d247"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.latent_context_compression",
+      "semantic_definition": "Compress KV/context state into a latent representation to reduce attention cost.",
+      "origin_source_ids": [
+        "src.deepseek.1",
+        "src.kimi-linear.1"
+      ],
+      "source_fact_boundary": "Reported in public papers; transfer to MetaEngine is unverified.",
+      "hypothesized_effect": "Longer effective context at fixed memory budget.",
+      "task_scope": [
+        "LONG_CONTEXT"
+      ],
+      "prerequisites": [
+        "compressor_head"
+      ],
+      "resource_cost": "UNOBSERVED",
+      "complexity_cost": "encoder + reconstruction",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "UNOBSERVED",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "284fcf640a3689e3c508a921bfc03a97db05cfb11d216ac9b796ce8146227c3c"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.metaengine.dialectical_graph",
+      "semantic_definition": "Graph-structured dialectical reasoning where engines produce thesis/antithesis/synthesis nodes.",
+      "origin_source_ids": [
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "Implemented in metaengine/dialectical_graph.py (2.2); registered retrospectively.",
+      "hypothesized_effect": "Structured disagreement leads to higher-quality synthesis.",
+      "task_scope": [
+        "REASONING"
+      ],
+      "prerequisites": [],
+      "resource_cost": "moderate",
+      "complexity_cost": "graph builder + synthesis resolver",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "MEDIUM",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "f5e14357aea69fbf46d937046637d3fe3e217cf79dfc4a5ad64d445cba8ca347"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.metaengine.epistemic_gain",
+      "semantic_definition": "Measure and maximize epistemic gain (information quality) across organization rounds.",
+      "origin_source_ids": [
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "Implemented in metaengine/epistemic_gain.py (2.2); registered retrospectively.",
+      "hypothesized_effect": "Organizations that maximize knowledge gain rather than token count.",
+      "task_scope": [
+        "REASONING",
+        "TESTING"
+      ],
+      "prerequisites": [],
+      "resource_cost": "low",
+      "complexity_cost": "gain estimator + feedback loop",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "MEDIUM",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "9a3df6f361dcb96abecc3ba111386f236b9febeacad53dbddcb8cedf1442d16f"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.metaengine.frozen_matrix",
+      "semantic_definition": "Frozen evaluation matrix that pins task/resource/regime contracts before execution.",
+      "origin_source_ids": [
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "Implemented in metaengine/frozen_matrix.py (2.3); registered retrospectively.",
+      "hypothesized_effect": "Reproducible evaluation immune to retroactive metric redefinition.",
+      "task_scope": [
+        "TESTING"
+      ],
+      "prerequisites": [],
+      "resource_cost": "low",
+      "complexity_cost": "matrix freezer + verifier",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "MEDIUM",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "b154c35613084d0d7604c7e2b63450900ceae25fcdc919fc182206f914ca2ee5"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.metaengine.hybrid_mesh",
+      "semantic_definition": "Hybrid mesh topology combining deep and shallow engine paths.",
+      "origin_source_ids": [
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "Implemented in metaengine/hybrid_mesh.py (2.2); registered retrospectively.",
+      "hypothesized_effect": "Flexible depth/compute trade-off per token.",
+      "task_scope": [
+        "GENERATION"
+      ],
+      "prerequisites": [],
+      "resource_cost": "moderate",
+      "complexity_cost": "mesh router + depth policy",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "MEDIUM",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "08bb9a2c2a46c7765e4a9494a8ebf057655aaccb4d7d1df0227d9f628929983e"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.metaengine.parallel_ecology",
+      "semantic_definition": "Parallel experimental ecology where multiple organization variants compete in an ecosystem.",
+      "origin_source_ids": [
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "Implemented in metaengine/parallel_ecology.py (2.1); registered retrospectively.",
+      "hypothesized_effect": "Diverse variants explored in parallel; winners selected by outcome.",
+      "task_scope": [
+        "MULTI_WAVE"
+      ],
+      "prerequisites": [],
+      "resource_cost": "high",
+      "complexity_cost": "ecology runner + selection policy",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "MEDIUM",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "19b70b3dde9dce5d52ffd9acde2d5b21a22057aad19e7b51225da26486dd24c4"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.metaengine.polycentric_reentry",
+      "semantic_definition": "Multi-center re-entry orchestration where multiple cognitive centers re-enter the problem from different angles.",
+      "origin_source_ids": [
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "Implemented in metaengine/polycentric_reentry.py (2.2); registered retrospectively, not reimplemented.",
+      "hypothesized_effect": "Broader solution-space coverage via polycentric perspective shifts.",
+      "task_scope": [
+        "MULTI_WAVE",
+        "REASONING"
+      ],
+      "prerequisites": [
+        "orchestrator_role"
+      ],
+      "resource_cost": "moderate",
+      "complexity_cost": "center coordinator + re-entry scheduler",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "MEDIUM",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "15da3d8ab3c52c80f1eb38df6031b9a6652458921349bd6ce5bf6fa6c4037333"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.metaengine.self_organizing_metrics",
+      "semantic_definition": "Metrics that reorganize themselves based on observed organization behavior.",
+      "origin_source_ids": [
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "Implemented in metaengine/self_organizing_metrics.py (2.0); registered retrospectively.",
+      "hypothesized_effect": "Metric system adapts to task regime without manual redesign.",
+      "task_scope": [
+        "MULTI_WAVE",
+        "TESTING"
+      ],
+      "prerequisites": [],
+      "resource_cost": "low",
+      "complexity_cost": "metric reorganizer + stability guard",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "MEDIUM",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "ae57ef93b36c5ef32842ee1bf32fc0b185ac6230b0a8a5b7d41122178c2c925c"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.metaengine.transformation_graph",
+      "semantic_definition": "Graph of transformation operators applied to organization state, with provenance edges.",
+      "origin_source_ids": [
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "Implemented in metaengine/transformation_graph.py (2.3); registered retrospectively.",
+      "hypothesized_effect": "Auditable chain of transformations; rollback and replay supported.",
+      "task_scope": [
+        "MULTI_WAVE"
+      ],
+      "prerequisites": [],
+      "resource_cost": "low",
+      "complexity_cost": "graph store + provenance tracker",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "MEDIUM",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "4809d23003b1974320b86d8167ef7cca7b2a87ef4bee2deb8487f7c2b0dfe07b"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.objective_neutral_load_balancing",
+      "semantic_definition": "Distribute work across engines/roles without optimizing for any single objective metric.",
+      "origin_source_ids": [
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "MetaEngine's polycentric_reentry.py and parallel_ecology.py implement balance patterns.",
+      "hypothesized_effect": "Prevents single-objective overfitting in multi-wave organizations.",
+      "task_scope": [
+        "MULTI_WAVE"
+      ],
+      "prerequisites": [],
+      "resource_cost": "low",
+      "complexity_cost": "balance policy",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "LOW",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "e7523a37b057af7cf292705208de23a03d9b4dcf2a92191b09341484528c1373"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.parallel_hypothesis_generation",
+      "semantic_definition": "Generate multiple parallel hypotheses/plans and critique them.",
+      "origin_source_ids": [
+        "src.gpt-5.6.1",
+        "src.kimi-k3.1"
+      ],
+      "source_fact_boundary": "Observed as agentic behavior in closed/restricted systems.",
+      "hypothesized_effect": "Higher coverage of solution space at higher compute cost.",
+      "task_scope": [
+        "PLANNING"
+      ],
+      "prerequisites": [
+        "critic_role"
+      ],
+      "resource_cost": "UNOBSERVED",
+      "complexity_cost": "fan-out + discriminator",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "UNOBSERVED",
+      "status": "A0_OBSERVED",
+      "promotion_authority": null,
+      "mechanism_hash": "b2d7ef79a365aecf5a92823b87a786be2f2f841385d1f73de2314e14327d208d"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.preserved_structured_state",
+      "semantic_definition": "Carry forward a structured state representation across organization waves.",
+      "origin_source_ids": [
+        "src.metaengine.design.1"
+      ],
+      "source_fact_boundary": "MetaEngine's own state_cache.py and replication_outbox.py implement a variant of this.",
+      "hypothesized_effect": "Reduces redundant recomputation across waves; preserves provenance.",
+      "task_scope": [
+        "MULTI_WAVE"
+      ],
+      "prerequisites": [
+        "state_store"
+      ],
+      "resource_cost": "low",
+      "complexity_cost": "state schema + serialization",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "LOW",
+      "status": "A1_MECHANISM_HYPOTHESIS",
+      "promotion_authority": null,
+      "mechanism_hash": "b82b47d83996775a8351918d47efae580e822bef388ea6b256349664f1d4d388"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.residual_organization_paths",
+      "semantic_definition": "Maintain residual paths across organization waves so earlier outputs remain reachable.",
+      "origin_source_ids": [
+        "src.mistral.1"
+      ],
+      "source_fact_boundary": "Sliding-window/GQA patterns reported in public Mistral material.",
+      "hypothesized_effect": "Stable long-range information flow in multi-wave organizations.",
+      "task_scope": [
+        "MULTI_WAVE"
+      ],
+      "prerequisites": [],
+      "resource_cost": "UNOBSERVED",
+      "complexity_cost": "residual wiring",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "UNOBSERVED",
+      "status": "A0_OBSERVED",
+      "promotion_authority": null,
+      "mechanism_hash": "d465438425baf5824e65105c1bf1a36cab614dd973a4392d7dee01f3264b92b4"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.sparse_conditional_routing",
+      "semantic_definition": "Route only a subset of experts/paths per token via a learned gate.",
+      "origin_source_ids": [
+        "src.deepseek.1",
+        "src.glm.1",
+        "src.llama4.1",
+        "src.qwen.1"
+      ],
+      "source_fact_boundary": "Source papers report the routing pattern; exact gate implementation is source code only where permissively licensed.",
+      "hypothesized_effect": "Reduces per-token compute without proportional quality loss under bounded load.",
+      "task_scope": [
+        "GENERATION",
+        "MIXED_RETRIEVAL"
+      ],
+      "prerequisites": [
+        "learned_router_weights"
+      ],
+      "resource_cost": "UNOBSERVED",
+      "complexity_cost": "moderate router + load balancing",
+      "known_incompatibilities": [
+        "strict-determinism pipelines"
+      ],
+      "known_failures": [],
+      "implementation_variants": [
+        "top-1-router",
+        "top-2-router"
+      ],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "UNOBSERVED",
+      "status": "A0_OBSERVED",
+      "promotion_authority": null,
+      "mechanism_hash": "d2e34e8db8f34cac7bb97e267a10152f8f962f79c655cec54eeecbd6e76a0df0"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.sparse_evidence_attention_retrieval",
+      "semantic_definition": "Attend selectively to evidence retrieved on-demand rather than scanning the full context.",
+      "origin_source_ids": [
+        "src.claude.1",
+        "src.gpt-5.6.1"
+      ],
+      "source_fact_boundary": "Behavioral observation in closed systems; no source code.",
+      "hypothesized_effect": "Improves factual grounding without proportional context-length cost.",
+      "task_scope": [
+        "REASONING",
+        "RETRIEVAL"
+      ],
+      "prerequisites": [
+        "retriever_role"
+      ],
+      "resource_cost": "UNOBSERVED",
+      "complexity_cost": "retriever + attention gate",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "UNOBSERVED",
+      "status": "A0_OBSERVED",
+      "promotion_authority": null,
+      "mechanism_hash": "bb094644b6169a512e9a4ef0a58ddd8142dcb1014781db5f4ee3fcf872827e7f"
+    },
+    {
+      "library_version": "METAENGINE-MECHANISM-LIBRARY-1",
+      "mechanism_id": "mec.speculative_multi_action",
+      "semantic_definition": "Speculatively propose multiple actions/plans and verify in parallel.",
+      "origin_source_ids": [
+        "src.gpt-5.6.1"
+      ],
+      "source_fact_boundary": "Behavioral observation only; no source.",
+      "hypothesized_effect": "Lower latency for multi-step actions when verifier is cheap.",
+      "task_scope": [
+        "AGENTIC"
+      ],
+      "prerequisites": [
+        "verifier_role"
+      ],
+      "resource_cost": "UNOBSERVED",
+      "complexity_cost": "speculator + verifier",
+      "known_incompatibilities": [],
+      "known_failures": [],
+      "implementation_variants": [],
+      "experiment_receipts": [],
+      "ablation_receipts": [],
+      "transfer_receipts": [],
+      "confidence": "UNOBSERVED",
+      "status": "A0_OBSERVED",
+      "promotion_authority": null,
+      "mechanism_hash": "d1b4bbeb05846f5391311b9eac2b02cf258c81b634eeb805b8888ceefb22ac90"
+    }
+  ],
+  "library_hash": "ca9ab0ea909a264bc2d1cf0be2fd51245efaf4ee4b76e80facbcd6db46623f93"
+}

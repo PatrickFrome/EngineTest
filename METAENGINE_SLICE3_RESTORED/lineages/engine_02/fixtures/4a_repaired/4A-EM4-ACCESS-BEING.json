@@ -1,0 +1,120 @@
+{
+  "record_id": "4A-EM4-ACCESS-BEING",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4A-KANT-A158-B197#A158-B197",
+      "LEGACY-BR-A-2.22#access-being-control"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4A-0.2-repair + DAE-0.1",
+    "agent": "automation-repair-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4A-0.1/4A-EM4-ACCESS-BEING"
+    ],
+    "activity_id": "MODULE-MIGRATION-4A-0.2-SEMANTIC-REPAIR",
+    "timestamp": "2026-08-11T12:00:00Z",
+    "artifact_hash": "sha256:00cf5be303dae20c7db2eb7ea6a70660f44cb7f7fef2b423e35bf973d8b4972f"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "X is necessary for Y to count as an object of a specified possible experience.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "FORM"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Therefore X is necessary for Y simpliciter.",
+    "claim_facets": {
+      "basis": [
+        "FORM"
+      ],
+      "force": "WITHHELD",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT04"
+    },
+    "bridge": {
+      "status": "ABSENT",
+      "statement": null
+    },
+    "promotion_flags": [
+      "SCOPE",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G4",
+    "gap": "LARGE",
+    "bridge_burden": "Need independent reason to remove the object-of-experience qualifier."
+  },
+  "audit": {
+    "native_domain": "transcendental argument",
+    "native_method": "Kantian scope control",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O4",
+      "O5",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION"
+    ],
+    "ncv": [
+      "SCOPE_CONTROL"
+    ],
+    "rtr": "MEDIUM"
+  },
+  "extensions": {
+    "em4": {
+      "module_id": "EM4",
+      "version": "0.1",
+      "enablement_type": "TRANSCENDENTAL",
+      "modality": "NECESSARY",
+      "index": "specified possible experience / object-as-experienced",
+      "evidence_basis": [
+        "TXT",
+        "FORM"
+      ],
+      "alternative_access": "Unresolved; a different access architecture could preserve the object claim.",
+      "promotion_ceiling": "OBJECT_AS_ACCESSIBLE",
+      "revision_trigger": "A successful independent argument from conditions of experience to conditions of the thing simpliciter."
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "FROM_CLAIM",
+      "relation_rationale": "The audited source claim is a scoped necessary-condition claim; the blocked target illegitimately removes its domain restriction.",
+      "semantic_review_status": "REPAIRED_PENDING_EXPERT",
+      "human_review_required": true,
+      "review_notes": [
+        "RT05 was replaced by RT04 because the encoded claim concerns scoped necessity, not opportunity or enablement."
+      ]
+    }
+  },
+  "outcome": "BLOCK",
+  "rivals": [
+    {
+      "description": "The condition is necessary only for objecthood within the specified possible-experience framework.",
+      "relation_rt_id": "RT04",
+      "bridge": "Retain the explicit domain and modality.",
+      "discriminator": "Test whether the conclusion survives removal of the possible-experience index."
+    }
+  ]
+}

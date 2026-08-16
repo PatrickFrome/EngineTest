@@ -1,0 +1,154 @@
+{
+  "bank_version": "DAE-HYPOTHESIS-BANK-1.2",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T17:36:22Z",
+  "source_id": "LOCAL-SHA256-F63C1C2F9CF9F94A667E28F6FDCE7E86DA2ECBF1C1AB05701206A765CA60C9BA",
+  "registry_version": "DAE-REFINERY-TOPICS-1.0",
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP-EMERGENT_SOURCE_ABSENCE",
+      "topic_id": "EMERGENT_SOURCE_ABSENCE",
+      "label": "Source-forced constellation: Absence / trace / disclosure / can / hint / proof",
+      "research_question": "Which distinctions, dependencies or representation failures among Absence, trace, disclosure, can, hint, proof, Withdrawal become invisible when the current topic registry determines the problem in advance?",
+      "origin": "SOURCE_FORCED_REGISTRY_RESISTANCE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "SOURCE_RESISTANCE",
+        "TERM_ABSENCE",
+        "TERM_TRACE",
+        "TERM_DISCLOSURE",
+        "TERM_CAN",
+        "TERM_HINT",
+        "TERM_PROOF",
+        "TERM_WITHDRAWAL"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000001-8017296E4A",
+        "OX-P000004-0F7BB76AF1",
+        "OX-P000005-EEDDFBA206",
+        "OX-P000007-22DA43027A",
+        "OX-P000008-AC0BCEFA1C",
+        "OX-P000006-D7910E0435"
+      ],
+      "evidence_count": 6,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "Absence",
+        "trace",
+        "disclosure",
+        "can",
+        "hint",
+        "proof",
+        "Withdrawal"
+      ],
+      "operator_candidate": {
+        "family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+        "candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+        "signal_counts": {
+          "DIFFERENTIAL": 0,
+          "REFERENCE_RELATIVE": 0,
+          "SYSTEM_FIELD": 1,
+          "ASYMMETRIC_DEPENDENCE": 0,
+          "RECIPROCITY_GATHERING": 0,
+          "DISTANCE_DIFFERENTIATION": 0,
+          "PRIORITY": 0,
+          "TEMPORALITY": 0,
+          "EXPECTATION": 0,
+          "ENACTMENT_PRACTICE": 0,
+          "REPETITION_RHYTHM": 1,
+          "MATERIAL_MEDIATION": 1,
+          "ABSENCE_WITHDRAWAL": 11,
+          "TRACE_DISCLOSURE": 10,
+          "ADDRESS_RESPONSE": 0
+        },
+        "active_signal_families": [
+          "SYSTEM_FIELD",
+          "REPETITION_RHYTHM",
+          "MATERIAL_MEDIATION",
+          "ABSENCE_WITHDRAWAL",
+          "TRACE_DISCLOSURE"
+        ],
+        "central_term_cooccurrence_segments": 5,
+        "profile_hints": [
+          "ABSENCE_DISCLOSURE"
+        ],
+        "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_PROCESS_ONTOLOGY"
+      },
+      "source_resistance_trigger": "Curated topic coverage captured 0/7 source-central terms; 7 remained outside the recognized problem-space.",
+      "revision_condition": "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations."
+    }
+  ],
+  "case_matrices": [],
+  "source_resistance": {
+    "status": "REGISTRY_BLIND_SPOT",
+    "central_terms": [
+      "Absence",
+      "trace",
+      "disclosure",
+      "can",
+      "hint",
+      "proof",
+      "Withdrawal"
+    ],
+    "covered_terms": [],
+    "uncovered_terms": [
+      "Absence",
+      "trace",
+      "disclosure",
+      "can",
+      "hint",
+      "proof",
+      "Withdrawal"
+    ],
+    "coverage_ratio": 0,
+    "explicit_stress_terms": [],
+    "source_native_terms": [
+      "Absence",
+      "trace",
+      "proof",
+      "Withdrawal",
+      "can",
+      "hint",
+      "disclosure"
+    ],
+    "centrality_basis": "MULTILINGUAL_SOURCE_FREQUENCY_PLUS_SOURCE_DOCUMENT_FREQUENCY_WITH_OPTIONAL_EXPLICIT_STRESS_HINTS",
+    "operator_candidate": {
+      "family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+      "candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 1,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0,
+        "TEMPORALITY": 0,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 1,
+        "MATERIAL_MEDIATION": 1,
+        "ABSENCE_WITHDRAWAL": 11,
+        "TRACE_DISCLOSURE": 10,
+        "ADDRESS_RESPONSE": 0
+      },
+      "active_signal_families": [
+        "SYSTEM_FIELD",
+        "REPETITION_RHYTHM",
+        "MATERIAL_MEDIATION",
+        "ABSENCE_WITHDRAWAL",
+        "TRACE_DISCLOSURE"
+      ],
+      "central_term_cooccurrence_segments": 5,
+      "profile_hints": [
+        "ABSENCE_DISCLOSURE"
+      ],
+      "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_PROCESS_ONTOLOGY"
+    },
+    "emergent_hypotheses": [
+      "HYP-EMERGENT_SOURCE_ABSENCE"
+    ],
+    "principle": "SOURCE_CENTRALITY_CAN_FORCE_TOPIC_AND_OPERATOR_REVISION_BUT_CANNOT_BY_ITSELF_VALIDATE_A_PHILOSOPHICAL_CLAIM"
+  },
+  "claim_ceiling": "HYPOTHESIS_DISCOVERY_ONLY_NOT_CORROBORATION_OR_VALIDATION"
+}

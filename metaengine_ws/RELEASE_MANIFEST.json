@@ -1,0 +1,193 @@
+{
+  "release": "Destruktion 4.0 METAENGINE 16X 2.1.0-alpha.1",
+  "version": "2.1.0-alpha.1",
+  "stage": "PARALLEL_EXPERIMENTAL_ECOLOGY",
+  "completed_test_executions": 281204,
+  "regression_tests": 42,
+  "full_native_world_executions": 117,
+  "parallel_campaign": {
+    "perturbation_worlds": 24,
+    "benchmark_worlds": 5,
+    "native_forced_topology_worlds": 6,
+    "native_core4_ablation_worlds": 4,
+    "frozen_single_ablation": 17,
+    "frozen_pairwise_ablation": 120,
+    "router_perturbation": 16384,
+    "cache_key_stress": 32768,
+    "topology_screen": 8192,
+    "randomized_subset": 6144,
+    "native_all16_leave_one_out_worlds": 17,
+    "native_pairwise_spotcheck_worlds": 24,
+    "recycled_parallel_smoke_worlds": 8,
+    "frozen_triple_ablation": 560,
+    "infrastructure_aborted_partial_native_pair_worlds": 4,
+    "extended_cache_key_stress": 131072,
+    "extended_router_perturbations": 65536,
+    "extended_topology_screens": 16384,
+    "frozen_order4_ablation": 1820,
+    "extended_randomized_subset": 2048,
+    "native_topology_x_task_worlds": 24
+  },
+  "native_parallel_benchmark": {
+    "comparison_version": "16X-CROSS-WORLD-DIFFERENTIAL-2.1",
+    "worlds_total": 5,
+    "worlds_complete": 5,
+    "worlds_failed": 0,
+    "parallel_elapsed_s": 7.2131,
+    "sum_individual_elapsed_s": 21.8321,
+    "effective_parallel_speedup": 3.027,
+    "by_kind": {
+      "BENCHMARK": {
+        "n": 5,
+        "mean_elapsed_s": 4.3664,
+        "mean_deep_executions": 12.6,
+        "mean_causal_depth": 9.4,
+        "mean_hermeneutic_nonlinearity": 0.905,
+        "mean_epistemic_nonlinearity": 0.6969,
+        "truth_promotion_violations": 0
+      }
+    },
+    "max_causal_depth": 12,
+    "topologies_observed": [
+      "ADVERSARIAL_FORK",
+      "EVIDENCE_FIRST",
+      "HERMENEUTIC_SPIRAL",
+      "WORKFLOW_SWARM"
+    ],
+    "truth_promotion_violations": 0,
+    "claim_ceiling": "PARALLEL_ARCHITECTURAL_EVIDENCE_NOT_EXTERNAL_TRUTH_VALIDATION"
+  },
+  "perturbation_summary": {
+    "worlds": 24,
+    "complete": 24,
+    "mean_deep": 9,
+    "mean_depth": 5.625,
+    "min_depth": 5,
+    "max_depth": 6,
+    "mean_H": 0.7593,
+    "mean_E": 0.595,
+    "topology_frequency": {
+      "ADVERSARIAL_FORK": 24
+    },
+    "truth_promotion_violations": 0,
+    "claim_delta_total": 0,
+    "position_delta_total": 0
+  },
+  "cache_stress": {
+    "test_count": 131072,
+    "unique_keys": 131072,
+    "collisions": 0,
+    "deterministic_duplicate_equal": true
+  },
+  "topology_screen": {
+    "test_count": 16384,
+    "selection_frequency": {
+      "DYNAMIC_GAIN_TOPOLOGY": 14523,
+      "DISAGREEMENT_RESOLUTION_TOPOLOGY": 1861
+    },
+    "topologies_observed": [
+      "DISAGREEMENT_RESOLUTION_TOPOLOGY",
+      "DYNAMIC_GAIN_TOPOLOGY"
+    ]
+  },
+  "release_smoke": {
+    "status": "COMPLETE",
+    "engine_states": 16,
+    "deep_executions": 10,
+    "causal_depth": 8,
+    "stop_reason": "STOP_BUDGET_EXHAUSTED",
+    "truth_promotion_violations": 0,
+    "claim_delta": 0,
+    "position_delta": 0
+  },
+  "lineage_fixity": {
+    "baseline": "2.0.0-alpha.1",
+    "current": "2.1.0-alpha.1",
+    "baseline_lineage_files": 9839,
+    "current_lineage_files": 9839,
+    "matched_identical": 9839,
+    "missing": [],
+    "added": [],
+    "changed": [],
+    "byte_fixity": true
+  },
+  "cloud": {
+    "version": "2.1.0-alpha.1",
+    "supabase": {
+      "migration": "parallel_experimental_ecology_2_1",
+      "status": "APPLIED"
+    },
+    "neon": {
+      "project_id": "falling-hat-08217783",
+      "database": "neondb",
+      "tables_verified": [
+        "cross_world_differential_ledger",
+        "experiment_batch_ledger",
+        "experiment_world_ledger",
+        "stress_matrix_ledger"
+      ]
+    },
+    "claim_ceiling": "DATABASES_STORE_EXPERIMENT_PROVENANCE_NOT_EPISTEMIC_AUTHORITY"
+  },
+  "claim_ceiling": "CONTROLLED_PARALLEL_ARCHITECTURAL_ROBUSTNESS_ABLATION_TOPOLOGY_AND_PERFORMANCE_EVIDENCE; NOT_EXTERNAL_PHILOSOPHICAL_SEMANTIC_OR_GENERAL_REASONING_SUPERIORITY_VALIDATION",
+  "high_volume_findings": {
+    "router_unique_coarse_fingerprints": 45,
+    "router_resolution_finding": "ROUTER_RESOLUTION_SATURATION_REQUIRES_HIGHER_RESOLUTION_TASK_STATE_IN_FUTURE_STAGE",
+    "topology_selection_frequency": {
+      "DYNAMIC_GAIN_TOPOLOGY": 14523,
+      "DISAGREEMENT_RESOLUTION_TOPOLOGY": 1861
+    },
+    "topology_finding": "GENERATED_TOPOLOGY_DOMINANCE_WITH_POSSIBLE_SELECTOR_CONCENTRATION; RETAIN_FIXED_REPERTOIRE_AND_TEST_SELECTOR_DIVERSITY",
+    "cache_key_stress": {
+      "tested": 131072,
+      "unique": 131072,
+      "collisions": 0
+    },
+    "randomized_subset_truth_vote_used_count": 0,
+    "native_worker_recycling": "FRESH_THREAD_POOL_EVERY_4_HEAVY_WORLDS",
+    "order4_ablation": "1820/1820; claim nodes 5-27; positions 13-43",
+    "native_topology_x_task": "24/24 complete; mean causal depth 5.7083; max 8; truth promotions 0"
+  },
+  "extended_campaign": {
+    "new_executions": 216884,
+    "total_completed_executions": 281204,
+    "full_native_worlds_total": 117,
+    "cache_key_stress": {
+      "tested": 131072,
+      "unique": 131072,
+      "collisions": 0
+    },
+    "router_perturbations": {
+      "tested": 65536,
+      "unique_coarse_fingerprints": 45,
+      "finding": "ROUTER_RESOLUTION_SATURATION_CONFIRMED"
+    },
+    "topology_screens": {
+      "tested": 16384,
+      "selection_frequency": {
+        "DYNAMIC_GAIN_TOPOLOGY": 14523,
+        "DISAGREEMENT_RESOLUTION_TOPOLOGY": 1861
+      },
+      "finding": "TOPOLOGY_SELECTOR_CONCENTRATION_CONFIRMED"
+    },
+    "order4_ablation": {
+      "tested": 1820,
+      "min_claim_nodes": 5,
+      "max_claim_nodes": 27,
+      "min_positions": 13,
+      "max_positions": 43
+    },
+    "randomized_subset_extension": {
+      "tested": 2048,
+      "truth_vote_used_count": 0
+    },
+    "native_topology_x_task": {
+      "worlds": 24,
+      "complete": 24,
+      "mean_causal_depth": 5.7083,
+      "max_causal_depth": 8,
+      "truth_promotion_violations": 0,
+      "native_position_delta_sum": 0
+    }
+  }
+}

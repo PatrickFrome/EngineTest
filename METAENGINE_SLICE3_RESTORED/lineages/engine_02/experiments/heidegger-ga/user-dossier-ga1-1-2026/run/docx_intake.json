@@ -1,0 +1,225 @@
+{
+  "intake_version": "DAE-DOCX-INTAKE-0.1",
+  "generated_at": "2026-08-11T05:15:25Z",
+  "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+  "source_admission": "CATALOGUED",
+  "input": {
+    "basename": "GA 1_1 — Das Realitätsproblem in der modernen Philosophie(2).docx",
+    "path_scope": "BASENAME_ONLY",
+    "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "byte_length": 570780,
+    "sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+    "zip_integrity": "PASS"
+  },
+  "ooxml_audit": {
+    "package_profile": "OOXML_WORDPROCESSINGML",
+    "paragraphs_total": 33870,
+    "paragraphs_with_text": 27805,
+    "text_runs": 41735,
+    "math_text_runs": 3908,
+    "tables": 16,
+    "hyperlinks": 0,
+    "comments": 0,
+    "sections": 1,
+    "explicit_page_breaks": 0,
+    "last_rendered_page_breaks": 0,
+    "page_boundary_authority": "NONE_IN_OOXML",
+    "style_counts": {
+      "Heading1": 726,
+      "Heading2": 451,
+      "Heading3": 168
+    },
+    "heading_style_counts": {
+      "Heading1": 726,
+      "Heading2": 451,
+      "Heading3": 168
+    },
+    "short_fragment_paragraphs": 10170,
+    "short_fragment_share": 0.365762,
+    "duplicate_audit": {
+      "eligible_paragraphs": 8519,
+      "unique_normalized_paragraphs": 8450,
+      "duplicate_groups": 44,
+      "duplicate_occurrences": 69,
+      "duplicate_occurrence_share": 0.0081,
+      "max_group_occurrences": 8,
+      "top_group_fingerprints": [
+        {
+          "sha256": "c32ec2729f697a16c84255e1bda429f583cca9cbe06283dc4a38efd7fe9d7385",
+          "occurrences": 8,
+          "char_length": 24
+        },
+        {
+          "sha256": "e6325d8babce6d4a113cb5304f68af768f9bbb35b1d3421bde0735575eedd365",
+          "occurrences": 6,
+          "char_length": 21
+        },
+        {
+          "sha256": "391f37c5fd5537e81017dab282e4ebbcc542641f616e419cf57034d7cf6f6893",
+          "occurrences": 5,
+          "char_length": 22
+        },
+        {
+          "sha256": "bbd8b2ab7a37c4f8548fd9c97eda8f05d1cddb3336d49b6754d2f669a86a7211",
+          "occurrences": 4,
+          "char_length": 23
+        },
+        {
+          "sha256": "13860cbd0b7d730c52c064cc728fa52f886f41020f8a7ac0b2862e222632d649",
+          "occurrences": 4,
+          "char_length": 20
+        },
+        {
+          "sha256": "5b1090fe6b117b966fe5fbb4c002d6fb1a4ffea2aab8279ecce4ee14d4a0344c",
+          "occurrences": 3,
+          "char_length": 43
+        },
+        {
+          "sha256": "45425bc381a024dad16f9dc11c2067c595b63ff24d5a61113b38d420c195592a",
+          "occurrences": 3,
+          "char_length": 27
+        },
+        {
+          "sha256": "f4de33f2478ecf939e1edcd1a80f6db5f95b848952056804918fc1fb03773932",
+          "occurrences": 3,
+          "char_length": 23
+        },
+        {
+          "sha256": "f66b5516c71e33111b6830a3f58fabad89659278cb6220f3bb7d3075cd441a3e",
+          "occurrences": 3,
+          "char_length": 23
+        },
+        {
+          "sha256": "b9e9ed3f6b3f67fb5c6902efbae3e6a64980aac9878036ccdaed6e3f2e106ce7",
+          "occurrences": 3,
+          "char_length": 22
+        },
+        {
+          "sha256": "c3503c832b9d9619b2e3b0db3d7f413ca94f26ff826a64747296d0168384b9f6",
+          "occurrences": 3,
+          "char_length": 22
+        },
+        {
+          "sha256": "ecce5ad580b26d0404bff41d8dc317a66c7d69ef1cd299a66a6647f361dfd9a4",
+          "occurrences": 3,
+          "char_length": 21
+        },
+        {
+          "sha256": "c2a6c2177fd4855337de13207b8c9bdb7cbb1b14e0381d522161a35592dda985",
+          "occurrences": 3,
+          "char_length": 20
+        },
+        {
+          "sha256": "a1f17da4dd52256d5a5df1c795c8a2f5f3801ee23250a864f6a235c6f3a6aa7e",
+          "occurrences": 2,
+          "char_length": 54
+        },
+        {
+          "sha256": "86cd3d7a0bf35ff52bf65b6a6b7fb603039e7ddd8990268e5ab0293024704c30",
+          "occurrences": 2,
+          "char_length": 46
+        },
+        {
+          "sha256": "d21082d9bc62dfbc20b2bb64a3cfb9950c31d2d11506b64da3e3f210e4206a33",
+          "occurrences": 2,
+          "char_length": 42
+        },
+        {
+          "sha256": "072935a032d4c6e35bcf0e6301d293bd65d9f40a13c9e5e8ff70cc41c9a27260",
+          "occurrences": 2,
+          "char_length": 38
+        },
+        {
+          "sha256": "73a4aa88c64ef690beea9d9f25303866c162c712d7037fe8d9b856dfc896a829",
+          "occurrences": 2,
+          "char_length": 32
+        },
+        {
+          "sha256": "6a652ecbb205a39cb081252d4d193c3a64d3e28a0e9bcb4ba9376ecd6a3c9692",
+          "occurrences": 2,
+          "char_length": 31
+        },
+        {
+          "sha256": "94a632a283f6cd828d9cd155bff987aa79eae12d5da1cbdfe29c862a80442832",
+          "occurrences": 2,
+          "char_length": 31
+        }
+      ]
+    },
+    "interaction_residue": {
+      "next_stage_prompts": 6,
+      "search_completed_notices": 2,
+      "guide_read_notices": 1,
+      "checked_notices": 0,
+      "empty_array_lines": 0,
+      "pseudo_citation_markers": 335,
+      "visible_urls": 0,
+      "version_markers": 0
+    },
+    "core_properties": {
+      "creator_present": false,
+      "title_present": false,
+      "created": "2026-08-09T19:16:34+07:00",
+      "modified": "2026-08-09T19:16:34+07:00"
+    }
+  },
+  "rendering": {
+    "pagination_authority": "RENDERER_DERIVED_NOT_GA_OR_SOURCE_AUTHORED",
+    "page_count": 697,
+    "page_size": "595.304 x 841.89 pts (A4)",
+    "renderer": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+    "renderer_exit": "ZERO",
+    "pdf_sha256": "f464fd76d285e43b98782419322ca2ec917f8ea2f6ff32319866f4de8542d2b1",
+    "pdf_sha256_role": "TRANSIENT_RUN_DIAGNOSTIC_NOT_REPRODUCIBILITY_ANCHOR",
+    "pdf_byte_length": 7668031,
+    "pdf_profile": {
+      "pages": 697,
+      "page_size": "595.304 x 841.89 pts (A4)",
+      "producer": "LibreOfficeDev 26.8.0.0.alpha0 (X86_64)",
+      "pdf_version": "1.7",
+      "tagged": "yes"
+    }
+  },
+  "extracted_text": {
+    "method": "pdftotext -layout",
+    "extractor": "pdftotext version 24.02.0",
+    "byte_length": 1208073,
+    "sha256": "8cbef7a8fe342b576b092a9df3aecd154801a39e125b8a3c0320836dbf5d3b2d",
+    "page_count": 697,
+    "text_profile": {
+      "byte_length": 1208073,
+      "character_length": 702244,
+      "line_count": 36794,
+      "token_count_unicode": 79814,
+      "letter_count": 535313,
+      "cyrillic_letter_count": 495464,
+      "latin_letter_count": 39127,
+      "cyrillic_letter_share": 0.925559,
+      "latin_letter_share": 0.073092,
+      "one_character_nonempty_lines": 6320,
+      "short_nonempty_lines_le_3": 8067
+    }
+  },
+  "retention": {
+    "original_docx_copied_to_output": false,
+    "rendered_pdf_retained": false,
+    "extracted_text_retained": false,
+    "expressive_source_context_in_records": false
+  },
+  "risk_flags": [
+    "NO_DOCUMENT_AUTHOR_METADATA",
+    "NO_SOURCE_RECORDED_PAGE_BOUNDARIES",
+    "NO_OOXML_HYPERLINKS",
+    "HIGH_SHORT_FRAGMENT_SHARE",
+    "HEADING_HIERARCHY_OVERSEGMENTED",
+    "INTERACTION_OR_TOOL_RESIDUE",
+    "PSEUDO_CITATIONS_WITHOUT_RESOLVABLE_LINKS"
+  ],
+  "reproducibility_anchors": {
+    "original_docx_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+    "extracted_text_sha256": "8cbef7a8fe342b576b092a9df3aecd154801a39e125b8a3c0320836dbf5d3b2d",
+    "renderer_pdf_hash_is_anchor": false
+  },
+  "classification": "COMPOSITE_RESEARCH_DOSSIER_PENDING_HUMAN_GENRE_AND_SOURCE_REVIEW",
+  "claim_ceiling": "DOCUMENT_STRUCTURE_AND_DERIVATIVE_LEXICAL_CANDIDATES_ONLY_NOT_PRIMARY_TEXT_AUTHORITY_OR_PHILOSOPHICAL_TRUTH"
+}

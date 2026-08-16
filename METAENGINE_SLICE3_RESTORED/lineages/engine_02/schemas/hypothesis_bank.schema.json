@@ -1,0 +1,709 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/hypothesis_bank.schema.json",
+  "title": "Destruktion hypothesis bank",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bank_version",
+    "engine_version",
+    "generated_at",
+    "source_id",
+    "registry_version",
+    "hypotheses",
+    "case_matrices",
+    "claim_ceiling"
+  ],
+  "properties": {
+    "bank_version": {
+      "enum": [
+        "DAE-HYPOTHESIS-BANK-1.0",
+        "DAE-HYPOTHESIS-BANK-1.1",
+        "DAE-HYPOTHESIS-BANK-1.2"
+      ]
+    },
+    "engine_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "registry_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "hypothesis_id",
+          "topic_id",
+          "label",
+          "research_question",
+          "origin",
+          "status",
+          "matched_groups",
+          "evidence_segment_ids",
+          "evidence_count",
+          "selectors_truncated",
+          "revision_condition"
+        ],
+        "properties": {
+          "hypothesis_id": {
+            "type": "string",
+            "pattern": "^HYP-[A-Z0-9_-]+$"
+          },
+          "topic_id": {
+            "type": "string",
+            "pattern": "^[A-Z0-9_-]+$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "research_question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claim_statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "origin": {
+            "enum": [
+              "DETERMINISTIC_LEXICAL_TOPIC_CLUSTER",
+              "SOURCE_FORCED_REGISTRY_RESISTANCE",
+              "EXPLICIT_PROJECT_THESIS_CANDIDATE"
+            ]
+          },
+          "status": {
+            "const": "ELIGIBLE_FOR_HUMAN_REVIEW"
+          },
+          "matched_groups": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence_segment_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^OX-P"
+            }
+          },
+          "evidence_count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "selectors_truncated": {
+            "type": "boolean"
+          },
+          "revision_condition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "emergent_terms": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "maxItems": 24
+          },
+          "source_resistance_trigger": {
+            "type": "string",
+            "minLength": 1
+          },
+          "operator_candidate": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "family",
+              "candidate",
+              "signal_counts",
+              "active_signal_families",
+              "central_term_cooccurrence_segments",
+              "profile_hints",
+              "claim_ceiling"
+            ],
+            "properties": {
+              "family": {
+                "enum": [
+                  "GENERIC_SOURCE_FORCED_REVISION",
+                  "RELATION_GENESIS_PROFILE"
+                ]
+              },
+              "candidate": {
+                "type": "string",
+                "minLength": 1
+              },
+              "signal_counts": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "active_signal_families": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              },
+              "central_term_cooccurrence_segments": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "profile_hints": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              },
+              "claim_ceiling": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "open_set_candidate": {
+            "$ref": "#/$defs/openSetCandidate"
+          },
+          "micro_local_window_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^MW-"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "case_matrices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "matrix_id",
+          "label",
+          "status",
+          "matched_case_count",
+          "required_case_count",
+          "cases",
+          "revision_condition"
+        ],
+        "properties": {
+          "matrix_id": {
+            "type": "string",
+            "pattern": "^[A-Z0-9_-]+$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "const": "ELIGIBLE_FOR_HETEROGENEOUS_STRESS_TEST"
+          },
+          "matched_case_count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "required_case_count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "cases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "case_id",
+                "label",
+                "evidence_count",
+                "evidence_segment_ids",
+                "status"
+              ],
+              "properties": {
+                "case_id": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "evidence_count": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "evidence_segment_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^OX-P"
+                  }
+                },
+                "status": {
+                  "const": "UNADJUDICATED_CASE_CANDIDATE"
+                }
+              }
+            }
+          },
+          "revision_condition": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "claim_ceiling": {
+      "const": "HYPOTHESIS_DISCOVERY_ONLY_NOT_CORROBORATION_OR_VALIDATION"
+    },
+    "source_resistance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "central_terms",
+        "covered_terms",
+        "uncovered_terms",
+        "coverage_ratio",
+        "explicit_stress_terms",
+        "emergent_hypotheses",
+        "principle"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "REGISTRY_BLIND_SPOT",
+            "EXPLICIT_CLAIMS_REQUIRE_OPEN_ROUTING",
+            "NO_STRONG_REGISTRY_RESISTANCE_DETECTED"
+          ]
+        },
+        "central_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "covered_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "uncovered_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "coverage_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "explicit_stress_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "emergent_hypotheses": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^HYP-[A-Z0-9_-]+$"
+          },
+          "uniqueItems": true
+        },
+        "principle": {
+          "const": "SOURCE_CENTRALITY_CAN_FORCE_TOPIC_AND_OPERATOR_REVISION_BUT_CANNOT_BY_ITSELF_VALIDATE_A_PHILOSOPHICAL_CLAIM"
+        },
+        "source_native_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "centrality_basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "operator_candidate": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "family",
+            "candidate",
+            "signal_counts",
+            "active_signal_families",
+            "central_term_cooccurrence_segments",
+            "profile_hints",
+            "claim_ceiling"
+          ],
+          "properties": {
+            "family": {
+              "enum": [
+                "GENERIC_SOURCE_FORCED_REVISION",
+                "RELATION_GENESIS_PROFILE"
+              ]
+            },
+            "candidate": {
+              "type": "string",
+              "minLength": 1
+            },
+            "signal_counts": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "active_signal_families": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            },
+            "central_term_cooccurrence_segments": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "profile_hints": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            },
+            "claim_ceiling": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "open_set_status": {
+          "enum": [
+            "OPEN_SET_RIVAL_REQUIRED",
+            "NO_OPEN_SET_PRESSURE"
+          ]
+        },
+        "open_set_candidate": {
+          "$ref": "#/$defs/openSetCandidate"
+        },
+        "micro_local_windows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/microLocalWindow"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "microLocalWindow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "window_id",
+        "segment_ids",
+        "ordinal_start",
+        "ordinal_end",
+        "central_terms",
+        "cooccurrence_pairs",
+        "known_profile_hints",
+        "known_signal_families",
+        "known_candidate_family",
+        "raw_text_included"
+      ],
+      "properties": {
+        "window_id": {
+          "type": "string",
+          "pattern": "^MW-"
+        },
+        "segment_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^OX-P"
+          },
+          "uniqueItems": true
+        },
+        "ordinal_start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ordinal_end": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "central_terms": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "cooccurrence_pairs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "known_profile_hints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "known_signal_families": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "known_candidate_family": {
+          "type": "string",
+          "minLength": 1
+        },
+        "raw_text_included": {
+          "const": false
+        }
+      }
+    },
+    "openSetCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "family",
+        "candidate",
+        "status",
+        "source_signature",
+        "source_trigger_terms",
+        "rival_unitizations",
+        "proposed_executable_family",
+        "claim_ceiling"
+      ],
+      "properties": {
+        "family": {
+          "const": "UNKNOWN_OPERATOR_FAMILY"
+        },
+        "candidate": {
+          "type": "string",
+          "pattern": "^F-OPEN-"
+        },
+        "status": {
+          "enum": [
+            "OPEN_SET_RIVAL_REQUIRED",
+            "NO_OPEN_SET_PRESSURE"
+          ]
+        },
+        "source_signature": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "recurrent_terms",
+            "recurrent_pairs",
+            "window_count",
+            "local_profile_variation"
+          ],
+          "properties": {
+            "recurrent_terms": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "term",
+                  "windows"
+                ],
+                "properties": {
+                  "term": {
+                    "type": "string"
+                  },
+                  "windows": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                }
+              }
+            },
+            "recurrent_pairs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pair",
+                  "windows"
+                ],
+                "properties": {
+                  "pair": {
+                    "type": "string"
+                  },
+                  "windows": {
+                    "type": "integer",
+                    "minimum": 2
+                  }
+                }
+              }
+            },
+            "window_count": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "local_profile_variation": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "distinct_known_profiles",
+                "known_profile_transition_count",
+                "unresolved_windows"
+              ],
+              "properties": {
+                "distinct_known_profiles": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "known_profile_transition_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "unresolved_windows": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            }
+          }
+        },
+        "source_trigger_terms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "rival_unitizations": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "unitization_id",
+              "description",
+              "analytic_consequence"
+            ],
+            "properties": {
+              "unitization_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "minLength": 8
+              },
+              "analytic_consequence": {
+                "type": "string",
+                "minLength": 8
+              }
+            }
+          }
+        },
+        "proposed_executable_family": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "family_id",
+            "title",
+            "protocol_refs",
+            "triggers",
+            "diagnostic",
+            "constructive_move",
+            "self_risk",
+            "positive_model"
+          ],
+          "properties": {
+            "family_id": {
+              "type": "string",
+              "pattern": "^F-OPEN-"
+            },
+            "title": {
+              "type": "string",
+              "minLength": 3
+            },
+            "protocol_refs": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "triggers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "diagnostic": {
+              "type": "string",
+              "minLength": 8
+            },
+            "constructive_move": {
+              "type": "string",
+              "minLength": 8
+            },
+            "self_risk": {
+              "type": "string",
+              "minLength": 8
+            },
+            "positive_model": {
+              "type": "string",
+              "minLength": 8
+            }
+          }
+        },
+        "claim_ceiling": {
+          "const": "OPEN_SET_OPERATOR_CANDIDATE_NOT_DISCOVERED_ONTOLOGY_OR_CORE_PROMOTION"
+        }
+      }
+    }
+  }
+}

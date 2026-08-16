@@ -1,0 +1,83 @@
+{
+  "result_version": "DAE-HGA-ABLATION-1.0",
+  "source_id": "HGA-PJ25-1912-REALITAET",
+  "extracted_text_sha256": "efc781598fc36268b3800a954a441c78a398b911569ba0cca203c11c92c760db",
+  "conditions": [
+    {
+      "id": "A0-LEGACY-PARAGRAPH-CURRENT-MODAL",
+      "status": "TRANSIENT_DIAGNOSTIC_NOT_RELEASED",
+      "unitization": "blank-line paragraphs without printed-page selectors",
+      "unit_count": 18,
+      "candidate_record_count": 13,
+      "source_text_serialized": true,
+      "printed_page_locator_coverage": 0,
+      "finding": "Paragraphs are too coarse for the article and the legacy bundle is unsuitable for derivative-only sources because it serializes expressive text."
+    },
+    {
+      "id": "A1-PAGED-DERIVATIVE-BODY",
+      "status": "RELEASED",
+      "unitization": "printed page, block and sentence with normalized TextPositionSelector",
+      "unit_count": 280,
+      "candidate_record_count": 24,
+      "ambiguous_unit_count": 17,
+      "selected_relations": {"RT00": 17, "RT01": 3, "RT04": 1, "RT08": 1, "RT14": 1, "RT19": 1},
+      "source_text_serialized": false,
+      "printed_page_locator_coverage": 1,
+      "finding": "Every candidate is page-resolved; expressive context is replaced by hashes and selectors. Bare modal verbs are not promoted to RT21."
+    },
+    {
+      "id": "A2-PAGED-DERIVATIVE-WITH-NOTES",
+      "status": "TRANSIENT_DIAGNOSTIC_NOT_RELEASED",
+      "unitization": "same as A1, with note-zone lexical detection enabled",
+      "unit_count": 280,
+      "candidate_record_count": 24,
+      "ambiguous_unit_count": 17,
+      "selected_relations": {"RT00": 17, "RT01": 3, "RT04": 1, "RT08": 1, "RT14": 1, "RT19": 1},
+      "finding": "Footnote inclusion does not change candidate counts in this work, so notes may remain excluded from default semantic routing."
+    }
+  ],
+  "reproduced_failure": {
+    "id": "F-BARE-MODAL-AS-NORM",
+    "before_fix": {
+      "method": "paragraph lexical adapter 0.2",
+      "unit_count": 18,
+      "candidate_record_count": 10,
+      "bare_or_weak_rt21_signal_count": 6,
+      "risk": "German muss/sollte and metaphorical power language could be mistaken for obligations or coercion."
+    },
+    "after_fix": {
+      "method": "page-aware lexical adapter 0.3",
+      "selected_rt21_record_count": 0,
+      "modal_rt00_record_count": 17,
+      "policy": "Bare modal auxiliaries yield RT04/RT21 rivals and therefore RT00 until contextual adjudication."
+    }
+  },
+  "negative_tests": [
+    {
+      "id": "N-PAGE-COUNT",
+      "operation": "Change the manifest page-label count.",
+      "expected": "PAGE_COUNT_MISMATCH blocks output."
+    },
+    {
+      "id": "N-FIXITY",
+      "operation": "Change one extracted-text byte.",
+      "expected": "SOURCE_FIXITY_MISMATCH blocks output."
+    },
+    {
+      "id": "N-REFERENCE-ONLY",
+      "operation": "Set analysis_class to REFERENCE_ONLY.",
+      "expected": "SOURCE_POLICY_BLOCK prevents analysis."
+    },
+    {
+      "id": "N-TEXT-LEAK",
+      "operation": "Search the derived bundle for a distinctive source phrase and inspect unit fields.",
+      "expected": "No unit has a text field and the phrase is absent."
+    },
+    {
+      "id": "N-MODAL",
+      "operation": "Present a sentence containing only bare muss as its modal cue.",
+      "expected": "The selected relation is RT00 with RT04 and RT21 rivals."
+    }
+  ],
+  "verdict": "PAGED_DERIVATIVE_INTAKE_ADDS_LOCATOR_AND_RIGHTS_SAFETY; SEMANTIC_ACCURACY_REMAINS_REVIEW_ONLY"
+}

@@ -1,0 +1,7 @@
+{
+  "adaptation_eligible_state": "CLOSED",
+  "authority": "SUPABASE_ONLY",
+  "chat_facing": false,
+  "closed_recovery_source": "IMMUTABLE_RECOVERY_CUT",
+  "protocol_version": "D6.FINALIZATION.1"
+}

@@ -1,0 +1,985 @@
+{
+  "snapshot_version": "DAE-HGA-CATALOG-1.0",
+  "retrieved_at": "2026-08-11T04:13:38Z",
+  "sources": {
+    "bibliographic_authority": {
+      "id": "HGA-KLOSTERMANN-PLAN",
+      "url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan",
+      "role": "OFFICIAL_PUBLISHER_EDITION_PLAN",
+      "raw_html_sha256": "cc71f3bf4f2dcb63907d89eb0afcec1f8a6a26d0f6c5ea81e17d115e7ee367ac"
+    },
+    "navigation_index": {
+      "id": "HGA-BEYNG-CATALOG",
+      "url": "https://www.beyng.com/hb/gesamt.html",
+      "role": "SECONDARY_NAVIGATION_AND_ACCESS_INDEX"
+    }
+  },
+  "claim_ceiling": "BIBLIOGRAPHIC_CATALOG_ONLY_NOT_PRIMARY_TEXT_OR_PHILOSOPHICAL_EVIDENCE",
+  "entry_count": 105,
+  "normalized_sha256": "d175ce837703e0a7541dad227beeabf4a619dcc9cd46f138a8d3a8bba019f019",
+  "divisions": [
+    {
+      "id": "I",
+      "title": "Veröffentlichte Schriften 1910–1976"
+    },
+    {
+      "id": "II",
+      "title": "Vorlesungen 1919–1944"
+    },
+    {
+      "id": "III",
+      "title": "Unveröffentlichte Abhandlungen"
+    },
+    {
+      "id": "IV",
+      "title": "Hinweise und Aufzeichnungen"
+    }
+  ],
+  "volumes": [
+    {
+      "volume_id": "1",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Frühe Schriften",
+      "date_label": "1912–1916",
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465000341",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "2",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Sein und Zeit",
+      "date_label": "1927",
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465030324",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "3",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Kant und das Problem der Metaphysik",
+      "date_label": "1929",
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465036777",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "4",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Erläuterungen zu Hölderlins Dichtung",
+      "date_label": "1936–1968",
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465037248",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "5",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Holzwege",
+      "date_label": "1935–1946",
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465032373",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "6.1",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Nietzsche I",
+      "date_label": "1936–1939",
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465026211",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "6.2",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Nietzsche II",
+      "date_label": "1939–1946",
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465029281",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "7",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Vorträge und Aufsätze",
+      "date_label": "1936–1953",
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465030997",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "8",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Was heißt Denken?",
+      "date_label": "1951–1952",
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465031994",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "9",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Wegmarken",
+      "date_label": "1919–1961",
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465033721",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "10",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Der Satz vom Grund",
+      "date_label": "1955–1956",
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465029151",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "11",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Identität und Differenz",
+      "date_label": "1955–1957",
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465034933",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "12",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Unterwegs zur Sprache",
+      "date_label": "1950–1959",
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465000792",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "13",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Aus der Erfahrung des Denkens",
+      "date_label": "1910–1976",
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465032021/SubProducts/9783465032021",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "14",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Zur Sache des Denkens",
+      "date_label": "1962–1964",
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465035442",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "15",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Seminare",
+      "date_label": "1951–1973",
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465033790",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "16",
+      "division_id": "I",
+      "subseries": null,
+      "title": "Reden und andere Zeugnisse eines Lebensweges",
+      "date_label": "1910–1976",
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465030416/SubProducts/9783465030416",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "17",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Einführung in die phänomenologische Forschung",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465035084/SubProducts/9783465035084",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "18",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Grundbegriffe der aristotelischen Philosophie",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465031628/SubProducts/9783465031628",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "19",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Platon: Sophistes",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465000969",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "20",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Prolegomena zur Geschichte des Zeitbegriffs",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465026693/SubProducts/9783465026693",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "21",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Logik. Die Frage nach der Wahrheit",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465026617/SubProducts/9783465026617",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "22",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Die Grundbegriffe der antiken Philosophie",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465033462/SubProducts/9783465033462",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "23",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Geschichte der Philosophie von Thomas von Aquin bis Kant",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465035046/SubProducts/9783465035046",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "24",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Die Grundprobleme der Phänomenologie",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465029670",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "25",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Phänomenologische Interpretation von Kants Kritik der reinen Vernunft",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465028192/SubProducts/9783465028192",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "26",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Metaphysische Anfangsgründe der Logik im Ausgang von Leibniz",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465035213/SubProducts/9783465035213",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "27",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Einleitung in die Philosophie",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465031437",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "28",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Der deutsche Idealismus (Fichte, Schelling, Hegel)",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465037217",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "29/30",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Die Grundbegriffe der Metaphysik . Welt – Endlichkeit – Einsamkeit",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465033110",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "31",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Vom Wesen der menschlichen Freiheit. Einleitung in die Philosophie",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465026570",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "32",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Hegels Phänomenologie des Geistes",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465047049",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "33",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Aristoteles, Metaphysik IX, 1 – 3 . Von Wesen und Wirklichkeit der Kraft",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465034582/SubProducts/9783465034582",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "34",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Vom Wesen der Wahrheit. Zu Platons Höhlengleichnis und Theätet",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465029250",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "35",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Der Anfang der abendländischen Philosophie",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465037262/SubProducts/9783465037262",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "36/37",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Sein und Wahrheit",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465031543",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "38A",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Logik als die Frage nach dem Wesen der Sprache (Neuedition nach dem Originalmanuskript)",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465016670",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "39",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Hölderlins Hymnen »Germanien« und »Der Rhein«",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465028499",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "40",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Einführung in die Metaphysik",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465013006",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "41",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Die Frage nach dem Ding",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465016274",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "42",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Schelling: Vom Wesen der menschlichen Freiheit",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465017950",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "43",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Nietzsche: Der Wille zur Macht als Kunst",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465028970",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "44",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Nietzsches metaphysische Grundstellung im abendländischen Denken",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465017103",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "45",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Grundfragen der Philosophie . Ausgewählte »Probleme« der »Logik«",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465025948",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "46",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Zur Auslegung von Nietzsches II. Unzeitgemäßer Betrachtung",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465032861/SubProducts/9783465032861",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "47",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Nietzsches Lehre vom Willen zur Macht als Erkenntnis",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465018995",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "48",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Nietzsche: Der europäische Nihilismus",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465017127",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "49",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Die Metaphysik des deutschen Idealismus",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465035060/SubProducts/9783465035060",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "50",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Nietzsches Metaphysik / Einleitung in die Philosophie",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465035237/SubProducts/9783465035237",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "51",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Grundbegriffe",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465033974",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "52",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Hölderlins Hymne »Andenken«",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465025566/SubProducts/9783465025566",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "53",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Hölderlins Hymne »Der Ister«",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465026044/SubProducts/9783465026044",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "54",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Parmenides",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465003564",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "55",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Heraklit",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465026488",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "56/57",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Zur Bestimmung der Philosophie",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465030447",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "58",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Grundprobleme der Phänomenologie",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465036654",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "59",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Phänomenologie der Anschauung und des Ausdrucks",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465035527/SubProducts/9783465035527",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "60",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Phänomenologie des religiösen Lebens",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465037170",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "61",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Phänomenologische Interpretationen zu Aristoteles",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465026501",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "62",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Phänomenologische Interpretationen ausgewählter Abhandlungen des Aristoteles zu Ontologie und Logik",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465034308/SubProducts/9783465034308",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "63",
+      "division_id": "II",
+      "subseries": null,
+      "title": "Ontologie. Hermeneutik der Faktizität",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465004684",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "64",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Der Begriff der Zeit",
+      "date_label": "1924",
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465033585/SubProducts/9783465033585",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "65",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Beiträge zur Philosophie (Vom Ereignis)",
+      "date_label": "1936–1938",
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465032823",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "66",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Besinnung (1938/39)",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465029564/SubProducts/9783465029564",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "67",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Metaphysik und Nihilismus",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465006022",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "68",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Hegel",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465036074",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "69",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Die Geschichte des Seyns",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465028529",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "70",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Über den Anfang",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465034155/SubProducts/9783465034155",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "71",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Das Ereignis",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465036418/SubProducts/9783465036418",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "72",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Die Stege des Anfangs",
+      "date_label": "1944",
+      "official_url": null,
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "73",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Zum Ereignis-Denken",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465038054/SubProducts/9783465038054",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "74",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Zum Wesen der Sprache und Zur Frage nach der Kunst",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465036692/SubProducts/9783465036692",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "75",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Zu Hölderlin – Griechenlandreisen",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465030591/SubProducts/9783465030591",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "76",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Leitgedanken zur Entstehung der Metaphysik...",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465036333/SubProducts/9783465036333",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "77",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Feldweg-Gespräche (1944/45)",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465035503/SubProducts/9783465035503",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "78",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Der Spruch des Anaximander",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465036715/SubProducts/9783465036715",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "79",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Bremer und Freiburger Vorträge",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465034254/SubProducts/9783465034254",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "80.1",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Vorträge 1915 bis 1932",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465038290",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "80.2",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Vorträge 1935 bis 1967",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465017035",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "81",
+      "division_id": "III",
+      "subseries": "Vorträge – Gedachtes",
+      "title": "Gedachtes",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465035565/SubProducts/9783465035565",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "82",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Zu eigenen Veröffentlichungen",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465001157",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "83",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Seminare: Platon – Aristoteles – Augustinus",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465037644/SubProducts/9783465037644",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "84.1",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Seminare: Kant – Leibniz – Schiller",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465038115/SubProducts/9783465038115",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "84.2",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Seminare: Kant – Leibniz – Schiller",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465034353",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "85",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Seminar: Vom Wesen der Sprache",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465030263",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "86",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Seminare: Hegel – Schelling",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465036821/SubProducts/9783465036821",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "87",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Nietzsche: Seminare 1937 und 1944",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465033080/SubProducts/9783465033080",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "88",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Seminare : 1. Die metaphysischen Grundstellungen des abendländischen Denkens. 2. Einübung in das philosophische Denken",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465035626/SubProducts/9783465035626",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "89",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Zollikoner Seminare",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465039983",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "90",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Zu Ernst Jünger",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465033257/SubProducts/9783465033257",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "91",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Ergänzungen und Denksplitter",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465027379",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "92",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Ausgewählte Briefe 1",
+      "date_label": null,
+      "official_url": null,
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "93",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Ausgewählte Briefe 2",
+      "date_label": null,
+      "official_url": null,
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "94",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Überlegungen II–VI",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465038153",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "95",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Überlegungen VII–XI",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465028833",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "96",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Überlegungen XII–XV",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan?ObjectPath=/Shops/63574303/Products/9783465038399",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "97",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Anmerkungen I–V",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465038702",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "98",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Anmerkungen VI–IX",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465005834",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "99",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Vier Hefte I und II",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465007760",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "100",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Vigiliae und Notturno",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465011217",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "101",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Winke I und II",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465017349",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "102",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Vorläufiges I–IV",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465026907",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "103",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Raum und Zeit – Stimmung und Grundstimmung – Über Marx",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465046875",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "104",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Gespräche – \"Eigentum\". Der Weg zur Sprache – Vier Hefte",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465046899",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    },
+    {
+      "volume_id": "105",
+      "division_id": "IV",
+      "subseries": null,
+      "title": "Vermächtnis der Seinsfrage",
+      "date_label": null,
+      "official_url": "https://www.klostermann.de/epages/63574303.sf/de_DE/?ObjectPath=/Shops/63574303/Products/9783465046912",
+      "access_state": "BIBLIOGRAPHIC_METADATA_ONLY"
+    }
+  ]
+}

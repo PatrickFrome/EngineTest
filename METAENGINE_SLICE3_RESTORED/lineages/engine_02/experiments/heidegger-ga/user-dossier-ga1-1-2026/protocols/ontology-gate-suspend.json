@@ -1,0 +1,37 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "GA01-DOSSIER-ONTOLOGY-GATE-001",
+  "protocol_id": "V38-ONTOLOGY-GATE",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "POSTDESTRUCTIVE-REALISM-D28",
+    "description": "The dossier's late model of mode-indexed reality, dependency profiles and corrective constraints.",
+    "source_refs": ["HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0641-R0695"]
+  },
+  "operator": {"agent_id": "dae-docx-stage", "role": "automated ontology-gate router"},
+  "started_at": "2026-08-11T12:00:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "TARGET_MODE": {
+      "status": "YES",
+      "evidence_refs": ["HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0655-R0689"]
+    },
+    "NO_REIFICATION": {
+      "status": "UNKNOWN",
+      "note": "The dossier warns against a universal meta-ontology, but deciding whether its profile vocabulary reifies a new common structure requires expert review."
+    },
+    "ACCESS_EXISTENCE_SPLIT": {
+      "status": "UNKNOWN",
+      "note": "The split is explicitly proposed, but it is not independently checked across all seven stress-test cases."
+    },
+    "DEPENDENCY_PROFILE": {
+      "status": "YES",
+      "evidence_refs": ["HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0641-R0648", "HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0681-R0694"]
+    },
+    "RIVALS_PRESENT": {
+      "status": "UNKNOWN",
+      "note": "Rivals are discussed, but the absence of resolvable claim-level bibliography prevents automatic confirmation of same-explanandum and same-scale adequacy."
+    }
+  },
+  "declared_outcome": "SUSPEND"
+}

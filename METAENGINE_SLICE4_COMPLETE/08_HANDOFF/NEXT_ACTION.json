@@ -1,0 +1,27 @@
+{
+  "next_step_id": "METAENGINE-1-SLICE-5",
+  "title": "Constitutional/Library/Policy Development Gate Global Integration (or Heterogeneous Transfer Test for sparse-conditional-routing)",
+  "admission": {
+    "status": "ALLOWED",
+    "receipt_hash": "382906b1d4bb34dcd4214250e80479ffd5f6873a28ab2ceb82e7afa023b3b7e2",
+    "completed_step_commit": "7f8224a94e7e0ad21d35827f768ce59f8540d85f",
+    "governance_head": "7f8224a94e7e0ad21d35827f768ce59f8540d85f"
+  },
+  "mechanism": {
+    "mechanism_id": "sparse-conditional-routing",
+    "current_status": "A1_MECHANISM_HYPOTHESIS",
+    "local_experiment_decision": "SUPPORTED_LOCAL",
+    "assimilation_effect": "NONE",
+    "target_after_experiment": "DO_NOT_PRECOMMIT; heterogeneous transfer test required before any advancement beyond A1"
+  },
+  "objective": "Either (a) promote the METAENGINE-1-local development transition checker into the permanent project-wide gate (Slice 5 per design spec \u00a720), or (b) run a heterogeneous transfer test for sparse-conditional-routing with independently implemented resources under the same mechanism contract.",
+  "hard_constraints": [
+    "Before code run Constitution -> Architecture Library -> Policy -> Alternatives -> Evidence review.",
+    "No mechanism status above A1 before independent implementation plus causal evidence plus transfer test.",
+    "No canonical checkpoint/champion/promotion/adaptation mutation.",
+    "Keep OrganizationPolicy/ResourceDescriptor provider-neutral.",
+    "No foreign source code becomes a MetaEngine Core runtime dependency.",
+    "Keep the 18-tool chat-facing federation MCP surface unchanged.",
+    "A negative or null transfer result is a valid scientific outcome."
+  ]
+}

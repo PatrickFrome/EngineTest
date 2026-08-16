@@ -1,0 +1,1344 @@
+{
+  "version": "16X-RECURSIVE-HERMENEUTIC-REENTRY-1.3",
+  "round_count": 2,
+  "rounds": [
+    {
+      "version": "16X-CORE4-REENTRY-1.3",
+      "round": 1,
+      "results": [
+        {
+          "engine_id": "engine_01",
+          "status": "COMPLETE",
+          "generative_position_count": 4,
+          "architecture_projection_count": 4,
+          "generative_positions": [
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'concept' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'being' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "being"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'historical' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "historical"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'hypotheses' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "hypotheses"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "becomes",
+            "being",
+            "concept",
+            "excluded",
+            "frame-atom",
+            "historical",
+            "hypotheses",
+            "interpretation",
+            "invisible",
+            "made",
+            "presupposed",
+            "probe",
+            "unit",
+            "what",
+            "when"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_02",
+          "status": "COMPLETE",
+          "generative_position_count": 1,
+          "architecture_projection_count": 1,
+          "generative_positions": [
+            {
+              "proposition": "Reversible operator hypothesis: test TEMPORAL_TRANSFORMATION against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "being",
+                  "historical",
+                  "hypotheses"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "collapses",
+            "condition",
+            "distinction",
+            "explicit",
+            "hypothesis",
+            "operator",
+            "retaining",
+            "retirement",
+            "reversible",
+            "rival",
+            "source",
+            "temporal_transformation",
+            "test",
+            "while"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_03",
+          "status": "COMPLETE",
+          "generative_position_count": 4,
+          "architecture_projection_count": 4,
+          "generative_positions": [
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'concept' and 'being' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "being"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'historical' and 'hypotheses' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "historical",
+                  "hypotheses"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'meaning' and 'earlier' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "meaning",
+                  "earlier"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Canonicalization-loss probe: compare the source term 'concept' against the hybrid agenda label 'biography' and preserve any residue that the shared schema cannot express.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CANONICALIZATION_RESIDUE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "being"
+                ],
+                "lineage_primitive": "CANONICAL_NORMALIZATION+LINEAGE_FIXITY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "agenda",
+            "being",
+            "biography",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "compare",
+            "concept",
+            "differential",
+            "earlier",
+            "equivalent",
+            "express",
+            "historical",
+            "hybrid",
+            "hypotheses",
+            "inferential",
+            "into",
+            "label",
+            "local",
+            "meaning",
+            "preserve",
+            "probe",
+            "residue",
+            "roles",
+            "schema",
+            "semantic-boundary",
+            "shared",
+            "shown",
+            "source",
+            "term",
+            "that",
+            "their",
+            "until"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_04",
+          "status": "COMPLETE",
+          "generative_position_count": 1,
+          "architecture_projection_count": 1,
+          "generative_positions": [
+            {
+              "proposition": "Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: Earlier interpretations should remain retrievable instead of being overwritten.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SCOPE_LATTICE_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "being",
+                  "earlier",
+                  "instead",
+                  "interpretations"
+                ],
+                "lineage_primitive": "SCOPE_LATTICE"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "before",
+            "being",
+            "clause",
+            "compare",
+            "earlier",
+            "evidence",
+            "instead",
+            "interpretations",
+            "modality",
+            "operator",
+            "overwritten",
+            "parse",
+            "parses",
+            "polarity",
+            "probe",
+            "remain",
+            "retrievable",
+            "rival",
+            "scope",
+            "should",
+            "this",
+            "using"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        }
+      ],
+      "metrics": {
+        "core4_complete": 4,
+        "generative_positions": 10,
+        "pairwise_mean_divergence": 0.9421,
+        "engine_output_entropy": 0.861,
+        "truth_promotion_violations": 0
+      },
+      "pairwise_core4_divergence": [
+        {
+          "a": "engine_01",
+          "b": "engine_02",
+          "lexical_jaccard": 0.0,
+          "divergence": 1.0
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_03",
+          "lexical_jaccard": 0.1136,
+          "divergence": 0.8864
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_04",
+          "lexical_jaccard": 0.0571,
+          "divergence": 0.9429
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_03",
+          "lexical_jaccard": 0.0426,
+          "divergence": 0.9574
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_04",
+          "lexical_jaccard": 0.0571,
+          "divergence": 0.9429
+        },
+        {
+          "a": "engine_03",
+          "b": "engine_04",
+          "lexical_jaccard": 0.0769,
+          "divergence": 0.9231
+        }
+      ],
+      "claim_ceiling": "DERIVED_REENTRY_OUTPUTS_ARE_SECOND_ORDER_GENERATIVE_NOT_PRIMARY_EVIDENCE",
+      "round_hash": "a04aaa380e6464a3bd695269d5ba9512eabcb2eaa04fc0dd1f624d1144464795"
+    },
+    {
+      "version": "16X-CORE4-REENTRY-1.3",
+      "round": 2,
+      "results": [
+        {
+          "engine_id": "engine_01",
+          "status": "COMPLETE",
+          "generative_position_count": 7,
+          "architecture_projection_count": 5,
+          "generative_positions": [
+            {
+              "proposition": "## PRIOR_CORE4_RETURNS - [engine_02] Reversible operator hypothesis: test TEMPORAL_TRANSFORMATION against the source, while retaining an explicit retirement condition if it collapses a rival distinction. - [engine_03] Semantic-boundary differential: do not canonicalize 'concept' and 'being' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'historical' and 'hypotheses' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'meaning' and 'earlier' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Canonicalization-loss probe: compare the source term 'concept' against the hybrid agenda label 'biography' and preserve any residue that the shared schema cannot express. - [engine_04] Polarity/modality parse probe: compare rival scope parses",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-c2c483133cf96db44f98e4c4d1ea913c02818f3e2756b19403a3d158aa9fd4f8#L33-L39"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "using this clause as operator evidence: Earlier interpretations should remain retrievable instead of being overwritten.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-c2c483133cf96db44f98e4c4d1ea913c02818f3e2756b19403a3d158aa9fd4f8#L33-L39"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'concept' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'being' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "being"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'historical' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "historical"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'hypotheses' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "hypotheses"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Second-order destruction: what common presupposition is shared by these peer returns — Reversible operator hypothesis: test TEMPORAL_TRANSFORMATION against the source, while retaining an explicit retirement condition if it collapses a rival distinction. / Semantic-boundary differential: do not canonicalize 'concept' and 'being' into one shared label until their local inferential roles are shown equivalent.?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SECOND_ORDER_DESTRUCTION",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "being"
+                ],
+                "lineage_primitive": "EXPERT_LIVING_DUALITY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "agenda",
+            "becomes",
+            "being",
+            "biography",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "clause",
+            "collapses",
+            "common",
+            "compare",
+            "concept",
+            "condition",
+            "destruction",
+            "differential",
+            "distinction",
+            "earlier",
+            "engine_02",
+            "engine_03",
+            "engine_04",
+            "equivalent",
+            "evidence",
+            "excluded",
+            "explicit",
+            "express",
+            "frame-atom",
+            "historical",
+            "hybrid",
+            "hypotheses",
+            "hypothesis",
+            "inferential",
+            "instead",
+            "interpretation",
+            "interpretations",
+            "into",
+            "invisible",
+            "label",
+            "local",
+            "made",
+            "meaning",
+            "modality",
+            "operator",
+            "overwritten",
+            "parse",
+            "parses",
+            "peer",
+            "polarity",
+            "preserve",
+            "presupposed",
+            "presupposition",
+            "prior_core4_returns",
+            "probe",
+            "remain",
+            "residue",
+            "retaining",
+            "retirement",
+            "retrievable",
+            "returns",
+            "reversible",
+            "rival",
+            "roles",
+            "schema",
+            "scope",
+            "second-order",
+            "semantic-boundary",
+            "shared",
+            "should",
+            "shown",
+            "source",
+            "temporal_transformation",
+            "term",
+            "test",
+            "that",
+            "their",
+            "these",
+            "this",
+            "unit",
+            "until",
+            "using"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_02",
+          "status": "COMPLETE",
+          "generative_position_count": 4,
+          "architecture_projection_count": 2,
+          "generative_positions": [
+            {
+              "proposition": "## PRIOR_CORE4_RETURNS - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'concept' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'being' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'historical' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'hypotheses' becomes the unit of interpretation? - [engine_03] Semantic-boundary differential: do not canonicalize 'concept' and 'being' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'historical' and 'hypotheses' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'meaning' and 'earlier' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Canonicalization-loss probe: compare the source term 'concept' against the hybrid agenda label 'biography' and preserve any residue that the shared schema cannot express. - [engine_04] Polarity/modality parse probe: compare rival scope parses",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-9a0b22ddc9c6862625628c58ea26ee896b1ecbc84bd050ea19d745595a0ec5d0#L33-L42"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "using this clause as operator evidence: Earlier interpretations should remain retrievable instead of being overwritten.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-9a0b22ddc9c6862625628c58ea26ee896b1ecbc84bd050ea19d745595a0ec5d0#L33-L42"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Reversible operator hypothesis: test TEMPORAL_TRANSFORMATION against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "being",
+                  "historical",
+                  "hypotheses"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            },
+            {
+              "proposition": "Operator-ecology probe: treat disagreement among Core-4 returns as evidence that operator selection itself may be local rather than global.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_ECOLOGY_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "being",
+                  "historical"
+                ],
+                "lineage_primitive": "OPERATOR_ECOLOGY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "agenda",
+            "among",
+            "becomes",
+            "being",
+            "biography",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "clause",
+            "collapses",
+            "compare",
+            "concept",
+            "condition",
+            "core-4",
+            "differential",
+            "disagreement",
+            "distinction",
+            "earlier",
+            "engine_01",
+            "engine_03",
+            "engine_04",
+            "equivalent",
+            "evidence",
+            "excluded",
+            "explicit",
+            "express",
+            "frame-atom",
+            "global",
+            "historical",
+            "hybrid",
+            "hypotheses",
+            "hypothesis",
+            "inferential",
+            "instead",
+            "interpretation",
+            "interpretations",
+            "into",
+            "invisible",
+            "itself",
+            "label",
+            "local",
+            "made",
+            "meaning",
+            "modality",
+            "operator",
+            "operator-ecology",
+            "overwritten",
+            "parse",
+            "parses",
+            "polarity",
+            "preserve",
+            "presupposed",
+            "prior_core4_returns",
+            "probe",
+            "rather",
+            "remain",
+            "residue",
+            "retaining",
+            "retirement",
+            "retrievable",
+            "returns",
+            "reversible",
+            "rival",
+            "roles",
+            "schema",
+            "scope",
+            "selection",
+            "semantic-boundary",
+            "shared",
+            "should",
+            "shown",
+            "source",
+            "temporal_transformation",
+            "term",
+            "test",
+            "than",
+            "that",
+            "their",
+            "this"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_03",
+          "status": "COMPLETE",
+          "generative_position_count": 7,
+          "architecture_projection_count": 5,
+          "generative_positions": [
+            {
+              "proposition": "## PRIOR_CORE4_RETURNS - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'concept' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'being' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'historical' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'hypotheses' becomes the unit of interpretation? - [engine_02] Reversible operator hypothesis: test TEMPORAL_TRANSFORMATION against the source, while retaining an explicit retirement condition if it collapses a rival distinction. - [engine_04] Polarity/modality parse probe: compare rival scope parses",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-7082fc0a5b7b015c390c1c99182bf27ec72f2f74150f8ad91ff283c09d4e60cd#L33-L39"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "using this clause as operator evidence: Earlier interpretations should remain retrievable instead of being overwritten.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-7082fc0a5b7b015c390c1c99182bf27ec72f2f74150f8ad91ff283c09d4e60cd#L33-L39"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'concept' and 'being' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "being"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'historical' and 'hypotheses' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "historical",
+                  "hypotheses"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'meaning' and 'earlier' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "meaning",
+                  "earlier"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Canonicalization-loss probe: compare the source term 'concept' against the hybrid agenda label 'biography' and preserve any residue that the shared schema cannot express.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CANONICALIZATION_RESIDUE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "being"
+                ],
+                "lineage_primitive": "CANONICAL_NORMALIZATION+LINEAGE_FIXITY"
+              }
+            },
+            {
+              "proposition": "Cross-lineage differential: Core-4 peers generated incompatible descriptive vocabularies; preserve the difference between 'Frame-atom probe: what is excluded, presupposed, or made invisible when 'concept' becomes the unit of interpretation?' and 'Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: Earlier interpr' before fusion.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CROSS_LINEAGE_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "being"
+                ],
+                "lineage_primitive": "CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "agenda",
+            "becomes",
+            "before",
+            "being",
+            "between",
+            "biography",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "clause",
+            "collapses",
+            "compare",
+            "concept",
+            "condition",
+            "core-4",
+            "cross-lineage",
+            "descriptive",
+            "difference",
+            "differential",
+            "distinction",
+            "earlier",
+            "engine_01",
+            "engine_02",
+            "engine_04",
+            "equivalent",
+            "evidence",
+            "excluded",
+            "explicit",
+            "express",
+            "frame-atom",
+            "fusion",
+            "generated",
+            "historical",
+            "hybrid",
+            "hypotheses",
+            "hypothesis",
+            "incompatible",
+            "inferential",
+            "instead",
+            "interpr",
+            "interpretation",
+            "interpretations",
+            "into",
+            "invisible",
+            "label",
+            "local",
+            "made",
+            "meaning",
+            "modality",
+            "operator",
+            "overwritten",
+            "parse",
+            "parses",
+            "peers",
+            "polarity",
+            "preserve",
+            "presupposed",
+            "prior_core4_returns",
+            "probe",
+            "remain",
+            "residue",
+            "retaining",
+            "retirement",
+            "retrievable",
+            "reversible",
+            "rival",
+            "roles",
+            "schema",
+            "scope",
+            "semantic-boundary",
+            "shared",
+            "should",
+            "shown",
+            "source",
+            "temporal_transformation",
+            "term",
+            "test",
+            "that",
+            "their"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_04",
+          "status": "COMPLETE",
+          "generative_position_count": 2,
+          "architecture_projection_count": 2,
+          "generative_positions": [
+            {
+              "proposition": "Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: Earlier interpretations should remain retrievable instead of being overwritten.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SCOPE_LATTICE_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "being",
+                  "earlier",
+                  "instead",
+                  "interpretations"
+                ],
+                "lineage_primitive": "SCOPE_LATTICE"
+              }
+            },
+            {
+              "proposition": "Counterfactual gate: invert or remove the cue that licenses each peer reading; quarantine any interpretation that survives a structure-changing perturbation unchanged.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "COUNTERFACTUAL_GATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "being",
+                  "historical"
+                ],
+                "lineage_primitive": "COUNTERFACTUAL_GATE"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "before",
+            "being",
+            "clause",
+            "compare",
+            "counterfactual",
+            "each",
+            "earlier",
+            "evidence",
+            "gate",
+            "instead",
+            "interpretation",
+            "interpretations",
+            "invert",
+            "licenses",
+            "modality",
+            "operator",
+            "overwritten",
+            "parse",
+            "parses",
+            "peer",
+            "perturbation",
+            "polarity",
+            "probe",
+            "quarantine",
+            "reading",
+            "remain",
+            "remove",
+            "retrievable",
+            "rival",
+            "scope",
+            "should",
+            "structure-changing",
+            "survives",
+            "that",
+            "this",
+            "unchanged",
+            "using"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        }
+      ],
+      "metrics": {
+        "core4_complete": 4,
+        "generative_positions": 20,
+        "pairwise_mean_divergence": 0.5006,
+        "engine_output_entropy": 0.9284,
+        "truth_promotion_violations": 0
+      },
+      "pairwise_core4_divergence": [
+        {
+          "a": "engine_01",
+          "b": "engine_02",
+          "lexical_jaccard": 0.7778,
+          "divergence": 0.2222
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_03",
+          "lexical_jaccard": 0.7391,
+          "divergence": 0.2609
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_04",
+          "lexical_jaccard": 0.2581,
+          "divergence": 0.7419
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_03",
+          "lexical_jaccard": 0.7582,
+          "divergence": 0.2418
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_04",
+          "lexical_jaccard": 0.2316,
+          "divergence": 0.7684
+        },
+        {
+          "a": "engine_03",
+          "b": "engine_04",
+          "lexical_jaccard": 0.2316,
+          "divergence": 0.7684
+        }
+      ],
+      "claim_ceiling": "DERIVED_REENTRY_OUTPUTS_ARE_SECOND_ORDER_GENERATIVE_NOT_PRIMARY_EVIDENCE",
+      "round_hash": "3e26474a559a4b2fce1d0c9b45adb47cbed8bd444d3265e4d2b5f1bf355fc96c"
+    }
+  ],
+  "return_edges": [
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    }
+  ],
+  "hermeneutic_graph": {
+    "path": "HERMENEUTIC_REENTRY_GRAPH.json",
+    "graph_hash": "4a72d84a547b840f45092303e092ec9a4aff596b4211a9dbe9af3ed46c1a3b76",
+    "node_count": 31,
+    "edge_count": 46,
+    "closed_reground_cycles": 20
+  },
+  "metrics": {
+    "recursive_rounds": 2,
+    "return_edge_count": 12,
+    "total_generative_positions": 30,
+    "mean_core4_divergence": 0.7214,
+    "truth_promotion_violations": 0,
+    "all_core4_participated_each_round": true,
+    "hermeneutic_cycle_count": 20,
+    "hermeneutic_graph_edges": 46
+  },
+  "claim_ceiling": "RECURSIVE_REENTRY_MEASURES_GENERATIVE_TRANSFORMATION_NOT_EXTERNAL_SEMANTIC_CORRECTNESS",
+  "reentry_hash": "41bac8e78558d70289e205118de68f192c18fa7683d182d6ed3b891dc9880c35"
+}

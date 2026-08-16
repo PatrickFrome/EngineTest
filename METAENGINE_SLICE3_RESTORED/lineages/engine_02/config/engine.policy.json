@@ -1,0 +1,24 @@
+{
+  "policy_version": "DAE-POLICY-0.1",
+  "core_version": "CORE 4.0.0-alpha.1",
+  "trc_version": "TRC-0.3",
+  "aag_invariants_required": true,
+  "registered_extensions_only": true,
+  "known_source_ids_required": true,
+  "module_records_require_audit_semantics": true,
+  "provenance": {
+    "require_agent": true,
+    "require_activity_id": true,
+    "require_timestamp": true,
+    "artifact_hash_severity": "WARNING",
+    "locator_severity": "WARNING"
+  },
+  "cross_field": {
+    "o6_requires_rivals": true,
+    "o8_requires_positive": true,
+    "absent_bridge_forbids_accept": true,
+    "absent_bridge_forbids_promotion": true,
+    "rt00_forbids_accept": true,
+    "large_gap_forbids_accept": true
+  }
+}

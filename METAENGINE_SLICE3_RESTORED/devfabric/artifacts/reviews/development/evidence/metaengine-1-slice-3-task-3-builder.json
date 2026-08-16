@@ -1,0 +1,60 @@
+{
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "kind": "SLICE_3_OFFLINE_CATALOG_BUILDER_TDD",
+  "completed_step_id": "METAENGINE-1-SLICE-3-TASK-3",
+  "completed_step_commit": "5b64db9c4e7e3d54c012b39ea37939839c3ae505",
+  "commands": [
+    {
+      "phase": "RED",
+      "command": ".venv/bin/python -m pytest tests/test_architecture_source_registry_cli.py::test_cli_ingest_and_verify_are_portable_deterministic_and_independently_checkable -q",
+      "exit_status": 1,
+      "observed": "CLI script absent"
+    },
+    {
+      "phase": "GREEN",
+      "command": ".venv/bin/python -m pytest tests/test_architecture_source_registry_cli.py -q",
+      "exit_status": 0,
+      "observed": "6 passed before receipt-freshness hardening"
+    },
+    {
+      "phase": "SECOND_RED",
+      "command": ".venv/bin/python -m pytest tests/test_architecture_source_registry_cli.py::test_cli_verify_rejects_a_self_consistent_but_stale_pass_receipt -q",
+      "exit_status": 1,
+      "observed": "A self-consistent stale PASS receipt was initially accepted"
+    },
+    {
+      "phase": "FINAL_GREEN",
+      "command": ".venv/bin/python -m pytest tests/test_architecture_source_registry_cli.py tests/test_reference_vault.py tests/test_architecture_sources.py -q",
+      "exit_status": 0,
+      "observed": "37 passed including stale-receipt rejection"
+    },
+    {
+      "phase": "STATIC",
+      "command": ".venv/bin/python -m json.tool research/architecture_library/catalog/first_wave.json && .venv/bin/python -m compileall -q metaengine scripts/architecture_source_registry.py && .venv/bin/ruff check scripts/architecture_source_registry.py tests/test_architecture_source_registry_cli.py && .venv/bin/mypy --follow-imports=skip --ignore-missing-imports scripts/architecture_source_registry.py && git diff --check",
+      "exit_status": 0,
+      "observed": "JSON, compileall, Ruff, mypy, and diff checks passed"
+    }
+  ],
+  "file_sha256": {
+    "research/architecture_library/README.md": "e75da6c4c0d81024fa275400ead4fe38a21c3179e19f8f3a0dae5573b3579393",
+    "research/architecture_library/catalog/first_wave.json": "91d562f32d747356ce06020b4b8d2b0c7e350517e5e216079b77e254ed1543e5",
+    "scripts/architecture_source_registry.py": "0f76ddaf3aa763552a3c48f2e7febda2b1b5bba7cb267f5813a19a3bb0f8351e",
+    "tests/test_architecture_source_registry_cli.py": "e91b56064f318d80565d5434014ea1bef3defcab3316ac2837f33afbe4fe433d"
+  },
+  "observed_catalog": {
+    "source_count": 10,
+    "permissive_ingested_targets": 5,
+    "registered_only_targets": 5,
+    "restricted_reference_targets": 2,
+    "closed_behavioral_targets": 3,
+    "mechanism_candidate_occurrences": 12,
+    "maximum_mechanism_status": "A1_MECHANISM_HYPOTHESIS"
+  },
+  "portability": {
+    "two_root_registry_snapshot_equal": true,
+    "absolute_paths_in_outputs": false,
+    "network_calls": 0,
+    "registry_published_last": true,
+    "fresh_receipt_required": true
+  }
+}

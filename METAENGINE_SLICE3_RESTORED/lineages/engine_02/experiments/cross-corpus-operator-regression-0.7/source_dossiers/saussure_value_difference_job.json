@@ -1,0 +1,36 @@
+{
+  "job_version": "DAE-DOCX-JOB-1.0",
+  "source_admission": "LOCAL_HASH",
+  "bibliographic": {
+    "author": "Ferdinand de Saussure / Bally & Sechehaye edition",
+    "title": "Saussure — valeur, différence, système",
+    "publication": "Controlled cross-corpus regression dossier assembled from short public-domain primary passages",
+    "year": 1916,
+    "language": "fr",
+    "genre": "controlled mixed-layer research dossier"
+  },
+  "access_policy": {
+    "analysis_class": "DERIVATIVE_ONLY",
+    "raw_text_retention": "TRANSIENT",
+    "redistribution": "UNKNOWN",
+    "allow_derived_outputs": true,
+    "basis": "Short public-domain primary passages plus original project reconstructions and rivals; not a complete edition witness.",
+    "restrictions_checked_at": "2026-08-11T15:45:00Z"
+  },
+  "crosswalk": {
+    "target_edition": "Ferdinand de Saussure / Bally & Sechehaye edition primary text",
+    "status": "PAGE_LEVEL_PARTIAL",
+    "target_locator": "Wikisource CLG lines 320, 356, 1241, 1311-1313",
+    "evidence_refs": [
+      "Wikisource CLG lines 320, 356, 1241, 1311-1313"
+    ],
+    "note": "Regression dossier only; stronger claims require reopening against the full primary context."
+  },
+  "structure": {
+    "drop_line_patterns": [],
+    "analyze_notes": true
+  },
+  "rendering": {
+    "page_label_prefix": "R"
+  }
+}

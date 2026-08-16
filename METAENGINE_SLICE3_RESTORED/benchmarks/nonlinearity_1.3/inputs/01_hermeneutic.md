@@ -1,0 +1,1 @@
+A concept may be constituted through relations and exclusions, yet not every difference is reducible to relation. A rival interpretation denies that relation has ontological priority. The analysis should preserve both possibilities, identify scope and attribution, and abstain where the source does not decide.

@@ -1,0 +1,14 @@
+{
+  "continuation_not_full_vault": true,
+  "full_lineage_bytes_embedded": false,
+  "lineage_lock_embedded_via_control": true,
+  "reference_vault_authority": "EXTERNAL_REFERENCE_ONLY_NO_CANONICAL_AUTHORITY",
+  "signed_provenance": "NOT_IMPLEMENTED",
+  "mechanism_assimilation": "NONE_MECHANISM_REMAINS_A1",
+  "canonical_write_during_slice4": false,
+  "external_mcp_deployment": "NOT_CLAIMED",
+  "release_promotion": "BLOCKED",
+  "experiment_truth_effect": "NONE",
+  "experiment_assimilation_effect": "NONE",
+  "local_decision": "SUPPORTED_LOCAL_LOCAL_ONLY_NOT_UNIVERSAL"
+}

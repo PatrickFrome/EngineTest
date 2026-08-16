@@ -1,0 +1,382 @@
+TAP version 13
+# Subtest: benchmark-init seals predictions and blind packets omit decision fields
+ok 1 - benchmark-init seals predictions and blind packets omit decision fields
+  ---
+  duration_ms: 79.673077
+  type: 'test'
+  ...
+# Subtest: benchmark evaluation blocks without independent annotations and adjudicated gold
+ok 2 - benchmark evaluation blocks without independent annotations and adjudicated gold
+  ---
+  duration_ms: 50.740644
+  type: 'test'
+  ...
+# Subtest: sealed prediction mutation invalidates the benchmark before evaluation
+ok 3 - sealed prediction mutation invalidates the benchmark before evaluation
+  ---
+  duration_ms: 40.87493
+  type: 'test'
+  ...
+# Subtest: expert-cycle snapshot mutation invalidates prediction provenance
+ok 4 - expert-cycle snapshot mutation invalidates prediction provenance
+  ---
+  duration_ms: 40.674645
+  type: 'test'
+  ...
+# Subtest: classification metrics expose dangerous overpromotion and abstention
+ok 5 - classification metrics expose dangerous overpromotion and abstention
+  ---
+  duration_ms: 4.957816
+  type: 'test'
+  ...
+# Subtest: 80-unit balanced independent benchmark can pass every frozen promotion gate
+ok 6 - 80-unit balanced independent benchmark can pass every frozen promotion gate
+  ---
+  duration_ms: 845.420056
+  type: 'test'
+  ...
+# Subtest: all repaired 4A fixtures are structurally and deterministically conformant
+ok 7 - all repaired 4A fixtures are structurally and deterministically conformant
+  ---
+  duration_ms: 94.331712
+  type: 'test'
+  ...
+# Subtest: JSON Schema alone accepts RT99, semantic engine rejects it
+ok 8 - JSON Schema alone accepts RT99, semantic engine rejects it
+  ---
+  duration_ms: 6.486523
+  type: 'test'
+  ...
+# Subtest: AAG invariants are executable rather than documentary
+ok 9 - AAG invariants are executable rather than documentary
+  ---
+  duration_ms: 2.466075
+  type: 'test'
+  ...
+# Subtest: O6 requires encoded rivals
+ok 10 - O6 requires encoded rivals
+  ---
+  duration_ms: 2.227653
+  type: 'test'
+  ...
+# Subtest: absent bridge cannot produce accepting promoted output
+ok 11 - absent bridge cannot produce accepting promoted output
+  ---
+  duration_ms: 2.333298
+  type: 'test'
+  ...
+# Subtest: extension escape is rejected
+ok 12 - extension escape is rejected
+  ---
+  duration_ms: 14.448606
+  type: 'test'
+  ...
+# Subtest: provenance references must resolve through the source catalog
+ok 13 - provenance references must resolve through the source catalog
+  ---
+  duration_ms: 1.587849
+  type: 'test'
+  ...
+# Subtest: semantic heuristics expose the original RT21 category error
+ok 14 - semantic heuristics expose the original RT21 category error
+  ---
+  duration_ms: 4.553298
+  type: 'test'
+  ...
+# Subtest: valid unstable DAG requires IND4 before ID4
+ok 15 - valid unstable DAG requires IND4 before ID4
+  ---
+  duration_ms: 7.890025
+  type: 'test'
+  ...
+# Subtest: stable DAG may proceed from KC4 directly to ID4
+ok 16 - stable DAG may proceed from KC4 directly to ID4
+  ---
+  duration_ms: 2.762694
+  type: 'test'
+  ...
+# Subtest: identity-before-relata DAG is rejected
+ok 17 - identity-before-relata DAG is rejected
+  ---
+  duration_ms: 1.923661
+  type: 'test'
+  ...
+# Subtest: 4D epochal workflow requires reconstruction plus concrete discrimination
+ok 18 - 4D epochal workflow requires reconstruction plus concrete discrimination
+  ---
+  duration_ms: 32.201696
+  type: 'test'
+  ...
+# Subtest: 4D totalization before MA4/TO4/BS4 evidence is rejected
+ok 19 - 4D totalization before MA4/TO4/BS4 evidence is rejected
+  ---
+  duration_ms: 3.42438
+  type: 'test'
+  ...
+# Subtest: v3.8 protocol inventory is exhaustive at heading level and canonicalized into families
+ok 20 - v3.8 protocol inventory is exhaustive at heading level and canonicalized into families
+  ---
+  duration_ms: 5.968307
+  type: 'test'
+  ...
+# Subtest: deterministic v3.8 protocol run passes with complete evidence
+ok 21 - deterministic v3.8 protocol run passes with complete evidence
+  ---
+  duration_ms: 3.331248
+  type: 'test'
+  ...
+# Subtest: DATA/AUTH/LIC/CODER gate suspends rather than fabricating an empirical result
+ok 22 - DATA/AUTH/LIC/CODER gate suspends rather than fabricating an empirical result
+  ---
+  duration_ms: 8.667929
+  type: 'test'
+  ...
+# Subtest: protocol evidence claims cannot pass without evidence references
+ok 23 - protocol evidence claims cannot pass without evidence references
+  ---
+  duration_ms: 8.907716
+  type: 'test'
+  ...
+# Subtest: research plan freeze and verification preserve a canonical preregistration
+ok 24 - research plan freeze and verification preserve a canonical preregistration
+  ---
+  duration_ms: 12.912635
+  type: 'test'
+  ...
+# Subtest: research plan verification reports path-level deviations
+ok 25 - research plan verification reports path-level deviations
+  ---
+  duration_ms: 18.693497
+  type: 'test'
+  ...
+# Subtest: nominal Krippendorff alpha and multilabel metrics pass for perfect independent agreement
+ok 26 - nominal Krippendorff alpha and multilabel metrics pass for perfect independent agreement
+  ---
+  duration_ms: 66.396784
+  type: 'test'
+  ...
+# Subtest: agreement gate fails its frozen threshold under systematic coder disagreement
+ok 27 - agreement gate fails its frozen threshold under systematic coder disagreement
+  ---
+  duration_ms: 63.638703
+  type: 'test'
+  ...
+# Subtest: alpha implementation tolerates missing ratings and uses only comparable units
+ok 28 - alpha implementation tolerates missing ratings and uses only comparable units
+  ---
+  duration_ms: 0.823733
+  type: 'test'
+  ...
+# Subtest: AIF/Carneades-inspired argument graph derives support only inside the represented graph
+ok 29 - AIF/Carneades-inspired argument graph derives support only inside the represented graph
+  ---
+  duration_ms: 10.472029
+  type: 'test'
+  ...
+# Subtest: open critical question suspends an argument and blocks a declared supported status
+ok 30 - open critical question suspends an argument and blocks a declared supported status
+  ---
+  duration_ms: 10.029063
+  type: 'test'
+  ...
+# Subtest: RO-Crate 1.3 export is attached, self-describing and records file fixity
+ok 31 - RO-Crate 1.3 export is attached, self-describing and records file fixity
+  ---
+  duration_ms: 8.909937
+  type: 'test'
+  ...
+# Subtest: text analyzer emits provenance-bound review candidates without semantic promotion
+ok 32 - text analyzer emits provenance-bound review candidates without semantic promotion
+  ---
+  duration_ms: 162.760514
+  type: 'test'
+  ...
+# Subtest: text analyzer detects German relation signals required for Heidegger GA
+ok 33 - text analyzer detects German relation signals required for Heidegger GA
+  ---
+  duration_ms: 55.622768
+  type: 'test'
+  ...
+# Subtest: Unicode word boundaries detect Russian signals and language markers
+ok 34 - Unicode word boundaries detect Russian signals and language markers
+  ---
+  duration_ms: 63.32928
+  type: 'test'
+  ...
+# Subtest: page-aware analyzer preserves page selectors, blocks modal normativity promotion and omits source text
+ok 35 - page-aware analyzer preserves page selectors, blocks modal normativity promotion and omits source text
+  ---
+  duration_ms: 123.760554
+  type: 'test'
+  ...
+# Subtest: reference-only source policy blocks page analysis before output creation
+ok 36 - reference-only source policy blocks page analysis before output creation
+  ---
+  duration_ms: 16.617928
+  type: 'test'
+  ...
+# Subtest: page-aware intake accepts an uncatalogued source only when its LOCAL-SHA256 id is content-bound
+ok 37 - page-aware intake accepts an uncatalogued source only when its LOCAL-SHA256 id is content-bound
+  ---
+  duration_ms: 60.977177
+  type: 'test'
+  ...
+# Subtest: page-aware intake blocks source-fixity and pagination mutations
+ok 38 - page-aware intake blocks source-fixity and pagination mutations
+  ---
+  duration_ms: 4.835935
+  type: 'test'
+  ...
+# Subtest: DOCX job and generated manifest distinguish renderer pages from source pagination
+ok 39 - DOCX job and generated manifest distinguish renderer pages from source pagination
+  ---
+  duration_ms: 0.872672
+  type: 'test'
+  ...
+# Subtest: DOCX structural audit detects missing source pagination, repetition and interaction residue
+ok 40 - DOCX structural audit detects missing source pagination, repetition and interaction residue
+  ---
+  duration_ms: 3.115132
+  type: 'test'
+  ...
+# Subtest: Corpus Refinery routes explicit layers but leaves weak or tied passages unresolved
+ok 41 - Corpus Refinery routes explicit layers but leaves weak or tied passages unresolved
+  ---
+  duration_ms: 130.244599
+  type: 'test'
+  ...
+# Subtest: OOXML-native parsing separates headings and OMML while consolidation is non-destructive
+ok 42 - OOXML-native parsing separates headings and OMML while consolidation is non-destructive
+  ---
+  duration_ms: 76.747292
+  type: 'test'
+  ...
+# Subtest: Corpus Refinery completes an end-to-end derivative-only run against a fixity-checked existing page run
+ok 43 - Corpus Refinery completes an end-to-end derivative-only run against a fixity-checked existing page run
+  ---
+  duration_ms: 394.806201
+  type: 'test'
+  ...
+# Subtest: automatic expert profile converts every discovered topic into a terminally adjudicable thesis
+ok 44 - automatic expert profile converts every discovered topic into a terminally adjudicable thesis
+  ---
+  duration_ms: 1291.866646
+  type: 'test'
+  ...
+# Subtest: autonomous expert cycle emits final analytics and terminally adjudicates the Heidegger dossier
+ok 45 - autonomous expert cycle emits final analytics and terminally adjudicates the Heidegger dossier
+  ---
+  duration_ms: 3951.780332
+  type: 'test'
+  ...
+# Subtest: external model backend requires explicit source-transfer authorization
+ok 46 - external model backend requires explicit source-transfer authorization
+  ---
+  duration_ms: 1.431488
+  type: 'test'
+  ...
+# Subtest: external model cannot override a deterministic claim ceiling
+ok 47 - external model cannot override a deterministic claim ceiling
+  ---
+  duration_ms: 254.332025
+  type: 'test'
+  ...
+# Subtest: Heidegger GA pilot separates local evidence from catalog, translation and diachronic overreach
+ok 48 - Heidegger GA pilot separates local evidence from catalog, translation and diachronic overreach
+  ---
+  duration_ms: 23.927346
+  type: 'test'
+  ...
+# Subtest: ETY-0.2 covers every central concept while refusing automatic significance
+ok 49 - ETY-0.2 covers every central concept while refusing automatic significance
+  ---
+  duration_ms: 142.987388
+  type: 'test'
+  ...
+# Subtest: ETY-FULL cannot omit counter-etymology, phenomenological and bridge contours
+ok 50 - ETY-FULL cannot omit counter-etymology, phenomenological and bridge contours
+  ---
+  duration_ms: 133.137731
+  type: 'test'
+  ...
+# Subtest: living analysis cryptographically binds mandatory etymology and every constellation references cards
+ok 51 - living analysis cryptographically binds mandatory etymology and every constellation references cards
+  ---
+  duration_ms: 342.035042
+  type: 'test'
+  ...
+# Subtest: explicit ETY stress terms remain mandatory even when no topic hypothesis selects them
+ok 52 - explicit ETY stress terms remain mandatory even when no topic hypothesis selects them
+  ---
+  duration_ms: 53.166232
+  type: 'test'
+  ...
+# Subtest: living cycle emits a nonlinear, open and gain-bearing exploratory graph
+ok 53 - living cycle emits a nonlinear, open and gain-bearing exploratory graph
+  ---
+  duration_ms: 397.395871
+  type: 'test'
+  ...
+# Subtest: seed changes traversal without changing the generated philosophical candidates
+ok 54 - seed changes traversal without changing the generated philosophical candidates
+  ---
+  duration_ms: 452.037198
+  type: 'test'
+  ...
+# Subtest: divergent 2.27 and 2.28 protocol branches remain independently selectable
+ok 55 - divergent 2.27 and 2.28 protocol branches remain independently selectable
+  ---
+  duration_ms: 57.322798
+  type: 'test'
+  ...
+# Subtest: an active ritual step without gain is rejected semantically
+ok 56 - an active ritual step without gain is rejected semantically
+  ---
+  duration_ms: 156.746503
+  type: 'test'
+  ...
+# Subtest: weak material can skip generative gestures instead of fabricating surprise
+ok 57 - weak material can skip generative gestures instead of fabricating surprise
+  ---
+  duration_ms: 26.225307
+  type: 'test'
+  ...
+# Subtest: source-forced Geviert hypothesis mutates the operator ecology without promoting relation-first ontology
+ok 58 - source-forced Geviert hypothesis mutates the operator ecology without promoting relation-first ontology
+  ---
+  duration_ms: 50.188602
+  type: 'test'
+  ...
+# Subtest: AI-chat portable project is schema-valid, relocatable and cryptographically bound
+ok 59 - AI-chat portable project is schema-valid, relocatable and cryptographically bound
+  ---
+  duration_ms: 106.896349
+  type: 'test'
+  ...
+# Subtest: document-only profile mandates ETY and forbids pseudo-execution or ritual surprise
+ok 60 - document-only profile mandates ETY and forbids pseudo-execution or ritual surprise
+  ---
+  duration_ms: 4.587216
+  type: 'test'
+  ...
+# Subtest: source resistance can force an unregistered topic and preserve explicit project theses
+ok 61 - source resistance can force an unregistered topic and preserve explicit project theses
+  ---
+  duration_ms: 170.667113
+  type: 'test'
+  ...
+# Subtest: automatic expert profile adjudicates the explicit claim rather than replacing it by a meta-thesis
+ok 62 - automatic expert profile adjudicates the explicit claim rather than replacing it by a meta-thesis
+  ---
+  duration_ms: 15.656387
+  type: 'test'
+  ...
+1..62
+# tests 62
+# suites 0
+# pass 62
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7770.298969

@@ -1,0 +1,49 @@
+{
+  "registry_version": "DAE-EXTENSIONS-0.1",
+  "extensions": {
+    "em4": {
+      "module_id": "EM4",
+      "schema": "vendor/module4a/em4_profile.schema.json"
+    },
+    "kc4": {
+      "module_id": "KC4",
+      "schema": "vendor/module4a/kc4_profile.schema.json"
+    },
+    "ind4": {
+      "module_id": "IND4",
+      "schema": "vendor/module4a/ind4_profile.schema.json"
+    },
+    "id4": {
+      "module_id": "ID4",
+      "schema": "vendor/module4a/id4_profile.schema.json"
+    },
+    "ma4": {
+      "module_id": "MA4",
+      "schema": "vendor/module4d/ma4_profile.schema.json",
+      "upstream_schema": "vendor/module4d_upstream/ma4_profile.schema.json",
+      "status": "ENGINE_COMPATIBILITY_PROFILE_OVER_VERIFIED_UPSTREAM_0.1"
+    },
+    "ge4": {
+      "module_id": "GE4",
+      "schema": "vendor/module4d/ge4_profile.schema.json",
+      "upstream_schema": "vendor/module4d_upstream/ge4_profile.schema.json",
+      "status": "ENGINE_COMPATIBILITY_PROFILE_OVER_VERIFIED_UPSTREAM_0.1"
+    },
+    "bs4": {
+      "module_id": "BS4",
+      "schema": "vendor/module4d/bs4_profile.schema.json",
+      "upstream_schema": "vendor/module4d_upstream/bs4_profile.schema.json",
+      "status": "ENGINE_COMPATIBILITY_PROFILE_OVER_VERIFIED_UPSTREAM_0.1"
+    },
+    "to4": {
+      "module_id": "TO4",
+      "schema": "vendor/module4d/to4_profile.schema.json",
+      "upstream_schema": "vendor/module4d_upstream/to4_profile.schema.json",
+      "status": "ENGINE_COMPATIBILITY_PROFILE_OVER_VERIFIED_UPSTREAM_0.1"
+    },
+    "audit_semantics": {
+      "module_id": "DAE-AUDIT-SEMANTICS",
+      "schema": "schemas/audit_semantics.schema.json"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "record_id": "4A-IND4-SIMONDON-PROCESS",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "Gilbert Simondon official site summary",
+      "2.25 Simondon Process-Priority Audit"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + IND4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "STATE",
+    "description": "A metastable preindividual system rich in unresolved potentials.",
+    "role": [
+      "preindividual-field"
+    ],
+    "object_type": "metastable_system"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "EVENT",
+    "description": "An individuation process generates an individuated unit together with a correlated milieu.",
+    "role": [
+      "individuation-process"
+    ],
+    "object_type": "ontogenetic_process"
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT06",
+      "additional_arguments": [
+        {
+          "argument_id": "M",
+          "role": "correlated-milieu",
+          "referent_kind": "OTHER",
+          "value": {
+            "literal": "associated milieu"
+          },
+          "status": "CONDITIONAL"
+        }
+      ]
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "Process-first reconstruction may explain boundary emergence and unit formation, but process priority is not a universal axiom."
+    },
+    "promotion_flags": [
+      "NODE_KIND",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G2",
+    "gap": "NONE",
+    "bridge_burden": "Cross-domain transfer from physical to vital/psychic/collective individuation requires a new bridge."
+  },
+  "audit": {
+    "native_domain": "Simondonian individuation",
+    "native_method": "ontogenetic/process analysis",
+    "activated_operators": [
+      "O2",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "MEDIUM"
+  },
+  "extensions": {
+    "ind4": {
+      "module_id": "IND4",
+      "version": "0.1",
+      "domain": "process/ontogenesis",
+      "candidate_unit": "individual emerging with associated milieu",
+      "boundary_criterion": [
+        "PROCESS_EVENT",
+        "CAUSAL_DYNAMIC"
+      ],
+      "integration_mechanism": "resolution/propagation within a metastable system",
+      "granularity": "domain-specific phase of individuation",
+      "nesting": "subsequent individuation can occur",
+      "overlap": "not globally fixed",
+      "counterpartition": "substance/structure-based account of the same unit",
+      "discriminator": "which model better explains boundary emergence, persistence and causal powers",
+      "revision_trigger": "A region where process-model adds no explanatory gain over a stable-unit model."
+    }
+  },
+  "outcome": "QUALIFY"
+}

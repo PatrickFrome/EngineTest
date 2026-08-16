@@ -1,0 +1,1590 @@
+{
+  "version": "16X-RECURSIVE-HERMENEUTIC-REENTRY-1.3",
+  "round_count": 2,
+  "rounds": [
+    {
+      "version": "16X-CORE4-REENTRY-1.3",
+      "round": 1,
+      "results": [
+        {
+          "engine_id": "engine_01",
+          "status": "COMPLETE",
+          "generative_position_count": 5,
+          "architecture_projection_count": 5,
+          "generative_positions": [
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'relation' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'attribution' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "attribution"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'concept' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'difference' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "difference"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Residual probe: preserve the source's negative or rival formulation as a possible irreducible remainder rather than absorbing it into the dominant frame.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "RESIDUAL_RIVAL_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution",
+                  "concept"
+                ],
+                "lineage_primitive": "HERMENEUTIC_DESTRUCTION"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "absorbing",
+            "attribution",
+            "becomes",
+            "concept",
+            "difference",
+            "dominant",
+            "excluded",
+            "formulation",
+            "frame",
+            "frame-atom",
+            "interpretation",
+            "into",
+            "invisible",
+            "irreducible",
+            "made",
+            "negative",
+            "possible",
+            "preserve",
+            "presupposed",
+            "probe",
+            "rather",
+            "relation",
+            "remainder",
+            "residual",
+            "rival",
+            "source",
+            "than",
+            "unit",
+            "what",
+            "when"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_02",
+          "status": "COMPLETE",
+          "generative_position_count": 2,
+          "architecture_projection_count": 2,
+          "generative_positions": [
+            {
+              "proposition": "Reversible operator hypothesis: test RELATIONAL_CONSTITUTION against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution",
+                  "concept",
+                  "difference"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            },
+            {
+              "proposition": "Reversible operator hypothesis: test NONREDUCTIVE_DIFFERENCE against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution",
+                  "concept",
+                  "difference"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "collapses",
+            "condition",
+            "distinction",
+            "explicit",
+            "hypothesis",
+            "nonreductive_difference",
+            "operator",
+            "relational_constitution",
+            "retaining",
+            "retirement",
+            "reversible",
+            "rival",
+            "source",
+            "test",
+            "while"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_03",
+          "status": "COMPLETE",
+          "generative_position_count": 4,
+          "architecture_projection_count": 4,
+          "generative_positions": [
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'relation' and 'attribution' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'concept' and 'difference' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "difference"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'interpretation' and 'ontological' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "interpretation",
+                  "ontological"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Canonicalization-loss probe: compare the source term 'relation' against the hybrid agenda label 'analysis' and preserve any residue that the shared schema cannot express.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CANONICALIZATION_RESIDUE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution"
+                ],
+                "lineage_primitive": "CANONICAL_NORMALIZATION+LINEAGE_FIXITY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "agenda",
+            "analysis",
+            "attribution",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "compare",
+            "concept",
+            "difference",
+            "differential",
+            "equivalent",
+            "express",
+            "hybrid",
+            "inferential",
+            "interpretation",
+            "into",
+            "label",
+            "local",
+            "ontological",
+            "preserve",
+            "probe",
+            "relation",
+            "residue",
+            "roles",
+            "schema",
+            "semantic-boundary",
+            "shared",
+            "shown",
+            "source",
+            "term",
+            "that",
+            "their",
+            "until"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_04",
+          "status": "COMPLETE",
+          "generative_position_count": 3,
+          "architecture_projection_count": 3,
+          "generative_positions": [
+            {
+              "proposition": "Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: A concept may be constituted through relations and exclusions, yet not every difference is reducible to relation.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SCOPE_LATTICE_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "difference",
+                  "relation",
+                  "relations"
+                ],
+                "lineage_primitive": "SCOPE_LATTICE"
+              }
+            },
+            {
+              "proposition": "Attribution-scope probe: keep this proposition inside a rival/attributed voice unless an explicit authorial reset occurs: A rival interpretation denies that relation has ontological priority.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "ATTRIBUTION_SCOPE_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "interpretation",
+                  "ontological",
+                  "relation",
+                  "denies"
+                ],
+                "lineage_primitive": "SEMANTIC_ROLE+SCOPE_LATTICE"
+              }
+            },
+            {
+              "proposition": "Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: The analysis should preserve both possibilities, identify scope and attribution, and abstain where the source does not decide.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SCOPE_LATTICE_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "attribution",
+                  "scope",
+                  "abstain",
+                  "decide"
+                ],
+                "lineage_primitive": "SCOPE_LATTICE"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "abstain",
+            "analysis",
+            "attributed",
+            "attribution",
+            "attribution-scope",
+            "authorial",
+            "before",
+            "both",
+            "clause",
+            "compare",
+            "concept",
+            "constituted",
+            "decide",
+            "denies",
+            "difference",
+            "does",
+            "every",
+            "evidence",
+            "exclusions",
+            "explicit",
+            "identify",
+            "inside",
+            "interpretation",
+            "keep",
+            "modality",
+            "occurs",
+            "ontological",
+            "operator",
+            "parse",
+            "parses",
+            "polarity",
+            "possibilities",
+            "preserve",
+            "priority",
+            "probe",
+            "proposition",
+            "reducible",
+            "relation",
+            "relations",
+            "reset",
+            "rival",
+            "scope",
+            "should",
+            "source",
+            "that",
+            "this",
+            "through",
+            "unless",
+            "using",
+            "voice",
+            "where"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        }
+      ],
+      "metrics": {
+        "core4_complete": 4,
+        "generative_positions": 14,
+        "pairwise_mean_divergence": 0.8994,
+        "engine_output_entropy": 0.9621,
+        "truth_promotion_violations": 0
+      },
+      "pairwise_core4_divergence": [
+        {
+          "a": "engine_01",
+          "b": "engine_02",
+          "lexical_jaccard": 0.0455,
+          "divergence": 0.9545
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_03",
+          "lexical_jaccard": 0.1636,
+          "divergence": 0.8364
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_04",
+          "lexical_jaccard": 0.125,
+          "divergence": 0.875
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_03",
+          "lexical_jaccard": 0.0417,
+          "divergence": 0.9583
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_04",
+          "lexical_jaccard": 0.0635,
+          "divergence": 0.9365
+        },
+        {
+          "a": "engine_03",
+          "b": "engine_04",
+          "lexical_jaccard": 0.1644,
+          "divergence": 0.8356
+        }
+      ],
+      "claim_ceiling": "DERIVED_REENTRY_OUTPUTS_ARE_SECOND_ORDER_GENERATIVE_NOT_PRIMARY_EVIDENCE",
+      "round_hash": "7dbf79c925f13d272bcf332590d7106c58a6ab9eac9eaf60fd302cc5ef9ccaec"
+    },
+    {
+      "version": "16X-CORE4-REENTRY-1.3",
+      "round": 2,
+      "results": [
+        {
+          "engine_id": "engine_01",
+          "status": "COMPLETE",
+          "generative_position_count": 8,
+          "architecture_projection_count": 6,
+          "generative_positions": [
+            {
+              "proposition": "## PRIOR_CORE4_RETURNS - [engine_02] Reversible operator hypothesis: test RELATIONAL_CONSTITUTION against the source, while retaining an explicit retirement condition if it collapses a rival distinction. - [engine_02] Reversible operator hypothesis: test NONREDUCTIVE_DIFFERENCE against the source, while retaining an explicit retirement condition if it collapses a rival distinction. - [engine_03] Semantic-boundary differential: do not canonicalize 'relation' and 'attribution' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'concept' and 'difference' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'interpretation' and 'ontological' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Canonicalization-loss probe: compare the source term 'relation' against the hybrid agenda label 'analysis' and preserve any residue that the shared schema cannot express. - [engine_04] Polarity/modality parse probe: compare rival scope parses",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-1c74e5234cbebfdb865276049f6a80755bd1b0b4a690a3136bd0ac8dae5abb45#L33-L42"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "using this clause as operator evidence: A concept may be constituted through relations and exclusions, yet not every difference is reducible to relation. - [engine_04] Attribution-scope probe: keep this proposition inside a rival/attributed voice unless an explicit authorial reset occurs: A rival interpretation denies that relation has ontological priority. - [engine_04] Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: The analysis should preserve both possibilities, identify scope and attribution, and abstain where the source does not decide.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-1c74e5234cbebfdb865276049f6a80755bd1b0b4a690a3136bd0ac8dae5abb45#L33-L42"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'relation' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'attribution' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "attribution"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'concept' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'difference' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "difference"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Residual probe: preserve the source's negative or rival formulation as a possible irreducible remainder rather than absorbing it into the dominant frame.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "RESIDUAL_RIVAL_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution",
+                  "concept"
+                ],
+                "lineage_primitive": "HERMENEUTIC_DESTRUCTION"
+              }
+            },
+            {
+              "proposition": "Second-order destruction: what common presupposition is shared by these peer returns — Reversible operator hypothesis: test RELATIONAL_CONSTITUTION against the source, while retaining an explicit retirement condition if it collapses a rival distinction. / Reversible operator hypothesis: test NONREDUCTIVE_DIFFERENCE against the source, while retaining an explicit retirement condition if it collapses a rival distinction.?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SECOND_ORDER_DESTRUCTION",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution"
+                ],
+                "lineage_primitive": "EXPERT_LIVING_DUALITY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "absorbing",
+            "abstain",
+            "against",
+            "agenda",
+            "analysis",
+            "attributed",
+            "attribution",
+            "attribution-scope",
+            "authorial",
+            "becomes",
+            "before",
+            "both",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "clause",
+            "collapses",
+            "common",
+            "compare",
+            "concept",
+            "condition",
+            "constituted",
+            "decide",
+            "denies",
+            "destruction",
+            "difference",
+            "differential",
+            "distinction",
+            "does",
+            "dominant",
+            "engine_02",
+            "engine_03",
+            "engine_04",
+            "equivalent",
+            "every",
+            "evidence",
+            "excluded",
+            "exclusions",
+            "explicit",
+            "express",
+            "formulation",
+            "frame",
+            "frame-atom",
+            "hybrid",
+            "hypothesis",
+            "identify",
+            "inferential",
+            "inside",
+            "interpretation",
+            "into",
+            "invisible",
+            "irreducible",
+            "keep",
+            "label",
+            "local",
+            "made",
+            "modality",
+            "negative",
+            "nonreductive_difference",
+            "occurs",
+            "ontological",
+            "operator",
+            "parse",
+            "parses",
+            "peer",
+            "polarity",
+            "possibilities",
+            "possible",
+            "preserve",
+            "presupposed",
+            "presupposition",
+            "prior_core4_returns",
+            "priority",
+            "probe",
+            "proposition",
+            "rather",
+            "reducible",
+            "relation",
+            "relational_constitution",
+            "relations"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_02",
+          "status": "COMPLETE",
+          "generative_position_count": 5,
+          "architecture_projection_count": 3,
+          "generative_positions": [
+            {
+              "proposition": "## PRIOR_CORE4_RETURNS - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'relation' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'attribution' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'concept' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'difference' becomes the unit of interpretation? - [engine_01] Residual probe: preserve the source's negative or rival formulation as a possible irreducible remainder rather than absorbing it into the dominant frame. - [engine_03] Semantic-boundary differential: do not canonicalize 'relation' and 'attribution' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'concept' and 'difference' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'interpretation' and 'ontological' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Canonicalization-loss probe: compare the source term 'relation' against the hybrid agenda label 'analysis' and preserve any residue that the shared schema cannot express. - [engine_04] Polarity/modality parse probe: compare rival scope parses",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-8a0b88c6ee99f2080b8086ef46f1dcb1b32b5ecb095975a8bc106e0b2fd92996#L33-L45"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "using this clause as operator evidence: A concept may be constituted through relations and exclusions, yet not every difference is reducible to relation. - [engine_04] Attribution-scope probe: keep this proposition inside a rival/attributed voice unless an explicit authorial reset occurs: A rival interpretation denies that relation has ontological priority. - [engine_04] Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: The analysis should preserve both possibilities, identify scope and attribution, and abstain where the source does not decide.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-8a0b88c6ee99f2080b8086ef46f1dcb1b32b5ecb095975a8bc106e0b2fd92996#L33-L45"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Reversible operator hypothesis: test RELATIONAL_CONSTITUTION against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution",
+                  "concept",
+                  "difference"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            },
+            {
+              "proposition": "Reversible operator hypothesis: test NONREDUCTIVE_DIFFERENCE against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution",
+                  "concept",
+                  "difference"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            },
+            {
+              "proposition": "Operator-ecology probe: treat disagreement among Core-4 returns as evidence that operator selection itself may be local rather than global.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_ECOLOGY_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution",
+                  "concept"
+                ],
+                "lineage_primitive": "OPERATOR_ECOLOGY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "absorbing",
+            "abstain",
+            "against",
+            "agenda",
+            "among",
+            "analysis",
+            "attributed",
+            "attribution",
+            "attribution-scope",
+            "authorial",
+            "becomes",
+            "before",
+            "both",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "clause",
+            "collapses",
+            "compare",
+            "concept",
+            "condition",
+            "constituted",
+            "core-4",
+            "decide",
+            "denies",
+            "difference",
+            "differential",
+            "disagreement",
+            "distinction",
+            "does",
+            "dominant",
+            "engine_01",
+            "engine_03",
+            "engine_04",
+            "equivalent",
+            "every",
+            "evidence",
+            "excluded",
+            "exclusions",
+            "explicit",
+            "express",
+            "formulation",
+            "frame",
+            "frame-atom",
+            "global",
+            "hybrid",
+            "hypothesis",
+            "identify",
+            "inferential",
+            "inside",
+            "interpretation",
+            "into",
+            "invisible",
+            "irreducible",
+            "itself",
+            "keep",
+            "label",
+            "local",
+            "made",
+            "modality",
+            "negative",
+            "nonreductive_difference",
+            "occurs",
+            "ontological",
+            "operator",
+            "operator-ecology",
+            "parse",
+            "parses",
+            "polarity",
+            "possibilities",
+            "possible",
+            "preserve",
+            "presupposed",
+            "prior_core4_returns",
+            "priority",
+            "probe",
+            "proposition",
+            "rather",
+            "reducible",
+            "relation"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_03",
+          "status": "COMPLETE",
+          "generative_position_count": 7,
+          "architecture_projection_count": 5,
+          "generative_positions": [
+            {
+              "proposition": "## PRIOR_CORE4_RETURNS - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'relation' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'attribution' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'concept' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'difference' becomes the unit of interpretation? - [engine_01] Residual probe: preserve the source's negative or rival formulation as a possible irreducible remainder rather than absorbing it into the dominant frame. - [engine_02] Reversible operator hypothesis: test RELATIONAL_CONSTITUTION against the source, while retaining an explicit retirement condition if it collapses a rival distinction. - [engine_02] Reversible operator hypothesis: test NONREDUCTIVE_DIFFERENCE against the source, while retaining an explicit retirement condition if it collapses a rival distinction. - [engine_04] Polarity/modality parse probe: compare rival scope parses",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-e13be08797d2cf3a9ac166141a6171a209c1bbf8d0f5b2aac6d89a251633a558#L33-L43"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "using this clause as operator evidence: A concept may be constituted through relations and exclusions, yet not every difference is reducible to relation. - [engine_04] Attribution-scope probe: keep this proposition inside a rival/attributed voice unless an explicit authorial reset occurs: A rival interpretation denies that relation has ontological priority. - [engine_04] Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: The analysis should preserve both possibilities, identify scope and attribution, and abstain where the source does not decide.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-e13be08797d2cf3a9ac166141a6171a209c1bbf8d0f5b2aac6d89a251633a558#L33-L43"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'relation' and 'attribution' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'concept' and 'difference' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "difference"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'interpretation' and 'ontological' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "interpretation",
+                  "ontological"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Canonicalization-loss probe: compare the source term 'relation' against the hybrid agenda label 'analysis' and preserve any residue that the shared schema cannot express.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CANONICALIZATION_RESIDUE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution"
+                ],
+                "lineage_primitive": "CANONICAL_NORMALIZATION+LINEAGE_FIXITY"
+              }
+            },
+            {
+              "proposition": "Cross-lineage differential: Core-4 peers generated incompatible descriptive vocabularies; preserve the difference between 'Frame-atom probe: what is excluded, presupposed, or made invisible when 'relation' becomes the unit of interpretation?' and 'Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: The analysis sh' before fusion.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CROSS_LINEAGE_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution"
+                ],
+                "lineage_primitive": "CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "absorbing",
+            "abstain",
+            "against",
+            "agenda",
+            "analysis",
+            "attributed",
+            "attribution",
+            "attribution-scope",
+            "authorial",
+            "becomes",
+            "before",
+            "between",
+            "both",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "clause",
+            "collapses",
+            "compare",
+            "concept",
+            "condition",
+            "constituted",
+            "core-4",
+            "cross-lineage",
+            "decide",
+            "denies",
+            "descriptive",
+            "difference",
+            "differential",
+            "distinction",
+            "does",
+            "dominant",
+            "engine_01",
+            "engine_02",
+            "engine_04",
+            "equivalent",
+            "every",
+            "evidence",
+            "excluded",
+            "exclusions",
+            "explicit",
+            "express",
+            "formulation",
+            "frame",
+            "frame-atom",
+            "fusion",
+            "generated",
+            "hybrid",
+            "hypothesis",
+            "identify",
+            "incompatible",
+            "inferential",
+            "inside",
+            "interpretation",
+            "into",
+            "invisible",
+            "irreducible",
+            "keep",
+            "label",
+            "local",
+            "made",
+            "modality",
+            "negative",
+            "nonreductive_difference",
+            "occurs",
+            "ontological",
+            "operator",
+            "parse",
+            "parses",
+            "peers",
+            "polarity",
+            "possibilities",
+            "possible",
+            "preserve",
+            "presupposed",
+            "prior_core4_returns",
+            "priority",
+            "probe",
+            "proposition",
+            "rather"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_04",
+          "status": "COMPLETE",
+          "generative_position_count": 4,
+          "architecture_projection_count": 4,
+          "generative_positions": [
+            {
+              "proposition": "Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: A concept may be constituted through relations and exclusions, yet not every difference is reducible to relation.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SCOPE_LATTICE_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "concept",
+                  "difference",
+                  "relation",
+                  "relations"
+                ],
+                "lineage_primitive": "SCOPE_LATTICE"
+              }
+            },
+            {
+              "proposition": "Attribution-scope probe: keep this proposition inside a rival/attributed voice unless an explicit authorial reset occurs: A rival interpretation denies that relation has ontological priority.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "ATTRIBUTION_SCOPE_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "interpretation",
+                  "ontological",
+                  "relation",
+                  "denies"
+                ],
+                "lineage_primitive": "SEMANTIC_ROLE+SCOPE_LATTICE"
+              }
+            },
+            {
+              "proposition": "Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: The analysis should preserve both possibilities, identify scope and attribution, and abstain where the source does not decide.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SCOPE_LATTICE_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "attribution",
+                  "scope",
+                  "abstain",
+                  "decide"
+                ],
+                "lineage_primitive": "SCOPE_LATTICE"
+              }
+            },
+            {
+              "proposition": "Counterfactual gate: invert or remove the cue that licenses each peer reading; quarantine any interpretation that survives a structure-changing perturbation unchanged.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "COUNTERFACTUAL_GATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "relation",
+                  "attribution",
+                  "concept"
+                ],
+                "lineage_primitive": "COUNTERFACTUAL_GATE"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "abstain",
+            "analysis",
+            "attributed",
+            "attribution",
+            "attribution-scope",
+            "authorial",
+            "before",
+            "both",
+            "clause",
+            "compare",
+            "concept",
+            "constituted",
+            "counterfactual",
+            "decide",
+            "denies",
+            "difference",
+            "does",
+            "each",
+            "every",
+            "evidence",
+            "exclusions",
+            "explicit",
+            "gate",
+            "identify",
+            "inside",
+            "interpretation",
+            "invert",
+            "keep",
+            "licenses",
+            "modality",
+            "occurs",
+            "ontological",
+            "operator",
+            "parse",
+            "parses",
+            "peer",
+            "perturbation",
+            "polarity",
+            "possibilities",
+            "preserve",
+            "priority",
+            "probe",
+            "proposition",
+            "quarantine",
+            "reading",
+            "reducible",
+            "relation",
+            "relations",
+            "remove",
+            "reset",
+            "rival",
+            "scope",
+            "should",
+            "source",
+            "structure-changing",
+            "survives",
+            "that",
+            "this",
+            "through",
+            "unchanged",
+            "unless",
+            "using",
+            "voice",
+            "where"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        }
+      ],
+      "metrics": {
+        "core4_complete": 4,
+        "generative_positions": 24,
+        "pairwise_mean_divergence": 0.4114,
+        "engine_output_entropy": 0.9745,
+        "truth_promotion_violations": 0
+      },
+      "pairwise_core4_divergence": [
+        {
+          "a": "engine_01",
+          "b": "engine_02",
+          "lexical_jaccard": 0.8391,
+          "divergence": 0.1609
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_03",
+          "lexical_jaccard": 0.7978,
+          "divergence": 0.2022
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_04",
+          "lexical_jaccard": 0.3846,
+          "divergence": 0.6154
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_03",
+          "lexical_jaccard": 0.8182,
+          "divergence": 0.1818
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_04",
+          "lexical_jaccard": 0.3585,
+          "divergence": 0.6415
+        },
+        {
+          "a": "engine_03",
+          "b": "engine_04",
+          "lexical_jaccard": 0.3333,
+          "divergence": 0.6667
+        }
+      ],
+      "claim_ceiling": "DERIVED_REENTRY_OUTPUTS_ARE_SECOND_ORDER_GENERATIVE_NOT_PRIMARY_EVIDENCE",
+      "round_hash": "db7081dc741ce1138d62cce988b5cfe73dd99abdf0cd10896e80b51fdbfba9f2"
+    }
+  ],
+  "return_edges": [
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    }
+  ],
+  "hermeneutic_graph": {
+    "path": "HERMENEUTIC_REENTRY_GRAPH.json",
+    "graph_hash": "b4ab0de4702b5a76b1b6952bde9de6f092302a28b152fcb80ca7fadbe99a875c",
+    "node_count": 39,
+    "edge_count": 54,
+    "closed_reground_cycles": 24
+  },
+  "metrics": {
+    "recursive_rounds": 2,
+    "return_edge_count": 12,
+    "total_generative_positions": 38,
+    "mean_core4_divergence": 0.6554,
+    "truth_promotion_violations": 0,
+    "all_core4_participated_each_round": true,
+    "hermeneutic_cycle_count": 24,
+    "hermeneutic_graph_edges": 54
+  },
+  "claim_ceiling": "RECURSIVE_REENTRY_MEASURES_GENERATIVE_TRANSFORMATION_NOT_EXTERNAL_SEMANTIC_CORRECTNESS",
+  "reentry_hash": "c133747853d3c787b771f86cf4def84d24bd1790dd44c7a7d69b113a3f755dc0"
+}

@@ -1,0 +1,80 @@
+{
+  "operator_delta_version": "DAE-OPERATOR-DELTA-1.0",
+  "delta_id": "DELTA-OPENSET-LOCAL-FIELD-001",
+  "created_at": "2026-08-11T17:10:00Z",
+  "name": "Birth an open-set micro-local family",
+  "status": "READY_FOR_GATE",
+  "resistant_source": {
+    "source_id": "CONTROLLED-OPENSET-001",
+    "selector": "OX-P000002",
+    "span_sha256": null,
+    "why_resistant": "Source-central terms recur locally while the known operator vocabulary leaves the local unitization unresolved."
+  },
+  "incompatible_unitizations": [
+    {
+      "unitization_id": "U-TERM-FIELD",
+      "description": "Treat recurrent source-native terms as a provisional local field before assigning a known ontology.",
+      "analytic_consequence": "The analysis tests source co-presence before dependence, reciprocity or relation-first typing."
+    },
+    {
+      "unitization_id": "U-WINDOW-TRANSITION",
+      "description": "Treat the transition between adjacent source windows as the primary local event.",
+      "analytic_consequence": "Different windows may require different routing instead of one corpus-wide profile."
+    },
+    {
+      "unitization_id": "U-NEGATIVE-BOUNDARY",
+      "description": "Treat broken co-occurrences as provisional boundaries rather than missing data to be filled.",
+      "analytic_consequence": "Absence becomes a testable routing constraint without becoming a metaphysical claim."
+    }
+  ],
+  "target": {
+    "registry_section": "conditional_families",
+    "operator_id": "__NEW__"
+  },
+  "observed_failure": {
+    "failure_type": "CATEGORY_CAPTURE",
+    "description": "Known family routing translates the local source field into inherited relation categories before testing its own unitization.",
+    "lost_distinction": "The difference between source-native co-presence and relation-profile classification disappears."
+  },
+  "mutation": {
+    "kind": "ADD_OPERATOR",
+    "proposal": "Add a reversible source-signature family that is activated by local source-native terms and compares rival unitizations.",
+    "cost": "Adds one provisional family and increases local routing ambiguity until regression resolves it.",
+    "reversibility": "Remove the added family by ID and restore the unchanged baseline registry.",
+    "new_operator": {
+      "family_id": "F-OPEN-SILENCE-WITHDRAWAL-001",
+      "title": "Open-set source field: silence / withdrawal",
+      "protocol_refs": [
+        "OPEN-SET-HERMENEUTIC-DISCOVERY-0.10",
+        "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1"
+      ],
+      "triggers": ["silence", "withdrawal"],
+      "diagnostic": "What becomes visible before silence and withdrawal are translated into a known relation profile?",
+      "constructive_move": "Compare local term-field, transition and negative-boundary unitizations while preserving abstention.",
+      "self_risk": "The family can become an exception factory that rewards novelty without repeated source-linked gain.",
+      "positive_model": "Micro-local source-signature probe with explicit rollback and no presupposed ontology."
+    }
+  },
+  "before_after_test": {
+    "fixture": {
+      "source_id": "CONTROLLED-OPENSET-001",
+      "selector": "OX-P000002",
+      "same_material": true,
+      "probe_text": "The text returns to silence and withdrawal without resolving either into a fixed relation profile."
+    },
+    "before_observation": "No conditional family is source-born from the local silence/withdrawal signature.",
+    "after_observation": "The new family activates on the same source span and opens rival local unitizations without changing the baseline registry.",
+    "new_gains": ["GG1_NEW_DISTINCTION", "GG3_NEW_RIVAL", "GG4_NEW_TEST"],
+    "discriminator": "Retain only if the new family distinguishes at least one local window that known routing either collapses or leaves unresolved.",
+    "traceability": {"before_routes": 1, "after_routes": 2},
+    "negative_tests": [
+      {"name": "baseline remains unchanged", "passed": true, "note": "Candidate registry is emitted separately."},
+      {"name": "no automatic CORE promotion", "passed": true, "note": "ADD_OPERATOR yields an accepted candidate only."}
+    ]
+  },
+  "acceptance_gate": {
+    "new_distinction_required": true,
+    "source_traceability_must_not_degrade": true,
+    "negative_tests_must_not_regress": true
+  }
+}

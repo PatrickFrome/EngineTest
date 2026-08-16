@@ -1,0 +1,1121 @@
+{
+  "inventory_version": "V38-PROTOCOL-OCCURRENCES-1.0",
+  "generated_at": "2026-08-11T12:00:00Z",
+  "source_extract_sha256": "e6ed2875982862cd9fb3aafd98ff4a3faba8c936e1893412ba7f265d95e65466",
+  "scope_note": "Exhaustive inventory of headings explicitly naming a protocol, gate, audit, countercheck, kill criterion or closely related control in the canonical Markdown extraction.",
+  "count": 123,
+  "counts_by_status": {
+    "CURRENT": 95,
+    "SUPERSEDED_OR_RETROSPECTIVE": 6,
+    "ARCHIVAL": 22
+  },
+  "occurrences": [
+    {
+      "occurrence_id": "V38-OCC-001",
+      "line": 183,
+      "locator": "#L183",
+      "heading_level": 2,
+      "title": "7. Принцип самоостановки",
+      "kind": "CONTROL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-002",
+      "line": 339,
+      "locator": "#L339",
+      "heading_level": 2,
+      "title": "0.4. Онтологический шлюз: что такое «ход»",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-003",
+      "line": 638,
+      "locator": "#L638",
+      "heading_level": 2,
+      "title": "0.13. Власть и нормативный шлюз",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-004",
+      "line": 1267,
+      "locator": "#L1267",
+      "heading_level": 3,
+      "title": "34. Протокол анализа Dasein в русскоязычном тексте",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-005",
+      "line": 1300,
+      "locator": "#L1300",
+      "heading_level": 3,
+      "title": "35. Источниковая контрпроверка и исследовательские разногласия",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-006",
+      "line": 1376,
+      "locator": "#L1376",
+      "heading_level": 3,
+      "title": "I. Источниковый шлюз",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-007",
+      "line": 2753,
+      "locator": "#L2753",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-008",
+      "line": 3361,
+      "locator": "#L3361",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и режимы утверждений",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-009",
+      "line": 4132,
+      "locator": "#L4132",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и режимы утверждений",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-010",
+      "line": 4822,
+      "locator": "#L4822",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и режимы утверждений",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-011",
+      "line": 5413,
+      "locator": "#L5413",
+      "heading_level": 3,
+      "title": "40. Протокол герменевтического анализа случая",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-012",
+      "line": 5647,
+      "locator": "#L5647",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и режимы утверждений",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-013",
+      "line": 6340,
+      "locator": "#L6340",
+      "heading_level": 3,
+      "title": "43. Протокол анализа речи и языка",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-014",
+      "line": 6662,
+      "locator": "#L6662",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и режимы утверждений",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-015",
+      "line": 7344,
+      "locator": "#L7344",
+      "heading_level": 3,
+      "title": "50. Самодеструкция проекта: риск Betrieb версий",
+      "kind": "CONTROL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-016",
+      "line": 7361,
+      "locator": "#L7361",
+      "heading_level": 3,
+      "title": "51. Протокол против самоциркуляции теории",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-017",
+      "line": 7611,
+      "locator": "#L7611",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и режимы утверждений",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-018",
+      "line": 8145,
+      "locator": "#L8145",
+      "heading_level": 3,
+      "title": "42. Русский аудит Sorge",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-019",
+      "line": 8159,
+      "locator": "#L8159",
+      "heading_level": 3,
+      "title": "43. Русский аудит Angst и Unheimlichkeit",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-020",
+      "line": 8170,
+      "locator": "#L8170",
+      "heading_level": 3,
+      "title": "44. Русский аудит Ganzheit и структурной формулы",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-021",
+      "line": 8197,
+      "locator": "#L8197",
+      "heading_level": 3,
+      "title": "46. Самодеструкция проекта: Sorge как новый господствующий термин",
+      "kind": "CONTROL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-022",
+      "line": 8487,
+      "locator": "#L8487",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и режим утверждений",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-023",
+      "line": 9025,
+      "locator": "#L9025",
+      "heading_level": 3,
+      "title": "43. Русский аудит: Realität, Wirklichkeit и действительность",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-024",
+      "line": 9041,
+      "locator": "#L9041",
+      "heading_level": 3,
+      "title": "44. Русский аудит: истина и правда",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-025",
+      "line": 9055,
+      "locator": "#L9055",
+      "heading_level": 3,
+      "title": "45. Русский аудит: раскрытие, открытие и обнаружение",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-026",
+      "line": 9169,
+      "locator": "#L9169",
+      "heading_level": 3,
+      "title": "54. Методический протокол истинностного притязания",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-027",
+      "line": 9383,
+      "locator": "#L9383",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и статусы утверждений",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-028",
+      "line": 10083,
+      "locator": "#L10083",
+      "heading_level": 3,
+      "title": "62. Десятиуровневый протокол анализа смерти",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-029",
+      "line": 10247,
+      "locator": "#L10247",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и статусы утверждений",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-030",
+      "line": 10965,
+      "locator": "#L10965",
+      "heading_level": 3,
+      "title": "63. Протокол анализа «голоса совести»",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-031",
+      "line": 11127,
+      "locator": "#L11127",
+      "heading_level": 3,
+      "title": "1. Источниковый шлюз и границы этапа",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-032",
+      "line": 11694,
+      "locator": "#L11694",
+      "heading_level": 3,
+      "title": "36. Протокол временного анализа феномена",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-033",
+      "line": 11831,
+      "locator": "#L11831",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-034",
+      "line": 12389,
+      "locator": "#L12389",
+      "heading_level": 3,
+      "title": "36. Протокол анализа временной ситуации",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-035",
+      "line": 12534,
+      "locator": "#L12534",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и режимы доказательства",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-036",
+      "line": 13081,
+      "locator": "#L13081",
+      "heading_level": 3,
+      "title": "38. Протокол анализа унаследованной возможности",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-037",
+      "line": 13244,
+      "locator": "#L13244",
+      "heading_level": 3,
+      "title": "2. Источниковый шлюз и историческая фаза",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-038",
+      "line": 13785,
+      "locator": "#L13785",
+      "heading_level": 3,
+      "title": "40. Шлюз перехода Zeitlichkeit → Temporalität",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-039",
+      "line": 14135,
+      "locator": "#L14135",
+      "heading_level": 3,
+      "title": "18. Поздняя ретроспекция: только как контрпроверка",
+      "kind": "AUDIT",
+      "source_status": "SUPERSEDED_OR_RETROSPECTIVE"
+    },
+    {
+      "occurrence_id": "V38-OCC-040",
+      "line": 14143,
+      "locator": "#L14143",
+      "heading_level": 3,
+      "title": "19. Двенадцатишаговый шлюз: тезис о свободе",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-041",
+      "line": 14564,
+      "locator": "#L14564",
+      "heading_level": 3,
+      "title": "2. Хронологический шлюз: нельзя читать 1930 год через окончательный текст 1949 года",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-042",
+      "line": 15154,
+      "locator": "#L15154",
+      "heading_level": 3,
+      "title": "44. Двенадцатишаговый шлюз перехода 1.2",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-043",
+      "line": 15247,
+      "locator": "#L15247",
+      "heading_level": 3,
+      "title": "1. Ведущий вопрос и решение протокола",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-044",
+      "line": 15278,
+      "locator": "#L15278",
+      "heading_level": 3,
+      "title": "3. Обязательный филологический шлюз для ἀλήθεια",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-045",
+      "line": 15618,
+      "locator": "#L15618",
+      "heading_level": 3,
+      "title": "28. Двенадцатишаговый шлюз применительно к 1.3",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-046",
+      "line": 15719,
+      "locator": "#L15719",
+      "heading_level": 3,
+      "title": "1. Ведущий вопрос и решение протокола",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-047",
+      "line": 15813,
+      "locator": "#L15813",
+      "heading_level": 3,
+      "title": "7. Немецкий LEX-аудит: Ereignis не выводится прямо из eigen",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-048",
+      "line": 16017,
+      "locator": "#L16017",
+      "heading_level": 3,
+      "title": "23. Критический шлюз: не перемещён ли трансцендентальный оператор?",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-049",
+      "line": 16108,
+      "locator": "#L16108",
+      "heading_level": 3,
+      "title": "29. Двенадцатишаговый шлюз применён к тезису «Ereignis — последнее основание»",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-050",
+      "line": 16177,
+      "locator": "#L16177",
+      "heading_level": 3,
+      "title": "33. STOP-протокол для позднехайдеггеровского словаря",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-051",
+      "line": 16214,
+      "locator": "#L16214",
+      "heading_level": 3,
+      "title": "1. Ведущий вопрос и решение протокола",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-052",
+      "line": 16255,
+      "locator": "#L16255",
+      "heading_level": 3,
+      "title": "5. Антидонорный шлюз: вопрос «кто даёт?» не должен получать метафизического ответа",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-053",
+      "line": 16578,
+      "locator": "#L16578",
+      "heading_level": 3,
+      "title": "37. Двенадцатишаговый шлюз для тезиса «Ereignis даёт бытие и время»",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-054",
+      "line": 16608,
+      "locator": "#L16608",
+      "heading_level": 3,
+      "title": "40. STOP-протокол цикла 1.5",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-055",
+      "line": 17008,
+      "locator": "#L17008",
+      "heading_level": 3,
+      "title": "41. Двенадцатишаговый шлюз цикла 1.6",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-056",
+      "line": 17108,
+      "locator": "#L17108",
+      "heading_level": 3,
+      "title": "1. Входной разрыв: Geviert нельзя оставить без нормативного аудита",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-057",
+      "line": 17543,
+      "locator": "#L17543",
+      "heading_level": 3,
+      "title": "45. Двенадцатишаговый шлюз цикла 1.7",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-058",
+      "line": 18159,
+      "locator": "#L18159",
+      "heading_level": 3,
+      "title": "2. Три независимых аудита",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-059",
+      "line": 18181,
+      "locator": "#L18181",
+      "heading_level": 3,
+      "title": "3. Двенадцатишаговый протокол русской лексико-феноменологической деструкции",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-060",
+      "line": 18870,
+      "locator": "#L18870",
+      "heading_level": 3,
+      "title": "27. Четыре поля ответа после лексического аудита",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-061",
+      "line": 18928,
+      "locator": "#L18928",
+      "heading_level": 3,
+      "title": "30. Сокращённый протокол анализа ответного словаря",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-062",
+      "line": 19090,
+      "locator": "#L19090",
+      "heading_level": 3,
+      "title": "4. Внутренний количественный аудит",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-063",
+      "line": 19393,
+      "locator": "#L19393",
+      "heading_level": 3,
+      "title": "24. Поправки к протоколам анализа",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-064",
+      "line": 19456,
+      "locator": "#L19456",
+      "heading_level": 2,
+      "title": "Глава 5. Канонический лексический шлюз",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-065",
+      "line": 19658,
+      "locator": "#L19658",
+      "heading_level": 2,
+      "title": "Архив C. Постхайдеггеровский протокол прежних версий",
+      "kind": "PROTOCOL",
+      "source_status": "SUPERSEDED_OR_RETROSPECTIVE"
+    },
+    {
+      "occurrence_id": "V38-OCC-066",
+      "line": 19667,
+      "locator": "#L19667",
+      "heading_level": 3,
+      "title": "Предпротокольная феноменологическая запись",
+      "kind": "PROTOCOL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-067",
+      "line": 19681,
+      "locator": "#L19681",
+      "heading_level": 3,
+      "title": "Онтологический шлюз перед началом анализа",
+      "kind": "GATE",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-068",
+      "line": 19710,
+      "locator": "#L19710",
+      "heading_level": 3,
+      "title": "Фаза 0. Постановка и источниковый аудит",
+      "kind": "AUDIT",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-069",
+      "line": 19836,
+      "locator": "#L19836",
+      "heading_level": 3,
+      "title": "Властный шлюз перед социальным анализом",
+      "kind": "GATE",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-070",
+      "line": 19911,
+      "locator": "#L19911",
+      "heading_level": 3,
+      "title": "Нормативно-легитимационный шлюз",
+      "kind": "GATE",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-071",
+      "line": 20060,
+      "locator": "#L20060",
+      "heading_level": 3,
+      "title": "Дополнительные контрольные модули после аудита корпуса",
+      "kind": "AUDIT",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-072",
+      "line": 20095,
+      "locator": "#L20095",
+      "heading_level": 4,
+      "title": "Модуль E. Герменевтическая контрпроверка",
+      "kind": "AUDIT",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-073",
+      "line": 20138,
+      "locator": "#L20138",
+      "heading_level": 3,
+      "title": "Протокол анализа конкретного случая",
+      "kind": "PROTOCOL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-074",
+      "line": 21525,
+      "locator": "#L21525",
+      "heading_level": 4,
+      "title": "20. Протокол анализа ответного события",
+      "kind": "PROTOCOL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-075",
+      "line": 22370,
+      "locator": "#L22370",
+      "heading_level": 4,
+      "title": "28. Протокол анализа обещания",
+      "kind": "PROTOCOL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-076",
+      "line": 22868,
+      "locator": "#L22868",
+      "heading_level": 4,
+      "title": "39. Протокол анализа верности",
+      "kind": "PROTOCOL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-077",
+      "line": 23292,
+      "locator": "#L23292",
+      "heading_level": 3,
+      "title": "2. Сравнительный аудит версий 0.8-0.12",
+      "kind": "AUDIT",
+      "source_status": "SUPERSEDED_OR_RETROSPECTIVE"
+    },
+    {
+      "occurrence_id": "V38-OCC-078",
+      "line": 23302,
+      "locator": "#L23302",
+      "heading_level": 3,
+      "title": "3. Онтологический шлюз: одно тело, разные способы его явления",
+      "kind": "GATE",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-079",
+      "line": 23796,
+      "locator": "#L23796",
+      "heading_level": 3,
+      "title": "29. Протокол анализа живого тела",
+      "kind": "PROTOCOL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-080",
+      "line": 24037,
+      "locator": "#L24037",
+      "heading_level": 3,
+      "title": "2. Сравнительный аудит версий 0.10-0.13",
+      "kind": "AUDIT",
+      "source_status": "SUPERSEDED_OR_RETROSPECTIVE"
+    },
+    {
+      "occurrence_id": "V38-OCC-081",
+      "line": 24555,
+      "locator": "#L24555",
+      "heading_level": 3,
+      "title": "31. Протокол властного анализа случая",
+      "kind": "PROTOCOL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-082",
+      "line": 24802,
+      "locator": "#L24802",
+      "heading_level": 3,
+      "title": "2. Сравнительный аудит версий 0.11-0.14",
+      "kind": "AUDIT",
+      "source_status": "SUPERSEDED_OR_RETROSPECTIVE"
+    },
+    {
+      "occurrence_id": "V38-OCC-083",
+      "line": 25241,
+      "locator": "#L25241",
+      "heading_level": 3,
+      "title": "36. Протокол нормативно-институционального анализа",
+      "kind": "PROTOCOL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-084",
+      "line": 25449,
+      "locator": "#L25449",
+      "heading_level": 2,
+      "title": "Глава 1. Протокол фундаментально-онтологического исследования",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-085",
+      "line": 25454,
+      "locator": "#L25454",
+      "heading_level": 3,
+      "title": "1. Фундаментально-онтологический шлюз",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-086",
+      "line": 25489,
+      "locator": "#L25489",
+      "heading_level": 3,
+      "title": "3. Немецко-русский протокол понятия",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-087",
+      "line": 25609,
+      "locator": "#L25609",
+      "heading_level": 2,
+      "title": "Глава 2. Операционный протокол Destruktion 2.8 для текущего проекта",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-088",
+      "line": 25633,
+      "locator": "#L25633",
+      "heading_level": 3,
+      "title": "2. Самодеструкция самого протокола",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-089",
+      "line": 25709,
+      "locator": "#L25709",
+      "heading_level": 4,
+      "title": "O. Онтологический шлюз",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-090",
+      "line": 25736,
+      "locator": "#L25736",
+      "heading_level": 3,
+      "title": "5. GATE-12: шлюз сильного перехода",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-091",
+      "line": 25861,
+      "locator": "#L25861",
+      "heading_level": 3,
+      "title": "3. Явный протокол нейтральной деструкции",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-092",
+      "line": 26461,
+      "locator": "#L26461",
+      "heading_level": 2,
+      "title": "Глава 5. Предыдущая версия двенадцатишагового шлюза сильного перехода",
+      "kind": "GATE",
+      "source_status": "SUPERSEDED_OR_RETROSPECTIVE"
+    },
+    {
+      "occurrence_id": "V38-OCC-093",
+      "line": 26954,
+      "locator": "#L26954",
+      "heading_level": 2,
+      "title": "6. Протокол обновления мастер-документа",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-094",
+      "line": 26997,
+      "locator": "#L26997",
+      "heading_level": 2,
+      "title": "1. G₀: входной шлюз и исследовательский контракт",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-095",
+      "line": 27157,
+      "locator": "#L27157",
+      "heading_level": 2,
+      "title": "5. C₃ и Mμ1: аудит графа переходов",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-096",
+      "line": 27242,
+      "locator": "#L27242",
+      "heading_level": 2,
+      "title": "8. O- и R-шлюзы: что допускается назвать онтологией",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-097",
+      "line": 27347,
+      "locator": "#L27347",
+      "heading_level": 2,
+      "title": "11. Mμ3: рекурсивная Destruktion применённого протокола",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-098",
+      "line": 27474,
+      "locator": "#L27474",
+      "heading_level": 2,
+      "title": "14. Kill-критерии, suspension point и реестр решения",
+      "kind": "KILL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-099",
+      "line": 27590,
+      "locator": "#L27590",
+      "heading_level": 3,
+      "title": "1. G₀: объект, Vorgriff и заранее объявленный kill",
+      "kind": "KILL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-100",
+      "line": 27893,
+      "locator": "#L27893",
+      "heading_level": 2,
+      "title": "RO‑0.3A. Слепое корпусно-переводное испытание BEV_RU: preregistration и аудит доказательных шлюзов",
+      "kind": "GATE",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-101",
+      "line": 27943,
+      "locator": "#L27943",
+      "heading_level": 3,
+      "title": "3. Операциональный кодбук BEV_RU",
+      "kind": "CONTROL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-102",
+      "line": 28070,
+      "locator": "#L28070",
+      "heading_level": 3,
+      "title": "10. Аудит доступности данных",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-103",
+      "line": 28163,
+      "locator": "#L28163",
+      "heading_level": 3,
+      "title": "1. G₀: объект, риск и заранее объявленный kill",
+      "kind": "KILL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-104",
+      "line": 28439,
+      "locator": "#L28439",
+      "heading_level": 3,
+      "title": "15. Kill-критерии, решение и маршрут",
+      "kind": "KILL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-105",
+      "line": 28510,
+      "locator": "#L28510",
+      "heading_level": 3,
+      "title": "1. G₀: объект, риск и заранее объявленный kill",
+      "kind": "KILL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-106",
+      "line": 28818,
+      "locator": "#L28818",
+      "heading_level": 3,
+      "title": "16. Kill-критерии, решение и маршрут",
+      "kind": "KILL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-107",
+      "line": 28898,
+      "locator": "#L28898",
+      "heading_level": 3,
+      "title": "1. G₀: объект, риск и заранее объявленный kill",
+      "kind": "KILL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-108",
+      "line": 29162,
+      "locator": "#L29162",
+      "heading_level": 3,
+      "title": "16. Kill‑критерии, решение и маршрут",
+      "kind": "KILL",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-109",
+      "line": 29636,
+      "locator": "#L29636",
+      "heading_level": 2,
+      "title": "Глава 0.23. Kill criteria: условия отказа от собственной теории",
+      "kind": "KILL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-110",
+      "line": 30109,
+      "locator": "#L30109",
+      "heading_level": 2,
+      "title": "Глава 0.42. Kill criteria и результат цикла 2.1",
+      "kind": "KILL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-111",
+      "line": 30248,
+      "locator": "#L30248",
+      "heading_level": 2,
+      "title": "Глава 0.47. Граница — порог — предел: первая количественная контрпроверка",
+      "kind": "AUDIT",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-112",
+      "line": 30397,
+      "locator": "#L30397",
+      "heading_level": 2,
+      "title": "Глава 0.54. HYP и KILL-критерии 2.2",
+      "kind": "KILL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-113",
+      "line": 30413,
+      "locator": "#L30413",
+      "heading_level": 2,
+      "title": "Глава 0.55. Репликационный протокол полного слоя 2.2b",
+      "kind": "PROTOCOL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-114",
+      "line": 30692,
+      "locator": "#L30692",
+      "heading_level": 2,
+      "title": "Глава 0.67. Нормативный шлюз: свобода не выводится из выполнимости",
+      "kind": "GATE",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-115",
+      "line": 30709,
+      "locator": "#L30709",
+      "heading_level": 2,
+      "title": "Глава 0.68. Проверяемые гипотезы и KILL-критерии 2.3",
+      "kind": "KILL",
+      "source_status": "ARCHIVAL"
+    },
+    {
+      "occurrence_id": "V38-OCC-116",
+      "line": 31465,
+      "locator": "#L31465",
+      "heading_level": 3,
+      "title": "Источники цикла 1.1: Transzendenz — Grund — Freiheit — Welt и русский лексический аудит",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-117",
+      "line": 31525,
+      "locator": "#L31525",
+      "heading_level": 3,
+      "title": "Источники цикла 1.2: Wahrheit — Seinlassen — Offenheit — Verborgenheit и русский лексический аудит",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-118",
+      "line": 31613,
+      "locator": "#L31613",
+      "heading_level": 3,
+      "title": "Источники цикла 1.3: ἀλήθεια — Lichtung — Платон — Richtigkeit и русский лексический аудит",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-119",
+      "line": 31765,
+      "locator": "#L31765",
+      "heading_level": 3,
+      "title": "Источники цикла 1.5: Es gibt — Geben — Schicken/Reichen — Entzug и русский переводной аудит",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-120",
+      "line": 31823,
+      "locator": "#L31823",
+      "heading_level": 3,
+      "title": "Источники цикла 1.6: Raum — Ort — Wohnen — Ding — Geviert и русский топологический аудит",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-121",
+      "line": 31905,
+      "locator": "#L31905",
+      "heading_level": 3,
+      "title": "Источники цикла 1.7: Geviert — Schonen/Rettung — Heimat/Bodenständigkeit — Technik/Gestell и русский политико-технический аудит",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-122",
+      "line": 32981,
+      "locator": "#L32981",
+      "heading_level": 3,
+      "title": "Источники цикла собственной теории 2.2: русский корпусный аудит",
+      "kind": "AUDIT",
+      "source_status": "CURRENT"
+    },
+    {
+      "occurrence_id": "V38-OCC-123",
+      "line": 33661,
+      "locator": "#L33661",
+      "heading_level": 2,
+      "title": "Приложение D. Протокол обновления документа",
+      "kind": "PROTOCOL",
+      "source_status": "CURRENT"
+    }
+  ]
+}

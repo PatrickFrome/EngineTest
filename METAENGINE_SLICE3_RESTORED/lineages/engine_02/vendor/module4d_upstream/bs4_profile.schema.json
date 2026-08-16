@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/module/bs4-0.1.json",
+  "title": "BS4-0.1 Bestand / Resourceization Profile",
+  "type": "object",
+  "required": [
+    "module_id",
+    "version",
+    "entity",
+    "resourceization_level",
+    "availability",
+    "substitutability",
+    "demand_linkage",
+    "autonomy_shift",
+    "human_case",
+    "reversibility",
+    "counterdescription",
+    "revision_trigger"
+  ],
+  "properties": {
+    "module_id": {
+      "const": "BS4"
+    },
+    "version": {
+      "const": "0.1"
+    },
+    "entity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "resourceization_level": {
+      "enum": [
+        "NONE",
+        "FUNCTIONAL_AVAILABILITY",
+        "SYSTEM_RESOURCE",
+        "STANDING_RESERVE_CANDIDATE",
+        "STRONG_STANDING_RESERVE",
+        "UNRESOLVED"
+      ]
+    },
+    "availability": {
+      "type": "string",
+      "minLength": 1
+    },
+    "substitutability": {
+      "type": "string",
+      "minLength": 1
+    },
+    "demand_linkage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stock_flow_status": {
+      "type": "string"
+    },
+    "autonomy_shift": {
+      "type": "string",
+      "minLength": 1
+    },
+    "human_case": {
+      "enum": [
+        "NOT_HUMAN",
+        "HUMAN_NOT_MERE_RESERVE",
+        "HUMAN_QUALIFIED_RESERVE_PIECE",
+        "CONTESTED",
+        "UNRESOLVED"
+      ]
+    },
+    "context_dependence": {
+      "type": "string"
+    },
+    "reversibility": {
+      "type": "string",
+      "minLength": 1
+    },
+    "counterdescription": {
+      "type": "string",
+      "minLength": 1
+    },
+    "correction_source": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "revision_trigger": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

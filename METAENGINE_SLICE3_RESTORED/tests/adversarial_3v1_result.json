@@ -1,0 +1,210 @@
+{
+  "fixture": "3_SUPPORT_VS_1_REJECT",
+  "claim_graph": {
+    "graph_version": "16X-CLAIM-GRAPH-1.1",
+    "node_count": 1,
+    "position_count": 4,
+    "edge_count": 0,
+    "nodes": [
+      {
+        "claim_id": "clm-b8c3b2862ee30b482128",
+        "proposition_key": "relational-constitution-required",
+        "representative": "Relational constitution is required for this claim.",
+        "engine_ids": [
+          "engine_01",
+          "engine_02",
+          "engine_03",
+          "engine_07"
+        ],
+        "source_refs": [
+          "fixture#L1-L3"
+        ],
+        "positions": [
+          {
+            "position_id": "pos-c84b41236092a1c1b333",
+            "engine_id": "engine_01",
+            "proposition": "Relational constitution is required for this claim.",
+            "proposition_key": "relational-constitution-required",
+            "stance": "SUPPORT",
+            "claim_type": "INTERPRETIVE",
+            "force": "ASSERTED",
+            "source_refs": [
+              "fixture#L1-L3"
+            ],
+            "evidence_kind": "CONTROLLED_ADVERSARIAL_FIXTURE",
+            "evidence_strength": 0.82,
+            "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES",
+            "metadata": {}
+          },
+          {
+            "position_id": "pos-55e18d1978971a25f12b",
+            "engine_id": "engine_02",
+            "proposition": "Relational constitution is required for this claim.",
+            "proposition_key": "relational-constitution-required",
+            "stance": "SUPPORT",
+            "claim_type": "INTERPRETIVE",
+            "force": "ASSERTED",
+            "source_refs": [
+              "fixture#L1-L3"
+            ],
+            "evidence_kind": "CONTROLLED_ADVERSARIAL_FIXTURE",
+            "evidence_strength": 0.82,
+            "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES",
+            "metadata": {}
+          },
+          {
+            "position_id": "pos-3206562773cc36a80c6f",
+            "engine_id": "engine_03",
+            "proposition": "Relational constitution is required for this claim.",
+            "proposition_key": "relational-constitution-required",
+            "stance": "SUPPORT",
+            "claim_type": "INTERPRETIVE",
+            "force": "ASSERTED",
+            "source_refs": [
+              "fixture#L1-L3"
+            ],
+            "evidence_kind": "CONTROLLED_ADVERSARIAL_FIXTURE",
+            "evidence_strength": 0.82,
+            "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES",
+            "metadata": {}
+          },
+          {
+            "position_id": "pos-37a19077ab554ca083c6",
+            "engine_id": "engine_07",
+            "proposition": "Relational constitution is required for this claim.",
+            "proposition_key": "relational-constitution-required",
+            "stance": "REJECT",
+            "claim_type": "INTERPRETIVE",
+            "force": "ASSERTED",
+            "source_refs": [
+              "fixture#L1-L3"
+            ],
+            "evidence_kind": "CONTROLLED_ADVERSARIAL_FIXTURE",
+            "evidence_strength": 0.82,
+            "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES",
+            "metadata": {}
+          }
+        ],
+        "stances": [
+          "REJECT",
+          "SUPPORT"
+        ],
+        "max_evidence_strength": 0.82
+      }
+    ],
+    "edges": [],
+    "provenance_complete": true,
+    "claim_ceiling": "CLAIM_GRAPH_PRESERVES_POSITIONS; IT DOES_NOT CONVERT AGGREGATION INTO TRUTH",
+    "graph_hash": "1ad940c42145b92cf3524f663bf8ee95222b0444be6f48770b4beaae1b9039d7"
+  },
+  "disagreement_map": {
+    "disagreement_version": "16X-DISAGREEMENT-1.1",
+    "conflict_count": 1,
+    "material_conflict_count": 1,
+    "max_tension_score": 0.88,
+    "conflicts": [
+      {
+        "disagreement_id": "dsg-9df536dfb2df1f2e40",
+        "claim_id": "clm-b8c3b2862ee30b482128",
+        "representative": "Relational constitution is required for this claim.",
+        "kind": "MATERIAL_STANCE_CONFLICT",
+        "engine_ids": [
+          "engine_01",
+          "engine_02",
+          "engine_03",
+          "engine_07"
+        ],
+        "positions": {
+          "POSITIVE": [
+            {
+              "engine_id": "engine_01",
+              "stance": "SUPPORT",
+              "evidence_strength": 0.82,
+              "source_refs": [
+                "fixture#L1-L3"
+              ]
+            },
+            {
+              "engine_id": "engine_02",
+              "stance": "SUPPORT",
+              "evidence_strength": 0.82,
+              "source_refs": [
+                "fixture#L1-L3"
+              ]
+            },
+            {
+              "engine_id": "engine_03",
+              "stance": "SUPPORT",
+              "evidence_strength": 0.82,
+              "source_refs": [
+                "fixture#L1-L3"
+              ]
+            }
+          ],
+          "NEGATIVE": [
+            {
+              "engine_id": "engine_07",
+              "stance": "REJECT",
+              "evidence_strength": 0.82,
+              "source_refs": [
+                "fixture#L1-L3"
+              ]
+            }
+          ]
+        },
+        "tension_score": 0.88,
+        "resolution_state": "UNRESOLVED",
+        "research_priority": "HIGH"
+      }
+    ],
+    "policy": "DISAGREEMENT_IS_RESEARCH_SIGNAL_NOT_FUSION_FAILURE",
+    "map_hash": "031257a6a120b0ee5536b83420b75f38d862e0f3ce975a5980ba9bf502653e14"
+  },
+  "arbitration": {
+    "arbitration_version": "16X-ADAPTIVE-ARBITRATION-1.1",
+    "decision_count": 1,
+    "decisions": [
+      {
+        "claim_id": "clm-b8c3b2862ee30b482128",
+        "state": "UNRESOLVED_RESEARCH_PRIORITY",
+        "reason": "material_dissent_blocks_promotion_regardless_of_vote_count",
+        "engine_ids": [
+          "engine_01",
+          "engine_02",
+          "engine_03",
+          "engine_07"
+        ],
+        "source_refs": [
+          "fixture#L1-L3"
+        ],
+        "max_evidence_strength": 0.82,
+        "disagreement_id": "dsg-9df536dfb2df1f2e40",
+        "majority_vote_used": false
+      }
+    ],
+    "followup_portfolio": [
+      {
+        "disagreement_id": "dsg-9df536dfb2df1f2e40",
+        "objective": "seek discriminating evidence or preserve unresolved rival",
+        "priority": "HIGH",
+        "engines": [
+          "engine_06",
+          "engine_02",
+          "engine_04",
+          "engine_01",
+          "engine_03",
+          "engine_05"
+        ],
+        "stop_condition": "evidence_resolves_dependency_or_abstention_persists"
+      }
+    ],
+    "policy": {
+      "majority_is_not_truth": true,
+      "material_dissent_blocks_promotion": true,
+      "source_grounding_required_for_support": true,
+      "abstention_is_valid": true
+    },
+    "arbitration_hash": "579e5b791dd15615cb01fdbe35eadc3deb0f1e62c27b683753279c34814f06c0"
+  },
+  "pass": true
+}

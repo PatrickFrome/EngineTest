@@ -1,0 +1,40 @@
+{
+  "blob_descriptors": [
+    {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "media_type": "text/plain",
+      "relative_path": "LICENSE",
+      "size": 11357
+    },
+    {
+      "digest": "be9ff9760021cf2de90d422cd76130c4db1b6f0666271de591dd932203551544",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "9c25e2c21f263177227bfdad41754147ba001229",
+      "media_type": "text/markdown",
+      "relative_path": "README.md",
+      "size": 17382
+    },
+    {
+      "digest": "674c7d207f20fbafc942b35517c308ed20b75dc4a72203f97886a9afa1fb3981",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "9ce8a8a9c62e9a8edff797c0262b393c30ea38e7",
+      "media_type": "text/x-python",
+      "relative_path": "src/mistral_inference/moe.py",
+      "size": 1095
+    },
+    {
+      "digest": "509497cfce7f91febe6c39f5c65039ad8f7250eccced0560f0c57cd473b7cf45",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "09e9cab6ab4b0749bad81b04ea492da6dfc31fe3",
+      "media_type": "text/x-python",
+      "relative_path": "src/mistral_inference/transformer.py",
+      "size": 13923
+    }
+  ],
+  "exact_commit_or_release": "9eaeb91c17450e09021b6065a1d5cc69876507c8",
+  "pack_root_sha256": "41d34f4c48dea3a619b5275bfc3870ffce051960e18d67c4a20d507749970fb0",
+  "pack_schema_version": "ARCHITECTURE-SOURCE-PACK-1",
+  "source_id": "mistral-inference-9eaeb91"
+}

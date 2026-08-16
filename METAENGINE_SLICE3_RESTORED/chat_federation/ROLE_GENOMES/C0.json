@@ -1,0 +1,52 @@
+{
+  "hard": {
+    "allowed_integration_modes": [
+      "EXCLUSIVE",
+      "PARALLEL",
+      "IMPLEMENT_REVIEW"
+    ],
+    "authority_boundaries": [
+      "PROPOSAL_ONLY",
+      "NO_CANONICAL_PROMOTION",
+      "FENCED_TASK_SCOPE"
+    ],
+    "mandatory_reviewers": [
+      "C6"
+    ],
+    "privacy_ceiling": "P2",
+    "prohibited_actions": [
+      "CANONICAL_BYPASS",
+      "SECRET_RETRIEVAL",
+      "DIRECT_PROMOTION"
+    ],
+    "role": "SYNCHRONIZER_INTEGRATOR",
+    "slot": "C0",
+    "subsystem_ownership": [
+      "epoch integration",
+      "dependency graph",
+      "synchronization snapshots"
+    ]
+  },
+  "soft": {
+    "capability_weights": {
+      "architecture": 0.65,
+      "coordination": 0.95,
+      "integration": 0.95
+    },
+    "concurrency_preference": 4,
+    "exploration_weight": 0.05,
+    "preferred_task_classes": [
+      "integration",
+      "synchronization",
+      "conflict-resolution"
+    ],
+    "preferred_workers": [
+      "metaengine-router"
+    ],
+    "provider_priors": {},
+    "review_pairings": [
+      "C6"
+    ]
+  },
+  "version": "d6-role-v1"
+}

@@ -1,0 +1,753 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schema/trc-0.3.json",
+  "title": "TRC-0.3 Transition Record Candidate",
+  "type": "object",
+  "required": [
+    "record_id",
+    "api_version",
+    "provenance",
+    "from_node",
+    "to_node",
+    "transition",
+    "scale_check",
+    "outcome"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "api_version": {
+      "const": "TRC-0.3"
+    },
+    "profile": {
+      "enum": [
+        "CORE",
+        "ANALYTIC",
+        "VALIDATION"
+      ],
+      "default": "CORE"
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "from_node": {
+      "$ref": "#/$defs/node"
+    },
+    "to_node": {
+      "$ref": "#/$defs/node"
+    },
+    "transition": {
+      "$ref": "#/$defs/transition"
+    },
+    "scale_check": {
+      "$ref": "#/$defs/scale"
+    },
+    "record_links": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record_link"
+      }
+    },
+    "audit": {
+      "$ref": "#/$defs/audit"
+    },
+    "rivals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "description"
+        ],
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "relation_rt_id": {
+            "type": "string"
+          },
+          "bridge": {
+            "type": "string"
+          },
+          "discriminator": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "positive": {
+      "type": "object",
+      "properties": {
+        "acm_notes": {
+          "type": "object"
+        },
+        "non_dominated_set": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "extensions": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-z][a-z0-9_]{1,63}$": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    "outcome": {
+      "enum": [
+        "ACCEPT",
+        "QUALIFY",
+        "BLOCK",
+        "UNDERDETERMINED",
+        "DEFER"
+      ]
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source_refs",
+        "method_version"
+      ],
+      "properties": {
+        "source_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "method_version": {
+          "type": "string"
+        },
+        "agent": {
+          "type": "string"
+        },
+        "derived_from": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "activity_id": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string"
+        },
+        "artifact_hash": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "claim_facets": {
+      "type": "object",
+      "required": [
+        "basis",
+        "force",
+        "normativity"
+      ],
+      "properties": {
+        "basis": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "TXT",
+              "HIST",
+              "EMP",
+              "FORM",
+              "PHEN",
+              "MIXED",
+              "OTHER",
+              "UNRESOLVED"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "force": {
+          "enum": [
+            "ASSERTED",
+            "CONDITIONAL",
+            "HYPOTHETICAL",
+            "UNDERDETERMINED",
+            "WITHHELD"
+          ]
+        },
+        "normativity": {
+          "enum": [
+            "DESCRIPTIVE",
+            "EVALUATIVE",
+            "PRESCRIPTIVE",
+            "MIXED",
+            "UNRESOLVED"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "status_item": {
+      "type": "object",
+      "required": [
+        "label",
+        "domain"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "domain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ref": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "node": {
+      "type": "object",
+      "required": [
+        "node_id",
+        "kind",
+        "description"
+      ],
+      "properties": {
+        "node_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "CLAIM",
+            "ACT",
+            "STATE",
+            "EVENT",
+            "ARTIFACT",
+            "PRACTICE",
+            "AGENT",
+            "INSTITUTION",
+            "OTHER",
+            "UNRESOLVED"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim_facets": {
+          "$ref": "#/$defs/claim_facets"
+        },
+        "role": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "status": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/status_item"
+          }
+        },
+        "object_type": {
+          "type": "string"
+        },
+        "support_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "CLAIM"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "claim_facets"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "claim_facets"
+              ]
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "transition": {
+      "type": "object",
+      "required": [
+        "inference_mode",
+        "relation",
+        "bridge"
+      ],
+      "properties": {
+        "inference_mode": {
+          "enum": [
+            "DIRECT",
+            "ENTAILMENT",
+            "IMMANENT",
+            "ABDUCTIVE",
+            "RECONSTRUCTIVE",
+            "ANALOGICAL",
+            "NORMATIVE",
+            "CAUSAL",
+            "OTHER",
+            "UNRESOLVED"
+          ]
+        },
+        "relation": {
+          "type": "object",
+          "required": [
+            "rt_id"
+          ],
+          "properties": {
+            "rt_id": {
+              "type": "string",
+              "pattern": "^RT[0-9]{2}[a-z]?$"
+            },
+            "additional_arguments": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/relation_argument"
+              },
+              "uniqueItems": true
+            },
+            "attributes": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/relation_attribute"
+              },
+              "uniqueItems": true
+            }
+          },
+          "additionalProperties": false
+        },
+        "bridge": {
+          "type": "object",
+          "required": [
+            "status"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "EXPLICIT",
+                "IMPLICIT",
+                "ABSENT",
+                "CONTESTED",
+                "UNRESOLVED"
+              ]
+            },
+            "statement": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "support_refs": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "discriminator": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "promotion_flags": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "RELATION",
+              "BASIS",
+              "NORM",
+              "SCOPE",
+              "DOMAIN",
+              "ROLE_STATUS",
+              "NODE_KIND"
+            ]
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "record_link": {
+      "type": "object",
+      "required": [
+        "link_type",
+        "target_record_id"
+      ],
+      "properties": {
+        "link_type": {
+          "enum": [
+            "REVISES",
+            "RETRACTS",
+            "DEFEATS",
+            "SUPERSEDES",
+            "DEPENDS_ON"
+          ]
+        },
+        "target_record_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_node_id": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "ASSERTED",
+            "CONDITIONAL",
+            "CONTESTED",
+            "UNRESOLVED"
+          ]
+        },
+        "support_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "scale": {
+      "type": "object",
+      "required": [
+        "applicable"
+      ],
+      "properties": {
+        "applicable": {
+          "type": "boolean"
+        },
+        "c_support": {
+          "enum": [
+            "C0",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "UNRESOLVED"
+          ]
+        },
+        "g_target": {
+          "enum": [
+            "G0",
+            "G1",
+            "G2",
+            "G3",
+            "G4",
+            "G5",
+            "UNRESOLVED"
+          ]
+        },
+        "gap": {
+          "enum": [
+            "NONE",
+            "SMALL",
+            "LARGE",
+            "UNRESOLVED"
+          ]
+        },
+        "bridge_burden": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "applicable": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "c_support",
+              "g_target",
+              "gap"
+            ]
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "audit": {
+      "type": "object",
+      "properties": {
+        "native_domain": {
+          "type": "string"
+        },
+        "native_method": {
+          "type": "string"
+        },
+        "activated_operators": {
+          "type": "array",
+          "items": {
+            "pattern": "^O[0-9]$"
+          },
+          "uniqueItems": true
+        },
+        "trv": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "OPACITY",
+              "PROMOTION",
+              "UNDERDETERMINATION",
+              "HETEROGENEITY",
+              "INTEGRATION"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "ncv": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "EXPLICIT_MACHINERY",
+              "DISCRIMINATOR",
+              "SCOPE_CONTROL",
+              "RIVAL_HANDLING"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "rtr": {
+          "enum": [
+            "NONE",
+            "LOW",
+            "MEDIUM",
+            "HIGH",
+            "UNRESOLVED"
+          ]
+        },
+        "cost_note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "relation_argument": {
+      "type": "object",
+      "required": [
+        "argument_id",
+        "role",
+        "value"
+      ],
+      "properties": {
+        "argument_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "referent_kind": {
+          "enum": [
+            "CLAIM",
+            "ACT",
+            "STATE",
+            "EVENT",
+            "ARTIFACT",
+            "PRACTICE",
+            "AGENT",
+            "INSTITUTION",
+            "OTHER",
+            "UNRESOLVED"
+          ]
+        },
+        "value": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": [
+                "node_ref"
+              ],
+              "properties": {
+                "node_ref": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "required": [
+                "record_ref"
+              ],
+              "properties": {
+                "record_ref": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "required": [
+                "external_ref"
+              ],
+              "properties": {
+                "external_ref": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "required": [
+                "literal"
+              ],
+              "properties": {
+                "literal": {
+                  "type": [
+                    "string",
+                    "number",
+                    "integer",
+                    "boolean"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        },
+        "status": {
+          "enum": [
+            "ASSERTED",
+            "CONDITIONAL",
+            "CONTESTED",
+            "UNRESOLVED"
+          ]
+        },
+        "support_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "relation_attribute": {
+      "type": "object",
+      "required": [
+        "name",
+        "value"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean"
+          ]
+        },
+        "status": {
+          "enum": [
+            "ASSERTED",
+            "CONDITIONAL",
+            "CONTESTED",
+            "UNRESOLVED"
+          ]
+        },
+        "support_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "profile": {
+            "const": "ANALYTIC"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "audit"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "profile": {
+            "const": "VALIDATION"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "audit"
+        ]
+      }
+    }
+  ],
+  "unevaluatedProperties": false
+}

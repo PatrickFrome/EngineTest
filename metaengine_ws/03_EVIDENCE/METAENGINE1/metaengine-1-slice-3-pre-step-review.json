@@ -1,0 +1,117 @@
+{
+  "review_id": "METAENGINE-1-SLICE-3-PRE-STEP-REVIEW-1",
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1",
+  "step_id": "METAENGINE-1-SLICE-3",
+  "step_title": "Architecture Source Registry and content-addressed Reference Vault",
+  "cycle": "CONSTITUTION -> ARCHITECTURE/MECHANISM LIBRARY -> CURRENT POLICY -> ALTERNATIVES -> CODE/ARCHITECTURE DECISION -> EVIDENCE",
+  "constitution_assessment": {
+    "kernel_constitution_hash": "d6bdb6e92b2892e1d25b520869cc8654fd1131b55698e0a34310b06e525061b5",
+    "constitution_snapshot_hash": "bbcdd652e97d2ab4136f00d655baf458eaeb1182cc30adacd07568095e40f28a",
+    "conformance_valid": true,
+    "relevant_k0_invariants": [
+      "PROVENANCE_PRIMARY_EVIDENCE — every source record must pin exact upstream release/commit and content hash; derived/generative notes never replace the pinned source bytes as primary evidence.",
+      "PRESERVE_ABSTENTION — a download that cannot be performed or verified is recorded as an explicit UNOBSERVED ingestion blocker, never silently converted to a zero-byte success or a fabricated hash.",
+      "MUTATION_REQUIRES_RECEIPT — source records and mechanism candidates are content-addressed; their record_hash is the receipt and from_dict re-verifies it.",
+      "NO_EXECUTABLE_SELF_MODIFICATION — the Reference Vault stores foreign source bytes as inert content-addressed blobs; Slice 3 never executes them.",
+      "PRIVACY_PERMISSION_FAIL_CLOSED — license/source-class enforcement fails closed: no source enters the library without an explicit classification, and CLOSED_BEHAVIORAL_ONLY sources may not retain source bytes.",
+      "SEPARATE_GENERATION_AND_PROMOTION — mechanism candidates are recorded at A0/A1 only; no automatic Core integration or promotion to A3."
+    ],
+    "amendment_boundary": "NOT_IMPLEMENTED — Slice 3 does not amend the constitutional kernel (K0/K1 unchanged)."
+  },
+  "architecture_library_assessment": {
+    "architecture_library_snapshot_hash": "d5b32e0a8b9983cd36faed2cf105ecf3670cf9490578f0d939cbbdf4b1103445",
+    "spec_source": "docs/superpowers/specs/2026-08-13-metaengine-1-constitutional-assimilation-design.md (sections 9 and 10)",
+    "section_9_source_registry": {
+      "source_classes": ["PERMISSIVE_CODE", "RESTRICTED_REFERENCE", "CLOSED_BEHAVIORAL_ONLY"],
+      "source_record_fields": [
+        "source_id", "publisher", "system_name", "version", "source_class",
+        "official_source_locator", "exact_commit_or_release", "retrieved_at",
+        "source_sha256", "license_name", "license_sha256", "allowed_use",
+        "architecture_claims", "retained_reference_paths", "mechanism_candidates"
+      ],
+      "reference_vault_boundary": "research/architecture_library/ (small tracked metadata) + reference-vault/ (external content-addressed source snapshots); no direct runtime dependency on foreign repositories."
+    },
+    "section_10_mechanism_library": {
+      "mechanism_states": ["A0_OBSERVED", "A1_MECHANISM_HYPOTHESIS", "A2_TRANSFERABLE", "A3_ASSIMILATED"],
+      "slice_3_scope": "A0/A1 only; only A3 may automatically influence organization-policy generation."
+    },
+    "reusable_patterns": [
+      "ResourceDescriptor frozen-dataclass + create()/payload()/descriptor_hash via canonical_hash + from_dict() claimed-hash re-verification (metaengine/resource_descriptor.py).",
+      "EvidenceBoundObservation OBSERVED/UNOBSERVED semantics (preserves abstention).",
+      "OrganizationPolicy lineage tuple-of-pairs provenance pattern (metaengine/organization_policy.py).",
+      "canonical_hash / canonical_digest in metaengine/util.py and metaengine/devfabric/codec.py."
+    ]
+  },
+  "current_policy_assessment": {
+    "policy_snapshot_hash": "1888a575abae2ba844f53a005a23c48ed5581722d2a64cf6df40f60bbda66f32",
+    "active_policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "active_policy_status": "ACTIVE",
+    "active_policy_generation": 2,
+    "self_modifying_code_allowed": false,
+    "canonical_checkpoint": "metaengine-chat-2.3.0-alpha.1-cp001 (VERIFIED_CURRENT)",
+    "canonical_adaptation_receipts": 0,
+    "finalized_epochs": 1,
+    "release_promotion": "BLOCKED",
+    "federation_mcp_tool_count": 18,
+    "d6_g1_state": "PASS_ADAPTATION_SHADOW_READY (shadow-only)",
+    "binding_constraints_for_slice_3": [
+      "Do not modify canonical checkpoint, active/champion policy, promotion state, or D6-G1 adaptation state.",
+      "Do not widen the 18-tool chat-facing Federation MCP allowlist.",
+      "No secrets in the Reference Vault or tracked Source Registry.",
+      "Do not vendor mutable upstream repositories into MetaEngine Core.",
+      "Mechanism candidates at A0/A1 only; no automatic Core integration or promotion."
+    ]
+  },
+  "alternatives": {
+    "CURRENT": {
+      "summary": "No Source Registry / Reference Vault exists yet (Slice-2 status quo). Cannot satisfy the Slice-3 objective or the program success criteria #6/#7/#8/#9.",
+      "selected": false
+    },
+    "MINIMAL": {
+      "summary": "Flat JSON list of {publisher, version, url} with no content hashing, no license/source-class enforcement, no vault. Lowest implementation cost but loses provenance integrity, UNOBSERVED semantics, license fail-closed enforcement, and content-addressed verification. Violates PROVENANCE_PRIMARY_EVIDENCE and PRIVACY_PERMISSION_FAIL_CLOSED.",
+      "selected": false
+    },
+    "LIBRARY": {
+      "summary": "Vendor upstream repositories as git submodules or copied trees inside metaengine/ Core. Provides real bytes but imports mutable foreign repositories into Core, creates direct runtime dependencies on foreign code, and violates the hard constraint 'Do not vendor mutable upstream repositories into MetaEngine Core'.",
+      "selected": false
+    },
+    "SYNTHESIS": {
+      "summary": "Typed, content-addressed Source Registry (SourceRecord frozen dataclass following the ResourceDescriptor pattern: create()/payload()/source_hash via canonical_hash + from_dict claimed-hash re-verification) with mandatory license/source-class fail-closed enforcement; a separate content-addressed Reference Vault (reference_vault/<sha[:2]>/<sha>) holding foreign source bytes OUTSIDE Core/CONTROL, storing only hashes+provenance+license metadata in the tracked project; a Mechanism Library recording candidates at A0/A1 only. Blocked downloads recorded as explicit UNOBSERVED ingestion blockers, never silently omitted. Reuses Slice-2 patterns; adds no Core runtime dependency on foreign code.",
+      "selected": true
+    }
+  },
+  "code_architecture_decision": {
+    "selected_alternative": "SYNTHESIS",
+    "new_modules": [
+      "metaengine/source_registry.py — SourceClass enum, SourceRecord frozen dataclass, SourceRegistry collection (content-addressed, deterministic, fail-closed license/source-class enforcement).",
+      "metaengine/reference_vault.py — ReferenceVaultEntry, ReferenceVault (content-addressed byte store outside Core; verify() re-checks every entry hash; refuses CLOSED_BEHAVIORAL_ONLY retained bytes).",
+      "metaengine/mechanism_library.py — MechanismState enum (A0/A1/A2/A3), MechanismCandidate frozen dataclass (Slice 3 admits A0/A1 only), MechanismLibrary collection."
+    ],
+    "new_schemas": [
+      "schemas/source_record.schema.json",
+      "schemas/reference_vault_entry.schema.json",
+      "schemas/mechanism_candidate.schema.json"
+    ],
+    "new_tests": [
+      "tests/test_source_registry.py",
+      "tests/test_reference_vault.py",
+      "tests/test_mechanism_library.py"
+    ],
+    "tracked_metadata_layout": "research/architecture_library/ (source cards, mechanism candidates, ingestion blockers, receipts)",
+    "vault_layout": "reference_vault/<sha[:2]>/<sha> (content-addressed; bytes never enter metaengine/ Core or the CONTROL capsule)",
+    "license_enforcement": "SourceRecord.create() requires non-empty source_class and license_name; ReferenceVault.store() refuses to retain source bytes for CLOSED_BEHAVIORAL_ONLY; PERMISSIVE_CODE retention requires a verified license_sha256.",
+    "first_ingestion_wave": "Register source cards for DeepSeek, Qwen, Kimi-Linear, Mistral, GLM (PERMISSIVE_CODE candidates), Llama 4 + Kimi K3 (RESTRICTED_REFERENCE), GPT-5.6 + Claude + Gemini Deep Think (CLOSED_BEHAVIORAL_ONLY). Permissive downloads that cannot be fetched in this environment are recorded as explicit UNOBSERVED ingestion blockers (status BLOCKED_NO_NETWORK), not silently omitted; ingestion PASS is NOT claimed for unfetched bytes."
+  },
+  "evidence_plan": {
+    "pre_step": "This document (constitution/library/policy snapshot hashes match the Slice-2 recert receipt; admission Slice 2->3 confirmed).",
+    "during_step": "TDD tests for every behavior change; canonical_hash-based record hashes; no mutation of canonical checkpoint/policy/promotion/D6-G1.",
+    "post_step": "DevelopmentEvolutionReviewReceipt for METAENGINE-1-SLICE-3 with freshly recomputed constitution/library/policy snapshot hashes (must remain equal to Slice-2 values since Slice 3 does not amend constitution/library/policy)."
+  },
+  "admission_confirmed": {
+    "previous_step": "METAENGINE-1-SLICE-2",
+    "previous_step_commit": "637d0b569e38c2a965b43f7de2015ea66a788428",
+    "slice2_recert_receipt_hash": "8e000a6bf0945f0ef4527a6e6d6eb80b1a4308190b95584a41bae63cdb2dcb17",
+    "slice2_to_slice3_transition_allowed": true,
+    "snapshot_hashes_match_slice2_receipt": true
+  }
+}

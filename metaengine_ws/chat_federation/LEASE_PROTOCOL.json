@@ -1,0 +1,11 @@
+{
+  "canonical_authority": "SUPABASE_ONLY",
+  "correctness_mode": "FENCING_GENERATION_NOT_HEARTBEAT_EXPIRY",
+  "generation_rule": "MONOTONIC_PER_EPOCH_SLOT",
+  "heartbeat_role": "LIVENESS_HINT_ONLY_NOT_CORRECTNESS",
+  "late_receipt_policy": "STORE_AUDITABLE_MARK_STALE_FENCED",
+  "protocol_version": "D6.1",
+  "reclaim_rule": "CAS_EXPECTED_GENERATION_PLUS_ONE",
+  "session_identity": "DERIVED_FROM_FEDERATION_METADATA_AND_NONCE",
+  "slot_count": 8
+}

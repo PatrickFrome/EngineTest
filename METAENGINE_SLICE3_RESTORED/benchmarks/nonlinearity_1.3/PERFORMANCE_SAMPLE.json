@@ -1,0 +1,10 @@
+{
+  "benchmark": "01_hermeneutic.md",
+  "runs_per_version": 3,
+  "metaengine_1_2_seconds": [1.6786, 1.7105, 2.8162],
+  "metaengine_1_3_seconds": [3.8526, 2.2899, 2.0649],
+  "median_1_2_seconds": 1.7105,
+  "median_1_3_seconds": 2.2899,
+  "median_overhead_ratio": 1.3387,
+  "note": "Small local sample; not a stable performance benchmark. 1.3 adds eight Core-4 re-entry native-intake runs."
+}

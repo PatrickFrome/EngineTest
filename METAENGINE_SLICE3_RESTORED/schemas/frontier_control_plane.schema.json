@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MetaEngine Frontier Evidence Control Plane 2.2",
+  "type": "object",
+  "required": [
+    "control_plane_version",
+    "pattern_sources",
+    "task_ledger",
+    "rounds",
+    "candidate_archive",
+    "policy_candidates",
+    "invariants",
+    "claim_ceiling",
+    "control_plane_hash"
+  ],
+  "properties": {
+    "control_plane_version": {
+      "const": "16X-FRONTIER-EVIDENCE-CONTROL-2.2"
+    },
+    "pattern_sources": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["system", "pattern", "integration"]
+      }
+    },
+    "task_ledger": {
+      "type": "object",
+      "required": [
+        "ledger_version",
+        "input_hash",
+        "facts",
+        "assumptions",
+        "unknowns",
+        "workstreams",
+        "task_ledger_hash"
+      ]
+    },
+    "rounds": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "evaluation_version",
+          "round",
+          "candidates",
+          "tournament",
+          "pareto_candidate_ids",
+          "progress_ledger",
+          "evaluation_hash"
+        ]
+      }
+    },
+    "candidate_archive": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "candidate_id",
+          "engine_id",
+          "evaluator_scores",
+          "ensemble_score",
+          "truth_effect",
+          "eligible_for_truth_promotion"
+        ],
+        "properties": {
+          "truth_effect": {"const": "NONE"},
+          "eligible_for_truth_promotion": {"const": false}
+        }
+      }
+    },
+    "policy_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "policy_candidate_id",
+          "deployment_status",
+          "acceptance_gate",
+          "self_deployment_allowed"
+        ],
+        "properties": {
+          "deployment_status": {"const": "SHADOW_ONLY"},
+          "self_deployment_allowed": {"const": false}
+        }
+      }
+    },
+    "invariants": {
+      "type": "object"
+    },
+    "claim_ceiling": {
+      "type": "string"
+    },
+    "control_plane_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": false
+}

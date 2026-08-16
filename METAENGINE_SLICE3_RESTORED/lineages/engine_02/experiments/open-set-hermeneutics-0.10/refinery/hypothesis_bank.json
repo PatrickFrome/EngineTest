@@ -1,0 +1,584 @@
+{
+  "bank_version": "DAE-HYPOTHESIS-BANK-1.2",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T17:15:53Z",
+  "source_id": "LOCAL-SHA256-B8EE307BEB056C56FBE2872CEF3E7319E14F8D4F7E1E9305055338F66084DED6",
+  "registry_version": "DAE-REFINERY-TOPICS-1.0",
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP-EMERGENT_SOURCE_THINKING",
+      "topic_id": "EMERGENT_SOURCE_THINKING",
+      "label": "Source-forced constellation: thinking / exist / mind / thought / understanding",
+      "research_question": "Which distinctions, dependencies or representation failures among thinking, exist, mind, thought, understanding become invisible when the current topic registry determines the problem in advance?",
+      "origin": "SOURCE_FORCED_REGISTRY_RESISTANCE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "SOURCE_RESISTANCE",
+        "TERM_THINKING",
+        "TERM_EXIST",
+        "TERM_MIND",
+        "TERM_THOUGHT",
+        "TERM_UNDERSTANDING"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000001-469332FE00",
+        "OX-P000006-095C07370A",
+        "OX-P000008-24F9BB0F36",
+        "OX-P000012-C99D27ED92",
+        "OX-P000015-1122073E68",
+        "OX-P000004-B3B6EA4EBB",
+        "OX-P000005-83796144BA",
+        "OX-P000007-D5B16A79B8",
+        "OX-P000010-9F52B6218D"
+      ],
+      "evidence_count": 9,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "thinking",
+        "exist",
+        "mind",
+        "thought",
+        "understanding"
+      ],
+      "operator_candidate": {
+        "family": "GENERIC_SOURCE_FORCED_REVISION",
+        "candidate": "SOURCE_FORCED_TOPIC_AND_OPERATOR_CANDIDATE",
+        "signal_counts": {
+          "DIFFERENTIAL": 0,
+          "REFERENCE_RELATIVE": 0,
+          "SYSTEM_FIELD": 0,
+          "ASYMMETRIC_DEPENDENCE": 0,
+          "RECIPROCITY_GATHERING": 0,
+          "DISTANCE_DIFFERENTIATION": 0,
+          "PRIORITY": 0
+        },
+        "active_signal_families": [],
+        "central_term_cooccurrence_segments": 4,
+        "profile_hints": [],
+        "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_SOURCE_ONTOLOGY"
+      },
+      "open_set_candidate": {
+        "family": "UNKNOWN_OPERATOR_FAMILY",
+        "candidate": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+        "status": "OPEN_SET_RIVAL_REQUIRED",
+        "source_signature": {
+          "recurrent_terms": [
+            {
+              "term": "thinking",
+              "windows": 5
+            },
+            {
+              "term": "understanding",
+              "windows": 5
+            },
+            {
+              "term": "exist",
+              "windows": 4
+            },
+            {
+              "term": "mind",
+              "windows": 4
+            },
+            {
+              "term": "thought",
+              "windows": 2
+            }
+          ],
+          "recurrent_pairs": [
+            {
+              "pair": "thinking::understanding",
+              "windows": 5
+            },
+            {
+              "pair": "exist::thinking",
+              "windows": 4
+            },
+            {
+              "pair": "exist::understanding",
+              "windows": 4
+            },
+            {
+              "pair": "mind::thinking",
+              "windows": 4
+            },
+            {
+              "pair": "mind::understanding",
+              "windows": 4
+            },
+            {
+              "pair": "exist::mind",
+              "windows": 3
+            },
+            {
+              "pair": "exist::thought",
+              "windows": 2
+            },
+            {
+              "pair": "mind::thought",
+              "windows": 2
+            },
+            {
+              "pair": "thinking::thought",
+              "windows": 2
+            },
+            {
+              "pair": "thought::understanding",
+              "windows": 2
+            }
+          ],
+          "window_count": 5,
+          "local_profile_variation": {
+            "distinct_known_profiles": [
+              "UNRESOLVED"
+            ],
+            "known_profile_transition_count": 0,
+            "unresolved_windows": 5
+          }
+        },
+        "source_trigger_terms": [
+          "thinking",
+          "understanding",
+          "exist",
+          "mind",
+          "thought"
+        ],
+        "rival_unitizations": [
+          {
+            "unitization_id": "U-TERM-FIELD",
+            "description": "Treat recurrent source-native terms as a provisional local field before assigning a known ontological relation type.",
+            "analytic_consequence": "The operator asks which distinctions appear from term co-presence without presupposing relation-first, relata-first, dependence or reciprocity."
+          },
+          {
+            "unitization_id": "U-WINDOW-TRANSITION",
+            "description": "Treat changes between adjacent argument windows as the primary analytic event rather than assuming one corpus-wide profile.",
+            "analytic_consequence": "The operator preserves local regime shifts and can route different windows differently without turning variation into a universal ontology."
+          },
+          {
+            "unitization_id": "U-NEGATIVE-BOUNDARY",
+            "description": "Treat recurrent absences and broken co-occurrences as provisional boundaries of the source's problem-space.",
+            "analytic_consequence": "The operator can register what ceases to travel together without claiming that absence itself names a metaphysical structure."
+          }
+        ],
+        "proposed_executable_family": {
+          "family_id": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+          "title": "Open-set source family: thinking / understanding / exist / mind",
+          "protocol_refs": [
+            "OPEN-SET-HERMENEUTIC-DISCOVERY-0.10",
+            "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1"
+          ],
+          "triggers": [
+            "thinking",
+            "understanding",
+            "exist",
+            "mind",
+            "thought"
+          ],
+          "diagnostic": "What becomes visible in the local source field (thinking, understanding, exist, mind, thought) before it is translated into a pre-existing operator family?",
+          "constructive_move": "Compare term-field, window-transition and negative-boundary unitizations; preserve a null result when none adds a source-linked distinction.",
+          "self_risk": "Open-set discovery can become an exception factory that rewards novelty; retire the family if it does not add repeatable local discrimination beyond ordinary routing.",
+          "positive_model": "Micro-local source-signature probe with no presupposed ontology and explicit rollback to ordinary routing."
+        },
+        "claim_ceiling": "OPEN_SET_OPERATOR_CANDIDATE_NOT_DISCOVERED_ONTOLOGY_OR_CORE_PROMOTION"
+      },
+      "micro_local_window_ids": [
+        "MW-000004-000006-C0E1A7B615B5",
+        "MW-000005-000007-4F080B9FF235",
+        "MW-000006-000008-3224EC217AC2",
+        "MW-000007-000009-EAD020A1ADCF",
+        "MW-000008-000010-6F9167DABE48"
+      ],
+      "source_resistance_trigger": "Curated topic coverage captured 0/5 source-central terms; 5 remained outside the recognized problem-space.",
+      "revision_condition": "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations."
+    },
+    {
+      "hypothesis_id": "HYP-EMERGENT_CLAIM_COGITO_LOCAL",
+      "topic_id": "EMERGENT_CLAIM_COGITO_LOCAL",
+      "label": "COGITO_LOCAL",
+      "claim_statement": "the local passage ties certainty of existence to the occurrence of thinking.",
+      "research_question": "Which source-bounded discriminators support, qualify or defeat the project thesis “COGITO_LOCAL” without presupposing the current registry?",
+      "origin": "EXPLICIT_PROJECT_THESIS_CANDIDATE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "EXPLICIT_PROJECT_THESIS",
+        "COGITO_LOCAL",
+        "TERM_THINKING"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000015-1122073E68",
+        "OX-P000001-469332FE00",
+        "OX-P000006-095C07370A",
+        "OX-P000008-24F9BB0F36",
+        "OX-P000012-C99D27ED92"
+      ],
+      "evidence_count": 5,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "thinking"
+      ],
+      "source_resistance_trigger": "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it.",
+      "revision_condition": "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss."
+    },
+    {
+      "hypothesis_id": "HYP-EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+      "topic_id": "EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+      "label": "RELATION_GENESIS_OVERFIT",
+      "claim_statement": "the passage requires a relation-first or co-constitutive ontology to become intelligible.",
+      "research_question": "Which source-bounded discriminators support, qualify or defeat the project thesis “RELATION_GENESIS_OVERFIT” without presupposing the current registry?",
+      "origin": "EXPLICIT_PROJECT_THESIS_CANDIDATE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "EXPLICIT_PROJECT_THESIS",
+        "RELATION_GENESIS_OVERFIT",
+        "TERM_THINKING",
+        "TERM_EXIST",
+        "TERM_MIND",
+        "TERM_THOUGHT",
+        "TERM_UNDERSTANDING"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000016-E23E7BF178",
+        "OX-P000001-469332FE00",
+        "OX-P000004-B3B6EA4EBB",
+        "OX-P000005-83796144BA",
+        "OX-P000006-095C07370A",
+        "OX-P000007-D5B16A79B8",
+        "OX-P000008-24F9BB0F36",
+        "OX-P000010-9F52B6218D",
+        "OX-P000012-C99D27ED92",
+        "OX-P000015-1122073E68"
+      ],
+      "evidence_count": 10,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "thinking",
+        "exist",
+        "mind",
+        "thought",
+        "understanding"
+      ],
+      "source_resistance_trigger": "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it.",
+      "revision_condition": "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss."
+    }
+  ],
+  "case_matrices": [],
+  "source_resistance": {
+    "status": "REGISTRY_BLIND_SPOT",
+    "central_terms": [
+      "thinking",
+      "exist",
+      "mind",
+      "thought",
+      "understanding"
+    ],
+    "covered_terms": [],
+    "uncovered_terms": [
+      "thinking",
+      "exist",
+      "mind",
+      "thought",
+      "understanding"
+    ],
+    "coverage_ratio": 0,
+    "explicit_stress_terms": [],
+    "source_native_terms": [
+      "exist",
+      "thought",
+      "understanding",
+      "mind",
+      "thinking"
+    ],
+    "centrality_basis": "MULTILINGUAL_SOURCE_FREQUENCY_PLUS_SOURCE_DOCUMENT_FREQUENCY_WITH_OPTIONAL_EXPLICIT_STRESS_HINTS",
+    "operator_candidate": {
+      "family": "GENERIC_SOURCE_FORCED_REVISION",
+      "candidate": "SOURCE_FORCED_TOPIC_AND_OPERATOR_CANDIDATE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0
+      },
+      "active_signal_families": [],
+      "central_term_cooccurrence_segments": 4,
+      "profile_hints": [],
+      "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_SOURCE_ONTOLOGY"
+    },
+    "open_set_status": "OPEN_SET_RIVAL_REQUIRED",
+    "open_set_candidate": {
+      "family": "UNKNOWN_OPERATOR_FAMILY",
+      "candidate": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+      "status": "OPEN_SET_RIVAL_REQUIRED",
+      "source_signature": {
+        "recurrent_terms": [
+          {
+            "term": "thinking",
+            "windows": 5
+          },
+          {
+            "term": "understanding",
+            "windows": 5
+          },
+          {
+            "term": "exist",
+            "windows": 4
+          },
+          {
+            "term": "mind",
+            "windows": 4
+          },
+          {
+            "term": "thought",
+            "windows": 2
+          }
+        ],
+        "recurrent_pairs": [
+          {
+            "pair": "thinking::understanding",
+            "windows": 5
+          },
+          {
+            "pair": "exist::thinking",
+            "windows": 4
+          },
+          {
+            "pair": "exist::understanding",
+            "windows": 4
+          },
+          {
+            "pair": "mind::thinking",
+            "windows": 4
+          },
+          {
+            "pair": "mind::understanding",
+            "windows": 4
+          },
+          {
+            "pair": "exist::mind",
+            "windows": 3
+          },
+          {
+            "pair": "exist::thought",
+            "windows": 2
+          },
+          {
+            "pair": "mind::thought",
+            "windows": 2
+          },
+          {
+            "pair": "thinking::thought",
+            "windows": 2
+          },
+          {
+            "pair": "thought::understanding",
+            "windows": 2
+          }
+        ],
+        "window_count": 5,
+        "local_profile_variation": {
+          "distinct_known_profiles": [
+            "UNRESOLVED"
+          ],
+          "known_profile_transition_count": 0,
+          "unresolved_windows": 5
+        }
+      },
+      "source_trigger_terms": [
+        "thinking",
+        "understanding",
+        "exist",
+        "mind",
+        "thought"
+      ],
+      "rival_unitizations": [
+        {
+          "unitization_id": "U-TERM-FIELD",
+          "description": "Treat recurrent source-native terms as a provisional local field before assigning a known ontological relation type.",
+          "analytic_consequence": "The operator asks which distinctions appear from term co-presence without presupposing relation-first, relata-first, dependence or reciprocity."
+        },
+        {
+          "unitization_id": "U-WINDOW-TRANSITION",
+          "description": "Treat changes between adjacent argument windows as the primary analytic event rather than assuming one corpus-wide profile.",
+          "analytic_consequence": "The operator preserves local regime shifts and can route different windows differently without turning variation into a universal ontology."
+        },
+        {
+          "unitization_id": "U-NEGATIVE-BOUNDARY",
+          "description": "Treat recurrent absences and broken co-occurrences as provisional boundaries of the source's problem-space.",
+          "analytic_consequence": "The operator can register what ceases to travel together without claiming that absence itself names a metaphysical structure."
+        }
+      ],
+      "proposed_executable_family": {
+        "family_id": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+        "title": "Open-set source family: thinking / understanding / exist / mind",
+        "protocol_refs": [
+          "OPEN-SET-HERMENEUTIC-DISCOVERY-0.10",
+          "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1"
+        ],
+        "triggers": [
+          "thinking",
+          "understanding",
+          "exist",
+          "mind",
+          "thought"
+        ],
+        "diagnostic": "What becomes visible in the local source field (thinking, understanding, exist, mind, thought) before it is translated into a pre-existing operator family?",
+        "constructive_move": "Compare term-field, window-transition and negative-boundary unitizations; preserve a null result when none adds a source-linked distinction.",
+        "self_risk": "Open-set discovery can become an exception factory that rewards novelty; retire the family if it does not add repeatable local discrimination beyond ordinary routing.",
+        "positive_model": "Micro-local source-signature probe with no presupposed ontology and explicit rollback to ordinary routing."
+      },
+      "claim_ceiling": "OPEN_SET_OPERATOR_CANDIDATE_NOT_DISCOVERED_ONTOLOGY_OR_CORE_PROMOTION"
+    },
+    "micro_local_windows": [
+      {
+        "window_id": "MW-000004-000006-C0E1A7B615B5",
+        "segment_ids": [
+          "OX-P000004-B3B6EA4EBB",
+          "OX-P000005-83796144BA",
+          "OX-P000006-095C07370A"
+        ],
+        "ordinal_start": 4,
+        "ordinal_end": 6,
+        "central_terms": [
+          "thinking",
+          "exist",
+          "mind",
+          "thought",
+          "understanding"
+        ],
+        "cooccurrence_pairs": [
+          "exist::mind",
+          "exist::thinking",
+          "exist::thought",
+          "exist::understanding",
+          "mind::thinking",
+          "mind::thought",
+          "mind::understanding",
+          "thinking::thought",
+          "thinking::understanding",
+          "thought::understanding"
+        ],
+        "known_profile_hints": [],
+        "known_signal_families": [],
+        "known_candidate_family": "GENERIC_SOURCE_FORCED_REVISION",
+        "raw_text_included": false
+      },
+      {
+        "window_id": "MW-000005-000007-4F080B9FF235",
+        "segment_ids": [
+          "OX-P000005-83796144BA",
+          "OX-P000006-095C07370A",
+          "OX-P000007-D5B16A79B8"
+        ],
+        "ordinal_start": 5,
+        "ordinal_end": 7,
+        "central_terms": [
+          "thinking",
+          "exist",
+          "mind",
+          "thought",
+          "understanding"
+        ],
+        "cooccurrence_pairs": [
+          "exist::mind",
+          "exist::thinking",
+          "exist::thought",
+          "exist::understanding",
+          "mind::thinking",
+          "mind::thought",
+          "mind::understanding",
+          "thinking::thought",
+          "thinking::understanding",
+          "thought::understanding"
+        ],
+        "known_profile_hints": [],
+        "known_signal_families": [],
+        "known_candidate_family": "GENERIC_SOURCE_FORCED_REVISION",
+        "raw_text_included": false
+      },
+      {
+        "window_id": "MW-000006-000008-3224EC217AC2",
+        "segment_ids": [
+          "OX-P000006-095C07370A",
+          "OX-P000007-D5B16A79B8",
+          "OX-P000008-24F9BB0F36"
+        ],
+        "ordinal_start": 6,
+        "ordinal_end": 8,
+        "central_terms": [
+          "thinking",
+          "exist",
+          "mind",
+          "understanding"
+        ],
+        "cooccurrence_pairs": [
+          "exist::mind",
+          "exist::thinking",
+          "exist::understanding",
+          "mind::thinking",
+          "mind::understanding",
+          "thinking::understanding"
+        ],
+        "known_profile_hints": [],
+        "known_signal_families": [],
+        "known_candidate_family": "GENERIC_SOURCE_FORCED_REVISION",
+        "raw_text_included": false
+      },
+      {
+        "window_id": "MW-000007-000009-EAD020A1ADCF",
+        "segment_ids": [
+          "OX-P000007-D5B16A79B8",
+          "OX-P000008-24F9BB0F36",
+          "OX-P000009-1CC49F4488"
+        ],
+        "ordinal_start": 7,
+        "ordinal_end": 9,
+        "central_terms": [
+          "thinking",
+          "exist",
+          "understanding"
+        ],
+        "cooccurrence_pairs": [
+          "exist::thinking",
+          "exist::understanding",
+          "thinking::understanding"
+        ],
+        "known_profile_hints": [],
+        "known_signal_families": [],
+        "known_candidate_family": "GENERIC_SOURCE_FORCED_REVISION",
+        "raw_text_included": false
+      },
+      {
+        "window_id": "MW-000008-000010-6F9167DABE48",
+        "segment_ids": [
+          "OX-P000008-24F9BB0F36",
+          "OX-P000009-1CC49F4488",
+          "OX-P000010-9F52B6218D"
+        ],
+        "ordinal_start": 8,
+        "ordinal_end": 10,
+        "central_terms": [
+          "thinking",
+          "mind",
+          "understanding"
+        ],
+        "cooccurrence_pairs": [
+          "mind::thinking",
+          "mind::understanding",
+          "thinking::understanding"
+        ],
+        "known_profile_hints": [],
+        "known_signal_families": [],
+        "known_candidate_family": "GENERIC_SOURCE_FORCED_REVISION",
+        "raw_text_included": false
+      }
+    ],
+    "emergent_hypotheses": [
+      "HYP-EMERGENT_SOURCE_THINKING",
+      "HYP-EMERGENT_CLAIM_COGITO_LOCAL",
+      "HYP-EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT"
+    ],
+    "principle": "SOURCE_CENTRALITY_CAN_FORCE_TOPIC_AND_OPERATOR_REVISION_BUT_CANNOT_BY_ITSELF_VALIDATE_A_PHILOSOPHICAL_CLAIM"
+  },
+  "claim_ceiling": "HYPOTHESIS_DISCOVERY_ONLY_NOT_CORROBORATION_OR_VALIDATION"
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Parallel Experiment Plan 2.1",
+  "type": "object",
+  "required": [
+    "fabric_version",
+    "case_count",
+    "world_workers",
+    "inner_workers",
+    "cases",
+    "biography_policy",
+    "default_cache_policy",
+    "compile_hash"
+  ],
+  "properties": {
+    "fabric_version": {
+      "const": "16X-PARALLEL-EXPERIMENTAL-ECOLOGY-2.1"
+    },
+    "case_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "world_workers": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "inner_workers": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "cases": {
+      "type": "array"
+    },
+    "biography_policy": {
+      "type": "string"
+    },
+    "default_cache_policy": {
+      "type": "string"
+    },
+    "compile_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": false
+}

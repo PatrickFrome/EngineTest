@@ -1,0 +1,4837 @@
+{
+  "pass_version": "DAE-ETYMOLOGY-PASS-1.0",
+  "protocol_version": "ETY-0.2",
+  "engine_version": "0.5.0-alpha.1",
+  "generated_at": "2026-08-11T13:04:27Z",
+  "run_id": "ETY-HGA_USER_DOSSIER_GA01_REALITAET_2026-20574979DFA7",
+  "source": {
+    "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+    "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+    "hypothesis_bank_sha256": "192304d02d2afb73d4c8e0eb518b19c5c4e9de21e8ef5941ff072d5b295dfc93",
+    "raw_source_included": false
+  },
+  "registry": {
+    "registry_version": "DAE-ETYMOLOGY-REGISTRY-1.0",
+    "sha256": "b80f04d6566d7477ff8279134754de63aecea8ad504ed6edfdcf1191941b609c",
+    "source_note": "Entries are project-level starting dispositions derived from the supplied protocol. Historical derivations remain provisional until independently lexicographically sourced."
+  },
+  "cards": [
+    {
+      "card_id": "ETY-CARD-AKT",
+      "concept_id": "AKT",
+      "topic_ids": [
+        "ACT_CONTENT_OBJECT"
+      ],
+      "level": "ETY-MIN",
+      "escalation_reasons": [],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-ACT_CONTENT_OBJECT"
+        ],
+        "selector_count": 393,
+        "selectors": [
+          "OX-P000006-AA2A5BCEB0",
+          "OX-P000074-AC148834A5",
+          "OX-P000077-E939798B4F",
+          "OX-P000080-F22D850C51",
+          "OX-P000081-EA581C4169",
+          "OX-P000083-D024F09AAF",
+          "OX-P000086-5C72E9CF06",
+          "OX-P000089-A1F17DA4DD",
+          "OX-P000090-DD19B4F9FB",
+          "OX-P000098-E3A5401C22",
+          "OX-P000112-DAC3B981CA",
+          "OX-P000205-C414628ED2"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Akt",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Akt",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "act; operation; occurrence",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "OX-P000080-F22D850C51"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Names an occurrence or intentional performance, not automatically its content or object.",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "акт; действие",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": null,
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-BESTAND",
+      "concept_id": "BESTAND",
+      "topic_ids": [
+        "TECHNOLOGY_AND_ORDERING"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-TECHNOLOGY_AND_ORDERING"
+        ],
+        "selector_count": 49,
+        "selectors": [
+          "OX-P004010-A640674698",
+          "OX-P007279-6478D6135F",
+          "OX-P007349-C0512E6965",
+          "OX-P000018-F44F207810",
+          "OX-P000551-85CE61D040",
+          "OX-P000560-FF9AC9DB7D",
+          "OX-P000738-7403BB7D41",
+          "OX-P001162-29B915EDAF",
+          "OX-P001197-40A67E172A",
+          "OX-P001301-8F74D28FC3",
+          "OX-P001393-C4ED4DE169",
+          "OX-P001675-DF2E23F54B"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Bestand",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Bestand",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "stock; inventory; persistence; standing-reserve in authorial use",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000018-F44F207810",
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Contextual resource-status rather than simple object identity.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "наличный состав; запас; постоянство; standing-reserve",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "One translation cannot preserve inventory, endurance and resourceization at once.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "stock; inventory; persistence; standing-reserve in authorial use",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Contextual resource-status rather than simple object identity.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Gegenstand; Ding. Semantic neighbours: bestehen; bestellen; Verfügbarkeit.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "наличный состав; запас; постоянство; standing-reserve. Residual: One translation cannot preserve inventory, endurance and resourceization at once..",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-DESTRUKTION",
+      "concept_id": "DESTRUKTION",
+      "topic_ids": [
+        "META_CRITIQUE"
+      ],
+      "level": "ETY-MIN",
+      "escalation_reasons": [],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-META_CRITIQUE"
+        ],
+        "selector_count": 2,
+        "selectors": [
+          "OX-P001454-055459EA0E",
+          "OX-P017303-1491866ADC"
+        ],
+        "selectors_truncated": false
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Destruktion",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Destruktion",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "dismantling; destruction; critical retrieval",
+          "source_refs": [
+            "OX-P001454-055459EA0E",
+            "OX-P017303-1491866ADC",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P001454-055459EA0E",
+            "OX-P017303-1491866ADC"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Method of loosening inherited necessity and retrieving concealed possibilities.",
+          "source_refs": [
+            "OX-P001454-055459EA0E",
+            "OX-P017303-1491866ADC",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "деструкция; разрушение; разбор",
+          "source_refs": [
+            "OX-P001454-055459EA0E",
+            "OX-P017303-1491866ADC",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Разрушение can erase retrieval and positive appropriation.",
+          "source_refs": [
+            "OX-P001454-055459EA0E",
+            "OX-P017303-1491866ADC",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": null,
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-EREIGNIS",
+      "concept_id": "EREIGNIS",
+      "topic_ids": [
+        "DIACHRONIC_HEIDEGGER"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "QUESTION_ESCALATION_TRIGGER",
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-DIACHRONIC_HEIDEGGER"
+        ],
+        "selector_count": 1289,
+        "selectors": [
+          "OX-P000001-5D78ADC8AF",
+          "OX-P000007-BC322C1957",
+          "OX-P000015-05964599CE",
+          "OX-P000018-F44F207810",
+          "OX-P000019-C1952B8C56",
+          "OX-P000026-BCF93D48CA",
+          "OX-P000030-DA10F8B2EA",
+          "OX-P000034-F572F059A5",
+          "OX-P000040-7643F8276D",
+          "OX-P000045-9842725665",
+          "OX-P000047-8065FDE19F",
+          "OX-P000050-151FC253EB"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Ereignis",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Ereignis",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Ordinary and authorial segmentations must be kept distinct.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "event; appropriation/event in authorial use",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "OX-P000018-F44F207810"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Late operator whose authorial etymologization cannot replace dated argument reconstruction.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "событие; событие-присвоение; Ereignis",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Ordinary and authorial segmentations must be kept distinct.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "event; appropriation/event in authorial use",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Late operator whose authorial etymologization cannot replace dated argument reconstruction.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Enteignis; Geschichte. Semantic neighbours: eigen; ereignen; Zugehörigkeit.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "событие; событие-присвоение; Ereignis. Residual: must be tested locally.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-EXISTENZ",
+      "concept_id": "EXISTENZ",
+      "topic_ids": [
+        "REGIONAL_REALIZATION_PROFILE",
+        "TERM_GENEALOGY"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "QUESTION_ESCALATION_TRIGGER",
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-REGIONAL_REALIZATION_PROFILE",
+          "HYP-TERM_GENEALOGY"
+        ],
+        "selector_count": 625,
+        "selectors": [
+          "OX-P000313-373154D4D2",
+          "OX-P000569-9FE4AF1E48",
+          "OX-P000785-B80136EA92",
+          "OX-P000855-7A5A7E4AA0",
+          "OX-P000857-56D276B2FF",
+          "OX-P000937-8A5CA20937",
+          "OX-P001301-8F74D28FC3",
+          "OX-P001350-76CD6950E5",
+          "OX-P003043-15CDF6195F",
+          "OX-P003190-944C1CF4A6",
+          "OX-P003442-2B85668E4E",
+          "OX-P003530-879087F484"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Existenz",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Existenz",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Learned noun; surface similarity to Latin exsistentia does not fix local function.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "historical_derivation": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Borrowing and philosophical specialization require external attestation.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "existence; actuality; a specific way of being; Dasein's existential mode",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "OX-P000855-7A5A7E4AA0"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Can answer whether something is, or name a distinctive mode of Dasein.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "существование; экзистенция; existence",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Экзистенция can preserve technicality while obscuring ordinary existence and vice versa.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Learned noun; surface similarity to Latin exsistentia does not fix local function. Borrowing and philosophical specialization require external attestation.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "existence; actuality; a specific way of being; Dasein's existential mode Semantic-drift candidate: A general existence term can acquire a region-specific existential function.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Can answer whether something is, or name a distinctive mode of Dasein.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Essenz; Realität; Vorhandenheit. Semantic neighbours: Dasein; existentia; Wirklichkeit; Sein.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "существование; экзистенция; existence. Residual: Экзистенция can preserve technicality while obscuring ordinary existence and vice versa..",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Compare nontechnical existence uses with Heideggerian specialization.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Existence predicate and existential mode must not be conflated.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "semantic_drift": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "A general existence term can acquire a region-specific existential function.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "new_question": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Is Existenz here a thin existential claim or a mode-specific articulation?",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "qualitative_gains": [
+          "GG1_NEW_DISTINCTION",
+          "GG2_NEW_QUESTION",
+          "GG3_NEW_RIVAL"
+        ]
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-GEGENSTAND",
+      "concept_id": "GEGENSTAND",
+      "topic_ids": [
+        "ACT_CONTENT_OBJECT"
+      ],
+      "level": "ETY-MIN",
+      "escalation_reasons": [],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-ACT_CONTENT_OBJECT"
+        ],
+        "selector_count": 393,
+        "selectors": [
+          "OX-P000006-AA2A5BCEB0",
+          "OX-P000074-AC148834A5",
+          "OX-P000077-E939798B4F",
+          "OX-P000080-F22D850C51",
+          "OX-P000081-EA581C4169",
+          "OX-P000083-D024F09AAF",
+          "OX-P000086-5C72E9CF06",
+          "OX-P000089-A1F17DA4DD",
+          "OX-P000090-DD19B4F9FB",
+          "OX-P000098-E3A5401C22",
+          "OX-P000112-DAC3B981CA",
+          "OX-P000205-C414628ED2"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Gegenstand",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Gegenstand",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "gegen + Stand is synchronically visible but cannot by itself prove an object theory.",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "object; subject matter; that which stands over against",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "OX-P000080-F22D850C51"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Names an intentional pole, object or thematic matter depending on context.",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "предмет; объект",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Предмет and объект distribute intentional and ontic emphases differently.",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": null,
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-GESTELL",
+      "concept_id": "GESTELL",
+      "topic_ids": [
+        "TECHNOLOGY_AND_ORDERING"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-TECHNOLOGY_AND_ORDERING"
+        ],
+        "selector_count": 49,
+        "selectors": [
+          "OX-P004010-A640674698",
+          "OX-P007279-6478D6135F",
+          "OX-P007349-C0512E6965",
+          "OX-P000018-F44F207810",
+          "OX-P000551-85CE61D040",
+          "OX-P000560-FF9AC9DB7D",
+          "OX-P000738-7403BB7D41",
+          "OX-P001162-29B915EDAF",
+          "OX-P001197-40A67E172A",
+          "OX-P001301-8F74D28FC3",
+          "OX-P001393-C4ED4DE169",
+          "OX-P001675-DF2E23F54B"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Ge-stell / Gestell",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Gestell",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Authorial hyphenation and ordinary noun history are distinct evidential objects.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "frame/rack; enframing as authorial ordering operator",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000018-F44F207810",
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Ordering/revealing diagnosis requiring operational discrimination.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "постав; Gestell; enframing",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Постав preserves technical coinage but can hide ordinary semantic friction.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Authorial hyphenation and ordinary noun history are distinct evidential objects.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "frame/rack; enframing as authorial ordering operator",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Ordering/revealing diagnosis requiring operational discrimination.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "poiesis; Gelassenheit; alternative revealing. Semantic neighbours: stellen; bestellen; Bestand.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "постав; Gestell; enframing. Residual: Постав preserves technical coinage but can hide ordinary semantic friction..",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-GRENZE",
+      "concept_id": "GRENZE",
+      "topic_ids": [
+        "IDENTITY_AND_INDIVIDUATION"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-IDENTITY_AND_INDIVIDUATION"
+        ],
+        "selector_count": 14,
+        "selectors": [
+          "OX-P017202-17850EBD3A",
+          "OX-P001092-4F3614CE55",
+          "OX-P005568-39E1413A8B",
+          "OX-P005576-D5351F83EB",
+          "OX-P008656-2D63A8BBC4",
+          "OX-P020790-A14EE28D44",
+          "OX-P023816-C479A26B3E",
+          "OX-P032395-EF0A1EEFC1",
+          "OX-P032436-FD86B7F569",
+          "OX-P033743-E4599B2AFE",
+          "OX-P003882-E212EFC050",
+          "OX-P031611-00243BF98F"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Grenze",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Grenze",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "border; boundary; limit",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P005576-D5351F83EB",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "May separate, enable, filter or maintain a difference; surface is only one type.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "граница; предел",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Граница and предел distribute spatial and modal senses differently.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "border; boundary; limit",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "May separate, enable, filter or maintain a difference; surface is only one type.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Innen/Außen; Übergang. Semantic neighbours: Schwelle; Horizont; Membran.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "граница; предел. Residual: Граница and предел distribute spatial and modal senses differently..",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-IDENTITAET",
+      "concept_id": "IDENTITAET",
+      "topic_ids": [
+        "IDENTITY_AND_INDIVIDUATION"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-IDENTITY_AND_INDIVIDUATION"
+        ],
+        "selector_count": 14,
+        "selectors": [
+          "OX-P017202-17850EBD3A",
+          "OX-P001092-4F3614CE55",
+          "OX-P005568-39E1413A8B",
+          "OX-P005576-D5351F83EB",
+          "OX-P008656-2D63A8BBC4",
+          "OX-P020790-A14EE28D44",
+          "OX-P023816-C479A26B3E",
+          "OX-P032395-EF0A1EEFC1",
+          "OX-P032436-FD86B7F569",
+          "OX-P033743-E4599B2AFE",
+          "OX-P003882-E212EFC050",
+          "OX-P031611-00243BF98F"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Identität",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Identität",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "identity; sameness; identification",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P005576-D5351F83EB",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Numerical sameness, persistence or criterion must be separated.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "тождество; идентичность",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Russian terms can redistribute logical and personal/social senses.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "identity; sameness; identification",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Numerical sameness, persistence or criterion must be separated.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Differenz; Vielheit. Semantic neighbours: Selbigkeit; Gleichheit; Einheit.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "тождество; идентичность. Residual: Russian terms can redistribute logical and personal/social senses..",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-INDIVIDUATION",
+      "concept_id": "INDIVIDUATION",
+      "topic_ids": [
+        "IDENTITY_AND_INDIVIDUATION"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-IDENTITY_AND_INDIVIDUATION"
+        ],
+        "selector_count": 14,
+        "selectors": [
+          "OX-P017202-17850EBD3A",
+          "OX-P001092-4F3614CE55",
+          "OX-P005568-39E1413A8B",
+          "OX-P005576-D5351F83EB",
+          "OX-P008656-2D63A8BBC4",
+          "OX-P020790-A14EE28D44",
+          "OX-P023816-C479A26B3E",
+          "OX-P032395-EF0A1EEFC1",
+          "OX-P032436-FD86B7F569",
+          "OX-P033743-E4599B2AFE",
+          "OX-P003882-E212EFC050",
+          "OX-P031611-00243BF98F"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Individuation",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Individuation",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "individuation; becoming/counting as one",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P005576-D5351F83EB",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Names a principle, operation or problem of ontological counting.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "индивидуация",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "individuation; becoming/counting as one",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Names a principle, operation or problem of ontological counting.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Allgemeinheit; Teilung. Semantic neighbours: Individuum; Einheit; Grenze.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "индивидуация. Residual: must be tested locally.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-INHALT",
+      "concept_id": "INHALT",
+      "topic_ids": [
+        "ACT_CONTENT_OBJECT"
+      ],
+      "level": "ETY-MIN",
+      "escalation_reasons": [],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-ACT_CONTENT_OBJECT"
+        ],
+        "selector_count": 393,
+        "selectors": [
+          "OX-P000006-AA2A5BCEB0",
+          "OX-P000074-AC148834A5",
+          "OX-P000077-E939798B4F",
+          "OX-P000080-F22D850C51",
+          "OX-P000081-EA581C4169",
+          "OX-P000083-D024F09AAF",
+          "OX-P000086-5C72E9CF06",
+          "OX-P000089-A1F17DA4DD",
+          "OX-P000090-DD19B4F9FB",
+          "OX-P000098-E3A5401C22",
+          "OX-P000112-DAC3B981CA",
+          "OX-P000205-C414628ED2"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Inhalt",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Inhalt",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "content; contained material; sense-content",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "OX-P000080-F22D850C51"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Can name immanent material, meaning or propositional content; local typing is mandatory.",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "содержание; content",
+          "source_refs": [
+            "OX-P000006-AA2A5BCEB0",
+            "OX-P000074-AC148834A5",
+            "OX-P000077-E939798B4F",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": null,
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-LICHTUNG",
+      "concept_id": "LICHTUNG",
+      "topic_ids": [
+        "DIACHRONIC_HEIDEGGER"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "QUESTION_ESCALATION_TRIGGER",
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-DIACHRONIC_HEIDEGGER"
+        ],
+        "selector_count": 1289,
+        "selectors": [
+          "OX-P000001-5D78ADC8AF",
+          "OX-P000007-BC322C1957",
+          "OX-P000015-05964599CE",
+          "OX-P000018-F44F207810",
+          "OX-P000019-C1952B8C56",
+          "OX-P000026-BCF93D48CA",
+          "OX-P000030-DA10F8B2EA",
+          "OX-P000034-F572F059A5",
+          "OX-P000040-7643F8276D",
+          "OX-P000045-9842725665",
+          "OX-P000047-8065FDE19F",
+          "OX-P000050-151FC253EB"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Lichtung",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Lichtung",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Related in ordinary German to clearing/open space; authorial wordplay must be separated from historical derivation.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "clearing; openness; clearing as a condition of appearing",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "OX-P000018-F44F207810"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Late operator of openness that can inherit some burdens of Sein without simple synonymy.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "просвет; открытость; clearing",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Related in ordinary German to clearing/open space; authorial wordplay must be separated from historical derivation.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "clearing; openness; clearing as a condition of appearing",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Late operator of openness that can inherit some burdens of Sein without simple synonymy.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Verborgenheit; Verdeckung. Semantic neighbours: Licht; Offenheit; Wahrheit.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "просвет; открытость; clearing. Residual: must be tested locally.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000007-BC322C1957",
+            "OX-P000015-05964599CE"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-MACHENSCHAFT",
+      "concept_id": "MACHENSCHAFT",
+      "topic_ids": [
+        "TECHNOLOGY_AND_ORDERING"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-TECHNOLOGY_AND_ORDERING"
+        ],
+        "selector_count": 49,
+        "selectors": [
+          "OX-P004010-A640674698",
+          "OX-P007279-6478D6135F",
+          "OX-P007349-C0512E6965",
+          "OX-P000018-F44F207810",
+          "OX-P000551-85CE61D040",
+          "OX-P000560-FF9AC9DB7D",
+          "OX-P000738-7403BB7D41",
+          "OX-P001162-29B915EDAF",
+          "OX-P001197-40A67E172A",
+          "OX-P001301-8F74D28FC3",
+          "OX-P001393-C4ED4DE169",
+          "OX-P001675-DF2E23F54B"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Machenschaft",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Machenschaft",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Visible relation to machen is not a sufficient history-of-being argument.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "machination; makeability; power-laden production in authorial use",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000018-F44F207810",
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Late-1930s diagnosis of makeability/objectifiability, not a synonym of Gestell.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "махинация; делание; Machenschaft",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Visible relation to machen is not a sufficient history-of-being argument.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "machination; makeability; power-laden production in authorial use",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Late-1930s diagnosis of makeability/objectifiability, not a synonym of Gestell.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Gelassenheit; Ereignis. Semantic neighbours: machen; Macht; Herstellung.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "махинация; делание; Machenschaft. Residual: must be tested locally.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-REALITAET",
+      "concept_id": "REALITAET",
+      "topic_ids": [
+        "REALITY_AND_REALISM",
+        "TERM_GENEALOGY"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "QUESTION_ESCALATION_TRIGGER",
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-REALITY_AND_REALISM",
+          "HYP-TERM_GENEALOGY"
+        ],
+        "selector_count": 557,
+        "selectors": [
+          "OX-P000001-5D78ADC8AF",
+          "OX-P000002-A0434D5772",
+          "OX-P000014-93F4831C8C",
+          "OX-P000029-58E6BD614E",
+          "OX-P000039-075AF6A716",
+          "OX-P000086-5C72E9CF06",
+          "OX-P000119-BB3238E154",
+          "OX-P000188-F2AE9A9306",
+          "OX-P000192-5356FADCDE",
+          "OX-P000205-C414628ED2",
+          "OX-P000212-04D73D8EB1",
+          "OX-P000230-10108FE716"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Realität",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Realität",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Learned abstract noun; surface form alone does not establish its philosophical history.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "historical_derivation": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Related to Latin realitas through learned vocabulary; borrowing history requires an external dictionary source.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "reality; objective reality; real content; reality as opposed to ideality or appearance",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "OX-P000029-58E6BD614E"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Can secure objectivity, independence, content or a contrast class.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "реальность; действительность in some traditions; reality",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Translating both Realität and Wirklichkeit as one Russian term erases a potentially operative contrast.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Learned abstract noun; surface form alone does not establish its philosophical history. Related to Latin realitas through learned vocabulary; borrowing history requires an external dictionary source.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "reality; objective reality; real content; reality as opposed to ideality or appearance Semantic-drift candidate: A stable form can carry different burdens across scholastic, neo-Kantian and phenomenological contexts.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Can secure objectivity, independence, content or a contrast class.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Idealität; Schein; Wirklichkeit. Semantic neighbours: real; Reales; Existenz; Gegenständlichkeit.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "реальность; действительность in some traditions; reality. Residual: Translating both Realität and Wirklichkeit as one Russian term erases a potentially operative contrast..",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test passages in which Realität and Wirklichkeit overlap or exchange roles.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Object-reality and actuality/effectiveness may be separate parameters.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "semantic_drift": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "A stable form can carry different burdens across scholastic, neo-Kantian and phenomenological contexts.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "new_question": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Does Realität here name existence, content, independence or objective validity?",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "qualitative_gains": [
+          "GG1_NEW_DISTINCTION",
+          "GG2_NEW_QUESTION",
+          "GG3_NEW_RIVAL"
+        ]
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-REALITAS",
+      "concept_id": "REALITAS",
+      "topic_ids": [
+        "REALITY_AND_REALISM",
+        "TERM_GENEALOGY"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "QUESTION_ESCALATION_TRIGGER",
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-REALITY_AND_REALISM",
+          "HYP-TERM_GENEALOGY"
+        ],
+        "selector_count": 557,
+        "selectors": [
+          "OX-P000001-5D78ADC8AF",
+          "OX-P000002-A0434D5772",
+          "OX-P000014-93F4831C8C",
+          "OX-P000029-58E6BD614E",
+          "OX-P000039-075AF6A716",
+          "OX-P000086-5C72E9CF06",
+          "OX-P000119-BB3238E154",
+          "OX-P000188-F2AE9A9306",
+          "OX-P000192-5356FADCDE",
+          "OX-P000205-C414628ED2",
+          "OX-P000212-04D73D8EB1",
+          "OX-P000230-10108FE716"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "realitas",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "la",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "realitas",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Abstract formation associated with realis/res; exact historical stages require lexicographic attestation.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "historical_derivation": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Medieval Latin philosophical usage is a project hypothesis, not established by this registry alone.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "thinghood; reality; whatness/reality in scholastic and later retrospective vocabularies",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "OX-P000029-58E6BD614E"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "May name a mode, predicate or assumed independent object depending on the argument.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Realität; reality; реальность; context-dependent alternatives",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "A Russian or German cognate can conceal shifts between thinghood, existence and actuality.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Abstract formation associated with realis/res; exact historical stages require lexicographic attestation. Medieval Latin philosophical usage is a project hypothesis, not established by this registry alone.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "thinghood; reality; whatness/reality in scholastic and later retrospective vocabularies Semantic-drift candidate: The term can migrate from scholastic determination toward a general modern reality predicate.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "May name a mode, predicate or assumed independent object depending on the argument.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "idealitas; possibilitas; apparentia; later Wirklichkeit. Semantic neighbours: res; realis; existentia; actualitas.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Realität; reality; реальность; context-dependent alternatives. Residual: A Russian or German cognate can conceal shifts between thinghood, existence and actuality..",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Track the same philosophical function where the cognate disappears, and the cognate where its function changes.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Reality vocabulary need not coincide with existence or actuality vocabulary.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "semantic_drift": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "The term can migrate from scholastic determination toward a general modern reality predicate.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "new_question": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Which function of the real is active in this dated passage?",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "qualitative_gains": [
+          "GG1_NEW_DISTINCTION",
+          "GG2_NEW_QUESTION",
+          "GG3_NEW_RIVAL"
+        ]
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-RELATION",
+      "concept_id": "RELATION",
+      "topic_ids": [
+        "IDENTITY_AND_INDIVIDUATION"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-IDENTITY_AND_INDIVIDUATION"
+        ],
+        "selector_count": 14,
+        "selectors": [
+          "OX-P017202-17850EBD3A",
+          "OX-P001092-4F3614CE55",
+          "OX-P005568-39E1413A8B",
+          "OX-P005576-D5351F83EB",
+          "OX-P008656-2D63A8BBC4",
+          "OX-P020790-A14EE28D44",
+          "OX-P023816-C479A26B3E",
+          "OX-P032395-EF0A1EEFC1",
+          "OX-P032436-FD86B7F569",
+          "OX-P033743-E4599B2AFE",
+          "OX-P003882-E212EFC050",
+          "OX-P031611-00243BF98F"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Relation / Verhältnis / Bezug",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Relation",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "formal relation; ratio; dependence; reference; coupling",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P005576-D5351F83EB",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Requires typed relata, direction, mechanism and ontological burden.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "отношение; связь; соотнесённость",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "One Russian relation word can collapse edge type, direction and mechanism.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "formal relation; ratio; dependence; reference; coupling",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Requires typed relata, direction, mechanism and ontological burden.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Substanz; Unabhängigkeit. Semantic neighbours: Bezug; Verhältnis; Kopplung; Vermittlung.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "отношение; связь; соотнесённость. Residual: One Russian relation word can collapse edge type, direction and mechanism..",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-SEIN",
+      "concept_id": "SEIN",
+      "topic_ids": [
+        "DIACHRONIC_HEIDEGGER",
+        "REGIONAL_REALIZATION_PROFILE",
+        "TERM_GENEALOGY"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "QUESTION_ESCALATION_TRIGGER",
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-DIACHRONIC_HEIDEGGER",
+          "HYP-REGIONAL_REALIZATION_PROFILE",
+          "HYP-TERM_GENEALOGY"
+        ],
+        "selector_count": 1914,
+        "selectors": [
+          "OX-P000313-373154D4D2",
+          "OX-P000569-9FE4AF1E48",
+          "OX-P000785-B80136EA92",
+          "OX-P000855-7A5A7E4AA0",
+          "OX-P000857-56D276B2FF",
+          "OX-P000937-8A5CA20937",
+          "OX-P001301-8F74D28FC3",
+          "OX-P001350-76CD6950E5",
+          "OX-P003043-15CDF6195F",
+          "OX-P003190-944C1CF4A6",
+          "OX-P003442-2B85668E4E",
+          "OX-P003530-879087F484"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Sein",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "sein / das Sein",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Nominalized infinitive; nominal form must not turn the referent into a thing.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "historical_derivation": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Germanic verbal history and philosophical nominalization require independent historical sources.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "being; to be; beingness; intelligibility; horizon or event in author-specific uses",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "OX-P000855-7A5A7E4AA0"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Predicate, horizon, difference, intelligibility condition or later operator; role must be locally typed.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "бытие; быть; being",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Nominal Russian бытие may hide verbal, predicative and operator differences.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Nominalized infinitive; nominal form must not turn the referent into a thing. Germanic verbal history and philosophical nominalization require independent historical sources.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "being; to be; beingness; intelligibility; horizon or event in author-specific uses Semantic-drift candidate: The load can migrate from predication to horizon, difference and event without one continuous definition.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Predicate, horizon, difference, intelligibility condition or later operator; role must be locally typed.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Seiendes; Werden; Nichts; Schein. Semantic neighbours: Dasein; Seiendheit; Anwesenheit; Existenz.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "бытие; быть; being. Residual: Nominal Russian бытие may hide verbal, predicative and operator differences..",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Follow being-functions under other vocabularies and repeated Sein with discontinuous roles.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "The word and the meta-ontological role are not identical.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "semantic_drift": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "The load can migrate from predication to horizon, difference and event without one continuous definition.",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "new_question": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "What work does Sein perform in this argument rather than in the corpus as a whole?",
+          "source_refs": [
+            "OX-P000313-373154D4D2",
+            "OX-P000569-9FE4AF1E48",
+            "OX-P000785-B80136EA92",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "qualitative_gains": [
+          "GG1_NEW_DISTINCTION",
+          "GG2_NEW_QUESTION",
+          "GG3_NEW_RIVAL"
+        ]
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-SELBIGKEIT",
+      "concept_id": "SELBIGKEIT",
+      "topic_ids": [
+        "IDENTITY_AND_INDIVIDUATION"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-IDENTITY_AND_INDIVIDUATION"
+        ],
+        "selector_count": 14,
+        "selectors": [
+          "OX-P017202-17850EBD3A",
+          "OX-P001092-4F3614CE55",
+          "OX-P005568-39E1413A8B",
+          "OX-P005576-D5351F83EB",
+          "OX-P008656-2D63A8BBC4",
+          "OX-P020790-A14EE28D44",
+          "OX-P023816-C479A26B3E",
+          "OX-P032395-EF0A1EEFC1",
+          "OX-P032436-FD86B7F569",
+          "OX-P033743-E4599B2AFE",
+          "OX-P003882-E212EFC050",
+          "OX-P031611-00243BF98F"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Selbigkeit",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Selbigkeit",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "selfsameness; the same",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P005576-D5351F83EB",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "May articulate belonging-together without replacing numerical identity.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "самотождественность; то же самое",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "selfsameness; the same",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "May articulate belonging-together without replacing numerical identity.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Verschiedenheit; Andersheit. Semantic neighbours: selbst; Identität; Zusammengehörigkeit.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "самотождественность; то же самое. Residual: must be tested locally.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P001092-4F3614CE55",
+            "OX-P005568-39E1413A8B",
+            "OX-P017202-17850EBD3A"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-TECHNIK",
+      "concept_id": "TECHNIK",
+      "topic_ids": [
+        "TECHNOLOGY_AND_ORDERING"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-TECHNOLOGY_AND_ORDERING"
+        ],
+        "selector_count": 49,
+        "selectors": [
+          "OX-P004010-A640674698",
+          "OX-P007279-6478D6135F",
+          "OX-P007349-C0512E6965",
+          "OX-P000018-F44F207810",
+          "OX-P000551-85CE61D040",
+          "OX-P000560-FF9AC9DB7D",
+          "OX-P000738-7403BB7D41",
+          "OX-P001162-29B915EDAF",
+          "OX-P001197-40A67E172A",
+          "OX-P001301-8F74D28FC3",
+          "OX-P001393-C4ED4DE169",
+          "OX-P001675-DF2E23F54B"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Technik",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Technik",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "technique; technology; technical practice",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000018-F44F207810",
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Object, practice, instrument or mode-of-revealing must be separated.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "техника; технология",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Техника can name artifacts, skill or a system; technology often narrows/modernizes the field.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "technique; technology; technical practice",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Object, practice, instrument or mode-of-revealing must be separated.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Natur; Kunst; Praxis. Semantic neighbours: technē; Herstellung; Instrument.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "техника; технология. Residual: Техника can name artifacts, skill or a system; technology often narrows/modernizes the field..",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P004010-A640674698",
+            "OX-P007279-6478D6135F",
+            "OX-P007349-C0512E6965"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-WIRKLICHKEIT",
+      "concept_id": "WIRKLICHKEIT",
+      "topic_ids": [
+        "REALITY_AND_REALISM",
+        "REGIONAL_REALIZATION_PROFILE",
+        "TERM_GENEALOGY"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "QUESTION_ESCALATION_TRIGGER",
+        "REGISTRY_HIGH_CONCEPTUAL_LOAD",
+        "TOPIC_REQUIRES_DIACHRONIC_TRANSLATION_OR_TECHNICAL_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-REALITY_AND_REALISM",
+          "HYP-REGIONAL_REALIZATION_PROFILE",
+          "HYP-TERM_GENEALOGY"
+        ],
+        "selector_count": 955,
+        "selectors": [
+          "OX-P000001-5D78ADC8AF",
+          "OX-P000002-A0434D5772",
+          "OX-P000014-93F4831C8C",
+          "OX-P000029-58E6BD614E",
+          "OX-P000039-075AF6A716",
+          "OX-P000086-5C72E9CF06",
+          "OX-P000119-BB3238E154",
+          "OX-P000188-F2AE9A9306",
+          "OX-P000192-5356FADCDE",
+          "OX-P000205-C414628ED2",
+          "OX-P000212-04D73D8EB1",
+          "OX-P000230-10108FE716"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Wirklichkeit",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "language": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "de",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "lemma": {
+          "resolution": "FIXED_PROJECT_METADATA",
+          "value": "Wirklichkeit",
+          "source_refs": [
+            "config/etymology_registry.json"
+          ]
+        },
+        "morphological_structure": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "wirklich + -keit; any further appeal to wirken is a hypothesis requiring local and historical checks.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "historical_derivation": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "The visible word family wirklich/wirken supplies a comparison, not proof of current sense.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "semantic_range": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "actuality; reality; effective actuality; realization",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "OX-P000029-58E6BD614E"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "May oppose possibility, appearance or ideality and may carry an actuality burden.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translations": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "действительность; реальность; actuality; effective reality",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "translation_residual": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Russian действительность can foreground actuality while реальность can collapse the contrast with Realität.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "wirklich + -keit; any further appeal to wirken is a hypothesis requiring local and historical checks. The visible word family wirklich/wirken supplies a comparison, not proof of current sense.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_SENSE": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "actuality; reality; effective actuality; realization Semantic-drift candidate: The word family can preserve form while philosophical function moves among efficacy, actuality and objectivity.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_FUNCTION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "May oppose possibility, appearance or ideality and may carry an actuality burden.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_CONTRAST": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Möglichkeit; Schein; Idealität; Realität. Semantic neighbours: wirken; wirklich; Aktualität; Existenz.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "G_TRANSLATION": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "действительность; реальность; actuality; effective reality. Residual: Russian действительность can foreground actuality while реальность can collapse the contrast with Realität..",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Seek uses where Wirklichkeit lacks any efficacy implication and uses of actuality under other words.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Actuality and reality are not automatically coextensive.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "semantic_drift": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "The word family can preserve form while philosophical function moves among efficacy, actuality and objectivity.",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "new_question": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Which contrast makes Wirklichkeit determinate here?",
+          "source_refs": [
+            "OX-P000001-5D78ADC8AF",
+            "OX-P000002-A0434D5772",
+            "OX-P000014-93F4831C8C",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "qualitative_gains": [
+          "GG1_NEW_DISTINCTION",
+          "GG2_NEW_QUESTION",
+          "GG3_NEW_RIVAL"
+        ]
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    }
+  ],
+  "coverage": {
+    "central_concepts": 20,
+    "cards_emitted": 20,
+    "ety_min_executed": 20,
+    "ety_full_required": 16,
+    "ety_full_executed": 16,
+    "coverage_complete": true,
+    "unresolved_fields": 152,
+    "knowledge_resolution": "PARTIAL",
+    "interpretation": "Coverage is complete because every central concept received ETY-MIN and every escalated concept received all ETY-FULL contours. This does not mean that unresolved historical, local or phenomenological fields have been answered."
+  },
+  "output_contract": {
+    "mandatory_execution": true,
+    "mandatory_significance": false,
+    "local_context_precedes_origin": true,
+    "authorial_etymology_separated": true,
+    "counter_etymology_required_for_full": true,
+    "phenomenological_check_required_for_full": true,
+    "bridge_required_for_semantic_promotion": true,
+    "semantic_promotion_performed": false,
+    "null_result_is_valid": true,
+    "raw_source_included": false
+  },
+  "claim_ceiling": "MANDATORY_ETYMOLOGICAL_SEMANTIC_COVERAGE_NOT_CONCEPTUAL_OR_ONTOLOGICAL_PROOF"
+}

@@ -1,0 +1,49 @@
+{
+  "release": "CORE 4.0.0-alpha.1",
+  "status": "DEVELOPER-TESTED / PILOT",
+  "semantic_api": {
+    "trc": "TRC-0.3",
+    "activation": "AAG-0.1",
+    "operators": [
+      "O0",
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O8",
+      "O9"
+    ],
+    "relation_registry": "RT00–RT28",
+    "node_kinds": [
+      "CLAIM",
+      "ACT",
+      "STATE",
+      "EVENT",
+      "ARTIFACT",
+      "PRACTICE",
+      "AGENT",
+      "INSTITUTION",
+      "OTHER",
+      "UNRESOLVED"
+    ],
+    "record_links": [
+      "REVISES",
+      "RETRACTS",
+      "DEFEATS",
+      "SUPERSEDES",
+      "DEPENDS_ON"
+    ]
+  },
+  "lineage": [
+    "CORE 3.0.0-alpha.10.4",
+    "DEV-NEXT 0.1–0.10"
+  ],
+  "promotion_gate": "DEV-0.10 CAND-FREEZE-0.3 PASS",
+  "semantic_expansion_during_packaging": false,
+  "external_validation": "PENDING",
+  "next_cycle": "MODULE-MIGRATION-4A",
+  "immutability_rule": "Published alpha artifact is not rewritten; changes create a new version."
+}

@@ -1,0 +1,51 @@
+# Micro-local operator ecology
+
+Outcome: **PASSES_MICRO_LOCAL_ECOLOGY_REGRESSION**  
+Routing policy: **ARGUMENT_WINDOW_SELECTION_COMPOSITION_BOUNDARY_OR_ABSTENTION_WITH_POLYPHONIC_SYNTHESIS_GATE**  
+Promotion: **EXPERIMENTAL_NOT_CORE**
+
+## Argument windows
+
+| Window | Heading | Profile hints | Decision | Selected | Unserved signals | Expectation |
+|---|---|---|---|---|---|---|
+| MW-001 | W1 — Temporal enactment | TEMPORAL_ENACTMENT, PRACTICE_MEDIATION | SELECT_LOCAL_WINNER | TEMPORAL_ENACTMENT_SOURCE_BORN | — | PASS |
+| MW-002 | W2 — Practice and material mediation | PRACTICE_MEDIATION | SELECT_LOCAL_WINNER | PRACTICE_MEDIATION_SOURCE_BORN | — | PASS |
+| MW-003 | W3 — Absence and trace | ABSENCE_DISCLOSURE | SELECT_LOCAL_WINNER | ABSENCE_DISCLOSURE_SOURCE_BORN | — | PASS |
+| MW-004 | W4 — Geviert-style relation control | CO_CONSTITUTIVE_OR_RECIPROCAL, DIFFERENCE_PRESERVING_PROXIMITY | SELECT_LOCAL_WINNER | GEVIERT_CO_CONSTITUTIVE_GATHERING | — | PASS |
+| MW-005 | W5 — Cross-family composition | CO_CONSTITUTIVE_OR_RECIPROCAL, DIFFERENCE_PRESERVING_PROXIMITY, TEMPORAL_ENACTMENT, PRACTICE_MEDIATION | LOCAL_COMPOSITION | GEVIERT_CO_CONSTITUTIVE_GATHERING, TEMPORAL_ENACTMENT_SOURCE_BORN | — | PASS |
+| MW-006 | W6 — Descriptive negative control | — | ABSTAIN_UNRESOLVED | — | — | PASS |
+
+## Boundaries
+
+| Transition | Boundary type | Unresolved |
+|---|---|---|
+| MW-001 → MW-002 | OPERATOR_REGIME_SHIFT | no |
+| MW-002 → MW-003 | OPERATOR_REGIME_SHIFT | no |
+| MW-003 → MW-004 | OPERATOR_REGIME_SHIFT | no |
+| MW-004 → MW-005 | PARTIAL_OPERATOR_OVERLAP | no |
+| MW-005 → MW-006 | OPEN_BOUNDARY | yes |
+
+## Synthesis gate
+
+Decision: **PRESERVE_POLYPHONIC_LOCALITY**
+
+Distinct local operator regimes or unresolved windows are present; a single global operator would erase source-linked heterogeneity.
+
+Local signatures: ABSTAIN_UNRESOLVED:PROFILE=NONE:UNSERVED=NONE:ACTIVE=NONE; LOCAL_COMPOSITION:GEVIERT_CO_CONSTITUTIVE_GATHERING+TEMPORAL_ENACTMENT_SOURCE_BORN:PROFILE=CO_CONSTITUTIVE_OR_RECIPROCAL+DIFFERENCE_PRESERVING_PROXIMITY+PRACTICE_MEDIATION+TEMPORAL_ENACTMENT; SELECT_LOCAL_WINNER:ABSENCE_DISCLOSURE_SOURCE_BORN:PROFILE=ABSENCE_DISCLOSURE; SELECT_LOCAL_WINNER:GEVIERT_CO_CONSTITUTIVE_GATHERING:PROFILE=CO_CONSTITUTIVE_OR_RECIPROCAL+DIFFERENCE_PRESERVING_PROXIMITY; SELECT_LOCAL_WINNER:PRACTICE_MEDIATION_SOURCE_BORN:PROFILE=PRACTICE_MEDIATION; SELECT_LOCAL_WINNER:TEMPORAL_ENACTMENT_SOURCE_BORN:PROFILE=PRACTICE_MEDIATION+TEMPORAL_ENACTMENT
+
+## Summary
+
+- source-born candidates confirmed: 4/4
+- argument windows: 6
+- preregistered window expectations: 6/6
+- distinct local signatures: 6
+- boundaries: 5
+- unresolved boundaries: 1
+- abstaining windows: 1
+- windows with unserved source signals: 0
+
+## Claim ceiling
+
+MICRO_LOCAL_ROUTING_AND_SYNTHESIS_FIDELITY_TEST_NOT_EXTERNAL_SEMANTIC_VALIDATION_OR_CORE_PROMOTION
+
+Micro-local routing is a derivative source-bounded representation test. It does not establish an author's ontology, semantic truth, or permission to promote any operator into frozen CORE.

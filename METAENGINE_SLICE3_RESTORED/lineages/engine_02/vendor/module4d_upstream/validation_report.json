@@ -1,0 +1,74 @@
+[
+  {
+    "record_id": "4D-MA4-GA65-MACHENSCHAFT",
+    "module": "MA4",
+    "trc_valid": true,
+    "module_profile_valid": true,
+    "trc_errors": [],
+    "module_errors": []
+  },
+  {
+    "record_id": "4D-GE4-GA7-INSTRUMENTAL-FIREWALL",
+    "module": "GE4",
+    "trc_valid": true,
+    "module_profile_valid": true,
+    "trc_errors": [],
+    "module_errors": []
+  },
+  {
+    "record_id": "4D-BS4-AIRLINER-STANDING-RESERVE",
+    "module": "BS4",
+    "trc_valid": true,
+    "module_profile_valid": true,
+    "trc_errors": [],
+    "module_errors": []
+  },
+  {
+    "record_id": "4D-BS4-HUMAN-RESOURCEIZATION-TENSION",
+    "module": "BS4",
+    "trc_valid": true,
+    "module_profile_valid": true,
+    "trc_errors": [],
+    "module_errors": []
+  },
+  {
+    "record_id": "4D-GE4-PLANETARY-TOTALIZATION",
+    "module": "GE4",
+    "trc_valid": true,
+    "module_profile_valid": true,
+    "trc_errors": [],
+    "module_errors": []
+  },
+  {
+    "record_id": "4D-TO4-DESIGN-MULTICRITERIA",
+    "module": "TO4",
+    "trc_valid": true,
+    "module_profile_valid": true,
+    "trc_errors": [],
+    "module_errors": []
+  },
+  {
+    "record_id": "4D-TO4-AI-GOVERNANCE-CORRIGIBILITY",
+    "module": "TO4",
+    "trc_valid": true,
+    "module_profile_valid": true,
+    "trc_errors": [],
+    "module_errors": []
+  },
+  {
+    "record_id": "4D-GE4-DANGER-AMBIVALENCE",
+    "module": "GE4",
+    "trc_valid": true,
+    "module_profile_valid": true,
+    "trc_errors": [],
+    "module_errors": []
+  },
+  {
+    "record_id": "4D-TO4-RESPONSIBILITY-MANY-HANDS",
+    "module": "TO4",
+    "trc_valid": true,
+    "module_profile_valid": true,
+    "trc_errors": [],
+    "module_errors": []
+  }
+]

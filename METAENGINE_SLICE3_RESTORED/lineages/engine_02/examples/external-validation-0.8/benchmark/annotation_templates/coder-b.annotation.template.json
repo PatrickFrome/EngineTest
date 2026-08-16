@@ -1,0 +1,172 @@
+{
+  "annotation_version": "DAE-EXPERT-ANNOTATION-1.0",
+  "benchmark_id": "BENCH-E04C164EC08BCCCC",
+  "manifest_sha256": "533dd3de8908115031a0c8f6c49ac8d40b50fd81b4a0dccd1dcdc145059e7e9f",
+  "packet_sha256": "f9b579ba13754fa08a09114d26b63c9e32bf727aacd18e0ac7751dcd90fc8c8d",
+  "coder": {
+    "id": "REPLACE_WITH_CODER_ID",
+    "role": "INDEPENDENT_DOMAIN_ANNOTATOR",
+    "independent_of_system_development": true,
+    "blinded_to_predictions": true,
+    "source_access_attested": true,
+    "conflicts_disclosed": []
+  },
+  "completed_at": "2026-08-11T19:00:04Z",
+  "units": [
+    {
+      "unit_id": "BU-1C1AF4E6A3068AD7",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-290C724AC47553FA",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-30B0AC2EC04197ED",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-3F88A445A2EC82D7",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-4A2A58F4CAF951A3",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-4C72077718639D59",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-521A42ABFEBDE27C",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-52A49B3981044AF3",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-592C5B9F661137E8",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-6FFF74ECB1AB248F",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-7A396BE26FE3B2D9",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-803D20E689BA414E",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-8C0334C8EEFF9993",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-95F272195B517B2C",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-9643F85281C28603",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-A79BD194196C808B",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-A9D123C271E208F3",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-C20CF0CBD94B6966",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-C3B7900F7612EB9F",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-C4514654B31AA239",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-DCAE0355A017805F",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    },
+    {
+      "unit_id": "BU-F1C0BC0AE05E26AA",
+      "status": null,
+      "confidence": null,
+      "evidence_refs": [],
+      "rationale": ""
+    }
+  ],
+  "claim_ceiling": "INDEPENDENT_CODER_JUDGMENT_NOT_ADJUDICATED_GOLD"
+}

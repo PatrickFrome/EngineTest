@@ -1,0 +1,56 @@
+{
+  "release": "Destruktion 4.0 METAENGINE 16X 2.2.0-alpha.1",
+  "version": "2.2.0-alpha.1",
+  "stage": "FRONTIER_EVIDENCE_CONTROL_INTEGRATION",
+  "architecture_patterns": [
+    "BREADTH_FIRST_ORCHESTRATOR_WORKERS",
+    "TASK_LEDGER_PROGRESS_LEDGER_REPLAN",
+    "TYPED_HANDOFFS_GUARDRAILS_TRACING",
+    "CANDIDATE_ARCHIVE_EVALUATOR_ENSEMBLE",
+    "GENERATION_REFLECTION_RANKING_EVOLUTION_META_REVIEW",
+    "TRACE_DRIVEN_REFLECTIVE_POLICY_EVOLUTION"
+  ],
+  "regression": {
+    "tests": 48,
+    "passed": 48,
+    "failed": 0
+  },
+  "integration_smoke": {
+    "status": "COMPLETE",
+    "engine_states": 16,
+    "deep_rounds": 2,
+    "deep_engine_executions": 7,
+    "selected_topologies": [
+      "DYNAMIC_GAIN_TOPOLOGY",
+      "ADVERSARIAL_FORK"
+    ],
+    "frontier_candidates": 7,
+    "pareto_members_total": 3,
+    "shadow_policy_candidates": 0,
+    "derived_truth_promotion_violations": 0,
+    "control_plane_hash": "7db4bdaeee2b31639e6f4f03fcf59ea3cb48b9480bec06c2bae37c98f53af5d2"
+  },
+  "replication_contract": {
+    "frontier_tables": 5,
+    "frontier_statements_in_smoke": 17,
+    "migration_prepared_not_applied_to_live_clouds": true
+  },
+  "lineage_fixity": {
+    "baseline": "2.1.0-alpha.1",
+    "baseline_files": 9839,
+    "current_files": 9839,
+    "matched_identical": 9839,
+    "added": [],
+    "removed": [],
+    "changed": [],
+    "byte_fixity": true
+  },
+  "invariants": {
+    "majority_vote_used": false,
+    "automated_ranking_is_truth": false,
+    "policy_self_deployment_allowed": false,
+    "native_lineages_immutable": true,
+    "external_reasoning_superiority_claimed": false
+  },
+  "claim_ceiling": "CONTROLLED_FRONTIER_ARCHITECTURE_INTEGRATION_AND_REGRESSION_EVIDENCE; NOT_EXTERNAL_REASONING_QUALITY_SUPERIORITY"
+}

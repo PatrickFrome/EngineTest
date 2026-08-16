@@ -1,0 +1,93 @@
+{
+  "record_id": "4A-EM4-ACCESS-BEING",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "Kant A158/B197 control from 2.22",
+      "Kant SEP conceptualism control"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + EM4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "X is necessary for Y to count as an object of a specified possible experience.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "FORM"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Therefore X is necessary for Y simpliciter.",
+    "claim_facets": {
+      "basis": [
+        "FORM"
+      ],
+      "force": "WITHHELD",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT05"
+    },
+    "bridge": {
+      "status": "ABSENT",
+      "statement": null
+    },
+    "promotion_flags": [
+      "SCOPE",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G4",
+    "gap": "LARGE",
+    "bridge_burden": "Need independent reason to remove the object-of-experience qualifier."
+  },
+  "audit": {
+    "native_domain": "transcendental argument",
+    "native_method": "Kantian scope control",
+    "activated_operators": [
+      "O4",
+      "O5",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION"
+    ],
+    "ncv": [
+      "SCOPE_CONTROL"
+    ],
+    "rtr": "MEDIUM"
+  },
+  "extensions": {
+    "em4": {
+      "module_id": "EM4",
+      "version": "0.1",
+      "enablement_type": "TRANSCENDENTAL",
+      "modality": "NECESSARY",
+      "index": "specified possible experience / object-as-experienced",
+      "evidence_basis": [
+        "TXT",
+        "FORM"
+      ],
+      "alternative_access": "Unresolved; a different access architecture could preserve the object claim.",
+      "promotion_ceiling": "OBJECT_AS_ACCESSIBLE",
+      "revision_trigger": "A successful independent argument from conditions of experience to conditions of the thing simpliciter."
+    }
+  },
+  "outcome": "BLOCK"
+}

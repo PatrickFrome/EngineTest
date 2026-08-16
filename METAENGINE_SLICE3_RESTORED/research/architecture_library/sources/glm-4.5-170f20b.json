@@ -1,0 +1,78 @@
+{
+  "allowed_use": [
+    "ANALYSIS",
+    "CLEAN_ROOM_REIMPLEMENTATION",
+    "REFERENCE"
+  ],
+  "architecture_claims": [
+    {
+      "claim_id": "glm-documentation-only-retained-scope",
+      "evidence_locator": "https://github.com/zai-org/GLM-4.5/tree/170f20b2c10659008fdbc909d478bc2a75bc3627",
+      "kind": "SOURCE_FACT",
+      "statement": "The retained pack contains official license and README bytes; model implementations in external frameworks are not attributed to this repository."
+    },
+    {
+      "claim_id": "glm-hybrid-reasoning-mode-publisher-claim",
+      "evidence_locator": "https://github.com/zai-org/GLM-4.5/blob/170f20b2c10659008fdbc909d478bc2a75bc3627/README.md",
+      "kind": "PUBLISHER_CLAIM",
+      "statement": "The official README documents hybrid thinking and non-thinking usage modes."
+    }
+  ],
+  "blob_descriptors": [
+    {
+      "digest": "7090a09a59cf55701feb04b2d4f99ce31fc4f31bbe1aaf33dd0dafd8e7546313",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "827fdc3a6b57acf622dd6bf4d36bac98509d6a58",
+      "media_type": "text/plain",
+      "relative_path": "LICENSE",
+      "size": 11338
+    },
+    {
+      "digest": "0228cee756768dbe9ef56ade05f47148ec032b75c046b3490c700de49f255446",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "3c032e93f96f388d7a18169d0993fc3db40264af",
+      "media_type": "text/markdown",
+      "relative_path": "README.md",
+      "size": 18229
+    }
+  ],
+  "blockers": [
+    "OFFICIAL_REPOSITORY_PACK_RETAINS_DOCUMENTATION_NOT_MODEL_IMPLEMENTATION"
+  ],
+  "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+  "exact_commit_or_release": "170f20b2c10659008fdbc909d478bc2a75bc3627",
+  "forbidden_use": [
+    "AUTOMATIC_PROMOTION",
+    "AUTOMATIC_RUNTIME_DEPENDENCY"
+  ],
+  "ingestion_status": "INGESTED",
+  "license_evidence_locator": "https://github.com/zai-org/GLM-4.5/blob/170f20b2c10659008fdbc909d478bc2a75bc3627/LICENSE",
+  "license_expression": "MIT",
+  "license_name": "MIT License",
+  "license_sha256": "7090a09a59cf55701feb04b2d4f99ce31fc4f31bbe1aaf33dd0dafd8e7546313",
+  "mechanism_candidates": [
+    {
+      "falsification_test": "Compare fixed-low, fixed-high, and adaptive budgets with quality, latency, and cost jointly measured.",
+      "hypothesized_effect": "Spend additional reasoning resources only where they improve outcome quality.",
+      "mechanism_id": "adaptive-reasoning-budget",
+      "semantic_definition": "Select a bounded reasoning mode or budget based on task requirements.",
+      "source_fact_boundary": "The official source documents multiple reasoning modes; a causal budget-selection policy is not provided as transferable evidence.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ],
+  "official_source_locator": "https://github.com/zai-org/GLM-4.5/tree/170f20b2c10659008fdbc909d478bc2a75bc3627",
+  "publisher": "Z.ai",
+  "record_sha256": "9fbcb9fbdbc003c1e89ad51db616572dcdebd2e8bea8d1dfe2459dcc9b8f22be",
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "retained_reference_paths": [
+    "LICENSE",
+    "README.md"
+  ],
+  "retrieved_at": "2026-08-13T20:00:00Z",
+  "source_class": "PERMISSIVE_CODE",
+  "source_id": "glm-4.5-170f20b",
+  "source_sha256": "472d6d44d03a82bea7656fc1f4ea8f6d1f33a39184d789d29057410cbd48e9fa",
+  "source_sha256_scope": "RETAINED_SOURCE_PACK",
+  "system_name": "GLM-4.5",
+  "version": "170f20b"
+}

@@ -1,0 +1,57 @@
+{
+  "hard": {
+    "allowed_integration_modes": [
+      "EXCLUSIVE",
+      "PARALLEL",
+      "REDUNDANT",
+      "IMPLEMENT_REVIEW"
+    ],
+    "authority_boundaries": [
+      "PROPOSAL_ONLY",
+      "NO_CANONICAL_PROMOTION",
+      "FENCED_TASK_SCOPE"
+    ],
+    "mandatory_reviewers": [
+      "C6"
+    ],
+    "privacy_ceiling": "P3",
+    "prohibited_actions": [
+      "CANONICAL_BYPASS",
+      "SECRET_RETRIEVAL",
+      "SELF_CERTIFY_HIGH_RISK"
+    ],
+    "role": "CORE_ENGINE",
+    "slot": "C2",
+    "subsystem_ownership": [
+      "Python core",
+      "routing",
+      "evidence/policy mechanics",
+      "performance"
+    ]
+  },
+  "soft": {
+    "capability_weights": {
+      "coding": 0.95,
+      "debugging": 0.9,
+      "performance": 0.8
+    },
+    "concurrency_preference": 4,
+    "exploration_weight": 0.1,
+    "preferred_task_classes": [
+      "python-core",
+      "routing",
+      "debugging",
+      "performance"
+    ],
+    "preferred_workers": [
+      "opencode",
+      "openhands",
+      "ollama"
+    ],
+    "provider_priors": {},
+    "review_pairings": [
+      "C6"
+    ]
+  },
+  "version": "d6-role-v1"
+}

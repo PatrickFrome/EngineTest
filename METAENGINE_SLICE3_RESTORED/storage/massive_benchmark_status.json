@@ -1,0 +1,10 @@
+{
+  "state": "RUNNING",
+  "started_at": "2026-08-16T05:20:57Z",
+  "task_bank_size": 105,
+  "rounds_completed": 0,
+  "current_round": 1,
+  "best_fitness": null,
+  "best_round": null,
+  "history": []
+}

@@ -1,0 +1,37 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "HGA-GA01-REALITAET-ABLATION-001",
+  "protocol_id": "V38-NEGATIVE-ABLATION",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "HGA-GA01-REALITAET-INTAKE-ABLATION",
+    "description": "Сравнение старого paragraph intake, page-aware derivative intake, включения примечаний и неоднозначности модальных глаголов.",
+    "source_refs": ["HGA-GA01-REALITAET-ABLATION#conditions"]
+  },
+  "operator": {"agent_id": "dae-ga1-work-pilot", "role": "automated-method-audit"},
+  "started_at": "2026-08-11T05:10:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "NEGATIVE_TESTS_FIXED": {
+      "status": "YES",
+      "evidence_refs": ["HGA-GA01-REALITAET-ABLATION#negative-tests"],
+      "note": "Зафиксированы мутации числа страниц, байтов, access class, утечки текста и модальной неоднозначности."
+    },
+    "ABLATION_DIMENSIONS": {
+      "status": "YES",
+      "evidence_refs": ["HGA-GA01-REALITAET-ABLATION#A0-A2"],
+      "note": "Отдельно сравнены пагинация, удержание текста, note-zone и правила модальных сигналов."
+    },
+    "CONTROL_MODELS": {
+      "status": "UNKNOWN",
+      "evidence_refs": ["HGA-GA01-REALITAET-ABLATION#A0"],
+      "note": "Есть собственный legacy baseline, но нет независимого сильного внешнего анализатора на том же размеченном gold-наборе."
+    },
+    "FAIL_ACTION": {
+      "status": "YES",
+      "evidence_refs": ["HGA-GA01-REALITAET-ABLATION#verdict"],
+      "note": "При провале сохраняется только source audit; семантическое повышение удаляется, а отношение возвращается к RT00."
+    }
+  },
+  "declared_outcome": "SUSPEND"
+}

@@ -1,0 +1,209 @@
+{
+  "registry_version": "RT-REGISTRY-4.0-alpha.1",
+  "status": "MIGRATED_UNCHANGED_IDS_FROM_CORE3",
+  "entries": [
+    {
+      "rt_id": "RT00",
+      "label": "UNRESOLVED / UNKNOWN",
+      "assertion": "Тип связи ещё не установлен.",
+      "minimum_bridge_evidence": "Любой high-burden вывод блокируется; допустима только фиксация co-occurrence/claim.",
+      "forbidden_promotion": "—"
+    },
+    {
+      "rt_id": "RT01",
+      "label": "Logical entailment",
+      "assertion": "B следует из A + формальных посылок.",
+      "minimum_bridge_evidence": "Валидная схема/доказательство; указать систему логики.",
+      "forbidden_promotion": "Не причина, не ground, не empirical existence."
+    },
+    {
+      "rt_id": "RT02",
+      "label": "Definitional / analytic",
+      "assertion": "B следует из принятого определения/экспликации A.",
+      "minimum_bridge_evidence": "Явная дефиниция и область её действия.",
+      "forbidden_promotion": "Не онтологическая необходимость simpliciter."
+    },
+    {
+      "rt_id": "RT03",
+      "label": "Identity / persistence",
+      "assertion": "A и B — тот же объект/тип или тот же объект через время.",
+      "minimum_bridge_evidence": "Критерий тождества, token/type, synchronic/diachronic.",
+      "forbidden_promotion": "Не recognition, constitution или similarity."
+    },
+    {
+      "rt_id": "RT04",
+      "label": "Necessary / sufficient condition",
+      "assertion": "A необходимо/достаточно для B в указанном домене.",
+      "minimum_bridge_evidence": "Модальность, domain, direction; желательно countercase.",
+      "forbidden_promotion": "Не причинность автоматически."
+    },
+    {
+      "rt_id": "RT05",
+      "label": "Enablement / opportunity",
+      "assertion": "A делает B доступным/возможным, не определяя B.",
+      "minimum_bridge_evidence": "Alternative-access test; указать субъект/режим/условия.",
+      "forbidden_promotion": "Не production, causation, grounding."
+    },
+    {
+      "rt_id": "RT06",
+      "label": "Causal",
+      "assertion": "Изменение/интервенция в A изменяет B при causal assumptions.",
+      "minimum_bridge_evidence": "Observation/intervention/counterfactual/direct-indirect type; assumptions.",
+      "forbidden_promotion": "Не semantic, normative или metaphysical ground."
+    },
+    {
+      "rt_id": "RT07",
+      "label": "Metaphysical grounding",
+      "assertion": "B имеет место в силу A; claim of explanatory/metaphysical priority.",
+      "minimum_bridge_evidence": "Отдельный metaphysical bridge; asymmetry/irreflexivity не предполагать без аргумента.",
+      "forbidden_promotion": "Не causation, supervenience, mere dependence."
+    },
+    {
+      "rt_id": "RT08",
+      "label": "Existential / ontological dependence",
+      "assertion": "A не может существовать (или быть тем, чем является) без B.",
+      "minimum_bridge_evidence": "Тип зависимости, modality, bearer, token/type.",
+      "forbidden_promotion": "Не тождественно grounding или logical entailment."
+    },
+    {
+      "rt_id": "RT09",
+      "label": "Constitution",
+      "assertion": "A конституирует B при различимости ролей/критериев.",
+      "minimum_bridge_evidence": "Bearer, identity criteria, persistence conditions, production test.",
+      "forbidden_promotion": "Не identity по умолчанию."
+    },
+    {
+      "rt_id": "RT10",
+      "label": "Realization / implementation",
+      "assertion": "A реализует функцию/свойство B.",
+      "minimum_bridge_evidence": "Какой role B и каким механизмом A его выполняет; multiple realization check.",
+      "forbidden_promotion": "Не type-identity."
+    },
+    {
+      "rt_id": "RT11",
+      "label": "Supervenience / determination pattern",
+      "assertion": "Нет A-различия без B-различия.",
+      "minimum_bridge_evidence": "Указать modal strength и base; проверить symmetry/priority separately.",
+      "forbidden_promotion": "Не объясняет ontological priority сама по себе."
+    },
+    {
+      "rt_id": "RT12",
+      "label": "Parthood / composition",
+      "assertion": "A — часть B либо части составляют B.",
+      "minimum_bridge_evidence": "Mereological criterion, granularity, overlap/nesting.",
+      "forbidden_promotion": "Не group membership или constitution автоматически."
+    },
+    {
+      "rt_id": "RT13",
+      "label": "Membership / office / status",
+      "assertion": "A является членом/носителем роли в B.",
+      "minimum_bridge_evidence": "Institution/group criterion; entry/exit; office/person separation.",
+      "forbidden_promotion": "Не parthood и не group agency."
+    },
+    {
+      "rt_id": "RT14",
+      "label": "Functional role / contribution",
+      "assertion": "A выполняет функцию F в системе B.",
+      "minimum_bridge_evidence": "Role specification, inputs/outputs, alternative realizers.",
+      "forbidden_promotion": "Не intrinsic essence, causation или norm by default."
+    },
+    {
+      "rt_id": "RT15",
+      "label": "Evidential support",
+      "assertion": "E поддерживает claim C.",
+      "minimum_bridge_evidence": "Source, independence, likelihood/relevance, error model.",
+      "forbidden_promotion": "Не reason-giving/grounding/causation."
+    },
+    {
+      "rt_id": "RT16",
+      "label": "Justification / reason-giving",
+      "assertion": "R является основанием для принятия/утверждения/действия.",
+      "minimum_bridge_evidence": "Epistemic или practical/normative type; accountability route.",
+      "forbidden_promotion": "Не physical cause или ontological ground."
+    },
+    {
+      "rt_id": "RT17",
+      "label": "Reference / denotation",
+      "assertion": "Expression/sign S refers to X.",
+      "minimum_bridge_evidence": "Reference-fixing account, correction source, context.",
+      "forbidden_promotion": "Не meaning, truth или world-disclosure."
+    },
+    {
+      "rt_id": "RT18",
+      "label": "Meaning / semantic constraint",
+      "assertion": "Use/inference/context constrain meaning of S.",
+      "minimum_bridge_evidence": "Semantic/pragmatic layer; ambiguity and context profile.",
+      "forbidden_promotion": "Не reference или causal grounding automatically."
+    },
+    {
+      "rt_id": "RT19",
+      "label": "Access / disclosure / manifestation",
+      "assertion": "A affords/makes manifest B to agent/system.",
+      "minimum_bridge_evidence": "Access mode, bearer, transformation by access, independent existence kept open.",
+      "forbidden_promotion": "Не production/constitution of B simpliciter."
+    },
+    {
+      "rt_id": "RT20",
+      "label": "Historical derivation / influence / inheritance",
+      "assertion": "B derives/revises/quotes/inherits from A.",
+      "minimum_bridge_evidence": "Provenance chain: source, activity, agent, dates, mediation.",
+      "forbidden_promotion": "Не necessity or causal sufficiency."
+    },
+    {
+      "rt_id": "RT21",
+      "label": "Normative obligation / permission",
+      "assertion": "A bears duty/permission/claim relative to norm N.",
+      "minimum_bridge_evidence": "N-status, norm source, standing, affected agents.",
+      "forbidden_promotion": "Не observed regularity or coercive fact."
+    },
+    {
+      "rt_id": "RT22",
+      "label": "Authorization / authority / legitimacy",
+      "assertion": "Separate: authorization, de facto authority, normative authority, legitimacy.",
+      "minimum_bridge_evidence": "Source of authorization; right/power/duty schema; justification of coercion if claimed.",
+      "forbidden_promotion": "Не power, truth or mere obedience."
+    },
+    {
+      "rt_id": "RT23",
+      "label": "Representation / delegation",
+      "assertion": "A speaks/acts/decides for constituency B.",
+      "minimum_bridge_evidence": "Mandate, constituency, scope, revocability, trace, responsiveness.",
+      "forbidden_promotion": "Не leadership, authority or shared intention automatically."
+    },
+    {
+      "rt_id": "RT24",
+      "label": "Shared agency / coordination",
+      "assertion": "Agents intentionally coordinate/jointly act.",
+      "minimum_bridge_evidence": "Joint-action criteria, commitments, plan/interdependence; group-agent test separate.",
+      "forbidden_promotion": "Не co-presence or collective subject automatically."
+    },
+    {
+      "rt_id": "RT25",
+      "label": "Power / coercion / domination",
+      "assertion": "A can shape options/actions of B; coercion/domination are stricter subtypes.",
+      "minimum_bridge_evidence": "Mechanism, alternatives, dependency, sanctions, contestability.",
+      "forbidden_promotion": "Не legitimacy or truth."
+    },
+    {
+      "rt_id": "RT26",
+      "label": "Statistical / probabilistic association",
+      "assertion": "Variables/cases covary probabilistically.",
+      "minimum_bridge_evidence": "Dataset/model, uncertainty, confounding status.",
+      "forbidden_promotion": "Не causal effect."
+    },
+    {
+      "rt_id": "RT27",
+      "label": "Robustness / convergence",
+      "assertion": "Independent models/routes yield same result R.",
+      "minimum_bridge_evidence": "Independence/shared-assumption audit; perturbation/sensitivity.",
+      "forbidden_promotion": "Не truth, identity or necessity."
+    },
+    {
+      "rt_id": "RT28",
+      "label": "Temporal succession / persistence relation",
+      "assertion": "A precedes, overlaps, continues into B.",
+      "minimum_bridge_evidence": "Temporal index, persistence criterion, direction.",
+      "forbidden_promotion": "Не causation merely from succession."
+    }
+  ]
+}

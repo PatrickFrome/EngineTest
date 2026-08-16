@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "16X Capability Routing Plan 1.4",
+  "type": "object",
+  "required": [
+    "routing_version",
+    "mode",
+    "all_16_scheduled",
+    "task_fingerprint",
+    "assignments",
+    "role_counts",
+    "plan_hash"
+  ],
+  "properties": {
+    "routing_version": {
+      "enum": [
+        "16X-ECL-1.1",
+        "16X-ECL-RECURSIVE-1.3",
+        "16X-ECL-POLYCENTRIC-1.4",
+        "16X-SELF-ORGANIZING-2.0",
+        "16X-PARALLEL-EXPERIMENTAL-2.1"
+      ]
+    },
+    "mode": {
+      "type": "string"
+    },
+    "all_16_scheduled": {
+      "const": true
+    },
+    "task_fingerprint": {
+      "type": "object"
+    },
+    "assignments": {
+      "type": "array",
+      "minItems": 16,
+      "maxItems": 16
+    },
+    "role_counts": {
+      "type": "object"
+    },
+    "plan_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,59 @@
+{
+  "result_version": "DAE-HGA-PILOT-1.0",
+  "engine_version": "0.2.1-alpha.1",
+  "generated_at": "2026-08-11T04:30:00Z",
+  "catalog": {
+    "official_entries": 105,
+    "last_volume_id": "105",
+    "divisions": 4,
+    "normalized_sha256": "d175ce837703e0a7541dad227beeabf4a619dcc9cd46f138a8d3a8bba019f019",
+    "claim_ceiling": "BIBLIOGRAPHIC_CATALOG_ONLY_NOT_PRIMARY_TEXT_OR_PHILOSOPHICAL_EVIDENCE"
+  },
+  "actual_source_probe": {
+    "source_id": "HGA-GA01-P001",
+    "url": "https://www.beyng.com/pages/de/GA01/GA01.001.html",
+    "text_sha256": "ca0b94ae947c17ad5dfdaeb405f0520b964aca722ad7e6ee515e427fa5d98779",
+    "unit_count": 6,
+    "before_german_adapter": {
+      "candidate_record_count": 0,
+      "diagnosis": "LANGUAGE_COVERAGE_FAILURE"
+    },
+    "after_german_adapter": {
+      "language_hints": [
+        {"language": "DE", "marker_count": 48},
+        {"language": "EN", "marker_count": 2}
+      ],
+      "candidate_record_count": 1,
+      "candidate": {
+        "rt_id": "RT04",
+        "signal": "notwendige Vorbedingung",
+        "line_start": 10,
+        "line_end": 10
+      },
+      "validation": {
+        "files": 1,
+        "conformant": 1,
+        "review_required": 1,
+        "ERROR": 0,
+        "REVIEW": 2,
+        "WARNING": 0,
+        "INFO": 0
+      }
+    },
+    "claim_ceiling": "ONE_LOCAL_LEXICAL_RELATION_CANDIDATE_NOT_AN_INTERPRETATION_OF_GA1"
+  },
+  "protocol_outcomes": {
+    "ga01_local_claim": {"outcome": "PASS", "ERROR": 0, "REVIEW": 0},
+    "catalog_source_audit": {"outcome": "REVIEW", "ERROR": 0, "REVIEW": 1},
+    "ga01_to_ga02_development": {"outcome": "SUSPEND", "ERROR": 0, "REVIEW": 4},
+    "das_reale_translation": {"outcome": "SUSPEND", "ERROR": 0, "REVIEW": 3}
+  },
+  "research_plan": {
+    "preregistration_id": "HGA-PILOT-PLAN-001",
+    "canonical_sha256": "83fbb8a7232bdd3d15617e6149ad626353a699eeda050da934e8e8898a8a34a1",
+    "integrity_verified": true,
+    "execution_status": "FROZEN_BUT_BLOCKED",
+    "blocked_gates": ["data", "authorization", "license", "coders"]
+  },
+  "verdict": "LOCAL_PIPELINE_WORKS; CORPUS_SCALE_AND_STRONG_DIACHRONIC_CLAIMS_REMAIN_BLOCKED"
+}

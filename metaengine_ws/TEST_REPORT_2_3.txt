@@ -1,0 +1,26 @@
+METAENGINE 16X 2.3.0-alpha.1 — LOCAL RELEASE TEST REPORT
+Date (UTC): 2026-08-12
+
+Command:
+  PYTHONPATH=.testdeps:. python -m pytest -q
+
+Result:
+  67 passed, 0 failed
+
+Additional release gates:
+  champion META_RUN schema: PASS
+  immutable lineage SHA-256: 9,839 passed, 0 failed
+  controlled campaign worlds: 7,200 completed
+  generation freeze barriers: 3 passed
+  unsafe/forced promotions: 0
+  typed handoff receipts: 8/8 verified
+  static TYPE_MAP transformations: 0
+  unverified biography observations accepted: 0
+  canonical cloud backend: Supabase
+  Supabase outcome records: 7,200
+  new cloud tables with forced RLS: 14/14
+  Neon reads/writes: RETIRED
+
+Claim boundary:
+  This report validates the local control loop, provenance and regression suite.
+  It does not validate parity with frontier models or general reasoning superiority.

@@ -1,0 +1,424 @@
+{
+  "predictions_version": "DESTRUKTION-HOLDOUT-EXTERNAL-PREDICTIONS-0.9",
+  "benchmark_id": "HB-8B928271E125A87B",
+  "system": {
+    "system_id": "REPLACE_WITH_SYSTEM_ID",
+    "name": "REPLACE_WITH_SYSTEM_NAME",
+    "model_or_version": "REPLACE_WITH_EXACT_VERSION",
+    "protocol_id": "REPLACE_WITH_FROZEN_PROTOCOL_ID"
+  },
+  "independence": {
+    "dae_outputs_seen": false,
+    "gold_seen": false,
+    "annotation_seen": false
+  },
+  "generated_at": "2026-08-11T19:25:40Z",
+  "predictions": [
+    {
+      "unit_id": "HU-962BBC7010BBF6CC",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-C3D569742DC38315",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-7D141A912DBB7336",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-332C39332F8AE981",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-D47DFBCC5641342E",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-85799B5C11A15852",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-1A073BF925172730",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-0B8CE67BD90A8F4A",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-D458D63658A4FA65",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-1BCC9574C6FBAD19",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-0F2B902D5C4ED6C1",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-DC300124220E6EDE",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-561C7742874B0E9B",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-5092E48200479314",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-7A9B3F7DFA2EFB78",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-CFB3E38E5ECD454C",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-9C455879699ACDB6",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-6B744D9F50C1EA5F",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-E8843BF41F63028F",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-049134482B5F7210",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-F2F2913B421A9EE0",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-3A03813EFF95FB0F",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-486292A1B59BDBE4",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-8D9AFBC0922CBD97",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-EF16B5B8FE15A9D5",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-4D99DF3A2F2756E0",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-485F19D664735D4E",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-A41F55A9F3FB1DE3",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-6FD110E22FF0DA48",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-528CD740FC616A69",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-CF7D1D1170AA8E8F",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-16A217B8E8498063",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-1A912837ED361B7A",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-0484A2D2D4068552",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-510EE73B9EE5166F",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-570C79B33DF3645D",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-C85E835644B53EE6",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-48B3A49988DBE23D",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-DE5F95B58451D014",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-D64643F5BF9B4777",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-1FF9ADFC377D0F71",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-9FF13C732C7FAB48",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-E08F5FD7E4B6E580",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-622F2F3FF5A84F0E",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-83364C452A4EF3D2",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-ED6CBF949E14988E",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-98AF4EB34A28884A",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-C0E0588C812DAA97",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-2FC176356C282793",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-63512BA4972C79C0",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-F89FC5933C413B5B",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-C281A561B136023D",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-45C10AD05C92E99B",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-9F7A4F9AD42F14E2",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-FB7166C32A4B5B19",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-7CD52A29ADFCDE75",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-9CC6FF225CCD2F69",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-EE43491547D3E3FB",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-CD594B2C77EAFF5A",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-B597CBC0F9BDA7B3",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-156B863EA2977D79",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-EF60B77D9FADBDC7",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-8ADEB28AD0260692",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-019B60FBD152916D",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-DDAC551C4BF489EB",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-BB7EE891EF92BCC3",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-E6FC6C7B464854AD",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-B8EB9587020E4517",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-AB3F459BDEB9A2B1",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-6403F5DA552E1EE4",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-923FCEA9D621AB6E",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-E848C3AC3F7C159B",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-40642CE687154EEC",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-297CF4C893DA181A",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-F301EC31A07A7F42",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-E5A6675717759622",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-CC13844422393FD0",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-DDB1FC31E94778A3",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-3DDBEC91E32C4C35",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-27638CD59A1ECA6F",
+      "status": null,
+      "confidence": null
+    },
+    {
+      "unit_id": "HU-C3EC09C39D3A7449",
+      "status": null,
+      "confidence": null
+    }
+  ],
+  "claim_ceiling": "EXTERNAL_HOLDOUT_PREDICTIONS_NOT_GOLD"
+}

@@ -1,0 +1,22 @@
+{
+  "completed_step_commit": "18ec64ed7a27e63e71028c78df0e3ee7e85d0f2e",
+  "completed_step_id": "METAENGINE-1-SLICE-3",
+  "conclusion": "NO_CANONICAL_MUTATION_OBSERVED_DURING_SLICE_3",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "kind": "SLICE_3_CANONICAL_READ_ONLY_READBACK",
+  "source": "Supabase.execute_sql read-only query against canonical project",
+  "state": {
+    "active_policy_generation": 2,
+    "active_policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "active_policy_status": "ACTIVE",
+    "adaptation_receipt_count": 0,
+    "checkpoint_id": "metaengine-chat-2.3.0-alpha.1-cp001",
+    "checkpoint_is_current": true,
+    "checkpoint_verification_status": "VERIFIED",
+    "finalized_epoch_count": 1,
+    "open_epoch_count": 0,
+    "promotion_receipt_count": 2,
+    "self_modifying_code_allowed": false
+  },
+  "write_performed": false
+}

@@ -1,0 +1,21 @@
+{
+  "claim_ceiling": "METRICS_ARE_DIAGNOSTIC_NOT_TRUTH",
+  "depth_proxy": 0.5,
+  "epistemic_nonlinearity_proxy": 0.5,
+  "evaluation_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "evaluation_version": "16X-SELF-ORGANIZING-METRICS-2.0",
+  "hermeneutic_nonlinearity_proxy": 0.5,
+  "performance": {
+    "architecture_mutations": 0,
+    "deep_engine_executions": 8,
+    "full16_recursive_equivalent": false,
+    "sparse_deep_execution_ratio": 0.5,
+    "wall_seconds": 1.0
+  },
+  "safety": {
+    "derived_truth_promotion_violations": 0,
+    "majority_vote_used": false,
+    "native_claim_nodes": 0,
+    "native_claim_positions": 0
+  }
+}

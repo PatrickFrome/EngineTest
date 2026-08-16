@@ -1,0 +1,101 @@
+{
+  "operator_delta_version": "DAE-OPERATOR-DELTA-1.0",
+  "delta_id": "DELTA-DESCARTES-OPENSET-001",
+  "created_at": "2026-08-11T17:18:00Z",
+  "name": "Descartes cogito open-set family birth",
+  "status": "ACCEPTED_CANDIDATE",
+  "resistant_source": {
+    "source_id": "LOCAL-SHA256-B8EE307BEB056C56FBE2872CEF3E7319E14F8D4F7E1E9305055338F66084DED6",
+    "selector": "OX-P000004-B3B6EA4EBB",
+    "span_sha256": null,
+    "why_resistant": "The cogito negative control remains source-central while relation-genesis profiling correctly abstains; the local field still requires a testable representation that does not translate thinking/existence into relation ontology."
+  },
+  "incompatible_unitizations": [
+    {
+      "unitization_id": "U-TERM-FIELD",
+      "description": "Treat recurrent source-native terms as a provisional local field before assigning a known ontological relation type.",
+      "analytic_consequence": "The operator asks which distinctions appear from term co-presence without presupposing relation-first, relata-first, dependence or reciprocity."
+    },
+    {
+      "unitization_id": "U-WINDOW-TRANSITION",
+      "description": "Treat changes between adjacent argument windows as the primary analytic event rather than assuming one corpus-wide profile.",
+      "analytic_consequence": "The operator preserves local regime shifts and can route different windows differently without turning variation into a universal ontology."
+    },
+    {
+      "unitization_id": "U-NEGATIVE-BOUNDARY",
+      "description": "Treat recurrent absences and broken co-occurrences as provisional boundaries of the source's problem-space.",
+      "analytic_consequence": "The operator can register what ceases to travel together without claiming that absence itself names a metaphysical structure."
+    }
+  ],
+  "target": {
+    "registry_section": "conditional_families",
+    "operator_id": "__NEW__"
+  },
+  "observed_failure": {
+    "failure_type": "CATEGORY_CAPTURE",
+    "description": "The known operator vocabulary either abstains or routes the cogito through categories whose unitization is not source-born from the local thinking/existence field.",
+    "lost_distinction": "The difference between a source-native cogito field and a generic absence of relation-genesis profile is lost."
+  },
+  "mutation": {
+    "kind": "ADD_OPERATOR",
+    "proposal": "Birth the source-signature family proposed by open-set discovery and keep it as an experimental rival to generic routing.",
+    "cost": "One additional conditional family and a larger local search space; false novelty must be retired by regression.",
+    "reversibility": "Delete the added family by its family_id; baseline registry bytes remain unchanged.",
+    "new_operator": {
+      "family_id": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+      "title": "Open-set source family: thinking / understanding / exist / mind",
+      "protocol_refs": [
+        "OPEN-SET-HERMENEUTIC-DISCOVERY-0.10",
+        "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1"
+      ],
+      "triggers": [
+        "thinking",
+        "understanding",
+        "exist",
+        "mind",
+        "thought"
+      ],
+      "diagnostic": "What becomes visible in the local source field (thinking, understanding, exist, mind, thought) before it is translated into a pre-existing operator family?",
+      "constructive_move": "Compare term-field, window-transition and negative-boundary unitizations; preserve a null result when none adds a source-linked distinction.",
+      "self_risk": "Open-set discovery can become an exception factory that rewards novelty; retire the family if it does not add repeatable local discrimination beyond ordinary routing.",
+      "positive_model": "Micro-local source-signature probe with no presupposed ontology and explicit rollback to ordinary routing."
+    }
+  },
+  "before_after_test": {
+    "fixture": {
+      "source_id": "LOCAL-SHA256-B8EE307BEB056C56FBE2872CEF3E7319E14F8D4F7E1E9305055338F66084DED6",
+      "selector": "OX-P000004-B3B6EA4EBB",
+      "same_material": true,
+      "probe_text": "Whenever this sentence I am, I exist, is spoken or thought of by me, it is necessarily true. It is my Thought; this alone cannot be separated from Me; I am, I exist. I am only a thinking thing, that is to say, a mind, or a soul, or understanding, or Reason."
+    },
+    "before_observation": "The same cogito span produces source resistance but no executable source-born conditional family.",
+    "after_observation": "The same span activates a new reversible conditional family keyed to its own source-native terms while relation-genesis remains inactive.",
+    "new_gains": [
+      "GG1_NEW_DISTINCTION",
+      "GG3_NEW_RIVAL",
+      "GG4_NEW_TEST"
+    ],
+    "discriminator": "Retain the family only if it repeatedly distinguishes local cogito windows without activating relation-genesis or degrading source traceability.",
+    "traceability": {
+      "before_routes": 1,
+      "after_routes": 2
+    },
+    "negative_tests": [
+      {
+        "name": "relation-genesis remains a negative control",
+        "passed": true,
+        "note": "Known relation profile hints are empty in every micro-local window."
+      },
+      {
+        "name": "baseline registry remains immutable",
+        "passed": true,
+        "note": "ADD_OPERATOR writes only a candidate registry."
+      }
+    ]
+  },
+  "acceptance_gate": {
+    "new_distinction_required": true,
+    "source_traceability_must_not_degrade": true,
+    "negative_tests_must_not_regress": true
+  }
+}

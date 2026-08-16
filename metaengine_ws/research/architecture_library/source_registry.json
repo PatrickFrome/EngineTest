@@ -1,0 +1,452 @@
+{
+  "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+  "records": [
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.claude.1",
+      "publisher": "Anthropic",
+      "system_name": "Claude",
+      "version": "opus/sonnet public behavior",
+      "source_class": "CLOSED_BEHAVIORAL_ONLY",
+      "official_source_locator": "https://www.anthropic.com/claude",
+      "exact_commit_or_release": "n/a (closed)",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": null,
+      "license_name": "Proprietary",
+      "license_sha256": null,
+      "allowed_use": [
+        "BEHAVIORAL_OBSERVATION"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "claude.constitutional",
+          "statement": "Claude uses constitutional-AI style alignment training.",
+          "evidence_kind": "PUBLIC_PAPER",
+          "evidence_refs": [
+            "https://www.anthropic.com/research/constitutional-ai"
+          ]
+        }
+      ],
+      "retained_reference_paths": [],
+      "mechanism_candidates": [
+        "mec.constitution_derived_testing"
+      ],
+      "ingestion": "UNOBSERVED",
+      "ingestion_blocker": {
+        "status": "UNOBSERVED",
+        "reason": "CLOSED_NO_SOURCE_BYTES",
+        "detail": "Closed system; only public papers/system cards/observed behavior are available. No source bytes retained."
+      },
+      "source_hash": "e3540bb8b210078fce42eff1c597d29025af8dcdc85991ff58ac95004554c105"
+    },
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.deepseek.1",
+      "publisher": "DeepSeek",
+      "system_name": "DeepSeek V3",
+      "version": "V3 / V3.2",
+      "source_class": "PERMISSIVE_CODE",
+      "official_source_locator": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "exact_commit_or_release": "public release tag (unfetched)",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": null,
+      "license_name": "MIT (claimed; unverified in this environment)",
+      "license_sha256": null,
+      "allowed_use": [
+        "ANALYSIS",
+        "REFERENCE",
+        "REIMPLEMENTATION"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "deepseek.moe",
+          "statement": "DeepSeek V3 uses fine-grained mixture-of-experts with shared experts.",
+          "evidence_kind": "PUBLIC_PAPER",
+          "evidence_refs": [
+            "https://github.com/deepseek-ai/DeepSeek-V3"
+          ]
+        },
+        {
+          "claim_id": "deepseek.mla",
+          "statement": "DeepSeek uses Multi-head Latent Attention to compress KV cache.",
+          "evidence_kind": "PUBLIC_PAPER",
+          "evidence_refs": [
+            "https://github.com/deepseek-ai/DeepSeek-V3"
+          ]
+        }
+      ],
+      "retained_reference_paths": [],
+      "mechanism_candidates": [
+        "mec.latent_context_compression",
+        "mec.sparse_conditional_routing"
+      ],
+      "ingestion": "UNOBSERVED",
+      "ingestion_blocker": {
+        "status": "UNOBSERVED",
+        "reason": "BLOCKED_NO_NETWORK",
+        "detail": "Foreign source bytes cannot be fetched/verified in this recovery environment; recorded as an explicit ingestion blocker, not silently omitted."
+      },
+      "source_hash": "2e19ef07c07ae65d34c35ee660372b3c7f64c191f6c7fe173b38f70190af3211"
+    },
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.gemini-deep-think.1",
+      "publisher": "Google",
+      "system_name": "Gemini Deep Think",
+      "version": "public API behavior",
+      "source_class": "CLOSED_BEHAVIORAL_ONLY",
+      "official_source_locator": "https://deepmind.google/",
+      "exact_commit_or_release": "n/a (closed)",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": null,
+      "license_name": "Proprietary",
+      "license_sha256": null,
+      "allowed_use": [
+        "BEHAVIORAL_OBSERVATION"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "gemini.deep_think",
+          "statement": "Gemini Deep Think exposes extended thinking behavior via public API.",
+          "evidence_kind": "OBSERVED_BEHAVIOR",
+          "evidence_refs": [
+            "https://deepmind.google/"
+          ]
+        }
+      ],
+      "retained_reference_paths": [],
+      "mechanism_candidates": [
+        "mec.adaptive_reasoning_budget"
+      ],
+      "ingestion": "UNOBSERVED",
+      "ingestion_blocker": {
+        "status": "UNOBSERVED",
+        "reason": "CLOSED_NO_SOURCE_BYTES",
+        "detail": "Closed system; only public papers/system cards/observed behavior are available. No source bytes retained."
+      },
+      "source_hash": "d5dd694fc2a4221d794726aaa1c4df126aeeb307801a6277cbf83780e10c5ea3"
+    },
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.glm.1",
+      "publisher": "Z.ai",
+      "system_name": "GLM",
+      "version": "GLM-5.2 (target runtime)",
+      "source_class": "PERMISSIVE_CODE",
+      "official_source_locator": "https://github.com/zai-org/glm-reference",
+      "exact_commit_or_release": "v5.2.0 (unfetched)",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": null,
+      "license_name": "MIT (claimed; unverified in this environment)",
+      "license_sha256": null,
+      "allowed_use": [
+        "ANALYSIS",
+        "REFERENCE",
+        "REIMPLEMENTATION"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "glm.moe",
+          "statement": "GLM uses a mixture-of-experts feed-forward block.",
+          "evidence_kind": "PUBLIC_PAPER",
+          "evidence_refs": [
+            "https://github.com/zai-org/glm-reference"
+          ]
+        }
+      ],
+      "retained_reference_paths": [],
+      "mechanism_candidates": [
+        "mec.sparse_conditional_routing"
+      ],
+      "ingestion": "UNOBSERVED",
+      "ingestion_blocker": {
+        "status": "UNOBSERVED",
+        "reason": "BLOCKED_NO_NETWORK",
+        "detail": "Foreign source bytes cannot be fetched/verified in this recovery environment; recorded as an explicit ingestion blocker, not silently omitted."
+      },
+      "source_hash": "c07a1860c2b0bd5e4cea86facab6387e343177a4586485401b675326547e4c7f"
+    },
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.gpt-5.6.1",
+      "publisher": "OpenAI",
+      "system_name": "GPT-5.6",
+      "version": "public API behavior",
+      "source_class": "CLOSED_BEHAVIORAL_ONLY",
+      "official_source_locator": "https://openai.com/",
+      "exact_commit_or_release": "n/a (closed)",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": null,
+      "license_name": "Proprietary",
+      "license_sha256": null,
+      "allowed_use": [
+        "BEHAVIORAL_OBSERVATION"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "gpt5.6.behavior",
+          "statement": "GPT-5.6-class systems exhibit multi-step reasoning and tool use via public API behavior.",
+          "evidence_kind": "OBSERVED_BEHAVIOR",
+          "evidence_refs": [
+            "https://openai.com/"
+          ]
+        }
+      ],
+      "retained_reference_paths": [],
+      "mechanism_candidates": [
+        "mec.adaptive_reasoning_budget",
+        "mec.speculative_multi_action"
+      ],
+      "ingestion": "UNOBSERVED",
+      "ingestion_blocker": {
+        "status": "UNOBSERVED",
+        "reason": "CLOSED_NO_SOURCE_BYTES",
+        "detail": "Closed system; only public papers/system cards/observed behavior are available. No source bytes retained."
+      },
+      "source_hash": "c34f5b36ce0d99843e8d6d68c3cc8e2f939314ba44f7e1e338cb3aae56b59a81"
+    },
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.kimi-k3.1",
+      "publisher": "Moonshot AI",
+      "system_name": "Kimi K3",
+      "version": "latest public",
+      "source_class": "RESTRICTED_REFERENCE",
+      "official_source_locator": "https://platform.moonshot.cn/",
+      "exact_commit_or_release": "restricted release (unfetched)",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": null,
+      "license_name": "Moonshot custom license (reference-only)",
+      "license_sha256": null,
+      "allowed_use": [
+        "REFERENCE"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "kimi-k3.agentic",
+          "statement": "Kimi K3 is reported to emphasize agentic / tool-use behavior.",
+          "evidence_kind": "PUBLIC_PAPER",
+          "evidence_refs": [
+            "https://platform.moonshot.cn/"
+          ]
+        }
+      ],
+      "retained_reference_paths": [],
+      "mechanism_candidates": [
+        "mec.parallel_hypothesis_generation"
+      ],
+      "ingestion": "UNOBSERVED",
+      "ingestion_blocker": {
+        "status": "UNOBSERVED",
+        "reason": "BLOCKED_NO_NETWORK",
+        "detail": "Foreign source bytes cannot be fetched/verified in this recovery environment; recorded as an explicit ingestion blocker, not silently omitted."
+      },
+      "source_hash": "77620e4f3fca39d70e62ef154315f9a1bbabf45ad9c322a2f410f94795b85142"
+    },
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.kimi-linear.1",
+      "publisher": "Moonshot AI",
+      "system_name": "Kimi-Linear",
+      "version": "research preview",
+      "source_class": "PERMISSIVE_CODE",
+      "official_source_locator": "https://github.com/moonshotai (permissive research components)",
+      "exact_commit_or_release": "public release tag (unfetched)",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": null,
+      "license_name": "MIT (claimed; unverified in this environment)",
+      "license_sha256": null,
+      "allowed_use": [
+        "ANALYSIS",
+        "REFERENCE",
+        "REIMPLEMENTATION"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "kimi-linear.delta_optimizer",
+          "statement": "Kimi-Linear explores a Delta-attention/linearized attention optimizer.",
+          "evidence_kind": "PUBLIC_PAPER",
+          "evidence_refs": [
+            "https://github.com/moonshotai"
+          ]
+        }
+      ],
+      "retained_reference_paths": [],
+      "mechanism_candidates": [
+        "mec.latent_context_compression"
+      ],
+      "ingestion": "UNOBSERVED",
+      "ingestion_blocker": {
+        "status": "UNOBSERVED",
+        "reason": "BLOCKED_NO_NETWORK",
+        "detail": "Foreign source bytes cannot be fetched/verified in this recovery environment; recorded as an explicit ingestion blocker, not silently omitted."
+      },
+      "source_hash": "f5f0b0000efdb6fb88db023fdbf082ff2a1bd5975ba62e1ee1e4f52b56ca55d8"
+    },
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.llama4.1",
+      "publisher": "Meta",
+      "system_name": "Llama 4",
+      "version": "latest public",
+      "source_class": "RESTRICTED_REFERENCE",
+      "official_source_locator": "https://github.com/meta-llama/llama-models",
+      "exact_commit_or_release": "restricted release (unfetched)",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": null,
+      "license_name": "Llama Community License (custom; reference-only)",
+      "license_sha256": null,
+      "allowed_use": [
+        "REFERENCE"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "llama4.moe",
+          "statement": "Llama 4 introduces a mixture-of-experts variant in the family.",
+          "evidence_kind": "PUBLIC_PAPER",
+          "evidence_refs": [
+            "https://github.com/meta-llama/llama-models"
+          ]
+        }
+      ],
+      "retained_reference_paths": [],
+      "mechanism_candidates": [
+        "mec.sparse_conditional_routing"
+      ],
+      "ingestion": "UNOBSERVED",
+      "ingestion_blocker": {
+        "status": "UNOBSERVED",
+        "reason": "BLOCKED_NO_NETWORK",
+        "detail": "Foreign source bytes cannot be fetched/verified in this recovery environment; recorded as an explicit ingestion blocker, not silently omitted."
+      },
+      "source_hash": "bdadae5e4bf7eb1ebce9cbc0d49d74fb89a8219c4e40012f480881051bb78f35"
+    },
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.metaengine.design.1",
+      "publisher": "MetaEngine",
+      "system_name": "METAENGINE-1 Constitutional Assimilation Design",
+      "version": "2026-08-13",
+      "source_class": "PERMISSIVE_CODE",
+      "official_source_locator": "docs/superpowers/specs/2026-08-13-metaengine-1-constitutional-assimilation-design.md",
+      "exact_commit_or_release": "637d0b569e38c2a965b43f7de2015ea66a788428",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": "d17f5a7c3a83542fdf8e77f47475afa647d04708d1d0893959f0e62810b4212b",
+      "license_name": "MetaEngine-Internal-Permissive",
+      "license_sha256": "42b5f3555de9358d6d7d753e365b58a8cddb1bbee2c2fc8fd43ccd48693159e3",
+      "allowed_use": [
+        "ANALYSIS",
+        "REFERENCE",
+        "REIMPLEMENTATION"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "metaengine.source_registry",
+          "statement": "MetaEngine mandates a content-addressed Architecture Source Registry with three source classes and license fail-closed enforcement.",
+          "evidence_kind": "DOCUMENTATION",
+          "evidence_refs": [
+            "docs/superpowers/specs/2026-08-13-metaengine-1-constitutional-assimilation-design.md#section-9"
+          ]
+        },
+        {
+          "claim_id": "metaengine.mechanism_states",
+          "statement": "Mechanisms progress A0->A1->A2->A3 and only A3 may automatically influence organization-policy generation.",
+          "evidence_kind": "DOCUMENTATION",
+          "evidence_refs": [
+            "docs/superpowers/specs/2026-08-13-metaengine-1-constitutional-assimilation-design.md#section-10"
+          ]
+        }
+      ],
+      "retained_reference_paths": [
+        "reference_vault/d1/d17f5a7c3a83542fdf8e77f47475afa647d04708d1d0893959f0e62810b4212b"
+      ],
+      "mechanism_candidates": [
+        "mec.constitution_derived_testing"
+      ],
+      "ingestion": "OBSERVED",
+      "ingestion_blocker": null,
+      "source_hash": "0708c1e60d8c0eeb2f4ae7cc557247d32115dc3cc00ea37fbd9f7e2584425ae1"
+    },
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.mistral.1",
+      "publisher": "Mistral AI",
+      "system_name": "Mistral",
+      "version": "latest public",
+      "source_class": "PERMISSIVE_CODE",
+      "official_source_locator": "https://github.com/mistralai",
+      "exact_commit_or_release": "public release tag (unfetched)",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": null,
+      "license_name": "Apache-2.0 (claimed; unverified in this environment)",
+      "license_sha256": null,
+      "allowed_use": [
+        "ANALYSIS",
+        "REFERENCE",
+        "REIMPLEMENTATION"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "mistral.sliding_window",
+          "statement": "Mistral uses sliding-window attention plus GQA.",
+          "evidence_kind": "PUBLIC_PAPER",
+          "evidence_refs": [
+            "https://github.com/mistralai"
+          ]
+        }
+      ],
+      "retained_reference_paths": [],
+      "mechanism_candidates": [
+        "mec.residual_organization_paths"
+      ],
+      "ingestion": "UNOBSERVED",
+      "ingestion_blocker": {
+        "status": "UNOBSERVED",
+        "reason": "BLOCKED_NO_NETWORK",
+        "detail": "Foreign source bytes cannot be fetched/verified in this recovery environment; recorded as an explicit ingestion blocker, not silently omitted."
+      },
+      "source_hash": "5ba627a009ffb10778a1aefb7e4e2fa3e074a3bfaf5e6b2797c2152acf544e35"
+    },
+    {
+      "registry_version": "METAENGINE-SOURCE-REGISTRY-1",
+      "source_id": "src.qwen.1",
+      "publisher": "Alibaba",
+      "system_name": "Qwen3",
+      "version": "Qwen3-Next / Qwen3.5-class",
+      "source_class": "PERMISSIVE_CODE",
+      "official_source_locator": "https://github.com/QwenLM/Qwen3",
+      "exact_commit_or_release": "public release tag (unfetched)",
+      "retrieved_at": "2026-08-14T00:00:00Z",
+      "source_sha256": null,
+      "license_name": "Apache-2.0 (claimed; unverified in this environment)",
+      "license_sha256": null,
+      "allowed_use": [
+        "ANALYSIS",
+        "REFERENCE",
+        "REIMPLEMENTATION"
+      ],
+      "architecture_claims": [
+        {
+          "claim_id": "qwen.hybrid_thinking",
+          "statement": "Qwen3 supports a hybrid thinking mode toggling reasoning on/off.",
+          "evidence_kind": "PUBLIC_PAPER",
+          "evidence_refs": [
+            "https://github.com/QwenLM/Qwen3"
+          ]
+        }
+      ],
+      "retained_reference_paths": [],
+      "mechanism_candidates": [
+        "mec.adaptive_reasoning_budget"
+      ],
+      "ingestion": "UNOBSERVED",
+      "ingestion_blocker": {
+        "status": "UNOBSERVED",
+        "reason": "BLOCKED_NO_NETWORK",
+        "detail": "Foreign source bytes cannot be fetched/verified in this recovery environment; recorded as an explicit ingestion blocker, not silently omitted."
+      },
+      "source_hash": "6742f7d7b139050530c07bb9fb79d11553d73dbafe41482d8fe74c0caf67421e"
+    }
+  ],
+  "registry_hash": "34fda006ce53b3ad0fdd8f8580eeda0b23044dd37ec17a81aaf9e53a75df42d4"
+}

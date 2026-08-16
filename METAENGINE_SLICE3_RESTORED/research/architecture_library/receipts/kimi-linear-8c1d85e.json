@@ -1,0 +1,10 @@
+{
+  "findings": [],
+  "pack_root_sha256": "35c5c6825804ff02be2c4ec8c6801c786bb1883c231b0dc09cf3bcf2646b3026",
+  "receipt_sha256": "79bcc037986381cc7cc46b6a5aec4f838b38dc092e612137f910efdbc81cd06d",
+  "receipt_version": "REFERENCE-VAULT-VERIFICATION-1",
+  "source_id": "kimi-linear-8c1d85e",
+  "status": "PASS",
+  "verified_blob_count": 2,
+  "verified_total_bytes": 7469
+}

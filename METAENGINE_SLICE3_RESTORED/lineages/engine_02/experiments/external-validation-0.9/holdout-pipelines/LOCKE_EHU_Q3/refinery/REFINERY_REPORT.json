@@ -1,0 +1,44 @@
+{
+  "report_version": "DAE-CORPUS-REFINERY-0.1",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T19:20:39Z",
+  "source_id": "LOCAL-SHA256-ED92B1C202ACAC947DEC0BC7DA0CE20F1FDB30AA7C10DD116E6A212CA969FD75",
+  "artifact_sha256": "e20685b7e3b23ed48ace9ef89247e65ffc638f9a4982687ba105ee538e437ae8",
+  "page_run_mode": "TRANSIENT_FRESH_PAGE_RUN",
+  "counts": {
+    "ooxml_segments": 10,
+    "renderer_segments": 35,
+    "argument_segments": 7,
+    "claim_ledger_entries": 5,
+    "formulas": 0,
+    "exact_duplicate_groups": 0,
+    "near_duplicate_groups": 0,
+    "archived_tool_logs": 0,
+    "layers": {
+      "PROJECT_CLAIM": 2,
+      "SOURCE": 1,
+      "UNRESOLVED": 7
+    },
+    "hypotheses": 0,
+    "case_matrices": 0
+  },
+  "validation": {
+    "total_errors": 0,
+    "schemas_checked": 5,
+    "claim_ledger_lines_checked": 5
+  },
+  "gates": {
+    "corpus_preservation": "PASS",
+    "source_resolution": "SUSPEND",
+    "canonical_argument": "SUSPEND",
+    "hypothesis_use": "REVIEW"
+  },
+  "output_contract": {
+    "source_text_included": false,
+    "docx_copied": false,
+    "rendered_pdf_included": false,
+    "extracted_text_included": false,
+    "deleted_segments": 0
+  },
+  "claim_ceiling": "CORPUS_NORMALIZATION_AND_REVIEW_ROUTING_ONLY_EXTERNAL_SEMANTIC_VALIDATION_PENDING"
+}

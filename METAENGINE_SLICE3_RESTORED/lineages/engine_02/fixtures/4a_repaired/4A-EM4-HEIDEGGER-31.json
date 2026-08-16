@@ -1,0 +1,119 @@
+{
+  "record_id": "4A-EM4-HEIDEGGER-31",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4A-02#section-31",
+      "LEGACY-BR-A-2.22#enablement"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4A-0.2-repair + DAE-0.1",
+    "agent": "automation-repair-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4A-0.1/4A-EM4-HEIDEGGER-31"
+    ],
+    "activity_id": "MODULE-MIGRATION-4A-0.2-SEMANTIC-REPAIR",
+    "timestamp": "2026-08-11T12:00:00Z",
+    "artifact_hash": "sha256:93fcb06ead9904b44c737592984fde876848bea30b68a1323a9ff48fc3135475"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "STATE",
+    "description": "Dasein understands/projects itself in terms of possibilities.",
+    "role": [
+      "existential-understanding"
+    ],
+    "object_type": "existential_structure"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "This existential projection is treated as a condition for a mode of disclosed possibility, not as causal production of Being simpliciter.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "HIST"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT05"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "Existential projection enables disclosed possibilities for Dasein; any move from access/disclosure to Being simpliciter needs a separate bridge."
+    },
+    "promotion_flags": [
+      "BASIS",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G2",
+    "gap": "NONE",
+    "bridge_burden": "Block existential possibility → universal modality/ontology without independent support."
+  },
+  "audit": {
+    "native_domain": "Heideggerian existential analysis",
+    "native_method": "close reading + phenomenology",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O4",
+      "O5",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "UNDERDETERMINATION"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY",
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "MEDIUM",
+    "cost_note": "Targeted EM4 profile only."
+  },
+  "rivals": [
+    {
+      "description": "Read Möglichkeit as a Dasein-specific existential structure rather than a universal modal operator.",
+      "relation_rt_id": "RT05",
+      "discriminator": "Ask whether projection determines the disclosed possibility or only opens access to it."
+    }
+  ],
+  "extensions": {
+    "em4": {
+      "module_id": "EM4",
+      "version": "0.1",
+      "enablement_type": "EXISTENTIAL",
+      "modality": "CONSTITUTIVE",
+      "index": "Dasein / existential understanding",
+      "evidence_basis": [
+        "TXT",
+        "HIST"
+      ],
+      "alternative_access": "Other modal vocabularies may describe logical or nomological possibility without Dasein-specific projection.",
+      "promotion_ceiling": "MODE_OF_BEING",
+      "revision_trigger": "Independent evidence that the claimed condition governs being simpliciter rather than Dasein's disclosed possibilities."
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "STATE_TRANSITION",
+      "relation_applies_to": "TRANSITION",
+      "relation_rationale": "Projection opens or enables disclosed possibilities without being encoded as their sufficient cause, production or metaphysical ground.",
+      "semantic_review_status": "REPAIRED_PENDING_EXPERT",
+      "human_review_required": true,
+      "review_notes": [
+        "RT04 was replaced by RT05 because the record asserts enabling access rather than a fully specified necessary/sufficient condition."
+      ]
+    }
+  },
+  "outcome": "QUALIFY"
+}

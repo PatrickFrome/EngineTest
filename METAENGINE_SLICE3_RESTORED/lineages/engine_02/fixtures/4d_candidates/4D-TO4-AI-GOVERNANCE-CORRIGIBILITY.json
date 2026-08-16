@@ -1,0 +1,163 @@
+{
+  "record_id": "4D-TO4-AI-GOVERNANCE-CORRIGIBILITY",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4D-09#trustworthiness-criteria",
+      "W4D-10#organizational-governance"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4D-0.1-DOCX-RECONSTRUCTION + DAE-0.1",
+    "agent": "dae-4d-reconstruction-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4D-0.1-DOCX"
+    ],
+    "activity_id": "MODULE-MIGRATION-4D-0.1-ENGINE-RECONSTRUCTION",
+    "timestamp": "2026-08-11T12:30:00Z",
+    "artifact_hash": "sha256:b0a3e5039fda3ec05d01352139e6fcb3add10d89ba38953a7450787a2751c276"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "AI governance frameworks specify multiple lifecycle criteria, oversight, accountability, robustness, privacy, transparency, fairness and correction processes.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "ASSERTED",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-09#trustworthiness-criteria"
+    ]
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Their presence supports a counterdimension to total uncontestable ordering, while their effective operation remains an empirical question.",
+    "claim_facets": {
+      "basis": [
+        "MIXED"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-09#trustworthiness-criteria",
+      "W4D-10#organizational-governance"
+    ]
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT15"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "RT15 is provisional because standards support a governance claim but do not by themselves prove implemented corrigibility.",
+      "support_refs": [
+        "W4D-09#trustworthiness-criteria",
+        "W4D-10#organizational-governance"
+      ],
+      "discriminator": "Show what a Gestell diagnosis explains beyond the native design, artifact, value and governance account."
+    }
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G3",
+    "gap": "SMALL",
+    "bridge_burden": "Formal standards must not be promoted to effective oversight without operational evidence."
+  },
+  "audit": {
+    "native_domain": "philosophy of technology / engineering and governance",
+    "native_method": "artifact, design, value, governance and responsibility analysis",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "UNDERDETERMINATION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY",
+      "DISCRIMINATOR",
+      "SCOPE_CONTROL",
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "HIGH",
+    "cost_note": "Module schemas were reconstructed from the supplied DOCX because the asserted JSON toolkit was not provided."
+  },
+  "rivals": [
+    {
+      "description": "Governance standards create real correction and accountability channels.",
+      "relation_rt_id": "RT10",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Test implementation, escalation and reversal in operation."
+    },
+    {
+      "description": "Governance is aspirational while optimization and monitoring remain dominant.",
+      "relation_rt_id": "RT11",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Compare formal policy with actual determination patterns and outcomes."
+    }
+  ],
+  "extensions": {
+    "to4": {
+      "module_id": "TO4",
+      "version": "0.1-engine-reconstruction",
+      "criteria_tradeoffs": "Competing goals and their decision procedure must be explicit; no hidden aggregate optimum is assumed.",
+      "human_roles": [
+        "designer",
+        "operator",
+        "governor",
+        "affected party",
+        "reviewer"
+      ],
+      "governance": "Rules, review, escalation, appeal and accountability are encoded separately from technical operation.",
+      "control_responsibility": "Trace information, decision rights, intervention capacity and forward-looking responsibility.",
+      "value_status": "VALUE_SENSITIVE_DESIGN",
+      "corrigibility": "Testing, monitoring, reversal, appeal and redesign are distinct channels whose effective operation must be checked.",
+      "discriminator": "Show what a Gestell diagnosis explains beyond the native design, artifact, value and governance account.",
+      "revision_trigger": "Native analysis exhausts the explanatory work or formal governance does not translate into effective control.",
+      "system": "AI lifecycle governance",
+      "mode": [
+        "AI",
+        "ORGANIZATION",
+        "OPERATION"
+      ],
+      "goals_functions": "Govern development and use through plural trustworthiness and accountability criteria.",
+      "ordering_dimensions": [
+        "MONITORING",
+        "PREDICTION",
+        "AUTOMATION",
+        "CONTROL",
+        "STANDARDIZATION"
+      ],
+      "heideggerian_fit": "PARTIAL"
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "TRANSITION",
+      "relation_rationale": "RT15 is provisional because standards support a governance claim but do not by themselves prove implemented corrigibility.",
+      "semantic_review_status": "STRUCTURAL_ONLY",
+      "human_review_required": true,
+      "review_notes": [
+        "Original 4D JSON records and schemas were not attached; this record is an engine reconstruction from the DOCX specification.",
+        "Verify source passages, relation type, unitization and module field values before expert promotion."
+      ]
+    }
+  },
+  "outcome": "QUALIFY",
+  "open_questions": [
+    "Does the module discriminator add explanatory value beyond the strongest native counterprofile?"
+  ]
+}

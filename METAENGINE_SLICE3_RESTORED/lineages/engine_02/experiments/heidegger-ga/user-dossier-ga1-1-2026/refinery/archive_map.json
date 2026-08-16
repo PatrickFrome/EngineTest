@@ -1,0 +1,1347 @@
+{
+  "archive_map_version": "DAE-ARCHIVE-MAP-1.0",
+  "engine_version": "0.2.4-alpha.1",
+  "generated_at": "2026-08-11T06:07:51Z",
+  "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+  "policy": {
+    "deletion": "FORBIDDEN",
+    "canonicalization": "FIRST_OCCURRENCE_AS_REPRESENTATIVE_WITH_ALL_OCCURRENCES_PRESERVED",
+    "near_duplicate_action": "LINK_ONLY_REVIEW_REQUIRED",
+    "tool_log_action": "ARCHIVE_LAYER_WITHOUT_ERASURE"
+  },
+  "counts": {
+    "segments_total": 33870,
+    "deleted_segments": 0,
+    "exact_duplicate_groups": 46,
+    "exact_duplicate_occurrences_archived": 71,
+    "near_duplicate_groups": 0,
+    "tool_log_segments_archived": 53
+  },
+  "exact_duplicate_groups": [
+    {
+      "cluster_id": "EXD-94A632A283F6",
+      "representative_segment_id": "OX-P000073-94A632A283",
+      "member_segment_ids": [
+        "OX-P000073-94A632A283",
+        "OX-P004478-94A632A283"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-A1F17DA4DD52",
+      "representative_segment_id": "OX-P000089-A1F17DA4DD",
+      "member_segment_ids": [
+        "OX-P000089-A1F17DA4DD",
+        "OX-P000402-A1F17DA4DD"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-17708E729C33",
+      "representative_segment_id": "OX-P000304-17708E729C",
+      "member_segment_ids": [
+        "OX-P000304-17708E729C",
+        "OX-P000885-17708E729C"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-5BF418FCA494",
+      "representative_segment_id": "OX-P000774-5BF418FCA4",
+      "member_segment_ids": [
+        "OX-P000774-5BF418FCA4",
+        "OX-P002220-5BF418FCA4"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-E0FE484EF53D",
+      "representative_segment_id": "OX-P000870-E0FE484EF5",
+      "member_segment_ids": [
+        "OX-P000870-E0FE484EF5",
+        "OX-P004095-E0FE484EF5"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-3880A6848B2B",
+      "representative_segment_id": "OX-P001073-3880A6848B",
+      "member_segment_ids": [
+        "OX-P001073-3880A6848B",
+        "OX-P001090-3880A6848B"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-B9E9ED3F6B3F",
+      "representative_segment_id": "OX-P001460-B9E9ED3F6B",
+      "member_segment_ids": [
+        "OX-P001460-B9E9ED3F6B",
+        "OX-P001585-B9E9ED3F6B",
+        "OX-P004296-B9E9ED3F6B"
+      ],
+      "member_count": 3,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-C2A6C2177FD4",
+      "representative_segment_id": "OX-P001522-C2A6C2177F",
+      "member_segment_ids": [
+        "OX-P001522-C2A6C2177F",
+        "OX-P007219-C2A6C2177F",
+        "OX-P032031-C2A6C2177F"
+      ],
+      "member_count": 3,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-D21082D9BC62",
+      "representative_segment_id": "OX-P001576-D21082D9BC",
+      "member_segment_ids": [
+        "OX-P001576-D21082D9BC",
+        "OX-P007416-D21082D9BC"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-B481FFF3B0E1",
+      "representative_segment_id": "OX-P001790-B481FFF3B0",
+      "member_segment_ids": [
+        "OX-P001790-B481FFF3B0",
+        "OX-P007052-B481FFF3B0"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-C6B5CDBFC416",
+      "representative_segment_id": "OX-P001868-C6B5CDBFC4",
+      "member_segment_ids": [
+        "OX-P001868-C6B5CDBFC4",
+        "OX-P008574-C6B5CDBFC4"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-E6325D8BABCE",
+      "representative_segment_id": "OX-P002029-E6325D8BAB",
+      "member_segment_ids": [
+        "OX-P002029-E6325D8BAB",
+        "OX-P002601-E6325D8BAB",
+        "OX-P003515-E6325D8BAB",
+        "OX-P003838-E6325D8BAB",
+        "OX-P004319-E6325D8BAB",
+        "OX-P007393-E6325D8BAB"
+      ],
+      "member_count": 6,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-D2EF436CB6A0",
+      "representative_segment_id": "OX-P002839-D2EF436CB6",
+      "member_segment_ids": [
+        "OX-P002839-D2EF436CB6",
+        "OX-P003150-D2EF436CB6"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-6539EF1C4DED",
+      "representative_segment_id": "OX-P002842-6539EF1C4D",
+      "member_segment_ids": [
+        "OX-P002842-6539EF1C4D",
+        "OX-P004241-6539EF1C4D"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-1E0E251A7801",
+      "representative_segment_id": "OX-P003837-1E0E251A78",
+      "member_segment_ids": [
+        "OX-P003837-1E0E251A78",
+        "OX-P004373-1E0E251A78"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-13860CBD0B7D",
+      "representative_segment_id": "OX-P004036-13860CBD0B",
+      "member_segment_ids": [
+        "OX-P004036-13860CBD0B",
+        "OX-P006439-13860CBD0B",
+        "OX-P006889-13860CBD0B",
+        "OX-P020358-13860CBD0B"
+      ],
+      "member_count": 4,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-45425BC381A0",
+      "representative_segment_id": "OX-P004570-45425BC381",
+      "member_segment_ids": [
+        "OX-P004570-45425BC381",
+        "OX-P031015-45425BC381",
+        "OX-P033861-45425BC381"
+      ],
+      "member_count": 3,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-4EB55D8A091C",
+      "representative_segment_id": "OX-P004598-4EB55D8A09",
+      "member_segment_ids": [
+        "OX-P004598-4EB55D8A09",
+        "OX-P004666-4EB55D8A09"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-ECCE5AD580B2",
+      "representative_segment_id": "OX-P004925-ECCE5AD580",
+      "member_segment_ids": [
+        "OX-P004925-ECCE5AD580",
+        "OX-P007441-ECCE5AD580",
+        "OX-P016026-ECCE5AD580"
+      ],
+      "member_count": 3,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-391F37C5FD55",
+      "representative_segment_id": "OX-P005180-391F37C5FD",
+      "member_segment_ids": [
+        "OX-P005180-391F37C5FD",
+        "OX-P008304-391F37C5FD",
+        "OX-P010230-391F37C5FD",
+        "OX-P012997-391F37C5FD",
+        "OX-P020277-391F37C5FD"
+      ],
+      "member_count": 5,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-BBD8B2AB7A37",
+      "representative_segment_id": "OX-P005522-BBD8B2AB7A",
+      "member_segment_ids": [
+        "OX-P005522-BBD8B2AB7A",
+        "OX-P017199-BBD8B2AB7A",
+        "OX-P017217-BBD8B2AB7A",
+        "OX-P020044-BBD8B2AB7A"
+      ],
+      "member_count": 4,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-73A4AA88C64E",
+      "representative_segment_id": "OX-P007925-73A4AA88C6",
+      "member_segment_ids": [
+        "OX-P007925-73A4AA88C6",
+        "OX-P008469-73A4AA88C6"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-C32EC2729F69",
+      "representative_segment_id": "OX-P008253-C32EC2729F",
+      "member_segment_ids": [
+        "OX-P008253-C32EC2729F",
+        "OX-P012237-C32EC2729F",
+        "OX-P012311-C32EC2729F",
+        "OX-P013742-C32EC2729F",
+        "OX-P015294-C32EC2729F",
+        "OX-P015717-C32EC2729F",
+        "OX-P030346-C32EC2729F",
+        "OX-P030366-C32EC2729F"
+      ],
+      "member_count": 8,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-5B1090FE6B11",
+      "representative_segment_id": "OX-P008695-5B1090FE6B",
+      "member_segment_ids": [
+        "OX-P008695-5B1090FE6B",
+        "OX-P009141-5B1090FE6B",
+        "OX-P028298-5B1090FE6B"
+      ],
+      "member_count": 3,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-C3503C832B9D",
+      "representative_segment_id": "OX-P009244-C3503C832B",
+      "member_segment_ids": [
+        "OX-P009244-C3503C832B",
+        "OX-P012227-C3503C832B",
+        "OX-P015721-C3503C832B"
+      ],
+      "member_count": 3,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-BE66B0EE0C7A",
+      "representative_segment_id": "OX-P009449-BE66B0EE0C",
+      "member_segment_ids": [
+        "OX-P009449-BE66B0EE0C",
+        "OX-P024380-BE66B0EE0C"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-90785F8B4F77",
+      "representative_segment_id": "OX-P009565-90785F8B4F",
+      "member_segment_ids": [
+        "OX-P009565-90785F8B4F",
+        "OX-P020726-90785F8B4F"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-F4DE33F2478E",
+      "representative_segment_id": "OX-P009965-F4DE33F247",
+      "member_segment_ids": [
+        "OX-P009965-F4DE33F247",
+        "OX-P012870-F4DE33F247",
+        "OX-P028544-F4DE33F247"
+      ],
+      "member_count": 3,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-91DBA23201A4",
+      "representative_segment_id": "OX-P011641-91DBA23201",
+      "member_segment_ids": [
+        "OX-P011641-91DBA23201",
+        "OX-P021087-91DBA23201"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-19ED53B3AD9F",
+      "representative_segment_id": "OX-P013389-19ED53B3AD",
+      "member_segment_ids": [
+        "OX-P013389-19ED53B3AD",
+        "OX-P015061-19ED53B3AD"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-3C5EABDE50AB",
+      "representative_segment_id": "OX-P013423-3C5EABDE50",
+      "member_segment_ids": [
+        "OX-P013423-3C5EABDE50",
+        "OX-P014113-3C5EABDE50"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-6A652ECBB205",
+      "representative_segment_id": "OX-P013437-6A652ECBB2",
+      "member_segment_ids": [
+        "OX-P013437-6A652ECBB2",
+        "OX-P018436-6A652ECBB2"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-434D846C4957",
+      "representative_segment_id": "OX-P013572-434D846C49",
+      "member_segment_ids": [
+        "OX-P013572-434D846C49",
+        "OX-P023620-434D846C49"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-4FC02457C0C9",
+      "representative_segment_id": "OX-P014821-4FC02457C0",
+      "member_segment_ids": [
+        "OX-P014821-4FC02457C0",
+        "OX-P015776-4FC02457C0"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-0ED929C2EF7F",
+      "representative_segment_id": "OX-P015258-0ED929C2EF",
+      "member_segment_ids": [
+        "OX-P015258-0ED929C2EF",
+        "OX-P026531-0ED929C2EF"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-E5AFF61F8C6D",
+      "representative_segment_id": "OX-P017348-E5AFF61F8C",
+      "member_segment_ids": [
+        "OX-P017348-E5AFF61F8C",
+        "OX-P026196-E5AFF61F8C"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-589F8ABD5B48",
+      "representative_segment_id": "OX-P017540-589F8ABD5B",
+      "member_segment_ids": [
+        "OX-P017540-589F8ABD5B",
+        "OX-P018376-589F8ABD5B"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-075998EE3B31",
+      "representative_segment_id": "OX-P019427-075998EE3B",
+      "member_segment_ids": [
+        "OX-P019427-075998EE3B",
+        "OX-P021291-075998EE3B"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-C383FF21A904",
+      "representative_segment_id": "OX-P020074-C383FF21A9",
+      "member_segment_ids": [
+        "OX-P020074-C383FF21A9",
+        "OX-P026629-C383FF21A9"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-E77D0CF106D7",
+      "representative_segment_id": "OX-P020658-E77D0CF106",
+      "member_segment_ids": [
+        "OX-P020658-E77D0CF106",
+        "OX-P021502-E77D0CF106"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-86CD3D7A0BF3",
+      "representative_segment_id": "OX-P022276-86CD3D7A0B",
+      "member_segment_ids": [
+        "OX-P022276-86CD3D7A0B",
+        "OX-P025016-86CD3D7A0B"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-57D8281F794C",
+      "representative_segment_id": "OX-P023817-57D8281F79",
+      "member_segment_ids": [
+        "OX-P023817-57D8281F79",
+        "OX-P028423-57D8281F79"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-F66B5516C71E",
+      "representative_segment_id": "OX-P024111-F66B5516C7",
+      "member_segment_ids": [
+        "OX-P024111-F66B5516C7",
+        "OX-P026457-F66B5516C7",
+        "OX-P027736-F66B5516C7"
+      ],
+      "member_count": 3,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-072935A032D4",
+      "representative_segment_id": "OX-P027179-072935A032",
+      "member_segment_ids": [
+        "OX-P027179-072935A032",
+        "OX-P028629-072935A032"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-CFEBD66B6C47",
+      "representative_segment_id": "OX-P029764-CFEBD66B6C",
+      "member_segment_ids": [
+        "OX-P029764-CFEBD66B6C",
+        "OX-P029770-CFEBD66B6C"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    },
+    {
+      "cluster_id": "EXD-D9D3C5325321",
+      "representative_segment_id": "OX-P033864-D9D3C53253",
+      "member_segment_ids": [
+        "OX-P033864-D9D3C53253",
+        "OX-P033869-D9D3C53253"
+      ],
+      "member_count": 2,
+      "basis": "EXACT_NORMALIZED_SHA256",
+      "minimum_pair_similarity": 1,
+      "human_review_required": false
+    }
+  ],
+  "near_duplicate_groups": [],
+  "archive_entries": [
+    {
+      "segment_id": "OX-P004478-94A632A283",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P000073-94A632A283",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P000402-A1F17DA4DD",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P000089-A1F17DA4DD",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P000885-17708E729C",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P000304-17708E729C",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P002220-5BF418FCA4",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P000774-5BF418FCA4",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P004095-E0FE484EF5",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P000870-E0FE484EF5",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P001090-3880A6848B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P001073-3880A6848B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P001585-B9E9ED3F6B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P001460-B9E9ED3F6B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P004296-B9E9ED3F6B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P001460-B9E9ED3F6B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P007219-C2A6C2177F",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P001522-C2A6C2177F",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P032031-C2A6C2177F",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P001522-C2A6C2177F",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P007416-D21082D9BC",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P001576-D21082D9BC",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P007052-B481FFF3B0",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P001790-B481FFF3B0",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P008574-C6B5CDBFC4",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P001868-C6B5CDBFC4",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P002601-E6325D8BAB",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P002029-E6325D8BAB",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P003515-E6325D8BAB",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P002029-E6325D8BAB",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P003838-E6325D8BAB",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P002029-E6325D8BAB",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P004319-E6325D8BAB",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P002029-E6325D8BAB",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P007393-E6325D8BAB",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P002029-E6325D8BAB",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P003150-D2EF436CB6",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P002839-D2EF436CB6",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P004241-6539EF1C4D",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P002842-6539EF1C4D",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P004373-1E0E251A78",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P003837-1E0E251A78",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P006439-13860CBD0B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P004036-13860CBD0B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P006889-13860CBD0B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P004036-13860CBD0B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P020358-13860CBD0B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P004036-13860CBD0B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P031015-45425BC381",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P004570-45425BC381",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P033861-45425BC381",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P004570-45425BC381",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P004666-4EB55D8A09",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P004598-4EB55D8A09",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P007441-ECCE5AD580",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P004925-ECCE5AD580",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P016026-ECCE5AD580",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P004925-ECCE5AD580",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P008304-391F37C5FD",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P005180-391F37C5FD",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P010230-391F37C5FD",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P005180-391F37C5FD",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P012997-391F37C5FD",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P005180-391F37C5FD",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P020277-391F37C5FD",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P005180-391F37C5FD",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P017199-BBD8B2AB7A",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P005522-BBD8B2AB7A",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P017217-BBD8B2AB7A",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P005522-BBD8B2AB7A",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P020044-BBD8B2AB7A",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P005522-BBD8B2AB7A",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P008469-73A4AA88C6",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P007925-73A4AA88C6",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P012237-C32EC2729F",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P008253-C32EC2729F",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P012311-C32EC2729F",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P008253-C32EC2729F",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P013742-C32EC2729F",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P008253-C32EC2729F",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P015294-C32EC2729F",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P008253-C32EC2729F",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P015717-C32EC2729F",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P008253-C32EC2729F",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P030346-C32EC2729F",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P008253-C32EC2729F",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P030366-C32EC2729F",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P008253-C32EC2729F",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P009141-5B1090FE6B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P008695-5B1090FE6B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P028298-5B1090FE6B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P008695-5B1090FE6B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P012227-C3503C832B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P009244-C3503C832B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P015721-C3503C832B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P009244-C3503C832B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P024380-BE66B0EE0C",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P009449-BE66B0EE0C",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P020726-90785F8B4F",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P009565-90785F8B4F",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P012870-F4DE33F247",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P009965-F4DE33F247",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P028544-F4DE33F247",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P009965-F4DE33F247",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P021087-91DBA23201",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P011641-91DBA23201",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P015061-19ED53B3AD",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P013389-19ED53B3AD",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P014113-3C5EABDE50",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P013423-3C5EABDE50",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P018436-6A652ECBB2",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P013437-6A652ECBB2",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P023620-434D846C49",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P013572-434D846C49",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P015776-4FC02457C0",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P014821-4FC02457C0",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P026531-0ED929C2EF",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P015258-0ED929C2EF",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P026196-E5AFF61F8C",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P017348-E5AFF61F8C",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P018376-589F8ABD5B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P017540-589F8ABD5B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P021291-075998EE3B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P019427-075998EE3B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P026629-C383FF21A9",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P020074-C383FF21A9",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P021502-E77D0CF106",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P020658-E77D0CF106",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P025016-86CD3D7A0B",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P022276-86CD3D7A0B",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P028423-57D8281F79",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P023817-57D8281F79",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P026457-F66B5516C7",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P024111-F66B5516C7",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P027736-F66B5516C7",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P024111-F66B5516C7",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P028629-072935A032",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P027179-072935A032",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P029770-CFEBD66B6C",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P029764-CFEBD66B6C",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P033869-D9D3C53253",
+      "reason": "EXACT_DUPLICATE_OCCURRENCE",
+      "representative_segment_id": "OX-P033864-D9D3C53253",
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P002333-74F55BF834",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P003410-005255F377",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P004570-45425BC381",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P005989-67DC8CC318",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P008110-C0A41324A6",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P009068-021FB596DB",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P012029-9A63432B8C",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P012134-1A3CDC17C6",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P012289-A5111C8121",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P012399-3548F44060",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P013074-430CDC1B97",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P013376-A45CD6BF27",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P014073-82CCA3DE8B",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P014078-68189043A9",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P015280-4F1F6BBFD2",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P015873-F0BA99CBA1",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P015940-6CC17772F5",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P016295-A9E19A418E",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P017155-5A5664A275",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P017316-E65BDF83A3",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P018834-A084A0426D",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P019678-9FDD700E3F",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P020101-EF19A944A2",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P021823-0E85609331",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P022113-310DFB2959",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P023210-0BA3AF833E",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P023338-260E0D431D",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P023874-63D40809B2",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P024078-D1A5DAFA9A",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P024201-88B5CEF215",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P025080-4366CF3225",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P025087-C80DF615D7",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P025090-A30615A29D",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P025324-EF08F66433",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P025443-90F47AE0A0",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P026341-021FB596DB",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P026421-A0989F6857",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P027179-072935A032",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P027511-E272AD6739",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P028023-C4F3CECE64",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P030625-1A59CD8137",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P030764-71C0D39FA0",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P031108-26DB8F48DF",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P031958-41D478F257",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P032396-FE4BBEEBA9",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P032440-E52E5944A0",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P033022-E46EC4656F",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P033741-912C01AB3E",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P033743-E4599B2AFE",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P033862-EA1EDA8399",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P033864-D9D3C53253",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P033867-28309F6F87",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    },
+    {
+      "segment_id": "OX-P033870-E5C87D7CC7",
+      "reason": "PROTOCOL_OR_TOOL_LOG",
+      "representative_segment_id": null,
+      "recoverability": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"
+    }
+  ],
+  "claim_ceiling": "NON_DESTRUCTIVE_CONSOLIDATION_MAP_ONLY_NOT_TEXTUAL_OR_SEMANTIC_EQUIVALENCE"
+}

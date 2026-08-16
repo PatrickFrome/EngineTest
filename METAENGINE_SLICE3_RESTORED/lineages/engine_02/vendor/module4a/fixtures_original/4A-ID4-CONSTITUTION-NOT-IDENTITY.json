@@ -1,0 +1,105 @@
+{
+  "record_id": "4A-ID4-CONSTITUTION-NOT-IDENTITY",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "SEP Material Constitution 2026",
+      "2.24 Constitution≠Identity Gate"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + ID4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "ARTIFACT",
+    "description": "A lump of matter constitutes a statue at a time.",
+    "role": [
+      "material-bearer"
+    ],
+    "object_type": "lump"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "The statue is numerically identical with the lump.",
+    "claim_facets": {
+      "basis": [
+        "HIST",
+        "FORM"
+      ],
+      "force": "WITHHELD",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT09"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "Material constitution does not by itself settle numerical identity; major competing metaphysical accounts remain live."
+    },
+    "promotion_flags": [
+      "RELATION"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "material constitution / identity",
+    "native_method": "contemporary metaphysics of constitution",
+    "activated_operators": [
+      "O3",
+      "O4",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "UNDERDETERMINATION"
+    ],
+    "ncv": [
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "MEDIUM"
+  },
+  "rivals": [
+    {
+      "description": "Constitution is identity."
+    },
+    {
+      "description": "Constitution is asymmetric dependence between distinct coincident objects."
+    }
+  ],
+  "extensions": {
+    "id4": {
+      "module_id": "ID4",
+      "version": "0.1",
+      "domain_object": "material statue/lump",
+      "mode": "SYNCHRONIC",
+      "candidate_criterion": [
+        "material coincidence",
+        "kind/sortal",
+        "modal/historical profile"
+      ],
+      "allowed_change": "Account-dependent; material changes and kind-preserving changes must be distinguished.",
+      "termination_condition": "Account-dependent; no universal answer assumed.",
+      "reidentification_evidence": [
+        "spatiotemporal continuity",
+        "material continuity",
+        "kind/sortal continuity"
+      ],
+      "identity_maker_status": "UNRESOLVED",
+      "fission_replacement": "Constitution puzzles discriminate identity from bearer continuity.",
+      "alternatives": [
+        "constitution-is-identity",
+        "constitution-without-identity",
+        "temporal-parts/deflationary alternatives"
+      ],
+      "revision_trigger": "A discriminating argument/evidence that selects one account for the target case."
+    }
+  },
+  "outcome": "UNDERDETERMINED"
+}

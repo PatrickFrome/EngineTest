@@ -1,0 +1,72 @@
+{
+  "result_version": "DAE-HGA-WORK-PILOT-1.0",
+  "engine_version": "0.2.2-alpha.1",
+  "generated_at": "2026-08-11T05:20:00Z",
+  "subject": {
+    "work": "Martin Heidegger, Das Realitätsproblem in der modernen Philosophie",
+    "original_publication": "Philosophisches Jahrbuch 25 (1912), pp. 353–363",
+    "ga_crosswalk": "GA 1, pp. 1–15; page-level partial",
+    "source_id": "HGA-PJ25-1912-REALITAET",
+    "artifact_sha256": "76972a6965f1213ee3c383d23038320a5c6a238f31c3e1effceb054b853f2791",
+    "extracted_text_sha256": "efc781598fc36268b3800a954a441c78a398b911569ba0cca203c11c92c760db"
+  },
+  "safe_intake": {
+    "pages": 11,
+    "units": 280,
+    "candidate_records": 24,
+    "ambiguous_units": 17,
+    "raw_artifact_retained": false,
+    "raw_text_retained": false,
+    "raw_text_included_in_outputs": false,
+    "printed_page_locator_coverage": 1,
+    "validation": {"files": 24, "conformant": 24, "review_required": 24, "ERROR": 0, "REVIEW": 65, "WARNING": 0, "INFO": 0}
+  },
+  "selected_record_relations": {"RT00": 17, "RT01": 3, "RT04": 1, "RT08": 1, "RT14": 1, "RT19": 1},
+  "discourse_features": {"ATTRIBUTION": 9, "CONCESSION": 14, "CONCLUSION": 11, "CONTRAST": 19, "EVIDENCE": 19, "LIMIT": 21, "PROGRAM": 30, "QUESTION": 15},
+  "lexical_index": {
+    "REALITY": 19,
+    "REALISM": 17,
+    "POSITING": 20,
+    "DETERMINATION": 24,
+    "CONSCIOUSNESS": 23,
+    "EXPERIENCE": 12,
+    "THINKING": 36,
+    "SCIENCE": 22,
+    "CONSCIENTIALISM": 6,
+    "PHENOMENALISM": 6,
+    "BEING_NOUN": 11,
+    "DASEIN": 0,
+    "TEMPORALITY": 0,
+    "claim_ceiling": "Lexical distribution does not establish conceptual identity, absence or historical continuity."
+  },
+  "argument_graph": {
+    "bundle_id": "HGA-GA01-REALITAET-ARG-001",
+    "conformant": true,
+    "issue": "C-MODERATE",
+    "derived_status": "CONTESTED",
+    "applicable_pro": ["ARG-MODERATE-PRO"],
+    "applicable_con": ["ARG-MODERATE-CON"],
+    "claim_ceiling": "GRAPH_INTERNAL_ACCEPTABILITY_NOT_TRUTH"
+  },
+  "protocol_outcomes": {
+    "source_audit": {"outcome": "REVIEW", "ERROR": 0, "REVIEW": 1},
+    "moderate_reconstruction": {"outcome": "PASS", "ERROR": 0, "REVIEW": 0},
+    "strong_fundamental_ontology": {"outcome": "SUSPEND", "ERROR": 0, "REVIEW": 4},
+    "single_work_to_benchmark": {"outcome": "SUSPEND", "ERROR": 0, "REVIEW": 2},
+    "ablation": {"outcome": "SUSPEND", "ERROR": 0, "REVIEW": 1}
+  },
+  "minimal_positive_kernel": [
+    "Methodical inquiry begins by suspending presumed self-evidence.",
+    "Psychic act, ideal content and intended object must not be conflated.",
+    "Experience and thinking jointly constrain the determination of reality.",
+    "Subject-conditioned perceptual contents do not exhaust the real.",
+    "Scientific determination is progressive yet remains structurally incomplete."
+  ],
+  "strongest_rivals": [
+    "A transcendental account can explain objectivity without determining things in themselves.",
+    "A structural or empiricist account can retain stable relations without full commitment to hidden relata.",
+    "Intersubjective communicability may presuppose the shared world it is used to establish."
+  ],
+  "verdict": "THE_WORK_SUPPORTS_A_CONTESTED_CRITICAL_REALIST_RESEARCH_PROGRAM; IT_DOES_NOT_BY_ITSELF_ESTABLISH_FUNDAMENTAL_ONTOLOGY_OR_A_NECESSARY_PATH_TO_GA2",
+  "next_gate": "Analyze Neuere Forschungen über Logik (GA 1, pp. 17–43) with the same page-aware pipeline, then test whether the act/content/object distinction is a stable local bridge rather than a retrospective developmental narrative."
+}

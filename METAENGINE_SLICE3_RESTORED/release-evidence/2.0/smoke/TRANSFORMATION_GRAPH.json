@@ -1,0 +1,173 @@
+{
+  "claim_ceiling": "TRANSFORMATION_GRAPH_IS_DIAGNOSTIC_NOT_TRUTH",
+  "edges": [],
+  "graph_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "graph_version": "16X-TRANSFORMATION-GRAPH-2.0",
+  "metrics": {
+    "causal_depth": 0,
+    "cycle_pressure": 0,
+    "edge_count": 0,
+    "node_count": 17,
+    "peer_pairs": [],
+    "source_reground_count": 0,
+    "topology_mutation_edges": 0,
+    "transformation_types": [],
+    "type_diversity": 0.0,
+    "unresolved_tensions": 0
+  },
+  "nodes": [
+    {
+      "engine_id": "engine_02",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-01",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_03",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-02",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_04",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-03",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_05",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-04",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_06",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-05",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_07",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-06",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_08",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-07",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_09",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-08",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_10",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-09",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_11",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-10",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_12",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-11",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_13",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-12",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_14",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-13",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_15",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-14",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_16",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-15",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_01",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-16",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    },
+    {
+      "engine_id": "engine_02",
+      "label": "fixture",
+      "metadata": {},
+      "node_id": "node-17",
+      "round": 1,
+      "truth_effect": "NONE",
+      "type": "PRIMARY"
+    }
+  ]
+}

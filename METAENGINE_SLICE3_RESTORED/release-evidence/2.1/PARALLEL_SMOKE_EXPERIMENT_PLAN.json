@@ -1,0 +1,15 @@
+{
+  "biography_policy": "FROZEN_BASELINE",
+  "case_count": 1,
+  "cases": [
+    {
+      "case_id": "fixture-1",
+      "source_text": "fixture"
+    }
+  ],
+  "compile_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "default_cache_policy": "NO_CACHE",
+  "fabric_version": "16X-PARALLEL-EXPERIMENTAL-ECOLOGY-2.1",
+  "inner_workers": 1,
+  "world_workers": 1
+}

@@ -1,0 +1,98 @@
+{
+  "record_id": "4D-GE4-GA7-INSTRUMENTAL-FIREWALL",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "Heidegger GA7 Die Frage nach der Technik pp.7–8,20–22"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + GE4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "Modern technologies are human-made means to ends and can be described instrumentally.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "EMP"
+      ],
+      "force": "ASSERTED",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Therefore the instrumental-anthropological definition exhausts what Heidegger is trying to diagnose as the essence of modern technology.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "WITHHELD",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT19"
+    },
+    "bridge": {
+      "status": "EXPLICIT",
+      "statement": "Heidegger calls the instrumental definition correct but insufficient and names Gestell as a way of revealing/order rather than a technical object."
+    },
+    "promotion_flags": [
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "Heidegger philosophy of technology",
+    "native_method": "close reading + technology-philosophy comparison",
+    "activated_operators": [
+      "O1",
+      "O3",
+      "O4",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY"
+    ],
+    "rtr": "LOW"
+  },
+  "extensions": {
+    "ge4": {
+      "module_id": "GE4",
+      "version": "0.1",
+      "source_period": "1949–1954 Bremen / Question Concerning Technology",
+      "disclosure_mode": "ORDERING",
+      "ordering_signature": [
+        "AVAILABILITY",
+        "ORDERABILITY",
+        "SECURING",
+        "CHAINED_DEMAND"
+      ],
+      "human_position": "CHALLENGED_PARTICIPANT",
+      "target_domain": [
+        "NATURE",
+        "ARTIFACTS",
+        "SCIENCE"
+      ],
+      "relation_to_instrumentality": "INSTRUMENTAL_CORRECT_BUT_INSUFFICIENT",
+      "alternative_disclosure": "poietic bringing-forth and other modes of revealing remain conceptually distinct",
+      "totalization_status": "HEIDEGGERIAN_UNIVERSAL_DIAGNOSIS",
+      "danger_status": "AMBIVALENT_DANGER_SAVING",
+      "discriminator": "show a distinctive ordering/revealing structure beyond generic means-end use",
+      "revision_trigger": "cases where the Gestell vocabulary merely redescribes ordinary instrumentality without additional explanatory discrimination"
+    }
+  },
+  "outcome": "QUALIFY"
+}

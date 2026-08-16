@@ -1,0 +1,25 @@
+{
+  "branch_id": "BR-A-4A",
+  "title": "Enablement / Constitution / Individuation / Identity",
+  "historical_2x_sequence": [
+    "EM4",
+    "KC4",
+    "ID4",
+    "IND4"
+  ],
+  "operational_core4_graph": {
+    "EM4": [
+      "KC4"
+    ],
+    "KC4": [
+      "IND4_if_relata_not_stabilized",
+      "ID4_if_relata_stabilized"
+    ],
+    "IND4": [
+      "ID4"
+    ],
+    "ID4": []
+  },
+  "rule": "Historical discovery order is not execution order. If the relata are not yet individuated, IND4 must precede ID4.",
+  "core_api_changed": false
+}

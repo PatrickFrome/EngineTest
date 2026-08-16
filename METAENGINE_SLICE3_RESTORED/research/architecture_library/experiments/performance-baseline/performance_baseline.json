@@ -1,0 +1,39 @@
+{
+  "baseline_version": "METAENGINE-PERFORMANCE-BASELINE-1",
+  "worldbench_version": "16X-WORLDBENCH-2.3",
+  "policy_hash": "bf0afbceb99f5b714f53d42f581075ddb582206962a46bd30b9722af89440786",
+  "case_count": 24,
+  "seed_count": 2,
+  "total_worlds": 48,
+  "workers": 4,
+  "metrics": {
+    "total_elapsed_seconds": 0.03623,
+    "mean_wall_seconds_per_world": 0.00049,
+    "min_wall_seconds": 0.000234,
+    "max_wall_seconds": 0.004037,
+    "median_wall_seconds": 0.000274,
+    "throughput_worlds_per_second": 1324.8616,
+    "mean_node_count": 11.79,
+    "mean_edge_count": 12.79,
+    "verification_status_distribution": {
+      "?": 48
+    }
+  },
+  "freeze": {
+    "world_count": 48,
+    "all_worlds_sealed": true,
+    "elapsed_seconds": 0.033676,
+    "freeze_hash": "cb52a126a3af31ea9736177a7c9a8f9666ba00c45f648e4461b23d3606327216"
+  },
+  "learning_frozen": true,
+  "no_cross_world_read_before_freeze": true,
+  "oracle_authority": "LOCAL_DETERMINISTIC_OUTCOME_NOT_FRONTIER_MODEL_EQUIVALENCE",
+  "constitutional_invariants": {
+    "majority_vote_used": false,
+    "derived_truth_promotion_violations": 0,
+    "learning_updates_before_barrier": 0,
+    "self_modifying_code_allowed": false,
+    "truth_effect": "NONE"
+  },
+  "baseline_sha256": "ca046cbca966032109567111ed181f7410f68e3c0c986c29a7b83f651b267f6b"
+}

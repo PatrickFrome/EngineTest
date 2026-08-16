@@ -1,0 +1,29 @@
+{
+  "package": "MODULE-MIGRATION-4A-0.1",
+  "core_required": "CORE 4.0.0-alpha.1",
+  "trc_required": "TRC-0.3",
+  "modules": {
+    "EM4": {
+      "version": "0.1",
+      "source_lineage": "2.22 Ermöglichung",
+      "trigger": "condition/possibility/enablement/transcendental claims"
+    },
+    "KC4": {
+      "version": "0.1",
+      "source_lineage": "2.23 Konstitution",
+      "trigger": "constitution/formation/validity/objectivity/status claims"
+    },
+    "IND4": {
+      "version": "0.1",
+      "source_lineage": "2.25 Individuation",
+      "trigger": "what counts as one? boundary/granularity/unit questions"
+    },
+    "ID4": {
+      "version": "0.1",
+      "source_lineage": "2.24 Identität",
+      "trigger": "same/persistence/reidentification/lineage/fission questions"
+    }
+  },
+  "core_semantic_expansion": false,
+  "migration_status": "PROFILE-LEVEL ONLY"
+}

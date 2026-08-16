@@ -1,0 +1,329 @@
+{
+  "trace_version": "DAE-AUTONOMOUS-EXPERT-TRACE-1.0",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T19:20:44Z",
+  "run_id": "EXPERT-AUTO-LOCAL-SHA256-303910019A706CEE1511410E5EE2678513BD55EED6994E90C1945D659770E1FB-CAF5421CEE32",
+  "profile_origin": "AUTO_GENERATED_FROM_REFINERY",
+  "profile_sha256": "4d0590c4a8f1c2a3f75d75586d5190c781d6f74bc8ae6cc184d7b25e625fd85b",
+  "refinery_manifest_sha256": "91c257c039d69c0fcacd4078b77b4bb16159b41c644d54cebf67d56d15454603",
+  "passes": [
+    "RECONSTRUCTOR",
+    "CRITIC",
+    "ADJUDICATOR",
+    "SYNTHESIS"
+  ],
+  "prepasses": [
+    {
+      "pass": "ETYMOLOGICAL_PASS",
+      "protocol_version": "ETY-0.2",
+      "run_id": "ETY-LOCAL_SHA256_303910019A706CEE1511410E5EE2678513BD55EED6994E90C1945D65977-2857BAFE6322",
+      "pass_sha256": "436a319259eb63d6c5da59167adcaa3e363b2e49f180acd75440842fa976af48",
+      "cards": 8,
+      "full_cards": 8,
+      "unresolved_fields": 160,
+      "semantic_promotion_performed": false
+    }
+  ],
+  "privacy": {
+    "source_text_retained": false,
+    "prompts_retained": false,
+    "model_response_ids_retained": false,
+    "verbatim_output_guard": "EIGHT_TOKEN_SEQUENCE_BLOCK_WITH_DETERMINISTIC_PASS_FALLBACK"
+  },
+  "model_fallback_count": 0,
+  "successful_model_passes": 0,
+  "theses": [
+    {
+      "thesis_id": "AUTO_CORPUS_GENRE",
+      "deterministic_gate": {
+        "status": "QUALIFIED",
+        "confidence": 0.76,
+        "allowed_statuses": [
+          "QUALIFIED"
+        ],
+        "gate": "STRUCTURAL_GENRE_PARTIALLY_CONFIRMED",
+        "decisive_reasons": [
+          "Роль контейнера: COMPOSITE_CONTAINER.",
+          "Непустых маршрутизированных слоёв происхождения: 1.",
+          "Разрешённых ссылок на уровне утверждений: 0."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED"
+          ],
+          "evidence_selector_count": 1,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "AUTO_CORPUS_GENRE",
+            "pass": "RECONSTRUCTOR",
+            "A": "Автоматическая сегментация различает источниковые, реконструктивные, проектные, критические и процедурные слои.",
+            "P": "Жанровый статус корпуса ограничивает доказательную роль содержащихся в нём утверждений.",
+            "B": "Система должна отделять структурную характеристику документа от содержательной истинности его тезисов.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.76,
+            "operative_relations": [
+              "RT02",
+              "RT15",
+              "RT17"
+            ],
+            "source_origin": "MIXED",
+            "evidence_selectors": [
+              "OX-P000008-8EF4AC0100"
+            ],
+            "strongest_rival": {
+              "statement": "Все сегменты документа принадлежат одному источниковому голосу и могут суммироваться без различения происхождения.",
+              "impact": "DEFEATED",
+              "answer": "Структурные признаки многослойного составного контейнера непосредственно различают документ и единый первичный источник."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Статус анализируемого корпуса»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Маршрутизация происхождения остаётся консервативной и не заменяет источниковедческую проверку."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED"
+          ],
+          "evidence_selector_count": 1,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "AUTO_CORPUS_GENRE",
+            "pass": "CRITIC",
+            "A": "Автоматическая сегментация различает источниковые, реконструктивные, проектные, критические и процедурные слои.",
+            "P": "Жанровый статус корпуса ограничивает доказательную роль содержащихся в нём утверждений.",
+            "B": "Система должна отделять структурную характеристику документа от содержательной истинности его тезисов.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.76,
+            "operative_relations": [
+              "RT02",
+              "RT15",
+              "RT17"
+            ],
+            "source_origin": "MIXED",
+            "evidence_selectors": [
+              "OX-P000008-8EF4AC0100"
+            ],
+            "strongest_rival": {
+              "statement": "Все сегменты документа принадлежат одному источниковому голосу и могут суммироваться без различения происхождения.",
+              "impact": "DEFEATED",
+              "answer": "Структурные признаки многослойного составного контейнера непосредственно различают документ и единый первичный источник."
+            },
+            "analysis": "Проверен сильнейший соперник: Все сегменты документа принадлежат одному источниковому голосу и могут суммироваться без различения происхождения.",
+            "limitations": [
+              "Маршрутизация происхождения остаётся консервативной и не заменяет источниковедческую проверку."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED"
+          ],
+          "evidence_selector_count": 1,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "AUTO_CORPUS_GENRE",
+            "pass": "ADJUDICATOR",
+            "A": "Автоматическая сегментация различает источниковые, реконструктивные, проектные, критические и процедурные слои.",
+            "P": "Жанровый статус корпуса ограничивает доказательную роль содержащихся в нём утверждений.",
+            "B": "Система должна отделять структурную характеристику документа от содержательной истинности его тезисов.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.76,
+            "operative_relations": [
+              "RT02",
+              "RT15",
+              "RT17"
+            ],
+            "source_origin": "MIXED",
+            "evidence_selectors": [
+              "OX-P000008-8EF4AC0100"
+            ],
+            "strongest_rival": {
+              "statement": "Все сегменты документа принадлежат одному источниковому голосу и могут суммироваться без различения происхождения.",
+              "impact": "DEFEATED",
+              "answer": "Структурные признаки многослойного составного контейнера непосредственно различают документ и единый первичный источник."
+            },
+            "analysis": "Роль контейнера: COMPOSITE_CONTAINER. Непустых маршрутизированных слоёв происхождения: 1. Разрешённых ссылок на уровне утверждений: 0.",
+            "limitations": [
+              "Маршрутизация происхождения остаётся консервативной и не заменяет источниковедческую проверку."
+            ],
+            "final_answer": "QUALIFIED: Роль контейнера: COMPOSITE_CONTAINER. Непустых маршрутизированных слоёв происхождения: 1. Разрешённых ссылок на уровне утверждений: 0."
+          }
+        }
+      ]
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_SOURCE_BUT",
+      "deterministic_gate": {
+        "status": "QUALIFIED",
+        "confidence": 0.84,
+        "allowed_statuses": [
+          "QUALIFIED",
+          "REJECTED",
+          "INSUFFICIENT"
+        ],
+        "gate": "INTERNAL_MODEL_COHERENCE_ONLY",
+        "decisive_reasons": [
+          "Тематический порог выполнен: 4 селекторов, 2 групп.",
+          "Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 4,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "AUTO_EMERGENT_SOURCE_BUT",
+            "pass": "RECONSTRUCTOR",
+            "A": "В корпусе совместно обнаружены тематические группы: SOURCE_RESISTANCE, TERM_BUT, TERM_NOT, TERM_ALL, TERM_GOVERNMENT, TERM_WHO, TERM_BRITISH, TERM_CHRISTIANS, TERM_TOLERATION.",
+            "P": "Устойчивая тематическая совместность лицензирует постановку и реконструкцию вопроса, но не истинность ответа и не авторскую атрибуцию.",
+            "B": "Тема «Source-forced constellation: but / not / all / Government / who / British» допускается как внутренняя аналитическая гипотеза с обязательной проверкой происхождения и сильнейшего соперника.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT15",
+              "RT18"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000001-D417BD4C75",
+              "OX-P000003-2EFB0248A7",
+              "OX-P000004-94ACD70B6D",
+              "OX-P000008-8EF4AC0100"
+            ],
+            "strongest_rival": {
+              "statement": "Кластер порождён лексической совместностью, повтором или смешением слоёв и не выражает устойчивой аргументативной структуры.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Source-forced constellation: but / not / all / Government / who / British»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+              "Curated topic coverage captured 0/8 source-central terms; 8 remained outside the recognized problem-space."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 4,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "AUTO_EMERGENT_SOURCE_BUT",
+            "pass": "CRITIC",
+            "A": "В корпусе совместно обнаружены тематические группы: SOURCE_RESISTANCE, TERM_BUT, TERM_NOT, TERM_ALL, TERM_GOVERNMENT, TERM_WHO, TERM_BRITISH, TERM_CHRISTIANS, TERM_TOLERATION.",
+            "P": "Устойчивая тематическая совместность лицензирует постановку и реконструкцию вопроса, но не истинность ответа и не авторскую атрибуцию.",
+            "B": "Тема «Source-forced constellation: but / not / all / Government / who / British» допускается как внутренняя аналитическая гипотеза с обязательной проверкой происхождения и сильнейшего соперника.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT15",
+              "RT18"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000001-D417BD4C75",
+              "OX-P000003-2EFB0248A7",
+              "OX-P000004-94ACD70B6D",
+              "OX-P000008-8EF4AC0100"
+            ],
+            "strongest_rival": {
+              "statement": "Кластер порождён лексической совместностью, повтором или смешением слоёв и не выражает устойчивой аргументативной структуры.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Проверен сильнейший соперник: Кластер порождён лексической совместностью, повтором или смешением слоёв и не выражает устойчивой аргументативной структуры.",
+            "limitations": [
+              "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+              "Curated topic coverage captured 0/8 source-central terms; 8 remained outside the recognized problem-space."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 4,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "AUTO_EMERGENT_SOURCE_BUT",
+            "pass": "ADJUDICATOR",
+            "A": "В корпусе совместно обнаружены тематические группы: SOURCE_RESISTANCE, TERM_BUT, TERM_NOT, TERM_ALL, TERM_GOVERNMENT, TERM_WHO, TERM_BRITISH, TERM_CHRISTIANS, TERM_TOLERATION.",
+            "P": "Устойчивая тематическая совместность лицензирует постановку и реконструкцию вопроса, но не истинность ответа и не авторскую атрибуцию.",
+            "B": "Тема «Source-forced constellation: but / not / all / Government / who / British» допускается как внутренняя аналитическая гипотеза с обязательной проверкой происхождения и сильнейшего соперника.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT15",
+              "RT18"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000001-D417BD4C75",
+              "OX-P000003-2EFB0248A7",
+              "OX-P000004-94ACD70B6D",
+              "OX-P000008-8EF4AC0100"
+            ],
+            "strongest_rival": {
+              "statement": "Кластер порождён лексической совместностью, повтором или смешением слоёв и не выражает устойчивой аргументативной структуры.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Тематический порог выполнен: 4 селекторов, 2 групп. Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию.",
+            "limitations": [
+              "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+              "Curated topic coverage captured 0/8 source-central terms; 8 remained outside the recognized problem-space."
+            ],
+            "final_answer": "QUALIFIED: Тематический порог выполнен: 4 селекторов, 2 групп. Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию."
+          }
+        }
+      ]
+    }
+  ]
+}

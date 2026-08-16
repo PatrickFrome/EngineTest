@@ -1,0 +1,22 @@
+{
+  "config_version": "METAENGINE-SUPABASE-RECONNECT-ADMIN-1",
+  "role": "SOLE_CANONICAL_CLOUD_LEDGER_AND_PROMOTION_AUTHORITY",
+  "project_ref": "gzrbxoiuenkksualgpvp",
+  "project_url": "https://gzrbxoiuenkksualgpvp.supabase.co",
+  "database_host": "db.gzrbxoiuenkksualgpvp.supabase.co",
+  "region": "ca-central-1",
+  "database_engine": "postgres",
+  "postgres_major": 17,
+  "credentials_bundled": false,
+  "required_for_full_sql_admin": ["METAENGINE_DATABASE_URL"],
+  "required_for_full_supabase_api": ["SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY"],
+  "expected_canonical": {
+    "checkpoint_id": "metaengine-chat-2.3.0-alpha.1-cp001",
+    "checkpoint_verification_status": "VERIFIED",
+    "checkpoint_is_current": true,
+    "active_policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "champion_policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "champion_generation": 2
+  },
+  "authority_note": "Portable capsule contains identity and verification anchors only. Full credentials must be reacquired/injected in the trusted Z.ai runtime."
+}

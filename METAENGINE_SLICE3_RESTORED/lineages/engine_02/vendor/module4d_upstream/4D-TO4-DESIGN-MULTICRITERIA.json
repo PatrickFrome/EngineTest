@@ -1,0 +1,102 @@
+{
+  "record_id": "4D-TO4-DESIGN-MULTICRITERIA",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "SEP Philosophy of Technology 2026 §§2.2–2.3"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + TO4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "PRACTICE",
+    "description": "Engineering design translates needs into requirements/specifications, iterates through prototypes, negotiates trade-offs and increasingly treats the artifact life cycle as part of design.",
+    "role": [
+      "engineering-design"
+    ],
+    "object_type": "design_practice"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Technical design is exhausted by one single optimization criterion of calculative efficiency and therefore automatically instantiates maximal Gestell.",
+    "claim_facets": {
+      "basis": [
+        "HIST",
+        "EMP"
+      ],
+      "force": "WITHHELD",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT14"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "Contemporary design is multi-criteria, iterative and value/goal laden; calculation and optimization can be important without exhausting design rationality."
+    },
+    "promotion_flags": [
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "engineering philosophy / design",
+    "native_method": "design-methodology analysis",
+    "activated_operators": [
+      "O3",
+      "O4",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY",
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "LOW"
+  },
+  "extensions": {
+    "to4": {
+      "module_id": "TO4",
+      "version": "0.1",
+      "system": "engineering design process",
+      "design_or_operation_mode": "DESIGN",
+      "goals_functions": [
+        "translate needs to functions/specifications",
+        "generate and test design options",
+        "manage lifecycle constraints"
+      ],
+      "ordering_dimensions": [
+        "CALCULATION",
+        "OPTIMIZATION",
+        "STANDARDIZATION",
+        "LIFECYCLE_MANAGEMENT"
+      ],
+      "criteria_tradeoffs": "multiple requirements and criteria create trade-offs; no single generic optimum is guaranteed",
+      "human_roles": [
+        "clients/users",
+        "engineers/design teams",
+        "operators/maintainers"
+      ],
+      "governance": "design requirements, review and testing procedures constrain decisions",
+      "control_responsibility": "responsibility is distributed across design, production, deployment and institutional actors",
+      "value_status": "VALUE_LADEN_FUNCTIONAL",
+      "corrigibility": "prototyping, testing and iterative revision make parts of the process explicitly corrigible",
+      "material_environmental_dependency": "materials, production, operation and disposal constrain designs",
+      "heideggerian_fit": "PARTIAL_FIT",
+      "native_method": "engineering design methodology and artifact analysis",
+      "revision_trigger": "a design domain in which multi-criteria/iterative description fails and one ordering logic actually explains the system substantially better"
+    }
+  },
+  "outcome": "QUALIFY"
+}

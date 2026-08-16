@@ -1,0 +1,33 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "GA01-DOSSIER-SOURCE-AUDIT-001",
+  "protocol_id": "V38-SOURCE-AUDIT",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "GA01-USER-DOSSIER",
+    "description": "Admission of the composite DOCX dossier as an authoritative source for claims about GA 1.1.",
+    "source_refs": ["HGA-USER-DOSSIER-GA01-REALITAET-2026#artifact"]
+  },
+  "operator": {"agent_id": "dae-docx-stage", "role": "automated source-audit router"},
+  "started_at": "2026-08-11T12:00:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "SOURCE_IDENTIFIED": {
+      "status": "YES",
+      "evidence_refs": ["run/source_manifest.json#artifact", "run/docx_intake.json#input"]
+    },
+    "TEXT_ORDERS": {
+      "status": "NO",
+      "note": "The 2026 compilation date is known, but source dates, publication dates, GA placement and later project synthesis are not consistently tagged at claim level."
+    },
+    "GENRE_WEIGHT": {
+      "status": "UNKNOWN",
+      "note": "The machine identifies a composite dossier with interaction residue; independent human genre adjudication is absent."
+    },
+    "SOURCE_PROJECT_SEPARATED": {
+      "status": "NO",
+      "note": "Primary-text reports, secondary reconstruction, project proposals and tool/dialogue residue coexist without a uniform claim-level origin field."
+    }
+  },
+  "declared_outcome": "FAIL"
+}

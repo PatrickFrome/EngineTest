@@ -1,0 +1,56 @@
+{
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "registry_snapshot_sha256": "b50ee520f2dd605fb48f94c44dbb5fd26980fbcacf6a2150aafe178d41f631e8",
+  "sources": [
+    {
+      "pack_root_sha256": null,
+      "record_sha256": "bd3ab4a6d86df54097101a9bd3b747fa76cff4d9428a98f612cc410933548002",
+      "source_id": "anthropic-claude-public"
+    },
+    {
+      "pack_root_sha256": "b0dde546f20d04fde3b975d8dd212254f49871e5bb69cecd3764086f6ffdcdc6",
+      "record_sha256": "8932cc6ce288a9b5985e0c35cc7979aac7c0970fcaa9d71ca2e7ddf06c05ec06",
+      "source_id": "deepseek-v3.2-exp-87e509a"
+    },
+    {
+      "pack_root_sha256": "472d6d44d03a82bea7656fc1f4ea8f6d1f33a39184d789d29057410cbd48e9fa",
+      "record_sha256": "9fbcb9fbdbc003c1e89ad51db616572dcdebd2e8bea8d1dfe2459dcc9b8f22be",
+      "source_id": "glm-4.5-170f20b"
+    },
+    {
+      "pack_root_sha256": null,
+      "record_sha256": "f874f109947c165c39363969befcce50d9162aa3ee47256b8d58105f015e768f",
+      "source_id": "google-gemini-deep-think-public"
+    },
+    {
+      "pack_root_sha256": null,
+      "record_sha256": "cf46ef7a55a08afb8736f27bcd96b77297abf6d39cf57085fd8b103b9c605944",
+      "source_id": "kimi-k3-3cb39df"
+    },
+    {
+      "pack_root_sha256": "35c5c6825804ff02be2c4ec8c6801c786bb1883c231b0dc09cf3bcf2646b3026",
+      "record_sha256": "01ce522612ea0c37af72d49b79dffff233cbef8fd5a633503fb1cc7a1aab0bd4",
+      "source_id": "kimi-linear-8c1d85e"
+    },
+    {
+      "pack_root_sha256": null,
+      "record_sha256": "442b5c96e661255c9d289d698108e69ad84b3596b49e30c48e586065cad47b56",
+      "source_id": "llama4-0e0b8c5"
+    },
+    {
+      "pack_root_sha256": "41d34f4c48dea3a619b5275bfc3870ffce051960e18d67c4a20d507749970fb0",
+      "record_sha256": "8065e5a9cfb3ef8e896bfc49fd7aac52f915edc1898d93691afa791f796224f7",
+      "source_id": "mistral-inference-9eaeb91"
+    },
+    {
+      "pack_root_sha256": null,
+      "record_sha256": "e0e4dae1a065b0cb269c29c7785fa8791e807c31b93e244fd8afc2e29ccbc450",
+      "source_id": "openai-gpt-5.6-public"
+    },
+    {
+      "pack_root_sha256": "d75ef6264b51e7627c7649b3ff69c95f8f7e0f294c31f295e28b86862d29d4a5",
+      "record_sha256": "94e3add26ce503398ab3a240daf2eecd4d83d5a81e53b1162ce2c5301fe5e047",
+      "source_id": "qwen3.6-0886e34"
+    }
+  ]
+}

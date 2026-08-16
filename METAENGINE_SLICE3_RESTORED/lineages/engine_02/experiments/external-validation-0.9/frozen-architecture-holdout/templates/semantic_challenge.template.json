@@ -1,0 +1,112 @@
+{
+  "challenge_version": "DESTRUKTION-HOLDOUT-SEMANTIC-CHALLENGE-0.9",
+  "benchmark_id": "HB-8B928271E125A87B",
+  "author": {
+    "id": "REPLACE_WITH_INDEPENDENT_CHALLENGE_AUTHOR",
+    "independent_of_dae_development": true,
+    "dae_predictions_seen": false,
+    "gold_seen": false
+  },
+  "created_at": "2026-08-11T19:25:40Z",
+  "cases": [
+    {
+      "case_id": "HCH-001-NEGATION",
+      "phenomenon": "NEGATION",
+      "anchor_unit_id": "HU-962BBC7010BBF6CC",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "expected_relation": "MUST_REASSESS_NOT_COPY_ANCHOR",
+      "allowed_statuses": [
+        "SUPPORTED",
+        "QUALIFIED",
+        "REJECTED",
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION"
+    },
+    {
+      "case_id": "HCH-002-QUOTED_OPPONENT",
+      "phenomenon": "QUOTED_OPPONENT",
+      "anchor_unit_id": "HU-C3D569742DC38315",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "expected_relation": "MUST_REASSESS_NOT_COPY_ANCHOR",
+      "allowed_statuses": [
+        "SUPPORTED",
+        "QUALIFIED",
+        "REJECTED",
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION"
+    },
+    {
+      "case_id": "HCH-003-ATTRIBUTION_SHIFT",
+      "phenomenon": "ATTRIBUTION_SHIFT",
+      "anchor_unit_id": "HU-7D141A912DBB7336",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "expected_relation": "MUST_REASSESS_NOT_COPY_ANCHOR",
+      "allowed_statuses": [
+        "SUPPORTED",
+        "QUALIFIED",
+        "REJECTED",
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION"
+    },
+    {
+      "case_id": "HCH-004-MODALITY_WEAKENING",
+      "phenomenon": "MODALITY_WEAKENING",
+      "anchor_unit_id": "HU-332C39332F8AE981",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "expected_relation": "MUST_REASSESS_NOT_COPY_ANCHOR",
+      "allowed_statuses": [
+        "SUPPORTED",
+        "QUALIFIED",
+        "REJECTED",
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION"
+    },
+    {
+      "case_id": "HCH-005-PARAPHRASE",
+      "phenomenon": "PARAPHRASE",
+      "anchor_unit_id": "HU-D47DFBCC5641342E",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "expected_relation": "PRESERVE_ARCHITECTURAL_JUDGMENT",
+      "allowed_statuses": [
+        "SUPPORTED",
+        "QUALIFIED",
+        "REJECTED",
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION"
+    },
+    {
+      "case_id": "HCH-006-TRANSLATION",
+      "phenomenon": "TRANSLATION",
+      "anchor_unit_id": "HU-85799B5C11A15852",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "expected_relation": "PRESERVE_ARCHITECTURAL_JUDGMENT",
+      "allowed_statuses": [
+        "SUPPORTED",
+        "QUALIFIED",
+        "REJECTED",
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION"
+    },
+    {
+      "case_id": "HCH-007-DECOY_TERMINOLOGY",
+      "phenomenon": "DECOY_TERMINOLOGY",
+      "anchor_unit_id": "HU-1A073BF925172730",
+      "variant_text": "REPLACE_WITH_INDEPENDENTLY_AUTHORED_VARIANT",
+      "expected_relation": "MUST_REASSESS_NOT_COPY_ANCHOR",
+      "allowed_statuses": [
+        "SUPPORTED",
+        "QUALIFIED",
+        "REJECTED",
+        "INSUFFICIENT"
+      ],
+      "rationale": "REPLACE_WITH_SOURCE_GROUNDED_EXPECTATION"
+    }
+  ],
+  "claim_ceiling": "INDEPENDENT_SEMANTIC_STRESS_TEMPLATE_NOT_GOLD"
+}

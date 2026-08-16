@@ -1,0 +1,38 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "CLAIM-DISCIPLINE-DEMO-001",
+  "protocol_id": "V38-CLAIM-DISCIPLINE",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "DEMO-CLAIM-001",
+    "description": "A bounded textual reconstruction used to exercise the protocol runner.",
+    "source_refs": ["V38#L169-L182"]
+  },
+  "operator": {
+    "agent_id": "fixture-author",
+    "role": "test"
+  },
+  "started_at": "2026-08-11T12:00:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "ORIGIN_MARKED": {
+      "status": "YES",
+      "evidence_refs": ["V38#L169-L182"],
+      "note": "Origin is TXT plus reconstruction."
+    },
+    "JUSTIFICATION_MODE": {
+      "status": "YES",
+      "note": "Comparative reconstruction."
+    },
+    "SCALE_MARKED": {
+      "status": "YES",
+      "note": "One source passage only."
+    },
+    "REVISION_TRIGGER": {
+      "status": "YES",
+      "evidence_refs": ["DEMO-NEGATIVE-TEST#1"],
+      "note": "Downgrade if the source passage contradicts the reconstruction."
+    }
+  },
+  "declared_outcome": "PASS"
+}

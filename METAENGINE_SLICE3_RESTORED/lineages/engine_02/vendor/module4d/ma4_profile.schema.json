@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/module/ma4-0.1-engine-reconstruction.json",
+  "title": "MA4-0.1 Machenschaft / Makeability Profile — engine reconstruction",
+  "type": "object",
+  "required": ["module_id", "version", "bearer_level", "makeability_dimensions", "calculability_relation", "experience_relation", "causality_relation", "human_agency_status", "scope", "totalization_status", "counterprofile", "discriminator", "revision_trigger"],
+  "properties": {
+    "module_id": {"const": "MA4"},
+    "version": {"const": "0.1-engine-reconstruction"},
+    "bearer_level": {"enum": ["HUMAN_PRACTICE", "OBJECT_INTERPRETATION", "BEINGNESS_HISTORY_DIAGNOSIS", "MIXED", "UNRESOLVED"]},
+    "makeability_dimensions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"enum": ["PRODUCIBILITY", "PLANABILITY", "CALCULABILITY", "MANIPULABILITY", "OBJECTIFIABILITY", "PROCEDURALIZATION", "STANDARDIZATION", "SCALABILITY", "OTHER", "UNRESOLVED"]}
+    },
+    "calculability_relation": {"enum": ["DEFINITION", "CONSEQUENCE", "MANIFESTATION", "CONTESTED", "UNRESOLVED"]},
+    "experience_relation": {"type": "string", "minLength": 1},
+    "causality_relation": {"type": "string", "minLength": 1},
+    "human_agency_status": {"enum": ["PRIMARY", "PARTICIPATORY", "NOT_PRIMARY", "CONTESTED", "UNRESOLVED"]},
+    "scope": {"enum": ["LOCAL", "REGIONAL", "EPOCHAL", "UNIVERSAL", "UNRESOLVED"]},
+    "totalization_status": {"enum": ["BLOCKED", "LOCAL_ONLY", "REGIONAL_HYPOTHESIS", "EPOCHAL_SOURCE_CLAIM", "STRONG_UNIVERSAL_CLAIM", "CONTESTED", "UNRESOLVED"]},
+    "counterprofile": {"type": "string", "minLength": 1},
+    "discriminator": {"type": "string", "minLength": 1},
+    "revision_trigger": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

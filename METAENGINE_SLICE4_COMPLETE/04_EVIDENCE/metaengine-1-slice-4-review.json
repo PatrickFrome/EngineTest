@@ -1,0 +1,107 @@
+{
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1",
+  "completed_step_id": "METAENGINE-1-SLICE-4",
+  "completed_step_commit": "7f8224a94e7e0ad21d35827f768ce59f8540d85f",
+  "completed_step_evidence_hashes": [
+    "0b198134f6b0d9d0215f478d54c1163fa4daab8edcbbe0748cc757b0cc6f11c6",
+    "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+    "51ea84257c22acbc4c040f6f29e2dad2e0d2d1be87e873f41635a103fecabc9f",
+    "7349731c3884c43dabbbd906955de646547edb0ea5b0f3e91a3df52c88b34791",
+    "902a8f430910ff9a307432cf24a0b113317d5e90f3000f0aed1957fc304120fd",
+    "cd653eed28f14394bf21a5283856868e08f401a2095d50ff6f8e35ece3743b49",
+    "e18c494c253e874f39d771b4f0774d68ef91b42d9188034a47df6f63dd6ffcad",
+    "ebadbcd2ac9d83147b2a12087292c47634d2b4c085d4837b0f9f7a1b646a5662"
+  ],
+  "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+  "architecture_library_snapshot_hash": "c82332a080a04daf773fdc2fa91c63da88ddf934260bab173b953170d4a2622d",
+  "policy_snapshot_hash": "1888a575abae2ba844f53a005a23c48ed5581722d2a64cf6df40f60bbda66f32",
+  "relevant_mechanism_ids": [
+    "EXPERIMENT_CONTRACT_V1",
+    "SPARSE_ROUTING_TOURNAMENT_V1",
+    "sparse-conditional-routing"
+  ],
+  "alternatives_considered": [
+    {
+      "kind": "CURRENT",
+      "summary": "No causal experiment exists; sparse-conditional-routing remains A1 hypothesis with no evidence.",
+      "evidence_hashes": [
+        "0b198134f6b0d9d0215f478d54c1163fa4daab8edcbbe0748cc757b0cc6f11c6",
+        "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+        "51ea84257c22acbc4c040f6f29e2dad2e0d2d1be87e873f41635a103fecabc9f",
+        "7349731c3884c43dabbbd906955de646547edb0ea5b0f3e91a3df52c88b34791",
+        "902a8f430910ff9a307432cf24a0b113317d5e90f3000f0aed1957fc304120fd",
+        "cd653eed28f14394bf21a5283856868e08f401a2095d50ff6f8e35ece3743b49",
+        "e18c494c253e874f39d771b4f0774d68ef91b42d9188034a47df6f63dd6ffcad",
+        "ebadbcd2ac9d83147b2a12087292c47634d2b4c085d4837b0f9f7a1b646a5662"
+      ]
+    },
+    {
+      "kind": "LIBRARY",
+      "summary": "Immediate heterogeneous live-model tournament; rejected for first pass (provider quality/latency/stochasticity confound causal attribution). Deferred to transfer testing.",
+      "evidence_hashes": [
+        "0b198134f6b0d9d0215f478d54c1163fa4daab8edcbbe0748cc757b0cc6f11c6",
+        "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+        "51ea84257c22acbc4c040f6f29e2dad2e0d2d1be87e873f41635a103fecabc9f",
+        "7349731c3884c43dabbbd906955de646547edb0ea5b0f3e91a3df52c88b34791",
+        "902a8f430910ff9a307432cf24a0b113317d5e90f3000f0aed1957fc304120fd",
+        "cd653eed28f14394bf21a5283856868e08f401a2095d50ff6f8e35ece3743b49",
+        "e18c494c253e874f39d771b4f0774d68ef91b42d9188034a47df6f63dd6ffcad",
+        "ebadbcd2ac9d83147b2a12087292c47634d2b4c085d4837b0f9f7a1b646a5662"
+      ]
+    },
+    {
+      "kind": "MINIMAL",
+      "summary": "Use legacy 16X CapabilityRouter as experiment implementation; rejected (carries legacy assumptions, ambiguous causal attribution).",
+      "evidence_hashes": [
+        "0b198134f6b0d9d0215f478d54c1163fa4daab8edcbbe0748cc757b0cc6f11c6",
+        "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+        "51ea84257c22acbc4c040f6f29e2dad2e0d2d1be87e873f41635a103fecabc9f",
+        "7349731c3884c43dabbbd906955de646547edb0ea5b0f3e91a3df52c88b34791",
+        "902a8f430910ff9a307432cf24a0b113317d5e90f3000f0aed1957fc304120fd",
+        "cd653eed28f14394bf21a5283856868e08f401a2095d50ff6f8e35ece3743b49",
+        "e18c494c253e874f39d771b4f0774d68ef91b42d9188034a47df6f63dd6ffcad",
+        "ebadbcd2ac9d83147b2a12087292c47634d2b4c085d4837b0f9f7a1b646a5662"
+      ]
+    },
+    {
+      "kind": "SYNTHESIS",
+      "summary": "Clean-room deterministic causal tournament: three arms (DENSE_ALL_SPECIALISTS, RANDOM_TOP_K, CAPABILITY_ROUTED_TOP_K) under equal processing_resource_units=2, two regimes, frozen experiment_contract, content-addressed experiment_receipt. Selected.",
+      "evidence_hashes": [
+        "0b198134f6b0d9d0215f478d54c1163fa4daab8edcbbe0748cc757b0cc6f11c6",
+        "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+        "51ea84257c22acbc4c040f6f29e2dad2e0d2d1be87e873f41635a103fecabc9f",
+        "7349731c3884c43dabbbd906955de646547edb0ea5b0f3e91a3df52c88b34791",
+        "902a8f430910ff9a307432cf24a0b113317d5e90f3000f0aed1957fc304120fd",
+        "cd653eed28f14394bf21a5283856868e08f401a2095d50ff6f8e35ece3743b49",
+        "e18c494c253e874f39d771b4f0774d68ef91b42d9188034a47df6f63dd6ffcad",
+        "ebadbcd2ac9d83147b2a12087292c47634d2b4c085d4837b0f9f7a1b646a5662"
+      ]
+    }
+  ],
+  "decision": "ACCEPT_WITH_FOLLOWUP_EXPERIMENT",
+  "rationale": "Slice 4 implements the first clean-room causal mechanism tournament for sparse-conditional-routing. The experiment compares DENSE_ALL_SPECIALISTS, RANDOM_TOP_K, and CAPABILITY_ROUTED_TOP_K under an equal processing_resource_units=2 budget across two regimes (separable and ambiguous). The frozen, content-addressed experiment_contract and experiment_receipt are materialized. The local scientific decision is SUPPORTED_LOCAL: capability routing outperforms both dense and random baselines in both regimes under equal budget. However, this is a LOCAL result only — truth_effect=NONE and assimilation_effect=NONE. The mechanism remains at A1_MECHANISM_HYPOTHESIS. A heterogeneous transfer test with independently implemented resources is required before any assimilation claim. Constitution/architecture-library/policy snapshots are unchanged; no canonical mutation occurred.",
+  "complexity_delta": "One new module (metaengine/experiments/sparse_conditional_routing.py) + one test module (21 tests). No new Core runtime dependency, no foreign code dependency, no canonical mutation.",
+  "capability_hypothesis": "A clean-room deterministic causal tournament can isolate the sparse-conditional-routing mechanism from model/provider quality and produce falsifiable evidence under equal resource budgets.",
+  "required_followup_experiment": "Heterogeneous transfer test: implement the same mechanism contract with independently implemented resources/models across multiple task regimes. Only after transfer evidence may the mechanism advance beyond A1.",
+  "constitutional_findings": [
+    "truth_effect=NONE and assimilation_effect=NONE: the experiment produces local evidence only; no scientific truth or mechanism assimilation is claimed.",
+    "PRESERVE_ABSTENTION: missing measurements remain UNOBSERVED; the capability router sees only declared capabilities (no task-quality labels or evaluator outputs).",
+    "MUTATION_REQUIRES_RECEIPT: experiment_contract and experiment_receipt are content-addressed; from_dict re-verifies the claimed hash; tamper is rejected.",
+    "SEPARATE_GENERATION_AND_PROMOTION: the experiment is not its own promotion authority; mechanism stays A1; no canonical checkpoint/champion/promotion/adaptation mutation.",
+    "FROZEN_EVALUATION_CONTRACT: the contract is frozen before execution; a contract change creates a new experiment identity."
+  ],
+  "library_findings": [
+    "The sparse-conditional-routing mechanism card (hash 4d854803...) remains at A1_MECHANISM_HYPOTHESIS with assimilation_effect=NONE.",
+    "The experiment uses provider-neutral Specialist abstractions (a projection of ResourceDescriptor) and does not import foreign MoE code.",
+    "The three arms are implemented with deterministic selection: DENSE (all), RANDOM (frozen seeds), CAPABILITY (affinity ranking with canonical tie-breaking).",
+    "The experiment_receipt is content-addressed and replayable; timestamps do not participate in receipt identity."
+  ],
+  "policy_findings": [
+    "Canonical checkpoint metaengine-chat-2.3.0-alpha.1-cp001 remains VERIFIED_CURRENT; active policy 1868b3c7... remains ACTIVE gen 2; adaptation_receipt_count=0; promotion BLOCKED; D6-G1 shadow-only.",
+    "constitution/architecture-library/policy snapshot hashes are unchanged from the Slice-3 receipt.",
+    "The 18-tool chat-facing Federation MCP allowlist is unchanged.",
+    "No mechanism assimilation or canonical promotion occurred; the mechanism remains A1."
+  ],
+  "next_step_allowed": true,
+  "receipt_hash": "382906b1d4bb34dcd4214250e80479ffd5f6873a28ab2ceb82e7afa023b3b7e2"
+}

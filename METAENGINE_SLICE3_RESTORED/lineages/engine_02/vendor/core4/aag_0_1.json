@@ -1,0 +1,55 @@
+{
+  "id": "AAG-0.1",
+  "status": "CANDIDATE-FROZEN",
+  "invariants": [
+    "O0",
+    "O1",
+    "O4",
+    "O9"
+  ],
+  "triggers": {
+    "O2": [
+      "problem-space contested",
+      "problemgenesis carries claim burden"
+    ],
+    "O3": [
+      "lexical/function conflation"
+    ],
+    "O5": [
+      "C/G promotion",
+      "scope mismatch"
+    ],
+    "O6": [
+      "live rivals",
+      "underdetermination"
+    ],
+    "O7": [
+      "deconflation requires reintegration",
+      "network composition supports downstream claim"
+    ],
+    "O8": [
+      "positive reconstruction is part of task"
+    ]
+  },
+  "extensions": {
+    "ROLE_STATUS": [
+      "role/status promotion risk"
+    ],
+    "TAN": [
+      "implicit network/branching/cycle AND no sufficient native graph"
+    ],
+    "DOMAIN_PROFILE": [
+      "domain-specific machinery needed"
+    ]
+  },
+  "activation_pipeline": [
+    "O0/O1/O4/O9",
+    "TRV",
+    "NCV",
+    "RTR",
+    "conditional operators",
+    "extensions",
+    "cost gate",
+    "outcome"
+  ]
+}

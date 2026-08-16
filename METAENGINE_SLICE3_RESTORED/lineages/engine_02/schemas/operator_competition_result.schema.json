@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/operator_competition_result.schema.json",
+  "title": "Destruktion local operator competition result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["result_version", "engine_version", "generated_at", "outcome", "routing_policy", "promotion_status", "candidate_births", "target_results", "summary", "claim_ceiling"],
+  "properties": {
+    "result_version": {"const": "DAE-OPERATOR-COMPETITION-RESULT-1.0"},
+    "engine_version": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "outcome": {"enum": ["PASSES_LOCAL_OPERATOR_ECOLOGY_REGRESSION", "REVIEW_OPERATOR_ECOLOGY"]},
+    "routing_policy": {"const": "LOCAL_SELECTION_COMPOSITION_OR_ABSTENTION_WITHOUT_GLOBAL_ONTOLOGY"},
+    "promotion_status": {"const": "EXPERIMENTAL_NOT_CORE"},
+    "candidate_births": {
+      "type": "array", "minItems": 2,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["candidate_id", "origin_corpus_id", "origin_operator_candidate", "origin_profile_hints", "required_birth_hints", "missing_birth_hints", "origin_mutation_found", "source_birth_confirmed"],
+        "properties": {
+          "candidate_id": {"type": "string"}, "origin_corpus_id": {"type": "string"}, "origin_operator_candidate": {"type": "string"},
+          "origin_profile_hints": {"type": "array", "items": {"type": "string"}},
+          "required_birth_hints": {"type": "array", "items": {"type": "string"}},
+          "missing_birth_hints": {"type": "array", "items": {"type": "string"}},
+          "origin_mutation_found": {"type": "boolean"}, "source_birth_confirmed": {"type": "boolean"}
+        }
+      }
+    },
+    "target_results": {
+      "type": "array", "minItems": 3,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["corpus_id", "label", "profile_hints", "source_operator_candidate", "candidate_evaluations", "decision", "selected_candidates", "covered_hints", "residual_hints", "rationale", "expectation_pass", "checks"],
+        "properties": {
+          "corpus_id": {"type": "string"}, "label": {"type": "string"},
+          "profile_hints": {"type": "array", "items": {"type": "string"}},
+          "source_operator_candidate": {"type": "string"},
+          "candidate_evaluations": {
+            "type": "array", "minItems": 2,
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["candidate_id", "label", "origin_corpus_id", "source_birth_confirmed", "source_operator", "required_matched", "required_missing", "optional_matched", "incompatible_present", "matched_hints", "distinction_gain", "distortion_loss", "complexity_cost", "score", "viable"],
+              "properties": {
+                "candidate_id": {"type": "string"}, "label": {"type": "string"}, "origin_corpus_id": {"type": "string"}, "source_birth_confirmed": {"type": "boolean"}, "source_operator": {"type": "string"},
+                "required_matched": {"type": "array", "items": {"type": "string"}}, "required_missing": {"type": "array", "items": {"type": "string"}},
+                "optional_matched": {"type": "array", "items": {"type": "string"}}, "incompatible_present": {"type": "array", "items": {"type": "string"}},
+                "matched_hints": {"type": "array", "items": {"type": "string"}},
+                "distinction_gain": {"type": "integer"}, "distortion_loss": {"type": "integer"}, "complexity_cost": {"type": "integer"}, "score": {"type": "integer"}, "viable": {"type": "boolean"}
+              }
+            }
+          },
+          "decision": {"enum": ["SELECT_LOCAL_WINNER", "LOCAL_COMPOSITION", "KEEP_RIVALS_UNRESOLVED", "ABSTAIN_UNRESOLVED"]},
+          "selected_candidates": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "covered_hints": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "residual_hints": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "rationale": {"type": "string"}, "expectation_pass": {"type": "boolean"},
+          "checks": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["check", "passed", "observed", "expected"], "properties": {"check": {"type": "string"}, "passed": {"type": "boolean"}, "observed": {"type": "string"}, "expected": {"type": "string"}}}}
+        }
+      }
+    },
+    "summary": {
+      "type": "object", "additionalProperties": false,
+      "required": ["candidates", "source_births_confirmed", "targets", "expectations_passed", "local_winners", "local_compositions", "unresolved_rivals", "abstentions"],
+      "properties": {
+        "candidates": {"type": "integer", "minimum": 2}, "source_births_confirmed": {"type": "integer", "minimum": 0}, "targets": {"type": "integer", "minimum": 3}, "expectations_passed": {"type": "integer", "minimum": 0},
+        "local_winners": {"type": "integer", "minimum": 0}, "local_compositions": {"type": "integer", "minimum": 0}, "unresolved_rivals": {"type": "integer", "minimum": 0}, "abstentions": {"type": "integer", "minimum": 0}
+      }
+    },
+    "claim_ceiling": {"const": "INTERNAL_SOURCE_BOUNDED_OPERATOR_COMPETITION_NOT_EXTERNAL_SEMANTIC_VALIDATION_OR_CORE_PROMOTION"}
+  }
+}

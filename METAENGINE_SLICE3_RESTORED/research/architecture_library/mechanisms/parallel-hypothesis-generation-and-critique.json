@@ -1,0 +1,21 @@
+{
+  "assimilation_effect": "NONE",
+  "card_sha256": "2271bf212885502630536fdc0535e16859b489965aa63192f56c8917d40cc9a9",
+  "mechanism_card_version": "ARCHITECTURE-MECHANISM-CARD-1",
+  "mechanism_id": "parallel-hypothesis-generation-and-critique",
+  "origin_source_ids": [
+    "google-gemini-deep-think-public"
+  ],
+  "status": "A1_MECHANISM_HYPOTHESIS",
+  "variants": [
+    {
+      "falsification_test": "Compare single-path, parallel-without-critique, and parallel-with-critique variants under equal total compute.",
+      "hypothesized_effect": "Improve hard-problem reliability by preserving competing possibilities before convergence.",
+      "mechanism_id": "parallel-hypothesis-generation-and-critique",
+      "semantic_definition": "Generate multiple candidate hypotheses and compare or critique them before selecting an answer.",
+      "source_fact_boundary": "Public reasoning descriptions motivate the behavioral hypothesis; hidden implementation details remain unknown.",
+      "source_id": "google-gemini-deep-think-public",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ]
+}

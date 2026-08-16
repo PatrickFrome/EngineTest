@@ -1,0 +1,56 @@
+{
+  "hard": {
+    "allowed_integration_modes": [
+      "EXCLUSIVE",
+      "PARALLEL",
+      "REDUNDANT",
+      "IMPLEMENT_REVIEW"
+    ],
+    "authority_boundaries": [
+      "PROPOSAL_ONLY",
+      "NO_CANONICAL_PROMOTION",
+      "FENCED_TASK_SCOPE"
+    ],
+    "mandatory_reviewers": [
+      "C6"
+    ],
+    "privacy_ceiling": "P3",
+    "prohibited_actions": [
+      "CANONICAL_BYPASS",
+      "SECRET_RETRIEVAL",
+      "DIRECT_CANONICAL_WRITE"
+    ],
+    "role": "AI_SWARM",
+    "slot": "C3",
+    "subsystem_ownership": [
+      "Ollama/OpenCode/OpenHands/Coder/DevPod orchestration"
+    ]
+  },
+  "soft": {
+    "capability_weights": {
+      "coding": 0.9,
+      "model-routing": 0.9,
+      "orchestration": 0.95
+    },
+    "concurrency_preference": 6,
+    "exploration_weight": 0.2,
+    "preferred_task_classes": [
+      "agent-orchestration",
+      "model-routing",
+      "candidate-worlds"
+    ],
+    "preferred_workers": [
+      "ollama",
+      "opencode",
+      "openhands",
+      "coder",
+      "devpod"
+    ],
+    "provider_priors": {},
+    "review_pairings": [
+      "C6",
+      "C2"
+    ]
+  },
+  "version": "d6-role-v1"
+}

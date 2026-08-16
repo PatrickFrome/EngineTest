@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metaengine.local/schemas/input_security_classification.schema.json",
+  "title": "MetaEngine 2.3 untrusted input classification",
+  "type": "object",
+  "required": ["classification_version", "detected_markers", "risk", "control_plane_authority", "tool_permission_effect", "policy_mutation_effect", "classification_hash"],
+  "properties": {
+    "classification_version": {"const": "16X-UNTRUSTED-INPUT-BOUNDARY-2.3"},
+    "detected_markers": {"type": "array", "items": {"type": "string"}},
+    "control_plane_authority": {"const": false},
+    "tool_permission_effect": {"const": "NONE"},
+    "policy_mutation_effect": {"const": "NONE"},
+    "classification_hash": {"type": "string", "minLength": 64, "maxLength": 64}
+  },
+  "additionalProperties": true
+}

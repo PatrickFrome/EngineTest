@@ -1,0 +1,98 @@
+{
+  "advisors": {
+    "d6_g0_unindexed_foreign_keys": 0,
+    "d6_g0_unused_indexes": "EXPECTED_ON_LOW_VOLUME_STAGING",
+    "security_high_or_error_findings_caused_by_d6_g0": 0,
+    "security_info_rls_no_policy": "EXPECTED_DENY_BY_DEFAULT_PRIVATE_SCHEMA"
+  },
+  "canonical_project_id": "gzrbxoiuenkksualgpvp",
+  "canonical_writes": 0,
+  "gate_version": "METAENGINE-DEVFABRIC-STAGE-D6-G0-STAGING-VALIDATION-1",
+  "local_predeploy": {
+    "devfabric_group_1": "PASS",
+    "devfabric_group_2": "PASS",
+    "devfabric_group_3": "PASS",
+    "devfabric_group_4": "PASS",
+    "engine_suite": "PASS",
+    "federation_finalization_subset": "PASS",
+    "node_mcp_invariance": "PASS_11_OF_11",
+    "typescript_core": "PASS"
+  },
+  "migration": {
+    "bytes": 38366,
+    "lines": 768,
+    "path": "storage/federated_chat_fabric_d6_finalization.sql",
+    "rollout_note": "Interrupted execution had already applied the tracked companion migration to STAGING as three sequential migration records. Live object/signature/security audits and behavioral gates were completed before canonical rollout; no ad-hoc staging patch was used.",
+    "sha256": "9455e6f800d07e7cd4c2a87ab3787c65824b637045232997712d61026bd313ba",
+    "staging_rollout_provenance": [
+      "20260813025619:metaengine_d6_g0_immutable_epoch_finalization_01",
+      "20260813025707:metaengine_d6_g0_immutable_epoch_finalization_02",
+      "20260813025744:metaengine_d6_g0_immutable_epoch_finalization_03"
+    ]
+  },
+  "notes": [
+    "STAGING used only synthetic federation data; canonical writes remained zero.",
+    "Frozen-cut recovery reproduced the terminal snapshot after all live witnesses were revoked/released.",
+    "Manual-relay canary status is not upgraded to MCP deployment PASS."
+  ],
+  "receipt_hash": "5e5291165d4189ac68f0c8c89089711f22d8a3f2eacad968611ea3a1737a19cc",
+  "schema_security": {
+    "chat_facing_federation_tools": 18,
+    "finalization_rpc_count": 2,
+    "finalization_table_count": 1,
+    "force_rls": true,
+    "immutable_trigger": true,
+    "new_chat_facing_tools": 0,
+    "public_anon_authenticated_execute": 0,
+    "rls_enabled": true,
+    "security_definer_rpc_count": 0,
+    "service_role_privileges": [
+      "INSERT",
+      "SELECT"
+    ],
+    "service_role_update_delete": false
+  },
+  "staging_project_id": "sibnfciqcpkuquxzduqr",
+  "status": "PASS_IMMUTABLE_FINALIZATION",
+  "synthetic_epoch": {
+    "closed_epoch_barriers": {
+      "candidate": "FEDERATION_EPOCH_IMMUTABLE",
+      "claim": "FEDERATION_EPOCH_IMMUTABLE",
+      "conflict": "FEDERATION_EPOCH_IMMUTABLE",
+      "integration": "FEDERATION_EPOCH_IMMUTABLE",
+      "progress": "FEDERATION_EPOCH_IMMUTABLE",
+      "reclaim": "FEDERATION_EPOCH_IMMUTABLE",
+      "register": "FEDERATION_EPOCH_IMMUTABLE",
+      "review": "FEDERATION_EPOCH_IMMUTABLE",
+      "seed_task": "FEDERATION_EPOCH_IMMUTABLE",
+      "snapshot": "FEDERATION_EPOCH_IMMUTABLE"
+    },
+    "epoch_id": "d6g0-staging-finalization-e001",
+    "final_snapshot_hash": "53eca0da0bc4d296d6d4c376952faeb39b98182187e39b7e16b50ca25beb74ec",
+    "finalization_hash": "97457f55d4ca33a5085af66a9d08eca3e885a9ffef15173ca30eed7d37fa68a9",
+    "frozen_recovery": "PASS",
+    "frozen_recovery_live_witness_dependency": false,
+    "integration_order": [
+      "41495ee7be37edbb4cdc3a6058f582d069780e3db06f947057a661ffdc0fb5e2",
+      "8191c22e79a71fa5f9fcd6252e546c287099882ec085340cea473331e0161898"
+    ],
+    "post_finalization": {
+      "active_sessions": 0,
+      "claimed_assignments": 0,
+      "claimed_fixture_assignment_state": "RELEASED",
+      "conflicting_repeat": "FEDERATION_FINALIZATION_CONFLICT",
+      "epoch_state": "CLOSED",
+      "exact_repeat": "ALREADY_FINALIZED",
+      "finalization_rows": 1,
+      "immutable_delete": "FEDERATION_FINALIZATION_IMMUTABLE",
+      "immutable_update": "FEDERATION_FINALIZATION_IMMUTABLE"
+    },
+    "pre_finalization_negative_gates": {
+      "cut_drift": "FEDERATION_FINALIZATION_CUT_DRIFT",
+      "stale_c0_generation": "FEDERATION_SYNCHRONIZER_FENCED",
+      "unsupported_version": "FEDERATION_FINALIZATION_VERSION_UNSUPPORTED",
+      "wrong_snapshot": "FEDERATION_FINAL_SNAPSHOT_INVALID"
+    },
+    "recovery_cut_hash": "0592121cfab3682a80d45bf7751009c8cf51c5c579dd4e26b4cfca93f4f9807b"
+  }
+}

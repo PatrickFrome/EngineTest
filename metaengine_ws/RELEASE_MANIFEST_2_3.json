@@ -1,0 +1,75 @@
+{
+  "release": "Destruktion 4.0 METAENGINE 16X 2.3.0-alpha.1",
+  "version": "2.3.0-alpha.1",
+  "release_date_utc": "2026-08-12",
+  "artifact_type": "OUTCOME_GATED_DECLARATIVE_POLICY_EVOLUTION_RESEARCH_KERNEL",
+  "source_tree_sha256": "f932c8c94d74c967dd639e3e8b323d5ad71d3eaced1667183f3942ebaa73087f",
+  "lineage_checksum_manifest": {
+    "path": "SHA256SUMS.txt",
+    "sha256": "3efe1725febccbf29ab594c10545f3709e258d5bd41dc3bc533cef9b8f089835",
+    "files_verified": 9839,
+    "files_failed": 0
+  },
+  "validation": {
+    "python_tests_passed": 67,
+    "python_tests_failed": 0,
+    "champion_meta_run_schema_valid": true,
+    "truth_promotion_violations": 0,
+    "unverified_biography_observations_accepted": 0
+  },
+  "controlled_campaign": {
+    "path": "release-evidence/2.3/outcome_gated_evolution_campaign/EVOLUTION_CAMPAIGN.json",
+    "file_sha256": "5a7349f7b037f459aa5eacd7fd0d3c674e49da14318662dfb4657a3d15c9eb44",
+    "campaign_hash": "9b5eb7284d52665ea68e735b904d573ac2e545b49cae6b501b41f0cd8142531c",
+    "generations": 3,
+    "worlds_completed": 7200,
+    "maximum_concurrent_worlds": 8,
+    "promotions": 2,
+    "retained_generations": 1,
+    "claim_scope": "LOCAL_DETERMINISTIC_MECHANISM_VALIDATION"
+  },
+  "active_policy": {
+    "path": "storage/architecture_policies/ACTIVE_POLICY.json",
+    "file_sha256": "1f820c2f21b9759331982ec28ba38fd2ad1902b41a9834541a932f4f0ed3eeed",
+    "policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "dialectic_operator_count": 10,
+    "self_modifying_code_allowed": false
+  },
+  "champion_smoke": {
+    "status": "COMPLETE_WITH_REFERENCE_SIMULATIONS",
+    "meta_run_sha256": "2e016d97679a7236933f656b9cb12cbfd8d142483a8ac38ac37457d12c3563ef",
+    "dialectical_graph_sha256": "4fea6726f91442efb046ccc7c76b87b85c62cf9839d44fb1913a6544b4add095",
+    "auditable_synthesis_sha256": "83331ca317edfcd3fd04f90903f0cf83efcb8e674cab5b240441fe8cdbb5a298",
+    "typed_handoffs_verified": 8,
+    "typed_handoffs_total": 8,
+    "actual_output_transformations": 8,
+    "static_type_map_transformations": 0,
+    "external_verification_status": "INSUFFICIENT_EXTERNAL_EVIDENCE"
+  },
+  "executor_disclosure": {
+    "native_local_executors": 4,
+    "reference_simulations": 12,
+    "real_frontier_model_tool_stacks": 0,
+    "frontier_parity_established": false
+  },
+  "cloud_state": {
+    "status_path": "storage/CLOUD_SCHEMA_STATUS_2.3.json",
+    "status_sha256": "b3ed945734f0865b80b95042af9801bfd70e782d9a29e107a8b1c3f8112af138",
+    "canonical_backend": "supabase",
+    "supabase_project_id": "gzrbxoiuenkksualgpvp",
+    "migration_2_2_applied": true,
+    "migration_2_3_applied": true,
+    "architecture_policies": 75,
+    "external_outcomes": 7200,
+    "new_tables_with_forced_rls": 14,
+    "new_explicit_writer_policies": 14,
+    "new_object_security_warnings": 0,
+    "neon_status": "RETIRED_NO_READS_NO_WRITES",
+    "neon_physically_deleted": false
+  },
+  "repository_state": {
+    "github_repository_available": false,
+    "commit_or_pull_request_claimed": false
+  },
+  "claim_ceiling": "CONTROLLED_LOCAL_POLICY_EVOLUTION_AND_INTEGRITY_VALIDATION; REFERENCE_SIMULATIONS_PRESENT; NOT_EXTERNAL_FRONTIER_PARITY_OR_GENERAL_REASONING_SUPERIORITY"
+}

@@ -1,0 +1,112 @@
+{
+  "record_id": "4D-GE4-PLANETARY-TOTALIZATION",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "Heidegger GA79 pp.32,40,51",
+      "SEP Philosophy of Technology 2026"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + GE4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "Heidegger's Bremen lectures describe Gestell as universally ordering present beings into Bestand and connect the diagnosis with planetary totality.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "HIST"
+      ],
+      "force": "ASSERTED",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Every modern technology and every technological practice can therefore be fully explained as one homogeneous instance of the same Gestell structure without detailed analysis of design, artifacts, institutions or mediation.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "WITHHELD",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT07"
+    },
+    "bridge": {
+      "status": "ABSENT",
+      "statement": null
+    },
+    "promotion_flags": [
+      "SCOPE",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G5",
+    "gap": "LARGE",
+    "bridge_burden": "Need cross-domain discriminators showing how the Gestell model outperforms detailed engineering, mediation, institutional and artifact analyses rather than subsuming them by definition."
+  },
+  "audit": {
+    "native_domain": "Heidegger technology diagnosis vs current philosophy of technology",
+    "native_method": "strong rival comparison",
+    "activated_operators": [
+      "O2",
+      "O4",
+      "O5",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "UNDERDETERMINATION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "RIVAL_HANDLING",
+      "SCOPE_CONTROL"
+    ],
+    "rtr": "HIGH"
+  },
+  "rivals": [
+    {
+      "description": "Current philosophy of technology criticizes monolithic black-box approaches and studies artifacts, engineering practice, design, values, mediation, control and responsibility in differentiated ways."
+    }
+  ],
+  "extensions": {
+    "ge4": {
+      "module_id": "GE4",
+      "version": "0.1",
+      "source_period": "Bremen lectures / early 1950s",
+      "disclosure_mode": "ORDERING",
+      "ordering_signature": [
+        "AVAILABILITY",
+        "ORDERABILITY",
+        "SUBSTITUTABILITY",
+        "CALCULABILITY",
+        "SECURING",
+        "UNIVERSAL_ORDERING_CLAIM"
+      ],
+      "human_position": "QUALIFIED_STANDING_RESERVE",
+      "target_domain": [
+        "ALL_PRESENT_BEINGS"
+      ],
+      "relation_to_instrumentality": "INSTRUMENTAL_CORRECT_BUT_INSUFFICIENT",
+      "alternative_disclosure": "current technology philosophy provides plural artifact/design/mediation/governance analyses; Heidegger himself preserves other modes of revealing",
+      "totalization_status": "HEIDEGGERIAN_UNIVERSAL_DIAGNOSIS",
+      "danger_status": "EPOCHAL_DANGER_CLAIM",
+      "discriminator": "the model must identify patterns that are not guaranteed merely by being modern/technical and must allow counterinstances or gradations",
+      "revision_trigger": "repeated inability to distinguish strongly different technologies, institutions or practices except by redescribing all as ordering"
+    }
+  },
+  "outcome": "BLOCK"
+}

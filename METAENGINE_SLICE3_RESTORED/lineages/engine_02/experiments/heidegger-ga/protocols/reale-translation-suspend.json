@@ -1,0 +1,43 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "HGA-GA01-REALE-TRANSLATION-001",
+  "protocol_id": "V38-GERMAN-RUSSIAN-CONCEPT",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "HGA-GA01-DAS-REALE",
+    "description": "Проверка переноса раннего выражения das Reale из GA 1 в русский аналитический словарь.",
+    "source_refs": ["HGA-GA01-P001#p.1"]
+  },
+  "operator": {
+    "agent_id": "dae-ga-pilot",
+    "role": "automated-method-audit"
+  },
+  "started_at": "2026-08-11T04:20:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "TERM_PHASE": {
+      "status": "YES",
+      "evidence_refs": ["HGA-GA01-P001#p.1"],
+      "note": "Зафиксированы форма das Reale, ранняя фаза и функция предмета научно-методического определения."
+    },
+    "THREE_TRANSLATIONS": {
+      "status": "UNKNOWN",
+      "evidence_refs": [],
+      "note": "Не собраны три опубликованных русских перевода одной и той же текстовой единицы."
+    },
+    "NO_MORPH_PROOF": {
+      "status": "YES",
+      "note": "Латинская морфология Realität/Reale не используется как доказательство онтологии; требуется человеческая аттестация."
+    },
+    "EXAMPLE_COUNTEREXAMPLE": {
+      "status": "UNKNOWN",
+      "evidence_refs": [],
+      "note": "Нет независимых примера и контрпримера, различающих «реальное», «действительное» и «сущее»."
+    },
+    "STATUS_ASSIGNED": {
+      "status": "YES",
+      "note": "Статус — прямой ранний термин; связь с поздними Wirklichkeit, Vorhandenheit или Realität не предполагается."
+    }
+  },
+  "declared_outcome": "SUSPEND"
+}

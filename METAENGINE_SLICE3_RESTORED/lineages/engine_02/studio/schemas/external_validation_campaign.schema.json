@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/external_validation_campaign.schema.json",
+  "type": "object",
+  "required": ["campaign_version", "campaign_id", "created_at", "benchmark", "unit_ids", "required_adversarial_phenomena", "status", "claim_ceiling"],
+  "properties": {
+    "campaign_version": {"const": "DESTRUKTION-EXTERNAL-VALIDATION-1.0"},
+    "campaign_id": {"type": "string", "minLength": 8},
+    "created_at": {"type": "string", "minLength": 1},
+    "benchmark": {
+      "type": "object",
+      "required": ["benchmark_id", "manifest_sha256", "sealed_predictions_sha256", "unit_count", "minimum_units"],
+      "properties": {
+        "benchmark_id": {"type": "string"},
+        "manifest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "sealed_predictions_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "unit_count": {"type": "integer", "minimum": 1},
+        "minimum_units": {"type": "integer", "minimum": 1},
+        "source_directory": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "unit_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+    "required_adversarial_phenomena": {"type": "array", "minItems": 7, "uniqueItems": true, "items": {"enum": ["NEGATION", "QUOTED_OPPONENT", "ATTRIBUTION_SHIFT", "MODALITY_WEAKENING", "PARAPHRASE", "TRANSLATION", "DECOY_TERMINOLOGY"]}},
+    "status": {"enum": ["OPEN_FOR_EXTERNAL_SYSTEMS", "FROZEN_BEFORE_GOLD", "EVALUATED"]},
+    "claim_ceiling": {"type": "string"}
+  },
+  "additionalProperties": false
+}

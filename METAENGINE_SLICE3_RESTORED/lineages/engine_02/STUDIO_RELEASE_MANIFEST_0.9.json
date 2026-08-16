@@ -1,0 +1,25 @@
+{
+  "release_manifest_version": "DESTRUKTION-STUDIO-RELEASE-0.9",
+  "release_id": "DESTRUKTION-4.0-COMPLETE-0.9-FROZEN-HOLDOUT",
+  "generated_at": "2026-08-11T20:30:00Z",
+  "frozen_core": {
+    "engine_version": "0.10.0-alpha.1",
+    "required_assets": 66,
+    "mutation": "NONE"
+  },
+  "studio": {
+    "version": "0.9.0-frozen-holdout",
+    "integrated_tests": 129
+  },
+  "holdout": {
+    "benchmark_id": "HB-8B928271E125A87B",
+    "source_count": 9,
+    "excerpt_count": 27,
+    "unit_count": 81,
+    "lock_manifest_sha256": "a119e0ff7012bd1402bc6b849f9b1d9f1d2c98ef1897c96e40b1c23ba5955b84",
+    "status": "SIZE_GATE_READY_BLOCKED_PENDING_INDEPENDENT_LABELS",
+    "gold_in_release": false,
+    "external_predictions_in_release": false
+  },
+  "claim_ceiling": "RELEASE_WITH_FROZEN_EVALUATION_DESIGN_NOT_EXTERNAL_HERMENEUTIC_VALIDATION"
+}

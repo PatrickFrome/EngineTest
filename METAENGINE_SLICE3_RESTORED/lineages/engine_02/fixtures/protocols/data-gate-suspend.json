@@ -1,0 +1,23 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "DATA-GATE-DEMO-001",
+  "protocol_id": "V38-DATA-GATE",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "RO-0.3B",
+    "description": "Corpus run blocked before empirical inference."
+  },
+  "operator": {
+    "agent_id": "fixture-author",
+    "role": "test"
+  },
+  "started_at": "2026-08-11T12:00:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "DATA_LEGITIMATE": {"status": "NO", "note": "No licensed concordance export."},
+    "AUTH_EXPLICIT": {"status": "YES", "evidence_refs": ["ACCESS-AUDIT#AUTH-0"]},
+    "LICENSE_EXPLICIT": {"status": "NO", "note": "No distribution permission."},
+    "CODERS_AVAILABLE": {"status": "NO", "note": "Independent coders not appointed."}
+  },
+  "declared_outcome": "SUSPEND"
+}

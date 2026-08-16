@@ -1,0 +1,14 @@
+{
+  "name": "metaengine-ws-events",
+  "version": "1.0.0",
+  "description": "WebSocket event push service for MetaEngine real-time fitness/recursion progress. Reads events from a shared JSONL event log and pushes them to connected WebSocket clients.",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot index.ts",
+    "start": "bun index.ts"
+  },
+  "dependencies": {
+    "ws": "^8.21.3"
+  }
+}

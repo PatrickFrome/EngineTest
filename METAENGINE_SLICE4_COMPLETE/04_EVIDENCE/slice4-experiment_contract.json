@@ -1,0 +1,166 @@
+{
+  "experiment_version": "METAENGINE-EXPERIMENT-SPARSE-ROUTING-1",
+  "stage_id": "METAENGINE-1-SLICE-4",
+  "mechanism_id": "sparse-conditional-routing",
+  "mechanism_card_hash": "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+  "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+  "specialists": [
+    {
+      "resource_id": "spec.code",
+      "capabilities": [
+        [
+          "CODE",
+          1.0
+        ],
+        [
+          "REASONING",
+          0.2
+        ]
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "spec.general",
+      "capabilities": [
+        [
+          "CODE",
+          0.3
+        ],
+        [
+          "MATH",
+          0.3
+        ],
+        [
+          "REASONING",
+          0.3
+        ],
+        [
+          "TRANSLATE",
+          0.3
+        ]
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "spec.math",
+      "capabilities": [
+        [
+          "MATH",
+          1.0
+        ],
+        [
+          "REASONING",
+          0.3
+        ]
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "spec.reason",
+      "capabilities": [
+        [
+          "LOGIC",
+          0.9
+        ],
+        [
+          "REASONING",
+          1.0
+        ]
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "spec.retrieve",
+      "capabilities": [
+        [
+          "RETRIEVE",
+          1.0
+        ],
+        [
+          "SEARCH",
+          0.8
+        ]
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "spec.translate",
+      "capabilities": [
+        [
+          "LANGUAGE",
+          0.8
+        ],
+        [
+          "TRANSLATE",
+          1.0
+        ]
+      ],
+      "cost": 1.0
+    }
+  ],
+  "task_suite": {
+    "tasks": [
+      {
+        "task_id": "task.code_a",
+        "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+        "required_capabilities": [
+          "CODE"
+        ]
+      },
+      {
+        "task_id": "task.code_reason_b",
+        "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+        "required_capabilities": [
+          "CODE",
+          "REASONING"
+        ]
+      },
+      {
+        "task_id": "task.general_b",
+        "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+        "required_capabilities": [
+          "CODE",
+          "MATH",
+          "REASONING"
+        ]
+      },
+      {
+        "task_id": "task.math_a",
+        "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+        "required_capabilities": [
+          "MATH"
+        ]
+      },
+      {
+        "task_id": "task.math_logic_b",
+        "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+        "required_capabilities": [
+          "LOGIC",
+          "MATH"
+        ]
+      },
+      {
+        "task_id": "task.translate_a",
+        "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+        "required_capabilities": [
+          "TRANSLATE"
+        ]
+      }
+    ]
+  },
+  "arms": [
+    "CAPABILITY_ROUTED_TOP_K",
+    "DENSE_ALL_SPECIALISTS",
+    "RANDOM_TOP_K"
+  ],
+  "k": 2,
+  "processing_resource_units": 2.0,
+  "random_seeds": [
+    42,
+    99,
+    137
+  ],
+  "truth_effect": "NONE",
+  "assimilation_effect": "NONE",
+  "contract_hash": "ebadbcd2ac9d83147b2a12087292c47634d2b4c085d4837b0f9f7a1b646a5662"
+}

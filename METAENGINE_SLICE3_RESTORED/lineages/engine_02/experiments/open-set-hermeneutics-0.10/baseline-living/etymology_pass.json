@@ -1,0 +1,1031 @@
+{
+  "pass_version": "DAE-ETYMOLOGY-PASS-1.0",
+  "protocol_version": "ETY-0.2",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T17:17:01.661Z",
+  "run_id": "ETY-LOCAL_SHA256_B8EE307BEB056C56FBE2872CEF3E7319E14F8D4F7E1E9305055338F6608-E2EE4F3964D9",
+  "source": {
+    "source_id": "LOCAL-SHA256-B8EE307BEB056C56FBE2872CEF3E7319E14F8D4F7E1E9305055338F66084DED6",
+    "artifact_sha256": "3fb6a4174ad50fa7a679a033803f02e588022d5270be387cc908580548d71523",
+    "hypothesis_bank_sha256": "aedd1fd2178af578db990818be91d5b2b8bf461c7f309288dc33471b8aa6d2b1",
+    "raw_source_included": false
+  },
+  "registry": {
+    "registry_version": "DAE-ETYMOLOGY-REGISTRY-1.0",
+    "sha256": "b80f04d6566d7477ff8279134754de63aecea8ad504ed6edfdcf1191941b609c",
+    "source_note": "Entries are project-level starting dispositions derived from the supplied protocol. Historical derivations remain provisional until independently lexicographically sourced."
+  },
+  "cards": [
+    {
+      "card_id": "ETY-CARD-EXIST",
+      "concept_id": "EXIST",
+      "topic_ids": [
+        "EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+        "EMERGENT_SOURCE_THINKING"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "SOURCE_FORCED_TERM_REQUIRES_FULL_CONTEXT_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+          "HYP-EMERGENT_SOURCE_THINKING"
+        ],
+        "selector_count": 19,
+        "selectors": [
+          "OX-P000001-469332FE00",
+          "OX-P000006-095C07370A",
+          "OX-P000008-24F9BB0F36",
+          "OX-P000012-C99D27ED92",
+          "OX-P000015-1122073E68",
+          "OX-P000004-B3B6EA4EBB",
+          "OX-P000005-83796144BA",
+          "OX-P000007-D5B16A79B8",
+          "OX-P000010-9F52B6218D",
+          "OX-P000016-E23E7BF178"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "exist",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "OX-P000012-C99D27ED92"
+          ]
+        },
+        "language": {
+          "resolution": "UNRESOLVED",
+          "value": "Source language unresolved.",
+          "source_refs": []
+        },
+        "lemma": {
+          "resolution": "UNRESOLVED",
+          "value": "Lemma unresolved.",
+          "source_refs": []
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical and synchronic sense range remains unresolved.",
+          "source_refs": []
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "OX-P000012-C99D27ED92"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "UNRESOLVED",
+          "value": "The local philosophical function remains unresolved.",
+          "source_refs": []
+        },
+        "translations": {
+          "resolution": "UNRESOLVED",
+          "value": "Standard, alternative and working translations remain unresolved.",
+          "source_refs": []
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "UNRESOLVED",
+          "value": "Parallel historical sense branches have not been reconstructed.",
+          "source_refs": []
+        },
+        "G_FUNCTION": {
+          "resolution": "UNRESOLVED",
+          "value": "The word's philosophical function across dated passages remains unresolved.",
+          "source_refs": []
+        },
+        "G_CONTRAST": {
+          "resolution": "UNRESOLVED",
+          "value": "The active contrast field and semantic neighbours remain unresolved.",
+          "source_refs": []
+        },
+        "G_TRANSLATION": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation history, alternatives and residuals remain unresolved.",
+          "source_refs": []
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-MIND",
+      "concept_id": "MIND",
+      "topic_ids": [
+        "EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+        "EMERGENT_SOURCE_THINKING"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "SOURCE_FORCED_TERM_REQUIRES_FULL_CONTEXT_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+          "HYP-EMERGENT_SOURCE_THINKING"
+        ],
+        "selector_count": 19,
+        "selectors": [
+          "OX-P000001-469332FE00",
+          "OX-P000006-095C07370A",
+          "OX-P000008-24F9BB0F36",
+          "OX-P000012-C99D27ED92",
+          "OX-P000015-1122073E68",
+          "OX-P000004-B3B6EA4EBB",
+          "OX-P000005-83796144BA",
+          "OX-P000007-D5B16A79B8",
+          "OX-P000010-9F52B6218D",
+          "OX-P000016-E23E7BF178"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "mind",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "OX-P000012-C99D27ED92"
+          ]
+        },
+        "language": {
+          "resolution": "UNRESOLVED",
+          "value": "Source language unresolved.",
+          "source_refs": []
+        },
+        "lemma": {
+          "resolution": "UNRESOLVED",
+          "value": "Lemma unresolved.",
+          "source_refs": []
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical and synchronic sense range remains unresolved.",
+          "source_refs": []
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "OX-P000012-C99D27ED92"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "UNRESOLVED",
+          "value": "The local philosophical function remains unresolved.",
+          "source_refs": []
+        },
+        "translations": {
+          "resolution": "UNRESOLVED",
+          "value": "Standard, alternative and working translations remain unresolved.",
+          "source_refs": []
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "UNRESOLVED",
+          "value": "Parallel historical sense branches have not been reconstructed.",
+          "source_refs": []
+        },
+        "G_FUNCTION": {
+          "resolution": "UNRESOLVED",
+          "value": "The word's philosophical function across dated passages remains unresolved.",
+          "source_refs": []
+        },
+        "G_CONTRAST": {
+          "resolution": "UNRESOLVED",
+          "value": "The active contrast field and semantic neighbours remain unresolved.",
+          "source_refs": []
+        },
+        "G_TRANSLATION": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation history, alternatives and residuals remain unresolved.",
+          "source_refs": []
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-THINKING",
+      "concept_id": "THINKING",
+      "topic_ids": [
+        "EMERGENT_CLAIM_COGITO_LOCAL",
+        "EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+        "EMERGENT_SOURCE_THINKING"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "SOURCE_FORCED_TERM_REQUIRES_FULL_CONTEXT_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-EMERGENT_CLAIM_COGITO_LOCAL",
+          "HYP-EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+          "HYP-EMERGENT_SOURCE_THINKING"
+        ],
+        "selector_count": 24,
+        "selectors": [
+          "OX-P000001-469332FE00",
+          "OX-P000006-095C07370A",
+          "OX-P000008-24F9BB0F36",
+          "OX-P000012-C99D27ED92",
+          "OX-P000015-1122073E68",
+          "OX-P000004-B3B6EA4EBB",
+          "OX-P000005-83796144BA",
+          "OX-P000007-D5B16A79B8",
+          "OX-P000010-9F52B6218D",
+          "OX-P000016-E23E7BF178"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "thinking",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "OX-P000012-C99D27ED92"
+          ]
+        },
+        "language": {
+          "resolution": "UNRESOLVED",
+          "value": "Source language unresolved.",
+          "source_refs": []
+        },
+        "lemma": {
+          "resolution": "UNRESOLVED",
+          "value": "Lemma unresolved.",
+          "source_refs": []
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical and synchronic sense range remains unresolved.",
+          "source_refs": []
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "OX-P000012-C99D27ED92"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "UNRESOLVED",
+          "value": "The local philosophical function remains unresolved.",
+          "source_refs": []
+        },
+        "translations": {
+          "resolution": "UNRESOLVED",
+          "value": "Standard, alternative and working translations remain unresolved.",
+          "source_refs": []
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "UNRESOLVED",
+          "value": "Parallel historical sense branches have not been reconstructed.",
+          "source_refs": []
+        },
+        "G_FUNCTION": {
+          "resolution": "UNRESOLVED",
+          "value": "The word's philosophical function across dated passages remains unresolved.",
+          "source_refs": []
+        },
+        "G_CONTRAST": {
+          "resolution": "UNRESOLVED",
+          "value": "The active contrast field and semantic neighbours remain unresolved.",
+          "source_refs": []
+        },
+        "G_TRANSLATION": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation history, alternatives and residuals remain unresolved.",
+          "source_refs": []
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-THOUGHT",
+      "concept_id": "THOUGHT",
+      "topic_ids": [
+        "EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+        "EMERGENT_SOURCE_THINKING"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "SOURCE_FORCED_TERM_REQUIRES_FULL_CONTEXT_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+          "HYP-EMERGENT_SOURCE_THINKING"
+        ],
+        "selector_count": 19,
+        "selectors": [
+          "OX-P000001-469332FE00",
+          "OX-P000006-095C07370A",
+          "OX-P000008-24F9BB0F36",
+          "OX-P000012-C99D27ED92",
+          "OX-P000015-1122073E68",
+          "OX-P000004-B3B6EA4EBB",
+          "OX-P000005-83796144BA",
+          "OX-P000007-D5B16A79B8",
+          "OX-P000010-9F52B6218D",
+          "OX-P000016-E23E7BF178"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "thought",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "OX-P000012-C99D27ED92"
+          ]
+        },
+        "language": {
+          "resolution": "UNRESOLVED",
+          "value": "Source language unresolved.",
+          "source_refs": []
+        },
+        "lemma": {
+          "resolution": "UNRESOLVED",
+          "value": "Lemma unresolved.",
+          "source_refs": []
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical and synchronic sense range remains unresolved.",
+          "source_refs": []
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "OX-P000012-C99D27ED92"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "UNRESOLVED",
+          "value": "The local philosophical function remains unresolved.",
+          "source_refs": []
+        },
+        "translations": {
+          "resolution": "UNRESOLVED",
+          "value": "Standard, alternative and working translations remain unresolved.",
+          "source_refs": []
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "UNRESOLVED",
+          "value": "Parallel historical sense branches have not been reconstructed.",
+          "source_refs": []
+        },
+        "G_FUNCTION": {
+          "resolution": "UNRESOLVED",
+          "value": "The word's philosophical function across dated passages remains unresolved.",
+          "source_refs": []
+        },
+        "G_CONTRAST": {
+          "resolution": "UNRESOLVED",
+          "value": "The active contrast field and semantic neighbours remain unresolved.",
+          "source_refs": []
+        },
+        "G_TRANSLATION": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation history, alternatives and residuals remain unresolved.",
+          "source_refs": []
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    },
+    {
+      "card_id": "ETY-CARD-UNDERSTANDING",
+      "concept_id": "UNDERSTANDING",
+      "topic_ids": [
+        "EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+        "EMERGENT_SOURCE_THINKING"
+      ],
+      "level": "ETY-FULL",
+      "escalation_reasons": [
+        "SOURCE_FORCED_TERM_REQUIRES_FULL_CONTEXT_AUDIT"
+      ],
+      "source_basis": {
+        "hypothesis_ids": [
+          "HYP-EMERGENT_CLAIM_RELATION_GENESIS_OVERFIT",
+          "HYP-EMERGENT_SOURCE_THINKING"
+        ],
+        "selector_count": 19,
+        "selectors": [
+          "OX-P000001-469332FE00",
+          "OX-P000006-095C07370A",
+          "OX-P000008-24F9BB0F36",
+          "OX-P000012-C99D27ED92",
+          "OX-P000015-1122073E68",
+          "OX-P000004-B3B6EA4EBB",
+          "OX-P000005-83796144BA",
+          "OX-P000007-D5B16A79B8",
+          "OX-P000010-9F52B6218D",
+          "OX-P000016-E23E7BF178"
+        ],
+        "selectors_truncated": true
+      },
+      "ety_min": {
+        "source_form": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "understanding",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "OX-P000012-C99D27ED92"
+          ]
+        },
+        "language": {
+          "resolution": "UNRESOLVED",
+          "value": "Source language unresolved.",
+          "source_refs": []
+        },
+        "lemma": {
+          "resolution": "UNRESOLVED",
+          "value": "Lemma unresolved.",
+          "source_refs": []
+        },
+        "morphological_structure": {
+          "resolution": "UNRESOLVED",
+          "value": "Morphological segmentation has not been established.",
+          "source_refs": []
+        },
+        "historical_derivation": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical derivation and earliest relevant attestation require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "semantic_range": {
+          "resolution": "UNRESOLVED",
+          "value": "Historical and synchronic sense range remains unresolved.",
+          "source_refs": []
+        },
+        "local_sense": {
+          "resolution": "UNRESOLVED",
+          "value": "Local syntax and sense require direct inspection of the cited source spans; topic detection is insufficient.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "OX-P000012-C99D27ED92"
+          ]
+        },
+        "philosophical_function": {
+          "resolution": "UNRESOLVED",
+          "value": "The local philosophical function remains unresolved.",
+          "source_refs": []
+        },
+        "translations": {
+          "resolution": "UNRESOLVED",
+          "value": "Standard, alternative and working translations remain unresolved.",
+          "source_refs": []
+        },
+        "translation_residual": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation loss has not yet been discriminated in the source context.",
+          "source_refs": []
+        },
+        "etymological_risk": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Root fallacy, semantic anachronism, false cognate, translation collapse, selective etymology, authorial-etymology smuggling and etymology→ontology promotion remain active risks.",
+          "source_refs": [
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        }
+      },
+      "ety_full": {
+        "G_FORM": {
+          "resolution": "UNRESOLVED",
+          "value": "Form history, morphological changes, borrowings and earliest relevant attestations require an independent lexicographic source.",
+          "source_refs": []
+        },
+        "G_SENSE": {
+          "resolution": "UNRESOLVED",
+          "value": "Parallel historical sense branches have not been reconstructed.",
+          "source_refs": []
+        },
+        "G_FUNCTION": {
+          "resolution": "UNRESOLVED",
+          "value": "The word's philosophical function across dated passages remains unresolved.",
+          "source_refs": []
+        },
+        "G_CONTRAST": {
+          "resolution": "UNRESOLVED",
+          "value": "The active contrast field and semantic neighbours remain unresolved.",
+          "source_refs": []
+        },
+        "G_TRANSLATION": {
+          "resolution": "UNRESOLVED",
+          "value": "Translation history, alternatives and residuals remain unresolved.",
+          "source_refs": []
+        },
+        "ETY_AUTH": {
+          "resolution": "UNRESOLVED",
+          "value": "Authorial etymologization and historically supported etymology have not yet been independently separated for the cited source spans.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        },
+        "COUNTER_ETYMOLOGY": {
+          "resolution": "PROVISIONAL_RECONSTRUCTION",
+          "value": "Test the same form with a different function and the same function under a different form.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36",
+            "config/etymology_registry.json",
+            "vendor/protocol2x/etymology-0.2.md"
+          ]
+        },
+        "PHENOMENOLOGICAL_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No lexical distinction is promoted until the analysed phenomenon independently discriminates it.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        },
+        "BRIDGE_CHECK": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymology-to-concept or etymology-to-ontology bridge has been independently established.",
+          "source_refs": [
+            "OX-P000001-469332FE00",
+            "OX-P000006-095C07370A",
+            "OX-P000008-24F9BB0F36"
+          ]
+        }
+      },
+      "anti_etymological_firewall": {
+        "origin_is_not_current_sense": true,
+        "earliest_is_not_truest": true,
+        "lexical_identity_is_not_conceptual_identity": true,
+        "authorial_wordplay_is_not_historical_linguistics": true,
+        "language_is_not_ontology": true
+      },
+      "generative_result": {
+        "lost_distinction": {
+          "resolution": "UNRESOLVED",
+          "value": "No discriminating lost distinction has yet been established.",
+          "source_refs": []
+        },
+        "semantic_drift": {
+          "resolution": "UNRESOLVED",
+          "value": "No source-resolved semantic drift has yet been established.",
+          "source_refs": []
+        },
+        "new_question": {
+          "resolution": "UNRESOLVED",
+          "value": "No etymologically generated philosophical question has yet been established.",
+          "source_refs": []
+        },
+        "qualitative_gains": []
+      },
+      "bridge": {
+        "candidate": null,
+        "independent_support": "NOT_ASSESSED",
+        "semantic_promotion_allowed": false
+      },
+      "revision_trigger": "Reopen the card when a dated primary occurrence, authoritative historical dictionary entry, translation witness or phenomenological contrast changes form, sense, function or the proposed bridge."
+    }
+  ],
+  "coverage": {
+    "central_concepts": 5,
+    "cards_emitted": 5,
+    "ety_min_executed": 5,
+    "ety_full_required": 5,
+    "ety_full_executed": 5,
+    "coverage_complete": true,
+    "unresolved_fields": 100,
+    "knowledge_resolution": "PARTIAL",
+    "interpretation": "Coverage is complete because every central concept received ETY-MIN and every escalated concept received all ETY-FULL contours. This does not mean that unresolved historical, local or phenomenological fields have been answered."
+  },
+  "output_contract": {
+    "mandatory_execution": true,
+    "mandatory_significance": false,
+    "local_context_precedes_origin": true,
+    "authorial_etymology_separated": true,
+    "counter_etymology_required_for_full": true,
+    "phenomenological_check_required_for_full": true,
+    "bridge_required_for_semantic_promotion": true,
+    "semantic_promotion_performed": false,
+    "null_result_is_valid": true,
+    "raw_source_included": false
+  },
+  "claim_ceiling": "MANDATORY_ETYMOLOGICAL_SEMANTIC_COVERAGE_NOT_CONCEPTUAL_OR_ONTOLOGICAL_PROOF"
+}

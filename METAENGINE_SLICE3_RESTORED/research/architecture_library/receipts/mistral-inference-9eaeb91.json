@@ -1,0 +1,10 @@
+{
+  "findings": [],
+  "pack_root_sha256": "41d34f4c48dea3a619b5275bfc3870ffce051960e18d67c4a20d507749970fb0",
+  "receipt_sha256": "634527d50367b5bb0596dd51d0dce19a07fc983c38d9331259f68a4f3d9fe8a9",
+  "receipt_version": "REFERENCE-VAULT-VERIFICATION-1",
+  "source_id": "mistral-inference-9eaeb91",
+  "status": "PASS",
+  "verified_blob_count": 4,
+  "verified_total_bytes": 43757
+}

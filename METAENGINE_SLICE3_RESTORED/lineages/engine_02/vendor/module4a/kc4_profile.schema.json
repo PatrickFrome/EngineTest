@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/module/kc4-0.1.json",
+  "title": "KC4-0.1 Constitution Profile",
+  "type": "object",
+  "required": [
+    "module_id",
+    "version",
+    "constituted_layer",
+    "bearer",
+    "dependence_type",
+    "production_test",
+    "revision_trigger"
+  ],
+  "properties": {
+    "module_id": {
+      "const": "KC4"
+    },
+    "version": {
+      "const": "0.1"
+    },
+    "constituted_layer": {
+      "enum": [
+        "SENSE",
+        "IDENTITY_AS_INTENDED",
+        "VALIDITY",
+        "OBJECTIVITY",
+        "STATUS",
+        "MODE_OF_BEING",
+        "EXISTENCE",
+        "OTHER",
+        "UNRESOLVED"
+      ]
+    },
+    "bearer": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "dependence_type": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "EPISTEMIC",
+          "SEMANTIC",
+          "IDENTITY",
+          "NORMATIVE",
+          "HISTORICAL",
+          "SOCIAL",
+          "CAUSAL",
+          "ONTIC",
+          "OTHER",
+          "UNRESOLVED"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "modality": {
+      "enum": [
+        "NECESSARY",
+        "SUFFICIENT",
+        "ENABLING",
+        "CONSTITUTIVE",
+        "MAINTAINING",
+        "UNRESOLVED"
+      ]
+    },
+    "alternative_access": {
+      "type": "string"
+    },
+    "correction_source": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "production_test": {
+      "enum": [
+        "EXISTENCE_DISAPPEARS",
+        "STATUS_OR_SENSE_DISAPPEARS",
+        "ONLY_ACCESS_CHANGES",
+        "UNRESOLVED"
+      ]
+    },
+    "revision_trigger": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

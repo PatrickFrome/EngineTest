@@ -1,0 +1,17 @@
+{
+  "canonical_authority": "SUPABASE_ONLY",
+  "conflict_classes": [
+    "PATH_WRITE_CONFLICT",
+    "INTERFACE_CONTRACT_CONFLICT",
+    "DEPENDENCY_VERSION_CONFLICT",
+    "VERIFICATION_CONFLICT"
+  ],
+  "cycle_policy": "EXCLUDE_CYCLIC_COMPONENT_FROM_INTEGRATION_ORDER",
+  "high_risk_review": "CURRENT_INDEPENDENT_C6_REQUIRED",
+  "ordering_edges": [
+    "DEPENDENCY"
+  ],
+  "protocol_version": "D6.1",
+  "slot_count": 8,
+  "stable_sort_key": "CONTENT_DIGEST"
+}

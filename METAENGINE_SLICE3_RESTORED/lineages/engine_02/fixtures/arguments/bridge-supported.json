@@ -1,0 +1,52 @@
+{
+  "bundle_version": "DAE-ARGUMENT-1.0",
+  "bundle_id": "ARG-BRIDGE-DEMO-001",
+  "claims": [
+    {
+      "id": "A",
+      "text": "The cited passage explicitly distinguishes occurrence from fulfillment.",
+      "status": "ACCEPTED",
+      "claim_type": "INFORMATION",
+      "source_refs": ["V38#L27943-L27965"]
+    },
+    {
+      "id": "P",
+      "text": "If a codebook assigns separate positive criteria and negative boundaries, the distinction is operationally testable.",
+      "status": "ACCEPTED",
+      "claim_type": "ASSUMPTION",
+      "source_refs": ["V38#L27943-L27965"]
+    },
+    {
+      "id": "B",
+      "text": "OCC and FUL may be tested as separate annotation codes.",
+      "status": "STATED",
+      "claim_type": "INFORMATION"
+    }
+  ],
+  "arguments": [
+    {
+      "id": "ARG-PRO-1",
+      "scheme_id": "BRIDGE-INFERENCE",
+      "direction": "PRO",
+      "conclusion": "B",
+      "premises": [
+        {"claim_id": "A", "role": "ORDINARY"},
+        {"claim_id": "P", "role": "ASSUMPTION"}
+      ],
+      "critical_questions": [
+        {"id": "CQ-RELATION-TYPE", "status": "ANSWERED", "answer": "Operational enablement, not ontology.", "evidence_refs": ["RT05"]},
+        {"id": "CQ-BRIDGE-EVIDENCE", "status": "ANSWERED", "answer": "The frozen codebook contains distinct criteria.", "evidence_refs": ["V38#L27943-L27965"]},
+        {"id": "CQ-SCALE", "status": "ANSWERED", "answer": "Conclusion is limited to testability.", "evidence_refs": ["ARG-BRIDGE-DEMO-001#scope"]},
+        {"id": "CQ-RIVAL", "status": "ANSWERED", "answer": "A merged event code remains the live rival.", "evidence_refs": ["ARG-BRIDGE-DEMO-001#rival-merged"]}
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "claim_id": "B",
+      "proof_standard": "DIALECTICAL",
+      "burden_party": "proponent",
+      "declared_status": "SUPPORTED"
+    }
+  ]
+}

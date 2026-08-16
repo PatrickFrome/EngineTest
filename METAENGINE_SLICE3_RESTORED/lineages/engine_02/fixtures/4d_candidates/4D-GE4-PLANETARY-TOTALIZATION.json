@@ -1,0 +1,161 @@
+{
+  "record_id": "4D-GE4-PLANETARY-TOTALIZATION",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4D-06#planetary-totality"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4D-0.1-DOCX-RECONSTRUCTION + DAE-0.1",
+    "agent": "dae-4d-reconstruction-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4D-0.1-DOCX"
+    ],
+    "activity_id": "MODULE-MIGRATION-4D-0.1-ENGINE-RECONSTRUCTION",
+    "timestamp": "2026-08-11T12:30:00Z",
+    "artifact_hash": "sha256:b0a3e5039fda3ec05d01352139e6fcb3add10d89ba38953a7450787a2751c276"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "GA79 uses explicitly universal and planetary language for Ge-Stell and ordered replaceability.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "ASSERTED",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-06#planetary-totality"
+    ]
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "The text supports the claim that Heidegger advances a planetary diagnosis, while success of the universal meta-diagnosis remains unestablished.",
+    "claim_facets": {
+      "basis": [
+        "MIXED"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-06#planetary-totality"
+    ]
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT15"
+    },
+    "bridge": {
+      "status": "EXPLICIT",
+      "statement": "RT15 records evidential support for a textual attribution while ScaleCheck blocks promotion to a validated universal diagnosis.",
+      "support_refs": [
+        "W4D-06#planetary-totality"
+      ],
+      "discriminator": "Identify concrete availability, substitutability and demand-chain mechanisms plus countercases where the fit weakens."
+    }
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G5",
+    "gap": "LARGE",
+    "bridge_burden": "Textual evidence establishes Heidegger's scope, not comparative adequacy across all technological domains."
+  },
+  "audit": {
+    "native_domain": "Heidegger studies / philosophy of technology",
+    "native_method": "primary-text reconstruction plus typed technology discrimination",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "UNDERDETERMINATION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY",
+      "DISCRIMINATOR",
+      "SCOPE_CONTROL",
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "HIGH",
+    "cost_note": "Module schemas were reconstructed from the supplied DOCX because the asserted JSON toolkit was not provided."
+  },
+  "rivals": [
+    {
+      "description": "The source establishes only Heidegger's universalizing intention.",
+      "relation_rt_id": "RT15",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Separate source attribution from world-level confirmation."
+    },
+    {
+      "description": "Independent heterogeneous analyses may converge only on local or regional ordering profiles.",
+      "relation_rt_id": "RT27",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Run cross-domain TO4 and BS4 discriminators plus countercases."
+    }
+  ],
+  "extensions": {
+    "ge4": {
+      "module_id": "GE4",
+      "version": "0.1-engine-reconstruction",
+      "disclosure_mode": [
+        "CHALLENGING_FORTH",
+        "ORDERING",
+        "SECURING_AVAILABILITY"
+      ],
+      "ordering_signature": [
+        "AVAILABILITY",
+        "ORDERABILITY",
+        "SUBSTITUTABILITY",
+        "CALCULABILITY",
+        "SECURING",
+        "CHAINED_DEMAND"
+      ],
+      "human_position": [
+        "CHALLENGER",
+        "CHALLENGED_PARTICIPANT",
+        "NOT_MERE_RESERVE"
+      ],
+      "target_domain": [
+        "all present beings",
+        "planetary technology",
+        "labor",
+        "nature"
+      ],
+      "alternative_disclosure": "Artifact, design, mediation and governance descriptions may reveal typed mechanisms without an epochal diagnosis.",
+      "danger_status": "DANGER_SAVING_AMBIGUITY",
+      "counterprofile": "A heterogeneous technical practice with local ordering but effective alternatives, correction and non-resourceized relations.",
+      "discriminator": "Identify concrete availability, substitutability and demand-chain mechanisms plus countercases where the fit weakens.",
+      "revision_trigger": "The diagnosis fails to discriminate cases or merely redescribes every modern technology as Gestell.",
+      "totalization_status": "PLANETARY_SOURCE_CLAIM"
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "TRANSITION",
+      "relation_rationale": "RT15 records evidential support for a textual attribution while ScaleCheck blocks promotion to a validated universal diagnosis.",
+      "semantic_review_status": "STRUCTURAL_ONLY",
+      "human_review_required": true,
+      "review_notes": [
+        "Original 4D JSON records and schemas were not attached; this record is an engine reconstruction from the DOCX specification.",
+        "Verify source passages, relation type, unitization and module field values before expert promotion."
+      ]
+    }
+  },
+  "outcome": "QUALIFY",
+  "open_questions": [
+    "Does the module discriminator add explanatory value beyond the strongest native counterprofile?"
+  ]
+}

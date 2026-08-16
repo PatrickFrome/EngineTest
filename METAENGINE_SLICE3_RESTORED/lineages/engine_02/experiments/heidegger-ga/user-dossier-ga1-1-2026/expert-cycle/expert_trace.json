@@ -1,0 +1,1540 @@
+{
+  "trace_version": "DAE-AUTONOMOUS-EXPERT-TRACE-1.0",
+  "engine_version": "0.3.0-alpha.1",
+  "generated_at": "2026-08-11T06:31:19Z",
+  "run_id": "EXPERT-HEIDEGGER-GA-DOSSIER-1-0-241EFBD0DC7D",
+  "profile_origin": "/workspace/scratch/a33792d063f4/Destruktion_4.0_AUTOMATION-ENGINE_0.3.0/config/expert_profiles/heidegger_ga_dossier_1.0.json",
+  "profile_sha256": "f6f972ee0d17bce6b017ddbb0fcf881aff46a0bf63093921343c28b036cc65f1",
+  "refinery_manifest_sha256": "87e3fbc798da9b243088254c86ef79db533dd5b1c41c662b804cdcb7513a80c2",
+  "passes": [
+    "RECONSTRUCTOR",
+    "CRITIC",
+    "ADJUDICATOR",
+    "SYNTHESIS"
+  ],
+  "privacy": {
+    "source_text_retained": false,
+    "prompts_retained": false,
+    "model_response_ids_retained": false,
+    "verbatim_output_guard": "EIGHT_TOKEN_SEQUENCE_BLOCK_WITH_DETERMINISTIC_PASS_FALLBACK"
+  },
+  "model_fallback_count": 0,
+  "successful_model_passes": 0,
+  "theses": [
+    {
+      "thesis_id": "DOSSIER_GENRE",
+      "deterministic_gate": {
+        "status": "SUPPORTED",
+        "confidence": 0.98,
+        "allowed_statuses": [
+          "SUPPORTED"
+        ],
+        "gate": "STRUCTURAL_COMPOSITE_GENRE_CONFIRMED",
+        "decisive_reasons": [
+          "Роль контейнера: COMPOSITE_CONTAINER.",
+          "Непустых маршрутизированных слоёв происхождения: 5.",
+          "Разрешённых ссылок на уровне утверждений: 0."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "SUPPORTED",
+          "deterministic_status_ceiling": [
+            "SUPPORTED"
+          ],
+          "evidence_selector_count": 5,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "DOSSIER_GENRE",
+            "pass": "RECONSTRUCTOR",
+            "A": "Корпус содержит различимые источниковые, реконструктивные, проектные, критические и процедурные слои.",
+            "P": "Документ, в котором систематически смешаны такие слои и нет разрешённых ссылок на уровне отдельных утверждений, следует оценивать как составной исследовательский контейнер.",
+            "B": "Досье не может автоматически выполнять функцию первичного текста или независимого подтверждения собственных выводов.",
+            "proposed_status": "SUPPORTED",
+            "confidence": 0.98,
+            "operative_relations": [
+              "RT02",
+              "RT15",
+              "RT17"
+            ],
+            "source_origin": "MIXED",
+            "evidence_selectors": [
+              "OX-P000072-50EF1293CE",
+              "OX-P001391-31C4AF9266",
+              "OX-P000015-05964599CE",
+              "OX-P000068-E99D520D3A",
+              "OX-P000001-5D78ADC8AF"
+            ],
+            "strongest_rival": {
+              "statement": "Большой объём цитат и ссылок на GA превращает документ в достаточное источниковое издание.",
+              "impact": "DEFEATED",
+              "answer": "Структурные признаки многослойного составного контейнера непосредственно различают документ и единый первичный источник."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Статус и жанр корпуса»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Автоматическая маршрутизация слоёв консервативна и оставляет значительную долю абзацев неразрешённой."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "SUPPORTED",
+          "deterministic_status_ceiling": [
+            "SUPPORTED"
+          ],
+          "evidence_selector_count": 5,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "DOSSIER_GENRE",
+            "pass": "CRITIC",
+            "A": "Корпус содержит различимые источниковые, реконструктивные, проектные, критические и процедурные слои.",
+            "P": "Документ, в котором систематически смешаны такие слои и нет разрешённых ссылок на уровне отдельных утверждений, следует оценивать как составной исследовательский контейнер.",
+            "B": "Досье не может автоматически выполнять функцию первичного текста или независимого подтверждения собственных выводов.",
+            "proposed_status": "SUPPORTED",
+            "confidence": 0.98,
+            "operative_relations": [
+              "RT02",
+              "RT15",
+              "RT17"
+            ],
+            "source_origin": "MIXED",
+            "evidence_selectors": [
+              "OX-P000072-50EF1293CE",
+              "OX-P001391-31C4AF9266",
+              "OX-P000015-05964599CE",
+              "OX-P000068-E99D520D3A",
+              "OX-P000001-5D78ADC8AF"
+            ],
+            "strongest_rival": {
+              "statement": "Большой объём цитат и ссылок на GA превращает документ в достаточное источниковое издание.",
+              "impact": "DEFEATED",
+              "answer": "Структурные признаки многослойного составного контейнера непосредственно различают документ и единый первичный источник."
+            },
+            "analysis": "Проверен сильнейший соперник: Большой объём цитат и ссылок на GA превращает документ в достаточное источниковое издание.",
+            "limitations": [
+              "Автоматическая маршрутизация слоёв консервативна и оставляет значительную долю абзацев неразрешённой."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "SUPPORTED",
+          "deterministic_status_ceiling": [
+            "SUPPORTED"
+          ],
+          "evidence_selector_count": 5,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "DOSSIER_GENRE",
+            "pass": "ADJUDICATOR",
+            "A": "Корпус содержит различимые источниковые, реконструктивные, проектные, критические и процедурные слои.",
+            "P": "Документ, в котором систематически смешаны такие слои и нет разрешённых ссылок на уровне отдельных утверждений, следует оценивать как составной исследовательский контейнер.",
+            "B": "Досье не может автоматически выполнять функцию первичного текста или независимого подтверждения собственных выводов.",
+            "proposed_status": "SUPPORTED",
+            "confidence": 0.98,
+            "operative_relations": [
+              "RT02",
+              "RT15",
+              "RT17"
+            ],
+            "source_origin": "MIXED",
+            "evidence_selectors": [
+              "OX-P000072-50EF1293CE",
+              "OX-P001391-31C4AF9266",
+              "OX-P000015-05964599CE",
+              "OX-P000068-E99D520D3A",
+              "OX-P000001-5D78ADC8AF"
+            ],
+            "strongest_rival": {
+              "statement": "Большой объём цитат и ссылок на GA превращает документ в достаточное источниковое издание.",
+              "impact": "DEFEATED",
+              "answer": "Структурные признаки многослойного составного контейнера непосредственно различают документ и единый первичный источник."
+            },
+            "analysis": "Роль контейнера: COMPOSITE_CONTAINER. Непустых маршрутизированных слоёв происхождения: 5. Разрешённых ссылок на уровне утверждений: 0.",
+            "limitations": [
+              "Автоматическая маршрутизация слоёв консервативна и оставляет значительную долю абзацев неразрешённой."
+            ],
+            "final_answer": "SUPPORTED: Роль контейнера: COMPOSITE_CONTAINER. Непустых маршрутизированных слоёв происхождения: 5. Разрешённых ссылок на уровне утверждений: 0."
+          }
+        }
+      ]
+    },
+    {
+      "thesis_id": "REALITY_PROBLEM_RECONSTRUCTION",
+      "deterministic_gate": {
+        "status": "QUALIFIED",
+        "confidence": 0.84,
+        "allowed_statuses": [
+          "QUALIFIED",
+          "REJECTED",
+          "INSUFFICIENT"
+        ],
+        "gate": "INTERNAL_MODEL_COHERENCE_ONLY",
+        "decisive_reasons": [
+          "Тематический порог выполнен: 330 селекторов, 3 групп.",
+          "Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "REALITY_PROBLEM_RECONSTRUCTION",
+            "pass": "RECONSTRUCTOR",
+            "A": "В корпусе устойчиво совместно разрабатываются Realität, Wirklichkeit и реализм.",
+            "P": "Совместная разработка терминов может поддержать внутреннюю реконструкцию проблемы, если она не выдаётся за установленную позицию автора без источникового моста.",
+            "B": "Реконструкция пригодна как рабочая модель вопроса о реальности, но не как окончательная атрибуция Хайдеггеру.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT15",
+              "RT18",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000001-5D78ADC8AF",
+              "OX-P000294-2943CB5C8E",
+              "OX-P000654-F6C8D79A8D",
+              "OX-P000852-229E9CD543",
+              "OX-P001396-BFBA0BB7C7",
+              "OX-P007807-4E5D9A53F1",
+              "OX-P009418-8F59240974",
+              "OX-P015367-E92851F09C",
+              "OX-P029591-81D6DF58BA",
+              "OX-P033769-B3A1764FD2",
+              "OX-P012217-8FA728AB62",
+              "OX-P000108-368047DD6D"
+            ],
+            "strongest_rival": {
+              "statement": "Тематический узел является лишь эффектом частотного совпадения терминов в искусственно собранном досье.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Реконструкция проблемы реальности»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Нет разрешённых ссылок на уровне утверждений.",
+              "Лексические селекторы не различают авторскую цитату и позднейшую реконструкцию без дополнительной проверки."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "REALITY_PROBLEM_RECONSTRUCTION",
+            "pass": "CRITIC",
+            "A": "В корпусе устойчиво совместно разрабатываются Realität, Wirklichkeit и реализм.",
+            "P": "Совместная разработка терминов может поддержать внутреннюю реконструкцию проблемы, если она не выдаётся за установленную позицию автора без источникового моста.",
+            "B": "Реконструкция пригодна как рабочая модель вопроса о реальности, но не как окончательная атрибуция Хайдеггеру.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT15",
+              "RT18",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000001-5D78ADC8AF",
+              "OX-P000294-2943CB5C8E",
+              "OX-P000654-F6C8D79A8D",
+              "OX-P000852-229E9CD543",
+              "OX-P001396-BFBA0BB7C7",
+              "OX-P007807-4E5D9A53F1",
+              "OX-P009418-8F59240974",
+              "OX-P015367-E92851F09C",
+              "OX-P029591-81D6DF58BA",
+              "OX-P033769-B3A1764FD2",
+              "OX-P012217-8FA728AB62",
+              "OX-P000108-368047DD6D"
+            ],
+            "strongest_rival": {
+              "statement": "Тематический узел является лишь эффектом частотного совпадения терминов в искусственно собранном досье.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Проверен сильнейший соперник: Тематический узел является лишь эффектом частотного совпадения терминов в искусственно собранном досье.",
+            "limitations": [
+              "Нет разрешённых ссылок на уровне утверждений.",
+              "Лексические селекторы не различают авторскую цитату и позднейшую реконструкцию без дополнительной проверки."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "REALITY_PROBLEM_RECONSTRUCTION",
+            "pass": "ADJUDICATOR",
+            "A": "В корпусе устойчиво совместно разрабатываются Realität, Wirklichkeit и реализм.",
+            "P": "Совместная разработка терминов может поддержать внутреннюю реконструкцию проблемы, если она не выдаётся за установленную позицию автора без источникового моста.",
+            "B": "Реконструкция пригодна как рабочая модель вопроса о реальности, но не как окончательная атрибуция Хайдеггеру.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT15",
+              "RT18",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000001-5D78ADC8AF",
+              "OX-P000294-2943CB5C8E",
+              "OX-P000654-F6C8D79A8D",
+              "OX-P000852-229E9CD543",
+              "OX-P001396-BFBA0BB7C7",
+              "OX-P007807-4E5D9A53F1",
+              "OX-P009418-8F59240974",
+              "OX-P015367-E92851F09C",
+              "OX-P029591-81D6DF58BA",
+              "OX-P033769-B3A1764FD2",
+              "OX-P012217-8FA728AB62",
+              "OX-P000108-368047DD6D"
+            ],
+            "strongest_rival": {
+              "statement": "Тематический узел является лишь эффектом частотного совпадения терминов в искусственно собранном досье.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Тематический порог выполнен: 330 селекторов, 3 групп. Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию.",
+            "limitations": [
+              "Нет разрешённых ссылок на уровне утверждений.",
+              "Лексические селекторы не различают авторскую цитату и позднейшую реконструкцию без дополнительной проверки."
+            ],
+            "final_answer": "QUALIFIED: Тематический порог выполнен: 330 селекторов, 3 групп. Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию."
+          }
+        }
+      ]
+    },
+    {
+      "thesis_id": "ACT_CONTENT_OBJECT_DISTINCTION",
+      "deterministic_gate": {
+        "status": "QUALIFIED",
+        "confidence": 0.84,
+        "allowed_statuses": [
+          "QUALIFIED",
+          "REJECTED",
+          "INSUFFICIENT"
+        ],
+        "gate": "INTERNAL_MODEL_COHERENCE_ONLY",
+        "decisive_reasons": [
+          "Тематический порог выполнен: 393 селекторов, 3 групп.",
+          "Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "ACT_CONTENT_OBJECT_DISTINCTION",
+            "pass": "RECONSTRUCTOR",
+            "A": "Акт, содержание и предмет представлены как различимые роли в анализе познания и реальности.",
+            "P": "Ролевое различение аналитически оправдано, пока переходы между ролями не подменяются тождеством, конституированием или онтологической зависимостью без отдельного моста.",
+            "B": "Триада полезна как контроль против редукции, но нуждается в локальных аргументах для каждой связи.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT03",
+              "RT09",
+              "RT17",
+              "RT19"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000006-AA2A5BCEB0",
+              "OX-P000374-D5A136C300",
+              "OX-P000944-44701A2713",
+              "OX-P008832-51D90FEEDE",
+              "OX-P014530-9E9BA61189",
+              "OX-P032375-FAB81D0990",
+              "OX-P000410-C521F5CD4A",
+              "OX-P002001-77CF69827F",
+              "OX-P002896-3B5FE4831C",
+              "OX-P010000-B4234BBE3A",
+              "OX-P000046-745D9A3740",
+              "OX-P000395-23F516CC82"
+            ],
+            "strongest_rival": {
+              "statement": "Триада навязана материалу проектом и не соответствует собственным различениям раннего текста.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Различение акта, содержания и предмета»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Автоматически установлено наличие тематических групп, но не валидность переходов между ними."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "ACT_CONTENT_OBJECT_DISTINCTION",
+            "pass": "CRITIC",
+            "A": "Акт, содержание и предмет представлены как различимые роли в анализе познания и реальности.",
+            "P": "Ролевое различение аналитически оправдано, пока переходы между ролями не подменяются тождеством, конституированием или онтологической зависимостью без отдельного моста.",
+            "B": "Триада полезна как контроль против редукции, но нуждается в локальных аргументах для каждой связи.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT03",
+              "RT09",
+              "RT17",
+              "RT19"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000006-AA2A5BCEB0",
+              "OX-P000374-D5A136C300",
+              "OX-P000944-44701A2713",
+              "OX-P008832-51D90FEEDE",
+              "OX-P014530-9E9BA61189",
+              "OX-P032375-FAB81D0990",
+              "OX-P000410-C521F5CD4A",
+              "OX-P002001-77CF69827F",
+              "OX-P002896-3B5FE4831C",
+              "OX-P010000-B4234BBE3A",
+              "OX-P000046-745D9A3740",
+              "OX-P000395-23F516CC82"
+            ],
+            "strongest_rival": {
+              "statement": "Триада навязана материалу проектом и не соответствует собственным различениям раннего текста.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Проверен сильнейший соперник: Триада навязана материалу проектом и не соответствует собственным различениям раннего текста.",
+            "limitations": [
+              "Автоматически установлено наличие тематических групп, но не валидность переходов между ними."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "ACT_CONTENT_OBJECT_DISTINCTION",
+            "pass": "ADJUDICATOR",
+            "A": "Акт, содержание и предмет представлены как различимые роли в анализе познания и реальности.",
+            "P": "Ролевое различение аналитически оправдано, пока переходы между ролями не подменяются тождеством, конституированием или онтологической зависимостью без отдельного моста.",
+            "B": "Триада полезна как контроль против редукции, но нуждается в локальных аргументах для каждой связи.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT03",
+              "RT09",
+              "RT17",
+              "RT19"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000006-AA2A5BCEB0",
+              "OX-P000374-D5A136C300",
+              "OX-P000944-44701A2713",
+              "OX-P008832-51D90FEEDE",
+              "OX-P014530-9E9BA61189",
+              "OX-P032375-FAB81D0990",
+              "OX-P000410-C521F5CD4A",
+              "OX-P002001-77CF69827F",
+              "OX-P002896-3B5FE4831C",
+              "OX-P010000-B4234BBE3A",
+              "OX-P000046-745D9A3740",
+              "OX-P000395-23F516CC82"
+            ],
+            "strongest_rival": {
+              "statement": "Триада навязана материалу проектом и не соответствует собственным различениям раннего текста.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Тематический порог выполнен: 393 селекторов, 3 групп. Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию.",
+            "limitations": [
+              "Автоматически установлено наличие тематических групп, но не валидность переходов между ними."
+            ],
+            "final_answer": "QUALIFIED: Тематический порог выполнен: 393 селекторов, 3 групп. Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию."
+          }
+        }
+      ]
+    },
+    {
+      "thesis_id": "REGIONAL_REALIZATION_PROFILE",
+      "deterministic_gate": {
+        "status": "QUALIFIED",
+        "confidence": 0.84,
+        "allowed_statuses": [
+          "QUALIFIED",
+          "REJECTED",
+          "INSUFFICIENT"
+        ],
+        "gate": "INTERNAL_MODEL_COHERENCE_ONLY",
+        "decisive_reasons": [
+          "Тематический порог выполнен: 398 селекторов, 6 групп.",
+          "Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "REGIONAL_REALIZATION_PROFILE",
+            "pass": "RECONSTRUCTOR",
+            "A": "Разнородные случаи различаются по происхождению, поддержанию, критериям тождества, режимам доступа и ограничениям.",
+            "P": "Сравнительная модель должна сохранять эти различия и не превращать одну связь в универсальную объяснительную схему.",
+            "B": "Шестимерный профиль пригоден как регионально чувствительный вопросник и генератор контрпримеров.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT03",
+              "RT05",
+              "RT08",
+              "RT09",
+              "RT10",
+              "RT19"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000313-373154D4D2",
+              "OX-P005082-28E56F9E76",
+              "OX-P033039-EC663E21D0",
+              "OX-P003130-8E4CF72034",
+              "OX-P026623-4BC47A6E39",
+              "OX-P000329-CE61198631",
+              "OX-P006932-69D23A688D",
+              "OX-P031967-F2E9C23B42",
+              "OX-P000886-B39C1E8327",
+              "OX-P002420-833E49B995",
+              "OX-P005004-03B2B7E8AB",
+              "OX-P031014-37D465A880"
+            ],
+            "strongest_rival": {
+              "statement": "Единый профиль создаёт ложную соизмеримость физических, биологических, переживаемых, социальных, технических, математических и фикциональных объектов.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Региональный профиль реализации»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Общие названия измерений ещё не гарантируют их операциональную сопоставимость между доменами.",
+              "Матрица в текущем корпусе лексически обнаружена, но независимо не размечена."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "REGIONAL_REALIZATION_PROFILE",
+            "pass": "CRITIC",
+            "A": "Разнородные случаи различаются по происхождению, поддержанию, критериям тождества, режимам доступа и ограничениям.",
+            "P": "Сравнительная модель должна сохранять эти различия и не превращать одну связь в универсальную объяснительную схему.",
+            "B": "Шестимерный профиль пригоден как регионально чувствительный вопросник и генератор контрпримеров.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT03",
+              "RT05",
+              "RT08",
+              "RT09",
+              "RT10",
+              "RT19"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000313-373154D4D2",
+              "OX-P005082-28E56F9E76",
+              "OX-P033039-EC663E21D0",
+              "OX-P003130-8E4CF72034",
+              "OX-P026623-4BC47A6E39",
+              "OX-P000329-CE61198631",
+              "OX-P006932-69D23A688D",
+              "OX-P031967-F2E9C23B42",
+              "OX-P000886-B39C1E8327",
+              "OX-P002420-833E49B995",
+              "OX-P005004-03B2B7E8AB",
+              "OX-P031014-37D465A880"
+            ],
+            "strongest_rival": {
+              "statement": "Единый профиль создаёт ложную соизмеримость физических, биологических, переживаемых, социальных, технических, математических и фикциональных объектов.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Проверен сильнейший соперник: Единый профиль создаёт ложную соизмеримость физических, биологических, переживаемых, социальных, технических, математических и фикциональных объектов.",
+            "limitations": [
+              "Общие названия измерений ещё не гарантируют их операциональную сопоставимость между доменами.",
+              "Матрица в текущем корпусе лексически обнаружена, но независимо не размечена."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "REGIONAL_REALIZATION_PROFILE",
+            "pass": "ADJUDICATOR",
+            "A": "Разнородные случаи различаются по происхождению, поддержанию, критериям тождества, режимам доступа и ограничениям.",
+            "P": "Сравнительная модель должна сохранять эти различия и не превращать одну связь в универсальную объяснительную схему.",
+            "B": "Шестимерный профиль пригоден как регионально чувствительный вопросник и генератор контрпримеров.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.84,
+            "operative_relations": [
+              "RT03",
+              "RT05",
+              "RT08",
+              "RT09",
+              "RT10",
+              "RT19"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000313-373154D4D2",
+              "OX-P005082-28E56F9E76",
+              "OX-P033039-EC663E21D0",
+              "OX-P003130-8E4CF72034",
+              "OX-P026623-4BC47A6E39",
+              "OX-P000329-CE61198631",
+              "OX-P006932-69D23A688D",
+              "OX-P031967-F2E9C23B42",
+              "OX-P000886-B39C1E8327",
+              "OX-P002420-833E49B995",
+              "OX-P005004-03B2B7E8AB",
+              "OX-P031014-37D465A880"
+            ],
+            "strongest_rival": {
+              "statement": "Единый профиль создаёт ложную соизмеримость физических, биологических, переживаемых, социальных, технических, математических и фикциональных объектов.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Тематический порог выполнен: 398 селекторов, 6 групп. Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию.",
+            "limitations": [
+              "Общие названия измерений ещё не гарантируют их операциональную сопоставимость между доменами.",
+              "Матрица в текущем корпусе лексически обнаружена, но независимо не размечена."
+            ],
+            "final_answer": "QUALIFIED: Тематический порог выполнен: 398 селекторов, 6 групп. Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию."
+          }
+        }
+      ]
+    },
+    {
+      "thesis_id": "SEVEN_CASE_STRESS_TEST",
+      "deterministic_gate": {
+        "status": "SUPPORTED",
+        "confidence": 0.9,
+        "allowed_statuses": [
+          "SUPPORTED"
+        ],
+        "gate": "HETEROGENEOUS_TEST_DESIGN_THRESHOLD_MET_SCOPE_LOCKED_TO_DESIGN",
+        "decisive_reasons": [
+          "Матрица содержит 7 различимых случаев и проходит заданный минимум 5.",
+          "Статус относится к пригодности дизайна для стресс-теста, а не к истинности проверяемой онтологии."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "SUPPORTED",
+          "deterministic_status_ceiling": [
+            "SUPPORTED"
+          ],
+          "evidence_selector_count": 5,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "SEVEN_CASE_STRESS_TEST",
+            "pass": "RECONSTRUCTOR",
+            "A": "Матрица включает семь случаев, различающихся по материальности, переживаемости, социальной поддержке, технической функции, абстрактности и фикциональности.",
+            "P": "Гетерогенный тест-дизайн ценен, если он максимизирует вероятность обнаружения категориальной ошибки и не выдаёт наличие примеров за подтверждение общей теории.",
+            "B": "Семь случаев достаточны для первого автоматического стресс-теста модели, но не для доказательства её истинности.",
+            "proposed_status": "SUPPORTED",
+            "confidence": 0.9,
+            "operative_relations": [
+              "RT15",
+              "RT26",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P005606-23241104CA",
+              "OX-P000189-F2D6286ADE",
+              "OX-P006671-B1A9FAE5DC",
+              "OX-P028518-B0681C1C65",
+              "OX-P031014-37D465A880"
+            ],
+            "strongest_rival": {
+              "statement": "Случаи подобраны постфактум так, чтобы демонстрировать желаемую универсальность профиля.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Стресс-тест на семи случаях»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Выборка не случайна и не исчерпывает домены.",
+              "Лексическое присутствие случая не равно полноценному анализу случая."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "SUPPORTED",
+          "deterministic_status_ceiling": [
+            "SUPPORTED"
+          ],
+          "evidence_selector_count": 5,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "SEVEN_CASE_STRESS_TEST",
+            "pass": "CRITIC",
+            "A": "Матрица включает семь случаев, различающихся по материальности, переживаемости, социальной поддержке, технической функции, абстрактности и фикциональности.",
+            "P": "Гетерогенный тест-дизайн ценен, если он максимизирует вероятность обнаружения категориальной ошибки и не выдаёт наличие примеров за подтверждение общей теории.",
+            "B": "Семь случаев достаточны для первого автоматического стресс-теста модели, но не для доказательства её истинности.",
+            "proposed_status": "SUPPORTED",
+            "confidence": 0.9,
+            "operative_relations": [
+              "RT15",
+              "RT26",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P005606-23241104CA",
+              "OX-P000189-F2D6286ADE",
+              "OX-P006671-B1A9FAE5DC",
+              "OX-P028518-B0681C1C65",
+              "OX-P031014-37D465A880"
+            ],
+            "strongest_rival": {
+              "statement": "Случаи подобраны постфактум так, чтобы демонстрировать желаемую универсальность профиля.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Проверен сильнейший соперник: Случаи подобраны постфактум так, чтобы демонстрировать желаемую универсальность профиля.",
+            "limitations": [
+              "Выборка не случайна и не исчерпывает домены.",
+              "Лексическое присутствие случая не равно полноценному анализу случая."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "SUPPORTED",
+          "deterministic_status_ceiling": [
+            "SUPPORTED"
+          ],
+          "evidence_selector_count": 5,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "SEVEN_CASE_STRESS_TEST",
+            "pass": "ADJUDICATOR",
+            "A": "Матрица включает семь случаев, различающихся по материальности, переживаемости, социальной поддержке, технической функции, абстрактности и фикциональности.",
+            "P": "Гетерогенный тест-дизайн ценен, если он максимизирует вероятность обнаружения категориальной ошибки и не выдаёт наличие примеров за подтверждение общей теории.",
+            "B": "Семь случаев достаточны для первого автоматического стресс-теста модели, но не для доказательства её истинности.",
+            "proposed_status": "SUPPORTED",
+            "confidence": 0.9,
+            "operative_relations": [
+              "RT15",
+              "RT26",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P005606-23241104CA",
+              "OX-P000189-F2D6286ADE",
+              "OX-P006671-B1A9FAE5DC",
+              "OX-P028518-B0681C1C65",
+              "OX-P031014-37D465A880"
+            ],
+            "strongest_rival": {
+              "statement": "Случаи подобраны постфактум так, чтобы демонстрировать желаемую универсальность профиля.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Матрица содержит 7 различимых случаев и проходит заданный минимум 5. Статус относится к пригодности дизайна для стресс-теста, а не к истинности проверяемой онтологии.",
+            "limitations": [
+              "Выборка не случайна и не исчерпывает домены.",
+              "Лексическое присутствие случая не равно полноценному анализу случая."
+            ],
+            "final_answer": "SUPPORTED: Матрица содержит 7 различимых случаев и проходит заданный минимум 5. Статус относится к пригодности дизайна для стресс-теста, а не к истинности проверяемой онтологии."
+          }
+        }
+      ]
+    },
+    {
+      "thesis_id": "UNIVERSAL_ONTOLOGY_PROMOTION",
+      "deterministic_gate": {
+        "status": "REJECTED",
+        "confidence": 0.95,
+        "allowed_statuses": [
+          "REJECTED"
+        ],
+        "gate": "UNIVERSAL_PROMOTION_REJECTED_SOURCE_AND_DOMAIN_BURDEN_UNMET",
+        "decisive_reasons": [
+          "Универсальный тезис требует 7 разрешённых источников, доступно 0.",
+          "Лексическая применимость общей рамки к выбранным случаям не влечёт универсальную онтологическую структуру."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "REJECTED",
+          "deterministic_status_ceiling": [
+            "REJECTED"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "UNIVERSAL_ONTOLOGY_PROMOTION",
+            "pass": "RECONSTRUCTOR",
+            "A": "Несколько разнородных случаев могут быть описаны общим словарём профиля реализации.",
+            "P": "Если общий словарь применим к выбранным случаям, то он якобы выражает универсальную структуру бытия любого сущего.",
+            "B": "Профиль объявляется универсальной онтологией.",
+            "proposed_status": "REJECTED",
+            "confidence": 0.95,
+            "operative_relations": [
+              "RT01",
+              "RT07",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000313-373154D4D2",
+              "OX-P005082-28E56F9E76",
+              "OX-P033039-EC663E21D0",
+              "OX-P003130-8E4CF72034",
+              "OX-P026623-4BC47A6E39",
+              "OX-P000329-CE61198631",
+              "OX-P006932-69D23A688D",
+              "OX-P031967-F2E9C23B42",
+              "OX-P000886-B39C1E8327",
+              "OX-P002420-833E49B995",
+              "OX-P005004-03B2B7E8AB",
+              "OX-P031014-37D465A880"
+            ],
+            "strongest_rival": {
+              "statement": "Совпадение вопросов не означает единства онтологических ответов; регионы могут требовать несводимых критериев и отношений.",
+              "impact": "DECISIVE",
+              "answer": "Соперник выявляет недопустимый переход и является решающим для отвержения тезиса в текущем прогоне."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Переход к универсальной онтологии»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Отвержение относится к данному доказательному переходу, а не доказывает невозможность любой универсальной онтологии."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "REJECTED",
+          "deterministic_status_ceiling": [
+            "REJECTED"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "UNIVERSAL_ONTOLOGY_PROMOTION",
+            "pass": "CRITIC",
+            "A": "Несколько разнородных случаев могут быть описаны общим словарём профиля реализации.",
+            "P": "Если общий словарь применим к выбранным случаям, то он якобы выражает универсальную структуру бытия любого сущего.",
+            "B": "Профиль объявляется универсальной онтологией.",
+            "proposed_status": "REJECTED",
+            "confidence": 0.95,
+            "operative_relations": [
+              "RT01",
+              "RT07",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000313-373154D4D2",
+              "OX-P005082-28E56F9E76",
+              "OX-P033039-EC663E21D0",
+              "OX-P003130-8E4CF72034",
+              "OX-P026623-4BC47A6E39",
+              "OX-P000329-CE61198631",
+              "OX-P006932-69D23A688D",
+              "OX-P031967-F2E9C23B42",
+              "OX-P000886-B39C1E8327",
+              "OX-P002420-833E49B995",
+              "OX-P005004-03B2B7E8AB",
+              "OX-P031014-37D465A880"
+            ],
+            "strongest_rival": {
+              "statement": "Совпадение вопросов не означает единства онтологических ответов; регионы могут требовать несводимых критериев и отношений.",
+              "impact": "DECISIVE",
+              "answer": "Соперник выявляет недопустимый переход и является решающим для отвержения тезиса в текущем прогоне."
+            },
+            "analysis": "Проверен сильнейший соперник: Совпадение вопросов не означает единства онтологических ответов; регионы могут требовать несводимых критериев и отношений.",
+            "limitations": [
+              "Отвержение относится к данному доказательному переходу, а не доказывает невозможность любой универсальной онтологии."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "REJECTED",
+          "deterministic_status_ceiling": [
+            "REJECTED"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "UNIVERSAL_ONTOLOGY_PROMOTION",
+            "pass": "ADJUDICATOR",
+            "A": "Несколько разнородных случаев могут быть описаны общим словарём профиля реализации.",
+            "P": "Если общий словарь применим к выбранным случаям, то он якобы выражает универсальную структуру бытия любого сущего.",
+            "B": "Профиль объявляется универсальной онтологией.",
+            "proposed_status": "REJECTED",
+            "confidence": 0.95,
+            "operative_relations": [
+              "RT01",
+              "RT07",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000313-373154D4D2",
+              "OX-P005082-28E56F9E76",
+              "OX-P033039-EC663E21D0",
+              "OX-P003130-8E4CF72034",
+              "OX-P026623-4BC47A6E39",
+              "OX-P000329-CE61198631",
+              "OX-P006932-69D23A688D",
+              "OX-P031967-F2E9C23B42",
+              "OX-P000886-B39C1E8327",
+              "OX-P002420-833E49B995",
+              "OX-P005004-03B2B7E8AB",
+              "OX-P031014-37D465A880"
+            ],
+            "strongest_rival": {
+              "statement": "Совпадение вопросов не означает единства онтологических ответов; регионы могут требовать несводимых критериев и отношений.",
+              "impact": "DECISIVE",
+              "answer": "Соперник выявляет недопустимый переход и является решающим для отвержения тезиса в текущем прогоне."
+            },
+            "analysis": "Универсальный тезис требует 7 разрешённых источников, доступно 0. Лексическая применимость общей рамки к выбранным случаям не влечёт универсальную онтологическую структуру.",
+            "limitations": [
+              "Отвержение относится к данному доказательному переходу, а не доказывает невозможность любой универсальной онтологии."
+            ],
+            "final_answer": "REJECTED: Универсальный тезис требует 7 разрешённых источников, доступно 0. Лексическая применимость общей рамки к выбранным случаям не влечёт универсальную онтологическую структуру."
+          }
+        }
+      ]
+    },
+    {
+      "thesis_id": "DIACHRONIC_HEIDEGGER",
+      "deterministic_gate": {
+        "status": "INSUFFICIENT",
+        "confidence": 0.96,
+        "allowed_statuses": [
+          "INSUFFICIENT"
+        ],
+        "gate": "SOURCE_DEPENDENT_CLAIM_BLOCKED_BY_UNRESOLVED_CITATIONS",
+        "decisive_reasons": [
+          "Тезис требует 4 разрешённых источников на уровне утверждений, доступно 0.",
+          "Частота терминов и локатороподобных маркеров не заменяет датированного источникового моста."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "INSUFFICIENT",
+          "deterministic_status_ceiling": [
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "DIACHRONIC_HEIDEGGER",
+            "pass": "RECONSTRUCTOR",
+            "A": "Корпус соединяет ранние и поздние понятия и содержит множество хронологических и GA-маркеров.",
+            "P": "Диахроническая преемственность требует датированных первичных локаторов, различения сохранения и разрыва и конкурирующей периодизации.",
+            "B": "Без таких мостов корпус формулирует программу исследования, но не устанавливает траекторию развития.",
+            "proposed_status": "INSUFFICIENT",
+            "confidence": 0.96,
+            "operative_relations": [
+              "RT15",
+              "RT20",
+              "RT28"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000001-5D78ADC8AF",
+              "OX-P000112-DAC3B981CA",
+              "OX-P000273-88FDE3F1B6",
+              "OX-P000513-C14B6B9C91",
+              "OX-P000881-21AE2491C2",
+              "OX-P001103-D40190F0FC",
+              "OX-P001464-41BD1E501A",
+              "OX-P001653-FB839BD0A2",
+              "OX-P001883-0ED6D3BB3A",
+              "OX-P002379-6DE295E06D",
+              "OX-P002704-B2DB144612",
+              "OX-P003012-C6DCBC3025"
+            ],
+            "strongest_rival": {
+              "statement": "Поздняя проблематика техники не развивает ранний вопрос о реальности, а перестраивает или оставляет его исходные координаты.",
+              "impact": "UNRESOLVED",
+              "answer": "Доступных разрешённых свидетельств недостаточно, чтобы устранить соперника или предпочесть ему исходный тезис."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Диахроническая траектория Хайдеггера»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "В текущей карте нет разрешённых ссылок на уровне отдельных диахронических утверждений."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "INSUFFICIENT",
+          "deterministic_status_ceiling": [
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "DIACHRONIC_HEIDEGGER",
+            "pass": "CRITIC",
+            "A": "Корпус соединяет ранние и поздние понятия и содержит множество хронологических и GA-маркеров.",
+            "P": "Диахроническая преемственность требует датированных первичных локаторов, различения сохранения и разрыва и конкурирующей периодизации.",
+            "B": "Без таких мостов корпус формулирует программу исследования, но не устанавливает траекторию развития.",
+            "proposed_status": "INSUFFICIENT",
+            "confidence": 0.96,
+            "operative_relations": [
+              "RT15",
+              "RT20",
+              "RT28"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000001-5D78ADC8AF",
+              "OX-P000112-DAC3B981CA",
+              "OX-P000273-88FDE3F1B6",
+              "OX-P000513-C14B6B9C91",
+              "OX-P000881-21AE2491C2",
+              "OX-P001103-D40190F0FC",
+              "OX-P001464-41BD1E501A",
+              "OX-P001653-FB839BD0A2",
+              "OX-P001883-0ED6D3BB3A",
+              "OX-P002379-6DE295E06D",
+              "OX-P002704-B2DB144612",
+              "OX-P003012-C6DCBC3025"
+            ],
+            "strongest_rival": {
+              "statement": "Поздняя проблематика техники не развивает ранний вопрос о реальности, а перестраивает или оставляет его исходные координаты.",
+              "impact": "UNRESOLVED",
+              "answer": "Доступных разрешённых свидетельств недостаточно, чтобы устранить соперника или предпочесть ему исходный тезис."
+            },
+            "analysis": "Проверен сильнейший соперник: Поздняя проблематика техники не развивает ранний вопрос о реальности, а перестраивает или оставляет его исходные координаты.",
+            "limitations": [
+              "В текущей карте нет разрешённых ссылок на уровне отдельных диахронических утверждений."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "INSUFFICIENT",
+          "deterministic_status_ceiling": [
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "DIACHRONIC_HEIDEGGER",
+            "pass": "ADJUDICATOR",
+            "A": "Корпус соединяет ранние и поздние понятия и содержит множество хронологических и GA-маркеров.",
+            "P": "Диахроническая преемственность требует датированных первичных локаторов, различения сохранения и разрыва и конкурирующей периодизации.",
+            "B": "Без таких мостов корпус формулирует программу исследования, но не устанавливает траекторию развития.",
+            "proposed_status": "INSUFFICIENT",
+            "confidence": 0.96,
+            "operative_relations": [
+              "RT15",
+              "RT20",
+              "RT28"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P000001-5D78ADC8AF",
+              "OX-P000112-DAC3B981CA",
+              "OX-P000273-88FDE3F1B6",
+              "OX-P000513-C14B6B9C91",
+              "OX-P000881-21AE2491C2",
+              "OX-P001103-D40190F0FC",
+              "OX-P001464-41BD1E501A",
+              "OX-P001653-FB839BD0A2",
+              "OX-P001883-0ED6D3BB3A",
+              "OX-P002379-6DE295E06D",
+              "OX-P002704-B2DB144612",
+              "OX-P003012-C6DCBC3025"
+            ],
+            "strongest_rival": {
+              "statement": "Поздняя проблематика техники не развивает ранний вопрос о реальности, а перестраивает или оставляет его исходные координаты.",
+              "impact": "UNRESOLVED",
+              "answer": "Доступных разрешённых свидетельств недостаточно, чтобы устранить соперника или предпочесть ему исходный тезис."
+            },
+            "analysis": "Тезис требует 4 разрешённых источников на уровне утверждений, доступно 0. Частота терминов и локатороподобных маркеров не заменяет датированного источникового моста.",
+            "limitations": [
+              "В текущей карте нет разрешённых ссылок на уровне отдельных диахронических утверждений."
+            ],
+            "final_answer": "INSUFFICIENT: Тезис требует 4 разрешённых источников на уровне утверждений, доступно 0. Частота терминов и локатороподобных маркеров не заменяет датированного источникового моста."
+          }
+        }
+      ]
+    },
+    {
+      "thesis_id": "TERM_GENEALOGY",
+      "deterministic_gate": {
+        "status": "INSUFFICIENT",
+        "confidence": 0.96,
+        "allowed_statuses": [
+          "INSUFFICIENT"
+        ],
+        "gate": "SOURCE_DEPENDENT_CLAIM_BLOCKED_BY_UNRESOLVED_CITATIONS",
+        "decisive_reasons": [
+          "Тезис требует 4 разрешённых источников на уровне утверждений, доступно 0.",
+          "Частота терминов и локатороподобных маркеров не заменяет датированного источникового моста."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "INSUFFICIENT",
+          "deterministic_status_ceiling": [
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "TERM_GENEALOGY",
+            "pass": "RECONSTRUCTOR",
+            "A": "Все четыре терминологических семейства представлены в корпусе.",
+            "P": "Генеалогия требует не совместного присутствия, а датированных употреблений, различения языков и функций, а также доказанного исторического перехода.",
+            "B": "Текущий кластер задаёт карту поиска, но ещё не устанавливает генеалогию.",
+            "proposed_status": "INSUFFICIENT",
+            "confidence": 0.96,
+            "operative_relations": [
+              "RT17",
+              "RT18",
+              "RT20",
+              "RT28"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P007228-CFE6CF1D1A",
+              "OX-P015713-61C88F0BB8",
+              "OX-P000559-742AA6FC44",
+              "OX-P002459-5BE4EA99DB",
+              "OX-P003690-8381C1DBB5",
+              "OX-P004194-CF23A475D1",
+              "OX-P005098-737D1A338F",
+              "OX-P006936-97AB0E9306",
+              "OX-P008769-6901DA4167",
+              "OX-P013343-5E13AD6410",
+              "OX-P016833-0619A247B6",
+              "OX-P022115-F8868FEBAF"
+            ],
+            "strongest_rival": {
+              "statement": "Термины принадлежат различным проблемным контекстам и их последовательность создаётся переводом или позднейшей классификацией.",
+              "impact": "UNRESOLVED",
+              "answer": "Доступных разрешённых свидетельств недостаточно, чтобы устранить соперника или предпочесть ему исходный тезис."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Генеалогия realitas — Wirklichkeit — Existenz — Sein»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Нет claim-level source resolution и независимой терминологической разметки."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "INSUFFICIENT",
+          "deterministic_status_ceiling": [
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "TERM_GENEALOGY",
+            "pass": "CRITIC",
+            "A": "Все четыре терминологических семейства представлены в корпусе.",
+            "P": "Генеалогия требует не совместного присутствия, а датированных употреблений, различения языков и функций, а также доказанного исторического перехода.",
+            "B": "Текущий кластер задаёт карту поиска, но ещё не устанавливает генеалогию.",
+            "proposed_status": "INSUFFICIENT",
+            "confidence": 0.96,
+            "operative_relations": [
+              "RT17",
+              "RT18",
+              "RT20",
+              "RT28"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P007228-CFE6CF1D1A",
+              "OX-P015713-61C88F0BB8",
+              "OX-P000559-742AA6FC44",
+              "OX-P002459-5BE4EA99DB",
+              "OX-P003690-8381C1DBB5",
+              "OX-P004194-CF23A475D1",
+              "OX-P005098-737D1A338F",
+              "OX-P006936-97AB0E9306",
+              "OX-P008769-6901DA4167",
+              "OX-P013343-5E13AD6410",
+              "OX-P016833-0619A247B6",
+              "OX-P022115-F8868FEBAF"
+            ],
+            "strongest_rival": {
+              "statement": "Термины принадлежат различным проблемным контекстам и их последовательность создаётся переводом или позднейшей классификацией.",
+              "impact": "UNRESOLVED",
+              "answer": "Доступных разрешённых свидетельств недостаточно, чтобы устранить соперника или предпочесть ему исходный тезис."
+            },
+            "analysis": "Проверен сильнейший соперник: Термины принадлежат различным проблемным контекстам и их последовательность создаётся переводом или позднейшей классификацией.",
+            "limitations": [
+              "Нет claim-level source resolution и независимой терминологической разметки."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "INSUFFICIENT",
+          "deterministic_status_ceiling": [
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 12,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "TERM_GENEALOGY",
+            "pass": "ADJUDICATOR",
+            "A": "Все четыре терминологических семейства представлены в корпусе.",
+            "P": "Генеалогия требует не совместного присутствия, а датированных употреблений, различения языков и функций, а также доказанного исторического перехода.",
+            "B": "Текущий кластер задаёт карту поиска, но ещё не устанавливает генеалогию.",
+            "proposed_status": "INSUFFICIENT",
+            "confidence": 0.96,
+            "operative_relations": [
+              "RT17",
+              "RT18",
+              "RT20",
+              "RT28"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P007228-CFE6CF1D1A",
+              "OX-P015713-61C88F0BB8",
+              "OX-P000559-742AA6FC44",
+              "OX-P002459-5BE4EA99DB",
+              "OX-P003690-8381C1DBB5",
+              "OX-P004194-CF23A475D1",
+              "OX-P005098-737D1A338F",
+              "OX-P006936-97AB0E9306",
+              "OX-P008769-6901DA4167",
+              "OX-P013343-5E13AD6410",
+              "OX-P016833-0619A247B6",
+              "OX-P022115-F8868FEBAF"
+            ],
+            "strongest_rival": {
+              "statement": "Термины принадлежат различным проблемным контекстам и их последовательность создаётся переводом или позднейшей классификацией.",
+              "impact": "UNRESOLVED",
+              "answer": "Доступных разрешённых свидетельств недостаточно, чтобы устранить соперника или предпочесть ему исходный тезис."
+            },
+            "analysis": "Тезис требует 4 разрешённых источников на уровне утверждений, доступно 0. Частота терминов и локатороподобных маркеров не заменяет датированного источникового моста.",
+            "limitations": [
+              "Нет claim-level source resolution и независимой терминологической разметки."
+            ],
+            "final_answer": "INSUFFICIENT: Тезис требует 4 разрешённых источников на уровне утверждений, доступно 0. Частота терминов и локатороподобных маркеров не заменяет датированного источникового моста."
+          }
+        }
+      ]
+    },
+    {
+      "thesis_id": "META_CRITIQUE",
+      "deterministic_gate": {
+        "status": "QUALIFIED",
+        "confidence": 0.82,
+        "allowed_statuses": [
+          "QUALIFIED",
+          "REJECTED",
+          "INSUFFICIENT"
+        ],
+        "gate": "META_METHOD_SUPPORTED_AS_CONTROL_NOT_AS_TRUTH_EVIDENCE",
+        "decisive_reasons": [
+          "Самоприменение критики является процедурным контролем против циркуляции.",
+          "Прохождение внутренней процедуры не доказывает внешнюю истинность результата."
+        ]
+      },
+      "passes": [
+        {
+          "pass": "RECONSTRUCTOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 2,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "META_CRITIQUE",
+            "pass": "RECONSTRUCTOR",
+            "A": "Проект требует маркировать происхождение, различать типы переходов и предъявлять сильнейшего соперника.",
+            "P": "Метод, претендующий на обнаружение скрытых переходов, должен проходить те же проверки на собственных понятиях и автоматических решениях.",
+            "B": "Самоприменение уменьшает риск самоподтверждения, но остаётся процедурным контролем, а не доказательством истинности.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.82,
+            "operative_relations": [
+              "RT15",
+              "RT16",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P001454-055459EA0E",
+              "OX-P017303-1491866ADC"
+            ],
+            "strongest_rival": {
+              "statement": "Проект объявляет собственные процедуры критерием качества и затем подтверждает себя прохождением этих процедур.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Восстановлена схема A/P/B для тезиса «Самоприменение деструктивного метода»; типы отношений сохранены раздельно.",
+            "limitations": [
+              "Тематический кластер мал и подтверждает лишь наличие метакритической установки."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "CRITIC",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 2,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "META_CRITIQUE",
+            "pass": "CRITIC",
+            "A": "Проект требует маркировать происхождение, различать типы переходов и предъявлять сильнейшего соперника.",
+            "P": "Метод, претендующий на обнаружение скрытых переходов, должен проходить те же проверки на собственных понятиях и автоматических решениях.",
+            "B": "Самоприменение уменьшает риск самоподтверждения, но остаётся процедурным контролем, а не доказательством истинности.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.82,
+            "operative_relations": [
+              "RT15",
+              "RT16",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P001454-055459EA0E",
+              "OX-P017303-1491866ADC"
+            ],
+            "strongest_rival": {
+              "statement": "Проект объявляет собственные процедуры критерием качества и затем подтверждает себя прохождением этих процедур.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Проверен сильнейший соперник: Проект объявляет собственные процедуры критерием качества и затем подтверждает себя прохождением этих процедур.",
+            "limitations": [
+              "Тематический кластер мал и подтверждает лишь наличие метакритической установки."
+            ],
+            "final_answer": "Промежуточный проход; финальный статус назначает арбитр."
+          }
+        },
+        {
+          "pass": "ADJUDICATOR",
+          "backend": "DETERMINISTIC_PROFILE",
+          "response_id": null,
+          "fallback_reason": null,
+          "proposed_status": "QUALIFIED",
+          "deterministic_status_ceiling": [
+            "QUALIFIED",
+            "REJECTED",
+            "INSUFFICIENT"
+          ],
+          "evidence_selector_count": 2,
+          "source_snippet_count_transferred": 0,
+          "assessment": {
+            "thesis_id": "META_CRITIQUE",
+            "pass": "ADJUDICATOR",
+            "A": "Проект требует маркировать происхождение, различать типы переходов и предъявлять сильнейшего соперника.",
+            "P": "Метод, претендующий на обнаружение скрытых переходов, должен проходить те же проверки на собственных понятиях и автоматических решениях.",
+            "B": "Самоприменение уменьшает риск самоподтверждения, но остаётся процедурным контролем, а не доказательством истинности.",
+            "proposed_status": "QUALIFIED",
+            "confidence": 0.82,
+            "operative_relations": [
+              "RT15",
+              "RT16",
+              "RT27"
+            ],
+            "source_origin": "UNRESOLVED",
+            "evidence_selectors": [
+              "OX-P001454-055459EA0E",
+              "OX-P017303-1491866ADC"
+            ],
+            "strongest_rival": {
+              "statement": "Проект объявляет собственные процедуры критерием качества и затем подтверждает себя прохождением этих процедур.",
+              "impact": "LIMITS_CLAIM",
+              "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод."
+            },
+            "analysis": "Самоприменение критики является процедурным контролем против циркуляции. Прохождение внутренней процедуры не доказывает внешнюю истинность результата.",
+            "limitations": [
+              "Тематический кластер мал и подтверждает лишь наличие метакритической установки."
+            ],
+            "final_answer": "QUALIFIED: Самоприменение критики является процедурным контролем против циркуляции. Прохождение внутренней процедуры не доказывает внешнюю истинность результата."
+          }
+        }
+      ]
+    }
+  ]
+}

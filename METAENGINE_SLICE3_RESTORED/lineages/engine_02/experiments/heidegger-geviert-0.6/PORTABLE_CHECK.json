@@ -1,0 +1,376 @@
+{
+  "root": "/mnt/data/d4v060",
+  "file": "/mnt/data/d4v060/PORTABLE_PROJECT.json",
+  "manifest": {
+    "portable_project_version": "DAE-AI-CHAT-1.0",
+    "package_version": "0.6.0-alpha.1",
+    "engine_version": "0.6.0-alpha.1",
+    "generated_at": "2026-08-11T14:56:00Z",
+    "title": "Destruktion 4.0 — portable AI-chat philosophical analyst",
+    "entrypoint": "00_START_HERE.md",
+    "agent_instructions": "AGENTS.md",
+    "default_language": "ru",
+    "supported_inputs": [
+      "DOCX",
+      "PDF",
+      "TXT",
+      "MD",
+      "JSON",
+      "ZIP_WITH_READABLE_FILES"
+    ],
+    "execution_profiles": {
+      "EXECUTION_AVAILABLE": {
+        "available_when": "The chat can unpack files, run Node.js 20+ and create local outputs.",
+        "procedure": [
+          "Read the bootstrap and manifest in required order.",
+          "Run portable-check before analyzing a new work.",
+          "Use the real refinery, ETY, living and expert commands.",
+          "Return both philosophical outputs and execution provenance."
+        ],
+        "provenance_label": "ENGINE_EXECUTED",
+        "claim_ceiling": "RUN_BOUND_ENGINE_OUTPUT_NOT_PHILOSOPHICAL_TRUTH_OR_EXTERNAL_VALIDATION"
+      },
+      "DOCUMENT_ONLY": {
+        "available_when": "The chat can read attachments but cannot execute Node.js or create a working directory.",
+        "procedure": [
+          "Read the self-contained document-only protocol.",
+          "Apply ETY-MIN to every central concept and ETY-FULL only when a load trigger fires.",
+          "Select nonlinear operations by the tensions of the work rather than simulating a fixed pipeline.",
+          "Mark every result as language-model execution and expose missing source evidence."
+        ],
+        "provenance_label": "DOCUMENT_ONLY_LANGUAGE_MODEL_EXECUTION",
+        "claim_ceiling": "TRACEABLE_LANGUAGE_MODEL_RECONSTRUCTION_NOT_ENGINE_EXECUTION_OR_EXTERNAL_VALIDATION"
+      }
+    },
+    "required_read_order": [
+      "00_START_HERE.md",
+      "PORTABLE_CHAT_PROJECT.md",
+      "PORTABLE_PROJECT.json",
+      "portable/DOCUMENT_ONLY_PROTOCOL.md",
+      "portable/PROJECT_STATE.md",
+      "portable/USER_COMMANDS.md"
+    ],
+    "runtime_commands": {
+      "install": "npm install",
+      "verify": "node ./bin/destruktion.mjs portable-check",
+      "project_card": "node ./bin/destruktion.mjs portable-card",
+      "living": "node ./bin/destruktion.mjs living-cycle ./refinery-output --seed portable-chat --out ./living-output",
+      "expert": "node ./bin/destruktion.mjs expert-cycle ./refinery-output --out ./expert-output"
+    },
+    "routing": {
+      "FULL_ANALYSIS": {
+        "intent_examples": [
+          "прогони работу через проект",
+          "проведи полный анализ",
+          "дай финальную аналитику"
+        ],
+        "mode": "ETY_PLUS_LIVING_PLUS_EXPERT",
+        "primary_output": "PHILOSOPHICAL_FIELD_NOTE_AND_FINAL_ANALYTICS"
+      },
+      "LIVING_ANALYSIS": {
+        "intent_examples": [
+          "сделай анализ живее",
+          "найди неожиданное",
+          "проведи генеалогический анализ"
+        ],
+        "mode": "D3_EXPLORATORY",
+        "primary_output": "PHILOSOPHICAL_FIELD_NOTE"
+      },
+      "ETYMOLOGY": {
+        "intent_examples": [
+          "разбери этимологию",
+          "добавь этимологический протокол",
+          "проверь перевод понятия"
+        ],
+        "mode": "ETY_0_2",
+        "primary_output": "ETYMOLOGICAL_ANALYSIS"
+      },
+      "FINAL_EXPERT": {
+        "intent_examples": [
+          "сделай окончательный вывод",
+          "выдай финальную аналитику",
+          "оцени тезисы"
+        ],
+        "mode": "RUN_BOUND_EXPERT_ADJUDICATION",
+        "primary_output": "FINAL_ANALYTICS"
+      },
+      "PROJECT_DEVELOPMENT": {
+        "intent_examples": [
+          "продолжи развитие проекта",
+          "перейдём к следующему этапу",
+          "сделай проект живее"
+        ],
+        "mode": "SELF_DESTRUCTION_AND_OPERATOR_MUTATION_DESIGN",
+        "primary_output": "PROJECT_DELTA_AND_REGRESSION_CONTRACT"
+      },
+      "PROJECT_AUDIT": {
+        "intent_examples": [
+          "проанализируй проект",
+          "найди слабые места",
+          "проверь протоколы"
+        ],
+        "mode": "ARCHITECTURE_AND_PROTOCOL_AUDIT",
+        "primary_output": "AUDIT_WITH_REVISION_TRIGGERS"
+      }
+    },
+    "invariants": {
+      "core_frozen": true,
+      "mandatory_etymology": true,
+      "mandatory_etymological_significance": false,
+      "discovery_is_justification": false,
+      "active_move_requires_gain": true,
+      "source_claims_require_locators": true,
+      "document_only_may_claim_code_execution": false
+    },
+    "output_contract": {
+      "mandatory_etymology": true,
+      "primary_living_output": "PHILOSOPHICAL_FIELD_NOTE",
+      "final_expert_output": "FINAL_ANALYTICS",
+      "execution_provenance_required": true,
+      "source_limit_required": true,
+      "self_destruction_required": true
+    },
+    "current_state": {
+      "protocol_families": 40,
+      "living_conditional_families": 34,
+      "generative_gestures": 7,
+      "tests": 62,
+      "sample_run": {
+        "regression": "HEIDEGGER_GEVIERT_0.6",
+        "constellations": 12,
+        "nodes": 347,
+        "edges": 538,
+        "cross_constellation_edges": 57,
+        "ety_cards": 26,
+        "ety_full": 26,
+        "unresolved_ety_fields": 439,
+        "source_resistance_terms": 12,
+        "method_mutations": 1
+      },
+      "source_resistance": "IMPLEMENTED_SOURCE_FORCED_ONLY",
+      "experimental_method_mutation": "IMPLEMENTED_WITH_ROLLBACK_AND_CROSS_CORPUS_REGRESSION"
+    },
+    "excluded_from_archive": [
+      "node_modules",
+      ".git",
+      "raw user attachments",
+      "credentials and environment files",
+      "previous portable ZIP files"
+    ],
+    "claim_ceiling": "PORTABLE_AUTOMATED_OR_DOCUMENT_ONLY_PHILOSOPHICAL_ANALYSIS_WITH_EXPLICIT_EXECUTION_PROVENANCE_NOT_TRUTH_OR_EXTERNAL_VALIDATION",
+    "required_assets": [
+      {
+        "path": "00_START_HERE.md",
+        "role": "VISIBLE_BOOTSTRAP",
+        "size_bytes": 2097,
+        "sha256": "6a1f623482b6e8fe7e96b1e22343cabf6a171bfb9bfe1788dff6f2df0ede8342"
+      },
+      {
+        "path": "AGENTS.md",
+        "role": "AGENTIC_RUNTIME_INSTRUCTIONS",
+        "size_bytes": 1833,
+        "sha256": "dba09e9c353558d270752a890b6cb8608315ca3a563736bc0c6b5f270e7816ac"
+      },
+      {
+        "path": "PORTABLE_CHAT_PROJECT.md",
+        "role": "SELF_CONTAINED_CHAT_ENTRYPOINT",
+        "size_bytes": 12434,
+        "sha256": "71a02853b1ed13533baa7c6631589a9d2b373c7e0cf4f66de56996336fc01446"
+      },
+      {
+        "path": "portable/DOCUMENT_ONLY_PROTOCOL.md",
+        "role": "NO_RUNTIME_ANALYSIS_CONTRACT",
+        "size_bytes": 8587,
+        "sha256": "c3f207ff9e061d884c464a31e768dfbdb8844c27b2f30bf2ef27801841f91ce0"
+      },
+      {
+        "path": "portable/PROJECT_STATE.md",
+        "role": "CURRENT_PROJECT_STATE",
+        "size_bytes": 4763,
+        "sha256": "bbbc6b0a19b7566fa20060680dd803bfe5efc8b4656d802cdcb53509a1ecd24e"
+      },
+      {
+        "path": "portable/USER_COMMANDS.md",
+        "role": "NATURAL_LANGUAGE_ROUTER",
+        "size_bytes": 2991,
+        "sha256": "74168eae6406165e505687a985e8837cf5dcee2e75435c3f2c1a18176efec56c"
+      },
+      {
+        "path": "README.md",
+        "role": "ENGINE_DOCUMENTATION",
+        "size_bytes": 31180,
+        "sha256": "ab1ebf465d877e30023f1567eef89c191cc9c88e18b8b4da5ce89ad971077231"
+      },
+      {
+        "path": "PROJECT_DEVELOPMENT_REPORT_0.6.md",
+        "role": "DEVELOPMENT_ANALYSIS",
+        "size_bytes": 5519,
+        "sha256": "790f38a59d8069c0238c22e2e01a68bd6816dcc5ea2f3994b4ba7cad38501a51"
+      },
+      {
+        "path": "config/portable_project.json",
+        "role": "PORTABLE_BUILD_SOURCE",
+        "size_bytes": 9333,
+        "sha256": "245b014984fd69595cd851c85ada69e26e33318dec8ff02159cc8e9003f33b7c"
+      },
+      {
+        "path": "config/etymology_registry.json",
+        "role": "ETYMOLOGY_REGISTRY",
+        "size_bytes": 17273,
+        "sha256": "b80f04d6566d7477ff8279134754de63aecea8ad504ed6edfdcf1191941b609c"
+      },
+      {
+        "path": "config/living_operator_registry.json",
+        "role": "NONLINEAR_OPERATOR_REGISTRY",
+        "size_bytes": 40002,
+        "sha256": "09f7bc6df444c030b468c41c0a60f15eca97f5ae019cacd8b39471cad378be82"
+      },
+      {
+        "path": "config/living_topic_lenses.json",
+        "role": "TOPIC_LENSES",
+        "size_bytes": 31561,
+        "sha256": "b5dce93d1f27c135d058f76f6734c2046db94bffb7f12b1562127a3c32ade602"
+      },
+      {
+        "path": "docs/ETYMOLOGY_PROTOCOL.md",
+        "role": "ETY_PROTOCOL",
+        "size_bytes": 6084,
+        "sha256": "b3ccd77c96e3fe5d77c981a9073bfc3f2accde7dafd5819826b4bf97553e8a33"
+      },
+      {
+        "path": "docs/EXPLORATORY_LAYER.md",
+        "role": "LIVING_LAYER_PROTOCOL",
+        "size_bytes": 9543,
+        "sha256": "547eb280a270df39c3ba8adb8391b9d298c934f3fe3324c005a203ad65adb954"
+      },
+      {
+        "path": "docs/PROTOCOL_AUDIT_2X.md",
+        "role": "PROTOCOL_GENEALOGY",
+        "size_bytes": 14868,
+        "sha256": "7dbb9f58cf3b587ff0e38040cb3d4bb09e254540cb28bb111db77513a3bfe710"
+      },
+      {
+        "path": "schemas/portable_project.schema.json",
+        "role": "PORTABLE_SCHEMA",
+        "size_bytes": 9453,
+        "sha256": "0b8da4d333735262dccc76155bf257c6b454faa9c55b07fb5dbd0d8c3dca9521"
+      },
+      {
+        "path": "schemas/etymology_pass.schema.json",
+        "role": "ETY_SCHEMA",
+        "size_bytes": 9370,
+        "sha256": "7538bf58fea3633ec30a8a72f61c8b411ef9b11fee88c3d7e20b94e78fe59cf8"
+      },
+      {
+        "path": "schemas/living_analysis.schema.json",
+        "role": "LIVING_SCHEMA",
+        "size_bytes": 22271,
+        "sha256": "e6910f0c8891904f1246eedc29ed86c5919ccab61b3c85a023460afe856cf615"
+      },
+      {
+        "path": "schemas/expert_cycle.schema.json",
+        "role": "EXPERT_SCHEMA",
+        "size_bytes": 8325,
+        "sha256": "fb4c91def59ef31aea0a09196e12249dbf5935c7db16635dbefcb9e25f3dd16d"
+      },
+      {
+        "path": "src/portable-project.mjs",
+        "role": "PORTABLE_VALIDATOR",
+        "size_bytes": 9851,
+        "sha256": "1719d2b92d10b3df5431a62f07d99c64b44bce117007c3e73cbb84297c0088b7"
+      },
+      {
+        "path": "src/etymology.mjs",
+        "role": "ETY_EXECUTOR",
+        "size_bytes": 20632,
+        "sha256": "6b1bca456c5bb2ef02a4bb2d2e3f57e8b0f4544d1236f87b0d972fc64d3c29e8"
+      },
+      {
+        "path": "src/living-analysis.mjs",
+        "role": "LIVING_EXECUTOR",
+        "size_bytes": 80819,
+        "sha256": "01b2bb0602327ea595cb6f74ff27d30e519245220140c4b642a8af5eeb339ddf"
+      },
+      {
+        "path": "src/expert-cycle.mjs",
+        "role": "EXPERT_EXECUTOR",
+        "size_bytes": 66294,
+        "sha256": "7278520e8266b80c23ab22f685c07088e8d915ad68a100cb42d8885548296836"
+      },
+      {
+        "path": "bin/destruktion.mjs",
+        "role": "CLI_ENTRYPOINT",
+        "size_bytes": 253,
+        "sha256": "2e0fbc89c37bbffe131cbb8d2af8eddf23bdc34fb32d5c3b63ee8632e0492f28"
+      },
+      {
+        "path": "package.json",
+        "role": "NODE_PACKAGE",
+        "size_bytes": 1562,
+        "sha256": "a29224799fd8c96c0c5b3ce204f1fe6d8ae0d2fa790e511bebd8f9c63894a4cc"
+      },
+      {
+        "path": "package-lock.json",
+        "role": "DEPENDENCY_FIXITY",
+        "size_bytes": 2536,
+        "sha256": "673759f8bb35d62f23270bb3fbb5403b561f72bf56fe2466f59484f014ed6f6c"
+      },
+      {
+        "path": "experiments/heidegger-ga/user-dossier-ga1-1-2026/living-analysis-0.5/PHILOSOPHICAL_FIELD_NOTE.md",
+        "role": "REFERENCE_LIVING_OUTPUT",
+        "size_bytes": 12395,
+        "sha256": "f5c69d9963ee2ac25bf9e5a1b35294948442d58d425974593bc227c73c858739"
+      },
+      {
+        "path": "experiments/heidegger-ga/user-dossier-ga1-1-2026/living-analysis-0.5/ETYMOLOGICAL_ANALYSIS.md",
+        "role": "REFERENCE_ETY_OUTPUT",
+        "size_bytes": 25909,
+        "sha256": "183b906b21aaf773464189e9e39f399d850b5c7b34cf8550830166e2f079a2e6"
+      },
+      {
+        "path": "experiments/heidegger-ga/user-dossier-ga1-1-2026/expert-cycle-0.5/FINAL_ANALYTICS.md",
+        "role": "REFERENCE_EXPERT_OUTPUT",
+        "size_bytes": 53647,
+        "sha256": "b92deed2c474bce50d0b648f1d609a9467865c4d0cf5ab076727b1858a87fcb6"
+      },
+      {
+        "path": "schemas/hypothesis_bank.schema.json",
+        "role": "HYPOTHESIS_BANK_SCHEMA",
+        "size_bytes": 6982,
+        "sha256": "a2a8e698bffd16350ff3b55a68fb37dcaebbfe2d0cce463e99de38b67a271ff8"
+      },
+      {
+        "path": "src/source-resistance.mjs",
+        "role": "SOURCE_RESISTANCE_DETECTOR",
+        "size_bytes": 12268,
+        "sha256": "6c752a28573e40dbbd9b34bd777033c89f5d711e18441de7e0cd5d06e0d523cf"
+      },
+      {
+        "path": "src/structural-validator.mjs",
+        "role": "STRUCTURAL_VALIDATOR_WITH_OFFLINE_FALLBACK",
+        "size_bytes": 11278,
+        "sha256": "2e14b5571d0717a99cc1729d90d1aee34fcd9efe901ce6774c477389ef99305b"
+      },
+      {
+        "path": "vendor/ajv-compat/2020.mjs",
+        "role": "BUNDLED_OFFLINE_SCHEMA_VALIDATOR_FALLBACK",
+        "size_bytes": 10797,
+        "sha256": "596790a065dec12e1b648ef3e82f755dc94acf04ec1c6f36b08ca3860265713d"
+      },
+      {
+        "path": "experiments/heidegger-geviert-0.6/GEVIERT_REGRESSION_REPORT.md",
+        "role": "SOURCE_RESISTANCE_REGRESSION",
+        "size_bytes": 4224,
+        "sha256": "38d10855cf471a31fbc482223c05dd8302105f3c63d9bb6bd23fb35480b94697"
+      }
+    ]
+  },
+  "conformant": true,
+  "counts": {
+    "ERROR": 0,
+    "REVIEW": 0,
+    "WARNING": 0,
+    "INFO": 0
+  },
+  "issues": []
+}

@@ -1,0 +1,53 @@
+{
+  "allowed_use": [
+    "PUBLIC_CLAIM_REGISTRATION",
+    "REFERENCE_ANALYSIS"
+  ],
+  "architecture_claims": [
+    {
+      "claim_id": "llama4-model-card-publisher-claim",
+      "evidence_locator": "https://github.com/meta-llama/llama-models/blob/0e0b8c519242d5833d8c11bffc1232b77ad7f301/models/llama4/MODEL_CARD.md",
+      "kind": "PUBLISHER_CLAIM",
+      "statement": "The official model card is registered as public reference evidence under the Llama 4 Community License boundary."
+    }
+  ],
+  "blob_descriptors": [],
+  "blockers": [
+    "CUSTOM_LICENSE_REQUIRES_SEPARATE_USE_REVIEW",
+    "REFERENCE_BYTES_NOT_RETAINED_SLICE_3"
+  ],
+  "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+  "exact_commit_or_release": "0e0b8c519242d5833d8c11bffc1232b77ad7f301",
+  "forbidden_use": [
+    "AUTOMATIC_PROMOTION",
+    "CORE_COPY",
+    "RUNTIME_DEPENDENCY"
+  ],
+  "ingestion_status": "REGISTERED_ONLY",
+  "license_evidence_locator": "https://github.com/meta-llama/llama-models/blob/0e0b8c519242d5833d8c11bffc1232b77ad7f301/models/llama4/LICENSE",
+  "license_expression": "LicenseRef-Llama-4-Community",
+  "license_name": "Llama 4 Community License Agreement",
+  "license_sha256": null,
+  "mechanism_candidates": [
+    {
+      "falsification_test": "Test a clean-room provider-neutral router against dense and random-routing baselines.",
+      "hypothesized_effect": "Increase conditional capacity without uniform activation cost.",
+      "mechanism_id": "sparse-conditional-routing",
+      "semantic_definition": "Route work through a bounded subset of specialists selected for each request.",
+      "source_fact_boundary": "Only public model-card claims are registered; restricted source material is not copied into Core.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ],
+  "official_source_locator": "https://github.com/meta-llama/llama-models/tree/0e0b8c519242d5833d8c11bffc1232b77ad7f301/models/llama4",
+  "publisher": "Meta",
+  "record_sha256": "442b5c96e661255c9d289d698108e69ad84b3596b49e30c48e586065cad47b56",
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "retained_reference_paths": [],
+  "retrieved_at": "2026-08-13T20:00:00Z",
+  "source_class": "RESTRICTED_REFERENCE",
+  "source_id": "llama4-0e0b8c5",
+  "source_sha256": null,
+  "source_sha256_scope": null,
+  "system_name": "Llama 4",
+  "version": "0e0b8c5"
+}

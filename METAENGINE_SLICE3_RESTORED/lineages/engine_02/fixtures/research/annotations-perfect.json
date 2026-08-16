@@ -1,0 +1,68 @@
+{
+  "agreement_version": "DAE-ANNOTATIONS-1.0",
+  "dataset_id": "BEV-RU-DEMO-006",
+  "codebook_id": "BEV-RU-MINI-1.0",
+  "coders": [
+    {"id": "coder-a", "independent": true},
+    {"id": "coder-b", "independent": true},
+    {"id": "coder-c", "independent": true}
+  ],
+  "units": [
+    {
+      "unit_id": "U001",
+      "annotations": {
+        "coder-a": {"dominant": "OCC", "secondary": [], "confidence": 3},
+        "coder-b": {"dominant": "OCC", "secondary": [], "confidence": 3},
+        "coder-c": {"dominant": "OCC", "secondary": [], "confidence": 3}
+      }
+    },
+    {
+      "unit_id": "U002",
+      "annotations": {
+        "coder-a": {"dominant": "FUL", "secondary": ["OCC"], "confidence": 3},
+        "coder-b": {"dominant": "FUL", "secondary": ["OCC"], "confidence": 3},
+        "coder-c": {"dominant": "FUL", "secondary": ["OCC"], "confidence": 3}
+      }
+    },
+    {
+      "unit_id": "U003",
+      "annotations": {
+        "coder-a": {"dominant": "VAL", "secondary": ["OCC"], "confidence": 2},
+        "coder-b": {"dominant": "VAL", "secondary": ["OCC"], "confidence": 2},
+        "coder-c": {"dominant": "VAL", "secondary": ["OCC"], "confidence": 2}
+      }
+    },
+    {
+      "unit_id": "U004",
+      "annotations": {
+        "coder-a": {"dominant": "OCC", "secondary": [], "confidence": 3},
+        "coder-b": {"dominant": "OCC", "secondary": [], "confidence": 3},
+        "coder-c": {"dominant": "OCC", "secondary": [], "confidence": 3}
+      }
+    },
+    {
+      "unit_id": "U005",
+      "annotations": {
+        "coder-a": {"dominant": "FUL", "secondary": [], "confidence": 3},
+        "coder-b": {"dominant": "FUL", "secondary": [], "confidence": 3},
+        "coder-c": {"dominant": "FUL", "secondary": [], "confidence": 3}
+      }
+    },
+    {
+      "unit_id": "U006",
+      "annotations": {
+        "coder-a": {"dominant": "VAL", "secondary": [], "confidence": 3},
+        "coder-b": {"dominant": "VAL", "secondary": [], "confidence": 3},
+        "coder-c": {"dominant": "VAL", "secondary": [], "confidence": 3}
+      }
+    }
+  ],
+  "thresholds": {
+    "alpha_min": 0.8,
+    "alpha_ci_lower_min": 0.67,
+    "multilabel_match_min": 0.67,
+    "multilabel_f1_min": 0.6,
+    "bootstrap_iterations": 200,
+    "seed": "BEV-RU-DEMO-SEED"
+  }
+}

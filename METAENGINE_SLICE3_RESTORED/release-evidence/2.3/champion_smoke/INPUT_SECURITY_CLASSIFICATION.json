@@ -1,0 +1,9 @@
+{
+  "classification_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "classification_version": "16X-UNTRUSTED-INPUT-BOUNDARY-2.3",
+  "control_plane_authority": false,
+  "detected_markers": [],
+  "policy_mutation_effect": "NONE",
+  "risk": "LOW",
+  "tool_permission_effect": "NONE"
+}

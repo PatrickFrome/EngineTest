@@ -1,0 +1,79 @@
+{
+  "accumulation_version": "METAENGINE-CROSS-RUN-ACCUMULATION-1",
+  "mechanism_count": 0,
+  "mechanism_ids": [],
+  "rlaif_rewards": {},
+  "faithfulness_scores": {
+    "run_0": [
+      0.0
+    ],
+    "engine_01": [
+      0.0
+    ],
+    "engine_02": [
+      0.0
+    ],
+    "engine_03": [
+      0.0
+    ],
+    "engine_04": [
+      0.0
+    ],
+    "engine_05": [
+      0.0
+    ],
+    "engine_06": [
+      0.0
+    ],
+    "engine_07": [
+      0.0
+    ],
+    "engine_08": [
+      0.0
+    ],
+    "engine_09": [
+      0.0
+    ],
+    "engine_10": [
+      0.0
+    ],
+    "engine_11": [
+      0.0
+    ],
+    "engine_12": [
+      0.0
+    ],
+    "engine_13": [
+      0.0
+    ],
+    "engine_14": [
+      0.0
+    ],
+    "engine_15": [
+      0.0
+    ],
+    "engine_16": [
+      0.0
+    ]
+  },
+  "transferable_count": 0,
+  "transferable_ids": [],
+  "biography_observations": {},
+  "evidence_graph_nodes": 9639,
+  "evidence_graph_edges": 9081,
+  "synthesized_policy_count": 0,
+  "run_count": 1,
+  "run_ids": [
+    "meta23-936a7d9c-f2cd-4692-8bba-2cbaa7c8a315"
+  ],
+  "first_run": "2026-08-16T06:29:32Z",
+  "last_run": "2026-08-16T06:29:32Z",
+  "truth_effect": "NONE",
+  "claim_ceiling": "ACCUMULATED_STATE_IS_OBSERVATIONAL_NOT_TRUTH",
+  "constitution_compliance": {
+    "idempotent": true,
+    "no_truth_promotion": true,
+    "no_code_modification": true,
+    "observational_not_authoritative": true
+  }
+}

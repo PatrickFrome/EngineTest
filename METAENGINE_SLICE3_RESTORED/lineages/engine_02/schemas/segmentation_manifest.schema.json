@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/segmentation_manifest.schema.json",
+  "title": "Destruktion competing segmentation manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["manifest_version", "engine_version", "generated_at", "source", "layer_ontology", "methods", "counts", "ooxml_segments", "renderer_segments", "argument_segments", "claim_ceiling"],
+  "properties": {
+    "manifest_version": {"const": "DAE-CORPUS-SEGMENTATION-1.0"},
+    "engine_version": {"type": "string", "minLength": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "artifact_sha256", "artifact_byte_length", "access_class", "raw_text_included", "expressive_context_included"],
+      "properties": {
+        "source_id": {"type": "string", "minLength": 3},
+        "artifact_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "artifact_byte_length": {"type": "integer", "minimum": 1},
+        "access_class": {"enum": ["DERIVATIVE_ONLY", "REUSABLE_TEXT"]},
+        "raw_text_included": {"const": false},
+        "expressive_context_included": {"const": false}
+      }
+    },
+    "layer_ontology": {
+      "type": "array",
+      "minItems": 6,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/layer"}
+    },
+    "methods": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ooxml_native", "renderer_native", "argument_native", "layer_routing", "duplicate_detection"],
+      "properties": {
+        "ooxml_native": {"type": "string", "minLength": 1},
+        "renderer_native": {"type": "string", "minLength": 1},
+        "argument_native": {"type": "string", "minLength": 1},
+        "layer_routing": {"type": "string", "minLength": 1},
+        "duplicate_detection": {"type": "string", "minLength": 1}
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ooxml_total", "ooxml_nonempty", "headings", "renderer_units", "argument_units", "layer_routes", "routing_statuses"],
+      "properties": {
+        "ooxml_total": {"type": "integer", "minimum": 0},
+        "ooxml_nonempty": {"type": "integer", "minimum": 0},
+        "headings": {"type": "integer", "minimum": 0},
+        "renderer_units": {"type": "integer", "minimum": 0},
+        "argument_units": {"type": "integer", "minimum": 0},
+        "layer_routes": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "routing_statuses": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}}
+      }
+    },
+    "ooxml_segments": {"type": "array", "items": {"$ref": "#/$defs/ooxmlSegment"}},
+    "renderer_segments": {"type": "array", "items": {"$ref": "#/$defs/rendererSegment"}},
+    "argument_segments": {"type": "array", "items": {"$ref": "#/$defs/argumentSegment"}},
+    "claim_ceiling": {"const": "SEGMENTATION_AND_REVIEW_ROUTING_ONLY_NOT_AUTHORSHIP_SOURCE_IDENTITY_OR_SEMANTIC_TRUTH"}
+  },
+  "$defs": {
+    "layer": {"enum": ["SOURCE", "RECONSTRUCTION", "PROJECT_CLAIM", "RIVAL_OBJECTION", "PROTOCOL_TOOL_LOG", "UNRESOLVED"]},
+    "routing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "status", "routing_confidence", "score_margin", "scores", "signals", "review_required"],
+      "properties": {
+        "label": {"$ref": "#/$defs/layer"},
+        "status": {"enum": ["ROUTED", "TENTATIVE", "AMBIGUOUS", "EMPTY"]},
+        "routing_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "score_margin": {"type": "number", "minimum": 0},
+        "scores": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["SOURCE", "RECONSTRUCTION", "PROJECT_CLAIM", "RIVAL_OBJECTION", "PROTOCOL_TOOL_LOG"],
+          "properties": {
+            "SOURCE": {"type": "number", "minimum": 0},
+            "RECONSTRUCTION": {"type": "number", "minimum": 0},
+            "PROJECT_CLAIM": {"type": "number", "minimum": 0},
+            "RIVAL_OBJECTION": {"type": "number", "minimum": 0},
+            "PROTOCOL_TOOL_LOG": {"type": "number", "minimum": 0}
+          }
+        },
+        "signals": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "review_required": {"type": "boolean"}
+      }
+    },
+    "ooxmlSegment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["segment_id", "ordinal", "selector", "normalized_sha256", "char_length", "token_count", "style", "zone", "heading_path", "language_profile", "discourse_features", "relation_candidates", "layer_routing", "formula_ids", "archive_state"],
+      "properties": {
+        "segment_id": {"type": "string", "pattern": "^OX-P[0-9]{6}-[A-F0-9]{10}$"},
+        "ordinal": {"type": "integer", "minimum": 1},
+        "selector": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "part", "paragraph_ordinal", "normalized_sha256"],
+          "properties": {
+            "type": {"const": "OoxmlParagraphSelector"},
+            "part": {"const": "word/document.xml"},
+            "paragraph_ordinal": {"type": "integer", "minimum": 1},
+            "normalized_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+          }
+        },
+        "normalized_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "char_length": {"type": "integer", "minimum": 0},
+        "token_count": {"type": "integer", "minimum": 0},
+        "style": {"type": ["string", "null"]},
+        "zone": {"enum": ["EMPTY", "HEADING", "BODY", "TABLE", "FORMULA_ONLY"]},
+        "heading_path": {"type": "array", "items": {"type": "string", "pattern": "^OX-P"}},
+        "language_profile": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["dominant", "cyrillic_letters", "latin_letters", "de_markers", "ru_markers", "en_markers"],
+          "properties": {
+            "dominant": {"enum": ["DE", "RU", "EN", "MIXED", "UNRESOLVED"]},
+            "cyrillic_letters": {"type": "integer", "minimum": 0},
+            "latin_letters": {"type": "integer", "minimum": 0},
+            "de_markers": {"type": "integer", "minimum": 0},
+            "ru_markers": {"type": "integer", "minimum": 0},
+            "en_markers": {"type": "integer", "minimum": 0}
+          }
+        },
+        "discourse_features": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "relation_candidates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["rt_id", "signal_class"],
+            "properties": {
+              "rt_id": {"pattern": "^RT(?:0[0-9]|1[0-9]|2[0-8])$"},
+              "signal_class": {"enum": ["STRONG_LEXICAL", "AMBIGUOUS_MODAL"]}
+            }
+          }
+        },
+        "layer_routing": {"$ref": "#/$defs/routing"},
+        "formula_ids": {"type": "array", "items": {"type": "string", "pattern": "^OMML-F"}},
+        "duplicate_cluster_id": {"type": ["string", "null"]},
+        "near_duplicate_cluster_id": {"type": ["string", "null"]},
+        "archive_state": {"enum": ["ACTIVE", "ARCHIVED_EXACT_DUPLICATE", "ARCHIVED_TOOL_LOG"]}
+      }
+    },
+    "rendererSegment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unit_id", "page_label", "zone", "normalized_sha256", "char_length", "selector", "discourse_features", "relation_candidates"],
+      "properties": {
+        "unit_id": {"type": "string", "minLength": 1},
+        "page_label": {"type": "string", "minLength": 1},
+        "zone": {"type": "string", "minLength": 1},
+        "normalized_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "char_length": {"type": "integer", "minimum": 0},
+        "selector": {"type": "object"},
+        "discourse_features": {"type": "array", "items": {"type": "string"}},
+        "relation_candidates": {"type": "array", "items": {"type": "string", "pattern": "^RT"}},
+        "record_id": {"type": ["string", "null"]}
+      }
+    },
+    "argumentSegment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["argument_segment_id", "member_segment_ids", "heading_path", "normalized_sha256", "char_length", "dominant_layer", "routing_status", "claim_type", "scale_candidate", "discourse_features", "relation_candidates", "archive_state"],
+      "properties": {
+        "argument_segment_id": {"type": "string", "pattern": "^AR-U[0-9]{6}-[A-F0-9]{10}$"},
+        "member_segment_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^OX-P"}},
+        "heading_path": {"type": "array", "items": {"type": "string", "pattern": "^OX-P"}},
+        "normalized_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "char_length": {"type": "integer", "minimum": 1},
+        "dominant_layer": {"$ref": "#/$defs/layer"},
+        "routing_status": {"enum": ["ROUTED", "TENTATIVE", "AMBIGUOUS"]},
+        "claim_type": {"enum": ["SOURCE_PASSAGE", "RECONSTRUCTION", "PROJECT_ASSERTION", "OBJECTION", "QUESTION", "CONCLUSION", "PROTOCOL_ACTIVITY", "UNRESOLVED_ASSERTION", "CONTEXT"]},
+        "scale_candidate": {"enum": ["LOCAL", "WORK", "DIACHRONIC", "EPOCHAL", "UNIVERSAL", "UNRESOLVED"]},
+        "discourse_features": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "relation_candidates": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^RT"}},
+        "archive_state": {"enum": ["ACTIVE", "ARCHIVED_EXACT_DUPLICATE", "ARCHIVED_TOOL_LOG"]}
+      }
+    }
+  }
+}

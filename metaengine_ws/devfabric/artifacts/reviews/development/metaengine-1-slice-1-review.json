@@ -1,0 +1,91 @@
+{
+  "alternatives_considered": [
+    {
+      "evidence_hashes": [
+        "0f1c0cf9b2fd87756ed6f9ab041206943c2754917f6914e48691cd8ca8e667a5",
+        "19437c120f795ff5db00cad8e5a7eb9f8112d10d5cf91d8f14f2ccdc98688897",
+        "d444033bcf61818c05a2259d120af27d8a39ea250692246ee854777d0bb79175"
+      ],
+      "kind": "CURRENT",
+      "summary": "Retain compiled K0/K1 JSON plus Python compiler and explicit conformance matrix without new runtime dependencies."
+    },
+    {
+      "evidence_hashes": [
+        "bb6286889824e50e0e4e1eb158d3038c7f182ba74f81da83a80d914c4ddd7ac4",
+        "d444033bcf61818c05a2259d120af27d8a39ea250692246ee854777d0bb79175"
+      ],
+      "kind": "LIBRARY",
+      "summary": "Adopt an OPA/Rego-style external policy engine now; deferred because policy/enforcement separation is valuable but the new runtime/language dependency is not yet justified."
+    },
+    {
+      "evidence_hashes": [
+        "19437c120f795ff5db00cad8e5a7eb9f8112d10d5cf91d8f14f2ccdc98688897",
+        "bb6286889824e50e0e4e1eb158d3038c7f182ba74f81da83a80d914c4ddd7ac4"
+      ],
+      "kind": "MINIMAL",
+      "summary": "Retain only legacy tuple guardrails; rejected because the proven 5-of-6 gap demonstrates semantic duplication risk."
+    },
+    {
+      "evidence_hashes": [
+        "0f1c0cf9b2fd87756ed6f9ab041206943c2754917f6914e48691cd8ca8e667a5",
+        "19437c120f795ff5db00cad8e5a7eb9f8112d10d5cf91d8f14f2ccdc98688897",
+        "b0263202446d18351df647955411468795d97fb95556f3d3e4bb677d734b16db",
+        "bb6286889824e50e0e4e1eb158d3038c7f182ba74f81da83a80d914c4ddd7ac4"
+      ],
+      "kind": "SYNTHESIS",
+      "summary": "Use compact K0 principles, declarative policy data, deterministic local compiler, explicit enforcement/test mapping, and fail-closed transition receipts."
+    }
+  ],
+  "architecture_library_snapshot_hash": "d5b32e0a8b9983cd36faed2cf105ecf3670cf9490578f0d939cbbdf4b1103445",
+  "capability_hypothesis": "A compiled constitution with explicit conformance mapping reduces constitutional drift and provides a stable authority boundary for provider-independent OrganizationPolicy and ResourceDescriptor objects.",
+  "completed_step_commit": "73a3f4aab2dc18997db495d657aab5185ffc6958",
+  "completed_step_evidence_hashes": [
+    "00543cf4b5a98dfd85c118204837ba4f516e289ad39b492bfbc11796893409df",
+    "0f1c0cf9b2fd87756ed6f9ab041206943c2754917f6914e48691cd8ca8e667a5",
+    "19437c120f795ff5db00cad8e5a7eb9f8112d10d5cf91d8f14f2ccdc98688897",
+    "9c1b53da33c0729fe5cfa226f671aca82abd7799a81dc8aa7ed5da85da949670",
+    "ac11d18295423f2a361e7e5859448a31922fe82bb74e6ee85bbc3d383b6dae75",
+    "b0263202446d18351df647955411468795d97fb95556f3d3e4bb677d734b16db",
+    "b2a40c6a1859c9513afabe3e57d239c9931363495712788e5ce47abec7a22560",
+    "bb6286889824e50e0e4e1eb158d3038c7f182ba74f81da83a80d914c4ddd7ac4",
+    "d444033bcf61818c05a2259d120af27d8a39ea250692246ee854777d0bb79175"
+  ],
+  "completed_step_id": "METAENGINE-1-SLICE-1",
+  "complexity_delta": "SMALL_BOUNDED_CORE_CONTRACT_NO_NEW_RUNTIME_DEPENDENCY",
+  "constitution_hash": "bbcdd652e97d2ab4136f00d655baf458eaeb1182cc30adacd07568095e40f28a",
+  "constitutional_findings": [
+    "K0_EXACTLY_12_INVARIANTS",
+    "K0_CONFORMANCE_MATRIX_12_OF_12_VALID",
+    "K1_ORDINARY_AMENDMENT_AUTHORITY_NOT_IMPLEMENTED",
+    "HANDOFF_5_OF_6_GAP_CLOSED",
+    "LEGACY_GUARDRAIL_HASH_UNCHANGED",
+    "DISTRIBUTED_LEGACY_ENFORCEMENT_REMAINS_FOLLOWUP_FOR_SLICE_5"
+  ],
+  "decision": "ACCEPT_CONTINUE",
+  "library_findings": [
+    "SYNTHESIS_SELECTED_OVER_TUPLE_ONLY_AND_OPA_RUNTIME",
+    "OPA_POLICY_DECISION_ENFORCEMENT_SEPARATION_RETAINED_AS_MECHANISM_PATTERN",
+    "GENERAL_PRINCIPLES_PLUS_SPECIFIC_CONFORMANCE_TESTS_RETAINED",
+    "FORMAL_CONTENT_ADDRESSED_SOURCE_REGISTRY_DEFERRED_TO_SLICE_3"
+  ],
+  "next_step_allowed": true,
+  "policy_findings": [
+    "ARCHITECTURE_POLICY_FILES_UNCHANGED_FROM_D6_G1_PARENT",
+    "D6_G1_SHADOW_ONLY_ADAPTATION_UNCHANGED",
+    "CANONICAL_CP001_VERIFIED_CURRENT_AND_ACTIVE_POLICY_UNCHANGED",
+    "CANONICAL_ADAPTATION_RECEIPT_COUNT_ZERO",
+    "FEDERATION_MCP_SURFACE_REMAINS_18_TOOLS"
+  ],
+  "policy_snapshot_hash": "9823f12f7d3a292b0a56bc6cfdcc53d4b19f5e25f477970a87fdd6aee448ad53",
+  "rationale": "Slice 1 closes a concrete constitutional enforcement gap and creates a small deterministic K0/K1 kernel without changing canonical authority, active policy, D6-G1 adaptation semantics, or the 18-tool MCP surface. The synthesis alternative retains OPA-style decision/enforcement separation and Constitutional-AI-style general principles plus specific tests while avoiding an unjustified runtime dependency. Distributed legacy enforcement remains a documented follow-up for global integration in Slice 5, not a blocker for defining provider-independent OrganizationPolicy v1.",
+  "receipt_hash": "f84f18f3c71ddfd9238d68ee652ebeea228edb8d482d119e485516dc4854f092",
+  "relevant_mechanism_ids": [
+    "COMPILED_CONSTITUTIONAL_KERNEL",
+    "CONSTITUTION_CONFORMANCE_MATRIX",
+    "CONTENT_ADDRESSED_DEVELOPMENT_GATE",
+    "FAIL_CLOSED_HANDOFF_GUARDRAILS",
+    "POLICY_DECISION_ENFORCEMENT_SEPARATION"
+  ],
+  "required_followup_experiment": "METAENGINE-1-SLICE-2-ORGANIZATION-POLICY-CONFORMANCE",
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1"
+}

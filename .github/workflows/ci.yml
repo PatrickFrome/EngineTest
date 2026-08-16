@@ -1,0 +1,91 @@
+# METAENGINE — CI/CD Pipeline (GitHub Actions)
+# Runs tests on push, builds Docker images on tag
+
+name: MetaEngine CI/CD
+
+on:
+  push:
+    branches: [main, develop]
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+
+jobs:
+  # Job 1: Run test suite
+  test:
+    name: Tests
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          pip install pytest httpx pypdf
+      - name: Run tests
+        working-directory: METAENGINE_SLICE3_RESTORED
+        env:
+          PYTHONPATH: .
+        run: |
+          python -m pytest --tb=short -q
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: METAENGINE_SLICE3_RESTORED/storage/
+
+  # Job 2: Build Docker image (on tags)
+  build:
+    name: Docker Build
+    needs: test
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Build MetaEngine API image
+        uses: docker/build-push-action@v5
+        with:
+          context: METAENGINE_SLICE3_RESTORED
+          file: METAENGINE_SLICE3_RESTORED/Dockerfile
+          push: false
+          tags: metaengine-api:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - name: Build LLM Bridge image
+        uses: docker/build-push-action@v5
+        with:
+          context: mini-services/llm-bridge
+          file: mini-services/llm-bridge/Dockerfile.bridge
+          push: false
+          tags: metaengine-bridge:latest
+      - name: Build Dashboard image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: METAENGINE_SLICE3_RESTORED/Dockerfile.dashboard
+          push: false
+          tags: metaengine-dashboard:latest
+
+  # Job 3: Deploy with docker-compose (manual trigger)
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy with docker-compose
+        working-directory: METAENGINE_SLICE3_RESTORED
+        run: |
+          echo "Production deployment would run:"
+          echo "  docker-compose up -d"
+          echo "Services: metaengine-api, llm-bridge, dashboard, gateway"

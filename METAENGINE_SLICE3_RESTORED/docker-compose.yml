@@ -1,0 +1,86 @@
+# METAENGINE Phase 66 — Docker Compose for Production Deployment
+# Runs: MetaEngine API + LLM Bridge + Next.js Dashboard
+
+version: '3.8'
+
+services:
+  # MetaEngine API Server (Python REST API)
+  metaengine-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: metaengine-api
+    ports:
+      - "8080:8080"
+    environment:
+      - PYTHONPATH=/app
+      - TURSO_DB_TOKEN=${TURSO_DB_TOKEN:-}
+      - TURSO_DB_HOST=${TURSO_DB_HOST:-metaengine-project-patrickfrome.aws-eu-west-1.turso.io}
+    volumes:
+      - metaengine-storage:/app/storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+    networks:
+      - metaengine-net
+
+  # LLM Bridge (Bun + z-ai-web-dev-sdk)
+  llm-bridge:
+    build:
+      context: ./mini-services/llm-bridge
+      dockerfile: Dockerfile.bridge
+    container_name: metaengine-bridge
+    ports:
+      - "3031:3031"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3031/health"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
+    networks:
+      - metaengine-net
+
+  # Next.js Dashboard
+  dashboard:
+    build:
+      context: ..
+      dockerfile: METAENGINE_SLICE3_RESTORED/Dockerfile.dashboard
+    container_name: metaengine-dashboard
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_OPTIONS=--max-old-space-size=512
+    depends_on:
+      - metaengine-api
+    restart: unless-stopped
+    networks:
+      - metaengine-net
+
+  # Caddy Gateway (reverse proxy)
+  gateway:
+    image: caddy:latest
+    container_name: metaengine-gateway
+    ports:
+      - "80:80"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+    depends_on:
+      - metaengine-api
+      - dashboard
+    restart: unless-stopped
+    networks:
+      - metaengine-net
+
+volumes:
+  metaengine-storage:
+    driver: local
+
+networks:
+  metaengine-net:
+    driver: bridge

@@ -1,0 +1,13 @@
+{
+  "command": "cd devfabric/cloudflare && npm run test:core -- --test-name-pattern='federation'",
+  "completed_step_commit": "9c92733b9b57c9b4182783958a9e3a949f065367",
+  "evidence_hash": "54671a7b3cc2c2e7d08421cf382c2f6ff74daa2a583aed10a54ceb49e8fcf47f",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "NODE_FEDERATION_REGRESSION",
+  "observed": {
+    "failed": 0,
+    "federation_tool_surface": 18,
+    "passed": 36
+  }
+}

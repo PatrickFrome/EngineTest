@@ -1,0 +1,89 @@
+{
+  "record_id": "4D-BS4-AIRLINER-STANDING-RESERVE",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "Heidegger GA7 QCT airliner / Bestand example"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + BS4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "ARTIFACT",
+    "description": "An airliner is positioned in an operational transport system and kept ready for dispatch, maintenance and replacement of components.",
+    "role": [
+      "transport-artifact"
+    ],
+    "object_type": "airliner"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Within that ordering context, the airliner can be analysed as standing-reserve insofar as its presence is organized through availability-for-use rather than autonomous objecthood alone.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "HIST"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT14"
+    },
+    "bridge": {
+      "status": "EXPLICIT",
+      "statement": "The Heideggerian example ties Bestand to being on call, orderable and systemically available."
+    },
+    "promotion_flags": [
+      "ROLE_STATUS"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "Heidegger Bestand analysis",
+    "native_method": "phenomenological-functional reconstruction",
+    "activated_operators": [
+      "O3",
+      "O4",
+      "O7",
+      "O9"
+    ],
+    "trv": [],
+    "ncv": [
+      "EXPLICIT_MACHINERY"
+    ],
+    "rtr": "LOW"
+  },
+  "extensions": {
+    "bs4": {
+      "module_id": "BS4",
+      "version": "0.1",
+      "entity": "airliner in transport infrastructure",
+      "resourceization_level": "STRONG_STANDING_RESERVE",
+      "availability": "kept ready for dispatch and integrated into transport demand",
+      "substitutability": "components and system function are organized around replaceability and maintained availability",
+      "demand_linkage": "transport demand orders the aircraft into a chain of scheduling, fueling, maintenance and logistics",
+      "stock_flow_status": "operational asset within a transport flow",
+      "autonomy_shift": "its system meaning is dominated by readiness/function rather than isolated object-presence",
+      "human_case": "NOT_HUMAN",
+      "context_dependence": "outside the operational ordering it can also be encountered historically, aesthetically or materially",
+      "reversibility": "the same artifact can enter alternative practices/descriptions, so standing-reserve is not simple numerical identity with the object",
+      "counterdescription": "artifact/function analysis explains many local properties without itself implying an epochal mode of revealing",
+      "correction_source": [
+        "operational practice",
+        "maintenance/logistics data",
+        "alternative use-contexts"
+      ],
+      "revision_trigger": "a case in which availability/substitutability are absent but the strong Bestand claim is still asserted"
+    }
+  },
+  "outcome": "QUALIFY"
+}

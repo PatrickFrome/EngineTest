@@ -1,0 +1,56 @@
+{
+  "advisors": {
+    "federation_unindexed_foreign_keys": 0,
+    "new_federation_indexes": 23,
+    "security_high_or_error_findings": 0,
+    "security_info_rationale": "EXPECTED_DENY_BY_DEFAULT_PRIVATE_SCHEMA_SERVICE_ROLE_BYPASSRLS",
+    "security_info_rls_no_policy": 12,
+    "staging_dependency_closure_unindexed_foreign_keys": 3
+  },
+  "canonical_project_id": "gzrbxoiuenkksualgpvp",
+  "canonical_read_only_audit": {
+    "active_policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "checkpoint_id": "metaengine-chat-2.3.0-alpha.1-cp001",
+    "federation_functions": 0,
+    "federation_tables": 0,
+    "is_current": true,
+    "payload_root_sha256": "37ec1f81a2f1ef6ea0aed90582cc177f44fc3cca563d782fd7cc780575f94e1d",
+    "verification_status": "VERIFIED"
+  },
+  "canonical_writes": 0,
+  "cost_usd_monthly": 0,
+  "gate_version": "METAENGINE-DEVFABRIC-STAGE-D6D-STAGING-VALIDATION-1",
+  "live_flow": {
+    "c6_reclaim_generation": 2,
+    "c6_review": "PASS",
+    "candidate_after_review": "ELIGIBLE",
+    "high_risk_candidate_initial_eligibility": "MISSING_REVIEW",
+    "include_after_c6_reclaim_rejected": "FEDERATION_REVIEW_STALE_OR_MISSING",
+    "include_after_fresh_review": "ACCEPTED",
+    "include_before_review_rejected": "FEDERATION_CANDIDATE_NOT_ELIGIBLE",
+    "registrations": {
+      "C0_generation": 1,
+      "C1_generation": 1,
+      "C6_generation": 1
+    },
+    "role_slot_mismatch_rejected": "FEDERATION_ROLE_SLOT_MISMATCH",
+    "snapshot_publish": "ACCEPTED"
+  },
+  "migration": "storage/federated_chat_fabric_d6.sql",
+  "notes": [
+    "Staging dependency closure contains only structural FK prerequisites and minimal identities.",
+    "Initial staging RPC reconstruction drift was detected by adversarial testing; all 22 RPCs were normalized from exact tracked migration blocks before the successful live gate."
+  ],
+  "receipt_hash": "3c5261ab7a77da5689145ea832761d4313638815cf63b86afbb540c491158347",
+  "schema": {
+    "bad_anon_authenticated_function_exec": 0,
+    "bad_anon_authenticated_table_grants": 0,
+    "federation_tables": 12,
+    "force_rls": 12,
+    "rls_enabled": 12,
+    "rpc_functions": 22,
+    "security_definer_functions": 0
+  },
+  "staging_project_id": "sibnfciqcpkuquxzduqr",
+  "status": "STAGING_VALIDATED_ZERO_SPEND"
+}

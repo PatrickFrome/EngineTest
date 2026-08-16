@@ -1,0 +1,84 @@
+{
+  "ecology_version": "DAE-MICRO-LOCAL-ECOLOGY-MANIFEST-1.0",
+  "description": "Preregistered independent-family micro-local benchmark. A relation-genesis family and a separately source-born processual-hermeneutic family compete inside one controlled document. The benchmark tests local selection, cross-family composition, negative-control abstention and preservation of polyphonic boundaries.",
+  "candidates": [
+    {
+      "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+      "label": "Geviert-born co-constitutive gathering profile",
+      "origin_corpus_id": "GEVIERT",
+      "origin_refinery_directory": "../operator-competition-0.8/corpora/GEVIERT/refinery",
+      "origin_living_analysis_file": "../operator-competition-0.8/corpora/GEVIERT/living/living_analysis.json",
+      "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "birth_profile_hints": ["CO_CONSTITUTIVE_OR_RECIPROCAL"],
+      "required_profile_hints": ["CO_CONSTITUTIVE_OR_RECIPROCAL"],
+      "optional_profile_hints": ["DIFFERENCE_PRESERVING_PROXIMITY"],
+      "incompatible_profile_hints": ["ASYMMETRIC_DEPENDENCE"],
+      "rationale": "Relation-family control: must win only on reciprocal gathering/distance windows and may compose with an independent family only when the same local window supports both."
+    },
+    {
+      "candidate_id": "TEMPORAL_ENACTMENT_SOURCE_BORN",
+      "label": "Source-born temporal enactment profile",
+      "origin_corpus_id": "TEMPORAL_ENACTMENT_SYNTHETIC",
+      "origin_refinery_directory": "origins/temporal_enactment_refinery",
+      "origin_living_analysis_file": "origins/temporal_enactment_living/living_analysis.json",
+      "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "birth_profile_hints": ["TEMPORAL_ENACTMENT"],
+      "required_profile_hints": ["TEMPORAL_ENACTMENT"],
+      "optional_profile_hints": ["PRACTICE_MEDIATION"],
+      "incompatible_profile_hints": [],
+      "rationale": "Independent processual-family profile: expectation and enactment should be locally discriminating without being re-described as relation-genesis."
+    },
+    {
+      "candidate_id": "PRACTICE_MEDIATION_SOURCE_BORN",
+      "label": "Source-born practice/material mediation profile",
+      "origin_corpus_id": "PRACTICE_MEDIATION_SYNTHETIC",
+      "origin_refinery_directory": "origins/practice_mediation_refinery",
+      "origin_living_analysis_file": "origins/practice_mediation_living/living_analysis.json",
+      "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "birth_profile_hints": ["PRACTICE_MEDIATION"],
+      "required_profile_hints": ["PRACTICE_MEDIATION"],
+      "optional_profile_hints": [],
+      "incompatible_profile_hints": [],
+      "rationale": "Independent processual-family profile for repeated embodied/material mediation."
+    },
+    {
+      "candidate_id": "ABSENCE_DISCLOSURE_SOURCE_BORN",
+      "label": "Source-born absence/trace disclosure profile",
+      "origin_corpus_id": "ABSENCE_DISCLOSURE_SYNTHETIC",
+      "origin_refinery_directory": "origins/absence_disclosure_refinery",
+      "origin_living_analysis_file": "origins/absence_disclosure_living/living_analysis.json",
+      "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "birth_profile_hints": ["ABSENCE_DISCLOSURE"],
+      "required_profile_hints": ["ABSENCE_DISCLOSURE"],
+      "optional_profile_hints": [],
+      "incompatible_profile_hints": [],
+      "rationale": "Independent processual-family profile that keeps trace/disclosure below causal or existence proof."
+    }
+  ],
+  "target": {
+    "corpus_id": "INDEPENDENT_FAMILY_MICRO_LOCAL_BENCHMARK",
+    "label": "Independent operator-family micro-local benchmark",
+    "source_docx": "benchmark/independent_family_micro_local_benchmark.docx",
+    "document_language": "en",
+    "windowing": {
+      "mode": "HEADING_BOUNDED_ARGUMENT_WINDOWS",
+      "heading_level": 1,
+      "include_layers": ["SOURCE"],
+      "minimum_text_chars": 30,
+      "maximum_window_paragraphs": 8,
+      "minimum_relation_score": 4,
+      "minimum_active_signal_families": 2
+    },
+    "expected_windows": [
+      {"heading": "W1 — Temporal enactment", "expected_decision": "SELECT_LOCAL_WINNER", "expected_selected_candidates": ["TEMPORAL_ENACTMENT_SOURCE_BORN"], "rationale": "Temporal enactment should beat the narrower practice profile because it covers both the temporal and practice hints in this window."},
+      {"heading": "W2 — Practice and material mediation", "expected_decision": "SELECT_LOCAL_WINNER", "expected_selected_candidates": ["PRACTICE_MEDIATION_SOURCE_BORN"], "rationale": "Material/repetitive enactment should select the practice-mediation profile without a temporal expectation requirement."},
+      {"heading": "W3 — Absence and trace", "expected_decision": "SELECT_LOCAL_WINNER", "expected_selected_candidates": ["ABSENCE_DISCLOSURE_SOURCE_BORN"], "rationale": "Absence plus trace/disclosure should select its own profile rather than relation-genesis."},
+      {"heading": "W4 — Geviert-style relation control", "expected_decision": "SELECT_LOCAL_WINNER", "expected_selected_candidates": ["GEVIERT_CO_CONSTITUTIVE_GATHERING"], "rationale": "The older relation-genesis family must remain available and locally superior on reciprocal gathering with preserved distance."},
+      {"heading": "W5 — Cross-family composition", "expected_decision": "LOCAL_COMPOSITION", "expected_selected_candidates": ["GEVIERT_CO_CONSTITUTIVE_GATHERING", "TEMPORAL_ENACTMENT_SOURCE_BORN"], "rationale": "The window deliberately carries non-redundant relation and processual signals; the system should compose families locally without creating a global meta-ontology."},
+      {"heading": "W6 — Descriptive negative control", "expected_decision": "ABSTAIN_UNRESOLVED", "expected_selected_candidates": [], "rationale": "A bare descriptive window should defeat both families and prevent least-bad routing."}
+    ],
+    "expected_synthesis_decision": "PRESERVE_POLYPHONIC_LOCALITY"
+  },
+  "scoring": {"dominance_margin": 2, "composition_gain_threshold": 1},
+  "claim_ceiling": "MICRO_LOCAL_ROUTING_PREREGISTRATION_NOT_EXTERNAL_SEMANTIC_VALIDATION"
+}

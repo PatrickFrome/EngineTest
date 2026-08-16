@@ -1,0 +1,26 @@
+{
+  "architecture_library_paths": [
+    "FRONTIER_ARCHITECTURE_INTEGRATION_REPORT_RU.md",
+    "ARCHITECTURE_2_3.md",
+    "docs/superpowers/specs/2026-08-13-metaengine-1-constitutional-assimilation-design.md"
+  ],
+  "constitution_paths": [
+    "metaengine/security.py",
+    "metaengine/architecture_policy.py",
+    "config/evolution_policy_2_3.json",
+    ".agents/rules/metaengine-devfabric.md",
+    "config/constitution/k0_v1.json",
+    "config/constitution/k1_v1.json",
+    "metaengine/constitution.py",
+    "config/constitution/conformance_matrix_v1.json"
+  ],
+  "policy_paths": [
+    "config/evolution_policy_2_3.json",
+    "docs/superpowers/specs/2026-08-13-stage-d6-g1-finalized-shadow-adaptation-design.md",
+    "metaengine/architecture_policy.py",
+    "metaengine/organization_legacy.py",
+    "metaengine/organization_policy.py",
+    "metaengine/resource_descriptor.py"
+  ],
+  "review_context_version": "METAENGINE-DEVELOPMENT-REVIEW-BOOTSTRAP-1"
+}

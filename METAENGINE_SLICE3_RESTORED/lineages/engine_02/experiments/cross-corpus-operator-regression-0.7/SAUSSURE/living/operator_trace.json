@@ -1,0 +1,801 @@
+{
+  "trace_version": "DAE-LIVING-OPERATOR-TRACE-1.0",
+  "run_id": "LIVING-LOCAL_SHA256_DEFB03CA1F6A5CFC89E3FD384D3FFF6671EC27D7CFE7F47863B46CB6163-0D601475FF1C",
+  "seed": "cross-corpus-SAUSSURE",
+  "scheduling": "SEEDED_TRIGGERED_GESTURES_NOT_FIXED_PIPELINE",
+  "discovery_justification_firewall": true,
+  "etymology": {
+    "protocol_version": "ETY-0.2",
+    "run_id": "ETY-LOCAL_SHA256_DEFB03CA1F6A5CFC89E3FD384D3FFF6671EC27D7CFE7F47863B46CB6163-BAE0098C7A9F",
+    "pass_sha256": "e3c72a2c3ca4094cd14b50e991b1115fca0f9eb4dfcb5e364b1769de8edf950c",
+    "mandatory_execution": true,
+    "mandatory_significance": false
+  },
+  "constellations": [
+    {
+      "constellation_id": "C-EMERGENT_SOURCE_LANGUE",
+      "activations": [
+        {
+          "gesture_id": "GX1",
+          "active": false,
+          "reason": "No broad successful explanatory field with a determinate residual is yet visible."
+        },
+        {
+          "gesture_id": "GX2",
+          "active": true,
+          "reason": "The question depends on several lexical/conceptual poles or a contestable historical inheritance."
+        },
+        {
+          "gesture_id": "GX3",
+          "active": true,
+          "reason": "The lens already weakens an inherited necessity while retaining a phenomenon that can answer back."
+        },
+        {
+          "gesture_id": "GX4",
+          "active": true,
+          "reason": "7 admissible reconstructions are available; premature selection would erase contrastive gain."
+        },
+        {
+          "gesture_id": "GX5",
+          "active": true,
+          "reason": "A constructive gain can be expressed as direction, negation, enactment test and limit without theory promotion."
+        },
+        {
+          "gesture_id": "GX6",
+          "active": true,
+          "reason": "The remainder specifies a discriminating reopening condition and can become a research branch."
+        },
+        {
+          "gesture_id": "GX7",
+          "active": true,
+          "reason": "Curated topic coverage captured 0/5 source-central terms; 5 remained outside the recognized problem-space."
+        }
+      ],
+      "activated_families": [
+        "F-REPRESENTATION-RESISTANCE",
+        "F-BOUNDARY",
+        "F-LANGUAGE-TRANSLATION",
+        "F-REPRESENTATION-DECISION"
+      ],
+      "steps": [
+        {
+          "iteration": 1,
+          "selected_operator": "GX6",
+          "task_kind": "GESTURE",
+          "trigger": "The remainder specifies a discriminating reopening condition and can become a research branch.",
+          "produced_nodes": [
+            "N-EMERGENT_SOURCE_LANGUE-GX6-R3_TYPED",
+            "N-EMERGENT_SOURCE_LANGUE-GX6-R3_G_BRANCH",
+            "N-EMERGENT_SOURCE_LANGUE-GX6-REOPEN"
+          ],
+          "produced_roles": [
+            "OPEN_RESIDUAL",
+            "RESEARCH_BRANCH",
+            "REVISION_TRIGGER"
+          ],
+          "generative_gains": [
+            "GG5_NEW_PHENOMENON",
+            "GG2_NEW_QUESTION",
+            "GG6_BRANCH_PRODUCTIVITY"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 2,
+          "selected_operator": "F-LANGUAGE-TRANSLATION",
+          "task_kind": "FAMILY",
+          "trigger": "Could translation or diachronic reuse be smoothing over different phenomena?",
+          "produced_nodes": [
+            "N-EMERGENT_SOURCE_LANGUE-FAMILY_F_LANGUAGE_TRANSLATION-F_LANGUAGE_TRANSLATION"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 3,
+          "selected_operator": "F-REPRESENTATION-RESISTANCE",
+          "task_kind": "FAMILY",
+          "trigger": "Is the current analytic representation merely incomplete, or does its own unitization systematically prevent the source phenomenon from appearing?",
+          "produced_nodes": [
+            "N-EMERGENT_SOURCE_LANGUE-FAMILY_F_REPRESENTATION_RESISTANCE-F_REPRESENTATION_RESISTANCE"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 4,
+          "selected_operator": "F-REPRESENTATION-DECISION",
+          "task_kind": "FAMILY",
+          "trigger": "Who may speak, decide or interpret for whom, and can dissent appear as counterevidence without exile?",
+          "produced_nodes": [
+            "N-EMERGENT_SOURCE_LANGUE-FAMILY_F_REPRESENTATION_DECISION-F_REPRESENTATION_DECISION"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 5,
+          "selected_operator": "GX3",
+          "task_kind": "GESTURE",
+          "trigger": "The lens already weakens an inherited necessity while retaining a phenomenon that can answer back.",
+          "produced_nodes": [
+            "N-EMERGENT_SOURCE_LANGUE-GX3-REVERSE",
+            "N-EMERGENT_SOURCE_LANGUE-GX3-R1",
+            "N-EMERGENT_SOURCE_LANGUE-GX3-REVERSED_KERNEL"
+          ],
+          "produced_roles": [
+            "REVERSE_TEST",
+            "DESTROYED",
+            "MUTATION"
+          ],
+          "generative_gains": [
+            "GG4_REVERSAL",
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 6,
+          "selected_operator": "GX5",
+          "task_kind": "GESTURE",
+          "trigger": "A constructive gain can be expressed as direction, negation, enactment test and limit without theory promotion.",
+          "produced_nodes": [
+            "N-EMERGENT_SOURCE_LANGUE-GX5-ANEIGNUNG",
+            "N-EMERGENT_SOURCE_LANGUE-GX5-FORMAL_INDICATION",
+            "N-EMERGENT_SOURCE_LANGUE-GX5-R2",
+            "N-EMERGENT_SOURCE_LANGUE-GX5-GAIN_PRICE"
+          ],
+          "produced_roles": [
+            "POSITIVE_KERNEL",
+            "FORMAL_INDICATION",
+            "PRESERVED",
+            "EXPLANATORY_BALANCE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 7,
+          "selected_operator": "GX4",
+          "task_kind": "GESTURE",
+          "trigger": "7 admissible reconstructions are available; premature selection would erase contrastive gain.",
+          "produced_nodes": [
+            "N-EMERGENT_SOURCE_LANGUE-GX4-RIVAL_1",
+            "N-EMERGENT_SOURCE_LANGUE-GX4-RIVAL_2",
+            "N-EMERGENT_SOURCE_LANGUE-GX4-RIVAL_3",
+            "N-EMERGENT_SOURCE_LANGUE-GX4-RIVAL_4",
+            "N-EMERGENT_SOURCE_LANGUE-GX4-RIVAL_5",
+            "N-EMERGENT_SOURCE_LANGUE-GX4-RIVAL_6",
+            "N-EMERGENT_SOURCE_LANGUE-GX4-RIVAL_7",
+            "N-EMERGENT_SOURCE_LANGUE-GX4-NON_DOMINATED",
+            "N-EMERGENT_SOURCE_LANGUE-GX4-COLLISION"
+          ],
+          "produced_roles": [
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "POLYPHONIC_FIELD",
+            "SURPRISE"
+          ],
+          "generative_gains": [
+            "GG3_NEW_RIVAL",
+            "GG5_NEW_PHENOMENON",
+            "GG1_NEW_DISTINCTION",
+            "GG2_NEW_QUESTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 8,
+          "selected_operator": "GX2",
+          "task_kind": "GESTURE",
+          "trigger": "The question depends on several lexical/conceptual poles or a contestable historical inheritance.",
+          "produced_nodes": [
+            "N-EMERGENT_SOURCE_LANGUE-GX2-PROBLEM_GENESIS",
+            "N-EMERGENT_SOURCE_LANGUE-GX2-PROBLEM",
+            "N-EMERGENT_SOURCE_LANGUE-GX2-LEXICAL",
+            "N-EMERGENT_SOURCE_LANGUE-GX2-CONCEPTUAL",
+            "N-EMERGENT_SOURCE_LANGUE-GX2-COUNTER",
+            "N-EMERGENT_SOURCE_LANGUE-GX2-RIVAL_QUESTION",
+            "N-EMERGENT_SOURCE_LANGUE-GX2-DIFFERENCE"
+          ],
+          "produced_roles": [
+            "PROBLEM_GENESIS",
+            "PROBLEM_GENEALOGY",
+            "LEXICAL_GENEALOGY",
+            "CONCEPTUAL_GENEALOGY",
+            "COUNTER_GENEALOGY",
+            "COUNTERGENETIC_FORK",
+            "DECONFLATION"
+          ],
+          "generative_gains": [
+            "GG2_NEW_QUESTION",
+            "GG1_NEW_DISTINCTION",
+            "GG3_NEW_RIVAL"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 9,
+          "selected_operator": "GX7",
+          "task_kind": "GESTURE",
+          "trigger": "Curated topic coverage captured 0/5 source-central terms; 5 remained outside the recognized problem-space.",
+          "produced_nodes": [
+            "N-EMERGENT_SOURCE_LANGUE-GX7-SOURCE_RESISTANCE",
+            "N-EMERGENT_SOURCE_LANGUE-GX7-REPRESENTATION_FAILURE",
+            "N-EMERGENT_SOURCE_LANGUE-GX7-OPERATOR_DELTA"
+          ],
+          "produced_roles": [
+            "SOURCE_RESISTANCE",
+            "REPRESENTATION_FAILURE",
+            "OPERATOR_DELTA"
+          ],
+          "generative_gains": [
+            "GG5_NEW_PHENOMENON",
+            "GG7_OPERATOR_EVOLUTION",
+            "GG1_NEW_DISTINCTION",
+            "GG4_REVERSAL"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 10,
+          "selected_operator": "F-BOUNDARY",
+          "task_kind": "FAMILY",
+          "trigger": "Is a spatial surface silently doing the work of causal, statistical, social, temporal or normative differentiation?",
+          "produced_nodes": [
+            "N-EMERGENT_SOURCE_LANGUE-FAMILY_F_BOUNDARY-F_BOUNDARY"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        }
+      ],
+      "retired_operators": [
+        {
+          "operator_id": "GX1",
+          "reason": "TRIGGER_NOT_MET: No broad successful explanatory field with a determinate residual is yet visible."
+        }
+      ]
+    },
+    {
+      "constellation_id": "C-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION",
+      "activations": [
+        {
+          "gesture_id": "GX1",
+          "active": false,
+          "reason": "No broad successful explanatory field with a determinate residual is yet visible."
+        },
+        {
+          "gesture_id": "GX2",
+          "active": true,
+          "reason": "The question depends on several lexical/conceptual poles or a contestable historical inheritance."
+        },
+        {
+          "gesture_id": "GX3",
+          "active": true,
+          "reason": "The lens already weakens an inherited necessity while retaining a phenomenon that can answer back."
+        },
+        {
+          "gesture_id": "GX4",
+          "active": true,
+          "reason": "7 admissible reconstructions are available; premature selection would erase contrastive gain."
+        },
+        {
+          "gesture_id": "GX5",
+          "active": true,
+          "reason": "A constructive gain can be expressed as direction, negation, enactment test and limit without theory promotion."
+        },
+        {
+          "gesture_id": "GX6",
+          "active": true,
+          "reason": "The remainder specifies a discriminating reopening condition and can become a research branch."
+        },
+        {
+          "gesture_id": "GX7",
+          "active": false,
+          "reason": "GX7 is source-forced rather than thesis-forced: an explicit project claim may demand adjudication, but it cannot by itself license mutation of the method."
+        }
+      ],
+      "activated_families": [
+        "F-CONSTITUTION",
+        "F-LANGUAGE-TRANSLATION",
+        "F-REPRESENTATION-RESISTANCE"
+      ],
+      "steps": [
+        {
+          "iteration": 1,
+          "selected_operator": "GX5",
+          "task_kind": "GESTURE",
+          "trigger": "A constructive gain can be expressed as direction, negation, enactment test and limit without theory promotion.",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX5-ANEIGNUNG",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX5-FORMAL_INDICATION",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX5-R2",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX5-GAIN_PRICE"
+          ],
+          "produced_roles": [
+            "POSITIVE_KERNEL",
+            "FORMAL_INDICATION",
+            "PRESERVED",
+            "EXPLANATORY_BALANCE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 2,
+          "selected_operator": "GX3",
+          "task_kind": "GESTURE",
+          "trigger": "The lens already weakens an inherited necessity while retaining a phenomenon that can answer back.",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX3-REVERSE",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX3-R1",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX3-REVERSED_KERNEL"
+          ],
+          "produced_roles": [
+            "REVERSE_TEST",
+            "DESTROYED",
+            "MUTATION"
+          ],
+          "generative_gains": [
+            "GG4_REVERSAL",
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 3,
+          "selected_operator": "GX2",
+          "task_kind": "GESTURE",
+          "trigger": "The question depends on several lexical/conceptual poles or a contestable historical inheritance.",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX2-PROBLEM_GENESIS",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX2-LEXICAL",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX2-CONCEPTUAL",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX2-PROBLEM",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX2-COUNTER",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX2-RIVAL_QUESTION",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX2-DIFFERENCE"
+          ],
+          "produced_roles": [
+            "PROBLEM_GENESIS",
+            "LEXICAL_GENEALOGY",
+            "CONCEPTUAL_GENEALOGY",
+            "PROBLEM_GENEALOGY",
+            "COUNTER_GENEALOGY",
+            "COUNTERGENETIC_FORK",
+            "DECONFLATION"
+          ],
+          "generative_gains": [
+            "GG2_NEW_QUESTION",
+            "GG1_NEW_DISTINCTION",
+            "GG3_NEW_RIVAL"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 4,
+          "selected_operator": "F-CONSTITUTION",
+          "task_kind": "FAMILY",
+          "trigger": "Which bearer constitutes what: sense, identity, validity, objectivity, status or existence?",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-FAMILY_F_CONSTITUTION-F_CONSTITUTION"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 5,
+          "selected_operator": "F-REPRESENTATION-RESISTANCE",
+          "task_kind": "FAMILY",
+          "trigger": "Is the current analytic representation merely incomplete, or does its own unitization systematically prevent the source phenomenon from appearing?",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-FAMILY_F_REPRESENTATION_RESISTANCE-F_REPRESENTATION_RESISTANCE"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 6,
+          "selected_operator": "GX4",
+          "task_kind": "GESTURE",
+          "trigger": "7 admissible reconstructions are available; premature selection would erase contrastive gain.",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX4-RIVAL_1",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX4-RIVAL_2",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX4-RIVAL_3",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX4-RIVAL_4",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX4-RIVAL_5",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX4-RIVAL_6",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX4-RIVAL_7",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX4-NON_DOMINATED",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX4-COLLISION"
+          ],
+          "produced_roles": [
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "POLYPHONIC_FIELD",
+            "SURPRISE"
+          ],
+          "generative_gains": [
+            "GG3_NEW_RIVAL",
+            "GG5_NEW_PHENOMENON",
+            "GG1_NEW_DISTINCTION",
+            "GG2_NEW_QUESTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 7,
+          "selected_operator": "F-LANGUAGE-TRANSLATION",
+          "task_kind": "FAMILY",
+          "trigger": "Could translation or diachronic reuse be smoothing over different phenomena?",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-FAMILY_F_LANGUAGE_TRANSLATION-F_LANGUAGE_TRANSLATION"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 8,
+          "selected_operator": "GX6",
+          "task_kind": "GESTURE",
+          "trigger": "The remainder specifies a discriminating reopening condition and can become a research branch.",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX6-R3_TYPED",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX6-R3_G_BRANCH",
+            "N-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION-GX6-REOPEN"
+          ],
+          "produced_roles": [
+            "OPEN_RESIDUAL",
+            "RESEARCH_BRANCH",
+            "REVISION_TRIGGER"
+          ],
+          "generative_gains": [
+            "GG5_NEW_PHENOMENON",
+            "GG2_NEW_QUESTION",
+            "GG6_BRANCH_PRODUCTIVITY"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        }
+      ],
+      "retired_operators": [
+        {
+          "operator_id": "GX1",
+          "reason": "TRIGGER_NOT_MET: No broad successful explanatory field with a determinate residual is yet visible."
+        },
+        {
+          "operator_id": "GX7",
+          "reason": "TRIGGER_NOT_MET: GX7 is source-forced rather than thesis-forced: an explicit project claim may demand adjudication, but it cannot by itself license mutation of the method."
+        }
+      ]
+    },
+    {
+      "constellation_id": "C-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST",
+      "activations": [
+        {
+          "gesture_id": "GX1",
+          "active": false,
+          "reason": "No broad successful explanatory field with a determinate residual is yet visible."
+        },
+        {
+          "gesture_id": "GX2",
+          "active": true,
+          "reason": "The question depends on several lexical/conceptual poles or a contestable historical inheritance."
+        },
+        {
+          "gesture_id": "GX3",
+          "active": true,
+          "reason": "The lens already weakens an inherited necessity while retaining a phenomenon that can answer back."
+        },
+        {
+          "gesture_id": "GX4",
+          "active": true,
+          "reason": "7 admissible reconstructions are available; premature selection would erase contrastive gain."
+        },
+        {
+          "gesture_id": "GX5",
+          "active": true,
+          "reason": "A constructive gain can be expressed as direction, negation, enactment test and limit without theory promotion."
+        },
+        {
+          "gesture_id": "GX6",
+          "active": true,
+          "reason": "The remainder specifies a discriminating reopening condition and can become a research branch."
+        },
+        {
+          "gesture_id": "GX7",
+          "active": false,
+          "reason": "GX7 is source-forced rather than thesis-forced: an explicit project claim may demand adjudication, but it cannot by itself license mutation of the method."
+        }
+      ],
+      "activated_families": [
+        "F-LANGUAGE-TRANSLATION",
+        "F-RELATION-COUPLING",
+        "F-RELATION-GENESIS",
+        "F-REPRESENTATION-RESISTANCE"
+      ],
+      "steps": [
+        {
+          "iteration": 1,
+          "selected_operator": "F-REPRESENTATION-RESISTANCE",
+          "task_kind": "FAMILY",
+          "trigger": "Is the current analytic representation merely incomplete, or does its own unitization systematically prevent the source phenomenon from appearing?",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-FAMILY_F_REPRESENTATION_RESISTANCE-F_REPRESENTATION_RESISTANCE"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 2,
+          "selected_operator": "F-RELATION-GENESIS",
+          "task_kind": "FAMILY",
+          "trigger": "Does the analysis presuppose fully individuated relata before testing whether the relation partly constitutes, differentiates or co-emerges with its terms?",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-FAMILY_F_RELATION_GENESIS-F_RELATION_GENESIS"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 3,
+          "selected_operator": "GX2",
+          "task_kind": "GESTURE",
+          "trigger": "The question depends on several lexical/conceptual poles or a contestable historical inheritance.",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX2-PROBLEM_GENESIS",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX2-PROBLEM",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX2-LEXICAL",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX2-CONCEPTUAL",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX2-COUNTER",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX2-RIVAL_QUESTION",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX2-DIFFERENCE"
+          ],
+          "produced_roles": [
+            "PROBLEM_GENESIS",
+            "PROBLEM_GENEALOGY",
+            "LEXICAL_GENEALOGY",
+            "CONCEPTUAL_GENEALOGY",
+            "COUNTER_GENEALOGY",
+            "COUNTERGENETIC_FORK",
+            "DECONFLATION"
+          ],
+          "generative_gains": [
+            "GG2_NEW_QUESTION",
+            "GG1_NEW_DISTINCTION",
+            "GG3_NEW_RIVAL"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 4,
+          "selected_operator": "F-LANGUAGE-TRANSLATION",
+          "task_kind": "FAMILY",
+          "trigger": "Could translation or diachronic reuse be smoothing over different phenomena?",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-FAMILY_F_LANGUAGE_TRANSLATION-F_LANGUAGE_TRANSLATION"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 5,
+          "selected_operator": "GX4",
+          "task_kind": "GESTURE",
+          "trigger": "7 admissible reconstructions are available; premature selection would erase contrastive gain.",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX4-RIVAL_1",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX4-RIVAL_2",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX4-RIVAL_3",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX4-RIVAL_4",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX4-RIVAL_5",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX4-RIVAL_6",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX4-RIVAL_7",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX4-NON_DOMINATED",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX4-COLLISION"
+          ],
+          "produced_roles": [
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "RIVAL_RECONSTRUCTION",
+            "POLYPHONIC_FIELD",
+            "SURPRISE"
+          ],
+          "generative_gains": [
+            "GG3_NEW_RIVAL",
+            "GG5_NEW_PHENOMENON",
+            "GG1_NEW_DISTINCTION",
+            "GG2_NEW_QUESTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 6,
+          "selected_operator": "GX6",
+          "task_kind": "GESTURE",
+          "trigger": "The remainder specifies a discriminating reopening condition and can become a research branch.",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX6-R3_TYPED",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX6-R3_G_BRANCH",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX6-REOPEN"
+          ],
+          "produced_roles": [
+            "OPEN_RESIDUAL",
+            "RESEARCH_BRANCH",
+            "REVISION_TRIGGER"
+          ],
+          "generative_gains": [
+            "GG5_NEW_PHENOMENON",
+            "GG2_NEW_QUESTION",
+            "GG6_BRANCH_PRODUCTIVITY"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 7,
+          "selected_operator": "F-RELATION-COUPLING",
+          "task_kind": "FAMILY",
+          "trigger": "Are ready-made relata, reciprocal arrows or covariation being used as if they already specified the kind, mechanism and direction of a relation?",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-FAMILY_F_RELATION_COUPLING-F_RELATION_COUPLING"
+          ],
+          "produced_roles": [
+            "SPECIALIZED_PROBE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 8,
+          "selected_operator": "GX5",
+          "task_kind": "GESTURE",
+          "trigger": "A constructive gain can be expressed as direction, negation, enactment test and limit without theory promotion.",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX5-ANEIGNUNG",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX5-FORMAL_INDICATION",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX5-R2",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX5-GAIN_PRICE"
+          ],
+          "produced_roles": [
+            "POSITIVE_KERNEL",
+            "FORMAL_INDICATION",
+            "PRESERVED",
+            "EXPLANATORY_BALANCE"
+          ],
+          "generative_gains": [
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        },
+        {
+          "iteration": 9,
+          "selected_operator": "GX3",
+          "task_kind": "GESTURE",
+          "trigger": "The lens already weakens an inherited necessity while retaining a phenomenon that can answer back.",
+          "produced_nodes": [
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX3-REVERSE",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX3-R1",
+            "N-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST-GX3-REVERSED_KERNEL"
+          ],
+          "produced_roles": [
+            "REVERSE_TEST",
+            "DESTROYED",
+            "MUTATION"
+          ],
+          "generative_gains": [
+            "GG4_REVERSAL",
+            "GG1_NEW_DISTINCTION"
+          ],
+          "gain_contract_satisfied": true,
+          "selection_basis": "SEEDED_CHOICE_AMONG_INDEPENDENT_TRIGGERED_GESTURES_AND_FAMILIES"
+        }
+      ],
+      "retired_operators": [
+        {
+          "operator_id": "GX1",
+          "reason": "TRIGGER_NOT_MET: No broad successful explanatory field with a determinate residual is yet visible."
+        },
+        {
+          "operator_id": "GX7",
+          "reason": "TRIGGER_NOT_MET: GX7 is source-forced rather than thesis-forced: an explicit project claim may demand adjudication, but it cannot by itself license mutation of the method."
+        }
+      ]
+    }
+  ]
+}

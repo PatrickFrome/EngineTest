@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Engine Biographies 2.0",
+  "type": "object",
+  "required": [
+    "biography_version",
+    "engines",
+    "topologies",
+    "claim_ceiling",
+    "biography_hash"
+  ],
+  "properties": {
+    "biography_version": {
+      "type": "string"
+    },
+    "engines": {
+      "type": "object",
+      "minProperties": 16,
+      "maxProperties": 16,
+      "patternProperties": {
+        "^engine_(0[1-9]|1[0-6])$": {
+          "type": "object",
+          "required": [
+            "engine_id",
+            "observations",
+            "domains",
+            "effects",
+            "failure_modes",
+            "pair_synergy",
+            "mean_realized_gain",
+            "mean_cost",
+            "last_runs",
+            "claim_ceiling"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "topologies": {
+      "type": "object"
+    },
+    "claim_ceiling": {
+      "type": "string"
+    },
+    "biography_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": false
+}

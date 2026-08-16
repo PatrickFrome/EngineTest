@@ -1,0 +1,24 @@
+{
+  "canonical_authority": "SUPABASE_ONLY",
+  "chat_create_authoritative_task": false,
+  "modes": [
+    "EXCLUSIVE",
+    "PARALLEL",
+    "REDUNDANT",
+    "IMPLEMENT_REVIEW"
+  ],
+  "offline_policy": "PINNED_TASK_ONLY_NO_NEW_ASSIGNMENT",
+  "protocol_version": "D6.1",
+  "publication_authority": "INTERNAL_SYNCHRONIZER_CONTROL_PLANE",
+  "required_bindings": [
+    "epoch_id",
+    "task_version",
+    "owner_slot",
+    "lease_generation",
+    "role_profile_hash",
+    "base_checkpoint_id"
+  ],
+  "slot_count": 8,
+  "task_identity": "CONTENT_ADDRESSED_FEDERATED_TASK_ENVELOPE",
+  "write_model": "ISOLATED_CANDIDATE_WORLD"
+}

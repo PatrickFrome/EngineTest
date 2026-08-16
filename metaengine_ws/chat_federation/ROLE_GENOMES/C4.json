@@ -1,0 +1,60 @@
+{
+  "hard": {
+    "allowed_integration_modes": [
+      "EXCLUSIVE",
+      "PARALLEL",
+      "REDUNDANT",
+      "IMPLEMENT_REVIEW"
+    ],
+    "authority_boundaries": [
+      "PROPOSAL_ONLY",
+      "NO_CANONICAL_PROMOTION",
+      "FENCED_TASK_SCOPE"
+    ],
+    "mandatory_reviewers": [
+      "C6"
+    ],
+    "privacy_ceiling": "P2",
+    "prohibited_actions": [
+      "CANONICAL_BYPASS",
+      "SECRET_RETRIEVAL",
+      "DIRECT_CANONICAL_WRITE"
+    ],
+    "role": "EDGE_MCP",
+    "slot": "C4",
+    "subsystem_ownership": [
+      "Cloudflare",
+      "MCP",
+      "D1",
+      "R2",
+      "Workflows",
+      "Workers AI"
+    ]
+  },
+  "soft": {
+    "capability_weights": {
+      "edge": 0.95,
+      "mcp": 0.95,
+      "typescript": 0.9
+    },
+    "concurrency_preference": 4,
+    "exploration_weight": 0.1,
+    "preferred_task_classes": [
+      "edge",
+      "mcp",
+      "cloudflare",
+      "artifact-cas"
+    ],
+    "preferred_workers": [
+      "cloudflare-workers",
+      "opencode",
+      "openhands"
+    ],
+    "provider_priors": {},
+    "review_pairings": [
+      "C6",
+      "C5"
+    ]
+  },
+  "version": "d6-role-v1"
+}

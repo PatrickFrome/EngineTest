@@ -1,0 +1,20 @@
+{
+  "cases": 5,
+  "complete": 5,
+  "mean_H0": 0.4682,
+  "mean_H1": 0.8437,
+  "mean_dH": 0.3755,
+  "mean_E0": 0.1111,
+  "mean_E1": 0.8587,
+  "mean_dE": 0.7476,
+  "mean_D0": 0.1429,
+  "mean_D1": 0.8087,
+  "mean_dD": 0.6658,
+  "mean_r1_divergence": 0.8593,
+  "mean_r2_divergence": 0.5822,
+  "mean_round2_growth": 7.6,
+  "total_cycles": 103,
+  "native_nodes_unchanged": true,
+  "native_positions_unchanged": true,
+  "truth_violations": 0
+}

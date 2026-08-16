@@ -1,0 +1,56 @@
+{
+  "merge_manifest_version": "DESTRUKTION-ENGINE-MERGE-0.6",
+  "release": "Destruktion_4.0_COMPLETE_0.6_OPEN_SET_INTEGRATION",
+  "engine_baseline": "0.10.0-alpha.1",
+  "baseline_required_assets": 66,
+  "baseline_assets_rewritten": 0,
+  "source_zip_sha256": "cf78f697616b32bf399bf8f43eb15ecd0fa0031e4b2115c09629cef3493f5202",
+  "accepted": [
+    "open-set source-signature discovery",
+    "UNKNOWN_OPERATOR_FAMILY rival preservation",
+    "ADD_OPERATOR reversible executable candidate birth",
+    "declarative living runtime 1.1",
+    "known/open-set micro-local routing with abstention",
+    "0.10 cross-corpus regression and operator competition",
+    "bundled offline AJV-compatible validator"
+  ],
+  "preserved_from_previous_line": [
+    "Studio longitudinal resistant-source discovery",
+    "A/B/C structural comparator",
+    "historical 0.9 registry control",
+    "0.9 localization-loss micro-local regression",
+    "immutable workspace sessions and snapshots"
+  ],
+  "adapted": [
+    "A/B/C now compares historical 0.9 vs frozen 0.10 vs mutant 0.10",
+    "Studio mutant execution uses native living-cycle --registry injection",
+    "declarative runtime detection accepts version family rather than exact 1.0",
+    "ADD_OPERATOR activation receives explicit semantic-review debt"
+  ],
+  "not_promoted_to_semantic_truth": [
+    "lexical recurrence",
+    "co-occurrence signatures",
+    "unknown-family candidate IDs",
+    "micro-local route transitions",
+    "competition scores",
+    "mutation promotion_ready"
+  ],
+  "future_gate": "ADVERSARIAL_SEMANTIC_ROLE_ANTI_SELF_CONFIRMATION",
+  "future_gate_axes": [
+    "predicate_and_polarity",
+    "attribution_and_quotation",
+    "modality",
+    "argumentative_role",
+    "paraphrase_translation_perturbation",
+    "decoy_terminology_and_negation_controls"
+  ],
+  "validation": {
+    "source_engine_tests": "80/80 PASS",
+    "integrated_tests": "106/106 PASS",
+    "studio_compat_tests": "26/26 PASS",
+    "portable_fixity": "66/66 PASS",
+    "doctor": "CORE READY",
+    "abc_mutation_effect_observed": true,
+    "abc_structural_diversity": "3/3"
+  }
+}

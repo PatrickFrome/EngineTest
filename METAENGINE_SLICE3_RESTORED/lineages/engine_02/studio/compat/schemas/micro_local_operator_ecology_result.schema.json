@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/micro_local_operator_ecology_result.schema.json",
+  "title": "Destruktion micro-local operator ecology result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["result_version", "engine_version", "generated_at", "outcome", "routing_policy", "promotion_status", "corpus_id", "window_results", "boundary_results", "synthesis", "provenance_graph", "summary", "claim_ceiling"],
+  "properties": {
+    "result_version": {"const": "DAE-MICRO-LOCAL-OPERATOR-ECOLOGY-RESULT-1.0"},
+    "engine_version": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "outcome": {"enum": ["PASSES_MICRO_LOCAL_OPERATOR_ECOLOGY_REGRESSION", "REVIEW_MICRO_LOCAL_OPERATOR_ECOLOGY"]},
+    "routing_policy": {"const": "WINDOW_LOCAL_SELECTION_COMPOSITION_UNRESOLVED_OR_ABSTENTION_WITH_PROVENANCE_PRESERVING_BOUNDARIES"},
+    "promotion_status": {"const": "EXPERIMENTAL_NOT_CORE"},
+    "corpus_id": {"type": "string"},
+    "window_results": {
+      "type": "array", "minItems": 3,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["window_id", "label", "evidence_segment_ids", "missing_segment_ids", "provenance_pass", "profile_hints", "decision", "selected_candidates", "residual_hints", "rationale", "expectation_pass"],
+        "properties": {
+          "window_id": {"type": "string"}, "label": {"type": "string"},
+          "evidence_segment_ids": {"type": "array", "items": {"type": "string"}},
+          "missing_segment_ids": {"type": "array", "items": {"type": "string"}},
+          "provenance_pass": {"type": "boolean"},
+          "profile_hints": {"type": "array", "items": {"type": "string"}},
+          "decision": {"enum": ["SELECT_LOCAL_WINNER", "LOCAL_COMPOSITION", "KEEP_RIVALS_UNRESOLVED", "ABSTAIN_UNRESOLVED"]},
+          "selected_candidates": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "residual_hints": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "rationale": {"type": "string"}, "expectation_pass": {"type": "boolean"}
+        }
+      }
+    },
+    "boundary_results": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["boundary_id", "left_window_id", "right_window_id", "status", "expectation_pass"],
+        "properties": {
+          "boundary_id": {"type": "string"}, "left_window_id": {"type": "string"}, "right_window_id": {"type": "string"},
+          "status": {"enum": ["CONTINUOUS_LOCAL_REGIME", "PRESERVE_OPERATOR_BOUNDARY", "UNRESOLVED_BOUNDARY"]},
+          "expectation_pass": {"type": "boolean"}
+        }
+      }
+    },
+    "synthesis": {
+      "type": "object", "additionalProperties": false,
+      "required": ["global_selected_candidates", "localization_loss_count", "localization_loss", "decision", "expectation_pass"],
+      "properties": {
+        "global_selected_candidates": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "localization_loss_count": {"type": "integer", "minimum": 0},
+        "localization_loss": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["window_id", "candidate_id", "loss_type"], "properties": {"window_id": {"type": "string"}, "candidate_id": {"type": "string"}, "loss_type": {"const": "UNWARRANTED_GLOBAL_APPLICATION"}}}},
+        "decision": {"enum": ["REJECT_GLOBAL_COLLAPSE_PRESERVE_WINDOW_PROVENANCE", "ALLOW_LOCAL_SINGLE_OPERATOR_SYNTHESIS"]},
+        "expectation_pass": {"type": "boolean"}
+      }
+    },
+    "provenance_graph": {
+      "type": "object", "additionalProperties": false,
+      "required": ["nodes", "edges"],
+      "properties": {
+        "nodes": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["node_id", "node_type", "label", "evidence_segment_ids", "decision"], "properties": {"node_id": {"type": "string"}, "node_type": {"enum": ["MICRO_WINDOW", "SOURCE_BORN_OPERATOR", "MICRO_BOUNDARY"]}, "label": {"type": "string"}, "evidence_segment_ids": {"type": "array", "items": {"type": "string"}}, "decision": {"type": "string"}}}},
+        "edges": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["edge_type", "from", "to"], "properties": {"edge_type": {"enum": ["WINDOW_ROUTED_TO_OPERATOR", "WINDOW_ADJACENT_TO_WINDOW", "BOUNDARY_ANNOTATES_TRANSITION"]}, "from": {"type": "string"}, "to": {"type": "string"}}}}
+      }
+    },
+    "summary": {
+      "type": "object", "additionalProperties": false,
+      "required": ["windows", "windows_with_valid_provenance", "window_expectations_passed", "boundaries", "boundary_expectations_passed", "local_winners", "local_compositions", "unresolved_rivals", "abstentions", "localization_loss_count"],
+      "properties": {
+        "windows": {"type": "integer", "minimum": 3}, "windows_with_valid_provenance": {"type": "integer", "minimum": 0}, "window_expectations_passed": {"type": "integer", "minimum": 0},
+        "boundaries": {"type": "integer", "minimum": 1}, "boundary_expectations_passed": {"type": "integer", "minimum": 0},
+        "local_winners": {"type": "integer", "minimum": 0}, "local_compositions": {"type": "integer", "minimum": 0}, "unresolved_rivals": {"type": "integer", "minimum": 0}, "abstentions": {"type": "integer", "minimum": 0}, "localization_loss_count": {"type": "integer", "minimum": 0}
+      }
+    },
+    "claim_ceiling": {"const": "INTERNAL_PREREGISTERED_MICRO_LOCAL_ROUTING_NOT_EXTERNAL_SEMANTIC_VALIDATION_OR_CORE_PROMOTION"}
+  }
+}

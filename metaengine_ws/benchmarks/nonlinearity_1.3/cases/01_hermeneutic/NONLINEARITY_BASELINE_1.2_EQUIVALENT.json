@@ -1,0 +1,64 @@
+{
+  "metric_version": "16X-NONLINEARITY-PROXY-1.3.1",
+  "hermeneutic_nonlinearity_proxy": 0.4648,
+  "epistemic_nonlinearity_proxy": 0.1111,
+  "depth_proxy": 0.1429,
+  "components": {
+    "hermeneutic": {
+      "multi_path_branching": 0.8699999999999999,
+      "recursive_return": 0.0,
+      "source_reground_cycles": 0.0,
+      "core4_rival_divergence": 0.0,
+      "cross_architecture_trace_depth": 1.0,
+      "agenda_source_distribution": 0.9187219122089041
+    },
+    "epistemic": {
+      "methodological_plurality": 0.0,
+      "core4_independent_pressure": 0.0,
+      "reversible_operator_pressure": 0.0,
+      "counterfactual_pressure": 0.0,
+      "semantic_boundary_pressure": 0.0,
+      "interrogative_destabilization": 0.0,
+      "peer_method_uptake": 0.0,
+      "state_multiplicity": 0.5,
+      "dissent_preservation_when_present": 0.5
+    },
+    "depth": {
+      "recursive_round_depth": 0.0,
+      "reground_cycle_depth": 0.0,
+      "core4_transformational_yield": 0.0,
+      "core4_architecture_coverage": 0.0,
+      "five_layer_trace_completeness": 1.0,
+      "peer_second_order_uptake": 0.0,
+      "round2_transform_growth": 0.0
+    }
+  },
+  "epistemic_safety": {
+    "provenance_complete": true,
+    "majority_vote_unused": true,
+    "derived_truth_promotion_violations": 0,
+    "reentry_claim_ceiling_present": true
+  },
+  "raw": {
+    "agenda_items": 20,
+    "avg_source_engines_per_agenda_item": 8.7,
+    "return_edges": 0,
+    "reentry_generative_positions": 0,
+    "core4_mean_divergence": 0.0,
+    "reentry_claim_types": [],
+    "core4_active_engines": [],
+    "hermeneutic_cycle_count": 0,
+    "round1_positions": 0,
+    "round2_positions": 0,
+    "peer_second_order_type_coverage": 0.0,
+    "claim_nodes": 25,
+    "claim_edges": 71,
+    "conflicts": 0,
+    "arbitration_states": {
+      "GENERATIVE_ONLY": 24,
+      "INSUFFICIENT_EVIDENCE": 1
+    }
+  },
+  "claim_ceiling": "ARCHITECTURAL_PROXY_FOR_NONLINEARITY_AND_DEPTH; NOT_EXTERNAL_PHILOSOPHICAL_QUALITY_VALIDATION",
+  "evaluation_hash": "01cbb521a7ddf0b1846262af7b00870c8ac32ac5ee6ea6a24dda37a5e6c18e6a"
+}

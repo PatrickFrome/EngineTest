@@ -1,0 +1,32 @@
+{
+  "branch_id": "BR-D-4D",
+  "historical_map": [
+    "Machenschaft (1930s)",
+    "Wille zum Willen / Technik (late 1940s)",
+    "Gestell / Bestand (1949–1954)",
+    "planetary ordering diagnosis"
+  ],
+  "operational_core4_graph": {
+    "MA4": [
+      "GE4_if_makeability_is_promoted_to_epochal_mode_of_revealing",
+      "TO4_if_concrete_planning_calculation_procedure_is_under_analysis"
+    ],
+    "GE4": [
+      "BS4_if_specific_entities_are_disclosed_as_orderable_resources",
+      "TO4_for_concrete_technical_organizational_mechanisms"
+    ],
+    "TO4": [
+      "BS4_if_system_functions_resourceize_entities_or_people",
+      "PC4_IN4_RD4_if_control_power_governance_representation_are_at_issue"
+    ],
+    "BS4": [
+      "GE4_as_evidence_only_not_as_proof_of_universal_essence"
+    ],
+    "MW4_from_4C": [
+      "GE4_TO4_only_with_explicit_diachronic_bridge"
+    ]
+  },
+  "diachronic_firewall": "Machenschaft, Wille zum Willen, Gestell and Bestand are related Heideggerian diagnostics but are not treated as synonyms or stages of one automatically continuous doctrine.",
+  "directionality_firewall": "High-level Gestell claims do not cause or explain concrete technical design by default; concrete TO4 records can support, qualify or rival a GE4 diagnosis.",
+  "core_api_changed": false
+}

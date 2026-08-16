@@ -1,0 +1,48 @@
+{
+  "release": "Destruktion_4.0_COMPLETE_0.6_OPEN_SET_INTEGRATION",
+  "date": "2026-08-11",
+  "engine_baseline": "Destruktion_4.0_AI_CHAT_PORTABLE_0.10.0-alpha.1",
+  "engine_zip_sha256": "cf78f697616b32bf399bf8f43eb15ecd0fa0031e4b2115c09629cef3493f5202",
+  "frozen_assets": {
+    "required": 66,
+    "verified": 66,
+    "status": "PASS"
+  },
+  "tests": {
+    "total": 106,
+    "passed": 106,
+    "failed": 0,
+    "status": "PASS"
+  },
+  "portable_check": {
+    "errors": 0,
+    "review": 0,
+    "warnings": 0,
+    "status": "PASS"
+  },
+  "integrated_capabilities": [
+    "open-set hermeneutic discovery",
+    "UNKNOWN_OPERATOR_FAMILY candidates",
+    "reversible ADD_OPERATOR mutation",
+    "declarative living runtime 1.1",
+    "open-set micro-local routing",
+    "historical 0.9 localization-loss regression",
+    "historical/current/mutant A/B/C comparison",
+    "resistant-source longitudinal discovery",
+    "operator regression, competition, quarantine and retirement",
+    "bundled offline AJV-compatible structural validation"
+  ],
+  "semantic_firewall": {
+    "applies_to": "ADD_OPERATOR",
+    "candidate_execution_allowed": true,
+    "automatic_core_promotion_allowed": false,
+    "required_axes": [
+      "predicate_and_polarity",
+      "attribution_and_quoted_opponent",
+      "modality",
+      "argumentative_role",
+      "paraphrase_or_translation_perturbation",
+      "decoy_terminology_negative_control"
+    ]
+  }
+}

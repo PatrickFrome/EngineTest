@@ -1,0 +1,11 @@
+version = "METAENGINE-DEVFABRIC-METAENV-1"
+zero_spend = true
+canonical_store = "supabase"
+local_journal = "devfabric/state/session.sqlite"
+
+[privacy]
+P3_external_allowed = false
+
+[routing]
+unknown_paid_quota = "deny"
+provider_tie_breaker = "provider_id"

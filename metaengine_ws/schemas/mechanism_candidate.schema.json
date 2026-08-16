@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metaengine.local/schemas/mechanism_candidate.schema.json",
+  "title": "MetaEngine METAENGINE-1-SLICE-3 Mechanism Candidate",
+  "type": "object",
+  "required": [
+    "library_version", "mechanism_id", "semantic_definition", "origin_source_ids",
+    "source_fact_boundary", "hypothesized_effect", "resource_cost", "complexity_cost",
+    "confidence", "status", "mechanism_hash"
+  ],
+  "properties": {
+    "library_version": {"const": "METAENGINE-MECHANISM-LIBRARY-1"},
+    "mechanism_id": {"type": "string", "minLength": 1},
+    "semantic_definition": {"type": "string", "minLength": 1},
+    "origin_source_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+    "source_fact_boundary": {"type": "string", "minLength": 1},
+    "hypothesized_effect": {"type": "string", "minLength": 1},
+    "task_scope": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "prerequisites": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "resource_cost": {"type": "string", "minLength": 1},
+    "complexity_cost": {"type": "string", "minLength": 1},
+    "known_incompatibilities": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "known_failures": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "implementation_variants": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "experiment_receipts": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[0-9a-f]{64}$"}},
+    "ablation_receipts": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[0-9a-f]{64}$"}},
+    "transfer_receipts": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[0-9a-f]{64}$"}},
+    "confidence": {"type": "string", "minLength": 1},
+    "status": {"enum": ["A0_OBSERVED", "A1_MECHANISM_HYPOTHESIS", "A2_TRANSFERABLE", "A3_ASSIMILATED"]},
+    "mechanism_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "properties_status_slice3_guard": {
+    "description": "Slice 3 admits A0/A1 only; A2/A3 are rejected by the runtime and out of scope for this schema instance.",
+    "slice3_admissible_statuses": ["A0_OBSERVED", "A1_MECHANISM_HYPOTHESIS"]
+  }
+}

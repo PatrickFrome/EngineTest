@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/automation/audit-run-0.1.json",
+  "title": "DAE Audit Run 0.1",
+  "type": "object",
+  "required": ["run_id", "engine_version", "core_version", "execution"],
+  "properties": {
+    "run_id": {"type": "string", "minLength": 1},
+    "engine_version": {"const": "0.2.3-alpha.1"},
+    "core_version": {"const": "CORE 4.0.0-alpha.1"},
+    "description": {"type": "string"},
+    "execution": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["step", "record_id", "module_id", "relata_stability_before", "relata_stability_after"],
+        "properties": {
+          "step": {"type": "integer", "minimum": 1},
+          "record_id": {"type": "string", "minLength": 1},
+          "record_path": {"type": "string", "minLength": 1},
+          "module_id": {"enum": ["EM4", "KC4", "IND4", "ID4"]},
+          "relata_stability_before": {"enum": ["STABLE", "UNSTABLE", "UNRESOLVED", "NOT_APPLICABLE"]},
+          "relata_stability_after": {"enum": ["STABLE", "UNSTABLE", "UNRESOLVED", "NOT_APPLICABLE"]},
+          "decision_note": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

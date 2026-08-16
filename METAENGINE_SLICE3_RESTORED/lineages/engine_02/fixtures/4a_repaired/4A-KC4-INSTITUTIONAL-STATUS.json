@@ -1,0 +1,126 @@
+{
+  "record_id": "4A-KC4-INSTITUTIONAL-STATUS",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "LEGACY-BR-A-2.23#institutional-status-stress-test",
+      "W4A-05#constitution-contrast"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4A-0.2-repair + DAE-0.1",
+    "agent": "automation-repair-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4A-0.1/4A-KC4-INSTITUTIONAL-STATUS"
+    ],
+    "activity_id": "MODULE-MIGRATION-4A-0.2-SEMANTIC-REPAIR",
+    "timestamp": "2026-08-11T12:00:00Z",
+    "artifact_hash": "sha256:6b7c5734bb83fd034ec5816be7f9c8700aaf3bd81422520446f7b099cebb0295"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "PRACTICE",
+    "description": "A rule-governed institutional practice assigns and maintains status S to bearer X.",
+    "role": [
+      "status-conferring-practice"
+    ],
+    "object_type": "institutional_practice"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "STATE",
+    "description": "Bearer X has institutional status S.",
+    "role": [
+      "institutional-status"
+    ],
+    "status": [
+      {
+        "label": "practice-dependent-real-status",
+        "domain": "social_ontology"
+      }
+    ],
+    "object_type": "institutional_status"
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT09",
+      "additional_arguments": [
+        {
+          "argument_id": "X",
+          "role": "bearer",
+          "referent_kind": "OTHER",
+          "value": {
+            "external_ref": "bearer_X"
+          },
+          "status": "ASSERTED"
+        }
+      ]
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "The practice is constitutive/maintaining of the institutional status, not necessarily of the material bearer's existence."
+    },
+    "promotion_flags": [
+      "ROLE_STATUS",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "social ontology",
+    "native_method": "institutional rule/status analysis",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O3",
+      "O4",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION"
+    ],
+    "ncv": [],
+    "rtr": "MEDIUM"
+  },
+  "extensions": {
+    "kc4": {
+      "module_id": "KC4",
+      "version": "0.1",
+      "constituted_layer": "STATUS",
+      "bearer": [
+        "institutional practice",
+        "authorized procedures"
+      ],
+      "dependence_type": [
+        "SOCIAL",
+        "NORMATIVE",
+        "ONTIC"
+      ],
+      "modality": "MAINTAINING",
+      "alternative_access": "The material bearer may continue to exist after the status ends.",
+      "correction_source": [
+        "institutional records",
+        "authorized procedures",
+        "breakdown/withdrawal of status"
+      ],
+      "production_test": "STATUS_OR_SENSE_DISAPPEARS",
+      "revision_trigger": "Case where status persists independently of all constitutive/maintaining practices."
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "STATE_TRANSITION",
+      "relation_applies_to": "TRANSITION",
+      "relation_rationale": "A rule-governed practice constitutes and maintains a distinct institutional status; RT09 remains provisional and does not imply numerical identity or physical production.",
+      "semantic_review_status": "REPAIRED_PENDING_EXPERT",
+      "human_review_required": true,
+      "review_notes": [
+        "The ONTIC, SOCIAL and NORMATIVE dependence layers still require expert review as separate claims."
+      ]
+    }
+  },
+  "outcome": "QUALIFY",
+  "rivals": []
+}

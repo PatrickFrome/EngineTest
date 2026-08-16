@@ -1,0 +1,34 @@
+{
+  "release": "Destruktion_4.0_COMPLETE_0.8_EXTERNAL_VALIDATION",
+  "studio_version": "0.8.0-external-validation",
+  "active_engine": "0.10.0-alpha.1",
+  "active_engine_required_assets": 66,
+  "frozen_assets_modified": false,
+  "integrated_test_suite": {
+    "tests": 123,
+    "pass": 123,
+    "fail": 0
+  },
+  "portable_check": {
+    "conformant": true,
+    "errors": 0,
+    "review": 0,
+    "warnings": 0
+  },
+  "external_validation": {
+    "stage": "EXTERNAL_HERMENEUTIC_VALIDATION_AND_ANTI_SELF_CONFIRMATION",
+    "example_unit_count": 22,
+    "example_source_run_ids": 2,
+    "minimum_units": 80,
+    "example_status": "UNDERPOWERED_BLOCKED_PENDING_INDEPENDENT_LABELS",
+    "required_adversarial_phenomena": 7,
+    "comparison": "PARETO_MULTI_OBJECTIVE_NO_SINGLE_HERMENEUTIC_DEPTH_SCORE",
+    "auto_promotion_allowed": false
+  },
+  "external_evidence_in_release": {
+    "independent_human_gold": false,
+    "frontier_model_comparator_results": false,
+    "completed_semantic_challenge_results": false
+  },
+  "claim_ceiling": "VALIDATION_INFRASTRUCTURE_VERIFIED_EXTERNAL_HERMENEUTIC_SUPERIORITY_NOT_ESTABLISHED"
+}

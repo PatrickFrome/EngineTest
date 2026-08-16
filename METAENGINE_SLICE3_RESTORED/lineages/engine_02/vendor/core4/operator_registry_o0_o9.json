@@ -1,0 +1,42 @@
+{
+  "O0": {
+    "name": "REGISTER / PROVENANCE",
+    "function": "зафиксировать объект, corpus/source refs, version, language, question, agent и исходный scope"
+  },
+  "O1": {
+    "name": "STRONG RECONSTRUCTION",
+    "function": "сначала построить сильнейшую имманентную модель позиции и признанные ею пределы"
+  },
+  "O2": {
+    "name": "PROBLEMGENESIS / RPG",
+    "function": "реконструировать производство problem-space и сильную rival problemgenesis"
+  },
+  "O3": {
+    "name": "DECONFLATE",
+    "function": "развести перегруженные функции/phenomena без вывода независимости"
+  },
+  "O4": {
+    "name": "TYPE + BRIDGE",
+    "function": "построить TRC, типизировать relation или RT00, сделать bridge burden явным"
+  },
+  "O5": {
+    "name": "SCOPE",
+    "function": "сопоставить C_support и G_target; зафиксировать promotion gap"
+  },
+  "O6": {
+    "name": "RIVAL / IPP",
+    "function": "steelman rivals; отличить error, ambiguity, underdetermination и legitimate interpretive plurality"
+  },
+  "O7": {
+    "name": "REINTEGRATE",
+    "function": "проверить, какие различённые элементы нужно снова связать и каким независимым основанием"
+  },
+  "O8": {
+    "name": "ANEIGNUNG / ACM",
+    "function": "сформировать положительные reconstruction candidates и non-dominated set"
+  },
+  "O9": {
+    "name": "RECURSE + STOP",
+    "function": "применить аудит к собственной модели, заполнить R1/R2/R3, failure log и revision trigger"
+  }
+}

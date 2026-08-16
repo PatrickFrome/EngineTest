@@ -1,0 +1,106 @@
+{
+  "record_id": "4A-KC4-INSTITUTIONAL-STATUS",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "2.23 social institutional stress test",
+      "Material Constitution SEP as contrast"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + KC4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "PRACTICE",
+    "description": "A rule-governed institutional practice assigns and maintains status S to bearer X.",
+    "role": [
+      "status-conferring-practice"
+    ],
+    "object_type": "institutional_practice"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "STATE",
+    "description": "Bearer X has institutional status S.",
+    "role": [
+      "institutional-status"
+    ],
+    "status": [
+      {
+        "label": "practice-dependent-real-status",
+        "domain": "social_ontology"
+      }
+    ],
+    "object_type": "institutional_status"
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT09",
+      "additional_arguments": [
+        {
+          "argument_id": "X",
+          "role": "bearer",
+          "referent_kind": "OTHER",
+          "value": {
+            "external_ref": "bearer_X"
+          },
+          "status": "ASSERTED"
+        }
+      ]
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "The practice is constitutive/maintaining of the institutional status, not necessarily of the material bearer's existence."
+    },
+    "promotion_flags": [
+      "ROLE_STATUS",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "social ontology",
+    "native_method": "institutional rule/status analysis",
+    "activated_operators": [
+      "O3",
+      "O4",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION"
+    ],
+    "ncv": [],
+    "rtr": "MEDIUM"
+  },
+  "extensions": {
+    "kc4": {
+      "module_id": "KC4",
+      "version": "0.1",
+      "constituted_layer": "STATUS",
+      "bearer": [
+        "institutional practice",
+        "authorized procedures"
+      ],
+      "dependence_type": [
+        "SOCIAL",
+        "NORMATIVE",
+        "ONTIC"
+      ],
+      "modality": "MAINTAINING",
+      "alternative_access": "The material bearer may continue to exist after the status ends.",
+      "correction_source": [
+        "institutional records",
+        "authorized procedures",
+        "breakdown/withdrawal of status"
+      ],
+      "production_test": "STATUS_OR_SENSE_DISAPPEARS",
+      "revision_trigger": "Case where status persists independently of all constitutive/maintaining practices."
+    }
+  },
+  "outcome": "QUALIFY"
+}

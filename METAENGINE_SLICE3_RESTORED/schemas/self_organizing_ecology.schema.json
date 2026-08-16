@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Self Organizing Ecology 2.0\u20132.2",
+  "type": "object",
+  "required": [
+    "ecology_version",
+    "scheduler_rounds",
+    "architecture_history",
+    "selected_topology_id",
+    "coalitions",
+    "stop_reason",
+    "depth_budget",
+    "cache",
+    "disagreement_reorganizations",
+    "architecture_mutations",
+    "truth_promotion_allowed_from_ecology",
+    "claim_ceiling",
+    "ecology_hash"
+  ],
+  "properties": {
+    "ecology_version": {
+      "enum": [
+        "16X-SELF-REORGANIZING-HERMENEUTIC-ECOLOGY-2.0",
+        "16X-PARALLEL-EXPERIMENTAL-ECOLOGY-2.1",
+        "16X-FRONTIER-EVIDENCE-CONTROL-2.2"
+      ]
+    },
+    "scheduler_rounds": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "round",
+          "scheduler",
+          "coalitions",
+          "architecture",
+          "execution_batches",
+          "engine_results",
+          "transformation_metrics",
+          "depth_decision"
+        ],
+        "properties": {
+          "round": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4
+          },
+          "scheduler": {
+            "type": "object"
+          },
+          "coalitions": {
+            "type": "object"
+          },
+          "architecture": {
+            "type": "object"
+          },
+          "frontier_control": {
+            "type": "object"
+          },
+          "execution_batches": {
+            "type": "array"
+          },
+          "engine_results": {
+            "type": "array"
+          },
+          "transformation_metrics": {
+            "type": "object"
+          },
+          "depth_decision": {
+            "type": "object",
+            "required": [
+              "realized_marginal_gain",
+              "stop_decision",
+              "remaining_budget"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "architecture_history": {
+      "type": "array"
+    },
+    "frontier_control_plane_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "selected_topology_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "coalitions": {
+      "type": "array"
+    },
+    "stop_reason": {
+      "enum": [
+        "STOP_RECURSIVE_ECHO",
+        "STOP_MARGINAL_GAIN",
+        "STOP_PROLIFERATION",
+        "STOP_BUDGET_EXHAUSTED",
+        "STOP_MAX_DEPTH_SAFETY"
+      ]
+    },
+    "depth_budget": {
+      "type": "object",
+      "required": [
+        "initial",
+        "remaining"
+      ],
+      "properties": {
+        "initial": {
+          "type": "number",
+          "minimum": 0
+        },
+        "remaining": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "cache": {
+      "type": "object"
+    },
+    "disagreement_reorganizations": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "architecture_mutations": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "truth_promotion_allowed_from_ecology": {
+      "const": false
+    },
+    "claim_ceiling": {
+      "type": "string"
+    },
+    "ecology_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": false
+}

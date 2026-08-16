@@ -1,0 +1,37 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "GA01-DOSSIER-D28-CORE-001",
+  "protocol_id": "V38-D2.8-CORE",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "GA01-USER-DOSSIER-AS-COMPLETED-RUN",
+    "description": "Whether the entire DOCX can be accepted as one completed D2.8 project run.",
+    "source_refs": ["HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0001-R0697"]
+  },
+  "operator": {"agent_id": "dae-docx-stage", "role": "automated protocol router"},
+  "started_at": "2026-08-11T12:00:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "P_MINUS_1": {
+      "status": "NO",
+      "note": "No independently frozen pre-code scene is identifiable for the dossier as a whole; the file starts inside an already theory-laden analysis."
+    },
+    "LOCAL_RECONSTRUCTION": {
+      "status": "YES",
+      "evidence_refs": ["HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0001-R0016", "HGA-PJ25-1912-REALITAET#S353-S363"]
+    },
+    "PROBLEMGENESIS": {
+      "status": "UNKNOWN",
+      "note": "Multiple genealogical lines are proposed, but the dossier lacks a frozen counter-genealogy and resolvable source apparatus for the whole chain."
+    },
+    "DECONFLATION": {
+      "status": "UNKNOWN",
+      "note": "The document repeatedly attempts deconflation, but its 697-page composite scope prevents automatic confirmation that the levels stay separated throughout."
+    },
+    "META_RESIDUE": {
+      "status": "YES",
+      "evidence_refs": ["HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0693-R0695"]
+    }
+  },
+  "declared_outcome": "FAIL"
+}

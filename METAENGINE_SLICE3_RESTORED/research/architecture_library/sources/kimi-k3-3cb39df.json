@@ -1,0 +1,61 @@
+{
+  "allowed_use": [
+    "PUBLIC_CLAIM_REGISTRATION",
+    "REFERENCE_ANALYSIS"
+  ],
+  "architecture_claims": [
+    {
+      "claim_id": "kimi-k3-architecture-publisher-claim",
+      "evidence_locator": "https://github.com/MoonshotAI/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/README.md",
+      "kind": "PUBLISHER_CLAIM",
+      "statement": "The official README describes KDA, Attention Residuals, and Stable LatentMoE."
+    }
+  ],
+  "blob_descriptors": [],
+  "blockers": [
+    "CUSTOM_LICENSE_REQUIRES_SEPARATE_USE_REVIEW",
+    "REFERENCE_BYTES_NOT_RETAINED_SLICE_3"
+  ],
+  "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+  "exact_commit_or_release": "3cb39dfd32e51c3328e2e4b4af21341247d06c43",
+  "forbidden_use": [
+    "AUTOMATIC_PROMOTION",
+    "CORE_COPY",
+    "RUNTIME_DEPENDENCY"
+  ],
+  "ingestion_status": "REGISTERED_ONLY",
+  "license_evidence_locator": "https://github.com/MoonshotAI/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/LICENSE",
+  "license_expression": "LicenseRef-Kimi-K3-2026",
+  "license_name": "Kimi K3 Model License",
+  "license_sha256": null,
+  "mechanism_candidates": [
+    {
+      "falsification_test": "Ablate residual paths while holding topology and resource budget constant.",
+      "hypothesized_effect": "Preserve recoverable signal and reduce destructive coordination transformations.",
+      "mechanism_id": "residual-organization-paths",
+      "semantic_definition": "Preserve an explicit residual path around a multi-stage organization transform.",
+      "source_fact_boundary": "The public source names Attention Residuals; hidden implementation details and MetaEngine transfer remain unverified.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    },
+    {
+      "falsification_test": "Compare dense, random-routed, and learned-routed organizations under a frozen evaluator.",
+      "hypothesized_effect": "Increase conditional capacity without activating the full specialist set.",
+      "mechanism_id": "sparse-conditional-routing",
+      "semantic_definition": "Route work through a bounded subset of specialists selected for each request.",
+      "source_fact_boundary": "The public source names a latent mixture-of-experts system; license and transfer constraints keep it reference-only.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ],
+  "official_source_locator": "https://github.com/MoonshotAI/Kimi-K3/tree/3cb39dfd32e51c3328e2e4b4af21341247d06c43",
+  "publisher": "Moonshot AI",
+  "record_sha256": "cf46ef7a55a08afb8736f27bcd96b77297abf6d39cf57085fd8b103b9c605944",
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "retained_reference_paths": [],
+  "retrieved_at": "2026-08-13T20:00:00Z",
+  "source_class": "RESTRICTED_REFERENCE",
+  "source_id": "kimi-k3-3cb39df",
+  "source_sha256": null,
+  "source_sha256_scope": null,
+  "system_name": "Kimi K3",
+  "version": "3cb39df"
+}

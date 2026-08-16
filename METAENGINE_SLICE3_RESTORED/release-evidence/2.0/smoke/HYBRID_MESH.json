@@ -1,0 +1,808 @@
+{
+  "claim_ceiling": "MESH_ORGANIZES_NOT_TRUTH",
+  "cross_architecture_traces": [],
+  "engine_primitives": {
+    "engine_01": {
+      "primitive": "fixture"
+    },
+    "engine_02": {
+      "primitive": "fixture"
+    },
+    "engine_03": {
+      "primitive": "fixture"
+    },
+    "engine_04": {
+      "primitive": "fixture"
+    },
+    "engine_05": {
+      "primitive": "fixture"
+    },
+    "engine_06": {
+      "primitive": "fixture"
+    },
+    "engine_07": {
+      "primitive": "fixture"
+    },
+    "engine_08": {
+      "primitive": "fixture"
+    },
+    "engine_09": {
+      "primitive": "fixture"
+    },
+    "engine_10": {
+      "primitive": "fixture"
+    },
+    "engine_11": {
+      "primitive": "fixture"
+    },
+    "engine_12": {
+      "primitive": "fixture"
+    },
+    "engine_13": {
+      "primitive": "fixture"
+    },
+    "engine_14": {
+      "primitive": "fixture"
+    },
+    "engine_15": {
+      "primitive": "fixture"
+    },
+    "engine_16": {
+      "primitive": "fixture"
+    }
+  },
+  "hybrid_organs": [
+    {
+      "organ_id": "organ-0"
+    },
+    {
+      "organ_id": "organ-1"
+    },
+    {
+      "organ_id": "organ-2"
+    },
+    {
+      "organ_id": "organ-3"
+    },
+    {
+      "organ_id": "organ-4"
+    },
+    {
+      "organ_id": "organ-5"
+    }
+  ],
+  "mesh_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "mesh_version": "16X-INTERWOVEN-ARCHITECTURE-1.2",
+  "metrics": {
+    "active_directed_pairwise_bridges": 240,
+    "all_16_have_15_incoming_and_outgoing_bridges": true,
+    "architecture_primitive_instances": 16,
+    "derived_truth_promotion_violations": 0,
+    "directed_pairwise_bridges": 240,
+    "engine_coverage": 16
+  },
+  "pairwise_bridges": [
+    {
+      "bridge_id": "bridge-000"
+    },
+    {
+      "bridge_id": "bridge-001"
+    },
+    {
+      "bridge_id": "bridge-002"
+    },
+    {
+      "bridge_id": "bridge-003"
+    },
+    {
+      "bridge_id": "bridge-004"
+    },
+    {
+      "bridge_id": "bridge-005"
+    },
+    {
+      "bridge_id": "bridge-006"
+    },
+    {
+      "bridge_id": "bridge-007"
+    },
+    {
+      "bridge_id": "bridge-008"
+    },
+    {
+      "bridge_id": "bridge-009"
+    },
+    {
+      "bridge_id": "bridge-010"
+    },
+    {
+      "bridge_id": "bridge-011"
+    },
+    {
+      "bridge_id": "bridge-012"
+    },
+    {
+      "bridge_id": "bridge-013"
+    },
+    {
+      "bridge_id": "bridge-014"
+    },
+    {
+      "bridge_id": "bridge-015"
+    },
+    {
+      "bridge_id": "bridge-016"
+    },
+    {
+      "bridge_id": "bridge-017"
+    },
+    {
+      "bridge_id": "bridge-018"
+    },
+    {
+      "bridge_id": "bridge-019"
+    },
+    {
+      "bridge_id": "bridge-020"
+    },
+    {
+      "bridge_id": "bridge-021"
+    },
+    {
+      "bridge_id": "bridge-022"
+    },
+    {
+      "bridge_id": "bridge-023"
+    },
+    {
+      "bridge_id": "bridge-024"
+    },
+    {
+      "bridge_id": "bridge-025"
+    },
+    {
+      "bridge_id": "bridge-026"
+    },
+    {
+      "bridge_id": "bridge-027"
+    },
+    {
+      "bridge_id": "bridge-028"
+    },
+    {
+      "bridge_id": "bridge-029"
+    },
+    {
+      "bridge_id": "bridge-030"
+    },
+    {
+      "bridge_id": "bridge-031"
+    },
+    {
+      "bridge_id": "bridge-032"
+    },
+    {
+      "bridge_id": "bridge-033"
+    },
+    {
+      "bridge_id": "bridge-034"
+    },
+    {
+      "bridge_id": "bridge-035"
+    },
+    {
+      "bridge_id": "bridge-036"
+    },
+    {
+      "bridge_id": "bridge-037"
+    },
+    {
+      "bridge_id": "bridge-038"
+    },
+    {
+      "bridge_id": "bridge-039"
+    },
+    {
+      "bridge_id": "bridge-040"
+    },
+    {
+      "bridge_id": "bridge-041"
+    },
+    {
+      "bridge_id": "bridge-042"
+    },
+    {
+      "bridge_id": "bridge-043"
+    },
+    {
+      "bridge_id": "bridge-044"
+    },
+    {
+      "bridge_id": "bridge-045"
+    },
+    {
+      "bridge_id": "bridge-046"
+    },
+    {
+      "bridge_id": "bridge-047"
+    },
+    {
+      "bridge_id": "bridge-048"
+    },
+    {
+      "bridge_id": "bridge-049"
+    },
+    {
+      "bridge_id": "bridge-050"
+    },
+    {
+      "bridge_id": "bridge-051"
+    },
+    {
+      "bridge_id": "bridge-052"
+    },
+    {
+      "bridge_id": "bridge-053"
+    },
+    {
+      "bridge_id": "bridge-054"
+    },
+    {
+      "bridge_id": "bridge-055"
+    },
+    {
+      "bridge_id": "bridge-056"
+    },
+    {
+      "bridge_id": "bridge-057"
+    },
+    {
+      "bridge_id": "bridge-058"
+    },
+    {
+      "bridge_id": "bridge-059"
+    },
+    {
+      "bridge_id": "bridge-060"
+    },
+    {
+      "bridge_id": "bridge-061"
+    },
+    {
+      "bridge_id": "bridge-062"
+    },
+    {
+      "bridge_id": "bridge-063"
+    },
+    {
+      "bridge_id": "bridge-064"
+    },
+    {
+      "bridge_id": "bridge-065"
+    },
+    {
+      "bridge_id": "bridge-066"
+    },
+    {
+      "bridge_id": "bridge-067"
+    },
+    {
+      "bridge_id": "bridge-068"
+    },
+    {
+      "bridge_id": "bridge-069"
+    },
+    {
+      "bridge_id": "bridge-070"
+    },
+    {
+      "bridge_id": "bridge-071"
+    },
+    {
+      "bridge_id": "bridge-072"
+    },
+    {
+      "bridge_id": "bridge-073"
+    },
+    {
+      "bridge_id": "bridge-074"
+    },
+    {
+      "bridge_id": "bridge-075"
+    },
+    {
+      "bridge_id": "bridge-076"
+    },
+    {
+      "bridge_id": "bridge-077"
+    },
+    {
+      "bridge_id": "bridge-078"
+    },
+    {
+      "bridge_id": "bridge-079"
+    },
+    {
+      "bridge_id": "bridge-080"
+    },
+    {
+      "bridge_id": "bridge-081"
+    },
+    {
+      "bridge_id": "bridge-082"
+    },
+    {
+      "bridge_id": "bridge-083"
+    },
+    {
+      "bridge_id": "bridge-084"
+    },
+    {
+      "bridge_id": "bridge-085"
+    },
+    {
+      "bridge_id": "bridge-086"
+    },
+    {
+      "bridge_id": "bridge-087"
+    },
+    {
+      "bridge_id": "bridge-088"
+    },
+    {
+      "bridge_id": "bridge-089"
+    },
+    {
+      "bridge_id": "bridge-090"
+    },
+    {
+      "bridge_id": "bridge-091"
+    },
+    {
+      "bridge_id": "bridge-092"
+    },
+    {
+      "bridge_id": "bridge-093"
+    },
+    {
+      "bridge_id": "bridge-094"
+    },
+    {
+      "bridge_id": "bridge-095"
+    },
+    {
+      "bridge_id": "bridge-096"
+    },
+    {
+      "bridge_id": "bridge-097"
+    },
+    {
+      "bridge_id": "bridge-098"
+    },
+    {
+      "bridge_id": "bridge-099"
+    },
+    {
+      "bridge_id": "bridge-100"
+    },
+    {
+      "bridge_id": "bridge-101"
+    },
+    {
+      "bridge_id": "bridge-102"
+    },
+    {
+      "bridge_id": "bridge-103"
+    },
+    {
+      "bridge_id": "bridge-104"
+    },
+    {
+      "bridge_id": "bridge-105"
+    },
+    {
+      "bridge_id": "bridge-106"
+    },
+    {
+      "bridge_id": "bridge-107"
+    },
+    {
+      "bridge_id": "bridge-108"
+    },
+    {
+      "bridge_id": "bridge-109"
+    },
+    {
+      "bridge_id": "bridge-110"
+    },
+    {
+      "bridge_id": "bridge-111"
+    },
+    {
+      "bridge_id": "bridge-112"
+    },
+    {
+      "bridge_id": "bridge-113"
+    },
+    {
+      "bridge_id": "bridge-114"
+    },
+    {
+      "bridge_id": "bridge-115"
+    },
+    {
+      "bridge_id": "bridge-116"
+    },
+    {
+      "bridge_id": "bridge-117"
+    },
+    {
+      "bridge_id": "bridge-118"
+    },
+    {
+      "bridge_id": "bridge-119"
+    },
+    {
+      "bridge_id": "bridge-120"
+    },
+    {
+      "bridge_id": "bridge-121"
+    },
+    {
+      "bridge_id": "bridge-122"
+    },
+    {
+      "bridge_id": "bridge-123"
+    },
+    {
+      "bridge_id": "bridge-124"
+    },
+    {
+      "bridge_id": "bridge-125"
+    },
+    {
+      "bridge_id": "bridge-126"
+    },
+    {
+      "bridge_id": "bridge-127"
+    },
+    {
+      "bridge_id": "bridge-128"
+    },
+    {
+      "bridge_id": "bridge-129"
+    },
+    {
+      "bridge_id": "bridge-130"
+    },
+    {
+      "bridge_id": "bridge-131"
+    },
+    {
+      "bridge_id": "bridge-132"
+    },
+    {
+      "bridge_id": "bridge-133"
+    },
+    {
+      "bridge_id": "bridge-134"
+    },
+    {
+      "bridge_id": "bridge-135"
+    },
+    {
+      "bridge_id": "bridge-136"
+    },
+    {
+      "bridge_id": "bridge-137"
+    },
+    {
+      "bridge_id": "bridge-138"
+    },
+    {
+      "bridge_id": "bridge-139"
+    },
+    {
+      "bridge_id": "bridge-140"
+    },
+    {
+      "bridge_id": "bridge-141"
+    },
+    {
+      "bridge_id": "bridge-142"
+    },
+    {
+      "bridge_id": "bridge-143"
+    },
+    {
+      "bridge_id": "bridge-144"
+    },
+    {
+      "bridge_id": "bridge-145"
+    },
+    {
+      "bridge_id": "bridge-146"
+    },
+    {
+      "bridge_id": "bridge-147"
+    },
+    {
+      "bridge_id": "bridge-148"
+    },
+    {
+      "bridge_id": "bridge-149"
+    },
+    {
+      "bridge_id": "bridge-150"
+    },
+    {
+      "bridge_id": "bridge-151"
+    },
+    {
+      "bridge_id": "bridge-152"
+    },
+    {
+      "bridge_id": "bridge-153"
+    },
+    {
+      "bridge_id": "bridge-154"
+    },
+    {
+      "bridge_id": "bridge-155"
+    },
+    {
+      "bridge_id": "bridge-156"
+    },
+    {
+      "bridge_id": "bridge-157"
+    },
+    {
+      "bridge_id": "bridge-158"
+    },
+    {
+      "bridge_id": "bridge-159"
+    },
+    {
+      "bridge_id": "bridge-160"
+    },
+    {
+      "bridge_id": "bridge-161"
+    },
+    {
+      "bridge_id": "bridge-162"
+    },
+    {
+      "bridge_id": "bridge-163"
+    },
+    {
+      "bridge_id": "bridge-164"
+    },
+    {
+      "bridge_id": "bridge-165"
+    },
+    {
+      "bridge_id": "bridge-166"
+    },
+    {
+      "bridge_id": "bridge-167"
+    },
+    {
+      "bridge_id": "bridge-168"
+    },
+    {
+      "bridge_id": "bridge-169"
+    },
+    {
+      "bridge_id": "bridge-170"
+    },
+    {
+      "bridge_id": "bridge-171"
+    },
+    {
+      "bridge_id": "bridge-172"
+    },
+    {
+      "bridge_id": "bridge-173"
+    },
+    {
+      "bridge_id": "bridge-174"
+    },
+    {
+      "bridge_id": "bridge-175"
+    },
+    {
+      "bridge_id": "bridge-176"
+    },
+    {
+      "bridge_id": "bridge-177"
+    },
+    {
+      "bridge_id": "bridge-178"
+    },
+    {
+      "bridge_id": "bridge-179"
+    },
+    {
+      "bridge_id": "bridge-180"
+    },
+    {
+      "bridge_id": "bridge-181"
+    },
+    {
+      "bridge_id": "bridge-182"
+    },
+    {
+      "bridge_id": "bridge-183"
+    },
+    {
+      "bridge_id": "bridge-184"
+    },
+    {
+      "bridge_id": "bridge-185"
+    },
+    {
+      "bridge_id": "bridge-186"
+    },
+    {
+      "bridge_id": "bridge-187"
+    },
+    {
+      "bridge_id": "bridge-188"
+    },
+    {
+      "bridge_id": "bridge-189"
+    },
+    {
+      "bridge_id": "bridge-190"
+    },
+    {
+      "bridge_id": "bridge-191"
+    },
+    {
+      "bridge_id": "bridge-192"
+    },
+    {
+      "bridge_id": "bridge-193"
+    },
+    {
+      "bridge_id": "bridge-194"
+    },
+    {
+      "bridge_id": "bridge-195"
+    },
+    {
+      "bridge_id": "bridge-196"
+    },
+    {
+      "bridge_id": "bridge-197"
+    },
+    {
+      "bridge_id": "bridge-198"
+    },
+    {
+      "bridge_id": "bridge-199"
+    },
+    {
+      "bridge_id": "bridge-200"
+    },
+    {
+      "bridge_id": "bridge-201"
+    },
+    {
+      "bridge_id": "bridge-202"
+    },
+    {
+      "bridge_id": "bridge-203"
+    },
+    {
+      "bridge_id": "bridge-204"
+    },
+    {
+      "bridge_id": "bridge-205"
+    },
+    {
+      "bridge_id": "bridge-206"
+    },
+    {
+      "bridge_id": "bridge-207"
+    },
+    {
+      "bridge_id": "bridge-208"
+    },
+    {
+      "bridge_id": "bridge-209"
+    },
+    {
+      "bridge_id": "bridge-210"
+    },
+    {
+      "bridge_id": "bridge-211"
+    },
+    {
+      "bridge_id": "bridge-212"
+    },
+    {
+      "bridge_id": "bridge-213"
+    },
+    {
+      "bridge_id": "bridge-214"
+    },
+    {
+      "bridge_id": "bridge-215"
+    },
+    {
+      "bridge_id": "bridge-216"
+    },
+    {
+      "bridge_id": "bridge-217"
+    },
+    {
+      "bridge_id": "bridge-218"
+    },
+    {
+      "bridge_id": "bridge-219"
+    },
+    {
+      "bridge_id": "bridge-220"
+    },
+    {
+      "bridge_id": "bridge-221"
+    },
+    {
+      "bridge_id": "bridge-222"
+    },
+    {
+      "bridge_id": "bridge-223"
+    },
+    {
+      "bridge_id": "bridge-224"
+    },
+    {
+      "bridge_id": "bridge-225"
+    },
+    {
+      "bridge_id": "bridge-226"
+    },
+    {
+      "bridge_id": "bridge-227"
+    },
+    {
+      "bridge_id": "bridge-228"
+    },
+    {
+      "bridge_id": "bridge-229"
+    },
+    {
+      "bridge_id": "bridge-230"
+    },
+    {
+      "bridge_id": "bridge-231"
+    },
+    {
+      "bridge_id": "bridge-232"
+    },
+    {
+      "bridge_id": "bridge-233"
+    },
+    {
+      "bridge_id": "bridge-234"
+    },
+    {
+      "bridge_id": "bridge-235"
+    },
+    {
+      "bridge_id": "bridge-236"
+    },
+    {
+      "bridge_id": "bridge-237"
+    },
+    {
+      "bridge_id": "bridge-238"
+    },
+    {
+      "bridge_id": "bridge-239"
+    }
+  ],
+  "research_agenda": [],
+  "signals": []
+}

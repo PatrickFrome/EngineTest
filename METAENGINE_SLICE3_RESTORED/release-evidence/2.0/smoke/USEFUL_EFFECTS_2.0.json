@@ -1,0 +1,14 @@
+{
+  "claim_ceiling": "EFFECTS_NOT_TRUTH",
+  "effects": [
+    {
+      "effect_id": "e1",
+      "epistemic_status": "UNOBSERVED",
+      "present": true,
+      "strength_score": 0.5
+    }
+  ],
+  "effects_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "effects_version": "16X-USEFUL-EFFECTS-2.0",
+  "metrics": {}
+}

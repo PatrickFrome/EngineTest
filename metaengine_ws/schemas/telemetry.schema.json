@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metaengine.local/schemas/telemetry.schema.json",
+  "title": "MetaEngine 2.3 telemetry ledger",
+  "type": "object",
+  "required": ["telemetry_version", "run_id", "wall_seconds", "events", "telemetry_hash"],
+  "properties": {
+    "telemetry_version": {"const": "16X-RUN-TELEMETRY-2.3"},
+    "run_id": {"type": "string"},
+    "wall_seconds": {"type": "number", "minimum": 0},
+    "events": {"type": "array", "items": {"type": "object", "required": ["ordinal", "kind", "event_hash"], "additionalProperties": true}},
+    "telemetry_hash": {"type": "string", "minLength": 64, "maxLength": 64}
+  },
+  "additionalProperties": true
+}

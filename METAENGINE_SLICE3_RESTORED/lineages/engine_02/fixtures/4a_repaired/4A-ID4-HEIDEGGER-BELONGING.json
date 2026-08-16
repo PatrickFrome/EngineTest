@@ -1,0 +1,131 @@
+{
+  "record_id": "4A-ID4-HEIDEGGER-BELONGING",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4A-04#belonging-together",
+      "LEGACY-BR-A-2.24#explanandum-switch"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4A-0.2-repair + DAE-0.1",
+    "agent": "automation-repair-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4A-0.1/4A-ID4-HEIDEGGER-BELONGING"
+    ],
+    "activity_id": "MODULE-MIGRATION-4A-0.2-SEMANTIC-REPAIR",
+    "timestamp": "2026-08-11T12:00:00Z",
+    "artifact_hash": "sha256:5729312eaeeb781120cd5f497b9fce88eaefe0f64871943716c87c09d29081fa"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "Heidegger shifts from the formal identity principle toward a question of belonging-together of human being and Being.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "HIST"
+      ],
+      "force": "ASSERTED",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "This belonging-together is not thereby a replacement criterion for numerical identity or persistence of ordinary entities.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "FORM"
+      ],
+      "force": "ASSERTED",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT00"
+    },
+    "bridge": {
+      "status": "EXPLICIT",
+      "statement": "Belonging can relate distinct relata; therefore success of the ontological belonging analysis does not entail x=y or persistence criteria."
+    },
+    "promotion_flags": [
+      "RELATION",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G2",
+    "gap": "NONE"
+  },
+  "audit": {
+    "native_domain": "Heidegger GA11 / identity metaphysics",
+    "native_method": "close reading + logical contrast",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O3",
+      "O4",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY"
+    ],
+    "rtr": "LOW"
+  },
+  "extensions": {
+    "id4": {
+      "module_id": "ID4",
+      "version": "0.1",
+      "domain_object": "Mensch–Sein belonging versus numerical identity",
+      "mode": "BELONGING",
+      "candidate_criterion": [
+        "Zusammengehörigkeit/belonging-together"
+      ],
+      "allowed_change": "not a persistence criterion",
+      "termination_condition": "not applicable as ordinary numerical identity",
+      "reidentification_evidence": [],
+      "identity_maker_status": "RECONSTRUCTIVE_HYPOTHESIS",
+      "fission_replacement": "not the explanandum",
+      "alternatives": [
+        "numerical identity",
+        "ontological belonging as distinct relation"
+      ],
+      "revision_trigger": "Textual evidence that Heidegger intends Zusammengehörigkeit as ordinary x=y or persistence criterion."
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "UNRESOLVED",
+      "relation_rationale": "The frozen registry has no justified generic relation for Heideggerian belonging-together; RT00 prevents a false promotion to reference or numerical identity.",
+      "semantic_review_status": "REPAIRED_PENDING_EXPERT",
+      "human_review_required": true,
+      "review_notes": [
+        "RT17 was removed because belonging-together is not a sign-reference or denotation relation."
+      ]
+    }
+  },
+  "outcome": "QUALIFY",
+  "rivals": [
+    {
+      "description": "Treat belonging-together as a criterion of numerical identity or persistence.",
+      "relation_rt_id": "RT03",
+      "bridge": "Would require token/type and synchronic/diachronic identity criteria.",
+      "discriminator": "Test ordinary-entity identity cases; the Heideggerian explanandum switch should not supply their criterion."
+    },
+    {
+      "description": "Treat belonging-together as disclosure or access rather than identity.",
+      "relation_rt_id": "RT19",
+      "bridge": "Requires an account of what is disclosed to whom and under what conditions.",
+      "discriminator": "Separate disclosure vocabulary from a claim about identity."
+    }
+  ]
+}

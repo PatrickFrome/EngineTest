@@ -1,0 +1,11 @@
+{
+  "command": "python -m compileall -q metaengine",
+  "completed_step_commit": "73a3f4aab2dc18997db495d657aab5185ffc6958",
+  "evidence_hash": "b2a40c6a1859c9513afabe3e57d239c9931363495712788e5ce47abec7a22560",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "PYTHON_COMPILEALL",
+  "observed": {
+    "status": "PASS"
+  }
+}

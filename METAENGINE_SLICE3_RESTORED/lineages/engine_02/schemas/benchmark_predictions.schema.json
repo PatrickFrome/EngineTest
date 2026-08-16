@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/benchmark_predictions.schema.json",
+  "title": "Destruktion sealed benchmark predictions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["predictions_version", "benchmark_id", "manifest_sha256", "sealed_before_labels", "systems", "claim_ceiling"],
+  "properties": {
+    "predictions_version": {"const": "DAE-SEALED-PREDICTIONS-1.0"},
+    "benchmark_id": {"type": "string", "pattern": "^BENCH-[A-F0-9]{16}$"},
+    "manifest_sha256": {"$ref": "#/$defs/sha256"},
+    "sealed_before_labels": {"const": true},
+    "systems": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["system_id", "kind", "predictions"],
+        "properties": {
+          "system_id": {"enum": ["DAE_PRIMARY", "ALWAYS_INSUFFICIENT", "ALWAYS_QUALIFIED"]},
+          "kind": {"enum": ["ENGINE", "FIXED_BASELINE"]},
+          "predictions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["unit_id", "status", "confidence"],
+              "properties": {
+                "unit_id": {"type": "string", "pattern": "^BU-[A-F0-9]{16}$"},
+                "status": {"$ref": "#/$defs/status"},
+                "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+              }
+            }
+          }
+        }
+      }
+    },
+    "claim_ceiling": {"const": "SEALED_SYSTEM_OUTPUT_NOT_GOLD_LABELS"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "status": {"enum": ["SUPPORTED", "QUALIFIED", "REJECTED", "INSUFFICIENT"]}
+  }
+}

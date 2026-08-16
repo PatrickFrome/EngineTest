@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/micro_local_ecology_result.schema.json",
+  "title": "Destruktion micro-local operator ecology result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["ecology_version", "source_id", "source_resistance_status", "open_set_status", "routing_policy", "routes", "counts", "outcome", "claim_ceiling"],
+  "properties": {
+    "ecology_version": {"const": "DAE-MICRO-LOCAL-ECOLOGY-0.10"},
+    "source_id": {"type": "string", "minLength": 1},
+    "source_resistance_status": {"type": "string", "minLength": 1},
+    "open_set_status": {"type": "string", "minLength": 1},
+    "routing_policy": {"const": "WINDOW_LOCAL_KNOWN_PROFILE_PLUS_OPEN_SET_RIVAL_WITH_ABSTENTION"},
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["window_id", "segment_ids", "ordinal_start", "ordinal_end", "central_terms", "known_profile_hints", "decision", "selected_candidates", "rationale"],
+        "properties": {
+          "window_id": {"type": "string", "pattern": "^MW-"},
+          "segment_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^OX-P"}, "uniqueItems": true},
+          "ordinal_start": {"type": "integer", "minimum": 0},
+          "ordinal_end": {"type": "integer", "minimum": 0},
+          "central_terms": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+          "known_profile_hints": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "decision": {"enum": ["KNOWN_PROFILE_LOCAL", "OPEN_SET_LOCAL_CANDIDATE", "KEEP_KNOWN_AND_OPEN_SET_RIVALS", "ABSTAIN_LOCAL"]},
+          "selected_candidates": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+          "rationale": {"type": "string", "minLength": 8}
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["windows", "known_only", "open_set_only", "rival_routes", "abstentions", "route_transitions"],
+      "properties": {
+        "windows": {"type": "integer", "minimum": 0},
+        "known_only": {"type": "integer", "minimum": 0},
+        "open_set_only": {"type": "integer", "minimum": 0},
+        "rival_routes": {"type": "integer", "minimum": 0},
+        "abstentions": {"type": "integer", "minimum": 0},
+        "route_transitions": {"type": "integer", "minimum": 0}
+      }
+    },
+    "outcome": {"enum": ["MICRO_LOCAL_ROUTING_AVAILABLE", "NO_MICRO_LOCAL_WINDOWS"]},
+    "claim_ceiling": {"const": "LOCAL_OPERATOR_ROUTING_HEURISTIC_NOT_PHILOSOPHICAL_TRUTH_OR_OPERATOR_PROMOTION"}
+  }
+}

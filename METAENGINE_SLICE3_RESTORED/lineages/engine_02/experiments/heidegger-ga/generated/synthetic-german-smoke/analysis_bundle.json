@@ -1,0 +1,78 @@
+{
+  "bundle_version": "DAE-INTAKE-0.1",
+  "generated_at": "2026-08-11T04:20:30Z",
+  "source": {
+    "original_path": "synthetic-german-smoke.md",
+    "path_scope": "BASENAME_ONLY",
+    "media_type": "text/markdown",
+    "byte_length": 172,
+    "sha256": "d7de7a12cd79fe792e8378ebff5a5e0735083d47f6fae493e06b6b8c3f71139f",
+    "source_id": "LOCAL-SHA256-d7de7a12cd79fe792e8378ebff5a5e0735083d47f6fae493e06b6b8c3f71139f"
+  },
+  "method": "PARAGRAPH_UNITIZATION_PLUS_TRILINGUAL_DE_RU_EN_LEXICAL_RT_CANDIDATES",
+  "language_hints": [
+    {
+      "language": "DE",
+      "marker_count": 5
+    }
+  ],
+  "claim_ceiling": "CANDIDATE_GENERATION_ONLY",
+  "unit_count": 3,
+  "candidate_record_count": 3,
+  "units": [
+    {
+      "unit_id": "SYNTHETIC-GERMAN-SMOKE-U001",
+      "line_start": 1,
+      "line_end": 1,
+      "text": "Die Auslegung ermöglicht den Zugang zum Phänomen.",
+      "relation_candidates": [
+        {
+          "rt_id": "RT05",
+          "signal": "ermöglicht",
+          "index": 14,
+          "length": 10
+        }
+      ],
+      "record_id": "SYNTHETIC-GERMAN-SMOKE-AUTO-001"
+    },
+    {
+      "unit_id": "SYNTHETIC-GERMAN-SMOKE-U002",
+      "line_start": 3,
+      "line_end": 3,
+      "text": "Methodische Distanz ist eine notwendige Vorbedingung der Untersuchung.",
+      "relation_candidates": [
+        {
+          "rt_id": "RT04",
+          "signal": "notwendige Vorbedingung",
+          "index": 29,
+          "length": 23
+        }
+      ],
+      "record_id": "SYNTHETIC-GERMAN-SMOKE-AUTO-002"
+    },
+    {
+      "unit_id": "SYNTHETIC-GERMAN-SMOKE-U003",
+      "line_start": 5,
+      "line_end": 5,
+      "text": "Dieser Ausdruck bedeutet nicht einfach Mensch.",
+      "relation_candidates": [
+        {
+          "rt_id": "RT18",
+          "signal": "bedeutet",
+          "index": 16,
+          "length": 8
+        }
+      ],
+      "record_id": "SYNTHETIC-GERMAN-SMOKE-AUTO-003"
+    }
+  ],
+  "validation": {
+    "files": 3,
+    "conformant": 3,
+    "review_required": 3,
+    "ERROR": 0,
+    "REVIEW": 6,
+    "WARNING": 0,
+    "INFO": 0
+  }
+}

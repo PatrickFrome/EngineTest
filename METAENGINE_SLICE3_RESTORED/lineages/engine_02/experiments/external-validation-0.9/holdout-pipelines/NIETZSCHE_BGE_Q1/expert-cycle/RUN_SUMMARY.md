@@ -1,0 +1,14 @@
+# Expert cycle run summary
+
+- Run: `EXPERT-AUTO-LOCAL-SHA256-B85AD72302E5980C2E7F58680CB4BE010315CA60B42CA3DB520C6A788B345DE3-196C15B3CC44`
+- Source: `LOCAL-SHA256-B85AD72302E5980C2E7F58680CB4BE010315CA60B42CA3DB520C6A788B345DE3`
+- Backend: DETERMINISTIC_PROFILE
+- Theses finalized: 1/1
+- SUPPORTED: 0
+- QUALIFIED: 1
+- REJECTED: 0
+- INSUFFICIENT: 0
+- Model pass fallbacks: 0
+- Source text retained: no
+
+Primary human-readable output: `FINAL_ANALYTICS.md`. Canonical machine output: `expert_cycle.json`.

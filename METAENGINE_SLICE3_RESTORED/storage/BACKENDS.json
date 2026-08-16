@@ -1,0 +1,32 @@
+{
+  "contract": "DESTRUKTION-16X-SINGLE-CANONICAL-POSTGRES-2.3",
+  "credentials_bundled": false,
+  "canonical_backend": "supabase",
+  "supabase": {
+    "role": "SOLE_CANONICAL_CLOUD_LEDGER_AND_PROMOTION_AUTHORITY",
+    "project_id": "gzrbxoiuenkksualgpvp",
+    "database_engine": "postgres",
+    "credential_env": "SUPABASE_DATABASE_URL"
+  },
+  "retired_backends": {
+    "neon": {
+      "project_id": "falling-hat-08217783",
+      "status": "RETIRED_NO_READS_NO_WRITES",
+      "physical_deletion_performed": false,
+      "reason": "SINGLE_CLOUD_DATABASE_SELECTED_BY_USER"
+    }
+  },
+  "divergence_policy": "SINGLE_WRITER_SUPABASE; NO_CROSS_CLOUD_CHAMPION_POINTER",
+  "coordination_tables": [
+    "routing_ledger",
+    "claim_ledger",
+    "claim_position_ledger",
+    "claim_edge_ledger",
+    "disagreement_ledger",
+    "review_ledger",
+    "arbitration_ledger"
+  ],
+  "schema_status": {
+    "supabase": "METAENGINE_2_3_MIGRATION_APPLIED"
+  }
+}

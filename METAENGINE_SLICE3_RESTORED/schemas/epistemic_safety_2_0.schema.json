@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Epistemic Safety 2.0",
+  "type": "object",
+  "required": [
+    "claim_node_delta_vs_primary",
+    "native_position_delta_vs_primary",
+    "derived_truth_promotion_violations",
+    "majority_vote_used",
+    "all_16_primary_scheduled",
+    "deep_execution_is_sparse"
+  ],
+  "properties": {
+    "claim_node_delta_vs_primary": {
+      "type": "integer"
+    },
+    "native_position_delta_vs_primary": {
+      "type": "integer"
+    },
+    "derived_truth_promotion_violations": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "majority_vote_used": {
+      "const": false
+    },
+    "all_16_primary_scheduled": {
+      "const": true
+    },
+    "deep_execution_is_sparse": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

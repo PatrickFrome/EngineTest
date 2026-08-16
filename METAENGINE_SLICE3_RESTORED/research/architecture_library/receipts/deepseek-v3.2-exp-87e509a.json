@@ -1,0 +1,10 @@
+{
+  "findings": [],
+  "pack_root_sha256": "b0dde546f20d04fde3b975d8dd212254f49871e5bb69cecd3764086f6ffdcdc6",
+  "receipt_sha256": "d2aca790fa3dafde9879a4aff4f9f73bd830af67b7849eac799acccd2f8c89d3",
+  "receipt_version": "REFERENCE-VAULT-VERIFICATION-1",
+  "source_id": "deepseek-v3.2-exp-87e509a",
+  "status": "PASS",
+  "verified_blob_count": 3,
+  "verified_total_bytes": 46603
+}

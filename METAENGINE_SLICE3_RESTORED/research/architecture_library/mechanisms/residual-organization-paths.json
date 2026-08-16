@@ -1,0 +1,21 @@
+{
+  "assimilation_effect": "NONE",
+  "card_sha256": "2e0d7a7277dddc034704f50d35de1725f31924bebea0fb44117fc660dc253b58",
+  "mechanism_card_version": "ARCHITECTURE-MECHANISM-CARD-1",
+  "mechanism_id": "residual-organization-paths",
+  "origin_source_ids": [
+    "kimi-k3-3cb39df"
+  ],
+  "status": "A1_MECHANISM_HYPOTHESIS",
+  "variants": [
+    {
+      "falsification_test": "Ablate residual paths while holding topology and resource budget constant.",
+      "hypothesized_effect": "Preserve recoverable signal and reduce destructive coordination transformations.",
+      "mechanism_id": "residual-organization-paths",
+      "semantic_definition": "Preserve an explicit residual path around a multi-stage organization transform.",
+      "source_fact_boundary": "The public source names Attention Residuals; hidden implementation details and MetaEngine transfer remain unverified.",
+      "source_id": "kimi-k3-3cb39df",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ]
+}

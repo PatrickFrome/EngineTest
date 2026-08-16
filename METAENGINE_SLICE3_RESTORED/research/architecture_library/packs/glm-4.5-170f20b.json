@@ -1,0 +1,24 @@
+{
+  "blob_descriptors": [
+    {
+      "digest": "7090a09a59cf55701feb04b2d4f99ce31fc4f31bbe1aaf33dd0dafd8e7546313",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "827fdc3a6b57acf622dd6bf4d36bac98509d6a58",
+      "media_type": "text/plain",
+      "relative_path": "LICENSE",
+      "size": 11338
+    },
+    {
+      "digest": "0228cee756768dbe9ef56ade05f47148ec032b75c046b3490c700de49f255446",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "3c032e93f96f388d7a18169d0993fc3db40264af",
+      "media_type": "text/markdown",
+      "relative_path": "README.md",
+      "size": 18229
+    }
+  ],
+  "exact_commit_or_release": "170f20b2c10659008fdbc909d478bc2a75bc3627",
+  "pack_root_sha256": "472d6d44d03a82bea7656fc1f4ea8f6d1f33a39184d789d29057410cbd48e9fa",
+  "pack_schema_version": "ARCHITECTURE-SOURCE-PACK-1",
+  "source_id": "glm-4.5-170f20b"
+}

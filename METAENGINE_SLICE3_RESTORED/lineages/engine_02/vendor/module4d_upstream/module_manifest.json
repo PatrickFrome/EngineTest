@@ -1,0 +1,25 @@
+{
+  "package": "MODULE-MIGRATION-4D-0.1",
+  "core_required": "CORE 4.0.0-alpha.1",
+  "trc_required": "TRC-0.3",
+  "modules": {
+    "MA4": {
+      "version": "0.1",
+      "trigger": "Machenschaft/makeability/calculability/proceduralization claims"
+    },
+    "GE4": {
+      "version": "0.1",
+      "trigger": "Gestell/enframing/mode-of-revealing/ordering claims"
+    },
+    "BS4": {
+      "version": "0.1",
+      "trigger": "Bestand/standing-reserve/resourceization/replaceability claims"
+    },
+    "TO4": {
+      "version": "0.1",
+      "trigger": "concrete technical-organizational design, calculation, optimization, lifecycle and governance claims"
+    }
+  },
+  "core_semantic_expansion": false,
+  "migration_status": "PROFILE-LEVEL ONLY"
+}

@@ -1,0 +1,12 @@
+{
+  "canonical_checkpoint_mutated": false,
+  "champion_policy_mutated": false,
+  "promotion_state_mutated": false,
+  "d6_g1_adaptation_mutated": false,
+  "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+  "active_policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+  "truth_effect": "NONE",
+  "assimilation_effect": "NONE",
+  "mechanism_status_after": "A1_MECHANISM_HYPOTHESIS",
+  "mcp_tool_count": 18
+}

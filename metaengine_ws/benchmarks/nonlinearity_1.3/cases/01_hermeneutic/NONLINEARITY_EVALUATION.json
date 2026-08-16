@@ -1,0 +1,90 @@
+{
+  "metric_version": "16X-NONLINEARITY-PROXY-1.3.1",
+  "hermeneutic_nonlinearity_proxy": 0.8389,
+  "epistemic_nonlinearity_proxy": 0.873,
+  "depth_proxy": 0.8382,
+  "components": {
+    "hermeneutic": {
+      "multi_path_branching": 0.815625,
+      "recursive_return": 1.0,
+      "source_reground_cycles": 0.75,
+      "core4_rival_divergence": 0.6554,
+      "cross_architecture_trace_depth": 1.0,
+      "agenda_source_distribution": 0.8122090925005085
+    },
+    "epistemic": {
+      "methodological_plurality": 0.8571428571428571,
+      "core4_independent_pressure": 1.0,
+      "reversible_operator_pressure": 1.0,
+      "counterfactual_pressure": 1.0,
+      "semantic_boundary_pressure": 1.0,
+      "interrogative_destabilization": 1.0,
+      "peer_method_uptake": 1.0,
+      "state_multiplicity": 0.5,
+      "dissent_preservation_when_present": 0.5
+    },
+    "depth": {
+      "recursive_round_depth": 0.6666666666666666,
+      "reground_cycle_depth": 0.75,
+      "core4_transformational_yield": 0.59375,
+      "core4_architecture_coverage": 1.0,
+      "five_layer_trace_completeness": 1.0,
+      "peer_second_order_uptake": 1.0,
+      "round2_transform_growth": 0.8571428571428571
+    }
+  },
+  "epistemic_safety": {
+    "provenance_complete": true,
+    "majority_vote_unused": true,
+    "derived_truth_promotion_violations": 0,
+    "reentry_claim_ceiling_present": true
+  },
+  "raw": {
+    "agenda_items": 32,
+    "avg_source_engines_per_agenda_item": 8.1562,
+    "return_edges": 12,
+    "reentry_generative_positions": 38,
+    "core4_mean_divergence": 0.6554,
+    "reentry_claim_types": [
+      "ATTRIBUTION_SCOPE_PROBE",
+      "CANONICALIZATION_RESIDUE",
+      "COUNTERFACTUAL_GATE",
+      "CROSS_LINEAGE_DIFFERENTIAL",
+      "INTERROGATIVE_FRAME_ATOM",
+      "OPERATOR_ECOLOGY_PROBE",
+      "OPERATOR_MUTATION_CANDIDATE",
+      "RESIDUAL_RIVAL_PROBE",
+      "SCOPE_LATTICE_PROBE",
+      "SECOND_ORDER_DESTRUCTION",
+      "SEMANTIC_DIFFERENTIAL",
+      "SOURCE_BOUNDED_CLAIM"
+    ],
+    "core4_active_engines": [
+      "engine_01",
+      "engine_02",
+      "engine_03",
+      "engine_04"
+    ],
+    "hermeneutic_cycle_count": 24,
+    "round1_positions": 14,
+    "round2_positions": 24,
+    "peer_second_order_type_coverage": 1.0,
+    "claim_nodes": 25,
+    "claim_edges": 73,
+    "conflicts": 0,
+    "arbitration_states": {
+      "GENERATIVE_ONLY": 24,
+      "INSUFFICIENT_EVIDENCE": 1
+    }
+  },
+  "claim_ceiling": "ARCHITECTURAL_PROXY_FOR_NONLINEARITY_AND_DEPTH; NOT_EXTERNAL_PHILOSOPHICAL_QUALITY_VALIDATION",
+  "evaluation_hash": "725516f0004910c68000241f19e15db72e95327238872409c9b7ca56d1e12c05",
+  "delta_vs_1_2_equivalent": {
+    "hermeneutic_nonlinearity_proxy": 0.3741,
+    "epistemic_nonlinearity_proxy": 0.7619,
+    "depth_proxy": 0.6953,
+    "claim_node_delta": 0,
+    "native_position_delta": 0,
+    "claim_edge_delta": 2
+  }
+}

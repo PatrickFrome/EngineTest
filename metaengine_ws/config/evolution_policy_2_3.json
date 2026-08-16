@@ -1,0 +1,26 @@
+{
+  "evolution_policy_version": "16X-CONTROLLED-POLICY-LEARNING-2.3",
+  "generation_defaults": {
+    "champions": 1,
+    "shadow_candidates": 24,
+    "world_workers": 8,
+    "seeds": [17, 43],
+    "cases_per_suite": 8,
+    "suites": ["PARALLEL", "SEQUENTIAL", "ADVERSARIAL", "TOOL_LIKE", "HERMENEUTIC", "EVIDENCE"]
+  },
+  "successive_halving": [24, 8, 3],
+  "promotion_gate": {
+    "paired_outcomes_only": true,
+    "bootstrap_lower_confidence_bound_minimum": 0.005,
+    "multiple_comparison_correction": "BONFERRONI_ON_THREE_FINALISTS",
+    "suite_noninferiority_floor": -0.02,
+    "hard_safety_failures_allowed": 0,
+    "maximum_node_cost_ratio": 1.6,
+    "atomic_compare_and_swap": true,
+    "rollback_required": true
+  },
+  "mutable_policy_fields": ["topology_id", "waves", "dialectic_operators", "max_rounds", "max_deep_engines", "exploration_rate"],
+  "immutable_fields": ["verifier", "benchmark_oracle", "guardrails", "truth_policy", "tool_permissions", "source_firewall", "promotion_gate"],
+  "self_modifying_code_allowed": false,
+  "claim_ceiling": "LOCAL_DETERMINISTIC_POLICY_LEARNING_NOT_FRONTIER_MODEL_PARITY"
+}

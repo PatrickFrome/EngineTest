@@ -1,0 +1,32 @@
+{
+  "pipeline_version": "DAE-EXPERT-DOCX-PIPELINE-1.0",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T19:20:19Z",
+  "source_id": "LOCAL-SHA256-0A0BF48913100C5EF17FF21A523BE73A90E88FBDCBBCDC90A83B87BCDB32E1AD",
+  "source_artifact_sha256": "fd75866556e0aa4e3bd8fd4b04982cdba8efa9a5cc3b21f8d2fa476d5dec978f",
+  "stages": [
+    {
+      "stage": "CORPUS_REFINERY",
+      "status": "COMPLETE",
+      "output": "refinery"
+    },
+    {
+      "stage": "MANDATORY_ETYMOLOGY",
+      "status": "COMPLETE",
+      "output": "etymology_pass.json"
+    },
+    {
+      "stage": "AUTONOMOUS_EXPERT_CYCLE",
+      "status": "COMPLETE",
+      "output": "expert-cycle"
+    },
+    {
+      "stage": "FINAL_ANALYTICS",
+      "status": "COMPLETE",
+      "output": "FINAL_ANALYTICS.md"
+    }
+  ],
+  "finality": "FINAL_FOR_THIS_RUN",
+  "source_text_in_output": false,
+  "run_id": "EXPERT-AUTO-LOCAL-SHA256-0A0BF48913100C5EF17FF21A523BE73A90E88FBDCBBCDC90A83B87BCDB32E1AD-C2C0D6F33E32"
+}

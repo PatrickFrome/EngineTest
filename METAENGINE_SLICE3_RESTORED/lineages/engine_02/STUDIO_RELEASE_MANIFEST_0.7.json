@@ -1,0 +1,29 @@
+{
+  "release": "Destruktion_4.0_COMPLETE_0.7_INDEPENDENT_FAMILY_INTEGRATION",
+  "studio_version": "0.7.0-independent-family-integration",
+  "active_engine": "0.10.0-alpha.1",
+  "active_engine_required_assets": 66,
+  "frozen_assets_modified": false,
+  "integrated_test_suite": {
+    "tests": 111,
+    "pass": 111,
+    "fail": 0
+  },
+  "historical_0_9_control": {
+    "tests": 78,
+    "pass": 78,
+    "fail": 0
+  },
+  "independent_family_oracle": {
+    "source_births": "4/4",
+    "windows": "6/6",
+    "boundaries": 5,
+    "synthesis": "PRESERVE_POLYPHONIC_LOCALITY"
+  },
+  "downstream": {
+    "global_status": "POLYPHONIC_GLOBAL_ABSTENTION",
+    "thesis_allowed": false,
+    "local_residual_nodes": 1
+  },
+  "claim_ceiling": "BEHAVIORALLY_VERIFIED_RECONSTRUCTION_NOT_UPSTREAM_SOURCE_IDENTITY_OR_SEMANTIC_VALIDATION"
+}

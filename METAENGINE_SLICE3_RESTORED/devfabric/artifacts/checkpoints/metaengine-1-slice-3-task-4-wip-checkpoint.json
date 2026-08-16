@@ -1,0 +1,125 @@
+{
+  "authority_boundary": {
+    "candidate_only": true,
+    "canonical_cloud_write_performed": false,
+    "canonical_promotion_performed": false,
+    "cloud_replay_status": "PENDING_EXPLICIT_AUTHORIZED_CONNECTED_PROTOCOL",
+    "reason": "NO_CANONICAL_AUTHORITY"
+  },
+  "checkpoint_handoff_version": "METAENGINE-DEVFABRIC-WIP-CHECKPOINT-1",
+  "completed_steps": [
+    {
+      "commit": "93cad9cc9ea7539306a9c190415313df70e73979",
+      "name": "Slice 3 source-registry and reference-vault design",
+      "qualitative_next_level": "Separate source availability from source identity so an unavailable upstream cannot erase or silently redefine retained evidence."
+    },
+    {
+      "commit": "223a5d1ff75f7bdd9e387b950ebb20ccd34b2ddd",
+      "name": "Typed source, claim, mechanism, pack, and registry contracts",
+      "qualitative_next_level": "Make legal class and epistemic ceiling executable data rather than prose, preventing ingestion from becoming an unearned architecture claim."
+    },
+    {
+      "commit": "e00de3686aedad7182e1ffd62ce6ef82d523c065",
+      "name": "Fail-closed external content-addressed reference vault",
+      "qualitative_next_level": "Bind every retained byte to a digest while keeping foreign code outside CONTROL and scanning the same bytes for secret-like content."
+    },
+    {
+      "commit": "5b64db9c4e7e3d54c012b39ea37939839c3ae505",
+      "name": "Offline deterministic architecture-source catalog builder",
+      "qualitative_next_level": "Publish the registry last and verify fresh vault receipts, turning a collection of files into a reproducible transactional snapshot."
+    }
+  ],
+  "created_at": "2026-08-13T00:00:00Z",
+  "decision_ledger": [
+    {
+      "decision": "TRACKED_METADATA_PLUS_EXTERNAL_CONTENT_ADDRESSED_VAULT",
+      "id": "SLICE3-D1",
+      "rationale": "CONTROL stays portable and auditable while exact permissive-source bytes remain recoverable through digest-bound sidecar data."
+    },
+    {
+      "decision": "PERMISSIVE_CODE_INGESTED_RESTRICTED_REFERENCE_REGISTERED_CLOSED_BEHAVIORAL_ONLY",
+      "id": "SLICE3-D2",
+      "rationale": "License and availability determine what may be retained; neither category grants permission to assimilate a mechanism."
+    },
+    {
+      "decision": "MECHANISM_STATUS_CAPPED_AT_A0_A1",
+      "id": "SLICE3-D3",
+      "rationale": "Source facts and mechanism hypotheses remain below validated architecture claims until controlled experiments produce evidence."
+    },
+    {
+      "decision": "OFFICIAL_COMMIT_TO_GIT_BLOB_TO_SHA256_PROVENANCE_BRIDGE",
+      "id": "SLICE3-D4",
+      "rationale": "A catalog-provided Git object id is recomputed from exact bytes before CAS ingestion, preventing self-consistent but upstream-false metadata."
+    },
+    {
+      "decision": "FREEZE_AT_TASK4_RED_BOUNDARY",
+      "id": "SLICE3-D5",
+      "rationale": "The user requested preservation before further development; no Task 4 completion or post-task review is claimed."
+    }
+  ],
+  "known_red_boundary": {
+    "expected_exit_code": 1,
+    "reason": "research/architecture_library/retrieval_evidence.json is intentionally not yet materialized",
+    "test": "tests/test_architecture_source_registry_artifacts.py::test_retrieval_evidence_binds_upstream_git_blobs_to_retained_sha256"
+  },
+  "reference_vault": {
+    "control_payload_inclusion": false,
+    "descriptor_count": 13,
+    "logical_total_bytes": 150521,
+    "retention": "CHECKPOINT_SIDECAR",
+    "staged_file_count": 13,
+    "unique_cas_object_count": 12
+  },
+  "repository": {
+    "base_recovery_commit": "637d0b569e38c2a965b43f7de2015ea66a788428",
+    "branch": "recovered/metaengine-1-slice2-portable",
+    "task4_wip_commit": "d457c77815bf33131a5933fde2f90347a6584d65"
+  },
+  "resume_contract": {
+    "first_actions": [
+      "Verify the outer checkpoint manifest, CONTROL capsule, Git bundle, SQLite journal chain, and reference-vault registry before changing files.",
+      "Confirm HEAD equals the checkpoint commit recorded by the outer manifest and that the working tree is clean.",
+      "Re-run the one recorded RED test and confirm it fails only because retrieval_evidence.json is absent."
+    ],
+    "next_implementation_step": "Materialize retrieval_evidence.json from the 13 staged official files, recompute every Git blob id and SHA-256, then run the complete Task 4 verification suite.",
+    "prohibited_shortcuts": [
+      "Do not mark Task 4 complete before the retrieval evidence test is GREEN.",
+      "Do not equate ingestion with mechanism assimilation.",
+      "Do not write canonical cloud state or promote a checkpoint from the candidate workspace.",
+      "Do not start Task 5 before a valid Task 4 Development Evolution Review receipt exists."
+    ],
+    "qualitative_next_level_after_task4": "Add signed provenance and independent mirrors, then admit mechanisms only through evidence-scored tournaments rather than source prestige."
+  },
+  "scope": "METAENGINE-1_SLICE-3_TASK-4_FIRST-WAVE-SOURCE-REGISTRATION",
+  "source_registry": {
+    "catalog_file_sha256": "85779ef28bd6c30daccca2bb331bafbe219625749373c7f26e059efb657db417",
+    "closed_behavioral_only_count": 3,
+    "ingested_source_count": 5,
+    "permissive_source_count": 5,
+    "registry_file_sha256": "d57a4618c1fe0e7b08f8da08dc5ef65afc6b4463b4e7219225876fa136166620",
+    "registry_snapshot_sha256": "b50ee520f2dd605fb48f94c44dbb5fd26980fbcacf6a2150aafe178d41f631e8",
+    "restricted_reference_count": 2,
+    "source_count": 10,
+    "verified_blob_descriptor_count": 13,
+    "verified_total_bytes": 150521
+  },
+  "status": "FROZEN_WIP_RED",
+  "verification_at_freeze": [
+    {
+      "result": "PASS",
+      "subject": "git diff --check before WIP commit"
+    },
+    {
+      "result": "PASS",
+      "subject": "ReferenceVault Git blob identity enforcement test"
+    },
+    {
+      "result": "PASS",
+      "subject": "offline registry and vault verification"
+    },
+    {
+      "result": "EXPECTED_RED",
+      "subject": "retrieval evidence artifact test"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "output_dir": "/mnt/data/d4next/cross_corpus_run/SAUSSURE/living",
+  "run_id": "LIVING-LOCAL_SHA256_DEFB03CA1F6A5CFC89E3FD384D3FFF6671EC27D7CFE7F47863B46CB6163-0D601475FF1C",
+  "validation": {
+    "file": "<memory>",
+    "conformant": true,
+    "counts": {
+      "ERROR": 0,
+      "REVIEW": 0,
+      "WARNING": 0,
+      "INFO": 0
+    },
+    "issues": []
+  },
+  "sufficient_openness": {
+    "principle": "SUFFICIENT_OPENNESS_NOT_CLOSURE",
+    "satisfied": true,
+    "criteria": {
+      "problem_transformed": true,
+      "new_distinction": true,
+      "live_rival_or_counterquestion": true,
+      "reverse_pressure_or_explicit_skip": true,
+      "constructive_indication_or_explicit_skip": true,
+      "typed_residual": true,
+      "reopening_condition": true,
+      "source_resistance_handled_or_explicitly_absent": true,
+      "discovery_justification_firewall": true
+    },
+    "missing": [],
+    "interpretation": "The run stops provisionally because the problem has changed under constraints, live alternatives remain, the constructive move is revisable and the remainder is typed. No truth verdict or CORE promotion follows."
+  }
+}

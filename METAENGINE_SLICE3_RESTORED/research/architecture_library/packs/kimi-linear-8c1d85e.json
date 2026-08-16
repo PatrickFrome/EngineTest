@@ -1,0 +1,24 @@
+{
+  "blob_descriptors": [
+    {
+      "digest": "20f48681e4fb70b2787b752fd6fb887be60332731441818458ed0baf09d8264b",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "27ed4ed26dbc5c630df7b7cbcb097b90330520c5",
+      "media_type": "text/plain",
+      "relative_path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "94b884a1ebe7600daf3429c8a7403874aa69d7a25b30c992e367f72289e2817d",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "188288206fb333490b032d80df460033bf88c885",
+      "media_type": "text/markdown",
+      "relative_path": "README.md",
+      "size": 6401
+    }
+  ],
+  "exact_commit_or_release": "8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3",
+  "pack_root_sha256": "35c5c6825804ff02be2c4ec8c6801c786bb1883c231b0dc09cf3bcf2646b3026",
+  "pack_schema_version": "ARCHITECTURE-SOURCE-PACK-1",
+  "source_id": "kimi-linear-8c1d85e"
+}

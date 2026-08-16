@@ -1,0 +1,1624 @@
+{
+  "version": "16X-RECURSIVE-HERMENEUTIC-REENTRY-1.3",
+  "round_count": 2,
+  "rounds": [
+    {
+      "version": "16X-CORE4-REENTRY-1.3",
+      "round": 1,
+      "results": [
+        {
+          "engine_id": "engine_01",
+          "status": "COMPLETE",
+          "generative_position_count": 6,
+          "architecture_projection_count": 4,
+          "generative_positions": [
+            {
+              "proposition": "## ORIGINAL_SOURCE Entities A, B, C and D form a network: A",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-36837f3a64d434a97e407650c6878482468ff02afaa346610b7e66d9784caeef#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "B, B conflicts with C, C mediates D, and A and D belong to different communities. Build local and global graph views, route specialist tasks in parallel, checkpoint state, and flag critical decisions for review.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-36837f3a64d434a97e407650c6878482468ff02afaa346610b7e66d9784caeef#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'graph' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'belong' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "belong"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'checkpoint' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "checkpoint"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'communities' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "communities"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "becomes",
+            "belong",
+            "build",
+            "checkpoint",
+            "communities",
+            "conflicts",
+            "critical",
+            "decisions",
+            "different",
+            "entities",
+            "excluded",
+            "flag",
+            "form",
+            "frame-atom",
+            "global",
+            "graph",
+            "interpretation",
+            "invisible",
+            "local",
+            "made",
+            "mediates",
+            "network",
+            "original_source",
+            "parallel",
+            "presupposed",
+            "probe",
+            "review",
+            "route",
+            "specialist",
+            "state",
+            "tasks",
+            "unit",
+            "views",
+            "what",
+            "when",
+            "with"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_02",
+          "status": "COMPLETE",
+          "generative_position_count": 4,
+          "architecture_projection_count": 2,
+          "generative_positions": [
+            {
+              "proposition": "## ORIGINAL_SOURCE Entities A, B, C and D form a network: A",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-1276c6dc63f4ba3bbd0198690187fcff49643edd596776ce1670fa871b928945#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "B, B conflicts with C, C mediates D, and A and D belong to different communities. Build local and global graph views, route specialist tasks in parallel, checkpoint state, and flag critical decisions for review.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-1276c6dc63f4ba3bbd0198690187fcff49643edd596776ce1670fa871b928945#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Reversible operator hypothesis: test RELATIONAL_CONSTITUTION against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong",
+                  "checkpoint",
+                  "communities"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            },
+            {
+              "proposition": "Reversible operator hypothesis: test NONREDUCTIVE_DIFFERENCE against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong",
+                  "checkpoint",
+                  "communities"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "belong",
+            "build",
+            "checkpoint",
+            "collapses",
+            "communities",
+            "condition",
+            "conflicts",
+            "critical",
+            "decisions",
+            "different",
+            "distinction",
+            "entities",
+            "explicit",
+            "flag",
+            "form",
+            "global",
+            "graph",
+            "hypothesis",
+            "local",
+            "mediates",
+            "network",
+            "nonreductive_difference",
+            "operator",
+            "original_source",
+            "parallel",
+            "relational_constitution",
+            "retaining",
+            "retirement",
+            "reversible",
+            "review",
+            "rival",
+            "route",
+            "source",
+            "specialist",
+            "state",
+            "tasks",
+            "test",
+            "views",
+            "while",
+            "with"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_03",
+          "status": "COMPLETE",
+          "generative_position_count": 6,
+          "architecture_projection_count": 4,
+          "generative_positions": [
+            {
+              "proposition": "## ORIGINAL_SOURCE Entities A, B, C and D form a network: A",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-e0503bf1ac7579c48841aba431ee49783c6a7e166a979360ba22b6348d004117#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "B, B conflicts with C, C mediates D, and A and D belong to different communities. Build local and global graph views, route specialist tasks in parallel, checkpoint state, and flag critical decisions for review.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-e0503bf1ac7579c48841aba431ee49783c6a7e166a979360ba22b6348d004117#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'graph' and 'belong' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'checkpoint' and 'communities' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "checkpoint",
+                  "communities"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'conflicts' and 'critical' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflicts",
+                  "critical"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Canonicalization-loss probe: compare the source term 'graph' against the hybrid agenda label 'checkpoint' and preserve any residue that the shared schema cannot express.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CANONICALIZATION_RESIDUE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong"
+                ],
+                "lineage_primitive": "CANONICAL_NORMALIZATION+LINEAGE_FIXITY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "agenda",
+            "belong",
+            "build",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "checkpoint",
+            "communities",
+            "compare",
+            "conflicts",
+            "critical",
+            "decisions",
+            "different",
+            "differential",
+            "entities",
+            "equivalent",
+            "express",
+            "flag",
+            "form",
+            "global",
+            "graph",
+            "hybrid",
+            "inferential",
+            "into",
+            "label",
+            "local",
+            "mediates",
+            "network",
+            "original_source",
+            "parallel",
+            "preserve",
+            "probe",
+            "residue",
+            "review",
+            "roles",
+            "route",
+            "schema",
+            "semantic-boundary",
+            "shared",
+            "shown",
+            "source",
+            "specialist",
+            "state",
+            "tasks",
+            "term",
+            "that",
+            "their",
+            "until",
+            "views",
+            "with"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_04",
+          "status": "COMPLETE",
+          "generative_position_count": 3,
+          "architecture_projection_count": 1,
+          "generative_positions": [
+            {
+              "proposition": "## ORIGINAL_SOURCE Entities A, B, C and D form a network: A",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-7e07638fab5bbdb216ab1b02376c3d14f61ec8a7ab738c24b2224292084139fb#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "B, B conflicts with C, C mediates D, and A and D belong to different communities. Build local and global graph views, route specialist tasks in parallel, checkpoint state, and flag critical decisions for review.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-7e07638fab5bbdb216ab1b02376c3d14f61ec8a7ab738c24b2224292084139fb#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Parse-program abstention: no strong attribution/polarity/scope cue is present; do not invent a deep parse solely to increase complexity.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "PARSE_ABSTENTION",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong",
+                  "checkpoint"
+                ],
+                "lineage_primitive": "PARSE_PROGRAM"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "abstention",
+            "attribution",
+            "belong",
+            "build",
+            "checkpoint",
+            "communities",
+            "complexity",
+            "conflicts",
+            "critical",
+            "decisions",
+            "deep",
+            "different",
+            "entities",
+            "flag",
+            "form",
+            "global",
+            "graph",
+            "increase",
+            "invent",
+            "local",
+            "mediates",
+            "network",
+            "original_source",
+            "parallel",
+            "parse",
+            "parse-program",
+            "polarity",
+            "present",
+            "review",
+            "route",
+            "scope",
+            "solely",
+            "specialist",
+            "state",
+            "strong",
+            "tasks",
+            "views",
+            "with"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        }
+      ],
+      "metrics": {
+        "core4_complete": 4,
+        "generative_positions": 19,
+        "pairwise_mean_divergence": 0.5523,
+        "engine_output_entropy": 0.972,
+        "truth_promotion_violations": 0
+      },
+      "pairwise_core4_divergence": [
+        {
+          "a": "engine_01",
+          "b": "engine_02",
+          "lexical_jaccard": 0.4808,
+          "divergence": 0.5192
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_03",
+          "lexical_jaccard": 0.4262,
+          "divergence": 0.5738
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_04",
+          "lexical_jaccard": 0.5102,
+          "divergence": 0.4898
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_03",
+          "lexical_jaccard": 0.4154,
+          "divergence": 0.5846
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_04",
+          "lexical_jaccard": 0.463,
+          "divergence": 0.537
+        },
+        {
+          "a": "engine_03",
+          "b": "engine_04",
+          "lexical_jaccard": 0.3906,
+          "divergence": 0.6094
+        }
+      ],
+      "claim_ceiling": "DERIVED_REENTRY_OUTPUTS_ARE_SECOND_ORDER_GENERATIVE_NOT_PRIMARY_EVIDENCE",
+      "round_hash": "5659c7936bb054a1de0e8bcaa66d861e43d77515941bf6676aa01eb08f84c581"
+    },
+    {
+      "version": "16X-CORE4-REENTRY-1.3",
+      "round": 2,
+      "results": [
+        {
+          "engine_id": "engine_01",
+          "status": "COMPLETE",
+          "generative_position_count": 7,
+          "architecture_projection_count": 5,
+          "generative_positions": [
+            {
+              "proposition": "## ORIGINAL_SOURCE Entities A, B, C and D form a network: A",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-e2f1eeb13bbf711fc379f9978eb0762752aef71c24c3633db92838640ef13840#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "B, B conflicts with C, C mediates D, and A and D belong to different communities. Build local and global graph views, route specialist tasks in parallel, checkpoint state, and flag critical decisions for review.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-e2f1eeb13bbf711fc379f9978eb0762752aef71c24c3633db92838640ef13840#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'graph' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'belong' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "belong"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'checkpoint' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "checkpoint"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'communities' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "communities"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Second-order destruction: what common presupposition is shared by these peer returns — ## ORIGINAL_SOURCE Entities A, B, C and D form a network: A / B, B conflicts with C, C mediates D, and A and D belong to different communities. Build local and global graph views, route specialist tasks in parallel, checkpoint state, and flag?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SECOND_ORDER_DESTRUCTION",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong"
+                ],
+                "lineage_primitive": "EXPERT_LIVING_DUALITY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "becomes",
+            "belong",
+            "build",
+            "checkpoint",
+            "common",
+            "communities",
+            "conflicts",
+            "critical",
+            "decisions",
+            "destruction",
+            "different",
+            "entities",
+            "excluded",
+            "flag",
+            "form",
+            "frame-atom",
+            "global",
+            "graph",
+            "interpretation",
+            "invisible",
+            "local",
+            "made",
+            "mediates",
+            "network",
+            "original_source",
+            "parallel",
+            "peer",
+            "presupposed",
+            "presupposition",
+            "probe",
+            "returns",
+            "review",
+            "route",
+            "second-order",
+            "shared",
+            "specialist",
+            "state",
+            "tasks",
+            "these",
+            "unit",
+            "views",
+            "what",
+            "when",
+            "with"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_02",
+          "status": "COMPLETE",
+          "generative_position_count": 5,
+          "architecture_projection_count": 3,
+          "generative_positions": [
+            {
+              "proposition": "## ORIGINAL_SOURCE Entities A, B, C and D form a network: A",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-5495d68703aed5cfbc233deadf790ee2661a388ead449030a7750bc9b03c0108#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "B, B conflicts with C, C mediates D, and A and D belong to different communities. Build local and global graph views, route specialist tasks in parallel, checkpoint state, and flag critical decisions for review.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-5495d68703aed5cfbc233deadf790ee2661a388ead449030a7750bc9b03c0108#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Reversible operator hypothesis: test RELATIONAL_CONSTITUTION against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong",
+                  "checkpoint",
+                  "communities"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            },
+            {
+              "proposition": "Reversible operator hypothesis: test NONREDUCTIVE_DIFFERENCE against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong",
+                  "checkpoint",
+                  "communities"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            },
+            {
+              "proposition": "Operator-ecology probe: treat disagreement among Core-4 returns as evidence that operator selection itself may be local rather than global.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_ECOLOGY_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong",
+                  "checkpoint"
+                ],
+                "lineage_primitive": "OPERATOR_ECOLOGY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "among",
+            "belong",
+            "build",
+            "checkpoint",
+            "collapses",
+            "communities",
+            "condition",
+            "conflicts",
+            "core-4",
+            "critical",
+            "decisions",
+            "different",
+            "disagreement",
+            "distinction",
+            "entities",
+            "evidence",
+            "explicit",
+            "flag",
+            "form",
+            "global",
+            "graph",
+            "hypothesis",
+            "itself",
+            "local",
+            "mediates",
+            "network",
+            "nonreductive_difference",
+            "operator",
+            "operator-ecology",
+            "original_source",
+            "parallel",
+            "probe",
+            "rather",
+            "relational_constitution",
+            "retaining",
+            "retirement",
+            "returns",
+            "reversible",
+            "review",
+            "rival",
+            "route",
+            "selection",
+            "source",
+            "specialist",
+            "state",
+            "tasks",
+            "test",
+            "than",
+            "that",
+            "treat",
+            "views",
+            "while",
+            "with"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_03",
+          "status": "COMPLETE",
+          "generative_position_count": 7,
+          "architecture_projection_count": 5,
+          "generative_positions": [
+            {
+              "proposition": "## ORIGINAL_SOURCE Entities A, B, C and D form a network: A",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-c1366601e7d94d547a1616a32de3a6b1636cec0e814837e06799d03fe4a22294#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "B, B conflicts with C, C mediates D, and A and D belong to different communities. Build local and global graph views, route specialist tasks in parallel, checkpoint state, and flag critical decisions for review.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-c1366601e7d94d547a1616a32de3a6b1636cec0e814837e06799d03fe4a22294#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'graph' and 'belong' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'checkpoint' and 'communities' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "checkpoint",
+                  "communities"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'conflicts' and 'critical' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflicts",
+                  "critical"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Canonicalization-loss probe: compare the source term 'graph' against the hybrid agenda label 'checkpoint' and preserve any residue that the shared schema cannot express.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CANONICALIZATION_RESIDUE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong"
+                ],
+                "lineage_primitive": "CANONICAL_NORMALIZATION+LINEAGE_FIXITY"
+              }
+            },
+            {
+              "proposition": "Cross-lineage differential: Core-4 peers generated incompatible descriptive vocabularies; preserve the difference between '## ORIGINAL_SOURCE Entities A, B, C and D form a network: A' and 'Parse-program abstention: no strong attribution/polarity/scope cue is present; do not invent a deep parse solely to incr' before fusion.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CROSS_LINEAGE_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong"
+                ],
+                "lineage_primitive": "CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "abstention",
+            "against",
+            "agenda",
+            "attribution",
+            "before",
+            "belong",
+            "between",
+            "build",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "checkpoint",
+            "communities",
+            "compare",
+            "conflicts",
+            "core-4",
+            "critical",
+            "cross-lineage",
+            "decisions",
+            "deep",
+            "descriptive",
+            "difference",
+            "different",
+            "differential",
+            "entities",
+            "equivalent",
+            "express",
+            "flag",
+            "form",
+            "fusion",
+            "generated",
+            "global",
+            "graph",
+            "hybrid",
+            "incompatible",
+            "incr",
+            "inferential",
+            "into",
+            "invent",
+            "label",
+            "local",
+            "mediates",
+            "network",
+            "original_source",
+            "parallel",
+            "parse",
+            "parse-program",
+            "peers",
+            "polarity",
+            "present",
+            "preserve",
+            "probe",
+            "residue",
+            "review",
+            "roles",
+            "route",
+            "schema",
+            "scope",
+            "semantic-boundary",
+            "shared",
+            "shown",
+            "solely",
+            "source",
+            "specialist",
+            "state",
+            "strong",
+            "tasks",
+            "term",
+            "that",
+            "their",
+            "until",
+            "views",
+            "vocabularies",
+            "with"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_04",
+          "status": "COMPLETE",
+          "generative_position_count": 4,
+          "architecture_projection_count": 2,
+          "generative_positions": [
+            {
+              "proposition": "## ORIGINAL_SOURCE Entities A, B, C and D form a network: A",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-89b037916c5285aa7c5d47b45b8e01e7a0be97bc972172c6ac676c30e08973d6#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "B, B conflicts with C, C mediates D, and A and D belong to different communities. Build local and global graph views, route specialist tasks in parallel, checkpoint state, and flag critical decisions for review.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-89b037916c5285aa7c5d47b45b8e01e7a0be97bc972172c6ac676c30e08973d6#L12-L13"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Parse-program abstention: no strong attribution/polarity/scope cue is present; do not invent a deep parse solely to increase complexity.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "PARSE_ABSTENTION",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong",
+                  "checkpoint"
+                ],
+                "lineage_primitive": "PARSE_PROGRAM"
+              }
+            },
+            {
+              "proposition": "Counterfactual gate: invert or remove the cue that licenses each peer reading; quarantine any interpretation that survives a structure-changing perturbation unchanged.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "COUNTERFACTUAL_GATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "graph",
+                  "belong",
+                  "checkpoint"
+                ],
+                "lineage_primitive": "COUNTERFACTUAL_GATE"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "abstention",
+            "attribution",
+            "belong",
+            "build",
+            "checkpoint",
+            "communities",
+            "complexity",
+            "conflicts",
+            "counterfactual",
+            "critical",
+            "decisions",
+            "deep",
+            "different",
+            "each",
+            "entities",
+            "flag",
+            "form",
+            "gate",
+            "global",
+            "graph",
+            "increase",
+            "interpretation",
+            "invent",
+            "invert",
+            "licenses",
+            "local",
+            "mediates",
+            "network",
+            "original_source",
+            "parallel",
+            "parse",
+            "parse-program",
+            "peer",
+            "perturbation",
+            "polarity",
+            "present",
+            "quarantine",
+            "reading",
+            "remove",
+            "review",
+            "route",
+            "scope",
+            "solely",
+            "specialist",
+            "state",
+            "strong",
+            "structure-changing",
+            "survives",
+            "tasks",
+            "that",
+            "unchanged",
+            "views",
+            "with"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        }
+      ],
+      "metrics": {
+        "core4_complete": 4,
+        "generative_positions": 23,
+        "pairwise_mean_divergence": 0.6498,
+        "engine_output_entropy": 0.9811,
+        "truth_promotion_violations": 0
+      },
+      "pairwise_core4_divergence": [
+        {
+          "a": "engine_01",
+          "b": "engine_02",
+          "lexical_jaccard": 0.3803,
+          "divergence": 0.6197
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_03",
+          "lexical_jaccard": 0.2967,
+          "divergence": 0.7033
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_04",
+          "lexical_jaccard": 0.3857,
+          "divergence": 0.6143
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_03",
+          "lexical_jaccard": 0.3061,
+          "divergence": 0.6939
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_04",
+          "lexical_jaccard": 0.321,
+          "divergence": 0.679
+        },
+        {
+          "a": "engine_03",
+          "b": "engine_04",
+          "lexical_jaccard": 0.4111,
+          "divergence": 0.5889
+        }
+      ],
+      "claim_ceiling": "DERIVED_REENTRY_OUTPUTS_ARE_SECOND_ORDER_GENERATIVE_NOT_PRIMARY_EVIDENCE",
+      "round_hash": "d687374f189fd9c2790426f15ed872fdb28ed23154fabe46eb85a7cb73d2a88e"
+    }
+  ],
+  "return_edges": [
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    }
+  ],
+  "hermeneutic_graph": {
+    "path": "HERMENEUTIC_REENTRY_GRAPH.json",
+    "graph_hash": "1cb1fceb0890125b382e4d51481e1891b969af505dcb954e8feb656d7fa4d65e",
+    "node_count": 43,
+    "edge_count": 58,
+    "closed_reground_cycles": 23
+  },
+  "metrics": {
+    "recursive_rounds": 2,
+    "return_edge_count": 12,
+    "total_generative_positions": 42,
+    "mean_core4_divergence": 0.6011,
+    "truth_promotion_violations": 0,
+    "all_core4_participated_each_round": true,
+    "hermeneutic_cycle_count": 23,
+    "hermeneutic_graph_edges": 58
+  },
+  "claim_ceiling": "RECURSIVE_REENTRY_MEASURES_GENERATIVE_TRANSFORMATION_NOT_EXTERNAL_SEMANTIC_CORRECTNESS",
+  "reentry_hash": "6c80383d93e6aed775f28e10a5781af2df5b6370e58ab9f20270673279e6dd5c"
+}

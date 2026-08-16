@@ -1,0 +1,8 @@
+{
+  "developer_structural_tests": "PASS lineage",
+  "fresh_developer_freeze": "PASS DEV-0.10",
+  "external_interrater": "NOT ESTABLISHED",
+  "external_adversarial_replication": "NOT ESTABLISHED",
+  "validation_claim_ceiling": "PILOT / DEVELOPER-TESTED",
+  "reliability_does_not_imply_validity": true
+}

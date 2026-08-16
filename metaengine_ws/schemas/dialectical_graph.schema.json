@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metaengine.local/schemas/dialectical_graph.schema.json",
+  "title": "MetaEngine 2.3 typed dialectical graph",
+  "type": "object",
+  "required": ["graph_version", "source_id", "policy_hash", "nodes", "edges", "metrics", "graph_hash"],
+  "properties": {
+    "graph_version": {"const": "16X-TYPED-DIALECTICAL-GRAPH-2.3"},
+    "source_id": {"type": "string"},
+    "policy_hash": {"type": "string"},
+    "nodes": {"type": "array", "items": {"type": "object", "required": ["node_id", "operator", "proposition", "source_spans", "assumptions", "residual_tensions", "truth_effect"], "properties": {"truth_effect": {"const": "NONE"}}, "additionalProperties": true}},
+    "edges": {"type": "array", "items": {"type": "object", "required": ["from", "to", "type", "truth_effect"], "properties": {"truth_effect": {"const": "NONE"}}, "additionalProperties": true}},
+    "metrics": {"type": "object"},
+    "graph_hash": {"type": "string", "minLength": 64, "maxLength": 64}
+  },
+  "additionalProperties": true
+}

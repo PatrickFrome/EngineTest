@@ -1,0 +1,35 @@
+{
+  "ambient_context_planes": [
+    "CHATGPT_PROJECT_MEMORY",
+    "CREATE_STATE"
+  ],
+  "canonical_authority": "SUPABASE_ONLY",
+  "chat_lifecycle": "USER_INSTANTIATED_PROTOCOL_ASSIGNED",
+  "deny_list": [
+    "CANONICAL_BYPASS",
+    "DIRECT_PROMOTION",
+    "SECRET_RETRIEVAL"
+  ],
+  "federation_id": "METAENGINE_FEDERATED_CHAT_V1",
+  "machine_truth_planes": [
+    "SUPABASE_LEDGER",
+    "GIT_SOURCE",
+    "R2_ARTIFACT_CAS"
+  ],
+  "protocol_version": "D6.1",
+  "slot_count": 8,
+  "slot_ids": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7"
+  ],
+  "state_model": "SHARED_READ_ISOLATED_WRITE_VERIFIED_INTEGRATION",
+  "synchronizer_recovery": "DISPOSABLE_REBUILD_FROM_LEDGER",
+  "synchronizer_slot": "C0",
+  "verification_slot": "C6"
+}

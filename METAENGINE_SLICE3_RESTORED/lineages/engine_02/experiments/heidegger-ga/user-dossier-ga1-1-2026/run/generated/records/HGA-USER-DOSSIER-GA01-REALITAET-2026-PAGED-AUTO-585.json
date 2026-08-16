@@ -1,0 +1,114 @@
+{
+  "record_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026-PAGED-AUTO-585",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0379&start=334&end=496"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + DAE-PAGED-LEXICAL-CANDIDATE-0.4",
+    "agent": "dae-page-aware-lexical-candidate-generator",
+    "activity_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026-PAGED-INTAKE",
+    "timestamp": "2026-08-11T05:15:25Z",
+    "artifact_hash": "sha256:8cbef7a8fe342b576b092a9df3aecd154801a39e125b8a3c0320836dbf5d3b2d"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "Source-side span at HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0379&start=334&end=496; source wording is omitted under the derivative-only output policy.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "HYPOTHETICAL",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0379&start=334&end=496"
+    ]
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Unresolved target-side span following the candidate signal at HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0379&start=334&end=496.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "HYPOTHETICAL",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0379&start=334&end=496"
+    ]
+  },
+  "transition": {
+    "inference_mode": "UNRESOLVED",
+    "relation": {
+      "rt_id": "RT00"
+    },
+    "bridge": {
+      "status": "UNRESOLVED",
+      "statement": "Lexical candidate RT04 ('должна'), RT21 ('должна') at HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0379&start=334&end=496; expressive source context is intentionally not copied into the output.",
+      "support_refs": [
+        "HGA-USER-DOSSIER-GA01-REALITAET-2026#page=R0379&start=334&end=496"
+      ],
+      "discriminator": "Inspect the authorized source locally; test the frozen relation definition, direction, modality and strongest live rival."
+    }
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "HISTORY_OF_PHILOSOPHY_AND_TEXTUAL_SCHOLARSHIP",
+    "native_method": "Page-resolved source criticism plus lexical candidate generation",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O4",
+      "O9",
+      "O6"
+    ],
+    "trv": [
+      "OPACITY",
+      "UNDERDETERMINATION"
+    ],
+    "ncv": [],
+    "rtr": "HIGH",
+    "cost_note": "Derivative-only automatic candidate; source inspection and philosophical adjudication remain mandatory."
+  },
+  "rivals": [
+    {
+      "description": "Lexical candidate RT04 triggered by 'должна'.",
+      "relation_rt_id": "RT04",
+      "bridge": "Not yet established.",
+      "discriminator": "Adjudicate modality and relation function in the authorized local source span."
+    },
+    {
+      "description": "Lexical candidate RT21 triggered by 'должна'.",
+      "relation_rt_id": "RT21",
+      "bridge": "Not yet established.",
+      "discriminator": "Adjudicate modality and relation function in the authorized local source span."
+    }
+  ],
+  "extensions": {
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "TRANSITION",
+      "relation_rationale": "Page-aware automatic candidates: RT04 ('должна'), RT21 ('должна'). The text itself is not redistributed and no candidate is semantic gold.",
+      "semantic_review_status": "STRUCTURAL_ONLY",
+      "human_review_required": true,
+      "review_notes": [
+        "Open the authorized source at the printed-page selector and reconstruct A, P and B.",
+        "Separate a mentioned modal or normative word from the operative relation.",
+        "Do not promote journal pagination or an edition crosswalk into philosophical evidence."
+      ]
+    }
+  },
+  "outcome": "DEFER",
+  "open_questions": [
+    "Are the page-bounded relata correct?",
+    "Which relation, if any, survives source, bridge, modality and rival review?"
+  ]
+}

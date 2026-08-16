@@ -1,0 +1,1350 @@
+{
+  "version": "16X-RECURSIVE-HERMENEUTIC-REENTRY-1.3",
+  "round_count": 2,
+  "rounds": [
+    {
+      "version": "16X-CORE4-REENTRY-1.3",
+      "round": 1,
+      "results": [
+        {
+          "engine_id": "engine_01",
+          "status": "COMPLETE",
+          "generative_position_count": 4,
+          "architecture_projection_count": 4,
+          "generative_positions": [
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'conflict' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'contradiction' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "contradiction"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'evidence' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "evidence"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'report' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "report"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "becomes",
+            "conflict",
+            "contradiction",
+            "evidence",
+            "excluded",
+            "frame-atom",
+            "interpretation",
+            "invisible",
+            "made",
+            "presupposed",
+            "probe",
+            "report",
+            "unit",
+            "what",
+            "when"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_02",
+          "status": "COMPLETE",
+          "generative_position_count": 1,
+          "architecture_projection_count": 1,
+          "generative_positions": [
+            {
+              "proposition": "Reversible operator hypothesis: test EVIDENCE_CONFLICT_ECOLOGY against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict",
+                  "contradiction",
+                  "evidence",
+                  "report"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "collapses",
+            "condition",
+            "distinction",
+            "evidence_conflict_ecology",
+            "explicit",
+            "hypothesis",
+            "operator",
+            "retaining",
+            "retirement",
+            "reversible",
+            "rival",
+            "source",
+            "test",
+            "while"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_03",
+          "status": "COMPLETE",
+          "generative_position_count": 4,
+          "architecture_projection_count": 4,
+          "generative_positions": [
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'conflict' and 'contradiction' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict",
+                  "contradiction"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'evidence' and 'report' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "evidence",
+                  "report"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'studies' and 'citations' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "studies",
+                  "citations"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Canonicalization-loss probe: compare the source term 'conflict' against the hybrid agenda label 'citations' and preserve any residue that the shared schema cannot express.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CANONICALIZATION_RESIDUE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict",
+                  "contradiction"
+                ],
+                "lineage_primitive": "CANONICAL_NORMALIZATION+LINEAGE_FIXITY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "agenda",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "citations",
+            "compare",
+            "conflict",
+            "contradiction",
+            "differential",
+            "equivalent",
+            "evidence",
+            "express",
+            "hybrid",
+            "inferential",
+            "into",
+            "label",
+            "local",
+            "preserve",
+            "probe",
+            "report",
+            "residue",
+            "roles",
+            "schema",
+            "semantic-boundary",
+            "shared",
+            "shown",
+            "source",
+            "studies",
+            "term",
+            "that",
+            "their",
+            "until"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_04",
+          "status": "COMPLETE",
+          "generative_position_count": 1,
+          "architecture_projection_count": 1,
+          "generative_positions": [
+            {
+              "proposition": "Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: Three studies report that intervention X improves outcome Y, while two studies report no effect under different conditions.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SCOPE_LATTICE_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 1,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "report",
+                  "studies",
+                  "conditions",
+                  "effect"
+                ],
+                "lineage_primitive": "SCOPE_LATTICE"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "before",
+            "clause",
+            "compare",
+            "conditions",
+            "different",
+            "effect",
+            "evidence",
+            "improves",
+            "intervention",
+            "modality",
+            "operator",
+            "outcome",
+            "parse",
+            "parses",
+            "polarity",
+            "probe",
+            "report",
+            "rival",
+            "scope",
+            "studies",
+            "that",
+            "this",
+            "three",
+            "under",
+            "using",
+            "while"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        }
+      ],
+      "metrics": {
+        "core4_complete": 4,
+        "generative_positions": 10,
+        "pairwise_mean_divergence": 0.9282,
+        "engine_output_entropy": 0.861,
+        "truth_promotion_violations": 0
+      },
+      "pairwise_core4_divergence": [
+        {
+          "a": "engine_01",
+          "b": "engine_02",
+          "lexical_jaccard": 0.0,
+          "divergence": 1.0
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_03",
+          "lexical_jaccard": 0.1163,
+          "divergence": 0.8837
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_04",
+          "lexical_jaccard": 0.0789,
+          "divergence": 0.9211
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_03",
+          "lexical_jaccard": 0.0435,
+          "divergence": 0.9565
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_04",
+          "lexical_jaccard": 0.0789,
+          "divergence": 0.9211
+        },
+        {
+          "a": "engine_03",
+          "b": "engine_04",
+          "lexical_jaccard": 0.1132,
+          "divergence": 0.8868
+        }
+      ],
+      "claim_ceiling": "DERIVED_REENTRY_OUTPUTS_ARE_SECOND_ORDER_GENERATIVE_NOT_PRIMARY_EVIDENCE",
+      "round_hash": "a561ea482e1d077def31a518472f7a8498723ab565d1cb84352a8357c6c08735"
+    },
+    {
+      "version": "16X-CORE4-REENTRY-1.3",
+      "round": 2,
+      "results": [
+        {
+          "engine_id": "engine_01",
+          "status": "COMPLETE",
+          "generative_position_count": 7,
+          "architecture_projection_count": 5,
+          "generative_positions": [
+            {
+              "proposition": "## PRIOR_CORE4_RETURNS - [engine_02] Reversible operator hypothesis: test EVIDENCE_CONFLICT_ECOLOGY against the source, while retaining an explicit retirement condition if it collapses a rival distinction. - [engine_03] Semantic-boundary differential: do not canonicalize 'conflict' and 'contradiction' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'evidence' and 'report' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'studies' and 'citations' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Canonicalization-loss probe: compare the source term 'conflict' against the hybrid agenda label 'citations' and preserve any residue that the shared schema cannot express. - [engine_04] Polarity/modality parse probe: compare rival scope parses",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-79568aed5733939e40f80b008ca5fd15307d637d82a1b9497b47829192ebdefe#L33-L39"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "using this clause as operator evidence: Three studies report that intervention X improves outcome Y, while two studies report no effect under different conditions.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-79568aed5733939e40f80b008ca5fd15307d637d82a1b9497b47829192ebdefe#L33-L39"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'conflict' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'contradiction' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "contradiction"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'evidence' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "evidence"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Frame-atom probe: what is excluded, presupposed, or made invisible when 'report' becomes the unit of interpretation?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "INTERROGATIVE_FRAME_ATOM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "report"
+                ],
+                "lineage_primitive": "FRAME_ATOM+INTERROGATIVE_INDUCTION"
+              }
+            },
+            {
+              "proposition": "Second-order destruction: what common presupposition is shared by these peer returns — Reversible operator hypothesis: test EVIDENCE_CONFLICT_ECOLOGY against the source, while retaining an explicit retirement condition if it collapses a rival distinction. / Semantic-boundary differential: do not canonicalize 'conflict' and 'contradiction' into one shared label until their local inferential roles are shown equivalent.?",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SECOND_ORDER_DESTRUCTION",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict",
+                  "contradiction"
+                ],
+                "lineage_primitive": "EXPERT_LIVING_DUALITY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "agenda",
+            "becomes",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "citations",
+            "clause",
+            "collapses",
+            "common",
+            "compare",
+            "condition",
+            "conditions",
+            "conflict",
+            "contradiction",
+            "destruction",
+            "different",
+            "differential",
+            "distinction",
+            "effect",
+            "engine_02",
+            "engine_03",
+            "engine_04",
+            "equivalent",
+            "evidence",
+            "evidence_conflict_ecology",
+            "excluded",
+            "explicit",
+            "express",
+            "frame-atom",
+            "hybrid",
+            "hypothesis",
+            "improves",
+            "inferential",
+            "interpretation",
+            "intervention",
+            "into",
+            "invisible",
+            "label",
+            "local",
+            "made",
+            "modality",
+            "operator",
+            "outcome",
+            "parse",
+            "parses",
+            "peer",
+            "polarity",
+            "preserve",
+            "presupposed",
+            "presupposition",
+            "prior_core4_returns",
+            "probe",
+            "report",
+            "residue",
+            "retaining",
+            "retirement",
+            "returns",
+            "reversible",
+            "rival",
+            "roles",
+            "schema",
+            "scope",
+            "second-order",
+            "semantic-boundary",
+            "shared",
+            "shown",
+            "source",
+            "studies",
+            "term",
+            "test",
+            "that",
+            "their",
+            "these",
+            "this",
+            "three",
+            "under",
+            "unit",
+            "until",
+            "using"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_02",
+          "status": "COMPLETE",
+          "generative_position_count": 4,
+          "architecture_projection_count": 2,
+          "generative_positions": [
+            {
+              "proposition": "## PRIOR_CORE4_RETURNS - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'conflict' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'contradiction' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'evidence' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'report' becomes the unit of interpretation? - [engine_03] Semantic-boundary differential: do not canonicalize 'conflict' and 'contradiction' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'evidence' and 'report' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Semantic-boundary differential: do not canonicalize 'studies' and 'citations' into one shared label until their local inferential roles are shown equivalent. - [engine_03] Canonicalization-loss probe: compare the source term 'conflict' against the hybrid agenda label 'citations' and preserve any residue that the shared schema cannot express. - [engine_04] Polarity/modality parse probe: compare rival scope parses",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-35875a10ae8eebae761153f8018bd38e447b08b5ed1290613fa14fb6f9be3fa2#L33-L42"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "using this clause as operator evidence: Three studies report that intervention X improves outcome Y, while two studies report no effect under different conditions.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-35875a10ae8eebae761153f8018bd38e447b08b5ed1290613fa14fb6f9be3fa2#L33-L42"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Reversible operator hypothesis: test EVIDENCE_CONFLICT_ECOLOGY against the source, while retaining an explicit retirement condition if it collapses a rival distinction.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_MUTATION_CANDIDATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict",
+                  "contradiction",
+                  "evidence",
+                  "report"
+                ],
+                "lineage_primitive": "OPEN_SET_OPERATOR_BIRTH+REVERSIBLE_MUTATION"
+              }
+            },
+            {
+              "proposition": "Operator-ecology probe: treat disagreement among Core-4 returns as evidence that operator selection itself may be local rather than global.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "OPERATOR_ECOLOGY_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict",
+                  "contradiction",
+                  "evidence"
+                ],
+                "lineage_primitive": "OPERATOR_ECOLOGY"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "agenda",
+            "among",
+            "becomes",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "citations",
+            "clause",
+            "collapses",
+            "compare",
+            "condition",
+            "conditions",
+            "conflict",
+            "contradiction",
+            "core-4",
+            "different",
+            "differential",
+            "disagreement",
+            "distinction",
+            "effect",
+            "engine_01",
+            "engine_03",
+            "engine_04",
+            "equivalent",
+            "evidence",
+            "evidence_conflict_ecology",
+            "excluded",
+            "explicit",
+            "express",
+            "frame-atom",
+            "global",
+            "hybrid",
+            "hypothesis",
+            "improves",
+            "inferential",
+            "interpretation",
+            "intervention",
+            "into",
+            "invisible",
+            "itself",
+            "label",
+            "local",
+            "made",
+            "modality",
+            "operator",
+            "operator-ecology",
+            "outcome",
+            "parse",
+            "parses",
+            "polarity",
+            "preserve",
+            "presupposed",
+            "prior_core4_returns",
+            "probe",
+            "rather",
+            "report",
+            "residue",
+            "retaining",
+            "retirement",
+            "returns",
+            "reversible",
+            "rival",
+            "roles",
+            "schema",
+            "scope",
+            "selection",
+            "semantic-boundary",
+            "shared",
+            "shown",
+            "source",
+            "studies",
+            "term",
+            "test",
+            "than",
+            "that",
+            "their",
+            "this",
+            "three",
+            "treat"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_03",
+          "status": "COMPLETE",
+          "generative_position_count": 7,
+          "architecture_projection_count": 5,
+          "generative_positions": [
+            {
+              "proposition": "## PRIOR_CORE4_RETURNS - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'conflict' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'contradiction' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'evidence' becomes the unit of interpretation? - [engine_01] Frame-atom probe: what is excluded, presupposed, or made invisible when 'report' becomes the unit of interpretation? - [engine_02] Reversible operator hypothesis: test EVIDENCE_CONFLICT_ECOLOGY against the source, while retaining an explicit retirement condition if it collapses a rival distinction. - [engine_04] Polarity/modality parse probe: compare rival scope parses",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-93109adcfe4f3215356a2e26b06fc49e9e881ab190a00db4b54194e96aeee5ec#L33-L39"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "A",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "using this clause as operator evidence: Three studies report that intervention X improves outcome Y, while two studies report no effect under different conditions.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SOURCE_BOUNDED_CLAIM",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [
+                "LOCAL-SHA256-93109adcfe4f3215356a2e26b06fc49e9e881ab190a00db4b54194e96aeee5ec#L33-L39"
+              ],
+              "evidence_kind": "DERIVED_REENTRY_NOT_PRIMARY_EVIDENCE",
+              "evidence_strength": 0.2,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "record_id": "REENTRY-DOSSIER-AUTO-001",
+                "node_id": "B",
+                "outcome": "DEFER",
+                "native_reentry_stance": "PROPOSE",
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'conflict' and 'contradiction' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict",
+                  "contradiction"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'evidence' and 'report' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "evidence",
+                  "report"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Semantic-boundary differential: do not canonicalize 'studies' and 'citations' into one shared label until their local inferential roles are shown equivalent.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SEMANTIC_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "studies",
+                  "citations"
+                ],
+                "lineage_primitive": "SHARED_SEMANTIC_BOUNDARY+CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            },
+            {
+              "proposition": "Canonicalization-loss probe: compare the source term 'conflict' against the hybrid agenda label 'citations' and preserve any residue that the shared schema cannot express.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CANONICALIZATION_RESIDUE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict",
+                  "contradiction"
+                ],
+                "lineage_primitive": "CANONICAL_NORMALIZATION+LINEAGE_FIXITY"
+              }
+            },
+            {
+              "proposition": "Cross-lineage differential: Core-4 peers generated incompatible descriptive vocabularies; preserve the difference between 'Frame-atom probe: what is excluded, presupposed, or made invisible when 'conflict' becomes the unit of interpretation?' and 'Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: Three studies r' before fusion.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "CROSS_LINEAGE_DIFFERENTIAL",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict",
+                  "contradiction"
+                ],
+                "lineage_primitive": "CROSS_LINEAGE_DIFFERENTIAL"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "against",
+            "agenda",
+            "becomes",
+            "before",
+            "between",
+            "cannot",
+            "canonicalization-loss",
+            "canonicalize",
+            "citations",
+            "clause",
+            "collapses",
+            "compare",
+            "condition",
+            "conditions",
+            "conflict",
+            "contradiction",
+            "core-4",
+            "cross-lineage",
+            "descriptive",
+            "difference",
+            "different",
+            "differential",
+            "distinction",
+            "effect",
+            "engine_01",
+            "engine_02",
+            "engine_04",
+            "equivalent",
+            "evidence",
+            "evidence_conflict_ecology",
+            "excluded",
+            "explicit",
+            "express",
+            "frame-atom",
+            "fusion",
+            "generated",
+            "hybrid",
+            "hypothesis",
+            "improves",
+            "incompatible",
+            "inferential",
+            "interpretation",
+            "intervention",
+            "into",
+            "invisible",
+            "label",
+            "local",
+            "made",
+            "modality",
+            "operator",
+            "outcome",
+            "parse",
+            "parses",
+            "peers",
+            "polarity",
+            "preserve",
+            "presupposed",
+            "prior_core4_returns",
+            "probe",
+            "report",
+            "residue",
+            "retaining",
+            "retirement",
+            "reversible",
+            "rival",
+            "roles",
+            "schema",
+            "scope",
+            "semantic-boundary",
+            "shared",
+            "shown",
+            "source",
+            "studies",
+            "term",
+            "test",
+            "that",
+            "their",
+            "this",
+            "three",
+            "under"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 1,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        },
+        {
+          "engine_id": "engine_04",
+          "status": "COMPLETE",
+          "generative_position_count": 2,
+          "architecture_projection_count": 2,
+          "generative_positions": [
+            {
+              "proposition": "Polarity/modality parse probe: compare rival scope parses before using this clause as operator evidence: Three studies report that intervention X improves outcome Y, while two studies report no effect under different conditions.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "SCOPE_LATTICE_PROBE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "report",
+                  "studies",
+                  "conditions",
+                  "effect"
+                ],
+                "lineage_primitive": "SCOPE_LATTICE"
+              }
+            },
+            {
+              "proposition": "Counterfactual gate: invert or remove the cue that licenses each peer reading; quarantine any interpretation that survives a structure-changing perturbation unchanged.",
+              "proposition_key": null,
+              "stance": "GENERATIVE_ONLY",
+              "claim_type": "COUNTERFACTUAL_GATE",
+              "force": "GENERATIVE_ONLY",
+              "source_refs": [],
+              "evidence_kind": "CORE4_ARCHITECTURE_PROJECTION_DERIVED",
+              "evidence_strength": 0.12,
+              "claim_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+              "metadata": {
+                "reentry_round": 2,
+                "provenance_class": "DERIVED_REENTRY_DOSSIER",
+                "anchors": [
+                  "conflict",
+                  "contradiction",
+                  "evidence"
+                ],
+                "lineage_primitive": "COUNTERFACTUAL_GATE"
+              }
+            }
+          ],
+          "novel_tokens": [
+            "before",
+            "clause",
+            "compare",
+            "conditions",
+            "counterfactual",
+            "different",
+            "each",
+            "effect",
+            "evidence",
+            "gate",
+            "improves",
+            "interpretation",
+            "intervention",
+            "invert",
+            "licenses",
+            "modality",
+            "operator",
+            "outcome",
+            "parse",
+            "parses",
+            "peer",
+            "perturbation",
+            "polarity",
+            "probe",
+            "quarantine",
+            "reading",
+            "remove",
+            "report",
+            "rival",
+            "scope",
+            "structure-changing",
+            "studies",
+            "survives",
+            "that",
+            "this",
+            "three",
+            "unchanged",
+            "under",
+            "using",
+            "while"
+          ],
+          "native_reentry_intake": {
+            "available": true,
+            "bundle_version": "DAE-INTAKE-0.1",
+            "unit_count": 8,
+            "candidate_record_count": 0,
+            "claim_ceiling": "CANDIDATE_GENERATION_ONLY"
+          },
+          "native_error": null
+        }
+      ],
+      "metrics": {
+        "core4_complete": 4,
+        "generative_positions": 20,
+        "pairwise_mean_divergence": 0.4914,
+        "engine_output_entropy": 0.9284,
+        "truth_promotion_violations": 0
+      },
+      "pairwise_core4_divergence": [
+        {
+          "a": "engine_01",
+          "b": "engine_02",
+          "lexical_jaccard": 0.7582,
+          "divergence": 0.2418
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_03",
+          "lexical_jaccard": 0.7582,
+          "divergence": 0.2418
+        },
+        {
+          "a": "engine_01",
+          "b": "engine_04",
+          "lexical_jaccard": 0.2766,
+          "divergence": 0.7234
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_03",
+          "lexical_jaccard": 0.7582,
+          "divergence": 0.2418
+        },
+        {
+          "a": "engine_02",
+          "b": "engine_04",
+          "lexical_jaccard": 0.2371,
+          "divergence": 0.7629
+        },
+        {
+          "a": "engine_03",
+          "b": "engine_04",
+          "lexical_jaccard": 0.2632,
+          "divergence": 0.7368
+        }
+      ],
+      "claim_ceiling": "DERIVED_REENTRY_OUTPUTS_ARE_SECOND_ORDER_GENERATIVE_NOT_PRIMARY_EVIDENCE",
+      "round_hash": "80a8ce6460024bed50480ad058cf7f415a336b082af5de81fadf62d15c4b9812"
+    }
+  ],
+  "return_edges": [
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_01",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_02",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_04",
+      "to_engine": "engine_03",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_01",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_02",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    },
+    {
+      "from_engine": "engine_03",
+      "to_engine": "engine_04",
+      "kind": "CORE4_REENTRY_RETURN",
+      "round_from": 1,
+      "round_to": 2,
+      "truth_effect": "NONE"
+    }
+  ],
+  "hermeneutic_graph": {
+    "path": "HERMENEUTIC_REENTRY_GRAPH.json",
+    "graph_hash": "ddcaa2f36dc15cc75e2d00ac9774ab5bd73456009ac726e2180e760fd01237a3",
+    "node_count": 31,
+    "edge_count": 46,
+    "closed_reground_cycles": 20
+  },
+  "metrics": {
+    "recursive_rounds": 2,
+    "return_edge_count": 12,
+    "total_generative_positions": 30,
+    "mean_core4_divergence": 0.7098,
+    "truth_promotion_violations": 0,
+    "all_core4_participated_each_round": true,
+    "hermeneutic_cycle_count": 20,
+    "hermeneutic_graph_edges": 46
+  },
+  "claim_ceiling": "RECURSIVE_REENTRY_MEASURES_GENERATIVE_TRANSFORMATION_NOT_EXTERNAL_SEMANTIC_CORRECTNESS",
+  "reentry_hash": "63be68fd4e2b2c45e543cf7da783bf4a53d2cf4814528ecdc792c3dd93ef1bae"
+}

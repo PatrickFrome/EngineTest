@@ -1,0 +1,40 @@
+{
+  "run_id": "4A-DEMO-UNSTABLE-VALID",
+  "engine_version": "0.2.3-alpha.1",
+  "core_version": "CORE 4.0.0-alpha.1",
+  "description": "Valid branch: constitution leaves relata unstable, so IND4 precedes ID4.",
+  "execution": [
+    {
+      "step": 1,
+      "record_id": "demo-em4",
+      "module_id": "EM4",
+      "relata_stability_before": "NOT_APPLICABLE",
+      "relata_stability_after": "NOT_APPLICABLE",
+      "decision_note": "Enablement conditions registered."
+    },
+    {
+      "step": 2,
+      "record_id": "demo-kc4",
+      "module_id": "KC4",
+      "relata_stability_before": "NOT_APPLICABLE",
+      "relata_stability_after": "UNSTABLE",
+      "decision_note": "Constitution changes bearer/target criteria."
+    },
+    {
+      "step": 3,
+      "record_id": "demo-ind4",
+      "module_id": "IND4",
+      "relata_stability_before": "UNSTABLE",
+      "relata_stability_after": "STABLE",
+      "decision_note": "Candidate relata stabilized under an explicit partition."
+    },
+    {
+      "step": 4,
+      "record_id": "demo-id4",
+      "module_id": "ID4",
+      "relata_stability_before": "STABLE",
+      "relata_stability_after": "STABLE",
+      "decision_note": "Identity criteria may now be audited."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "blob_descriptors": [
+    {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "media_type": "text/plain",
+      "relative_path": "LICENSE",
+      "size": 11357
+    },
+    {
+      "digest": "4d889b3dde6520ef5499c9876569ec39fae13da7f7ea03caf502ee94dbdaf9aa",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "7d09becbf7ccfb3db2368548592d010f5da708d3",
+      "media_type": "text/markdown",
+      "relative_path": "README.md",
+      "size": 11768
+    }
+  ],
+  "exact_commit_or_release": "0886e34d2d6947e631b8338088a1293862243300",
+  "pack_root_sha256": "d75ef6264b51e7627c7649b3ff69c95f8f7e0f294c31f295e28b86862d29d4a5",
+  "pack_schema_version": "ARCHITECTURE-SOURCE-PACK-1",
+  "source_id": "qwen3.6-0886e34"
+}

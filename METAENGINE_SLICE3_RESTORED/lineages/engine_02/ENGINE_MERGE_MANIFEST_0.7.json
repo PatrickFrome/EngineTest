@@ -1,0 +1,54 @@
+{
+  "release": "Destruktion_4.0_COMPLETE_0.7_INDEPENDENT_FAMILY_INTEGRATION",
+  "studio_version": "0.7.0-independent-family-integration",
+  "active_frozen_engine": {
+    "version": "0.10.0-alpha.1",
+    "required_assets": 66,
+    "mutation_policy": "do_not_modify"
+  },
+  "integration_sources": [
+    {
+      "artifact": "Destruktion_4.0_0.10.0_INDEPENDENT_FAMILY_ECOLOGY_REGRESSION (1).zip",
+      "sha256": "6cf1c2481746a1230df444c58ce431de13eeb75806118c604630155d440a2f67",
+      "role": "behavioral_oracle_no_source_runtime"
+    },
+    {
+      "artifact": "Destruktion_4.0_AI_CHAT_PORTABLE_0.9.0-alpha.1(1)(1).zip",
+      "sha256": "4bc99384b4baafc4371ddb541ae0689c9119c4f0c20ba27f1ef6dc8419c1c059",
+      "role": "historical_executable_control",
+      "required_assets": 48,
+      "native_tests_expected": 78
+    }
+  ],
+  "accepted": [
+    "independent interrogative-family routing",
+    "Unicode lexical boundaries",
+    "source-birth gate",
+    "cross-family local composition",
+    "downstream boundary/residual preservation",
+    "global polyphonic abstention"
+  ],
+  "adapted": [
+    "independent-family runtime reconstructed outside frozen baseline",
+    "family detector exposed as non-promoting probe",
+    "three ecology layers kept separate"
+  ],
+  "not_promoted": [
+    "process vocabulary as ontology",
+    "synthetic regression as semantic validation",
+    "local composition as global synthesis",
+    "probe detection as source birth"
+  ],
+  "new_commands": [
+    "ecology:independent",
+    "ecology:downstream",
+    "family:probe"
+  ],
+  "validation": {
+    "integrated_tests_expected": 111,
+    "independent_family_tests_expected": 5,
+    "oracle_windows_expected": 6,
+    "frozen_010_assets_expected": 66,
+    "historical_09_tests_expected": 78
+  }
+}

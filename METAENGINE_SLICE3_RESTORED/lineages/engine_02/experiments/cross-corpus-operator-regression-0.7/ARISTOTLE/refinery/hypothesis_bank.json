@@ -1,0 +1,215 @@
+{
+  "bank_version": "DAE-HYPOTHESIS-BANK-1.2",
+  "engine_version": "0.7.0-alpha.1",
+  "generated_at": "2026-08-11T16:16:13Z",
+  "source_id": "LOCAL-SHA256-322BCD4A414018DF0A9B91DFC38473FE525A903DC8022DBB5ECCD76319431610",
+  "registry_version": "DAE-REFINERY-TOPICS-1.0",
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP-EMERGENT_SOURCE_SUBSTANCE",
+      "topic_id": "EMERGENT_SOURCE_SUBSTANCE",
+      "label": "Source-forced constellation: substance / reference / explained / predicable / present / substances",
+      "research_question": "Which distinctions, dependencies or representation failures among substance, reference, explained, predicable, present, substances become invisible when the current topic registry determines the problem in advance?",
+      "origin": "SOURCE_FORCED_REGISTRY_RESISTANCE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "SOURCE_RESISTANCE",
+        "TERM_SUBSTANCE",
+        "TERM_REFERENCE",
+        "TERM_EXPLAINED",
+        "TERM_PREDICABLE",
+        "TERM_PRESENT",
+        "TERM_SUBSTANCES"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000001-9217219C97",
+        "OX-P000004-00030EBED3",
+        "OX-P000005-654422A27F",
+        "OX-P000012-A9BBC209AE",
+        "OX-P000015-01EB6A7A6B",
+        "OX-P000018-7F2D5301D5",
+        "OX-P000019-EAF57BA764",
+        "OX-P000007-CC24926337",
+        "OX-P000010-2984C7F7FA",
+        "OX-P000006-207B6C554E"
+      ],
+      "evidence_count": 10,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "substance",
+        "reference",
+        "explained",
+        "predicable",
+        "present",
+        "substances"
+      ],
+      "operator_candidate": {
+        "family": "RELATION_GENESIS_PROFILE",
+        "candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+        "signal_counts": {
+          "DIFFERENTIAL": 0,
+          "REFERENCE_RELATIVE": 4,
+          "SYSTEM_FIELD": 0,
+          "ASYMMETRIC_DEPENDENCE": 5,
+          "RECIPROCITY_GATHERING": 0,
+          "DISTANCE_DIFFERENTIATION": 0,
+          "PRIORITY": 5
+        },
+        "active_signal_families": [
+          "REFERENCE_RELATIVE",
+          "ASYMMETRIC_DEPENDENCE",
+          "PRIORITY"
+        ],
+        "central_term_cooccurrence_segments": 4,
+        "profile_hints": [
+          "ASYMMETRIC_DEPENDENCE",
+          "LOCAL_MODE_VARIATION"
+        ],
+        "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_RELATION_FIRST_ONTOLOGY"
+      },
+      "source_resistance_trigger": "Curated topic coverage captured 0/6 source-central terms; 6 remained outside the recognized problem-space.",
+      "revision_condition": "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations."
+    },
+    {
+      "hypothesis_id": "HYP-EMERGENT_CLAIM_LOCAL_MODE_VARIATION",
+      "topic_id": "EMERGENT_CLAIM_LOCAL_MODE_VARIATION",
+      "label": "LOCAL_MODE_VARIATION",
+      "claim_statement": "the same corpus requires a primary-substance profile in one region and a reference-to-another profile for relatives.",
+      "research_question": "Which source-bounded discriminators support, qualify or defeat the project thesis “LOCAL_MODE_VARIATION” without presupposing the current registry?",
+      "origin": "EXPLICIT_PROJECT_THESIS_CANDIDATE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "EXPLICIT_PROJECT_THESIS",
+        "LOCAL_MODE_VARIATION",
+        "TERM_SUBSTANCE",
+        "TERM_REFERENCE"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000015-01EB6A7A6B",
+        "OX-P000001-9217219C97",
+        "OX-P000004-00030EBED3",
+        "OX-P000005-654422A27F",
+        "OX-P000007-CC24926337",
+        "OX-P000010-2984C7F7FA",
+        "OX-P000012-A9BBC209AE",
+        "OX-P000018-7F2D5301D5",
+        "OX-P000019-EAF57BA764"
+      ],
+      "evidence_count": 9,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "substance",
+        "reference"
+      ],
+      "source_resistance_trigger": "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it.",
+      "revision_condition": "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss."
+    },
+    {
+      "hypothesis_id": "HYP-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST",
+      "topic_id": "EMERGENT_CLAIM_GLOBAL_RELATION_FIRST",
+      "label": "GLOBAL_RELATION_FIRST",
+      "claim_statement": "all categories are constituted relation-first in the same sense.",
+      "research_question": "Which source-bounded discriminators support, qualify or defeat the project thesis “GLOBAL_RELATION_FIRST” without presupposing the current registry?",
+      "origin": "EXPLICIT_PROJECT_THESIS_CANDIDATE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "EXPLICIT_PROJECT_THESIS",
+        "GLOBAL_RELATION_FIRST",
+        "TERM_SUBSTANCE",
+        "TERM_REFERENCE",
+        "TERM_EXPLAINED",
+        "TERM_PREDICABLE",
+        "TERM_PRESENT",
+        "TERM_SUBSTANCES"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000016-2BE7DE3C48",
+        "OX-P000001-9217219C97",
+        "OX-P000004-00030EBED3",
+        "OX-P000005-654422A27F",
+        "OX-P000006-207B6C554E",
+        "OX-P000007-CC24926337",
+        "OX-P000010-2984C7F7FA",
+        "OX-P000012-A9BBC209AE",
+        "OX-P000015-01EB6A7A6B",
+        "OX-P000018-7F2D5301D5",
+        "OX-P000019-EAF57BA764"
+      ],
+      "evidence_count": 11,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "substance",
+        "reference",
+        "explained",
+        "predicable",
+        "present",
+        "substances"
+      ],
+      "source_resistance_trigger": "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it.",
+      "revision_condition": "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss."
+    }
+  ],
+  "case_matrices": [],
+  "source_resistance": {
+    "status": "REGISTRY_BLIND_SPOT",
+    "central_terms": [
+      "substance",
+      "reference",
+      "explained",
+      "predicable",
+      "present",
+      "substances"
+    ],
+    "covered_terms": [],
+    "uncovered_terms": [
+      "substance",
+      "reference",
+      "explained",
+      "predicable",
+      "present",
+      "substances"
+    ],
+    "coverage_ratio": 0,
+    "explicit_stress_terms": [],
+    "source_native_terms": [
+      "substance",
+      "reference",
+      "explained",
+      "predicable",
+      "present",
+      "substances"
+    ],
+    "centrality_basis": "MULTILINGUAL_SOURCE_FREQUENCY_PLUS_SOURCE_DOCUMENT_FREQUENCY_WITH_OPTIONAL_EXPLICIT_STRESS_HINTS",
+    "operator_candidate": {
+      "family": "RELATION_GENESIS_PROFILE",
+      "candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 4,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 5,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 5
+      },
+      "active_signal_families": [
+        "REFERENCE_RELATIVE",
+        "ASYMMETRIC_DEPENDENCE",
+        "PRIORITY"
+      ],
+      "central_term_cooccurrence_segments": 4,
+      "profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_RELATION_FIRST_ONTOLOGY"
+    },
+    "emergent_hypotheses": [
+      "HYP-EMERGENT_SOURCE_SUBSTANCE",
+      "HYP-EMERGENT_CLAIM_LOCAL_MODE_VARIATION",
+      "HYP-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST"
+    ],
+    "principle": "SOURCE_CENTRALITY_CAN_FORCE_TOPIC_AND_OPERATOR_REVISION_BUT_CANNOT_BY_ITSELF_VALIDATE_A_PHILOSOPHICAL_CLAIM"
+  },
+  "claim_ceiling": "HYPOTHESIS_DISCOVERY_ONLY_NOT_CORROBORATION_OR_VALIDATION"
+}

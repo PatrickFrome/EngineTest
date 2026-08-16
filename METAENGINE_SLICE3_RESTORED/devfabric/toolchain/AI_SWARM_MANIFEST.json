@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "generated_for": "stage-b-multi-agent-fabric",
+  "zero_spend": true,
+  "auto_install": false,
+  "policy": {
+    "configure_paid_providers": false,
+    "download_models_automatically": false,
+    "start_remote_services_automatically": false,
+    "canonical_authority": false
+  },
+  "tools": {
+    "coder": {
+      "required": false,
+      "source": "https://coder.com/docs/install/cli",
+      "linux_amd64": "curl -fsSL https://coder.com/install.sh | sh -s -- --stable",
+      "linux_arm64": "curl -fsSL https://coder.com/install.sh | sh -s -- --stable"
+    },
+    "devpod": {
+      "required": false,
+      "source": "https://devpod.sh/docs/getting-started/install",
+      "linux_amd64": "curl -L -o devpod https://github.com/loft-sh/devpod/releases/latest/download/devpod-linux-amd64 && sudo install -c -m 0755 devpod /usr/local/bin && rm -f devpod",
+      "linux_arm64": "curl -L -o devpod https://github.com/loft-sh/devpod/releases/latest/download/devpod-linux-arm64 && sudo install -c -m 0755 devpod /usr/local/bin && rm -f devpod"
+    },
+    "openhands": {
+      "required": false,
+      "source": "https://github.com/OpenHands/OpenHands-CLI",
+      "linux_amd64": "curl -fsSL https://install.openhands.dev/install.sh | sh",
+      "linux_arm64": "curl -fsSL https://install.openhands.dev/install.sh | sh"
+    },
+    "agent-canvas": {
+      "required": false,
+      "source": "https://github.com/OpenHands/agent-canvas",
+      "linux_amd64": "npm install -g @openhands/agent-canvas",
+      "linux_arm64": "npm install -g @openhands/agent-canvas"
+    },
+    "ollama": {
+      "required": false,
+      "source": "https://ollama.com/download/linux",
+      "linux_amd64": "curl -fsSL https://ollama.com/install.sh | sh",
+      "linux_arm64": "curl -fsSL https://ollama.com/install.sh | sh"
+    },
+    "opencode": {
+      "required": false,
+      "source": "https://opencode.ai/docs",
+      "linux_amd64": "curl -fsSL https://opencode.ai/install | bash",
+      "linux_arm64": "curl -fsSL https://opencode.ai/install | bash"
+    }
+  }
+}

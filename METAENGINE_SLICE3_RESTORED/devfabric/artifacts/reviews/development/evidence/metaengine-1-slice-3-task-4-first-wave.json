@@ -1,0 +1,67 @@
+{
+  "commands": [
+    {
+      "command": "pytest -q tests/test_architecture_source_registry_artifacts.py::test_retrieval_evidence_binds_upstream_git_blobs_to_retained_sha256",
+      "exit_status": 1,
+      "observed": "retrieval_evidence.json absent exactly as frozen checkpoint declared",
+      "phase": "RECORDED_RED"
+    },
+    {
+      "command": "pytest -q tests/test_architecture_source_registry_artifacts.py::test_retrieval_evidence_binds_upstream_git_blobs_to_retained_sha256",
+      "exit_status": 0,
+      "observed": "13/13 rows independently bind pinned revision, Git blob id, SHA-256, size, and official GitHub file locator",
+      "phase": "GREEN"
+    },
+    {
+      "command": "PYTHONPATH=. python scripts/architecture_source_registry.py verify --registry research/architecture_library/registry.json --vault-root reference-vault",
+      "exit_status": 0,
+      "observed": "PASS; 10 sources, 5 ingested, 13 verified blobs, 150521 bytes",
+      "phase": "REGISTRY_VERIFY"
+    },
+    {
+      "command": "PYTHONPATH=$REPO_ROOT pytest -q tests/test_architecture_sources.py tests/test_reference_vault.py tests/test_architecture_source_registry_cli.py tests/test_architecture_source_registry_artifacts.py",
+      "exit_status": 0,
+      "observed": "42 passed",
+      "phase": "FOCUSED_SUITE"
+    },
+    {
+      "command": "python -m compileall -q metaengine scripts/architecture_source_registry.py && git diff --check",
+      "exit_status": 0,
+      "observed": "PASS",
+      "phase": "STATIC"
+    },
+    {
+      "command": "git ls-files -- reference-vault; git check-ignore reference-vault/blobs/sha256/<digest>; common secret-pattern scan",
+      "exit_status": 0,
+      "observed": "0 tracked vault files; vault ignored; secret-like hits 0",
+      "phase": "SUPPLY_CHAIN_BOUNDARY"
+    }
+  ],
+  "completed_step_commit": "57aedcb4047e4a9c38d77b761308b2ee02000956",
+  "completed_step_id": "METAENGINE-1-SLICE-3-TASK-4",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "file_sha256": {
+    "artifact_tests": "b8e13d7d97eb5dcf7b5c45909a9a34319b989fcca2bb94d3157e336f03e0504e",
+    "catalog": "85779ef28bd6c30daccca2bb331bafbe219625749373c7f26e059efb657db417",
+    "registry": "d57a4618c1fe0e7b08f8da08dc5ef65afc6b4463b4e7219225876fa136166620",
+    "registry_script": "0f76ddaf3aa763552a3c48f2e7febda2b1b5bba7cb267f5813a19a3bb0f8351e",
+    "retrieval_evidence": "cd9d80197d059898fa120704a51d618ca317459448c87aaff4c11d940cabea97"
+  },
+  "kind": "SLICE_3_TASK_4_FIRST_WAVE_MATERIALIZATION",
+  "limitations": [
+    "CLI subprocess tests require repository root on PYTHONPATH in this portable runtime; no Core semantics changed.",
+    "Retrieval evidence is content-addressed but not yet cryptographically signed or independently mirrored.",
+    "Ingestion is not assimilation evidence and mechanism status remains capped at A0/A1."
+  ],
+  "observed_materialization": {
+    "closed_behavioral_only": 3,
+    "permissive_ingested": 5,
+    "registry_snapshot_sha256": "b50ee520f2dd605fb48f94c44dbb5fd26980fbcacf6a2150aafe178d41f631e8",
+    "restricted_reference": 2,
+    "retrieval_evidence_manifest_sha256": "2a569e3cf4408ba558d1af0cde16101e66911c550cecf15b392056129dbe7339",
+    "source_count": 10,
+    "unique_cas_objects": 12,
+    "verified_blob_descriptors": 13,
+    "verified_total_bytes": 150521
+  }
+}

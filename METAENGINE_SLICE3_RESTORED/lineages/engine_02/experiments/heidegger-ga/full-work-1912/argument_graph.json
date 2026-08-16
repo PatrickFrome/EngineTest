@@ -1,0 +1,166 @@
+{
+  "bundle_version": "DAE-ARGUMENT-1.0",
+  "bundle_id": "HGA-GA01-REALITAET-ARG-001",
+  "claims": [
+    {
+      "id": "C-FRAME",
+      "text": "Статья расчленяет проблему реальности на допустимость и способ полагания реального, а также на допустимость и способ его определения.",
+      "status": "ACCEPTED",
+      "claim_type": "INFORMATION",
+      "source_refs": ["HGA-PJ25-1912-REALITAET#S356"]
+    },
+    {
+      "id": "C-NEG-LIMIT",
+      "text": "Критика консциенциализма устанавливает реализм лишь как возможную позицию; положительное обоснование остаётся отдельной задачей.",
+      "status": "ACCEPTED",
+      "claim_type": "INFORMATION",
+      "source_refs": ["HGA-PJ25-1912-REALITAET#S357"]
+    },
+    {
+      "id": "C-ACT-CONTENT",
+      "text": "Один из центральных контрходов разводит психический акт понятия, идеальное содержание и интенционально подразумеваемый трансцендентный предмет.",
+      "status": "ACCEPTED",
+      "claim_type": "INFORMATION",
+      "source_refs": ["HGA-PJ25-1912-REALITAET#S357-S358"]
+    },
+    {
+      "id": "C-PHENOMENAL",
+      "text": "Непосредственные содержания восприятия признаются зависимыми от устройства субъекта и потому не отождествляются с реальностью как таковой.",
+      "status": "ACCEPTED",
+      "claim_type": "INFORMATION",
+      "source_refs": ["HGA-PJ25-1912-REALITAET#S361-S362"]
+    },
+    {
+      "id": "C-RELATIONAL",
+      "text": "Независимая от воли регулярность и межсубъектная сообщаемость опыта используются как основания для полагания транссубъективной реальности.",
+      "status": "ACCEPTED",
+      "claim_type": "INFORMATION",
+      "source_refs": ["HGA-PJ25-1912-REALITAET#S361-S362"]
+    },
+    {
+      "id": "C-COOP",
+      "text": "Определение реального требует совместной работы опыта и мышления; ни чистое мышление, ни чувственные данные по отдельности не достаточны.",
+      "status": "ACCEPTED",
+      "claim_type": "INFORMATION",
+      "source_refs": ["HGA-PJ25-1912-REALITAET#S360-S362"]
+    },
+    {
+      "id": "C-LIMIT",
+      "text": "Адекватное определение реальностей объявляется идеальной целью, а их собственная природа остаётся потенциально недоопределённой.",
+      "status": "ACCEPTED",
+      "claim_type": "INFORMATION",
+      "source_refs": ["HGA-PJ25-1912-REALITAET#S362-S363"]
+    },
+    {
+      "id": "C-GENRE",
+      "text": "Статья преимущественно реконструирует и критически присваивает программу Освальда Кюльпе, сохраняя отдельные оговорки к ней.",
+      "status": "ACCEPTED",
+      "claim_type": "INFORMATION",
+      "source_refs": ["HGA-PJ25-1912-REALITAET#S353-S363"]
+    },
+    {
+      "id": "C-MODERATE",
+      "text": "Наиболее экономная реконструкция: ранний текст защищает критический реализм как методологически необходимую и научно плодотворную исследовательскую программу, но не завершает доказательство природы реального.",
+      "status": "QUESTIONED",
+      "claim_type": "INFORMATION"
+    },
+    {
+      "id": "C-RIVAL-KANT",
+      "text": "Кантианский соперник может объяснить объективность опыта через трансцендентальные условия, не разрешая определение вещи самой по себе.",
+      "status": "ACCEPTED",
+      "claim_type": "ASSUMPTION",
+      "source_refs": ["HGA-GA01-REALITAET-ARG-001#rival-kant"]
+    },
+    {
+      "id": "C-RIVAL-STRUCT",
+      "text": "Структурно-реалистический или эмпиристский соперник может принять устойчивые отношения и научную предсказуемость без полного обязательства относительно природы скрытых носителей.",
+      "status": "ACCEPTED",
+      "claim_type": "ASSUMPTION",
+      "source_refs": ["HGA-GA01-REALITAET-ARG-001#rival-structural"]
+    },
+    {
+      "id": "C-RIVAL-CIRCLE",
+      "text": "Аргумент от межсубъектной сообщаемости рискует предположить других субъектов и общий мир до того, как ими обосновывается транссубъективность.",
+      "status": "ACCEPTED",
+      "claim_type": "ASSUMPTION",
+      "source_refs": ["HGA-GA01-REALITAET-ARG-001#rival-circularity"]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "ARG-MODERATE-PRO",
+      "scheme_id": "ABDUCTIVE-RECONSTRUCTION",
+      "direction": "PRO",
+      "conclusion": "C-MODERATE",
+      "premises": [
+        {"claim_id": "C-FRAME", "role": "ORDINARY"},
+        {"claim_id": "C-NEG-LIMIT", "role": "ORDINARY"},
+        {"claim_id": "C-ACT-CONTENT", "role": "ORDINARY"},
+        {"claim_id": "C-PHENOMENAL", "role": "ORDINARY"},
+        {"claim_id": "C-RELATIONAL", "role": "ORDINARY"},
+        {"claim_id": "C-COOP", "role": "ORDINARY"},
+        {"claim_id": "C-LIMIT", "role": "ORDINARY"},
+        {"claim_id": "C-GENRE", "role": "ORDINARY"}
+      ],
+      "critical_questions": [
+        {
+          "id": "CQ-EXPLANANDUM",
+          "status": "ANSWERED",
+          "answer": "Реконструкция объясняет сочетание антиидеалистической направленности, методической четверицы вопросов и признанного предела адекватного определения.",
+          "evidence_refs": ["HGA-PJ25-1912-REALITAET#S356-S363"]
+        },
+        {
+          "id": "CQ-ALTERNATIVES",
+          "status": "ANSWERED",
+          "answer": "Догматический метафизический реализм и чисто инструментальное чтение представлены как более сильная и более слабая альтернативы.",
+          "evidence_refs": ["HGA-GA01-REALITAET-ARG-001#alternative-range"]
+        },
+        {
+          "id": "CQ-DISCRIMINATOR",
+          "status": "ANSWERED",
+          "answer": "Решающим будет то, требуют ли положительные доводы обязательства относительно реальных носителей или лишь устойчивых отношений и практики науки.",
+          "evidence_refs": ["HGA-PJ25-1912-REALITAET#S361-S363"]
+        }
+      ]
+    },
+    {
+      "id": "ARG-MODERATE-CON",
+      "scheme_id": "ABDUCTIVE-RECONSTRUCTION",
+      "direction": "CON",
+      "conclusion": "C-MODERATE",
+      "premises": [
+        {"claim_id": "C-RIVAL-KANT", "role": "ORDINARY"},
+        {"claim_id": "C-RIVAL-STRUCT", "role": "ORDINARY"},
+        {"claim_id": "C-RIVAL-CIRCLE", "role": "ORDINARY"}
+      ],
+      "critical_questions": [
+        {
+          "id": "CQ-EXPLANANDUM",
+          "status": "ANSWERED",
+          "answer": "Соперники объясняют ту же научную объективность и регулярность, не принимая весь метафизический вес реалистической реконструкции.",
+          "evidence_refs": ["HGA-GA01-REALITAET-ARG-001#shared-explanandum"]
+        },
+        {
+          "id": "CQ-ALTERNATIVES",
+          "status": "ANSWERED",
+          "answer": "Представлены трансцендентальный, структурный и антикруговой варианты возражения.",
+          "evidence_refs": ["HGA-GA01-REALITAET-ARG-001#rivals"]
+        },
+        {
+          "id": "CQ-DISCRIMINATOR",
+          "status": "ANSWERED",
+          "answer": "Нужен независимый мост от принудительности отношений и коммуникации к существованию и определимости конкретных носителей.",
+          "evidence_refs": ["HGA-PJ25-1912-REALITAET#S361-S362"]
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "claim_id": "C-MODERATE",
+      "proof_standard": "DIALECTICAL",
+      "burden_party": "proponent",
+      "declared_status": "CONTESTED"
+    }
+  ]
+}

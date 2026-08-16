@@ -1,0 +1,23 @@
+{
+  "captured_at": "2026-08-13T20:45:16.245675+00:00",
+  "project_id": "gzrbxoiuenkksualgpvp",
+  "checkpoint": {
+    "checkpoint_id": "metaengine-chat-2.3.0-alpha.1-cp001",
+    "payload_root_sha256": "37ec1f81a2f1ef6ea0aed90582cc177f44fc3cca563d782fd7cc780575f94e1d",
+    "active_policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "verification_status": "VERIFIED",
+    "is_current": true
+  },
+  "active_policy": {
+    "policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "generation": 2,
+    "status": "ACTIVE",
+    "self_modifying_code_allowed": false
+  },
+  "open_epoch_count": 0,
+  "finalized_epoch_count": 1,
+  "promotion_receipt_count": 2,
+  "adaptation_receipt_count": 0,
+  "role_genome_count": 4,
+  "mode": "READ_ONLY"
+}

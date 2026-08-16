@@ -1,0 +1,42 @@
+{
+  "commands": [
+    {
+      "command": "PYTHONPATH=. pytest -q <Slice 3 + Constitution + Organization + D6 focused set>",
+      "exit_status": 0,
+      "observed": "166/166 collected focused tests passed",
+      "phase": "FOCUSED"
+    },
+    {
+      "command": "PYTHONPATH=. pytest -q",
+      "exit_status": 0,
+      "observed": "448/448 collected Python tests passed with attested runtime-only release-evidence, CAPSULE_MANIFEST, and external reference-vault restored",
+      "phase": "FULL"
+    },
+    {
+      "command": "python -m compileall -q metaengine scripts tests",
+      "exit_status": 0,
+      "observed": "PASS",
+      "phase": "COMPILEALL"
+    }
+  ],
+  "completed_step_commit": "18ec64ed7a27e63e71028c78df0e3ee7e85d0f2e",
+  "completed_step_id": "METAENGINE-1-SLICE-3",
+  "environment_fingerprint": {
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5"
+  },
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "kind": "SLICE_3_FINAL_TESTS",
+  "output_sha256": {
+    "all_collect": "045efc4225a5f4370775a8c87bad5bbe1c46785f14d9b9a6d27168c1af370b53",
+    "all_pytest": "7d299636559821694c4b345abf88eb5ee4c1573e21569bb3a227cadb94631e18",
+    "compileall": "d445cf9ab8085ebe83f390e0bd32dc53981a2f507a5520ab07a3c197d0d31f3a",
+    "focused": "16ec82c6eb3208c8fb372addbb3d3e3af668725c8697e356a2d9363785a77ead",
+    "focused_collect": "abbd9423e5f7c452444ba56db891ef5df71ee36939980e51fb3e18ad27003a2d"
+  },
+  "runtime_only_inputs": [
+    "release-evidence/ restored from attested immutable lineage vault and removed before Git integrity check",
+    "devfabric/CAPSULE_MANIFEST.json restored from prior verified CONTROL and removed before Git integrity check",
+    "reference-vault/ copied from verified external vault and removed before Git integrity check"
+  ]
+}

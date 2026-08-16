@@ -1,0 +1,29 @@
+{
+  "registry_version": "16X-ADAPTER-REGISTRY-2.3",
+  "silent_fallback_allowed": false,
+  "frontier_comparison_gate": {
+    "minimum_independent_real_model_tool_stacks": 3,
+    "currently_installed_real_model_tool_stacks": 0,
+    "native_local_executors": 4,
+    "reference_simulations": 12,
+    "status": "NOT_ELIGIBLE_FOR_FRONTIER_PARITY_CLAIM"
+  },
+  "adapters": [
+    {"engine_id": "engine_01", "adapter_kind": "NATIVE_LOCAL", "implementation_level": "REAL_EXECUTOR"},
+    {"engine_id": "engine_02", "adapter_kind": "NATIVE_LOCAL", "implementation_level": "REAL_EXECUTOR"},
+    {"engine_id": "engine_03", "adapter_kind": "NATIVE_LOCAL", "implementation_level": "REAL_EXECUTOR"},
+    {"engine_id": "engine_04", "adapter_kind": "NATIVE_LOCAL", "implementation_level": "REAL_EXECUTOR"},
+    {"engine_id": "engine_05", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_06", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_07", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_08", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_09", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_10", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_11", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_12", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_13", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_14", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_15", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"},
+    {"engine_id": "engine_16", "adapter_kind": "REFERENCE_SIMULATION", "implementation_level": "CLEAN_ROOM_CONTRACT_STUB"}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "kind": "SLICE_3_REFERENCE_VAULT_TDD",
+  "completed_step_id": "METAENGINE-1-SLICE-3-TASK-2",
+  "completed_step_commit": "e00de3686aedad7182e1ffd62ce6ef82d523c065",
+  "commands": [
+    {
+      "phase": "RED",
+      "command": ".venv/bin/python -m pytest tests/test_reference_vault.py tests/devfabric/test_capsule.py::test_reference_vault_bytes_are_external_to_control_payload -q",
+      "exit_status": 2,
+      "observed": "ModuleNotFoundError: No module named 'metaengine.reference_vault'"
+    },
+    {
+      "phase": "GREEN",
+      "command": ".venv/bin/python -m pytest tests/test_reference_vault.py tests/devfabric/test_capsule.py::test_reference_vault_bytes_are_external_to_control_payload -q",
+      "exit_status": 0,
+      "observed": "14 passed"
+    },
+    {
+      "phase": "FOCUSED_REGRESSION",
+      "command": ".venv/bin/python -m pytest tests/test_reference_vault.py tests/devfabric/test_capsule.py tests/test_architecture_sources.py tests/test_constitution_kernel.py -q",
+      "exit_status": 0,
+      "observed": "48 passed"
+    },
+    {
+      "phase": "STATIC",
+      "command": ".venv/bin/python -m compileall -q metaengine && .venv/bin/ruff check metaengine/reference_vault.py metaengine/security.py tests/test_reference_vault.py && .venv/bin/mypy --follow-imports=skip --ignore-missing-imports metaengine/architecture_sources.py metaengine/reference_vault.py && git diff --check",
+      "exit_status": 0,
+      "observed": "Ruff and mypy passed; compileall and diff check were clean"
+    },
+    {
+      "phase": "EXCLUSION",
+      "command": "git check-ignore -v reference-vault/blobs/sha256/<digest>",
+      "exit_status": 0,
+      "observed": ".gitignore reference-vault/ rule matched; capsule behavior test excluded the same bytes"
+    }
+  ],
+  "file_sha256": {
+    ".gitignore": "7d061b948eae4bb3f8f876c4076233c4691e40e1d7311d69c334c959490c78bf",
+    "metaengine/devfabric/capsule.py": "ec533f2e79c3e1a8d8a16b96d37ec86214f3d5cf2b5b6df9e1f39eb2ae950ce3",
+    "metaengine/reference_vault.py": "94b042a778e0ea3ed2ce67ea23a0de01c3ac5ac929bce38ccc37ff5b4eab4e1f",
+    "metaengine/security.py": "50c53b1eafec9c8625a4f6146e3d2a943336c85a6862a6768d5c157f96c69998",
+    "tests/devfabric/test_capsule.py": "c22a5c1b178428bb292a76063b2a8c1d6cc664cb219ef76fdca2fe7bcd191382",
+    "tests/test_reference_vault.py": "dd8929bcdb324d9a637243d91cf62c2e3eee9843a0e025532be80af58bba3981"
+  },
+  "observed_contract": {
+    "storage_layout": "reference-vault/blobs/sha256/<digest>",
+    "atomic_publish": "same-filesystem hard-link no-overwrite",
+    "preexisting_blob_policy": "reverify exact size and sha256 or fail",
+    "path_policy": "regular files only; no absolute paths, traversal, symlinks, or special files",
+    "secret_scanner": "shared with CONTROL capsule",
+    "network_calls": 0,
+    "foreign_code_execution": 0,
+    "cloud_writes": 0
+  }
+}

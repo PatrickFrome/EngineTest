@@ -1,0 +1,10 @@
+{
+  "findings": [],
+  "pack_root_sha256": "472d6d44d03a82bea7656fc1f4ea8f6d1f33a39184d789d29057410cbd48e9fa",
+  "receipt_sha256": "72d01fd2cfc39bf86e68afa63fce9c151ac5291a4bca02b8d59c8bf87a1ffd58",
+  "receipt_version": "REFERENCE-VAULT-VERIFICATION-1",
+  "source_id": "glm-4.5-170f20b",
+  "status": "PASS",
+  "verified_blob_count": 2,
+  "verified_total_bytes": 29567
+}

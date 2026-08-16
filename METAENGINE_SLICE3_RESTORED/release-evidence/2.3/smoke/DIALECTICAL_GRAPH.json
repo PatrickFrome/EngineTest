@@ -1,0 +1,22 @@
+{
+  "edges": [],
+  "graph_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "graph_version": "16X-TYPED-DIALECTICAL-GRAPH-2.3",
+  "metrics": {
+    "edge_count": 0,
+    "node_count": 1
+  },
+  "nodes": [
+    {
+      "assumptions": [],
+      "node_id": "n1",
+      "operator": "SOURCE_READING",
+      "proposition": "fixture",
+      "residual_tensions": [],
+      "source_spans": [],
+      "truth_effect": "NONE"
+    }
+  ],
+  "policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+  "source_id": "fixture"
+}

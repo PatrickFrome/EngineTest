@@ -1,0 +1,1226 @@
+{
+  "result_version": "DAE-MICRO-LOCAL-ECOLOGY-RESULT-1.0",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T17:36:33.993Z",
+  "outcome": "PASSES_MICRO_LOCAL_ECOLOGY_REGRESSION",
+  "routing_policy": "ARGUMENT_WINDOW_SELECTION_COMPOSITION_BOUNDARY_OR_ABSTENTION_WITH_POLYPHONIC_SYNTHESIS_GATE",
+  "promotion_status": "EXPERIMENTAL_NOT_CORE",
+  "source": {
+    "corpus_id": "INDEPENDENT_FAMILY_MICRO_LOCAL_BENCHMARK",
+    "label": "Independent operator-family micro-local benchmark",
+    "source_docx_sha256": "791e47e38ce0be15bd555df9faf4137de9d4d6c7596cb46c2b45d8f19fb764e7",
+    "windowing_mode": "HEADING_BOUNDED_ARGUMENT_WINDOWS",
+    "include_layers": [
+      "SOURCE"
+    ],
+    "raw_text_included": false
+  },
+  "candidate_births": [
+    {
+      "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+      "origin_corpus_id": "GEVIERT",
+      "origin_operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "origin_profile_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "required_birth_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL"
+      ],
+      "missing_birth_hints": [],
+      "origin_mutation_found": true,
+      "source_birth_confirmed": true
+    },
+    {
+      "candidate_id": "TEMPORAL_ENACTMENT_SOURCE_BORN",
+      "origin_corpus_id": "TEMPORAL_ENACTMENT_SYNTHETIC",
+      "origin_operator_candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "origin_profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "required_birth_hints": [
+        "TEMPORAL_ENACTMENT"
+      ],
+      "missing_birth_hints": [],
+      "origin_mutation_found": true,
+      "source_birth_confirmed": true
+    },
+    {
+      "candidate_id": "PRACTICE_MEDIATION_SOURCE_BORN",
+      "origin_corpus_id": "PRACTICE_MEDIATION_SYNTHETIC",
+      "origin_operator_candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "origin_profile_hints": [
+        "PRACTICE_MEDIATION"
+      ],
+      "required_birth_hints": [
+        "PRACTICE_MEDIATION"
+      ],
+      "missing_birth_hints": [],
+      "origin_mutation_found": true,
+      "source_birth_confirmed": true
+    },
+    {
+      "candidate_id": "ABSENCE_DISCLOSURE_SOURCE_BORN",
+      "origin_corpus_id": "ABSENCE_DISCLOSURE_SYNTHETIC",
+      "origin_operator_candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "origin_profile_hints": [
+        "ABSENCE_DISCLOSURE"
+      ],
+      "required_birth_hints": [
+        "ABSENCE_DISCLOSURE"
+      ],
+      "missing_birth_hints": [],
+      "origin_mutation_found": true,
+      "source_birth_confirmed": true
+    }
+  ],
+  "windows": [
+    {
+      "window_id": "MW-001",
+      "heading": "W1 — Temporal enactment",
+      "heading_segment_id": "OX-P000003-FA8A5523EA",
+      "ordinal_start": 4,
+      "ordinal_end": 5,
+      "paragraph_segment_ids": [
+        "OX-P000004-7F3EC278E1",
+        "OX-P000005-AC515DACDC"
+      ],
+      "paragraph_hashes": [
+        "7f3ec278e13b399bea566af783a5c926f1f96b37758b60c7c84069dd0d42ed7f",
+        "ac515dacdce837b6c11dd988a0b3c4680c83e228b217dc1aec0ba28c85c17852"
+      ],
+      "layer_counts": {
+        "SOURCE": 2
+      },
+      "source_operator_candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "operator_family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+      "active_signal_families": [
+        "TEMPORALITY",
+        "EXPECTATION",
+        "ENACTMENT_PRACTICE",
+        "REPETITION_RHYTHM",
+        "MATERIAL_MEDIATION"
+      ],
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0,
+        "TEMPORALITY": 4,
+        "EXPECTATION": 3,
+        "ENACTMENT_PRACTICE": 7,
+        "REPETITION_RHYTHM": 2,
+        "MATERIAL_MEDIATION": 1,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "profile_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "unserved_signal_families": [],
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 1,
+          "score": -6,
+          "viable": false
+        },
+        {
+          "candidate_id": "TEMPORAL_ENACTMENT_SOURCE_BORN",
+          "label": "Source-born temporal enactment profile",
+          "origin_corpus_id": "TEMPORAL_ENACTMENT_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [
+            "TEMPORAL_ENACTMENT"
+          ],
+          "required_missing": [],
+          "optional_matched": [
+            "PRACTICE_MEDIATION"
+          ],
+          "incompatible_present": [],
+          "matched_hints": [
+            "TEMPORAL_ENACTMENT",
+            "PRACTICE_MEDIATION"
+          ],
+          "distinction_gain": 6,
+          "distortion_loss": 0,
+          "complexity_cost": 1,
+          "score": 5,
+          "viable": true
+        },
+        {
+          "candidate_id": "PRACTICE_MEDIATION_SOURCE_BORN",
+          "label": "Source-born practice/material mediation profile",
+          "origin_corpus_id": "PRACTICE_MEDIATION_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [
+            "PRACTICE_MEDIATION"
+          ],
+          "required_missing": [],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [
+            "PRACTICE_MEDIATION"
+          ],
+          "distinction_gain": 4,
+          "distortion_loss": 0,
+          "complexity_cost": 0,
+          "score": 4,
+          "viable": true
+        },
+        {
+          "candidate_id": "ABSENCE_DISCLOSURE_SOURCE_BORN",
+          "label": "Source-born absence/trace disclosure profile",
+          "origin_corpus_id": "ABSENCE_DISCLOSURE_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "ABSENCE_DISCLOSURE"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        }
+      ],
+      "decision": "SELECT_LOCAL_WINNER",
+      "selected_candidates": [
+        "TEMPORAL_ENACTMENT_SOURCE_BORN"
+      ],
+      "covered_hints": [
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "residual_hints": [],
+      "rationale": "One source-born operator profile covers the local target without additional composition gain.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "SELECT_LOCAL_WINNER",
+          "expected": "SELECT_LOCAL_WINNER"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "TEMPORAL_ENACTMENT_SOURCE_BORN",
+          "expected": "TEMPORAL_ENACTMENT_SOURCE_BORN"
+        }
+      ]
+    },
+    {
+      "window_id": "MW-002",
+      "heading": "W2 — Practice and material mediation",
+      "heading_segment_id": "OX-P000006-83EB32EA80",
+      "ordinal_start": 7,
+      "ordinal_end": 8,
+      "paragraph_segment_ids": [
+        "OX-P000007-DA969A8DA8",
+        "OX-P000008-64E5B5A08C"
+      ],
+      "paragraph_hashes": [
+        "da969a8da8ac8e847734e6c864f2b1e0ca38878a67b62376568fa0caab7c6727",
+        "64e5b5a08c406d3e734fc6b04e2e71f79d1eb47a78f564e15364ca4c60312b99"
+      ],
+      "layer_counts": {
+        "SOURCE": 2
+      },
+      "source_operator_candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "operator_family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+      "active_signal_families": [
+        "ENACTMENT_PRACTICE",
+        "REPETITION_RHYTHM",
+        "MATERIAL_MEDIATION"
+      ],
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0,
+        "TEMPORALITY": 0,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 5,
+        "REPETITION_RHYTHM": 2,
+        "MATERIAL_MEDIATION": 8,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "profile_hints": [
+        "PRACTICE_MEDIATION"
+      ],
+      "unserved_signal_families": [],
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 1,
+          "score": -6,
+          "viable": false
+        },
+        {
+          "candidate_id": "TEMPORAL_ENACTMENT_SOURCE_BORN",
+          "label": "Source-born temporal enactment profile",
+          "origin_corpus_id": "TEMPORAL_ENACTMENT_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "TEMPORAL_ENACTMENT"
+          ],
+          "optional_matched": [
+            "PRACTICE_MEDIATION"
+          ],
+          "incompatible_present": [],
+          "matched_hints": [
+            "PRACTICE_MEDIATION"
+          ],
+          "distinction_gain": 2,
+          "distortion_loss": 5,
+          "complexity_cost": 1,
+          "score": -4,
+          "viable": false
+        },
+        {
+          "candidate_id": "PRACTICE_MEDIATION_SOURCE_BORN",
+          "label": "Source-born practice/material mediation profile",
+          "origin_corpus_id": "PRACTICE_MEDIATION_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [
+            "PRACTICE_MEDIATION"
+          ],
+          "required_missing": [],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [
+            "PRACTICE_MEDIATION"
+          ],
+          "distinction_gain": 4,
+          "distortion_loss": 0,
+          "complexity_cost": 0,
+          "score": 4,
+          "viable": true
+        },
+        {
+          "candidate_id": "ABSENCE_DISCLOSURE_SOURCE_BORN",
+          "label": "Source-born absence/trace disclosure profile",
+          "origin_corpus_id": "ABSENCE_DISCLOSURE_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "ABSENCE_DISCLOSURE"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        }
+      ],
+      "decision": "SELECT_LOCAL_WINNER",
+      "selected_candidates": [
+        "PRACTICE_MEDIATION_SOURCE_BORN"
+      ],
+      "covered_hints": [
+        "PRACTICE_MEDIATION"
+      ],
+      "residual_hints": [],
+      "rationale": "One source-born operator profile covers the local target without additional composition gain.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "SELECT_LOCAL_WINNER",
+          "expected": "SELECT_LOCAL_WINNER"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "PRACTICE_MEDIATION_SOURCE_BORN",
+          "expected": "PRACTICE_MEDIATION_SOURCE_BORN"
+        }
+      ]
+    },
+    {
+      "window_id": "MW-003",
+      "heading": "W3 — Absence and trace",
+      "heading_segment_id": "OX-P000009-69D2854493",
+      "ordinal_start": 10,
+      "ordinal_end": 11,
+      "paragraph_segment_ids": [
+        "OX-P000010-47557663C0",
+        "OX-P000011-EEB6E1B4F4"
+      ],
+      "paragraph_hashes": [
+        "47557663c068a55bec000d1918af78cfa40f1de18f3ea0a067a944e759fccd76",
+        "eeb6e1b4f4c5a0a25abc5bd486c2c0fac2a815e0ce0a3838300b0a85902b4c11"
+      ],
+      "layer_counts": {
+        "SOURCE": 2
+      },
+      "source_operator_candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "operator_family": "PROCESSUAL_HERMENEUTIC_PROFILE",
+      "active_signal_families": [
+        "ABSENCE_WITHDRAWAL",
+        "TRACE_DISCLOSURE"
+      ],
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0,
+        "TEMPORALITY": 0,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 0,
+        "ABSENCE_WITHDRAWAL": 3,
+        "TRACE_DISCLOSURE": 5,
+        "ADDRESS_RESPONSE": 0
+      },
+      "profile_hints": [
+        "ABSENCE_DISCLOSURE"
+      ],
+      "unserved_signal_families": [],
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 1,
+          "score": -6,
+          "viable": false
+        },
+        {
+          "candidate_id": "TEMPORAL_ENACTMENT_SOURCE_BORN",
+          "label": "Source-born temporal enactment profile",
+          "origin_corpus_id": "TEMPORAL_ENACTMENT_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "TEMPORAL_ENACTMENT"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 1,
+          "score": -6,
+          "viable": false
+        },
+        {
+          "candidate_id": "PRACTICE_MEDIATION_SOURCE_BORN",
+          "label": "Source-born practice/material mediation profile",
+          "origin_corpus_id": "PRACTICE_MEDIATION_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "PRACTICE_MEDIATION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        },
+        {
+          "candidate_id": "ABSENCE_DISCLOSURE_SOURCE_BORN",
+          "label": "Source-born absence/trace disclosure profile",
+          "origin_corpus_id": "ABSENCE_DISCLOSURE_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [
+            "ABSENCE_DISCLOSURE"
+          ],
+          "required_missing": [],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [
+            "ABSENCE_DISCLOSURE"
+          ],
+          "distinction_gain": 4,
+          "distortion_loss": 0,
+          "complexity_cost": 0,
+          "score": 4,
+          "viable": true
+        }
+      ],
+      "decision": "SELECT_LOCAL_WINNER",
+      "selected_candidates": [
+        "ABSENCE_DISCLOSURE_SOURCE_BORN"
+      ],
+      "covered_hints": [
+        "ABSENCE_DISCLOSURE"
+      ],
+      "residual_hints": [],
+      "rationale": "One source-born operator profile covers the local target without additional composition gain.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "SELECT_LOCAL_WINNER",
+          "expected": "SELECT_LOCAL_WINNER"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "ABSENCE_DISCLOSURE_SOURCE_BORN",
+          "expected": "ABSENCE_DISCLOSURE_SOURCE_BORN"
+        }
+      ]
+    },
+    {
+      "window_id": "MW-004",
+      "heading": "W4 — Geviert-style relation control",
+      "heading_segment_id": "OX-P000012-AF174CC4BA",
+      "ordinal_start": 13,
+      "ordinal_end": 14,
+      "paragraph_segment_ids": [
+        "OX-P000013-52AACF230F",
+        "OX-P000014-C0EB878ECD"
+      ],
+      "paragraph_hashes": [
+        "52aacf230fae56327b2e79dd5672ddc44d18a5be97924b224642a8f2e056b92b",
+        "c0eb878ecd3e56d06fa107868e2dbf3e300b24176b47c45b58af5c0510ff19f6"
+      ],
+      "layer_counts": {
+        "SOURCE": 2
+      },
+      "source_operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "operator_family": "RELATION_GENESIS_PROFILE",
+      "active_signal_families": [
+        "RECIPROCITY_GATHERING",
+        "DISTANCE_DIFFERENTIATION"
+      ],
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 7,
+        "DISTANCE_DIFFERENTIATION": 3,
+        "PRIORITY": 0,
+        "TEMPORALITY": 0,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 0,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "profile_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "unserved_signal_families": [],
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "required_missing": [],
+          "optional_matched": [
+            "DIFFERENCE_PRESERVING_PROXIMITY"
+          ],
+          "incompatible_present": [],
+          "matched_hints": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL",
+            "DIFFERENCE_PRESERVING_PROXIMITY"
+          ],
+          "distinction_gain": 6,
+          "distortion_loss": 0,
+          "complexity_cost": 1,
+          "score": 5,
+          "viable": true
+        },
+        {
+          "candidate_id": "TEMPORAL_ENACTMENT_SOURCE_BORN",
+          "label": "Source-born temporal enactment profile",
+          "origin_corpus_id": "TEMPORAL_ENACTMENT_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "TEMPORAL_ENACTMENT"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 1,
+          "score": -6,
+          "viable": false
+        },
+        {
+          "candidate_id": "PRACTICE_MEDIATION_SOURCE_BORN",
+          "label": "Source-born practice/material mediation profile",
+          "origin_corpus_id": "PRACTICE_MEDIATION_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "PRACTICE_MEDIATION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        },
+        {
+          "candidate_id": "ABSENCE_DISCLOSURE_SOURCE_BORN",
+          "label": "Source-born absence/trace disclosure profile",
+          "origin_corpus_id": "ABSENCE_DISCLOSURE_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "ABSENCE_DISCLOSURE"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        }
+      ],
+      "decision": "SELECT_LOCAL_WINNER",
+      "selected_candidates": [
+        "GEVIERT_CO_CONSTITUTIVE_GATHERING"
+      ],
+      "covered_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "residual_hints": [],
+      "rationale": "One source-born operator profile covers the local target without additional composition gain.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "SELECT_LOCAL_WINNER",
+          "expected": "SELECT_LOCAL_WINNER"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "expected": "GEVIERT_CO_CONSTITUTIVE_GATHERING"
+        }
+      ]
+    },
+    {
+      "window_id": "MW-005",
+      "heading": "W5 — Cross-family composition",
+      "heading_segment_id": "OX-P000015-5D54DDFF3A",
+      "ordinal_start": 16,
+      "ordinal_end": 17,
+      "paragraph_segment_ids": [
+        "OX-P000016-0A87B1FFB2",
+        "OX-P000017-FCB39A0844"
+      ],
+      "paragraph_hashes": [
+        "0a87b1ffb2230824bab950cf159a4ecc509e188a2abaa837ac31cf215adc7e9a",
+        "fcb39a08447cb870f48fb2ae1839c0e65229ca7dc36b8667cd718424e3c9dd6a"
+      ],
+      "layer_counts": {
+        "SOURCE": 2
+      },
+      "source_operator_candidate": "MULTI_FAMILY_LOCAL_OPERATOR_ECOLOGY",
+      "operator_family": "MULTI_FAMILY_LOCAL_PROFILE",
+      "active_signal_families": [
+        "RECIPROCITY_GATHERING",
+        "DISTANCE_DIFFERENTIATION",
+        "TEMPORALITY",
+        "EXPECTATION",
+        "ENACTMENT_PRACTICE",
+        "REPETITION_RHYTHM"
+      ],
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 5,
+        "DISTANCE_DIFFERENTIATION": 2,
+        "PRIORITY": 0,
+        "TEMPORALITY": 3,
+        "EXPECTATION": 2,
+        "ENACTMENT_PRACTICE": 4,
+        "REPETITION_RHYTHM": 2,
+        "MATERIAL_MEDIATION": 0,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "profile_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "unserved_signal_families": [],
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "required_missing": [],
+          "optional_matched": [
+            "DIFFERENCE_PRESERVING_PROXIMITY"
+          ],
+          "incompatible_present": [],
+          "matched_hints": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL",
+            "DIFFERENCE_PRESERVING_PROXIMITY"
+          ],
+          "distinction_gain": 6,
+          "distortion_loss": 0,
+          "complexity_cost": 1,
+          "score": 5,
+          "viable": true
+        },
+        {
+          "candidate_id": "TEMPORAL_ENACTMENT_SOURCE_BORN",
+          "label": "Source-born temporal enactment profile",
+          "origin_corpus_id": "TEMPORAL_ENACTMENT_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [
+            "TEMPORAL_ENACTMENT"
+          ],
+          "required_missing": [],
+          "optional_matched": [
+            "PRACTICE_MEDIATION"
+          ],
+          "incompatible_present": [],
+          "matched_hints": [
+            "TEMPORAL_ENACTMENT",
+            "PRACTICE_MEDIATION"
+          ],
+          "distinction_gain": 6,
+          "distortion_loss": 0,
+          "complexity_cost": 1,
+          "score": 5,
+          "viable": true
+        },
+        {
+          "candidate_id": "PRACTICE_MEDIATION_SOURCE_BORN",
+          "label": "Source-born practice/material mediation profile",
+          "origin_corpus_id": "PRACTICE_MEDIATION_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [
+            "PRACTICE_MEDIATION"
+          ],
+          "required_missing": [],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [
+            "PRACTICE_MEDIATION"
+          ],
+          "distinction_gain": 4,
+          "distortion_loss": 0,
+          "complexity_cost": 0,
+          "score": 4,
+          "viable": true
+        },
+        {
+          "candidate_id": "ABSENCE_DISCLOSURE_SOURCE_BORN",
+          "label": "Source-born absence/trace disclosure profile",
+          "origin_corpus_id": "ABSENCE_DISCLOSURE_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "ABSENCE_DISCLOSURE"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        }
+      ],
+      "decision": "LOCAL_COMPOSITION",
+      "selected_candidates": [
+        "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+        "TEMPORAL_ENACTMENT_SOURCE_BORN"
+      ],
+      "covered_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY",
+        "TEMPORAL_ENACTMENT",
+        "PRACTICE_MEDIATION"
+      ],
+      "residual_hints": [],
+      "rationale": "Multiple source-born operators add non-redundant local distinctions; composition is retained without promoting a global meta-ontology.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "LOCAL_COMPOSITION",
+          "expected": "LOCAL_COMPOSITION"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "GEVIERT_CO_CONSTITUTIVE_GATHERING,TEMPORAL_ENACTMENT_SOURCE_BORN",
+          "expected": "GEVIERT_CO_CONSTITUTIVE_GATHERING,TEMPORAL_ENACTMENT_SOURCE_BORN"
+        }
+      ]
+    },
+    {
+      "window_id": "MW-006",
+      "heading": "W6 — Descriptive negative control",
+      "heading_segment_id": "OX-P000018-EB7B3A60FE",
+      "ordinal_start": 19,
+      "ordinal_end": 20,
+      "paragraph_segment_ids": [
+        "OX-P000019-A4CB9E295B",
+        "OX-P000020-BF0D2FE2FE"
+      ],
+      "paragraph_hashes": [
+        "a4cb9e295b3102424b04c303f958b65aef0f31c7a3957c34e4e4cc8913f1f022",
+        "bf0d2fe2fee4b4d1b8731e30b8e8150450824266f120e3cb85e79a4d0f6b87a2"
+      ],
+      "layer_counts": {
+        "SOURCE": 2
+      },
+      "source_operator_candidate": "SOURCE_FORCED_TOPIC_AND_OPERATOR_CANDIDATE",
+      "operator_family": "GENERIC_SOURCE_FORCED_REVISION",
+      "active_signal_families": [],
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0,
+        "TEMPORALITY": 0,
+        "EXPECTATION": 0,
+        "ENACTMENT_PRACTICE": 0,
+        "REPETITION_RHYTHM": 0,
+        "MATERIAL_MEDIATION": 0,
+        "ABSENCE_WITHDRAWAL": 0,
+        "TRACE_DISCLOSURE": 0,
+        "ADDRESS_RESPONSE": 0
+      },
+      "profile_hints": [],
+      "unserved_signal_families": [],
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 1,
+          "score": -6,
+          "viable": false
+        },
+        {
+          "candidate_id": "TEMPORAL_ENACTMENT_SOURCE_BORN",
+          "label": "Source-born temporal enactment profile",
+          "origin_corpus_id": "TEMPORAL_ENACTMENT_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "TEMPORAL_ENACTMENT"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 1,
+          "score": -6,
+          "viable": false
+        },
+        {
+          "candidate_id": "PRACTICE_MEDIATION_SOURCE_BORN",
+          "label": "Source-born practice/material mediation profile",
+          "origin_corpus_id": "PRACTICE_MEDIATION_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "PRACTICE_MEDIATION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        },
+        {
+          "candidate_id": "ABSENCE_DISCLOSURE_SOURCE_BORN",
+          "label": "Source-born absence/trace disclosure profile",
+          "origin_corpus_id": "ABSENCE_DISCLOSURE_SYNTHETIC",
+          "source_birth_confirmed": true,
+          "source_operator": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "ABSENCE_DISCLOSURE"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        }
+      ],
+      "decision": "ABSTAIN_UNRESOLVED",
+      "selected_candidates": [],
+      "covered_hints": [],
+      "residual_hints": [],
+      "rationale": "The target emitted no operator-profile hints; source resistance alone is insufficient to force an operator choice.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "ABSTAIN_UNRESOLVED",
+          "expected": "ABSTAIN_UNRESOLVED"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "NONE",
+          "expected": "NONE"
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "boundary_id": "MB-001",
+      "from_window_id": "MW-001",
+      "to_window_id": "MW-002",
+      "boundary_type": "OPERATOR_REGIME_SHIFT",
+      "from_signature": "SELECT_LOCAL_WINNER:TEMPORAL_ENACTMENT_SOURCE_BORN:PROFILE=PRACTICE_MEDIATION+TEMPORAL_ENACTMENT",
+      "to_signature": "SELECT_LOCAL_WINNER:PRACTICE_MEDIATION_SOURCE_BORN:PROFILE=PRACTICE_MEDIATION",
+      "unresolved": false
+    },
+    {
+      "boundary_id": "MB-002",
+      "from_window_id": "MW-002",
+      "to_window_id": "MW-003",
+      "boundary_type": "OPERATOR_REGIME_SHIFT",
+      "from_signature": "SELECT_LOCAL_WINNER:PRACTICE_MEDIATION_SOURCE_BORN:PROFILE=PRACTICE_MEDIATION",
+      "to_signature": "SELECT_LOCAL_WINNER:ABSENCE_DISCLOSURE_SOURCE_BORN:PROFILE=ABSENCE_DISCLOSURE",
+      "unresolved": false
+    },
+    {
+      "boundary_id": "MB-003",
+      "from_window_id": "MW-003",
+      "to_window_id": "MW-004",
+      "boundary_type": "OPERATOR_REGIME_SHIFT",
+      "from_signature": "SELECT_LOCAL_WINNER:ABSENCE_DISCLOSURE_SOURCE_BORN:PROFILE=ABSENCE_DISCLOSURE",
+      "to_signature": "SELECT_LOCAL_WINNER:GEVIERT_CO_CONSTITUTIVE_GATHERING:PROFILE=CO_CONSTITUTIVE_OR_RECIPROCAL+DIFFERENCE_PRESERVING_PROXIMITY",
+      "unresolved": false
+    },
+    {
+      "boundary_id": "MB-004",
+      "from_window_id": "MW-004",
+      "to_window_id": "MW-005",
+      "boundary_type": "PARTIAL_OPERATOR_OVERLAP",
+      "from_signature": "SELECT_LOCAL_WINNER:GEVIERT_CO_CONSTITUTIVE_GATHERING:PROFILE=CO_CONSTITUTIVE_OR_RECIPROCAL+DIFFERENCE_PRESERVING_PROXIMITY",
+      "to_signature": "LOCAL_COMPOSITION:GEVIERT_CO_CONSTITUTIVE_GATHERING+TEMPORAL_ENACTMENT_SOURCE_BORN:PROFILE=CO_CONSTITUTIVE_OR_RECIPROCAL+DIFFERENCE_PRESERVING_PROXIMITY+PRACTICE_MEDIATION+TEMPORAL_ENACTMENT",
+      "unresolved": false
+    },
+    {
+      "boundary_id": "MB-005",
+      "from_window_id": "MW-005",
+      "to_window_id": "MW-006",
+      "boundary_type": "OPEN_BOUNDARY",
+      "from_signature": "LOCAL_COMPOSITION:GEVIERT_CO_CONSTITUTIVE_GATHERING+TEMPORAL_ENACTMENT_SOURCE_BORN:PROFILE=CO_CONSTITUTIVE_OR_RECIPROCAL+DIFFERENCE_PRESERVING_PROXIMITY+PRACTICE_MEDIATION+TEMPORAL_ENACTMENT",
+      "to_signature": "ABSTAIN_UNRESOLVED:PROFILE=NONE:UNSERVED=NONE:ACTIVE=NONE",
+      "unresolved": true
+    }
+  ],
+  "synthesis": {
+    "decision": "PRESERVE_POLYPHONIC_LOCALITY",
+    "global_selected_candidates": [],
+    "local_signatures": [
+      "ABSTAIN_UNRESOLVED:PROFILE=NONE:UNSERVED=NONE:ACTIVE=NONE",
+      "LOCAL_COMPOSITION:GEVIERT_CO_CONSTITUTIVE_GATHERING+TEMPORAL_ENACTMENT_SOURCE_BORN:PROFILE=CO_CONSTITUTIVE_OR_RECIPROCAL+DIFFERENCE_PRESERVING_PROXIMITY+PRACTICE_MEDIATION+TEMPORAL_ENACTMENT",
+      "SELECT_LOCAL_WINNER:ABSENCE_DISCLOSURE_SOURCE_BORN:PROFILE=ABSENCE_DISCLOSURE",
+      "SELECT_LOCAL_WINNER:GEVIERT_CO_CONSTITUTIVE_GATHERING:PROFILE=CO_CONSTITUTIVE_OR_RECIPROCAL+DIFFERENCE_PRESERVING_PROXIMITY",
+      "SELECT_LOCAL_WINNER:PRACTICE_MEDIATION_SOURCE_BORN:PROFILE=PRACTICE_MEDIATION",
+      "SELECT_LOCAL_WINNER:TEMPORAL_ENACTMENT_SOURCE_BORN:PROFILE=PRACTICE_MEDIATION+TEMPORAL_ENACTMENT"
+    ],
+    "heterogeneity_preserved": true,
+    "rationale": "Distinct local operator regimes or unresolved windows are present; a single global operator would erase source-linked heterogeneity.",
+    "expectation_pass": true,
+    "expected_decision": "PRESERVE_POLYPHONIC_LOCALITY"
+  },
+  "provenance_graph": {
+    "nodes": [
+      {
+        "node_id": "MW-001",
+        "node_type": "ARGUMENT_WINDOW",
+        "selector_ids": [
+          "OX-P000004-7F3EC278E1",
+          "OX-P000005-AC515DACDC"
+        ]
+      },
+      {
+        "node_id": "MW-002",
+        "node_type": "ARGUMENT_WINDOW",
+        "selector_ids": [
+          "OX-P000007-DA969A8DA8",
+          "OX-P000008-64E5B5A08C"
+        ]
+      },
+      {
+        "node_id": "MW-003",
+        "node_type": "ARGUMENT_WINDOW",
+        "selector_ids": [
+          "OX-P000010-47557663C0",
+          "OX-P000011-EEB6E1B4F4"
+        ]
+      },
+      {
+        "node_id": "MW-004",
+        "node_type": "ARGUMENT_WINDOW",
+        "selector_ids": [
+          "OX-P000013-52AACF230F",
+          "OX-P000014-C0EB878ECD"
+        ]
+      },
+      {
+        "node_id": "MW-005",
+        "node_type": "ARGUMENT_WINDOW",
+        "selector_ids": [
+          "OX-P000016-0A87B1FFB2",
+          "OX-P000017-FCB39A0844"
+        ]
+      },
+      {
+        "node_id": "MW-006",
+        "node_type": "ARGUMENT_WINDOW",
+        "selector_ids": [
+          "OX-P000019-A4CB9E295B",
+          "OX-P000020-BF0D2FE2FE"
+        ]
+      },
+      {
+        "node_id": "OP-GEVIERT_CO_CONSTITUTIVE_GATHERING",
+        "node_type": "SOURCE_BORN_OPERATOR",
+        "selector_ids": []
+      },
+      {
+        "node_id": "OP-TEMPORAL_ENACTMENT_SOURCE_BORN",
+        "node_type": "SOURCE_BORN_OPERATOR",
+        "selector_ids": []
+      },
+      {
+        "node_id": "OP-PRACTICE_MEDIATION_SOURCE_BORN",
+        "node_type": "SOURCE_BORN_OPERATOR",
+        "selector_ids": []
+      },
+      {
+        "node_id": "OP-ABSENCE_DISCLOSURE_SOURCE_BORN",
+        "node_type": "SOURCE_BORN_OPERATOR",
+        "selector_ids": []
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "ME-0001",
+        "from": "MW-001",
+        "to": "OP-TEMPORAL_ENACTMENT_SOURCE_BORN",
+        "relation": "LOCALLY_ROUTED_BY"
+      },
+      {
+        "edge_id": "ME-0002",
+        "from": "MW-002",
+        "to": "OP-PRACTICE_MEDIATION_SOURCE_BORN",
+        "relation": "LOCALLY_ROUTED_BY"
+      },
+      {
+        "edge_id": "ME-0003",
+        "from": "MW-003",
+        "to": "OP-ABSENCE_DISCLOSURE_SOURCE_BORN",
+        "relation": "LOCALLY_ROUTED_BY"
+      },
+      {
+        "edge_id": "ME-0004",
+        "from": "MW-004",
+        "to": "OP-GEVIERT_CO_CONSTITUTIVE_GATHERING",
+        "relation": "LOCALLY_ROUTED_BY"
+      },
+      {
+        "edge_id": "ME-0005",
+        "from": "MW-005",
+        "to": "OP-GEVIERT_CO_CONSTITUTIVE_GATHERING",
+        "relation": "LOCALLY_ROUTED_BY"
+      },
+      {
+        "edge_id": "ME-0006",
+        "from": "MW-005",
+        "to": "OP-TEMPORAL_ENACTMENT_SOURCE_BORN",
+        "relation": "LOCALLY_ROUTED_BY"
+      },
+      {
+        "edge_id": "ME-0007",
+        "from": "MW-001",
+        "to": "MW-002",
+        "relation": "OPERATOR_REGIME_SHIFT"
+      },
+      {
+        "edge_id": "ME-0008",
+        "from": "MW-002",
+        "to": "MW-003",
+        "relation": "OPERATOR_REGIME_SHIFT"
+      },
+      {
+        "edge_id": "ME-0009",
+        "from": "MW-003",
+        "to": "MW-004",
+        "relation": "OPERATOR_REGIME_SHIFT"
+      },
+      {
+        "edge_id": "ME-0010",
+        "from": "MW-004",
+        "to": "MW-005",
+        "relation": "PARTIAL_OPERATOR_OVERLAP"
+      },
+      {
+        "edge_id": "ME-0011",
+        "from": "MW-005",
+        "to": "MW-006",
+        "relation": "OPEN_BOUNDARY"
+      }
+    ],
+    "raw_text_included": false
+  },
+  "preregistration": {
+    "missing_expected_headings": [],
+    "unexpected_observed_headings": []
+  },
+  "summary": {
+    "candidates": 4,
+    "source_births_confirmed": 4,
+    "windows": 6,
+    "expected_windows": 6,
+    "expectations_passed": 6,
+    "distinct_local_signatures": 6,
+    "boundaries": 5,
+    "unresolved_boundaries": 1,
+    "abstentions": 1,
+    "unresolved_rivals": 0,
+    "unserved_windows": 0
+  },
+  "claim_ceiling": "MICRO_LOCAL_ROUTING_AND_SYNTHESIS_FIDELITY_TEST_NOT_EXTERNAL_SEMANTIC_VALIDATION_OR_CORE_PROMOTION"
+}

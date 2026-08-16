@@ -1,0 +1,23 @@
+{
+  "useG1Credits": false,
+  "allowNonWorkspaceAccess": false,
+  "enableTerminalSandbox": true,
+  "enableTelemetry": false,
+  "toolPermission": "proceed-in-sandbox",
+  "artifactReviewPolicy": "always-proceed",
+  "notifications": false,
+  "altScreenMode": "never",
+  "permissions": {
+    "deny": [
+      "command(git push.*)",
+      "command(supabase.*)",
+      "command(neonctl.*)",
+      "command(curl .*)",
+      "command(wget .*)",
+      "write_file(.git/)",
+      "write_file(.env*)",
+      "write_file(chat_env/)",
+      "write_file(storage/)"
+    ]
+  }
+}

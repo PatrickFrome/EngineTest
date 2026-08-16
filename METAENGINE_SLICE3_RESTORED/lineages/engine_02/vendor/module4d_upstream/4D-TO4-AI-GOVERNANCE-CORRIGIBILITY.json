@@ -1,0 +1,111 @@
+{
+  "record_id": "4D-TO4-AI-GOVERNANCE-CORRIGIBILITY",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "IEEE P8000.1 Working Group 2026",
+      "IEEE 2863-2026",
+      "SEP Philosophy of Technology 2026"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + TO4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "INSTITUTION",
+    "description": "An organization governs an AI system across development, deployment and operation using multiple trustworthiness criteria, oversight, accountability and lifecycle controls.",
+    "role": [
+      "sociotechnical-governance"
+    ],
+    "object_type": "AI_governance_system"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Because the system is computational, standardized and monitored, its organization is necessarily a pure instance of uncontestable total ordering that eliminates human agency and correction.",
+    "claim_facets": {
+      "basis": [
+        "EMP",
+        "HIST"
+      ],
+      "force": "WITHHELD",
+      "normativity": "EVALUATIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT14"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "Current AI governance frameworks explicitly model human oversight, accountability, safety, transparency and contextual criteria; these do not prove freedom from ordering pressures but they block automatic totalization."
+    },
+    "promotion_flags": [
+      "DOMAIN",
+      "NORM"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "AI governance / sociotechnical systems",
+    "native_method": "standards and lifecycle governance analysis",
+    "activated_operators": [
+      "O3",
+      "O4",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY",
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "MEDIUM"
+  },
+  "extensions": {
+    "to4": {
+      "module_id": "TO4",
+      "version": "0.1",
+      "system": "organizational AI lifecycle governance",
+      "design_or_operation_mode": "AI_SYSTEM",
+      "goals_functions": [
+        "trustworthiness assessment",
+        "risk management",
+        "human oversight",
+        "accountability across lifecycle"
+      ],
+      "ordering_dimensions": [
+        "CALCULATION",
+        "MONITORING",
+        "STANDARDIZATION",
+        "LIFECYCLE_MANAGEMENT",
+        "CONTROL"
+      ],
+      "criteria_tradeoffs": "trustworthiness criteria are plural and context-sensitive rather than reducible to one efficiency metric",
+      "human_roles": [
+        "developers",
+        "deployers",
+        "governing body",
+        "operators",
+        "affected stakeholders"
+      ],
+      "governance": "formal governance processes allocate oversight and accountability",
+      "control_responsibility": "control is distributed and auditable rather than assumed to reside in the model alone",
+      "value_status": "VALUE_SENSITIVE_DESIGN",
+      "corrigibility": "monitoring, review, escalation and lifecycle governance provide explicit correction channels",
+      "material_environmental_dependency": "compute, data supply chain, infrastructure and institutional context matter",
+      "heideggerian_fit": "PARTIAL_FIT",
+      "native_method": "AI governance standards / risk and responsibility analysis",
+      "revision_trigger": "evidence that governance mechanisms are purely nominal and systematically fail to constrain optimization/order pressures"
+    }
+  },
+  "outcome": "QUALIFY"
+}

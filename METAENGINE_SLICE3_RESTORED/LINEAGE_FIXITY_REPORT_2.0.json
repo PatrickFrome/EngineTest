@@ -1,0 +1,18 @@
+{
+  "baseline": "1.4.0-alpha.1",
+  "candidate": "2.0.0-alpha.1",
+  "compared_files": 9887,
+  "baseline_files": 9887,
+  "candidate_files": 9887,
+  "missing_count": 0,
+  "added_count": 0,
+  "changed_count": 0,
+  "byte_preserved": true,
+  "exclusions": [
+    "__pycache__",
+    "*.pyc"
+  ],
+  "missing": [],
+  "added": [],
+  "changed": []
+}

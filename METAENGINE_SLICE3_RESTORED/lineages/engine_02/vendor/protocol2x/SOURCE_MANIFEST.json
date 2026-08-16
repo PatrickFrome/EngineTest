@@ -1,0 +1,44 @@
+{
+  "manifest_version": "DAE-PROTOCOL2X-SOURCES-1.0",
+  "extraction": "DOCX_TO_MARKDOWN_PANDOC_PRESERVING_HEADINGS_AND_TABLES",
+  "sources": [
+    {
+      "id": "DESTRUKTION-2.25",
+      "docx_sha256": "a746dfe948965dabbebd26ee41c97c49a6054aacc66671b02489ad401ae51e2c",
+      "markdown": "destruktion-2.25.md",
+      "markdown_sha256": "1e4cf347934929ba9ba2ecdb1fbe2ee231e7da83e0974670d200bdd9eb8bd454"
+    },
+    {
+      "id": "DESTRUKTION-2.27",
+      "docx_sha256": "1a72a8010281130b8722ccc3d2ab02742fe9712621bd5a7e1b85f6f0c7e4fa79",
+      "markdown": "destruktion-2.27.md",
+      "markdown_sha256": "94a25224145046b304af8b22de26f253d813ad0bd167be0442c36750fbbf9f54"
+    },
+    {
+      "id": "DESTRUKTION-2.28",
+      "docx_sha256": "b4e8786d114ac148a4ac95d56278337cce139bdf8d80d179487b4e515f4303a9",
+      "markdown": "destruktion-2.28.md",
+      "markdown_sha256": "99021aa2a5937f7b8ad959899c9236fdfb8db6be5e5c3229bfcab3ade6dffc85"
+    },
+    {
+      "id": "D3-EXPLORATORY-0.1-FIRST-RUN",
+      "docx_sha256": "eac412e575e53f318fa80a37f3f49f740903ccac629b2a7b5c8af3fa8bcab7d6",
+      "markdown": "exploratory-layer-0.1.md",
+      "markdown_sha256": "a670f5b3d93b37b402850fafb724f89209a2f7f024d5f9d032b815b8fdea478f"
+    },
+    {
+      "id": "D3-EXPLORATORY-DESIGN-NOTE",
+      "docx_sha256": "40a7bbb97d6004f157c8dd6e7340393d82ac3bff14d2bb906822d1d4f50b8ce8",
+      "markdown": "what-is-in-core.md",
+      "markdown_sha256": "6faa7aaccacb60114400fb1b0109adf490568e8a7cfa0480a367774cec8ae394"
+    },
+    {
+      "id": "ETY-0.2-MANDATORY-ETYMOLOGICAL-SEMANTIC-PROTOCOL",
+      "docx_sha256": "8b3d2b5c073dfe7ab3466009ac504eb228f8cff1183618b418a353ddca272e0e",
+      "markdown": "etymology-0.2.md",
+      "markdown_sha256": "08ff952c1d1e0dd009a35b0b277afdf6447373af1c6f36bdd00034efe1342367"
+    }
+  ],
+  "interpretive_audit": "../../docs/PROTOCOL_AUDIT_2X.md",
+  "core_mutated": false
+}

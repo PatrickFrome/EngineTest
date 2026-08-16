@@ -1,0 +1,13 @@
+{
+  "command": "cd devfabric/cloudflare && npm run test:core",
+  "completed_step_commit": "73a3f4aab2dc18997db495d657aab5185ffc6958",
+  "evidence_hash": "9c1b53da33c0729fe5cfa226f671aca82abd7799a81dc8aa7ed5da85da949670",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "NODE_CLOUDFLARE_CORE_REGRESSION",
+  "observed": {
+    "failed": 0,
+    "federation_tool_surface": 18,
+    "passed": 36
+  }
+}

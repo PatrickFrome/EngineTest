@@ -1,0 +1,2274 @@
+{
+  "analysis_version": "DAE-LIVING-ANALYSIS-1.2",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T17:36:22.363Z",
+  "run_id": "LIVING-LOCAL_SHA256_0934DCCAD4919B15DD2037A729F3CBAFB71E786D41D5379171A8C632DDD-E181F0BD72C7",
+  "seed": "family-birth-practice_mediation",
+  "layer": {
+    "layer_id": "D3-EXPLORATORY-0.2",
+    "kind": "EXPERIMENTAL_GENERATIVE_OVERLAY",
+    "core_mutated": false,
+    "discovery_justification_firewall": true
+  },
+  "source": {
+    "source_id": "LOCAL-SHA256-0934DCCAD4919B15DD2037A729F3CBAFB71E786D41D5379171A8C632DDDF0B8B",
+    "artifact_sha256": "10188a0513ea53079e5fa8e6add2db12d710ade5b8010ce76b1fbadf3267a2ed",
+    "refinery_report_sha256": "2059f7dbc610b556fb4fc62a5aaa7cf472d7f9804ea510d196efef42b964a322",
+    "hypothesis_bank_sha256": "0c41fd69c48cc18ee93653eb0f8640f489649f9005d3f1a05ea65ee7fa5ca8a7",
+    "hypothesis_count": 1,
+    "claim_ledger_entries": 1
+  },
+  "operator_registry": {
+    "registry_version": "DAE-LIVING-OPERATORS-1.2",
+    "sha256": "cd15d5b9e3f591da481db11eb90c9c2fdc072f6b541899cc671cc36eeb8539aa",
+    "protocol_sources": [
+      "Destruktion 2.25",
+      "Destruktion 2.27",
+      "Destruktion 2.28",
+      "D3-EXPLORATORY-0.2 source-resistance/operator-mutation run",
+      "ETY-0.2 Mandatory Etymological–Semantic Protocol",
+      "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.3"
+    ]
+  },
+  "etymology": {
+    "protocol_version": "ETY-0.2",
+    "mandatory": true,
+    "pass_sha256": "bd8d3a7c13c7ec18c5aa12c58e89d0edab658c94817498244d338e3b0bfa6cd8",
+    "cards": 12,
+    "full_cards": 12,
+    "card_ids": [
+      "ETY-CARD-BODILY",
+      "ETY-CARD-CONDUCT",
+      "ETY-CARD-MATERIAL",
+      "ETY-CARD-MEDIATED",
+      "ETY-CARD-MEDIATION",
+      "ETY-CARD-OBJECTS",
+      "ETY-CARD-PERFORMANCE",
+      "ETY-CARD-PLACE",
+      "ETY-CARD-PRACTICE",
+      "ETY-CARD-REPEATED",
+      "ETY-CARD-REPETITION",
+      "ETY-CARD-RITUAL"
+    ],
+    "coverage_complete": true,
+    "unresolved_fields": 240,
+    "semantic_promotion_without_independent_bridge": false
+  },
+  "graph": {
+    "topology": "REVISABLE_DIRECTED_MULTIGRAPH",
+    "nodes": [
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_BOUNDARY-F_BOUNDARY",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "SPECIALIZED_PROBE",
+        "title": "Boundary, threshold, membrane and horizon",
+        "proposition": "Is a spatial surface silently doing the work of causal, statistical, social, temporal or normative differentiation? Constructive move: Type the bounded phenomenon, the maintained difference, permeability, scale, overlap and breakdown signature; compare a line, zone, threshold and selective interface. Positive possibility: Boundary as selective difference-maintenance, indexed to function and scale. Self-risk: Boundary absolutism on one side and a relational escape that dissolves every entity on the other.",
+        "philosophical_function": "Is a spatial surface silently doing the work of causal, statistical, social, temporal or normative differentiation?",
+        "generated_by": "FAMILY-F-BOUNDARY",
+        "protocol_refs": [
+          "2.27 branch 2.26"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_LANGUAGE_TRANSLATION-F_LANGUAGE_TRANSLATION",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "SPECIALIZED_PROBE",
+        "title": "Translation, boundary cases and functional successors",
+        "proposition": "Could translation or diachronic reuse be smoothing over different phenomena? Constructive move: Build a multilingual drift map and follow functions after the vocabulary changes. Positive possibility: Functional-successor map with explicit discontinuities. Self-risk: Treating linguistic difference itself as ontological difference.",
+        "philosophical_function": "Could translation or diachronic reuse be smoothing over different phenomena?",
+        "generated_by": "FAMILY-F-LANGUAGE-TRANSLATION",
+        "protocol_refs": [
+          "2.1"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_MEDIATION_COMPRESSION-F_MEDIATION_COMPRESSION",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "SPECIALIZED_PROBE",
+        "title": "Mediation, compression and reconstructability",
+        "proposition": "Is an accurate derivative representation being promoted from orientation to understanding or adjudication, and can its losses still be reconstructed? Constructive move: Type the representation's epistemic role, lower allowed compression as claim burden rises, and preserve a traceback from synthesis through claims and evidence to source context. Positive possibility: Role-Bounded Compression with explicit loss, alternative unitizations and reversible source routes. Self-risk: Treating formal reconstructability as sufficient understanding, or turning every useful summary into a suspect substitute.",
+        "philosophical_function": "Is an accurate derivative representation being promoted from orientation to understanding or adjudication, and can its losses still be reconstructed?",
+        "generated_by": "FAMILY-F-MEDIATION-COMPRESSION",
+        "protocol_refs": [
+          "D3-EXPLORATORY first run §§3–25"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_RELATION_COUPLING-F_RELATION_COUPLING",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "SPECIALIZED_PROBE",
+        "title": "Relation, dependence, mediation and coupling",
+        "proposition": "Are ready-made relata, reciprocal arrows or covariation being used as if they already specified the kind, mechanism and direction of a relation? Constructive move: Type relata and edge, test common causes and hidden mediators, specify mechanism and asymmetry, and ask whether the relation constitutes, maintains or merely summarizes its terms. Positive possibility: Typed relational claim with explicit topology, mechanism, direction and ontological burden. Self-risk: Relation-absolutism, network escape or the empty claim that everything is connected.",
+        "philosophical_function": "Are ready-made relata, reciprocal arrows or covariation being used as if they already specified the kind, mechanism and direction of a relation?",
+        "generated_by": "FAMILY-F-RELATION-COUPLING",
+        "protocol_refs": [
+          "2.27 branch 2.27"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_REPRESENTATION_DECISION-F_REPRESENTATION_DECISION",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "SPECIALIZED_PROBE",
+        "title": "Leadership, representation, decision and responsibility",
+        "proposition": "Who may speak, decide or interpret for whom, and can dissent appear as counterevidence without exile? Constructive move: Trace bounded delegation, distinguish decision from truth, align control with responsibility and test followerlessness. Positive possibility: Corrigible Delegated Coordination. Self-risk: Idealizing corrigibility where emergency or structural asymmetry blocks it.",
+        "philosophical_function": "Who may speak, decide or interpret for whom, and can dissent appear as counterevidence without exile?",
+        "generated_by": "FAMILY-F-REPRESENTATION-DECISION",
+        "protocol_refs": [
+          "2.28 branch 2.28"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_REPRESENTATION_RESISTANCE-F_REPRESENTATION_RESISTANCE",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "SPECIALIZED_PROBE",
+        "title": "Representation Failure, Unitization and Method Mutation",
+        "proposition": "Is the current analytic representation merely incomplete, or does its own unitization systematically prevent the source phenomenon from appearing? Constructive move: Compare at least one rival unitization, record the lost distinction, emit an operator delta only when the source-linked loss recurs, and keep a rollback path. Positive possibility: Source-forced but reversible method mutation with explicit regression and retirement conditions. Self-risk: Treating every mismatch as proof that the method must mutate produces novelty inflation and makes the system impossible to falsify.",
+        "philosophical_function": "Is the current analytic representation merely incomplete, or does its own unitization systematically prevent the source phenomenon from appearing?",
+        "generated_by": "FAMILY-F-REPRESENTATION-RESISTANCE",
+        "protocol_refs": [
+          "SOURCE-RESISTANCE 0.1",
+          "D3-EXPLORATORY §18"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX2-CONCEPTUAL",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "CONCEPTUAL_GENEALOGY",
+        "title": "Conceptual line",
+        "proposition": "Track whether the source treats units as prior to relation, asymmetrically dependent, reciprocally interacting, co-constituted, relation-first, locally heterogeneous or resistant to the priority distinction; keep rival trajectories live. Source-derived profile hints: PRACTICE_MEDIATION.",
+        "philosophical_function": "By what other genesis could this have become a different problem?",
+        "generated_by": "GX2",
+        "protocol_refs": [
+          "2.0 §§5.2–5.6",
+          "D3-EXPLORATORY §4"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "HISTORICAL_LEAD",
+          "RECONSTRUCTIVE_PROPOSAL"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX2-COUNTER",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "COUNTER_GENEALOGY",
+        "title": "Counter-genealogy",
+        "proposition": "A strengthened relata-first reading may preserve literal differentiation better than a relational reconstruction and can expose co-constitution as a contemporary projection.",
+        "philosophical_function": "By what other genesis could this have become a different problem?",
+        "generated_by": "GX2",
+        "protocol_refs": [
+          "2.0 §§5.2–5.6",
+          "D3-EXPLORATORY §4"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX2-CONCEPTUAL",
+          "N-EMERGENT_SOURCE_MEDIATION-GX2-LEXICAL",
+          "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "HISTORICAL_LEAD",
+          "RECONSTRUCTIVE_PROPOSAL"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG2_NEW_QUESTION",
+          "GG3_NEW_RIVAL"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX2-DIFFERENCE",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "DECONFLATION",
+        "title": "Difference created by the fork",
+        "proposition": "Separate external connection, asymmetric dependence, reciprocal interaction, co-constitution, relation-first articulation, unresolved priority and local profile variation; do not assume that one relation ontology must govern the entire corpus.",
+        "philosophical_function": "By what other genesis could this have become a different problem?",
+        "generated_by": "GX2",
+        "protocol_refs": [
+          "2.0 §§5.2–5.6",
+          "D3-EXPLORATORY §4"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS",
+          "N-EMERGENT_SOURCE_MEDIATION-GX2-RIVAL_QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "IMMANENT_INFERENCE",
+          "RECONSTRUCTIVE_PROPOSAL"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX2-LEXICAL",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "LEXICAL_GENEALOGY",
+        "title": "Lexical line",
+        "proposition": "Track the local forms and translation residues of mediation, Practice, bodily, conduct, material, mediated, objects, performance, place, repeated, repetition, ritual; lexical recurrence is a source signal, not an ontological proof.",
+        "philosophical_function": "By what other genesis could this have become a different problem?",
+        "generated_by": "GX2",
+        "protocol_refs": [
+          "2.0 §§5.2–5.6",
+          "D3-EXPLORATORY §4"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "TEXTUAL_POINTER",
+          "HISTORICAL_LEAD"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "PROBLEM_GENEALOGY",
+        "title": "Problem-scene line",
+        "proposition": "Track how the question changes when source-central residues, explicit project theses and rival unitizations are allowed to reorganize the inquiry rather than being routed into the nearest legacy topic.",
+        "philosophical_function": "By what other genesis could this have become a different problem?",
+        "generated_by": "GX2",
+        "protocol_refs": [
+          "2.0 §§5.2–5.6",
+          "D3-EXPLORATORY §4"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "HISTORICAL_LEAD",
+          "RECONSTRUCTIVE_PROPOSAL"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG2_NEW_QUESTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "PROBLEM_GENESIS",
+        "title": "How the initial question was produced",
+        "proposition": "The current problem-space may be an artifact of registry coverage: source-central terms (mediation, Practice, bodily, conduct, material, mediated, objects, performance, place, repeated, repetition, ritual) were not allowed to determine the initial unit of analysis on their own terms.",
+        "philosophical_function": "By what other genesis could this have become a different problem?",
+        "generated_by": "GX2",
+        "protocol_refs": [
+          "2.0 §§5.2–5.6",
+          "D3-EXPLORATORY §4"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "IMMANENT_INFERENCE",
+          "RECONSTRUCTIVE_PROPOSAL"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG2_NEW_QUESTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX2-RIVAL_QUESTION",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "COUNTERGENETIC_FORK",
+        "title": "Rival question rather than rival answer",
+        "proposition": "If a strengthened relata-first reading may preserve literal differentiation better than a relational reconstruction and can expose co-constitution as a contemporary projection., the initial question “Which distinctions, dependencies or representation failures among mediation, Practice, bodily, conduct, material, mediated, objects, performance, place, repeated become invisible when the current topic registry determines the problem in advance?” must be reformulated before it is answered.",
+        "philosophical_function": "By what other genesis could this have become a different problem?",
+        "generated_by": "GX2",
+        "protocol_refs": [
+          "2.0 §§5.2–5.6",
+          "D3-EXPLORATORY §4"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX2-COUNTER"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG2_NEW_QUESTION",
+          "GG3_NEW_RIVAL"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX3-R1",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "DESTROYED",
+        "title": "R1 — dismantled necessity",
+        "proposition": "The assumption that a curated topic registry and pairwise unitization are neutral preconditions of philosophical analysis.",
+        "philosophical_function": "What can the dismantled position now dismantle in our reconstruction?",
+        "generated_by": "GX3",
+        "protocol_refs": [
+          "2.0 §7.1",
+          "D3-EXPLORATORY §5"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSE"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "IMMANENT_INFERENCE"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSE",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "REVERSE_TEST",
+        "title": "The dismantled position answers back",
+        "proposition": "The inherited position still sees something the new reconstruction could lose: Traceability, discriminating rivals, source ceilings and the right to retire a mutation when it adds no repeatable gain.",
+        "philosophical_function": "What can the dismantled position now dismantle in our reconstruction?",
+        "generated_by": "GX3",
+        "protocol_refs": [
+          "2.0 §7.1",
+          "D3-EXPLORATORY §5"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "IMMANENT_INFERENCE",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G3",
+        "generative_gains": [
+          "GG4_REVERSAL"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSED_KERNEL",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "MUTATION",
+        "title": "Reconstruction after the reverse arrow",
+        "proposition": "Permit an experimental non-pairwise representation in which relata-status is itself typed and revisable; require rollback to pairwise graph if the new mode yields no source-linked distinction or fails regression.",
+        "philosophical_function": "What can the dismantled position now dismantle in our reconstruction?",
+        "generated_by": "GX3",
+        "protocol_refs": [
+          "2.0 §7.1",
+          "D3-EXPLORATORY §5"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSE",
+          "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G3",
+        "generative_gains": [
+          "GG4_REVERSAL",
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX4-COLLISION",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "SURPRISE",
+        "title": "Abductive collision",
+        "proposition": "The source may not merely add another relation to the graph; it may make nodehood itself a revisable analytical achievement. The conjecture is traceable to a collision among Source-forced but reversible method mutation with explicit regression and retirement conditions. / Boundary as selective difference-maintenance, indexed to function and scale. / Functional-successor map with explicit discontinuities..",
+        "philosophical_function": "What remains visible only when no winner is selected too early?",
+        "generated_by": "GX4",
+        "protocol_refs": [
+          "2.0 §7.2",
+          "2.6",
+          "D3-EXPLORATORY §6"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_BOUNDARY-F_BOUNDARY",
+          "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_LANGUAGE_TRANSLATION-F_LANGUAGE_TRANSLATION",
+          "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_MEDIATION_COMPRESSION-F_MEDIATION_COMPRESSION",
+          "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_RELATION_COUPLING-F_RELATION_COUPLING",
+          "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G3",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION",
+          "GG2_NEW_QUESTION",
+          "GG5_NEW_PHENOMENON"
+        ],
+        "residual_kind": "R3-G",
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "POLYPHONIC_FIELD",
+        "title": "Non-dominated constellation",
+        "proposition": "No winner is selected at discovery time. Each reconstruction must state what only it makes visible, what it prevents from being asked, and which phenomenon exists only inside its problem-space.",
+        "philosophical_function": "What remains visible only when no winner is selected too early?",
+        "generated_by": "GX4",
+        "protocol_refs": [
+          "2.0 §7.2",
+          "2.6",
+          "D3-EXPLORATORY §6"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_1",
+          "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_2",
+          "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_3",
+          "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_4",
+          "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_5",
+          "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_6",
+          "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_7"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G3",
+        "generative_gains": [
+          "GG3_NEW_RIVAL",
+          "GG5_NEW_PHENOMENON"
+        ],
+        "residual_kind": "R3-A",
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_1",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "RIVAL_RECONSTRUCTION",
+        "title": "Live reconstruction 1",
+        "proposition": "RELATA_FIRST: treat the units as sufficiently individuated before the relation, then test what this representation clarifies and what source features it loses.",
+        "philosophical_function": "What remains visible only when no winner is selected too early?",
+        "generated_by": "GX4",
+        "protocol_refs": [
+          "2.0 §7.2",
+          "2.6",
+          "D3-EXPLORATORY §6"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG3_NEW_RIVAL"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_2",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "RIVAL_RECONSTRUCTION",
+        "title": "Live reconstruction 2",
+        "proposition": "ASYMMETRIC_DEPENDENCE: allow one term to depend for existence, intelligibility or attribution on another without inferring reciprocal co-constitution or relation-first ontology.",
+        "philosophical_function": "What remains visible only when no winner is selected too early?",
+        "generated_by": "GX4",
+        "protocol_refs": [
+          "2.0 §7.2",
+          "2.6",
+          "D3-EXPLORATORY §6"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG3_NEW_RIVAL"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_3",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "RIVAL_RECONSTRUCTION",
+        "title": "Live reconstruction 3",
+        "proposition": "RECIPROCAL_RELATION: treat the units as distinguishable while their actual profile changes through reciprocal interaction; distinguish interaction from constitutive dependence.",
+        "philosophical_function": "What remains visible only when no winner is selected too early?",
+        "generated_by": "GX4",
+        "protocol_refs": [
+          "2.0 §7.2",
+          "2.6",
+          "D3-EXPLORATORY §6"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG3_NEW_RIVAL"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_4",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "RIVAL_RECONSTRUCTION",
+        "title": "Live reconstruction 4",
+        "proposition": "CO_CONSTITUTIVE: allow the relata to remain distinguishable while some of their local determination depends on reciprocal participation; demand a discriminator against mere interaction.",
+        "philosophical_function": "What remains visible only when no winner is selected too early?",
+        "generated_by": "GX4",
+        "protocol_refs": [
+          "2.0 §7.2",
+          "2.6",
+          "D3-EXPLORATORY §6"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG3_NEW_RIVAL"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_5",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "RIVAL_RECONSTRUCTION",
+        "title": "Live reconstruction 5",
+        "proposition": "RELATION_FIRST: test whether a relational or differential field is explanatorily prior to the units without turning the relation into a fifth substance or a universal ontology.",
+        "philosophical_function": "What remains visible only when no winner is selected too early?",
+        "generated_by": "GX4",
+        "protocol_refs": [
+          "2.0 §7.2",
+          "2.6",
+          "D3-EXPLORATORY §6"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG3_NEW_RIVAL"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_6",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "RIVAL_RECONSTRUCTION",
+        "title": "Live reconstruction 6",
+        "proposition": "UNRESOLVED_ONTOLOGY: suspend the priority question if the source makes relata-first versus relation-first itself a distorting alternative.",
+        "philosophical_function": "What remains visible only when no winner is selected too early?",
+        "generated_by": "GX4",
+        "protocol_refs": [
+          "2.0 §7.2",
+          "2.6",
+          "D3-EXPLORATORY §6"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG3_NEW_RIVAL"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_7",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "RIVAL_RECONSTRUCTION",
+        "title": "Live reconstruction 7",
+        "proposition": "LOCAL_PROFILE_VARIATION: permit different passages or categories in one corpus to require different relation-genesis profiles instead of forcing a single ontology across the whole text.",
+        "philosophical_function": "What remains visible only when no winner is selected too early?",
+        "generated_by": "GX4",
+        "protocol_refs": [
+          "2.0 §7.2",
+          "2.6",
+          "D3-EXPLORATORY §6"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG3_NEW_RIVAL"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "POSITIVE_KERNEL",
+        "title": "Positive appropriation",
+        "proposition": "Use a reversible relation-genesis profile instead of a fixed node-edge ontology: RELATA_FIRST / ASYMMETRIC_DEPENDENCE / RECIPROCAL_RELATION / CO_CONSTITUTIVE / RELATION_FIRST / UNRESOLVED_ONTOLOGY remain competing local representations, with LOCAL_PROFILE_VARIATION allowed when one corpus contains more than one regime.",
+        "philosophical_function": "Can the constructive gain guide inquiry without becoming a new foundation?",
+        "generated_by": "GX5",
+        "protocol_refs": [
+          "2.0 §§7.3–7.5",
+          "2.0 §13",
+          "D3-EXPLORATORY §§7–8"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "PHENOMENOLOGICAL_HYPOTHESIS",
+          "RECONSTRUCTIVE_PROPOSAL"
+        ],
+        "generative_register": "G3",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX5-FORMAL_INDICATION",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "FORMAL_INDICATION",
+        "title": "Formal indication before theory",
+        "proposition": "Reversible relation-genesis profile. Richtung: Ask whether the analytic units are fully specifiable before the relation that joins them, whether dependence is one-way or reciprocal, and whether that answer changes across local passages. Negationsfunktion: Do not identify novelty, recurrence or representational failure with philosophical truth. Vollzugsprüfung: Re-run the same selectors through rival unitizations and compare lost distinctions, explanatory gain and source fidelity. Grenze: The operator delta remains experimental, reversible and local until it survives cross-corpus regression.",
+        "philosophical_function": "Can the constructive gain guide inquiry without becoming a new foundation?",
+        "generated_by": "GX5",
+        "protocol_refs": [
+          "2.0 §§7.3–7.5",
+          "2.0 §13",
+          "D3-EXPLORATORY §§7–8"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL"
+        ],
+        "generative_register": "G3",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX5-GAIN_PRICE",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "EXPLANATORY_BALANCE",
+        "title": "Gain, price and discriminator",
+        "proposition": "Gain: Use a reversible relation-genesis profile instead of a fixed node-edge ontology: RELATA_FIRST / ASYMMETRIC_DEPENDENCE / RECIPROCAL_RELATION / CO_CONSTITUTIVE / RELATION_FIRST / UNRESOLVED_ONTOLOGY remain competing local representations, with LOCAL_PROFILE_VARIATION allowed when one corpus contains more than one regime. Price: Relation-first language can domesticate a resistant text into contemporary relational ontology, while multiplying representation modes can become unfalsifiable methodological theatre. Discriminator: Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology.",
+        "philosophical_function": "Can the constructive gain guide inquiry without becoming a new foundation?",
+        "generated_by": "GX5",
+        "protocol_refs": [
+          "2.0 §§7.3–7.5",
+          "2.0 §13",
+          "D3-EXPLORATORY §§7–8"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG",
+          "N-EMERGENT_SOURCE_MEDIATION-GX5-FORMAL_INDICATION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "IMMANENT_INFERENCE",
+          "RECONSTRUCTIVE_PROPOSAL"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX5-R2",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "PRESERVED",
+        "title": "R2 — philosophical gain retained",
+        "proposition": "Traceability, discriminating rivals, source ceilings and the right to retire a mutation when it adds no repeatable gain.",
+        "philosophical_function": "Can the constructive gain guide inquiry without becoming a new foundation?",
+        "generated_by": "GX5",
+        "protocol_refs": [
+          "2.0 §§7.3–7.5",
+          "2.0 §13",
+          "D3-EXPLORATORY §§7–8"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "PHENOMENOLOGICAL_HYPOTHESIS",
+          "RECONSTRUCTIVE_PROPOSAL"
+        ],
+        "generative_register": "G1",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION"
+        ],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_G_BRANCH",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "RESEARCH_BRANCH",
+        "title": "R3-G — new research node",
+        "proposition": "New research object: Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology.",
+        "philosophical_function": "Can the remainder become a determinate new research object?",
+        "generated_by": "GX6",
+        "protocol_refs": [
+          "2.0 §§8.3, 15, 18",
+          "D3-EXPLORATORY §§9–11"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_TYPED"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G4",
+        "generative_gains": [
+          "GG2_NEW_QUESTION",
+          "GG6_BRANCH_PRODUCTIVITY"
+        ],
+        "residual_kind": "R3-G",
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_TYPED",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "OPEN_RESIDUAL",
+        "title": "R3-R — typed open remainder",
+        "proposition": "Whether the source requires relata-first, asymmetric-dependence, reciprocal, co-constitutive, relation-first, locally plural or deliberately unresolved representation, and whether any discriminator transfers beyond this corpus.",
+        "philosophical_function": "Can the remainder become a determinate new research object?",
+        "generated_by": "GX6",
+        "protocol_refs": [
+          "2.0 §§8.3, 15, 18",
+          "D3-EXPLORATORY §§9–11"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G2",
+        "generative_gains": [
+          "GG5_NEW_PHENOMENON"
+        ],
+        "residual_kind": "R3-R",
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX6-REOPEN",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "REVISION_TRIGGER",
+        "title": "Concrete reopening condition",
+        "proposition": "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology.",
+        "philosophical_function": "Can the remainder become a determinate new research object?",
+        "generated_by": "GX6",
+        "protocol_refs": [
+          "2.0 §§8.3, 15, 18",
+          "D3-EXPLORATORY §§9–11"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_G_BRANCH"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G4",
+        "generative_gains": [
+          "GG6_BRANCH_PRODUCTIVITY"
+        ],
+        "residual_kind": "R3-G",
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX7-OPERATOR_DELTA",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "OPERATOR_DELTA",
+        "title": "Experimental operator delta",
+        "proposition": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE. Permit an experimental non-pairwise representation in which relata-status is itself typed and revisable; require rollback to pairwise graph if the new mode yields no source-linked distinction or fails regression. This delta is not CORE promotion and must survive rollback and cross-corpus regression.",
+        "philosophical_function": "What in the source is systematically missed because the current unit, topic or relation ontology is already deciding what can appear?",
+        "generated_by": "GX7",
+        "protocol_refs": [
+          "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1",
+          "D3-EXPLORATORY-0.2"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX7-REPRESENTATION_FAILURE"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G4",
+        "generative_gains": [
+          "GG4_REVERSAL",
+          "GG7_OPERATOR_EVOLUTION"
+        ],
+        "residual_kind": "R3-G",
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX7-REPRESENTATION_FAILURE",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "REPRESENTATION_FAILURE",
+        "title": "Representation failure as an object of inquiry",
+        "proposition": "Test whether the current unitization makes the source appear only after it has already been translated into known nodes and relations. Relation-first language can domesticate a resistant text into contemporary relational ontology, while multiplying representation modes can become unfalsifiable methodological theatre.",
+        "philosophical_function": "What in the source is systematically missed because the current unit, topic or relation ontology is already deciding what can appear?",
+        "generated_by": "GX7",
+        "protocol_refs": [
+          "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1",
+          "D3-EXPLORATORY-0.2"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-GX7-SOURCE_RESISTANCE"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "IMMANENT_INFERENCE",
+          "RECONSTRUCTIVE_PROPOSAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G3",
+        "generative_gains": [
+          "GG1_NEW_DISTINCTION",
+          "GG7_OPERATOR_EVOLUTION"
+        ],
+        "residual_kind": "R3-G",
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-GX7-SOURCE_RESISTANCE",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "SOURCE_RESISTANCE",
+        "title": "Source resistance to the current problem-space",
+        "proposition": "Curated topic coverage captured 0/12 source-central terms; 12 remained outside the recognized problem-space. Central terms under pressure: mediation, Practice, bodily, conduct, material, mediated, objects, performance, place, repeated, repetition, ritual.",
+        "philosophical_function": "What in the source is systematically missed because the current unit, topic or relation ontology is already deciding what can appear?",
+        "generated_by": "GX7",
+        "protocol_refs": [
+          "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1",
+          "D3-EXPLORATORY-0.2"
+        ],
+        "parent_ids": [
+          "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+        ],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "STRUCTURAL_SIGNAL",
+          "TEXTUAL_POINTER",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G3",
+        "generative_gains": [
+          "GG5_NEW_PHENOMENON",
+          "GG7_OPERATOR_EVOLUTION"
+        ],
+        "residual_kind": "R3-G",
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "EXPLORATORY_CANDIDATE_REQUIRING_ANALYTIC_AND_SOURCE_VALIDATION"
+      },
+      {
+        "node_id": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+        "role": "QUESTION",
+        "title": "Source-forced constellation: mediation / Practice / bodily / conduct / material / mediated",
+        "proposition": "Which distinctions, dependencies or representation failures among mediation, Practice, bodily, conduct, material, mediated, objects, performance, place, repeated become invisible when the current topic registry determines the problem in advance?",
+        "philosophical_function": "Keep the inquiry open and traceable while generative gestures alter its formulation.",
+        "generated_by": "HYPOTHESIS-SEED",
+        "protocol_refs": [
+          "2.0 §0.1",
+          "D3-EXPLORATORY §18"
+        ],
+        "parent_ids": [],
+        "source_basis": {
+          "hypothesis_id": "HYP-EMERGENT_SOURCE_MEDIATION",
+          "selector_count": 6,
+          "selectors": [
+            "OX-P000001-4765B2B822",
+            "OX-P000007-05FC6AAF48",
+            "OX-P000008-9BEB191C39",
+            "OX-P000005-B8C2D9C26B",
+            "OX-P000006-E584CDF953",
+            "OX-P000004-DA969A8DA8"
+          ],
+          "selectors_truncated": false,
+          "source_resolution": "UNRESOLVED"
+        },
+        "epistemic_registers": [
+          "STRUCTURAL_SIGNAL",
+          "OPEN_QUESTION"
+        ],
+        "generative_register": "G0",
+        "generative_gains": [],
+        "residual_kind": null,
+        "scope": "METHOD",
+        "revisable_by": [
+          "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+          "Reopen or retire the operator delta after a rival-unitization regression: mutation survives only if it restores source-central distinctions without inflating unsupported ontology."
+        ],
+        "evidence_ceiling": "LEXICAL_TOPIC_CLUSTER_NOT_VALIDATED_HYPOTHESIS"
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "E-0586F466543491A6",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_MEDIATION_COMPRESSION-F_MEDIATION_COMPRESSION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-COLLISION",
+        "relation": "COLLIDES_WITH",
+        "rationale": "Two non-neighbouring lenses generate an abductive possibility; novelty is not treated as evidence."
+      },
+      {
+        "edge_id": "E-0DCDF7A2B7DDC862",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX2-COUNTER",
+        "relation": "COUNTERS",
+        "rationale": "PROBLEM_GENEALOGY makes COUNTER_GENEALOGY available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-0E1D3F77A9CF309B",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_MEDIATION_COMPRESSION-F_MEDIATION_COMPRESSION",
+        "relation": "ENABLES",
+        "rationale": "QUESTION makes SPECIALIZED_PROBE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-0EA8B85B91FF2532",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX2-CONCEPTUAL",
+        "relation": "GENEALOGICALLY_TRANSFORMS",
+        "rationale": "PROBLEM_GENESIS makes CONCEPTUAL_GENEALOGY available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-172CDA47C6773563",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_6",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+        "relation": "PRESERVES",
+        "rationale": "RIVAL_RECONSTRUCTION makes POLYPHONIC_FIELD available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-199F833118A6346C",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_2",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+        "relation": "PRESERVES",
+        "rationale": "RIVAL_RECONSTRUCTION makes POLYPHONIC_FIELD available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-1A7FA523A0CA1F4A",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_7",
+        "relation": "RIVALS",
+        "rationale": "QUESTION makes RIVAL_RECONSTRUCTION available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-1FA3837437EE412F",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_5",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+        "relation": "PRESERVES",
+        "rationale": "RIVAL_RECONSTRUCTION makes POLYPHONIC_FIELD available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-29D5ADC8B3E25FF8",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_BOUNDARY-F_BOUNDARY",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-COLLISION",
+        "relation": "COLLIDES_WITH",
+        "rationale": "Two non-neighbouring lenses generate an abductive possibility; novelty is not treated as evidence."
+      },
+      {
+        "edge_id": "E-2A2C7A4B23DA5444",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX5-FORMAL_INDICATION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX5-GAIN_PRICE",
+        "relation": "ENABLES",
+        "rationale": "FORMAL_INDICATION makes EXPLANATORY_BALANCE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-2D46FC0F708F401F",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX5-GAIN_PRICE",
+        "relation": "ENABLES",
+        "rationale": "POSITIVE_KERNEL makes EXPLANATORY_BALANCE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-30EED0941771C61B",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_LANGUAGE_TRANSLATION-F_LANGUAGE_TRANSLATION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-COLLISION",
+        "relation": "COLLIDES_WITH",
+        "rationale": "Two non-neighbouring lenses generate an abductive possibility; novelty is not treated as evidence."
+      },
+      {
+        "edge_id": "E-44B5ECCC6C298691",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSED_KERNEL",
+        "relation": "MUTATES_INTO",
+        "rationale": "Positive appropriation is rewritten after reverse pressure."
+      },
+      {
+        "edge_id": "E-45C4CC54B32538AB",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_BOUNDARY-F_BOUNDARY",
+        "relation": "ENABLES",
+        "rationale": "QUESTION makes SPECIALIZED_PROBE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-47185DB836C9F038",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_TYPED",
+        "relation": "OPENS",
+        "rationale": "QUESTION makes OPEN_RESIDUAL available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-4739E8BCEBCB1F03",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_6",
+        "relation": "RIVALS",
+        "rationale": "QUESTION makes RIVAL_RECONSTRUCTION available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-479CF5A464B0BDEC",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSE",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX3-R1",
+        "relation": "DESTROYS_NECESSITY",
+        "rationale": "REVERSE_TEST makes DESTROYED available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-4B4454773AAB23BD",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_3",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+        "relation": "PRESERVES",
+        "rationale": "RIVAL_RECONSTRUCTION makes POLYPHONIC_FIELD available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-58D2F99E564E1115",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_3",
+        "relation": "RIVALS",
+        "rationale": "QUESTION makes RIVAL_RECONSTRUCTION available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-5A093FB31CF6BE90",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_RELATION_COUPLING-F_RELATION_COUPLING",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-COLLISION",
+        "relation": "COLLIDES_WITH",
+        "rationale": "Two non-neighbouring lenses generate an abductive possibility; novelty is not treated as evidence."
+      },
+      {
+        "edge_id": "E-5D1F3E118DCE2118",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_REPRESENTATION_DECISION-F_REPRESENTATION_DECISION",
+        "relation": "ENABLES",
+        "rationale": "QUESTION makes SPECIALIZED_PROBE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-5F863F84F5239228",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSE",
+        "relation": "DISPUTES",
+        "rationale": "QUESTION makes REVERSE_TEST available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-64A36281C755865B",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX2-DIFFERENCE",
+        "relation": "DECONFLATES",
+        "rationale": "PROBLEM_GENESIS makes DECONFLATION available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-691B9FAE0F19F217",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM",
+        "relation": "GENEALOGICALLY_TRANSFORMS",
+        "rationale": "PROBLEM_GENESIS makes PROBLEM_GENEALOGY available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-6B59482124F8BFB7",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_RELATION_COUPLING-F_RELATION_COUPLING",
+        "relation": "ENABLES",
+        "rationale": "QUESTION makes SPECIALIZED_PROBE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-7C0CF357BCF5B6D9",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_2",
+        "relation": "RIVALS",
+        "rationale": "QUESTION makes RIVAL_RECONSTRUCTION available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-8024146E29E33C72",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSE",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSED_KERNEL",
+        "relation": "MUTATES_INTO",
+        "rationale": "REVERSE_TEST makes MUTATION available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-807196B64B74FBB5",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX2-COUNTER",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX2-RIVAL_QUESTION",
+        "relation": "COUNTERS",
+        "rationale": "COUNTER_GENEALOGY makes COUNTERGENETIC_FORK available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-84DF41778911E518",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_1",
+        "relation": "RIVALS",
+        "rationale": "QUESTION makes RIVAL_RECONSTRUCTION available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-8947BEB96BFA047E",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_REPRESENTATION_RESISTANCE-F_REPRESENTATION_RESISTANCE",
+        "relation": "ENABLES",
+        "rationale": "QUESTION makes SPECIALIZED_PROBE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-8C692858483DCE5A",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG",
+        "relation": "PRESERVES",
+        "rationale": "QUESTION makes POSITIVE_KERNEL available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-9D5880AD12381C5E",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX2-LEXICAL",
+        "relation": "GENEALOGICALLY_TRANSFORMS",
+        "rationale": "PROBLEM_GENESIS makes LEXICAL_GENEALOGY available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-A8C1555BBEF9D5B6",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_5",
+        "relation": "RIVALS",
+        "rationale": "QUESTION makes RIVAL_RECONSTRUCTION available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-A9DE070B9F18423D",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX7-SOURCE_RESISTANCE",
+        "relation": "OPENS",
+        "rationale": "QUESTION makes SOURCE_RESISTANCE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-ADC69604F6DE5145",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX2-CONCEPTUAL",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX2-COUNTER",
+        "relation": "COUNTERS",
+        "rationale": "CONCEPTUAL_GENEALOGY makes COUNTER_GENEALOGY available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-BB640EEFF622FE19",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX2-RIVAL_QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX2-DIFFERENCE",
+        "relation": "DECONFLATES",
+        "rationale": "COUNTERGENETIC_FORK makes DECONFLATION available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-BC70A42D43150E7D",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS",
+        "relation": "MOTIVATES",
+        "rationale": "QUESTION makes PROBLEM_GENESIS available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-C56E9F9A484040FF",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-COLLISION",
+        "relation": "COLLIDES_WITH",
+        "rationale": "POLYPHONIC_FIELD makes SURPRISE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-C8F09D8C4427940B",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_LANGUAGE_TRANSLATION-F_LANGUAGE_TRANSLATION",
+        "relation": "ENABLES",
+        "rationale": "QUESTION makes SPECIALIZED_PROBE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-D0E14FC988198EFF",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_7",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+        "relation": "PRESERVES",
+        "rationale": "RIVAL_RECONSTRUCTION makes POLYPHONIC_FIELD available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-D419AD52748B12A6",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX7-REPRESENTATION_FAILURE",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX7-OPERATOR_DELTA",
+        "relation": "FORCES_MUTATION",
+        "rationale": "REPRESENTATION_FAILURE makes OPERATOR_DELTA available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-D4FEEE3EF0BC38E9",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_4",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+        "relation": "PRESERVES",
+        "rationale": "RIVAL_RECONSTRUCTION makes POLYPHONIC_FIELD available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-DB155CC861985347",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX2-LEXICAL",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX2-COUNTER",
+        "relation": "COUNTERS",
+        "rationale": "LEXICAL_GENEALOGY makes COUNTER_GENEALOGY available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-DBE0B200863D2693",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_TYPED",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_G_BRANCH",
+        "relation": "OPENS",
+        "rationale": "OPEN_RESIDUAL makes RESEARCH_BRANCH available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-DF14827C75193C33",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_4",
+        "relation": "RIVALS",
+        "rationale": "QUESTION makes RIVAL_RECONSTRUCTION available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-E05F75381A9E518C",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX7-SOURCE_RESISTANCE",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX7-REPRESENTATION_FAILURE",
+        "relation": "SELF_CRITIQUES",
+        "rationale": "SOURCE_RESISTANCE makes REPRESENTATION_FAILURE available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-E3C65FC775C38C0F",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_1",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+        "relation": "PRESERVES",
+        "rationale": "RIVAL_RECONSTRUCTION makes POLYPHONIC_FIELD available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-F0A923C82B9D641D",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX5-R2",
+        "relation": "PRESERVES",
+        "rationale": "POSITIVE_KERNEL makes PRESERVED available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-F5C43967AD0ECAC1",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_G_BRANCH",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX6-REOPEN",
+        "relation": "REOPENS",
+        "rationale": "RESEARCH_BRANCH makes REVISION_TRIGGER available without imposing a fixed next step."
+      },
+      {
+        "edge_id": "E-F6EFD28B19EC5B1D",
+        "from": "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG",
+        "to": "N-EMERGENT_SOURCE_MEDIATION-GX5-FORMAL_INDICATION",
+        "relation": "ENABLES",
+        "rationale": "POSITIVE_KERNEL makes FORMAL_INDICATION available without imposing a fixed next step."
+      }
+    ],
+    "traversal_order": [
+      "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM_GENESIS",
+      "N-EMERGENT_SOURCE_MEDIATION-GX2-CONCEPTUAL",
+      "N-EMERGENT_SOURCE_MEDIATION-GX2-LEXICAL",
+      "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM",
+      "N-EMERGENT_SOURCE_MEDIATION-GX2-COUNTER",
+      "N-EMERGENT_SOURCE_MEDIATION-GX2-RIVAL_QUESTION",
+      "N-EMERGENT_SOURCE_MEDIATION-GX2-DIFFERENCE",
+      "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_1",
+      "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_2",
+      "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_3",
+      "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_4",
+      "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_5",
+      "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_6",
+      "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_7",
+      "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+      "N-EMERGENT_SOURCE_MEDIATION-GX4-COLLISION",
+      "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG",
+      "N-EMERGENT_SOURCE_MEDIATION-GX5-FORMAL_INDICATION",
+      "N-EMERGENT_SOURCE_MEDIATION-GX5-R2",
+      "N-EMERGENT_SOURCE_MEDIATION-GX5-GAIN_PRICE",
+      "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_RELATION_COUPLING-F_RELATION_COUPLING",
+      "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_LANGUAGE_TRANSLATION-F_LANGUAGE_TRANSLATION",
+      "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_BOUNDARY-F_BOUNDARY",
+      "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_TYPED",
+      "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_G_BRANCH",
+      "N-EMERGENT_SOURCE_MEDIATION-GX6-REOPEN",
+      "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_REPRESENTATION_DECISION-F_REPRESENTATION_DECISION",
+      "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSE",
+      "N-EMERGENT_SOURCE_MEDIATION-GX3-R1",
+      "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSED_KERNEL",
+      "N-EMERGENT_SOURCE_MEDIATION-GX7-SOURCE_RESISTANCE",
+      "N-EMERGENT_SOURCE_MEDIATION-GX7-REPRESENTATION_FAILURE",
+      "N-EMERGENT_SOURCE_MEDIATION-GX7-OPERATOR_DELTA",
+      "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_MEDIATION_COMPRESSION-F_MEDIATION_COMPRESSION",
+      "N-EMERGENT_SOURCE_MEDIATION-FAMILY_F_REPRESENTATION_RESISTANCE-F_REPRESENTATION_RESISTANCE"
+    ],
+    "retired_operators": [
+      {
+        "operator_id": "GX1",
+        "reason": "TRIGGER_NOT_MET: No broad successful explanatory field with a determinate residual is yet visible."
+      }
+    ]
+  },
+  "constellations": [
+    {
+      "constellation_id": "C-EMERGENT_SOURCE_MEDIATION",
+      "topic_id": "EMERGENT_SOURCE_MEDIATION",
+      "title": "Source-forced constellation: mediation / Practice / bodily / conduct / material / mediated",
+      "guiding_question": "Which distinctions, dependencies or representation failures among mediation, Practice, bodily, conduct, material, mediated, objects, performance, place, repeated become invisible when the current topic registry determines the problem in advance?",
+      "claim_statement": null,
+      "emergent_terms": [
+        "mediation",
+        "Practice",
+        "bodily",
+        "conduct",
+        "material",
+        "mediated",
+        "objects",
+        "performance",
+        "place",
+        "repeated",
+        "repetition",
+        "ritual"
+      ],
+      "entry_node_ids": [
+        "N-EMERGENT_SOURCE_MEDIATION-HYPOTHESIS_SEED-QUESTION"
+      ],
+      "etymology_card_ids": [
+        "ETY-CARD-BODILY",
+        "ETY-CARD-CONDUCT",
+        "ETY-CARD-MATERIAL",
+        "ETY-CARD-MEDIATED",
+        "ETY-CARD-MEDIATION",
+        "ETY-CARD-OBJECTS",
+        "ETY-CARD-PERFORMANCE",
+        "ETY-CARD-PLACE",
+        "ETY-CARD-PRACTICE",
+        "ETY-CARD-REPEATED",
+        "ETY-CARD-REPETITION",
+        "ETY-CARD-RITUAL"
+      ],
+      "activated_gestures": [
+        "GX2",
+        "GX3",
+        "GX4",
+        "GX5",
+        "GX6",
+        "GX7"
+      ],
+      "skipped_gestures": [
+        {
+          "gesture_id": "GX1",
+          "reason": "No broad successful explanatory field with a determinate residual is yet visible."
+        }
+      ],
+      "activated_families": [
+        "F-REPRESENTATION-RESISTANCE",
+        "F-BOUNDARY",
+        "F-LANGUAGE-TRANSLATION",
+        "F-MEDIATION-COMPRESSION",
+        "F-RELATION-COUPLING",
+        "F-REPRESENTATION-DECISION"
+      ],
+      "genealogical_node_ids": [
+        "N-EMERGENT_SOURCE_MEDIATION-GX2-CONCEPTUAL",
+        "N-EMERGENT_SOURCE_MEDIATION-GX2-COUNTER",
+        "N-EMERGENT_SOURCE_MEDIATION-GX2-LEXICAL",
+        "N-EMERGENT_SOURCE_MEDIATION-GX2-PROBLEM",
+        "N-EMERGENT_SOURCE_MEDIATION-GX2-RIVAL_QUESTION"
+      ],
+      "rival_node_ids": [
+        "N-EMERGENT_SOURCE_MEDIATION-GX4-NON_DOMINATED",
+        "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_1",
+        "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_2",
+        "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_3",
+        "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_4",
+        "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_5",
+        "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_6",
+        "N-EMERGENT_SOURCE_MEDIATION-GX4-RIVAL_7"
+      ],
+      "kernel_node_ids": [
+        "N-EMERGENT_SOURCE_MEDIATION-GX3-REVERSED_KERNEL",
+        "N-EMERGENT_SOURCE_MEDIATION-GX5-ANEIGNUNG",
+        "N-EMERGENT_SOURCE_MEDIATION-GX5-FORMAL_INDICATION"
+      ],
+      "surprise_node_ids": [
+        "N-EMERGENT_SOURCE_MEDIATION-GX4-COLLISION"
+      ],
+      "residual_node_ids": [
+        "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_TYPED"
+      ],
+      "research_branch_node_ids": [
+        "N-EMERGENT_SOURCE_MEDIATION-GX6-R3_G_BRANCH"
+      ],
+      "revision_trigger_node_ids": [
+        "N-EMERGENT_SOURCE_MEDIATION-GX6-REOPEN"
+      ],
+      "method_mutation_node_ids": [
+        "N-EMERGENT_SOURCE_MEDIATION-GX7-OPERATOR_DELTA",
+        "N-EMERGENT_SOURCE_MEDIATION-GX7-REPRESENTATION_FAILURE",
+        "N-EMERGENT_SOURCE_MEDIATION-GX7-SOURCE_RESISTANCE"
+      ],
+      "cross_constellation_edges": []
+    }
+  ],
+  "method_mutations": [
+    {
+      "mutation_id": "MUT-C_EMERGENT_SOURCE_MEDIATION-N_EMERGENT_SOURCE_MEDIATION_GX7_OPERATOR_DELTA",
+      "trigger_node_id": "N-EMERGENT_SOURCE_MEDIATION-GX7-REPRESENTATION_FAILURE",
+      "operator_node_id": "N-EMERGENT_SOURCE_MEDIATION-GX7-OPERATOR_DELTA",
+      "candidate": "PROCESSUAL_HERMENEUTIC_FAMILY_CANDIDATE",
+      "mutation_state": "EXPERIMENTAL_CANDIDATE_NOT_CORE",
+      "regression_requirements": [
+        "RIVAL_UNITIZATION_COMPARISON",
+        "SOURCE_LINKED_DISTINCTION_GAIN",
+        "ROLLBACK_PATH_PRESERVED",
+        "CROSS_CORPUS_REGRESSION"
+      ],
+      "retirement_condition": "Retire the mutation if it adds no repeatable source-linked distinction, merely renames an existing operator, or increases ontological commitment without discriminating evidence."
+    }
+  ],
+  "sufficient_openness": {
+    "principle": "SUFFICIENT_OPENNESS_NOT_CLOSURE",
+    "satisfied": true,
+    "criteria": {
+      "problem_transformed": true,
+      "new_distinction": true,
+      "live_rival_or_counterquestion": true,
+      "reverse_pressure_or_explicit_skip": true,
+      "constructive_indication_or_explicit_skip": true,
+      "typed_residual": true,
+      "reopening_condition": true,
+      "source_resistance_handled_or_explicitly_absent": true,
+      "discovery_justification_firewall": true
+    },
+    "missing": [],
+    "interpretation": "The run stops provisionally because the problem has changed under constraints, live alternatives remain, the constructive move is revisable and the remainder is typed. No truth verdict or CORE promotion follows."
+  },
+  "audit_envelope": {
+    "role": "EXTERNAL_NON_DOMINATING_AUDIT_LAYER",
+    "source_fixity_preserved": true,
+    "source_text_included": false,
+    "claim_level_source_resolution": "UNRESOLVED",
+    "external_validation": "PENDING",
+    "warnings": [
+      "Claim-level source resolution is UNRESOLVED; selectors are pointers, not verified quotations or attributions.",
+      "Discovery is not justification: GX2 histories, GX4 alternatives, GX5 indications and GX6 branches are exploratory until O0–O9 and source review test them.",
+      "G0–G4 records generative kind, never truth, confidence or evidential rank; a G4 branch can remain reconstructive while a G0 bibliographic fact can be textually secure.",
+      "Novelty is not optimized. Every generated move must remain traceable, relevant to an aporia or residual, and explicitly revisable.",
+      "Every active move must add at least one GG1–GG7 gain. A move without gain is retired instead of being emitted as ritual procedure.",
+      "Provenance is not reconstructability: a locator alone does not disclose omitted context, collapsed ambiguity or rival unitizations.",
+      "ETY-0.2 is mandatory coverage, not mandatory significance. Local use has priority over origin; etymology never licenses a conceptual or ontological promotion without an independent bridge.",
+      "Meta-risks retained: novelty bias, infinite branching, poetic obscurity, countergenealogy inflation and permanent indecision.",
+      "With an untruncated traversal budget, the seed changes only the order of independently triggered gestures; it does not alter candidate content, source hashes or selector sets.",
+      "GX7 is source-forced method critique: source-central blind spots may create an experimental operator delta, but no delta is CORE promotion until rival-unitization, rollback and cross-corpus regression tests survive."
+    ]
+  },
+  "output_contract": {
+    "terminal_verdicts_emitted": false,
+    "raw_source_included": false,
+    "graph_and_narrative_emitted": true,
+    "exploratory_layer_only": true,
+    "polyphony_preserved_when_triggered": true,
+    "formal_indication_precedes_theory_promotion": true,
+    "typed_residuals_enabled": true,
+    "discovery_is_not_justification": true,
+    "audit_layer_is_external": true,
+    "each_active_step_adds_traceable_gain": true,
+    "compression_role_bounded_and_reversible": true,
+    "mandatory_etymology_executed": true,
+    "mandatory_etymological_significance": false
+  },
+  "claim_ceiling": "GENERATIVE_RECONSTRUCTION_WITH_TRACEABLE_SOURCE_POINTERS_NOT_TRUTH_OR_EXTERNAL_VALIDATION"
+}

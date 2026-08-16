@@ -1,0 +1,60 @@
+{
+  "release": "Destruktion Automation Engine 0.10.0-alpha.1",
+  "package_version": "0.10.0-alpha.1",
+  "portable_project_version": "DAE-AI-CHAT-1.0",
+  "portable_project_sha256": "3c62fdf3192b8ef2aff7cb42e54c3b43eab9b14a0ac090836c4f74bf11658024",
+  "required_assets": 66,
+  "tests": {
+    "passed": 80,
+    "total": 80
+  },
+  "stage": "OPEN_SET_HERMENEUTIC_DISCOVERY_AND_MICRO_LOCAL_ECOLOGY",
+  "controlled_regression": {
+    "fixture": "DESCARTES_COGITO_NEGATIVE_RELATION_CONTROL",
+    "known_relation_profile_activated": false,
+    "open_set_candidate": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+    "micro_local_windows": 5,
+    "mutation_decision": "ACCEPTED_CANDIDATE",
+    "runtime_reachability": "FULL",
+    "runtime_effect": {
+      "nodes_delta": 3,
+      "edges_delta": 4,
+      "open_family_nodes_delta": 3
+    }
+  },
+  "core": "CORE 4.0.0-alpha.1 FROZEN",
+  "next_gate": "0.11 ADVERSARIAL_SEMANTIC_ROLE_AND_ANTI_SELF_CONFIRMATION",
+  "claim_ceiling": "OPEN_SET_EXECUTABLE_OPERATOR_DISCOVERY_CONFORMANCE_NOT_EXTERNAL_PHILOSOPHICAL_OR_SEMANTIC_VALIDATION",
+  "open_set_hermeneutics_0_10": {
+    "stage": "OPEN_SET_HERMENEUTIC_DISCOVERY_AND_MICRO_LOCAL_ECOLOGY",
+    "source_resistance_status": "REGISTRY_BLIND_SPOT",
+    "known_profile_hints": [],
+    "open_set_status": "OPEN_SET_RIVAL_REQUIRED",
+    "candidate": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+    "micro_local_counts": {
+      "windows": 5,
+      "known_only": 0,
+      "open_set_only": 5,
+      "rival_routes": 0,
+      "abstentions": 0,
+      "route_transitions": 0
+    },
+    "mutation_engine_version": "DAE-OPERATOR-MUTATION-1.3",
+    "mutation_decision": "ACCEPTED_CANDIDATE",
+    "runtime_reachability": "FULL",
+    "executable_behavior_changed": true,
+    "baseline": {
+      "constellations": 3,
+      "nodes": 101,
+      "edges": 149,
+      "open_family_nodes": 0
+    },
+    "mutant": {
+      "constellations": 3,
+      "nodes": 104,
+      "edges": 153,
+      "open_family_nodes": 3
+    },
+    "claim_ceiling": "OPEN_SET_EXECUTABLE_OPERATOR_DISCOVERY_CONFORMANCE_NOT_EXTERNAL_PHILOSOPHICAL_OR_SEMANTIC_VALIDATION"
+  }
+}

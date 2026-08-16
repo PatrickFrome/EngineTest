@@ -1,0 +1,18 @@
+{
+  "adapter_status": "COMPLETE",
+  "claim_ceiling": "RECEIPT_NOT_TRUTH",
+  "compiled_mode": "NODE_NATIVE",
+  "elapsed_seconds": 1.0,
+  "engine_id": "engine_01",
+  "parallel_native_and_specialized": false,
+  "receipt_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "receipt_version": "16X-NATIVE-REENTRY-RECEIPT-2.0",
+  "round": 1,
+  "source_reground_required": true,
+  "transformations": [
+    {
+      "type": "fixture"
+    }
+  ],
+  "truth_promotion_allowed": false
+}

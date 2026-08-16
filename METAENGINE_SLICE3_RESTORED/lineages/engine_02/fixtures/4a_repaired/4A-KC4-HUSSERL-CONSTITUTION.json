@@ -1,0 +1,125 @@
+{
+  "record_id": "4A-KC4-HUSSERL-CONSTITUTION",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4A-01#constitution-objectivity",
+      "HUSSERL-CM#sections-22-23-33-47-55"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4A-0.2-repair + DAE-0.1",
+    "agent": "automation-repair-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4A-0.1/4A-KC4-HUSSERL-CONSTITUTION"
+    ],
+    "activity_id": "MODULE-MIGRATION-4A-0.2-SEMANTIC-REPAIR",
+    "timestamp": "2026-08-11T12:00:00Z",
+    "artifact_hash": "sha256:f035db9a98fa5da38c0bd5d89852f0fc02f644ff0c4169335a079b6d5a0a28a7"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "PRACTICE",
+    "description": "Intentional and synthetic processes present an object across multiple modes of givenness.",
+    "role": [
+      "constituting-synthesis"
+    ],
+    "object_type": "intentional_synthesis"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "STATE",
+    "description": "The object is held as one and the same intentional object with a stable constituted sense across those givennesses.",
+    "role": [
+      "constituted-objectivity"
+    ],
+    "status": [
+      {
+        "label": "identity-as-intended",
+        "domain": "phenomenology"
+      }
+    ],
+    "object_type": "intentional_object"
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT09"
+    },
+    "bridge": {
+      "status": "EXPLICIT",
+      "statement": "Synthetic identification constitutes the object as one and the same for the relevant intentional horizon; this does not by itself amount to causal production of the object's existence."
+    },
+    "promotion_flags": [
+      "ROLE_STATUS"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "Husserlian phenomenology",
+    "native_method": "intentional/constitutive analysis",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O3",
+      "O4",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "UNDERDETERMINATION"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY"
+    ],
+    "rtr": "MEDIUM",
+    "cost_note": "Constitution layer is profiled, not globalized."
+  },
+  "rivals": [
+    {
+      "description": "Constitution is read primarily as meaning/objectivity constitution rather than ontic production.",
+      "relation_rt_id": "RT09",
+      "discriminator": "Distinguish sense/objectivity constitution from causal production and metaphysical priority."
+    }
+  ],
+  "extensions": {
+    "kc4": {
+      "module_id": "KC4",
+      "version": "0.1",
+      "constituted_layer": "IDENTITY_AS_INTENDED",
+      "bearer": [
+        "intentional synthesis",
+        "horizon of possible givenness"
+      ],
+      "dependence_type": [
+        "SEMANTIC",
+        "IDENTITY",
+        "EPISTEMIC"
+      ],
+      "modality": "CONSTITUTIVE",
+      "alternative_access": "Perceptual misidentification shows that synthesis and numerical identity can diverge.",
+      "correction_source": [
+        "further perception",
+        "intersubjective correction",
+        "contradiction"
+      ],
+      "production_test": "STATUS_OR_SENSE_DISAPPEARS",
+      "revision_trigger": "Evidence that the phenomenological dependence is also an ontic production relation."
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "STATE_TRANSITION",
+      "relation_applies_to": "TRANSITION",
+      "relation_rationale": "The record encodes constitution of stable intentional sense across modes of givenness; RT09 is retained without promotion to ontic production or metaphysical grounding.",
+      "semantic_review_status": "REPAIRED_PENDING_EXPERT",
+      "human_review_required": true,
+      "review_notes": [
+        "RT07 was replaced by RT09; a separate metaphysical-grounding claim would require its own bridge and record."
+      ]
+    }
+  },
+  "outcome": "QUALIFY"
+}

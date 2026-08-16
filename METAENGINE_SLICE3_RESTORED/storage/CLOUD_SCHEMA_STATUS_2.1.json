@@ -1,0 +1,19 @@
+{
+  "version": "2.1.0-alpha.1",
+  "supabase": {
+    "migration": "parallel_experimental_ecology_2_1",
+    "status": "APPLIED"
+  },
+  "neon": {
+    "project_id": "falling-hat-08217783",
+    "database": "neondb",
+    "tables_verified": [
+      "cross_world_differential_ledger",
+      "experiment_batch_ledger",
+      "experiment_world_ledger",
+      "stress_matrix_ledger"
+    ]
+  },
+  "claim_ceiling": "DATABASES_STORE_EXPERIMENT_PROVENANCE_NOT_EPISTEMIC_AUTHORITY",
+  "verification": "RECONFIRMED_BOTH_BACKENDS_4_OF_4_TABLES"
+}

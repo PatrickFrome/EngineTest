@@ -1,0 +1,126 @@
+{
+  "file_count": 13,
+  "files": [
+    {
+      "exact_commit_or_release": "87e509a2e5a100d221c97df52c6e8be7835f0057",
+      "git_blob_id": "5c48bdc9f6ef95f725096ff5434012da927b516f",
+      "official_file_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/87e509a2e5a100d221c97df52c6e8be7835f0057/LICENSE",
+      "relative_path": "LICENSE",
+      "sha256": "6c73a30c14a2938abaa6afe98ebb19e6d81dac5bd4ace0cb05c61c20afa37b85",
+      "size": 1065,
+      "source_id": "deepseek-v3.2-exp-87e509a"
+    },
+    {
+      "exact_commit_or_release": "87e509a2e5a100d221c97df52c6e8be7835f0057",
+      "git_blob_id": "a281b2a2d4e6f1905e95954d86ea75a156c88d65",
+      "official_file_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/87e509a2e5a100d221c97df52c6e8be7835f0057/README.md",
+      "relative_path": "README.md",
+      "sha256": "dffcdf358a42599945d49293a4f210dbe589141085207b76c081c9ace1f8fd74",
+      "size": 6899,
+      "source_id": "deepseek-v3.2-exp-87e509a"
+    },
+    {
+      "exact_commit_or_release": "87e509a2e5a100d221c97df52c6e8be7835f0057",
+      "git_blob_id": "666a3bf24da8a07aa66b139c966a6c3c4d86b125",
+      "official_file_locator": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/87e509a2e5a100d221c97df52c6e8be7835f0057/inference/model.py",
+      "relative_path": "inference/model.py",
+      "sha256": "bfe5b89186b579910b6d59fa7e0cf1f7a75ceb4ec5d0f5b54f0ccbe77cdb6a63",
+      "size": 38639,
+      "source_id": "deepseek-v3.2-exp-87e509a"
+    },
+    {
+      "exact_commit_or_release": "170f20b2c10659008fdbc909d478bc2a75bc3627",
+      "git_blob_id": "827fdc3a6b57acf622dd6bf4d36bac98509d6a58",
+      "official_file_locator": "https://github.com/zai-org/GLM-4.5/blob/170f20b2c10659008fdbc909d478bc2a75bc3627/LICENSE",
+      "relative_path": "LICENSE",
+      "sha256": "7090a09a59cf55701feb04b2d4f99ce31fc4f31bbe1aaf33dd0dafd8e7546313",
+      "size": 11338,
+      "source_id": "glm-4.5-170f20b"
+    },
+    {
+      "exact_commit_or_release": "170f20b2c10659008fdbc909d478bc2a75bc3627",
+      "git_blob_id": "3c032e93f96f388d7a18169d0993fc3db40264af",
+      "official_file_locator": "https://github.com/zai-org/GLM-4.5/blob/170f20b2c10659008fdbc909d478bc2a75bc3627/README.md",
+      "relative_path": "README.md",
+      "sha256": "0228cee756768dbe9ef56ade05f47148ec032b75c046b3490c700de49f255446",
+      "size": 18229,
+      "source_id": "glm-4.5-170f20b"
+    },
+    {
+      "exact_commit_or_release": "8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3",
+      "git_blob_id": "27ed4ed26dbc5c630df7b7cbcb097b90330520c5",
+      "official_file_locator": "https://github.com/MoonshotAI/Kimi-Linear/blob/8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3/LICENSE",
+      "relative_path": "LICENSE",
+      "sha256": "20f48681e4fb70b2787b752fd6fb887be60332731441818458ed0baf09d8264b",
+      "size": 1068,
+      "source_id": "kimi-linear-8c1d85e"
+    },
+    {
+      "exact_commit_or_release": "8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3",
+      "git_blob_id": "188288206fb333490b032d80df460033bf88c885",
+      "official_file_locator": "https://github.com/MoonshotAI/Kimi-Linear/blob/8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3/README.md",
+      "relative_path": "README.md",
+      "sha256": "94b884a1ebe7600daf3429c8a7403874aa69d7a25b30c992e367f72289e2817d",
+      "size": 6401,
+      "source_id": "kimi-linear-8c1d85e"
+    },
+    {
+      "exact_commit_or_release": "9eaeb91c17450e09021b6065a1d5cc69876507c8",
+      "git_blob_id": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "official_file_locator": "https://github.com/mistralai/mistral-inference/blob/9eaeb91c17450e09021b6065a1d5cc69876507c8/LICENSE",
+      "relative_path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size": 11357,
+      "source_id": "mistral-inference-9eaeb91"
+    },
+    {
+      "exact_commit_or_release": "9eaeb91c17450e09021b6065a1d5cc69876507c8",
+      "git_blob_id": "9c25e2c21f263177227bfdad41754147ba001229",
+      "official_file_locator": "https://github.com/mistralai/mistral-inference/blob/9eaeb91c17450e09021b6065a1d5cc69876507c8/README.md",
+      "relative_path": "README.md",
+      "sha256": "be9ff9760021cf2de90d422cd76130c4db1b6f0666271de591dd932203551544",
+      "size": 17382,
+      "source_id": "mistral-inference-9eaeb91"
+    },
+    {
+      "exact_commit_or_release": "9eaeb91c17450e09021b6065a1d5cc69876507c8",
+      "git_blob_id": "9ce8a8a9c62e9a8edff797c0262b393c30ea38e7",
+      "official_file_locator": "https://github.com/mistralai/mistral-inference/blob/9eaeb91c17450e09021b6065a1d5cc69876507c8/src/mistral_inference/moe.py",
+      "relative_path": "src/mistral_inference/moe.py",
+      "sha256": "674c7d207f20fbafc942b35517c308ed20b75dc4a72203f97886a9afa1fb3981",
+      "size": 1095,
+      "source_id": "mistral-inference-9eaeb91"
+    },
+    {
+      "exact_commit_or_release": "9eaeb91c17450e09021b6065a1d5cc69876507c8",
+      "git_blob_id": "09e9cab6ab4b0749bad81b04ea492da6dfc31fe3",
+      "official_file_locator": "https://github.com/mistralai/mistral-inference/blob/9eaeb91c17450e09021b6065a1d5cc69876507c8/src/mistral_inference/transformer.py",
+      "relative_path": "src/mistral_inference/transformer.py",
+      "sha256": "509497cfce7f91febe6c39f5c65039ad8f7250eccced0560f0c57cd473b7cf45",
+      "size": 13923,
+      "source_id": "mistral-inference-9eaeb91"
+    },
+    {
+      "exact_commit_or_release": "0886e34d2d6947e631b8338088a1293862243300",
+      "git_blob_id": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "official_file_locator": "https://github.com/QwenLM/Qwen3.6/blob/0886e34d2d6947e631b8338088a1293862243300/LICENSE",
+      "relative_path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size": 11357,
+      "source_id": "qwen3.6-0886e34"
+    },
+    {
+      "exact_commit_or_release": "0886e34d2d6947e631b8338088a1293862243300",
+      "git_blob_id": "7d09becbf7ccfb3db2368548592d010f5da708d3",
+      "official_file_locator": "https://github.com/QwenLM/Qwen3.6/blob/0886e34d2d6947e631b8338088a1293862243300/README.md",
+      "relative_path": "README.md",
+      "sha256": "4d889b3dde6520ef5499c9876569ec39fae13da7f7ea03caf502ee94dbdaf9aa",
+      "size": 11768,
+      "source_id": "qwen3.6-0886e34"
+    }
+  ],
+  "manifest_sha256": "2a569e3cf4408ba558d1af0cde16101e66911c550cecf15b392056129dbe7339",
+  "registry_snapshot_sha256": "b50ee520f2dd605fb48f94c44dbb5fd26980fbcacf6a2150aafe178d41f631e8",
+  "retrieval_evidence_version": "ARCHITECTURE-SOURCE-RETRIEVAL-EVIDENCE-1",
+  "total_bytes": 150521
+}

@@ -1,0 +1,62 @@
+{
+  "actual_cloud_writes": 0,
+  "authority_rule": "SUPABASE_REMAINS_SOLE_CANONICAL_CHECKPOINT_AND_POLICY_AUTHORITY",
+  "canonical_authority": false,
+  "captured_at": "2026-08-12",
+  "components": {
+    "d1": {
+      "canonical_authority": false,
+      "data_class": "EPHEMERAL_REFERENCES_ONLY",
+      "status": "EPHEMERAL_SCHEMA_READY_NO_REMOTE_RESOURCE"
+    },
+    "noodle": {
+      "canonical_authority": false,
+      "status": "NOT_BOOTSTRAPPED_NO_NOODLE_CLI"
+    },
+    "r2": {
+      "addressing": "SHA256_CONTENT_ADDRESSED",
+      "canonical_authority": false,
+      "status": "CAS_CORE_READY_NO_REMOTE_BUCKET"
+    },
+    "worker_gateway": {
+      "canonical_authority": false,
+      "status": "CORE_READY_NODE_SDK_LOCK_UNRESOLVED",
+      "transport": "STREAMABLE_HTTP_STATELESS_MCP"
+    },
+    "workers_ai": {
+      "free_neurons_per_day": 10000,
+      "paid_fallback": false,
+      "privacy_classes": [
+        "P0",
+        "P1"
+      ],
+      "status": "OPTIONAL_BINDING_UNTESTED"
+    },
+    "workflows": {
+      "free_steps_per_day": 3000,
+      "paid_fallback": false,
+      "status": "REFERENCE_ONLY_CORE_READY_NO_REMOTE_WORKFLOW"
+    }
+  },
+  "deployment": "NO_DEPLOYMENT_PERFORMED",
+  "external_blockers": [
+    "NPM_PACKAGE_LOCK_UNRESOLVED",
+    "WRANGLER_LOCAL_PREVIEW_NOT_RUN",
+    "CLOUDFLARE_RESOURCES_NOT_PROVISIONED"
+  ],
+  "free_limits": {
+    "d1_rows_read_per_day": 5000000,
+    "d1_rows_written_per_day": 100000,
+    "r2_class_a_per_month": 1000000,
+    "r2_class_b_per_month": 10000000,
+    "r2_storage_gb_month": 10,
+    "workers_ai_neurons_per_day": 10000,
+    "workers_cpu_ms_per_invocation": 10,
+    "workers_requests_per_day": 100000,
+    "workflow_steps_per_day": 3000
+  },
+  "manifest_version": "METAENGINE-DEVFABRIC-REMOTE-EDGE-1",
+  "source_stage_c_capsule_sha256": "a05d721181f35a01a15a40b08dd9d8c6a063cfd97f098a64e9d570b732e555e9",
+  "stage": "D",
+  "zero_spend": true
+}

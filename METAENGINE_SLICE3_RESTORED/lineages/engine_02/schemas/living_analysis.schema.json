@@ -1,0 +1,911 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/living_analysis.schema.json",
+  "title": "Destruktion nonlinear living analysis",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "analysis_version",
+    "engine_version",
+    "generated_at",
+    "run_id",
+    "seed",
+    "layer",
+    "source",
+    "operator_registry",
+    "etymology",
+    "graph",
+    "constellations",
+    "sufficient_openness",
+    "audit_envelope",
+    "output_contract",
+    "claim_ceiling"
+  ],
+  "properties": {
+    "analysis_version": {
+      "enum": [
+        "DAE-LIVING-ANALYSIS-1.0",
+        "DAE-LIVING-ANALYSIS-1.1",
+        "DAE-LIVING-ANALYSIS-1.2",
+        "DAE-LIVING-ANALYSIS-1.3"
+      ]
+    },
+    "engine_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^LIVING-[A-Z0-9_-]+-[A-F0-9]{12}$"
+    },
+    "seed": {
+      "type": "string",
+      "minLength": 1
+    },
+    "layer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "layer_id",
+        "kind",
+        "core_mutated",
+        "discovery_justification_firewall"
+      ],
+      "properties": {
+        "layer_id": {
+          "enum": [
+            "D3-EXPLORATORY-0.1",
+            "D3-EXPLORATORY-0.2"
+          ]
+        },
+        "kind": {
+          "const": "EXPERIMENTAL_GENERATIVE_OVERLAY"
+        },
+        "core_mutated": {
+          "const": false
+        },
+        "discovery_justification_firewall": {
+          "const": true
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "artifact_sha256",
+        "refinery_report_sha256",
+        "hypothesis_bank_sha256",
+        "hypothesis_count",
+        "claim_ledger_entries"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "artifact_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "refinery_report_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "hypothesis_bank_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "hypothesis_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "claim_ledger_entries": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "operator_registry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "registry_version",
+        "sha256",
+        "protocol_sources"
+      ],
+      "properties": {
+        "registry_version": {
+          "enum": [
+            "DAE-LIVING-OPERATORS-1.0",
+            "DAE-LIVING-OPERATORS-1.1",
+            "DAE-LIVING-OPERATORS-1.2",
+            "DAE-LIVING-OPERATORS-0.9-DECLARATIVE-1.1",
+            "D3-LIVING-OPERATORS-1.1-OPENSET"
+          ]
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "protocol_sources": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "etymology": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "protocol_version",
+        "mandatory",
+        "pass_sha256",
+        "cards",
+        "full_cards",
+        "card_ids",
+        "coverage_complete",
+        "unresolved_fields",
+        "semantic_promotion_without_independent_bridge"
+      ],
+      "properties": {
+        "protocol_version": {
+          "const": "ETY-0.2"
+        },
+        "mandatory": {
+          "const": true
+        },
+        "pass_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "cards": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "full_cards": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "card_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "pattern": "^ETY-CARD-[A-Z0-9_-]+$"
+          },
+          "uniqueItems": true
+        },
+        "coverage_complete": {
+          "const": true
+        },
+        "unresolved_fields": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "semantic_promotion_without_independent_bridge": {
+          "const": false
+        }
+      }
+    },
+    "graph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "topology",
+        "nodes",
+        "edges",
+        "traversal_order",
+        "retired_operators"
+      ],
+      "properties": {
+        "topology": {
+          "const": "REVISABLE_DIRECTED_MULTIGRAPH"
+        },
+        "nodes": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/node"
+          }
+        },
+        "edges": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/edge"
+          }
+        },
+        "traversal_order": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "retired_operators": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "operator_id",
+              "reason"
+            ],
+            "properties": {
+              "operator_id": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "constellations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "constellation_id",
+          "topic_id",
+          "title",
+          "guiding_question",
+          "entry_node_ids",
+          "etymology_card_ids",
+          "activated_gestures",
+          "skipped_gestures",
+          "activated_families",
+          "genealogical_node_ids",
+          "rival_node_ids",
+          "kernel_node_ids",
+          "surprise_node_ids",
+          "residual_node_ids",
+          "research_branch_node_ids",
+          "revision_trigger_node_ids",
+          "cross_constellation_edges"
+        ],
+        "properties": {
+          "constellation_id": {
+            "type": "string",
+            "pattern": "^C-[A-Z0-9_-]+$"
+          },
+          "topic_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "guiding_question": {
+            "type": "string"
+          },
+          "entry_node_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "etymology_card_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "pattern": "^ETY-CARD-[A-Z0-9_-]+$"
+            },
+            "uniqueItems": true
+          },
+          "activated_gestures": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "pattern": "^GX[1-7](?:[A-Z0-9._-]*)$"
+            },
+            "uniqueItems": true
+          },
+          "skipped_gestures": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "gesture_id",
+                "reason"
+              ],
+              "properties": {
+                "gesture_id": {
+                  "pattern": "^GX[1-7](?:[A-Z0-9._-]*)$"
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "activated_families": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "genealogical_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "rival_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "kernel_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "surprise_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "residual_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "research_branch_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "revision_trigger_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "cross_constellation_edges": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "method_mutation_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "claim_statement": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "emergent_terms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "sufficient_openness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "principle",
+        "satisfied",
+        "criteria",
+        "missing",
+        "interpretation"
+      ],
+      "properties": {
+        "principle": {
+          "const": "SUFFICIENT_OPENNESS_NOT_CLOSURE"
+        },
+        "satisfied": {
+          "type": "boolean"
+        },
+        "criteria": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "problem_transformed",
+            "new_distinction",
+            "live_rival_or_counterquestion",
+            "reverse_pressure_or_explicit_skip",
+            "constructive_indication_or_explicit_skip",
+            "typed_residual",
+            "reopening_condition",
+            "discovery_justification_firewall"
+          ],
+          "properties": {
+            "problem_transformed": {
+              "type": "boolean"
+            },
+            "new_distinction": {
+              "type": "boolean"
+            },
+            "live_rival_or_counterquestion": {
+              "type": "boolean"
+            },
+            "reverse_pressure_or_explicit_skip": {
+              "type": "boolean"
+            },
+            "constructive_indication_or_explicit_skip": {
+              "type": "boolean"
+            },
+            "typed_residual": {
+              "type": "boolean"
+            },
+            "reopening_condition": {
+              "type": "boolean"
+            },
+            "discovery_justification_firewall": {
+              "type": "boolean"
+            },
+            "source_resistance_handled_or_explicitly_absent": {
+              "type": "boolean"
+            }
+          }
+        },
+        "missing": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "interpretation": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "audit_envelope": {
+      "$ref": "#/$defs/auditEnvelope"
+    },
+    "output_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "terminal_verdicts_emitted",
+        "raw_source_included",
+        "graph_and_narrative_emitted",
+        "exploratory_layer_only",
+        "polyphony_preserved_when_triggered",
+        "formal_indication_precedes_theory_promotion",
+        "typed_residuals_enabled",
+        "discovery_is_not_justification",
+        "audit_layer_is_external",
+        "each_active_step_adds_traceable_gain",
+        "compression_role_bounded_and_reversible",
+        "mandatory_etymology_executed",
+        "mandatory_etymological_significance"
+      ],
+      "properties": {
+        "terminal_verdicts_emitted": {
+          "const": false
+        },
+        "raw_source_included": {
+          "const": false
+        },
+        "graph_and_narrative_emitted": {
+          "const": true
+        },
+        "exploratory_layer_only": {
+          "const": true
+        },
+        "polyphony_preserved_when_triggered": {
+          "const": true
+        },
+        "formal_indication_precedes_theory_promotion": {
+          "const": true
+        },
+        "typed_residuals_enabled": {
+          "const": true
+        },
+        "discovery_is_not_justification": {
+          "const": true
+        },
+        "audit_layer_is_external": {
+          "const": true
+        },
+        "each_active_step_adds_traceable_gain": {
+          "const": true
+        },
+        "compression_role_bounded_and_reversible": {
+          "const": true
+        },
+        "mandatory_etymology_executed": {
+          "const": true
+        },
+        "mandatory_etymological_significance": {
+          "const": false
+        }
+      }
+    },
+    "claim_ceiling": {
+      "const": "GENERATIVE_RECONSTRUCTION_WITH_TRACEABLE_SOURCE_POINTERS_NOT_TRUTH_OR_EXTERNAL_VALIDATION"
+    },
+    "method_mutations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "mutation_id",
+          "trigger_node_id",
+          "operator_node_id",
+          "candidate",
+          "mutation_state",
+          "regression_requirements",
+          "retirement_condition"
+        ],
+        "properties": {
+          "mutation_id": {
+            "type": "string",
+            "pattern": "^MUT-[A-Z0-9_-]+$"
+          },
+          "trigger_node_id": {
+            "type": "string",
+            "pattern": "^N-[A-Z0-9_-]+$"
+          },
+          "operator_node_id": {
+            "type": "string",
+            "pattern": "^N-[A-Z0-9_-]+$"
+          },
+          "candidate": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mutation_state": {
+            "const": "EXPERIMENTAL_CANDIDATE_NOT_CORE"
+          },
+          "regression_requirements": {
+            "type": "array",
+            "minItems": 4,
+            "items": {
+              "enum": [
+                "RIVAL_UNITIZATION_COMPARISON",
+                "SOURCE_LINKED_DISTINCTION_GAIN",
+                "ROLLBACK_PATH_PRESERVED",
+                "CROSS_CORPUS_REGRESSION"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "retirement_condition": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "node_id",
+        "constellation_id",
+        "role",
+        "title",
+        "proposition",
+        "philosophical_function",
+        "generated_by",
+        "protocol_refs",
+        "parent_ids",
+        "source_basis",
+        "epistemic_registers",
+        "generative_register",
+        "generative_gains",
+        "residual_kind",
+        "scope",
+        "revisable_by",
+        "evidence_ceiling"
+      ],
+      "properties": {
+        "node_id": {
+          "type": "string",
+          "pattern": "^N-[A-Z0-9_-]+$"
+        },
+        "constellation_id": {
+          "type": "string",
+          "pattern": "^C-[A-Z0-9_-]+$"
+        },
+        "role": {
+          "enum": [
+            "QUESTION",
+            "PROBLEM_GENESIS",
+            "LEXICAL_GENEALOGY",
+            "CONCEPTUAL_GENEALOGY",
+            "PROBLEM_GENEALOGY",
+            "COUNTER_GENEALOGY",
+            "COUNTERGENETIC_FORK",
+            "MOTIVATING_FIELD",
+            "DECONFLATION",
+            "REGIONALIZATION",
+            "REVERSE_TEST",
+            "SPECIALIZED_PROBE",
+            "RESIDUAL_CANDIDATE",
+            "RIVAL_RECONSTRUCTION",
+            "POLYPHONIC_FIELD",
+            "POSITIVE_KERNEL",
+            "FORMAL_INDICATION",
+            "SURPRISE",
+            "EXPLANATORY_BALANCE",
+            "SELF_CRITIQUE",
+            "MUTATION",
+            "DESTROYED",
+            "PRESERVED",
+            "OPEN_RESIDUAL",
+            "RESEARCH_BRANCH",
+            "REVISION_TRIGGER",
+            "SOURCE_RESISTANCE",
+            "REPRESENTATION_FAILURE",
+            "OPERATOR_DELTA"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "proposition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "philosophical_function": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generated_by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "protocol_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "parent_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "source_basis": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "hypothesis_id",
+            "selector_count",
+            "selectors",
+            "selectors_truncated",
+            "source_resolution"
+          ],
+          "properties": {
+            "hypothesis_id": {
+              "type": "string"
+            },
+            "selector_count": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "selectors": {
+              "type": "array",
+              "maxItems": 8,
+              "items": {
+                "type": "string"
+              }
+            },
+            "selectors_truncated": {
+              "type": "boolean"
+            },
+            "source_resolution": {
+              "enum": [
+                "UNRESOLVED",
+                "PARTIAL",
+                "RESOLVED"
+              ]
+            }
+          }
+        },
+        "epistemic_registers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "STRUCTURAL_SIGNAL",
+              "TEXTUAL_POINTER",
+              "HISTORICAL_LEAD",
+              "IMMANENT_INFERENCE",
+              "PHENOMENOLOGICAL_HYPOTHESIS",
+              "RECONSTRUCTIVE_PROPOSAL",
+              "OPEN_QUESTION"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "generative_register": {
+          "enum": [
+            "G0",
+            "G1",
+            "G2",
+            "G3",
+            "G4"
+          ]
+        },
+        "generative_gains": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "GG1_NEW_DISTINCTION",
+              "GG2_NEW_QUESTION",
+              "GG3_NEW_RIVAL",
+              "GG4_REVERSAL",
+              "GG5_NEW_PHENOMENON",
+              "GG6_BRANCH_PRODUCTIVITY",
+              "GG7_OPERATOR_EVOLUTION"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "residual_kind": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "R3-U",
+            "R3-A",
+            "R3-R",
+            "R3-G",
+            null
+          ]
+        },
+        "scope": {
+          "enum": [
+            "LOCAL",
+            "WORK",
+            "DIACHRONIC",
+            "REGIONAL",
+            "EPOCHAL",
+            "UNIVERSAL",
+            "METHOD"
+          ]
+        },
+        "revisable_by": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence_ceiling": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "edge_id",
+        "from",
+        "to",
+        "relation",
+        "rationale"
+      ],
+      "properties": {
+        "edge_id": {
+          "type": "string",
+          "pattern": "^E-[A-Z0-9_-]+$"
+        },
+        "from": {
+          "type": "string"
+        },
+        "to": {
+          "type": "string"
+        },
+        "relation": {
+          "enum": [
+            "MOTIVATES",
+            "GENEALOGICALLY_TRANSFORMS",
+            "COUNTERS",
+            "DECONFLATES",
+            "REGIONALIZES",
+            "PRESERVES",
+            "DISPUTES",
+            "RIVALS",
+            "ENABLES",
+            "COLLIDES_WITH",
+            "MUTATES_INTO",
+            "SELF_CRITIQUES",
+            "DESTROYS_NECESSITY",
+            "OPENS",
+            "REOPENS",
+            "CROSSES_CONSTELLATION",
+            "FORCES_MUTATION"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "auditEnvelope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "role",
+        "source_fixity_preserved",
+        "source_text_included",
+        "claim_level_source_resolution",
+        "external_validation",
+        "warnings"
+      ],
+      "properties": {
+        "role": {
+          "const": "EXTERNAL_NON_DOMINATING_AUDIT_LAYER"
+        },
+        "source_fixity_preserved": {
+          "const": true
+        },
+        "source_text_included": {
+          "const": false
+        },
+        "claim_level_source_resolution": {
+          "enum": [
+            "UNRESOLVED",
+            "PARTIAL",
+            "RESOLVED"
+          ]
+        },
+        "external_validation": {
+          "enum": [
+            "NOT_PERFORMED",
+            "PENDING",
+            "AVAILABLE"
+          ]
+        },
+        "warnings": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

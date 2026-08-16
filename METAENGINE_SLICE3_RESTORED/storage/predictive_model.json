@@ -1,0 +1,15 @@
+{
+  "model_version": "METAENGINE-PREDICTIVE-ORGANIZATION-MODEL-1",
+  "observation_count": 1,
+  "observations": [
+    {
+      "task_id": "945e3a2d6e1e1367",
+      "policy_id": "de85a7a195bec7c6",
+      "quality": 0.5,
+      "cost": 1.0,
+      "latency": 0.5
+    }
+  ],
+  "truth_effect": "NONE",
+  "claim_ceiling": "PREDICTIVE_MODEL_IS_SEARCH_HEURISTIC_NOT_TRUTH"
+}

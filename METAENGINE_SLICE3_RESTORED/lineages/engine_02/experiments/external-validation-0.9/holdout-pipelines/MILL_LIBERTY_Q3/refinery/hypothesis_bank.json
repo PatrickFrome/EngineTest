@@ -1,0 +1,404 @@
+{
+  "bank_version": "DAE-HYPOTHESIS-BANK-1.2",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T19:20:44Z",
+  "source_id": "LOCAL-SHA256-2F5D4065C9B7BD03E3C7C5FC3D154FB794BEFBAD9CC4B83D2732A36EDDC6A7F5",
+  "registry_version": "DAE-REFINERY-TOPICS-1.0",
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP-EMERGENT_SOURCE_NOT",
+      "topic_id": "EMERGENT_SOURCE_NOT",
+      "label": "Source-forced constellation: not / But / public / than / religion / religious",
+      "research_question": "Which distinctions, dependencies or representation failures among not, But, public, than, religion, religious, would, Mussulmans, pork become invisible when the current topic registry determines the problem in advance?",
+      "origin": "SOURCE_FORCED_REGISTRY_RESISTANCE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "SOURCE_RESISTANCE",
+        "TERM_NOT",
+        "TERM_BUT",
+        "TERM_PUBLIC",
+        "TERM_THAN",
+        "TERM_RELIGION",
+        "TERM_RELIGIOUS",
+        "TERM_WOULD",
+        "TERM_MUSSULMANS",
+        "TERM_PORK"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000001-F5E783A17D",
+        "OX-P000002-61CBA1AA1D",
+        "OX-P000003-EA543370C5",
+        "OX-P000004-2F85293C8E",
+        "OX-P000005-384674BA64"
+      ],
+      "evidence_count": 5,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "not",
+        "But",
+        "public",
+        "than",
+        "religion",
+        "religious",
+        "would",
+        "Mussulmans",
+        "pork"
+      ],
+      "operator_candidate": {
+        "family": "GENERIC_SOURCE_FORCED_REVISION",
+        "candidate": "SOURCE_FORCED_TOPIC_AND_OPERATOR_CANDIDATE",
+        "signal_counts": {
+          "DIFFERENTIAL": 0,
+          "REFERENCE_RELATIVE": 0,
+          "SYSTEM_FIELD": 0,
+          "ASYMMETRIC_DEPENDENCE": 0,
+          "RECIPROCITY_GATHERING": 0,
+          "DISTANCE_DIFFERENTIATION": 0,
+          "PRIORITY": 2
+        },
+        "active_signal_families": [
+          "PRIORITY"
+        ],
+        "central_term_cooccurrence_segments": 1,
+        "profile_hints": [],
+        "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_SOURCE_ONTOLOGY"
+      },
+      "open_set_candidate": {
+        "family": "UNKNOWN_OPERATOR_FAMILY",
+        "candidate": "F-OPEN-NOT_BUT_PUBLIC-3E3520E94C78",
+        "status": "OPEN_SET_RIVAL_REQUIRED",
+        "source_signature": {
+          "recurrent_terms": [
+            {
+              "term": "but",
+              "windows": 1
+            },
+            {
+              "term": "mussulmans",
+              "windows": 1
+            },
+            {
+              "term": "not",
+              "windows": 1
+            },
+            {
+              "term": "pork",
+              "windows": 1
+            },
+            {
+              "term": "public",
+              "windows": 1
+            },
+            {
+              "term": "religion",
+              "windows": 1
+            },
+            {
+              "term": "religious",
+              "windows": 1
+            },
+            {
+              "term": "than",
+              "windows": 1
+            },
+            {
+              "term": "would",
+              "windows": 1
+            }
+          ],
+          "recurrent_pairs": [],
+          "window_count": 1,
+          "local_profile_variation": {
+            "distinct_known_profiles": [
+              "UNRESOLVED"
+            ],
+            "known_profile_transition_count": 0,
+            "unresolved_windows": 1
+          }
+        },
+        "source_trigger_terms": [
+          "not",
+          "But",
+          "public",
+          "than",
+          "religion",
+          "religious"
+        ],
+        "rival_unitizations": [
+          {
+            "unitization_id": "U-TERM-FIELD",
+            "description": "Treat recurrent source-native terms as a provisional local field before assigning a known ontological relation type.",
+            "analytic_consequence": "The operator asks which distinctions appear from term co-presence without presupposing relation-first, relata-first, dependence or reciprocity."
+          },
+          {
+            "unitization_id": "U-WINDOW-TRANSITION",
+            "description": "Treat changes between adjacent argument windows as the primary analytic event rather than assuming one corpus-wide profile.",
+            "analytic_consequence": "The operator preserves local regime shifts and can route different windows differently without turning variation into a universal ontology."
+          },
+          {
+            "unitization_id": "U-NEGATIVE-BOUNDARY",
+            "description": "Treat recurrent absences and broken co-occurrences as provisional boundaries of the source's problem-space.",
+            "analytic_consequence": "The operator can register what ceases to travel together without claiming that absence itself names a metaphysical structure."
+          }
+        ],
+        "proposed_executable_family": {
+          "family_id": "F-OPEN-NOT_BUT_PUBLIC-3E3520E94C78",
+          "title": "Open-set source family: not / But / public / than",
+          "protocol_refs": [
+            "OPEN-SET-HERMENEUTIC-DISCOVERY-0.10",
+            "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1"
+          ],
+          "triggers": [
+            "not",
+            "but",
+            "public",
+            "than",
+            "religion",
+            "religious"
+          ],
+          "diagnostic": "What becomes visible in the local source field (not, But, public, than, religion, religious) before it is translated into a pre-existing operator family?",
+          "constructive_move": "Compare term-field, window-transition and negative-boundary unitizations; preserve a null result when none adds a source-linked distinction.",
+          "self_risk": "Open-set discovery can become an exception factory that rewards novelty; retire the family if it does not add repeatable local discrimination beyond ordinary routing.",
+          "positive_model": "Micro-local source-signature probe with no presupposed ontology and explicit rollback to ordinary routing."
+        },
+        "claim_ceiling": "OPEN_SET_OPERATOR_CANDIDATE_NOT_DISCOVERED_ONTOLOGY_OR_CORE_PROMOTION"
+      },
+      "micro_local_window_ids": [
+        "MW-000004-000004-5FDF9F52D771"
+      ],
+      "source_resistance_trigger": "Curated topic coverage captured 0/9 source-central terms; 9 remained outside the recognized problem-space.",
+      "revision_condition": "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations."
+    }
+  ],
+  "case_matrices": [],
+  "source_resistance": {
+    "status": "REGISTRY_BLIND_SPOT",
+    "central_terms": [
+      "not",
+      "But",
+      "public",
+      "than",
+      "religion",
+      "religious",
+      "would",
+      "Mussulmans",
+      "pork"
+    ],
+    "covered_terms": [],
+    "uncovered_terms": [
+      "not",
+      "But",
+      "public",
+      "than",
+      "religion",
+      "religious",
+      "would",
+      "Mussulmans",
+      "pork"
+    ],
+    "coverage_ratio": 0,
+    "explicit_stress_terms": [],
+    "source_native_terms": [
+      "religious",
+      "not",
+      "would",
+      "Mussulmans",
+      "But",
+      "religion",
+      "pork",
+      "than",
+      "public"
+    ],
+    "centrality_basis": "MULTILINGUAL_SOURCE_FREQUENCY_PLUS_SOURCE_DOCUMENT_FREQUENCY_WITH_OPTIONAL_EXPLICIT_STRESS_HINTS",
+    "operator_candidate": {
+      "family": "GENERIC_SOURCE_FORCED_REVISION",
+      "candidate": "SOURCE_FORCED_TOPIC_AND_OPERATOR_CANDIDATE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 2
+      },
+      "active_signal_families": [
+        "PRIORITY"
+      ],
+      "central_term_cooccurrence_segments": 1,
+      "profile_hints": [],
+      "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_SOURCE_ONTOLOGY"
+    },
+    "open_set_status": "OPEN_SET_RIVAL_REQUIRED",
+    "open_set_candidate": {
+      "family": "UNKNOWN_OPERATOR_FAMILY",
+      "candidate": "F-OPEN-NOT_BUT_PUBLIC-3E3520E94C78",
+      "status": "OPEN_SET_RIVAL_REQUIRED",
+      "source_signature": {
+        "recurrent_terms": [
+          {
+            "term": "but",
+            "windows": 1
+          },
+          {
+            "term": "mussulmans",
+            "windows": 1
+          },
+          {
+            "term": "not",
+            "windows": 1
+          },
+          {
+            "term": "pork",
+            "windows": 1
+          },
+          {
+            "term": "public",
+            "windows": 1
+          },
+          {
+            "term": "religion",
+            "windows": 1
+          },
+          {
+            "term": "religious",
+            "windows": 1
+          },
+          {
+            "term": "than",
+            "windows": 1
+          },
+          {
+            "term": "would",
+            "windows": 1
+          }
+        ],
+        "recurrent_pairs": [],
+        "window_count": 1,
+        "local_profile_variation": {
+          "distinct_known_profiles": [
+            "UNRESOLVED"
+          ],
+          "known_profile_transition_count": 0,
+          "unresolved_windows": 1
+        }
+      },
+      "source_trigger_terms": [
+        "not",
+        "But",
+        "public",
+        "than",
+        "religion",
+        "religious"
+      ],
+      "rival_unitizations": [
+        {
+          "unitization_id": "U-TERM-FIELD",
+          "description": "Treat recurrent source-native terms as a provisional local field before assigning a known ontological relation type.",
+          "analytic_consequence": "The operator asks which distinctions appear from term co-presence without presupposing relation-first, relata-first, dependence or reciprocity."
+        },
+        {
+          "unitization_id": "U-WINDOW-TRANSITION",
+          "description": "Treat changes between adjacent argument windows as the primary analytic event rather than assuming one corpus-wide profile.",
+          "analytic_consequence": "The operator preserves local regime shifts and can route different windows differently without turning variation into a universal ontology."
+        },
+        {
+          "unitization_id": "U-NEGATIVE-BOUNDARY",
+          "description": "Treat recurrent absences and broken co-occurrences as provisional boundaries of the source's problem-space.",
+          "analytic_consequence": "The operator can register what ceases to travel together without claiming that absence itself names a metaphysical structure."
+        }
+      ],
+      "proposed_executable_family": {
+        "family_id": "F-OPEN-NOT_BUT_PUBLIC-3E3520E94C78",
+        "title": "Open-set source family: not / But / public / than",
+        "protocol_refs": [
+          "OPEN-SET-HERMENEUTIC-DISCOVERY-0.10",
+          "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1"
+        ],
+        "triggers": [
+          "not",
+          "but",
+          "public",
+          "than",
+          "religion",
+          "religious"
+        ],
+        "diagnostic": "What becomes visible in the local source field (not, But, public, than, religion, religious) before it is translated into a pre-existing operator family?",
+        "constructive_move": "Compare term-field, window-transition and negative-boundary unitizations; preserve a null result when none adds a source-linked distinction.",
+        "self_risk": "Open-set discovery can become an exception factory that rewards novelty; retire the family if it does not add repeatable local discrimination beyond ordinary routing.",
+        "positive_model": "Micro-local source-signature probe with no presupposed ontology and explicit rollback to ordinary routing."
+      },
+      "claim_ceiling": "OPEN_SET_OPERATOR_CANDIDATE_NOT_DISCOVERED_ONTOLOGY_OR_CORE_PROMOTION"
+    },
+    "micro_local_windows": [
+      {
+        "window_id": "MW-000004-000004-5FDF9F52D771",
+        "segment_ids": [
+          "OX-P000004-2F85293C8E"
+        ],
+        "ordinal_start": 4,
+        "ordinal_end": 4,
+        "central_terms": [
+          "not",
+          "But",
+          "public",
+          "than",
+          "religion",
+          "religious",
+          "would",
+          "Mussulmans",
+          "pork"
+        ],
+        "cooccurrence_pairs": [
+          "but::mussulmans",
+          "but::not",
+          "but::pork",
+          "but::public",
+          "but::religion",
+          "but::religious",
+          "but::than",
+          "but::would",
+          "mussulmans::not",
+          "mussulmans::pork",
+          "mussulmans::public",
+          "mussulmans::religion",
+          "mussulmans::religious",
+          "mussulmans::than",
+          "mussulmans::would",
+          "not::pork",
+          "not::public",
+          "not::religion",
+          "not::religious",
+          "not::than",
+          "not::would",
+          "pork::public",
+          "pork::religion",
+          "pork::religious",
+          "pork::than",
+          "pork::would",
+          "public::religion",
+          "public::religious",
+          "public::than",
+          "public::would",
+          "religion::religious",
+          "religion::than",
+          "religion::would",
+          "religious::than",
+          "religious::would",
+          "than::would"
+        ],
+        "known_profile_hints": [],
+        "known_signal_families": [
+          "PRIORITY"
+        ],
+        "known_candidate_family": "GENERIC_SOURCE_FORCED_REVISION",
+        "raw_text_included": false
+      }
+    ],
+    "emergent_hypotheses": [
+      "HYP-EMERGENT_SOURCE_NOT"
+    ],
+    "principle": "SOURCE_CENTRALITY_CAN_FORCE_TOPIC_AND_OPERATOR_REVISION_BUT_CANNOT_BY_ITSELF_VALIDATE_A_PHILOSOPHICAL_CLAIM"
+  },
+  "claim_ceiling": "HYPOTHESIS_DISCOVERY_ONLY_NOT_CORROBORATION_OR_VALIDATION"
+}

@@ -1,0 +1,96 @@
+{
+  "allowed_use": [
+    "ANALYSIS",
+    "CLEAN_ROOM_REIMPLEMENTATION",
+    "REFERENCE"
+  ],
+  "architecture_claims": [
+    {
+      "claim_id": "mistral-reference-implementation-retained",
+      "evidence_locator": "https://github.com/mistralai/mistral-inference/tree/9eaeb91c17450e09021b6065a1d5cc69876507c8/src/mistral_inference",
+      "kind": "SOURCE_FACT",
+      "statement": "The retained pack contains official license, README, transformer, and mixture-of-experts reference code from the pinned revision."
+    },
+    {
+      "claim_id": "mistral-repository-archived",
+      "evidence_locator": "https://github.com/mistralai/mistral-inference/tree/9eaeb91c17450e09021b6065a1d5cc69876507c8",
+      "kind": "SOURCE_FACT",
+      "statement": "The official repository is archived; the exact retained revision remains immutable reference evidence rather than an active dependency."
+    }
+  ],
+  "blob_descriptors": [
+    {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "media_type": "text/plain",
+      "relative_path": "LICENSE",
+      "size": 11357
+    },
+    {
+      "digest": "be9ff9760021cf2de90d422cd76130c4db1b6f0666271de591dd932203551544",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "9c25e2c21f263177227bfdad41754147ba001229",
+      "media_type": "text/markdown",
+      "relative_path": "README.md",
+      "size": 17382
+    },
+    {
+      "digest": "674c7d207f20fbafc942b35517c308ed20b75dc4a72203f97886a9afa1fb3981",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "9ce8a8a9c62e9a8edff797c0262b393c30ea38e7",
+      "media_type": "text/x-python",
+      "relative_path": "src/mistral_inference/moe.py",
+      "size": 1095
+    },
+    {
+      "digest": "509497cfce7f91febe6c39f5c65039ad8f7250eccced0560f0c57cd473b7cf45",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "09e9cab6ab4b0749bad81b04ea492da6dfc31fe3",
+      "media_type": "text/x-python",
+      "relative_path": "src/mistral_inference/transformer.py",
+      "size": 13923
+    }
+  ],
+  "blockers": [
+    "UPSTREAM_REPOSITORY_ARCHIVED"
+  ],
+  "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+  "exact_commit_or_release": "9eaeb91c17450e09021b6065a1d5cc69876507c8",
+  "forbidden_use": [
+    "AUTOMATIC_PROMOTION",
+    "AUTOMATIC_RUNTIME_DEPENDENCY"
+  ],
+  "ingestion_status": "INGESTED",
+  "license_evidence_locator": "https://github.com/mistralai/mistral-inference/blob/9eaeb91c17450e09021b6065a1d5cc69876507c8/LICENSE",
+  "license_expression": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "mechanism_candidates": [
+    {
+      "falsification_test": "Ablate routing, expert count, and dense baselines under equal compute and complexity budgets.",
+      "hypothesized_effect": "Increase specialist capacity without activating every specialist for every request.",
+      "mechanism_id": "sparse-conditional-routing",
+      "semantic_definition": "Route each input to a bounded subset of specialist computations selected by an explicit router.",
+      "source_fact_boundary": "The retained official reference code includes mixture-of-experts organization; MetaEngine causal transfer is untested.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ],
+  "official_source_locator": "https://github.com/mistralai/mistral-inference/tree/9eaeb91c17450e09021b6065a1d5cc69876507c8",
+  "publisher": "Mistral AI",
+  "record_sha256": "8065e5a9cfb3ef8e896bfc49fd7aac52f915edc1898d93691afa791f796224f7",
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "retained_reference_paths": [
+    "LICENSE",
+    "README.md",
+    "src/mistral_inference/moe.py",
+    "src/mistral_inference/transformer.py"
+  ],
+  "retrieved_at": "2026-08-13T20:00:00Z",
+  "source_class": "PERMISSIVE_CODE",
+  "source_id": "mistral-inference-9eaeb91",
+  "source_sha256": "41d34f4c48dea3a619b5275bfc3870ffce051960e18d67c4a20d507749970fb0",
+  "source_sha256_scope": "RETAINED_SOURCE_PACK",
+  "system_name": "mistral-inference",
+  "version": "9eaeb91"
+}

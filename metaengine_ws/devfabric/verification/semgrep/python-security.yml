@@ -1,0 +1,6 @@
+rules:
+  - id: metaengine-devfabric-no-eval
+    languages: [python]
+    message: Avoid eval in Metaengine development fabric.
+    severity: ERROR
+    pattern: eval(...)

@@ -1,0 +1,64 @@
+{
+  "status_version": "16X-CLOUD-SCHEMA-STATUS-2.3.1",
+  "checked_at": "2026-08-12T04:32:57Z",
+  "mode": "SINGLE_CANONICAL_SUPABASE",
+  "canonical_backend": "supabase",
+  "supabase": {
+    "project_id": "gzrbxoiuenkksualgpvp",
+    "project_status": "ACTIVE_HEALTHY",
+    "database": "postgres",
+    "postgres_version": "17.6",
+    "role": "SOLE_CANONICAL_CLOUD_LEDGER_AND_PROMOTION_AUTHORITY",
+    "frontier_2_2_tables_present": true,
+    "outcome_gated_2_3_tables_present": true,
+    "migration_2_2_applied": true,
+    "migration_2_3_applied": true,
+    "writer_policy_optimization_applied": true,
+    "promotion_function_search_path_hardened": true,
+    "new_tables_with_forced_rls": 14,
+    "new_explicit_writer_policies": 14,
+    "new_object_security_warnings": 0,
+    "new_object_performance_warnings_excluding_unused_indexes": 0,
+    "policy_records": 75,
+    "active_policy_count": 1,
+    "active_policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "generation_records": 3,
+    "promotion_receipts": 2,
+    "external_outcomes": 7200,
+    "outcomes_by_generation": {
+      "1": 2400,
+      "2": 2400,
+      "3": 2400
+    },
+    "suite_count": 6,
+    "seed_count": 2,
+    "null_external_outcomes": 0,
+    "hard_failure_rows": 0,
+    "champion_run_status": "COMPLETE_WITH_REFERENCE_SIMULATIONS",
+    "champion_run_handoffs": 8,
+    "champion_run_native_receipts": 8,
+    "champion_run_transformations": 174,
+    "champion_run_transformation_edges": 182,
+    "champion_run_claims": 27,
+    "champion_run_verifier_reports": 1,
+    "champion_run_dialectical_graphs": 1,
+    "release_artifact_records": 5
+  },
+  "retired_backends": {
+    "neon": {
+      "project_id": "falling-hat-08217783",
+      "main_branch_id": "br-rapid-scene-aftexcsb",
+      "status": "RETIRED_NO_READS_NO_WRITES",
+      "main_modified_by_2_3_migration": false,
+      "physical_deletion_performed": false,
+      "reason": "USER_SELECTED_ONE_CLOUD_DATABASE"
+    }
+  },
+  "github": {
+    "authenticated_profile": "PatrickFrome",
+    "accessible_repositories": 0,
+    "project_published": false,
+    "blocker": "NO_ACCESSIBLE_REPOSITORY_AND_NO_LOCAL_GIT_CHECKOUT"
+  },
+  "replication_policy": "LOCAL_PORTABLE_RECORD; SUPABASE_SINGLE_WRITER; NEON_RETIRED; CLOUD_IS_NOT_EPISTEMIC_AUTHORITY"
+}

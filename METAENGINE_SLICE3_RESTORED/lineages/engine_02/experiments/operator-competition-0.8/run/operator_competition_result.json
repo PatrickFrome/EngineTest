@@ -1,0 +1,649 @@
+{
+  "result_version": "DAE-OPERATOR-COMPETITION-RESULT-1.0",
+  "engine_version": "0.8.0-alpha.1",
+  "generated_at": "2026-08-11T16:37:32.208Z",
+  "outcome": "PASSES_LOCAL_OPERATOR_ECOLOGY_REGRESSION",
+  "routing_policy": "LOCAL_SELECTION_COMPOSITION_OR_ABSTENTION_WITHOUT_GLOBAL_ONTOLOGY",
+  "promotion_status": "EXPERIMENTAL_NOT_CORE",
+  "candidate_births": [
+    {
+      "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+      "origin_corpus_id": "GEVIERT",
+      "origin_operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "origin_profile_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "required_birth_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL"
+      ],
+      "missing_birth_hints": [],
+      "origin_mutation_found": true,
+      "source_birth_confirmed": true
+    },
+    {
+      "candidate_id": "SAUSSURE_DIFFERENTIAL_CONSTITUTION",
+      "origin_corpus_id": "SAUSSURE",
+      "origin_operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "origin_profile_hints": [
+        "DIFFERENTIAL_CONSTITUTION"
+      ],
+      "required_birth_hints": [
+        "DIFFERENTIAL_CONSTITUTION"
+      ],
+      "missing_birth_hints": [],
+      "origin_mutation_found": true,
+      "source_birth_confirmed": true
+    },
+    {
+      "candidate_id": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+      "origin_corpus_id": "SPINOZA",
+      "origin_operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "origin_profile_hints": [
+        "ASYMMETRIC_DEPENDENCE"
+      ],
+      "required_birth_hints": [
+        "ASYMMETRIC_DEPENDENCE"
+      ],
+      "missing_birth_hints": [],
+      "origin_mutation_found": true,
+      "source_birth_confirmed": true
+    },
+    {
+      "candidate_id": "ARISTOTLE_LOCAL_MODE_VARIATION",
+      "origin_corpus_id": "ARISTOTLE",
+      "origin_operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "origin_profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "required_birth_hints": [
+        "LOCAL_MODE_VARIATION"
+      ],
+      "missing_birth_hints": [],
+      "origin_mutation_found": true,
+      "source_birth_confirmed": true
+    }
+  ],
+  "target_results": [
+    {
+      "corpus_id": "GEVIERT",
+      "label": "Heidegger Geviert",
+      "profile_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "source_operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "required_missing": [],
+          "optional_matched": [
+            "DIFFERENCE_PRESERVING_PROXIMITY"
+          ],
+          "incompatible_present": [],
+          "matched_hints": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL",
+            "DIFFERENCE_PRESERVING_PROXIMITY"
+          ],
+          "distinction_gain": 6,
+          "distortion_loss": 0,
+          "complexity_cost": 1,
+          "score": 5,
+          "viable": true
+        },
+        {
+          "candidate_id": "SAUSSURE_DIFFERENTIAL_CONSTITUTION",
+          "label": "Saussure-born differential constitution profile",
+          "origin_corpus_id": "SAUSSURE",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "DIFFERENTIAL_CONSTITUTION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        },
+        {
+          "candidate_id": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+          "label": "Spinoza-born asymmetric dependence profile",
+          "origin_corpus_id": "SPINOZA",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "ASYMMETRIC_DEPENDENCE"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 9,
+          "complexity_cost": 0,
+          "score": -9,
+          "viable": false
+        },
+        {
+          "candidate_id": "ARISTOTLE_LOCAL_MODE_VARIATION",
+          "label": "Aristotle-born local relation-mode variation profile",
+          "origin_corpus_id": "ARISTOTLE",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "LOCAL_MODE_VARIATION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        }
+      ],
+      "decision": "SELECT_LOCAL_WINNER",
+      "selected_candidates": [
+        "GEVIERT_CO_CONSTITUTIVE_GATHERING"
+      ],
+      "covered_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "residual_hints": [],
+      "rationale": "One source-born operator profile covers the local target without additional composition gain.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "SELECT_LOCAL_WINNER",
+          "expected": "SELECT_LOCAL_WINNER"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "expected": "GEVIERT_CO_CONSTITUTIVE_GATHERING"
+        }
+      ]
+    },
+    {
+      "corpus_id": "SAUSSURE",
+      "label": "Saussure value/difference",
+      "profile_hints": [
+        "DIFFERENTIAL_CONSTITUTION"
+      ],
+      "source_operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 1,
+          "score": -6,
+          "viable": false
+        },
+        {
+          "candidate_id": "SAUSSURE_DIFFERENTIAL_CONSTITUTION",
+          "label": "Saussure-born differential constitution profile",
+          "origin_corpus_id": "SAUSSURE",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [
+            "DIFFERENTIAL_CONSTITUTION"
+          ],
+          "required_missing": [],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [
+            "DIFFERENTIAL_CONSTITUTION"
+          ],
+          "distinction_gain": 4,
+          "distortion_loss": 0,
+          "complexity_cost": 0,
+          "score": 4,
+          "viable": true
+        },
+        {
+          "candidate_id": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+          "label": "Spinoza-born asymmetric dependence profile",
+          "origin_corpus_id": "SPINOZA",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "ASYMMETRIC_DEPENDENCE"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        },
+        {
+          "candidate_id": "ARISTOTLE_LOCAL_MODE_VARIATION",
+          "label": "Aristotle-born local relation-mode variation profile",
+          "origin_corpus_id": "ARISTOTLE",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "LOCAL_MODE_VARIATION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        }
+      ],
+      "decision": "SELECT_LOCAL_WINNER",
+      "selected_candidates": [
+        "SAUSSURE_DIFFERENTIAL_CONSTITUTION"
+      ],
+      "covered_hints": [
+        "DIFFERENTIAL_CONSTITUTION"
+      ],
+      "residual_hints": [],
+      "rationale": "One source-born operator profile covers the local target without additional composition gain.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "SELECT_LOCAL_WINNER",
+          "expected": "SELECT_LOCAL_WINNER"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "SAUSSURE_DIFFERENTIAL_CONSTITUTION",
+          "expected": "SAUSSURE_DIFFERENTIAL_CONSTITUTION"
+        }
+      ]
+    },
+    {
+      "corpus_id": "SPINOZA",
+      "label": "Spinoza substance/mode",
+      "profile_hints": [
+        "ASYMMETRIC_DEPENDENCE"
+      ],
+      "source_operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [
+            "ASYMMETRIC_DEPENDENCE"
+          ],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 9,
+          "complexity_cost": 1,
+          "score": -10,
+          "viable": false
+        },
+        {
+          "candidate_id": "SAUSSURE_DIFFERENTIAL_CONSTITUTION",
+          "label": "Saussure-born differential constitution profile",
+          "origin_corpus_id": "SAUSSURE",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "DIFFERENTIAL_CONSTITUTION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        },
+        {
+          "candidate_id": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+          "label": "Spinoza-born asymmetric dependence profile",
+          "origin_corpus_id": "SPINOZA",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [
+            "ASYMMETRIC_DEPENDENCE"
+          ],
+          "required_missing": [],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [
+            "ASYMMETRIC_DEPENDENCE"
+          ],
+          "distinction_gain": 4,
+          "distortion_loss": 0,
+          "complexity_cost": 0,
+          "score": 4,
+          "viable": true
+        },
+        {
+          "candidate_id": "ARISTOTLE_LOCAL_MODE_VARIATION",
+          "label": "Aristotle-born local relation-mode variation profile",
+          "origin_corpus_id": "ARISTOTLE",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "LOCAL_MODE_VARIATION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        }
+      ],
+      "decision": "SELECT_LOCAL_WINNER",
+      "selected_candidates": [
+        "SPINOZA_ASYMMETRIC_DEPENDENCE"
+      ],
+      "covered_hints": [
+        "ASYMMETRIC_DEPENDENCE"
+      ],
+      "residual_hints": [],
+      "rationale": "One source-born operator profile covers the local target without additional composition gain.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "SELECT_LOCAL_WINNER",
+          "expected": "SELECT_LOCAL_WINNER"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+          "expected": "SPINOZA_ASYMMETRIC_DEPENDENCE"
+        }
+      ]
+    },
+    {
+      "corpus_id": "ARISTOTLE",
+      "label": "Aristotle substance/relatives",
+      "profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "source_operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [
+            "ASYMMETRIC_DEPENDENCE"
+          ],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 9,
+          "complexity_cost": 1,
+          "score": -10,
+          "viable": false
+        },
+        {
+          "candidate_id": "SAUSSURE_DIFFERENTIAL_CONSTITUTION",
+          "label": "Saussure-born differential constitution profile",
+          "origin_corpus_id": "SAUSSURE",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "DIFFERENTIAL_CONSTITUTION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        },
+        {
+          "candidate_id": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+          "label": "Spinoza-born asymmetric dependence profile",
+          "origin_corpus_id": "SPINOZA",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [
+            "ASYMMETRIC_DEPENDENCE"
+          ],
+          "required_missing": [],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [
+            "ASYMMETRIC_DEPENDENCE"
+          ],
+          "distinction_gain": 4,
+          "distortion_loss": 0,
+          "complexity_cost": 0,
+          "score": 4,
+          "viable": true
+        },
+        {
+          "candidate_id": "ARISTOTLE_LOCAL_MODE_VARIATION",
+          "label": "Aristotle-born local relation-mode variation profile",
+          "origin_corpus_id": "ARISTOTLE",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [
+            "LOCAL_MODE_VARIATION"
+          ],
+          "required_missing": [],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [
+            "LOCAL_MODE_VARIATION"
+          ],
+          "distinction_gain": 4,
+          "distortion_loss": 0,
+          "complexity_cost": 0,
+          "score": 4,
+          "viable": true
+        }
+      ],
+      "decision": "LOCAL_COMPOSITION",
+      "selected_candidates": [
+        "ARISTOTLE_LOCAL_MODE_VARIATION",
+        "SPINOZA_ASYMMETRIC_DEPENDENCE"
+      ],
+      "covered_hints": [
+        "LOCAL_MODE_VARIATION",
+        "ASYMMETRIC_DEPENDENCE"
+      ],
+      "residual_hints": [],
+      "rationale": "Multiple source-born operators add non-redundant local distinctions; composition is retained without promoting a global meta-ontology.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "LOCAL_COMPOSITION",
+          "expected": "LOCAL_COMPOSITION"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "ARISTOTLE_LOCAL_MODE_VARIATION,SPINOZA_ASYMMETRIC_DEPENDENCE",
+          "expected": "ARISTOTLE_LOCAL_MODE_VARIATION,SPINOZA_ASYMMETRIC_DEPENDENCE"
+        }
+      ]
+    },
+    {
+      "corpus_id": "DESCARTES",
+      "label": "Descartes cogito negative control",
+      "profile_hints": [],
+      "source_operator_candidate": "SOURCE_FORCED_TOPIC_AND_OPERATOR_CANDIDATE",
+      "candidate_evaluations": [
+        {
+          "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+          "label": "Geviert-born co-constitutive gathering profile",
+          "origin_corpus_id": "GEVIERT",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "CO_CONSTITUTIVE_OR_RECIPROCAL"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 1,
+          "score": -6,
+          "viable": false
+        },
+        {
+          "candidate_id": "SAUSSURE_DIFFERENTIAL_CONSTITUTION",
+          "label": "Saussure-born differential constitution profile",
+          "origin_corpus_id": "SAUSSURE",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "DIFFERENTIAL_CONSTITUTION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        },
+        {
+          "candidate_id": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+          "label": "Spinoza-born asymmetric dependence profile",
+          "origin_corpus_id": "SPINOZA",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "ASYMMETRIC_DEPENDENCE"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        },
+        {
+          "candidate_id": "ARISTOTLE_LOCAL_MODE_VARIATION",
+          "label": "Aristotle-born local relation-mode variation profile",
+          "origin_corpus_id": "ARISTOTLE",
+          "source_birth_confirmed": true,
+          "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+          "required_matched": [],
+          "required_missing": [
+            "LOCAL_MODE_VARIATION"
+          ],
+          "optional_matched": [],
+          "incompatible_present": [],
+          "matched_hints": [],
+          "distinction_gain": 0,
+          "distortion_loss": 5,
+          "complexity_cost": 0,
+          "score": -5,
+          "viable": false
+        }
+      ],
+      "decision": "ABSTAIN_UNRESOLVED",
+      "selected_candidates": [],
+      "covered_hints": [],
+      "residual_hints": [],
+      "rationale": "The target emitted no operator-profile hints; source resistance alone is insufficient to force an operator choice.",
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "EXPECTED_DECISION",
+          "passed": true,
+          "observed": "ABSTAIN_UNRESOLVED",
+          "expected": "ABSTAIN_UNRESOLVED"
+        },
+        {
+          "check": "EXPECTED_SELECTED_CANDIDATES",
+          "passed": true,
+          "observed": "NONE",
+          "expected": "NONE"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "candidates": 4,
+    "source_births_confirmed": 4,
+    "targets": 5,
+    "expectations_passed": 5,
+    "local_winners": 3,
+    "local_compositions": 1,
+    "unresolved_rivals": 0,
+    "abstentions": 1
+  },
+  "claim_ceiling": "INTERNAL_SOURCE_BOUNDED_OPERATOR_COMPETITION_NOT_EXTERNAL_SEMANTIC_VALIDATION_OR_CORE_PROMOTION"
+}

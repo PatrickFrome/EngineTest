@@ -1,0 +1,26 @@
+[swarm]
+zero_spend = true
+max_parallel = 4
+
+[ollama]
+endpoint = "http://127.0.0.1:11434/v1"
+health_endpoint = "http://127.0.0.1:11434/api/tags"
+external = false
+
+[opencode]
+provider = "ollama"
+external = false
+
+[openhands]
+mode = "headless"
+llm_base_url = "http://127.0.0.1:11434"
+external = false
+
+[devpod]
+provider = "docker"
+external = false
+
+[coder]
+external = false
+workspace = ""
+access_url = "http://127.0.0.1:3000"

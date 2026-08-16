@@ -1,0 +1,85 @@
+{
+  "plan_version": "DAE-RESEARCH-PLAN-1.0",
+  "preregistration_id": "RO3-MINI-PRE-001",
+  "title": "Minimal blind BEV_RU reliability exercise",
+  "created_at": "2026-08-11T12:00:00Z",
+  "hypothesis": "Independent coders can distinguish OCC, FUL and VAL above the frozen threshold.",
+  "counter_hypothesis": "The distinction collapses after target masking or genre control.",
+  "unit_of_analysis": {
+    "description": "One sentence plus adjacent context.",
+    "context_rule": "At most one neighboring sentence on each side within the same document.",
+    "stable_id_rule": "SHA-256 of corpus, document, position, query and SNAP date."
+  },
+  "codebook": [
+    {
+      "code": "OCC",
+      "question": "Did an occurrence take place?",
+      "positive_criterion": "The context asserts that an event happened.",
+      "boundary": "Do not infer fulfillment or institutional validity."
+    },
+    {
+      "code": "FUL",
+      "question": "Was a possibility or plan realized?",
+      "positive_criterion": "The context asserts realization or fulfillment.",
+      "boundary": "Do not infer legal or normative validity."
+    },
+    {
+      "code": "VAL",
+      "question": "Was the event institutionally recognized as valid?",
+      "positive_criterion": "A legal, administrative or conventional status is conferred.",
+      "boundary": "Do not infer physical non-occurrence from invalidity."
+    }
+  ],
+  "sampling": {
+    "population": "Licensed corpus contexts containing target event predicates.",
+    "strata": ["news", "legal", "fiction"],
+    "quotas": {"news": 20, "legal": 20, "fiction": 20},
+    "seed": "RO3-MINI-001",
+    "deduplication": "Keep the lexicographically first stable ID per identical context."
+  },
+  "blinding": [
+    {
+      "phase": "CONTEXT",
+      "visible": ["context"],
+      "hidden": ["hypothesis", "author", "register"],
+      "risk_tested": "Ordinary code reproducibility."
+    },
+    {
+      "phase": "MASK",
+      "visible": ["context_with_target_masked"],
+      "hidden": ["target_lemma", "hypothesis", "metadata"],
+      "risk_tested": "Whether the scene rather than the target word is coded."
+    }
+  ],
+  "metrics": [
+    {
+      "id": "ALPHA-DOM",
+      "measure": "Krippendorff alpha, nominal, with bootstrap 95% CI",
+      "threshold": "alpha >= 0.80 and lower CI >= 0.67",
+      "fail_action": "Do not call the codebook reliably reproducible."
+    }
+  ],
+  "negative_tests": [
+    {
+      "id": "N-MASK",
+      "operation": "Replace the target lemma with [TARGET].",
+      "stability_criterion": "alpha remains >= 0.67",
+      "fail_action": "Downgrade the distinction to lexical cue dependence."
+    }
+  ],
+  "kill_criteria": [
+    {
+      "id": "K-ALPHA",
+      "condition": "Nominal alpha or its lower CI falls below the frozen threshold.",
+      "action": "Merge, revise or remove the failed distinction before a new preregistration."
+    }
+  ],
+  "gates": {
+    "data": {"status": "BLOCKED", "evidence_refs": ["RO3-DATA-0"], "block_if_not_passed": true, "note": "Fixture deliberately models a blocked empirical run."},
+    "authorization": {"status": "UNKNOWN", "evidence_refs": [], "block_if_not_passed": true},
+    "license": {"status": "UNKNOWN", "evidence_refs": [], "block_if_not_passed": true},
+    "coders": {"status": "BLOCKED", "evidence_refs": ["RO3-CODER-0"], "block_if_not_passed": true, "note": "No independent coders assigned."}
+  },
+  "deviation_policy": "Preserve the frozen plan; record every change as a new plan version and a path-level deviation.",
+  "source_refs": ["V38#L27893-L28145"]
+}

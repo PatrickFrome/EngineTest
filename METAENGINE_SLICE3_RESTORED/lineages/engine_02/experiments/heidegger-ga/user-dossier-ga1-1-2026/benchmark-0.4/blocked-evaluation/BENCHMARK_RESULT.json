@@ -1,0 +1,51 @@
+{
+  "result_version": "DAE-EMPIRICAL-BENCHMARK-RESULT-1.0",
+  "engine_version": "0.4.0-alpha.1",
+  "generated_at": "2026-08-11T12:00:00Z",
+  "benchmark_id": "BENCH-B516B04EB5AB556F",
+  "manifest_sha256": "491338f0758b706a5d4eba69d78393281342755a48f434bf2f949fabaa127c77",
+  "outcome": "BLOCKED_PENDING_INDEPENDENT_LABELS",
+  "unit_count": 9,
+  "inputs": {
+    "annotation_files": [],
+    "gold_file": null
+  },
+  "agreement": null,
+  "systems": null,
+  "comparison": null,
+  "promotion_gate": {
+    "passed": false,
+    "eligible": false,
+    "checks": {
+      "independent_annotations": {
+        "passed": false,
+        "required": 2,
+        "observed": 0
+      },
+      "adjudicated_gold": {
+        "passed": false
+      }
+    }
+  },
+  "issues": [
+    {
+      "severity": "REVIEW",
+      "code": "ADJUDICATED_GOLD_REQUIRED",
+      "at": "/gold",
+      "message": "Gold must be frozen from the independent raw annotations before predictions are unsealed."
+    },
+    {
+      "severity": "REVIEW",
+      "code": "INDEPENDENT_LABELS_REQUIRED",
+      "at": "/annotations",
+      "message": "2 completed independent annotation files are required; observed 0."
+    },
+    {
+      "severity": "WARNING",
+      "code": "BENCHMARK_UNDERPOWERED",
+      "at": "/units",
+      "message": "9 units are below the frozen minimum 80."
+    }
+  ],
+  "claim_ceiling": "SAMPLE_BOUND_EMPIRICAL_VALIDATION_NOT_GENERAL_SEMANTIC_INFALLIBILITY"
+}

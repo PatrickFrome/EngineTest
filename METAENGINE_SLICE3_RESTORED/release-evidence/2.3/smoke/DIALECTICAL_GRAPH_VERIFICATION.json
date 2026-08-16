@@ -1,0 +1,10 @@
+{
+  "candidate_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "hard_failures": [],
+  "metrics": {},
+  "observed_outcome": null,
+  "promotion_eligible": false,
+  "verification_status": "INSUFFICIENT_EXTERNAL_EVIDENCE",
+  "verifier_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "verifier_version": "16X-EXTERNAL-OUTCOME-VERIFIER-2.3"
+}

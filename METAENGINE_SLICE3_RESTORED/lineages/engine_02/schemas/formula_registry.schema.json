@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/formula_registry.schema.json",
+  "title": "Destruktion OMML formula registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["registry_version", "engine_version", "generated_at", "source_id", "formula_count", "raw_formula_text_included", "formulas", "exact_formula_groups", "claim_ceiling"],
+  "properties": {
+    "registry_version": {"const": "DAE-OMML-FORMULAS-1.0"},
+    "engine_version": {"type": "string"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "source_id": {"type": "string", "minLength": 3},
+    "formula_count": {"type": "integer", "minimum": 0},
+    "raw_formula_text_included": {"const": false},
+    "formulas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["formula_id", "paragraph_segment_id", "ordinal_in_paragraph", "omml_sha256", "normalized_text_sha256", "character_length", "math_text_runs", "structure_counts"],
+        "properties": {
+          "formula_id": {"type": "string", "pattern": "^OMML-F[0-9]{6}-[0-9]{3}-[A-F0-9]{10}$"},
+          "paragraph_segment_id": {"type": "string", "pattern": "^OX-P"},
+          "ordinal_in_paragraph": {"type": "integer", "minimum": 1},
+          "omml_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "normalized_text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "character_length": {"type": "integer", "minimum": 0},
+          "math_text_runs": {"type": "integer", "minimum": 0},
+          "structure_counts": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["fraction", "superscript", "subscript", "radical", "nary", "matrix"],
+            "properties": {
+              "fraction": {"type": "integer", "minimum": 0},
+              "superscript": {"type": "integer", "minimum": 0},
+              "subscript": {"type": "integer", "minimum": 0},
+              "radical": {"type": "integer", "minimum": 0},
+              "nary": {"type": "integer", "minimum": 0},
+              "matrix": {"type": "integer", "minimum": 0}
+            }
+          }
+        }
+      }
+    },
+    "exact_formula_groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["omml_sha256", "formula_ids", "occurrence_count"],
+        "properties": {
+          "omml_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "formula_ids": {"type": "array", "minItems": 2, "items": {"type": "string", "pattern": "^OMML-F"}},
+          "occurrence_count": {"type": "integer", "minimum": 2}
+        }
+      }
+    },
+    "claim_ceiling": {"const": "FORMULA_STRUCTURE_AND_FIXITY_ONLY_NOT_MATHEMATICAL_INTERPRETATION"}
+  }
+}

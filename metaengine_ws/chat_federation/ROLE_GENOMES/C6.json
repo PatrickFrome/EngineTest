@@ -1,0 +1,61 @@
+{
+  "hard": {
+    "allowed_integration_modes": [
+      "IMPLEMENT_REVIEW",
+      "PARALLEL"
+    ],
+    "authority_boundaries": [
+      "PROPOSAL_ONLY",
+      "NO_CANONICAL_PROMOTION",
+      "FENCED_TASK_SCOPE"
+    ],
+    "mandatory_reviewers": [
+      "C1"
+    ],
+    "privacy_ceiling": "P3",
+    "prohibited_actions": [
+      "CANONICAL_BYPASS",
+      "SECRET_RETRIEVAL",
+      "SOLE_AUTHOR_AND_CERTIFIER"
+    ],
+    "role": "VERIFICATION_SECURITY",
+    "slot": "C6",
+    "subsystem_ownership": [
+      "deterministic verification",
+      "CI",
+      "reproducibility",
+      "security"
+    ]
+  },
+  "soft": {
+    "capability_weights": {
+      "reproducibility": 0.95,
+      "security": 0.9,
+      "verification": 0.98
+    },
+    "concurrency_preference": 4,
+    "exploration_weight": 0.02,
+    "preferred_task_classes": [
+      "verification",
+      "security",
+      "CI",
+      "reproducibility"
+    ],
+    "preferred_workers": [
+      "pytest",
+      "semgrep",
+      "ruff",
+      "mypy"
+    ],
+    "provider_priors": {},
+    "review_pairings": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ]
+  },
+  "version": "d6-role-v1"
+}

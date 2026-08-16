@@ -1,0 +1,6 @@
+{
+  "binding_version": "METAENGINE-DEVFABRIC-SOURCE-BINDING-1",
+  "artifact_sha256": "8e7a9f483192180b5f870e5301253cfe2266f5392754cbc680854b505f8a54b0",
+  "release_version": "2.3.0-alpha.1",
+  "canonical_checkpoint_policy": "APPEND_ONLY_PROPOSAL_NO_AUTOPROMOTION"
+}

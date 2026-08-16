@@ -1,0 +1,77 @@
+{
+  "barrier": "PRIMARY_INTERWEAVE",
+  "claim_ceiling": "PROPOSAL_UNTIL_EVIDENCE_AND_GATES",
+  "coordination": {},
+  "engine_states": {
+    "engine_01": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_02": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_03": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_04": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_05": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_06": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_07": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_08": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_09": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_10": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_11": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_12": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_13": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_14": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_15": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    },
+    "engine_16": {
+      "role": "PRIMARY",
+      "status": "COMPLETE"
+    }
+  },
+  "engine_version": "2.0.0-alpha.1",
+  "fusion": {},
+  "input_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "meta_run_id": "fixture-2.0",
+  "routing_plan_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "status": "COMPLETE"
+}

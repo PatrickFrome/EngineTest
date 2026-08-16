@@ -1,0 +1,20 @@
+{
+  "command": "Supabase read-only canonical state query",
+  "completed_step_commit": "73a3f4aab2dc18997db495d657aab5185ffc6958",
+  "evidence_hash": "b0263202446d18351df647955411468795d97fb95556f3d3e4bb677d734b16db",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "READ_ONLY_CANONICAL_STATE",
+  "observed": {
+    "active_policy_generation": 2,
+    "active_policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "adaptation_receipt_count": 0,
+    "checkpoint_id": "metaengine-chat-2.3.0-alpha.1-cp001",
+    "checkpoint_is_current": true,
+    "checkpoint_verification_status": "VERIFIED",
+    "finalized_epoch_count": 1,
+    "open_epoch_count": 0,
+    "promotion_receipt_count": 2,
+    "self_modifying_code_allowed": false
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "record_id": "4D-BS4-AIRLINER-STANDING-RESERVE",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4D-05#aircraft-standing-reserve"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4D-0.1-DOCX-RECONSTRUCTION + DAE-0.1",
+    "agent": "dae-4d-reconstruction-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4D-0.1-DOCX"
+    ],
+    "activity_id": "MODULE-MIGRATION-4D-0.1-ENGINE-RECONSTRUCTION",
+    "timestamp": "2026-08-11T12:30:00Z",
+    "artifact_hash": "sha256:b0a3e5039fda3ec05d01352139e6fcb3add10d89ba38953a7450787a2751c276"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "An aircraft is maintained on-call, dispatchable, replaceable by function and embedded in an operational demand chain.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "ASSERTED",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-05#aircraft-standing-reserve"
+    ]
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Within that indexed system relation the aircraft is disclosed as a strong standing-reserve rather than merely an isolated object.",
+    "claim_facets": {
+      "basis": [
+        "MIXED"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "UNRESOLVED"
+    },
+    "support_refs": [
+      "W4D-05#aircraft-standing-reserve"
+    ]
+  },
+  "transition": {
+    "inference_mode": "UNRESOLVED",
+    "relation": {
+      "rt_id": "RT00"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "The frozen registry has no generic resourceization RT; RT00 prevents false precision while BS4 encodes the contextual profile.",
+      "support_refs": [
+        "W4D-05#aircraft-standing-reserve"
+      ],
+      "discriminator": "Show availability, substitutability and demand linkage together; mere usefulness is insufficient."
+    }
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C2",
+    "g_target": "G2",
+    "gap": "NONE",
+    "bridge_burden": "Do not promote one operational relation to the entity's exhaustive mode of being."
+  },
+  "audit": {
+    "native_domain": "Heidegger studies / philosophy of technology",
+    "native_method": "primary-text reconstruction plus typed technology discrimination",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "UNDERDETERMINATION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY",
+      "DISCRIMINATOR",
+      "SCOPE_CONTROL",
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "HIGH",
+    "cost_note": "Module schemas were reconstructed from the supplied DOCX because the asserted JSON toolkit was not provided."
+  },
+  "rivals": [
+    {
+      "description": "The case is fully explained by functional role in an aviation system.",
+      "relation_rt_id": "RT14",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Compare explanatory gain beyond role, inputs and outputs."
+    },
+    {
+      "description": "The case is an institutional asset/status relation rather than standing-reserve.",
+      "relation_rt_id": "RT13",
+      "bridge": "Requires an independent bridge.",
+      "discriminator": "Trace office, ownership and entry/exit criteria separately."
+    }
+  ],
+  "extensions": {
+    "bs4": {
+      "module_id": "BS4",
+      "version": "0.1-engine-reconstruction",
+      "availability": "Readiness and on-call status must be traced through an explicit operational demand chain.",
+      "substitutability": "Replacement is indexed to system function and may not erase object or agent differences outside that function.",
+      "demand_linkage": "The record must identify the order, schedule, allocation or dispatch relation that calls the entity into availability.",
+      "autonomy_shift": "Isolated objecthood recedes relative to system function without being declared metaphysically unreal.",
+      "context_dependence": "The same entity may be disclosed and handled differently in another practice.",
+      "reversibility": "Test whether redesign, withdrawal or practice change can alter resourceization without destroying the entity.",
+      "counterdescription": "Artifact/function/organization analysis may explain the case without a strong standing-reserve diagnosis.",
+      "discriminator": "Show availability, substitutability and demand linkage together; mere usefulness is insufficient.",
+      "revision_trigger": "A counterdescription explains the same operational facts with lower ontological cost or the relation changes across contexts.",
+      "resourceization_level": "STRONG_STANDING_RESERVE",
+      "human_case": "NOT_HUMAN"
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "UNRESOLVED",
+      "relation_rationale": "The frozen registry has no generic resourceization RT; RT00 prevents false precision while BS4 encodes the contextual profile.",
+      "semantic_review_status": "STRUCTURAL_ONLY",
+      "human_review_required": true,
+      "review_notes": [
+        "Original 4D JSON records and schemas were not attached; this record is an engine reconstruction from the DOCX specification.",
+        "Verify source passages, relation type, unitization and module field values before expert promotion."
+      ]
+    }
+  },
+  "outcome": "QUALIFY",
+  "open_questions": [
+    "Does the module discriminator add explanatory value beyond the strongest native counterprofile?"
+  ]
+}

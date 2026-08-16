@@ -1,0 +1,97 @@
+{
+  "record_id": "4D-GE4-DANGER-AMBIVALENCE",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "Heidegger GA7 pp.29,33–34"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + GE4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "Heidegger calls Gestell a danger because it threatens to reduce revealing to ordering and standing-reserve, while also locating a possible saving opening within the ambiguity of revealing.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "HIST"
+      ],
+      "force": "ASSERTED",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Heidegger's technology analysis is therefore simply a moral demonization of machines, devices and technological artifacts as evil objects.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "WITHHELD",
+      "normativity": "EVALUATIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT18"
+    },
+    "bridge": {
+      "status": "EXPLICIT",
+      "statement": "The text explicitly says the dangerous is not technology as such and frames danger/saving at the level of revealing."
+    },
+    "promotion_flags": [
+      "NORM",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "Heidegger technology hermeneutics",
+    "native_method": "close reading",
+    "activated_operators": [
+      "O1",
+      "O3",
+      "O4",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY"
+    ],
+    "rtr": "LOW"
+  },
+  "extensions": {
+    "ge4": {
+      "module_id": "GE4",
+      "version": "0.1",
+      "source_period": "1954 Question Concerning Technology",
+      "disclosure_mode": "CHALLENGING_FORTH",
+      "ordering_signature": [
+        "ORDERABILITY",
+        "AVAILABILITY",
+        "SECURING"
+      ],
+      "human_position": "CHALLENGED_PARTICIPANT",
+      "target_domain": [
+        "NATURE",
+        "ARTIFACTS",
+        "SCIENCE"
+      ],
+      "relation_to_instrumentality": "INSTRUMENTAL_CORRECT_BUT_INSUFFICIENT",
+      "alternative_disclosure": "other revealing is not eliminated in principle; the text explicitly preserves the possibility of another relation",
+      "totalization_status": "REGIONAL",
+      "danger_status": "AMBIVALENT_DANGER_SAVING",
+      "discriminator": "distinguish critique of revealing-mode from moral judgment of artifact classes",
+      "revision_trigger": "passages that unequivocally identify machines themselves as the evil/danger rather than the ordering mode"
+    }
+  },
+  "outcome": "BLOCK"
+}

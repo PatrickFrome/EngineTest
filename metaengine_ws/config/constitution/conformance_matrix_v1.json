@@ -1,0 +1,102 @@
+{
+  "conformance_version": "METAENGINE-CONSTITUTION-CONFORMANCE-1",
+  "entries": [
+    {
+      "invariant_id": "PROVENANCE_PRIMARY_EVIDENCE",
+      "enforcement_refs": [
+        "metaengine/security.py#verify_handoff",
+        "metaengine/native_reentry_compiler.py#NativeReentryCompiler"
+      ],
+      "test_refs": [
+        "tests/test_controlled_learning_2_3.py#test_handoff_integrity_is_executable_and_tamper_fails",
+        "tests/test_controlled_learning_2_3.py#test_transformations_cannot_be_manufactured_from_engine_identity"
+      ]
+    },
+    {
+      "invariant_id": "CANONICAL_NOT_SCIENTIFIC_TRUTH",
+      "enforcement_refs": ["metaengine/verifier_plane.py#ExternalVerifierPlane.evaluate"],
+      "test_refs": ["tests/test_controlled_learning_2_3.py#test_no_oracle_means_no_positive_learning_signal"]
+    },
+    {
+      "invariant_id": "NO_TRUTH_FROM_RANKING_OR_VOTING",
+      "enforcement_refs": [
+        "metaengine/arbitration.py#AdaptiveArbitrator",
+        "metaengine/security.py#IMMUTABLE_GUARDRAILS"
+      ],
+      "test_refs": [
+        "tests/test_metaengine.py#test_no_majority_truth_invariant",
+        "tests/test_epistemic_coordination.py#test_disagreement_is_material_not_majority_vote"
+      ]
+    },
+    {
+      "invariant_id": "PRESERVE_ABSTENTION",
+      "enforcement_refs": [
+        "metaengine/arbitration.py#AdaptiveArbitrator",
+        "metaengine/security.py#IMMUTABLE_GUARDRAILS",
+        "metaengine/verifier_plane.py#ExternalVerifierPlane.evaluate"
+      ],
+      "test_refs": ["tests/test_controlled_learning_2_3.py#test_handoff_integrity_is_executable_and_tamper_fails"]
+    },
+    {
+      "invariant_id": "MUTATION_REQUIRES_RECEIPT",
+      "enforcement_refs": [
+        "metaengine/architecture_policy.py#mutate_policy",
+        "metaengine/devfabric/development_review.py#DevelopmentEvolutionReviewReceipt"
+      ],
+      "test_refs": ["tests/devfabric/test_development_review.py#test_receipt_hash_is_deterministic_and_integrity_verifies"]
+    },
+    {
+      "invariant_id": "SEPARATE_GENERATION_AND_PROMOTION",
+      "enforcement_refs": [
+        "metaengine/architecture_policy.py#mutate_policy",
+        "metaengine/architecture_policy.py#PolicyStore.promote"
+      ],
+      "test_refs": ["tests/test_controlled_learning_2_3.py#test_policy_store_uses_compare_and_swap_and_preserves_rollback"]
+    },
+    {
+      "invariant_id": "FROZEN_EVALUATION_CONTRACT",
+      "enforcement_refs": [
+        "metaengine/architecture_policy.py#FORBIDDEN_FIELDS",
+        "config/evolution_policy_2_3.json#immutable_fields"
+      ],
+      "test_refs": ["tests/test_controlled_learning_2_3.py#test_policy_rejects_guardrail_mutation"]
+    },
+    {
+      "invariant_id": "NO_NORMAL_KERNEL_SELF_MUTATION",
+      "enforcement_refs": ["metaengine/constitution.py#ConstitutionAmendmentBoundary"],
+      "test_refs": ["tests/test_constitution_kernel.py#test_normal_evolution_has_no_constitution_amendment_authority"]
+    },
+    {
+      "invariant_id": "NO_EXECUTABLE_SELF_MODIFICATION",
+      "enforcement_refs": [
+        "config/evolution_policy_2_3.json#self_modifying_code_allowed",
+        "metaengine/architecture_policy.py#ArchitecturePolicy.as_dict"
+      ],
+      "test_refs": ["tests/test_controlled_learning_2_3.py#test_policy_rejects_guardrail_mutation"]
+    },
+    {
+      "invariant_id": "PRIVACY_PERMISSION_FAIL_CLOSED",
+      "enforcement_refs": ["metaengine/devfabric/policy.py#privacy_allowed"],
+      "test_refs": ["tests/devfabric/test_router.py#test_p3_never_routes_external"]
+    },
+    {
+      "invariant_id": "IMMUTABLE_HISTORY_WITH_SUPERSESSION",
+      "enforcement_refs": [
+        "metaengine/devfabric/federation/store.py#FEDERATION_EPOCH_IMMUTABLE",
+        "metaengine/devfabric/federation/finalization.py#EpochFinalization"
+      ],
+      "test_refs": [
+        "tests/devfabric/test_federation_finalization.py#test_epoch_finalization_is_frozen_content_addressed_and_strict",
+        "tests/devfabric/test_federation_finalization.py#test_store_persists_finalization_idempotently_and_rejects_conflict"
+      ]
+    },
+    {
+      "invariant_id": "ROLLBACK_RECOVERY_REQUIRED",
+      "enforcement_refs": [
+        "metaengine/architecture_policy.py#PolicyStore.rollback",
+        "config/evolution_policy_2_3.json#rollback_required"
+      ],
+      "test_refs": ["tests/test_controlled_learning_2_3.py#test_policy_store_uses_compare_and_swap_and_preserves_rollback"]
+    }
+  ]
+}

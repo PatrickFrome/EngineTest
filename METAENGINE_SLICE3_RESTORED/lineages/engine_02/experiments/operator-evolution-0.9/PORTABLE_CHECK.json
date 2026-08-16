@@ -1,0 +1,474 @@
+{
+  "root": "/mnt/data/d40_next/Destruktion_4.0_AI_CHAT_PORTABLE_0.9.0-alpha.1",
+  "file": "/mnt/data/d40_next/Destruktion_4.0_AI_CHAT_PORTABLE_0.9.0-alpha.1/PORTABLE_PROJECT.json",
+  "manifest": {
+    "portable_project_version": "DAE-AI-CHAT-1.0",
+    "package_version": "0.9.0-alpha.1",
+    "engine_version": "0.9.0-alpha.1",
+    "generated_at": "2026-08-11T19:56:00+03:00",
+    "title": "Destruktion 4.0 — portable AI-chat philosophical analyst",
+    "entrypoint": "00_START_HERE.md",
+    "agent_instructions": "AGENTS.md",
+    "default_language": "ru",
+    "supported_inputs": [
+      "DOCX",
+      "PDF",
+      "TXT",
+      "MD",
+      "JSON",
+      "ZIP_WITH_READABLE_FILES"
+    ],
+    "execution_profiles": {
+      "EXECUTION_AVAILABLE": {
+        "available_when": "The chat can unpack files, run Node.js 20+ and create local outputs.",
+        "procedure": [
+          "Read the bootstrap and manifest in required order.",
+          "Run portable-check before analyzing a new work.",
+          "Use the real refinery, ETY, living and expert commands.",
+          "Return both philosophical outputs and execution provenance."
+        ],
+        "provenance_label": "ENGINE_EXECUTED",
+        "claim_ceiling": "RUN_BOUND_ENGINE_OUTPUT_NOT_PHILOSOPHICAL_TRUTH_OR_EXTERNAL_VALIDATION"
+      },
+      "DOCUMENT_ONLY": {
+        "available_when": "The chat can read attachments but cannot execute Node.js or create a working directory.",
+        "procedure": [
+          "Read the self-contained document-only protocol.",
+          "Apply ETY-MIN to every central concept and ETY-FULL only when a load trigger fires.",
+          "Select nonlinear operations by the tensions of the work rather than simulating a fixed pipeline.",
+          "Mark every result as language-model execution and expose missing source evidence."
+        ],
+        "provenance_label": "DOCUMENT_ONLY_LANGUAGE_MODEL_EXECUTION",
+        "claim_ceiling": "TRACEABLE_LANGUAGE_MODEL_RECONSTRUCTION_NOT_ENGINE_EXECUTION_OR_EXTERNAL_VALIDATION"
+      }
+    },
+    "required_read_order": [
+      "00_START_HERE.md",
+      "PORTABLE_CHAT_PROJECT.md",
+      "PORTABLE_PROJECT.json",
+      "portable/DOCUMENT_ONLY_PROTOCOL.md",
+      "portable/PROJECT_STATE.md",
+      "portable/USER_COMMANDS.md"
+    ],
+    "runtime_commands": {
+      "install": "npm install",
+      "verify": "node ./bin/destruktion.mjs portable-check",
+      "project_card": "node ./bin/destruktion.mjs portable-card",
+      "living": "node ./bin/destruktion.mjs living-cycle ./refinery-output --seed portable-chat --out ./living-output",
+      "expert": "node ./bin/destruktion.mjs expert-cycle ./refinery-output --out ./expert-output",
+      "operator_competition": "node ./bin/destruktion.mjs operator-competition ./experiments/operator-competition-0.8/operator_competition_manifest.json --out ./operator-competition-output"
+    },
+    "routing": {
+      "FULL_ANALYSIS": {
+        "intent_examples": [
+          "прогони работу через проект",
+          "проведи полный анализ",
+          "дай финальную аналитику"
+        ],
+        "mode": "ETY_PLUS_LIVING_PLUS_EXPERT",
+        "primary_output": "PHILOSOPHICAL_FIELD_NOTE_AND_FINAL_ANALYTICS"
+      },
+      "LIVING_ANALYSIS": {
+        "intent_examples": [
+          "сделай анализ живее",
+          "найди неожиданное",
+          "проведи генеалогический анализ"
+        ],
+        "mode": "D3_EXPLORATORY",
+        "primary_output": "PHILOSOPHICAL_FIELD_NOTE"
+      },
+      "ETYMOLOGY": {
+        "intent_examples": [
+          "разбери этимологию",
+          "добавь этимологический протокол",
+          "проверь перевод понятия"
+        ],
+        "mode": "ETY_0_2",
+        "primary_output": "ETYMOLOGICAL_ANALYSIS"
+      },
+      "FINAL_EXPERT": {
+        "intent_examples": [
+          "сделай окончательный вывод",
+          "выдай финальную аналитику",
+          "оцени тезисы"
+        ],
+        "mode": "RUN_BOUND_EXPERT_ADJUDICATION",
+        "primary_output": "FINAL_ANALYTICS"
+      },
+      "PROJECT_DEVELOPMENT": {
+        "intent_examples": [
+          "продолжи развитие проекта",
+          "перейдём к следующему этапу",
+          "сделай проект живее"
+        ],
+        "mode": "SELF_DESTRUCTION_AND_OPERATOR_MUTATION_DESIGN",
+        "primary_output": "PROJECT_DELTA_AND_REGRESSION_CONTRACT"
+      },
+      "PROJECT_AUDIT": {
+        "intent_examples": [
+          "проанализируй проект",
+          "найди слабые места",
+          "проверь протоколы"
+        ],
+        "mode": "ARCHITECTURE_AND_PROTOCOL_AUDIT",
+        "primary_output": "AUDIT_WITH_REVISION_TRIGGERS"
+      }
+    },
+    "invariants": {
+      "core_frozen": true,
+      "mandatory_etymology": true,
+      "mandatory_etymological_significance": false,
+      "discovery_is_justification": false,
+      "active_move_requires_gain": true,
+      "source_claims_require_locators": true,
+      "document_only_may_claim_code_execution": false
+    },
+    "output_contract": {
+      "mandatory_etymology": true,
+      "primary_living_output": "PHILOSOPHICAL_FIELD_NOTE",
+      "final_expert_output": "FINAL_ANALYTICS",
+      "execution_provenance_required": true,
+      "source_limit_required": true,
+      "self_destruction_required": true
+    },
+    "current_state": {
+      "protocol_families": 40,
+      "living_conditional_families": 34,
+      "generative_gestures": 7,
+      "tests": 77,
+      "sample_run": {
+        "regression": "HEIDEGGER_GEVIERT_0.6",
+        "constellations": 12,
+        "nodes": 347,
+        "edges": 538,
+        "cross_constellation_edges": 57,
+        "ety_cards": 26,
+        "ety_full": 26,
+        "unresolved_ety_fields": 439,
+        "source_resistance_terms": 12,
+        "method_mutations": 1
+      },
+      "source_resistance": "IMPLEMENTED_SOURCE_FORCED_ONLY",
+      "experimental_method_mutation": "EXECUTABLE_DECLARATIVE_WITH_ROLLBACK_CANDIDATE_REGISTRY_REGRESSION_AND_LOCAL_COMPETITION",
+      "operator_competition": "IMPLEMENTED_LOCAL_SELECTION_COMPOSITION_UNRESOLVED_AND_ABSTENTION"
+    },
+    "excluded_from_archive": [
+      "node_modules",
+      ".git",
+      "raw user attachments",
+      "credentials and environment files",
+      "previous portable ZIP files"
+    ],
+    "claim_ceiling": "PORTABLE_AUTOMATED_OR_DOCUMENT_ONLY_PHILOSOPHICAL_ANALYSIS_WITH_EXPLICIT_EXECUTION_PROVENANCE_NOT_TRUTH_OR_EXTERNAL_VALIDATION",
+    "required_assets": [
+      {
+        "path": "00_START_HERE.md",
+        "role": "VISIBLE_BOOTSTRAP",
+        "size_bytes": 2391,
+        "sha256": "9c8368c8ca4e5705337ce3b6cc3ed585fb39722d0dabebc73a2afc3b845e1bc8"
+      },
+      {
+        "path": "AGENTS.md",
+        "role": "AGENTIC_RUNTIME_INSTRUCTIONS",
+        "size_bytes": 1833,
+        "sha256": "dba09e9c353558d270752a890b6cb8608315ca3a563736bc0c6b5f270e7816ac"
+      },
+      {
+        "path": "PORTABLE_CHAT_PROJECT.md",
+        "role": "SELF_CONTAINED_CHAT_ENTRYPOINT",
+        "size_bytes": 12486,
+        "sha256": "641c7c7f66686ea2abd869fbc85c7831acc92e78847e513db8f61f674ac8a6f7"
+      },
+      {
+        "path": "portable/DOCUMENT_ONLY_PROTOCOL.md",
+        "role": "NO_RUNTIME_ANALYSIS_CONTRACT",
+        "size_bytes": 8587,
+        "sha256": "c3f207ff9e061d884c464a31e768dfbdb8844c27b2f30bf2ef27801841f91ce0"
+      },
+      {
+        "path": "portable/PROJECT_STATE.md",
+        "role": "CURRENT_PROJECT_STATE",
+        "size_bytes": 5869,
+        "sha256": "f33956edf11e3f4544640939883ae3a0cbfd42df7db8a77ec1950699097490b4"
+      },
+      {
+        "path": "portable/USER_COMMANDS.md",
+        "role": "NATURAL_LANGUAGE_ROUTER",
+        "size_bytes": 2991,
+        "sha256": "74168eae6406165e505687a985e8837cf5dcee2e75435c3f2c1a18176efec56c"
+      },
+      {
+        "path": "README.md",
+        "role": "ENGINE_DOCUMENTATION",
+        "size_bytes": 34562,
+        "sha256": "3efd920b64db32a7e4bc72a65fff49faf2509e436ade931f14369ce3fc6ce779"
+      },
+      {
+        "path": "PROJECT_DEVELOPMENT_REPORT_0.8.md",
+        "role": "DEVELOPMENT_ANALYSIS",
+        "size_bytes": 5884,
+        "sha256": "4a8222b9dc46d2eefdb92185bf323762f529cc0e59f2201e4cde62a5b2cf4ec1"
+      },
+      {
+        "path": "config/portable_project.json",
+        "role": "PORTABLE_BUILD_SOURCE",
+        "size_bytes": 11599,
+        "sha256": "1bfd2026bd2fcff4f4f567a2918e817ba6c1e4153500d37bc670bb6933968e0e"
+      },
+      {
+        "path": "config/etymology_registry.json",
+        "role": "ETYMOLOGY_REGISTRY",
+        "size_bytes": 17273,
+        "sha256": "b80f04d6566d7477ff8279134754de63aecea8ad504ed6edfdcf1191941b609c"
+      },
+      {
+        "path": "config/living_operator_registry.json",
+        "role": "NONLINEAR_OPERATOR_REGISTRY",
+        "size_bytes": 54832,
+        "sha256": "3b58af41b1c71118e05a9da2d0d9ceb120526349e931baa764b7a1a96150f0be"
+      },
+      {
+        "path": "config/living_topic_lenses.json",
+        "role": "TOPIC_LENSES",
+        "size_bytes": 31561,
+        "sha256": "b5dce93d1f27c135d058f76f6734c2046db94bffb7f12b1562127a3c32ade602"
+      },
+      {
+        "path": "docs/ETYMOLOGY_PROTOCOL.md",
+        "role": "ETY_PROTOCOL",
+        "size_bytes": 6084,
+        "sha256": "b3ccd77c96e3fe5d77c981a9073bfc3f2accde7dafd5819826b4bf97553e8a33"
+      },
+      {
+        "path": "docs/EXPLORATORY_LAYER.md",
+        "role": "LIVING_LAYER_PROTOCOL",
+        "size_bytes": 10684,
+        "sha256": "2b50e00c0af1b2827f5257d5904e75d9cc2edbdaff6c9dccf67579dc541edb6f"
+      },
+      {
+        "path": "docs/PROTOCOL_AUDIT_2X.md",
+        "role": "PROTOCOL_GENEALOGY",
+        "size_bytes": 14868,
+        "sha256": "7dbb9f58cf3b587ff0e38040cb3d4bb09e254540cb28bb111db77513a3bfe710"
+      },
+      {
+        "path": "schemas/portable_project.schema.json",
+        "role": "PORTABLE_SCHEMA",
+        "size_bytes": 9632,
+        "sha256": "43c6d296023bdee93aae7eabe3af6f9b66c624166412fbbe052491f33ccb8a10"
+      },
+      {
+        "path": "schemas/etymology_pass.schema.json",
+        "role": "ETY_SCHEMA",
+        "size_bytes": 9370,
+        "sha256": "7538bf58fea3633ec30a8a72f61c8b411ef9b11fee88c3d7e20b94e78fe59cf8"
+      },
+      {
+        "path": "schemas/living_analysis.schema.json",
+        "role": "LIVING_SCHEMA",
+        "size_bytes": 22469,
+        "sha256": "1962db96457f991a6517f14cbf7e07c65ed0a0be6db48765f0615ce30c2117e7"
+      },
+      {
+        "path": "schemas/expert_cycle.schema.json",
+        "role": "EXPERT_SCHEMA",
+        "size_bytes": 8325,
+        "sha256": "fb4c91def59ef31aea0a09196e12249dbf5935c7db16635dbefcb9e25f3dd16d"
+      },
+      {
+        "path": "src/portable-project.mjs",
+        "role": "PORTABLE_VALIDATOR",
+        "size_bytes": 9851,
+        "sha256": "1719d2b92d10b3df5431a62f07d99c64b44bce117007c3e73cbb84297c0088b7"
+      },
+      {
+        "path": "src/etymology.mjs",
+        "role": "ETY_EXECUTOR",
+        "size_bytes": 20632,
+        "sha256": "6b1bca456c5bb2ef02a4bb2d2e3f57e8b0f4544d1236f87b0d972fc64d3c29e8"
+      },
+      {
+        "path": "src/living-analysis.mjs",
+        "role": "LIVING_EXECUTOR",
+        "size_bytes": 84687,
+        "sha256": "69f9f82f15d50f9b92024cd52613d3875a3c33d039717a9b982d83fd62d74c8e"
+      },
+      {
+        "path": "src/expert-cycle.mjs",
+        "role": "EXPERT_EXECUTOR",
+        "size_bytes": 66294,
+        "sha256": "7278520e8266b80c23ab22f685c07088e8d915ad68a100cb42d8885548296836"
+      },
+      {
+        "path": "bin/destruktion.mjs",
+        "role": "CLI_ENTRYPOINT",
+        "size_bytes": 253,
+        "sha256": "2e0fbc89c37bbffe131cbb8d2af8eddf23bdc34fb32d5c3b63ee8632e0492f28"
+      },
+      {
+        "path": "package.json",
+        "role": "NODE_PACKAGE",
+        "size_bytes": 1628,
+        "sha256": "758117e86ad4ad706e510c816c27939c855404644cb1d03bcba00ed96269e633"
+      },
+      {
+        "path": "package-lock.json",
+        "role": "DEPENDENCY_FIXITY",
+        "size_bytes": 2536,
+        "sha256": "8c4328bb407f8678539f8bd0c0a1c9cc2f988bedcaf83605c3ae77758530734e"
+      },
+      {
+        "path": "experiments/heidegger-ga/user-dossier-ga1-1-2026/living-analysis-0.5/PHILOSOPHICAL_FIELD_NOTE.md",
+        "role": "REFERENCE_LIVING_OUTPUT",
+        "size_bytes": 12395,
+        "sha256": "f5c69d9963ee2ac25bf9e5a1b35294948442d58d425974593bc227c73c858739"
+      },
+      {
+        "path": "experiments/heidegger-ga/user-dossier-ga1-1-2026/living-analysis-0.5/ETYMOLOGICAL_ANALYSIS.md",
+        "role": "REFERENCE_ETY_OUTPUT",
+        "size_bytes": 25909,
+        "sha256": "183b906b21aaf773464189e9e39f399d850b5c7b34cf8550830166e2f079a2e6"
+      },
+      {
+        "path": "experiments/heidegger-ga/user-dossier-ga1-1-2026/expert-cycle-0.5/FINAL_ANALYTICS.md",
+        "role": "REFERENCE_EXPERT_OUTPUT",
+        "size_bytes": 53647,
+        "sha256": "b92deed2c474bce50d0b648f1d609a9467865c4d0cf5ab076727b1858a87fcb6"
+      },
+      {
+        "path": "schemas/hypothesis_bank.schema.json",
+        "role": "HYPOTHESIS_BANK_SCHEMA",
+        "size_bytes": 10373,
+        "sha256": "4e4de4e474a1312aaf790c27e8f956fea1a3254146469b3515f4be3bb4ce8c82"
+      },
+      {
+        "path": "src/source-resistance.mjs",
+        "role": "SOURCE_RESISTANCE_DETECTOR",
+        "size_bytes": 19237,
+        "sha256": "2d3d9f79c85df760c2949338a311161fa87439c0e1b38f89b54e687b2fc7ba8d"
+      },
+      {
+        "path": "src/structural-validator.mjs",
+        "role": "STRUCTURAL_VALIDATOR_WITH_OFFLINE_FALLBACK",
+        "size_bytes": 13070,
+        "sha256": "078e92e9fb4625e1a3cae795a17fcdf456683e15c3f86998d74b1ebcee0a661b"
+      },
+      {
+        "path": "vendor/ajv-compat/2020.mjs",
+        "role": "BUNDLED_OFFLINE_SCHEMA_VALIDATOR_FALLBACK",
+        "size_bytes": 10797,
+        "sha256": "596790a065dec12e1b648ef3e82f755dc94acf04ec1c6f36b08ca3860265713d"
+      },
+      {
+        "path": "experiments/heidegger-geviert-0.6/GEVIERT_REGRESSION_REPORT.md",
+        "role": "SOURCE_RESISTANCE_REGRESSION",
+        "size_bytes": 4224,
+        "sha256": "38d10855cf471a31fbc482223c05dd8302105f3c63d9bb6bd23fb35480b94697"
+      },
+      {
+        "path": "schemas/operator_regression_manifest.schema.json",
+        "role": "OPERATOR_REGRESSION_MANIFEST_SCHEMA",
+        "size_bytes": 1859,
+        "sha256": "3512a9aa11abee0ca04a21280cab997827c8597ab856288a6d616a2cb5cf2faa"
+      },
+      {
+        "path": "schemas/operator_regression_result.schema.json",
+        "role": "OPERATOR_REGRESSION_RESULT_SCHEMA",
+        "size_bytes": 3729,
+        "sha256": "7bd45f09ce5b69b15d5c09bc8952aa086e81f9b1cbc0118d67e7c1207114a4ad"
+      },
+      {
+        "path": "src/operator-regression.mjs",
+        "role": "OPERATOR_EVOLUTION_REGRESSION_EXECUTOR",
+        "size_bytes": 9841,
+        "sha256": "ecb2016693fac027d606075e031a5c36cf4693b62f5debe518c2a77d615b42b0"
+      },
+      {
+        "path": "experiments/cross-corpus-operator-regression-0.7/OPERATOR_REGRESSION_REPORT.md",
+        "role": "CROSS_CORPUS_OPERATOR_REGRESSION",
+        "size_bytes": 1712,
+        "sha256": "83be8cc749441dadae8e5a7de33384ca38e3e73240c75548a16513a64742894f"
+      },
+      {
+        "path": "docs/OPERATOR_COMPETITION.md",
+        "role": "OPERATOR_COMPETITION_PROTOCOL",
+        "size_bytes": 1119,
+        "sha256": "21f18959b17c38327d1b827106b07a9cb1b8196fb5182e7f478955bcc71bc5e4"
+      },
+      {
+        "path": "schemas/operator_competition_manifest.schema.json",
+        "role": "OPERATOR_COMPETITION_MANIFEST_SCHEMA",
+        "size_bytes": 3274,
+        "sha256": "ed7aa2b2e40fac63cbf9aa021b71c695c351195cdffe396bca6edd178fb7684f"
+      },
+      {
+        "path": "schemas/operator_competition_result.schema.json",
+        "role": "OPERATOR_COMPETITION_RESULT_SCHEMA",
+        "size_bytes": 5363,
+        "sha256": "fc2a1dfcf2982aa87a8ceeaaae1c7af003f849baa73ab6d6e4db957bb666c57d"
+      },
+      {
+        "path": "src/operator-competition.mjs",
+        "role": "LOCAL_OPERATOR_ECOLOGY_EXECUTOR",
+        "size_bytes": 15318,
+        "sha256": "0a43e2af8430ec2c2d36b1412a7e3c45b4ac6b66d134a89873f29d6b8bb02107"
+      },
+      {
+        "path": "experiments/operator-competition-0.8/run/OPERATOR_COMPETITION_REPORT.md",
+        "role": "OPERATOR_COMPETITION_REGRESSION",
+        "size_bytes": 2098,
+        "sha256": "b0479cdd681b114bb72c6089c4cedd87eb893959d5bbac4996697b5e9e709c17"
+      },
+      {
+        "path": "config/living_operator_registry.declarative.json",
+        "role": "EXECUTABLE_DECLARATIVE_OPERATOR_REGISTRY",
+        "size_bytes": 54832,
+        "sha256": "3b58af41b1c71118e05a9da2d0d9ceb120526349e931baa764b7a1a96150f0be"
+      },
+      {
+        "path": "config/operator_mutation_policy.json",
+        "role": "OPERATOR_MUTATION_POLICY",
+        "size_bytes": 1920,
+        "sha256": "f7e32d2f4597c5efd365901bd5fb21eb18bd228fe52be0df893a214725699d9e"
+      },
+      {
+        "path": "schemas/operator_delta.schema.json",
+        "role": "OPERATOR_DELTA_SCHEMA",
+        "size_bytes": 8505,
+        "sha256": "5f2fb0c0ffdc571c0047b94dd66de6dce99d13fee8ae116378e697104746e48e"
+      },
+      {
+        "path": "schemas/generative_gesture.schema.json",
+        "role": "DECLARATIVE_GESTURE_SCHEMA",
+        "size_bytes": 2402,
+        "sha256": "e6360ab5f4f54647be40ac9dc83c4e51ac8c268b6af26e39bd7d95977d4516b0"
+      },
+      {
+        "path": "src/generative-gesture-runtime.mjs",
+        "role": "DECLARATIVE_GESTURE_RUNTIME",
+        "size_bytes": 7956,
+        "sha256": "e2e1fbf2a93b052f8045b51f2d167075a06319b4a5531ec10a1cf35f6907055e"
+      },
+      {
+        "path": "mutation/operator-mutation-engine.mjs",
+        "role": "EXECUTABLE_OPERATOR_MUTATION_GATE",
+        "size_bytes": 22160,
+        "sha256": "681b9ded1d71a33585bf719c0c1479047f74218423542f309601aac6f2fdeab1"
+      },
+      {
+        "path": "PROJECT_DEVELOPMENT_REPORT_0.9.md",
+        "role": "DEVELOPMENT_ANALYSIS",
+        "size_bytes": 1595,
+        "sha256": "89ef6433f83fe29cf0a1ab578371ada28226a98371e8d17ec195788a9da886d4"
+      }
+    ]
+  },
+  "conformant": true,
+  "counts": {
+    "ERROR": 0,
+    "REVIEW": 0,
+    "WARNING": 0,
+    "INFO": 0
+  },
+  "issues": []
+}

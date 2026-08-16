@@ -1,0 +1,146 @@
+{
+  "record_id": "4A-ID4-CONSTITUTION-NOT-IDENTITY",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4A-05#constitution-versus-identity",
+      "LEGACY-BR-A-2.24#constitution-identity-gate"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4A-0.2-repair + DAE-0.1",
+    "agent": "automation-repair-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4A-0.1/4A-ID4-CONSTITUTION-NOT-IDENTITY"
+    ],
+    "activity_id": "MODULE-MIGRATION-4A-0.2-SEMANTIC-REPAIR",
+    "timestamp": "2026-08-11T12:00:00Z",
+    "artifact_hash": "sha256:39834a2118d754e463739148ab551b448c6fa6173badf4b33dcbc689aec013d2"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "A lump of matter constitutes a statue at a time.",
+    "role": [
+      "material-bearer"
+    ],
+    "claim_facets": {
+      "basis": [
+        "MIXED"
+      ],
+      "force": "ASSERTED",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "The statue is numerically identical with the lump.",
+    "claim_facets": {
+      "basis": [
+        "HIST",
+        "FORM"
+      ],
+      "force": "WITHHELD",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT09"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "Material constitution does not by itself settle numerical identity; major competing metaphysical accounts remain live."
+    },
+    "promotion_flags": [
+      "RELATION"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "material constitution / identity",
+    "native_method": "contemporary metaphysics of constitution",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O3",
+      "O4",
+      "O6",
+      "O9"
+    ],
+    "trv": [
+      "UNDERDETERMINATION"
+    ],
+    "ncv": [
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "MEDIUM"
+  },
+  "rivals": [
+    {
+      "description": "Constitution is identity.",
+      "relation_rt_id": "RT03",
+      "discriminator": "Apply explicit identity criteria and persistence conditions."
+    },
+    {
+      "description": "Constitution is asymmetric dependence between distinct coincident objects.",
+      "relation_rt_id": "RT08",
+      "discriminator": "Distinguish constitution from existential dependence and grounding."
+    }
+  ],
+  "extensions": {
+    "id4": {
+      "module_id": "ID4",
+      "version": "0.1",
+      "domain_object": "material statue/lump",
+      "mode": "SYNCHRONIC",
+      "candidate_criterion": [
+        "material coincidence",
+        "kind/sortal",
+        "modal/historical profile"
+      ],
+      "allowed_change": "Account-dependent; material changes and kind-preserving changes must be distinguished.",
+      "termination_condition": "Account-dependent; no universal answer assumed.",
+      "reidentification_evidence": [
+        "spatiotemporal continuity",
+        "material continuity",
+        "kind/sortal continuity"
+      ],
+      "identity_maker_status": "UNRESOLVED",
+      "fission_replacement": "Constitution puzzles discriminate identity from bearer continuity.",
+      "alternatives": [
+        "constitution-is-identity",
+        "constitution-without-identity",
+        "temporal-parts/deflationary alternatives"
+      ],
+      "revision_trigger": "A discriminating argument/evidence that selects one account for the target case."
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "FROM_CLAIM",
+      "relation_rationale": "RT09 applies to the source constitution claim; the record audits and withholds the attempted promotion from constitution to numerical identity.",
+      "semantic_review_status": "REPAIRED_PENDING_EXPERT",
+      "human_review_required": true,
+      "object_relata": [
+        {
+          "relatum_id": "lump",
+          "description": "The coincident lump of matter at the indexed time.",
+          "kind": "ARTIFACT"
+        },
+        {
+          "relatum_id": "statue",
+          "description": "The statue constituted by the lump at the indexed time.",
+          "kind": "ARTIFACT"
+        }
+      ],
+      "review_notes": [
+        "The from-node was retyped from ARTIFACT to CLAIM because its description is propositional."
+      ]
+    }
+  },
+  "outcome": "UNDERDETERMINED"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Metaengine DevFabric",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.13-bookworm",
+  "remoteUser": "vscode",
+  "containerEnv": {"METAENGINE_DEVFABRIC_PROFILE": "offline"},
+  "customizations": {"vscode": {"extensions": []}}
+}

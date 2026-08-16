@@ -1,0 +1,37 @@
+{
+  "architecture_history": [
+    "HERMENEUTIC_SPIRAL"
+  ],
+  "architecture_mutations": 0,
+  "cache": {
+    "hit_rate": 0.0
+  },
+  "claim_ceiling": "ECOLOGY_ORGANIZES_COMPUTATION_NOT_TRUTH",
+  "coalitions": [],
+  "depth_budget": {
+    "initial": 8,
+    "remaining": 4
+  },
+  "disagreement_reorganizations": 0,
+  "ecology_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "ecology_version": "16X-SELF-REORGANIZING-HERMENEUTIC-ECOLOGY-2.0",
+  "scheduler_rounds": [
+    {
+      "architecture": {},
+      "coalitions": {},
+      "depth_decision": {
+        "realized_marginal_gain": 0.0,
+        "remaining_budget": 4,
+        "stop_decision": "STOP_MARGINAL_GAIN"
+      },
+      "engine_results": [],
+      "execution_batches": [],
+      "round": 1,
+      "scheduler": {},
+      "transformation_metrics": {}
+    }
+  ],
+  "selected_topology_id": "HERMENEUTIC_SPIRAL",
+  "stop_reason": "STOP_MARGINAL_GAIN",
+  "truth_promotion_allowed_from_ecology": false
+}

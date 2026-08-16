@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Self Organizing Metrics 2.0",
+  "type": "object",
+  "required": [
+    "evaluation_version",
+    "hermeneutic_nonlinearity_proxy",
+    "epistemic_nonlinearity_proxy",
+    "depth_proxy",
+    "performance",
+    "safety",
+    "claim_ceiling",
+    "evaluation_hash"
+  ],
+  "properties": {
+    "evaluation_version": {
+      "const": "16X-SELF-ORGANIZING-METRICS-2.0"
+    },
+    "hermeneutic_nonlinearity_proxy": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "epistemic_nonlinearity_proxy": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "depth_proxy": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "performance": {
+      "type": "object",
+      "required": [
+        "sparse_deep_execution_ratio",
+        "deep_engine_executions",
+        "full16_recursive_equivalent",
+        "architecture_mutations"
+      ]
+    },
+    "safety": {
+      "type": "object",
+      "required": [
+        "native_claim_nodes",
+        "native_claim_positions",
+        "derived_truth_promotion_violations",
+        "majority_vote_used"
+      ]
+    },
+    "claim_ceiling": {
+      "type": "string"
+    },
+    "evaluation_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": false
+}

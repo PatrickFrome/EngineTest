@@ -1,0 +1,16 @@
+{
+  "coordination_contract": "DESTRUKTION-16X-INTERWOVEN-ARCHITECTURE-1.2",
+  "neon": {
+    "project_id": "falling-hat-08217783",
+    "database": "neondb",
+    "hybrid_verified_tables": ["hybrid_agenda_ledger","hybrid_bridge_ledger","hybrid_mesh_ledger","hybrid_trace_ledger"],
+    "status": "DEPLOYED_AND_VERIFIED"
+  },
+  "supabase": {
+    "project_id": "jbztmeomxtpskkvlhlcy",
+    "hybrid_verified_tables": ["hybrid_agenda_ledger","hybrid_bridge_ledger","hybrid_mesh_ledger","hybrid_trace_ledger"],
+    "status": "DEPLOYED_AND_VERIFIED"
+  },
+  "credentials_bundled": false,
+  "epistemic_authority": false
+}

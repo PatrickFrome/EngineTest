@@ -1,0 +1,11 @@
+{
+  "candidate_base_rule": "PINNED_TO_EPOCH_CHECKPOINT",
+  "canonical_authority": "SUPABASE_ONLY",
+  "epoch_base": "VERIFIED_CHECKPOINT_ID",
+  "integration_output": "PROPOSAL_ONLY",
+  "promotion_rule": "DETERMINISTIC_VERIFIER_AND_CANONICAL_GATE_REQUIRED",
+  "protocol_version": "D6.1",
+  "recovery_rule": "REBUILD_FROM_LEDGER_AND_CONTENT_DIGESTS",
+  "slot_count": 8,
+  "task_publication": "SYNCHRONIZER_ONLY"
+}

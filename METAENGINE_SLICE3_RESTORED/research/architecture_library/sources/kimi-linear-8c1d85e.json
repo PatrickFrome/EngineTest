@@ -1,0 +1,87 @@
+{
+  "allowed_use": [
+    "ANALYSIS",
+    "CLEAN_ROOM_REIMPLEMENTATION",
+    "REFERENCE"
+  ],
+  "architecture_claims": [
+    {
+      "claim_id": "kimi-linear-documentation-retained",
+      "evidence_locator": "https://github.com/MoonshotAI/Kimi-Linear/tree/8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3",
+      "kind": "SOURCE_FACT",
+      "statement": "The retained pack contains official license and README bytes; external kernel implementations are not silently attributed to this source."
+    },
+    {
+      "claim_id": "kimi-linear-kda-publisher-claim",
+      "evidence_locator": "https://github.com/MoonshotAI/Kimi-Linear/blob/8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3/README.md",
+      "kind": "PUBLISHER_CLAIM",
+      "statement": "The official README describes Kimi Delta Attention and a hybrid organization of KDA and global MLA layers."
+    }
+  ],
+  "blob_descriptors": [
+    {
+      "digest": "20f48681e4fb70b2787b752fd6fb887be60332731441818458ed0baf09d8264b",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "27ed4ed26dbc5c630df7b7cbcb097b90330520c5",
+      "media_type": "text/plain",
+      "relative_path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "94b884a1ebe7600daf3429c8a7403874aa69d7a25b30c992e367f72289e2817d",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "188288206fb333490b032d80df460033bf88c885",
+      "media_type": "text/markdown",
+      "relative_path": "README.md",
+      "size": 6401
+    }
+  ],
+  "blockers": [
+    "EXTERNAL_KERNEL_REPOSITORY_REQUIRES_SEPARATE_SOURCE_RECORD",
+    "TECHNICAL_REPORT_PDF_DEFERRED_FROM_RETAINED_PACK"
+  ],
+  "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+  "exact_commit_or_release": "8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3",
+  "forbidden_use": [
+    "AUTOMATIC_PROMOTION",
+    "AUTOMATIC_RUNTIME_DEPENDENCY"
+  ],
+  "ingestion_status": "INGESTED",
+  "license_evidence_locator": "https://github.com/MoonshotAI/Kimi-Linear/blob/8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3/LICENSE",
+  "license_expression": "MIT",
+  "license_name": "MIT License",
+  "license_sha256": "20f48681e4fb70b2787b752fd6fb887be60332731441818458ed0baf09d8264b",
+  "mechanism_candidates": [
+    {
+      "falsification_test": "Compare compressed-only, attention-only, and hybrid variants under equal memory and quality targets.",
+      "hypothesized_effect": "Lower long-context state cost without losing global error correction.",
+      "mechanism_id": "hybrid-compressed-state-full-attention",
+      "semantic_definition": "Combine a compressed recurrent or delta state path with periodic global attention.",
+      "source_fact_boundary": "The official source describes KDA/global-MLA organization; independent MetaEngine transfer is untested.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    },
+    {
+      "falsification_test": "Measure retrieval loss and task quality as latent-state capacity is ablated.",
+      "hypothesized_effect": "Reduce retained context state while preserving answer-relevant information.",
+      "mechanism_id": "latent-context-compression",
+      "semantic_definition": "Maintain a bounded latent state that summarizes prior context for later computation.",
+      "source_fact_boundary": "The public source motivates reduced state/KV requirements; the responsible causal mechanism remains a hypothesis.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ],
+  "official_source_locator": "https://github.com/MoonshotAI/Kimi-Linear/tree/8c1d85eb6b5f8fcefb15758691b0ce50b0827ce3",
+  "publisher": "Moonshot AI",
+  "record_sha256": "01ce522612ea0c37af72d49b79dffff233cbef8fd5a633503fb1cc7a1aab0bd4",
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "retained_reference_paths": [
+    "LICENSE",
+    "README.md"
+  ],
+  "retrieved_at": "2026-08-13T20:00:00Z",
+  "source_class": "PERMISSIVE_CODE",
+  "source_id": "kimi-linear-8c1d85e",
+  "source_sha256": "35c5c6825804ff02be2c4ec8c6801c786bb1883c231b0dc09cf3bcf2646b3026",
+  "source_sha256_scope": "RETAINED_SOURCE_PACK",
+  "system_name": "Kimi-Linear",
+  "version": "8c1d85e"
+}

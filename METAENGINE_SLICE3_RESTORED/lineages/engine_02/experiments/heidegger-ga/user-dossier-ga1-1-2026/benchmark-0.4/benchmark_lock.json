@@ -1,0 +1,14 @@
+{
+  "lock_version": "DAE-EXPERT-BENCHMARK-LOCK-1.0",
+  "benchmark_id": "BENCH-B516B04EB5AB556F",
+  "locked_at": "2026-08-11T12:00:00Z",
+  "timestamp_authority": "LOCAL_SYSTEM_CLOCK_UNTRUSTED",
+  "manifest_sha256": "491338f0758b706a5d4eba69d78393281342755a48f434bf2f949fabaa127c77",
+  "manifest_file_sha256": "9b075e2be9a0aa94cad54f950685dd859679369f2b334ea1d5152acac8aeba57",
+  "sealed_predictions_sha256": "2c26f02b16798220f2e0b971cb831e1264598d74a2c1f5f5969a2a9561d72fb5",
+  "blind_packet_sha256": {
+    "PACKET-A-3EF437FB9B8C": "05200a85ec85ddeae253deefeea543a9cc7f1a943e2b38568f50e7663b633181",
+    "PACKET-B-31564CF19FF2": "1e7dc5d7c1a00580eebf843f03301183e17b40bc703272f8a83e8389ce532d77"
+  },
+  "claim_ceiling": "LOCAL_FIXITY_LOCK_NOT_PUBLIC_PREREGISTRATION"
+}

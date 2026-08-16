@@ -1,0 +1,105 @@
+{
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1",
+  "completed_step_id": "METAENGINE-1-SLICE-4",
+  "completed_step_commit": "637d0b569e38c2a965b43f7de2015ea66a788428",
+  "completed_step_evidence_hashes": [
+    "3674e83769eb578bad5d636587cb8db78b1ec6bcf8698f786ffc20efabf85172",
+    "719b825c8f5594df4824f30cae71fd3de5ba11f617522ed6549538952d83e7b7",
+    "ca9ab0ea909a264bc2d1cf0be2fd51245efaf4ee4b76e80facbcd6db46623f93",
+    "e808073259be5eea838cc416e3afa0f0ca7162b5e91e7227a12e623eb3ee617e",
+    "eb006e5a66aef681c0b76641de22778d2655a818b48cde90b13ba9b583cef37a",
+    "f33ad47d250ccfa2d43c7ab08c43431ad21824e9243620d846cc98014a9b5c17"
+  ],
+  "constitution_hash": "bbcdd652e97d2ab4136f00d655baf458eaeb1182cc30adacd07568095e40f28a",
+  "architecture_library_snapshot_hash": "d5b32e0a8b9983cd36faed2cf105ecf3670cf9490578f0d939cbbdf4b1103445",
+  "policy_snapshot_hash": "1888a575abae2ba844f53a005a23c48ed5581722d2a64cf6df40f60bbda66f32",
+  "relevant_mechanism_ids": [
+    "ARCHITECTURE_SOURCE_REGISTRY_V1",
+    "ASSIMILATION_GATE_V1",
+    "ASSIMILATION_RECEIPT_V1",
+    "LOSS_AWARE_LEGACY_ADAPTER",
+    "MECHANISM_LIBRARY_A0A1A2A3",
+    "ORGANIZATION_POLICY_V1",
+    "REFERENCE_VAULT_V1",
+    "RESOURCE_DESCRIPTOR_V1",
+    "UNOBSERVED_MEASUREMENT_SEMANTICS"
+  ],
+  "alternatives_considered": [
+    {
+      "kind": "CURRENT",
+      "summary": "Slice-3 mechanism library admits A0/A1 only and blanket-rejects A2/A3; cannot satisfy Slice-4 objective (full A0-A3 state machine + assimilation receipts).",
+      "evidence_hashes": [
+        "3674e83769eb578bad5d636587cb8db78b1ec6bcf8698f786ffc20efabf85172",
+        "719b825c8f5594df4824f30cae71fd3de5ba11f617522ed6549538952d83e7b7",
+        "ca9ab0ea909a264bc2d1cf0be2fd51245efaf4ee4b76e80facbcd6db46623f93",
+        "e808073259be5eea838cc416e3afa0f0ca7162b5e91e7227a12e623eb3ee617e",
+        "eb006e5a66aef681c0b76641de22778d2655a818b48cde90b13ba9b583cef37a",
+        "f33ad47d250ccfa2d43c7ab08c43431ad21824e9243620d846cc98014a9b5c17"
+      ]
+    },
+    {
+      "kind": "LIBRARY",
+      "summary": "Import an external experiment-tracking library (MLflow-style); imports a foreign runtime dependency into Core for a small typed receipt+gate concern. Violates provider-neutral Core principle.",
+      "evidence_hashes": [
+        "3674e83769eb578bad5d636587cb8db78b1ec6bcf8698f786ffc20efabf85172",
+        "719b825c8f5594df4824f30cae71fd3de5ba11f617522ed6549538952d83e7b7",
+        "ca9ab0ea909a264bc2d1cf0be2fd51245efaf4ee4b76e80facbcd6db46623f93",
+        "e808073259be5eea838cc416e3afa0f0ca7162b5e91e7227a12e623eb3ee617e",
+        "eb006e5a66aef681c0b76641de22778d2655a818b48cde90b13ba9b583cef37a",
+        "f33ad47d250ccfa2d43c7ab08c43431ad21824e9243620d846cc98014a9b5c17"
+      ]
+    },
+    {
+      "kind": "MINIMAL",
+      "summary": "Keep A0/A1-only and add more mechanism cards; does not deliver the assimilation path, evidence-gated transitions, or separate-promotion-authority guard. Violates SEPARATE_GENERATION_AND_PROMOTION.",
+      "evidence_hashes": [
+        "3674e83769eb578bad5d636587cb8db78b1ec6bcf8698f786ffc20efabf85172",
+        "719b825c8f5594df4824f30cae71fd3de5ba11f617522ed6549538952d83e7b7",
+        "ca9ab0ea909a264bc2d1cf0be2fd51245efaf4ee4b76e80facbcd6db46623f93",
+        "e808073259be5eea838cc416e3afa0f0ca7162b5e91e7227a12e623eb3ee617e",
+        "eb006e5a66aef681c0b76641de22778d2655a818b48cde90b13ba9b583cef37a",
+        "f33ad47d250ccfa2d43c7ab08c43431ad21824e9243620d846cc98014a9b5c17"
+      ]
+    },
+    {
+      "kind": "SYNTHESIS",
+      "summary": "Extend mechanism_library.py to full A0-A3 state machine with evidence-gated admission (A2 requires gate receipt; A3 requires gate receipt + separate promotion authority). Add assimilation.py with typed content-addressed ExperimentReceipt/AblationReceipt/TransferReceipt/PromotionAuthority/AssimilationGate producing AssimilationReceipts. Retrospectively register 8 existing MetaEngine 2.2/2.3 influences under their existing names. Complete all 12 section-10.4 families. No A2/A3 created in materialized library (no real evidence). Selected.",
+      "evidence_hashes": [
+        "3674e83769eb578bad5d636587cb8db78b1ec6bcf8698f786ffc20efabf85172",
+        "719b825c8f5594df4824f30cae71fd3de5ba11f617522ed6549538952d83e7b7",
+        "ca9ab0ea909a264bc2d1cf0be2fd51245efaf4ee4b76e80facbcd6db46623f93",
+        "e808073259be5eea838cc416e3afa0f0ca7162b5e91e7227a12e623eb3ee617e",
+        "eb006e5a66aef681c0b76641de22778d2655a818b48cde90b13ba9b583cef37a",
+        "f33ad47d250ccfa2d43c7ab08c43431ad21824e9243620d846cc98014a9b5c17"
+      ]
+    }
+  ],
+  "decision": "ACCEPT_WITH_FOLLOWUP_EXPERIMENT",
+  "rationale": "Slice 4 extends the mechanism library to the full A0-A3 state machine with evidence-gated admission. A2/A3 are now admissible ONLY with a content-addressed AssimilationReceipt produced by the AssimilationGate, which enforces: experiment receipt + ablation receipt + transfer receipt(s) for A2; + two distinct-regime transfers + a separate PromotionAuthority (no self-promotion) for A3. This satisfies spec section 10.2-10.4 and the SEPARATE_GENERATION_AND_PROMOTION invariant. The 12 section-10.4 mechanism families are covered and 8 existing MetaEngine 2.2/2.3 architecture influences are retrospectively registered under their existing names (not reimplemented). The constitution/architecture-library/policy snapshot hashes are unchanged from the Slice-2/3 receipts, confirming Slice 4 does not amend the constitutional kernel, architecture library, or active policy. No A2/A3 mechanisms are created in the materialized library because real ablation/transfer evidence does not exist in this recovery environment (PRESERVE_ABSTENTION); has_a3_influence() remains False. The decision is ACCEPT_WITH_FOLLOWUP_EXPERIMENT because real A2/A3 promotion requires actual independent MetaEngine implementation + ablation + transfer experiments, which are out of scope for this recovery session.",
+  "complexity_delta": "Bounded Core surface: one new module (assimilation.py), one extended module (mechanism_library.py + promotion_authority field + evidence-gated admission), one new test module (test_assimilation.py, 18 tests), two updated Slice-3 tests. No new service, database authority, transport, model dependency, or Core runtime dependency on foreign code.",
+  "capability_hypothesis": "A full A0-A3 evidence-gated assimilation state machine lets MetaEngine distinguish observed behavior (A0) from hypothesis (A1), transferable mechanism (A2), and assimilated mechanism (A3), preventing hypothesis-as-fact promotion and ensuring only independently-verified mechanisms with separate promotion authority can influence organization-policy generation.",
+  "required_followup_experiment": "Select one A1 mechanism candidate (e.g., mec.metaengine.polycentric_reentry or mec.constitution_derived_testing) and run the full assimilation loop: independent MetaEngine implementation -> controlled experiment -> ablation -> transfer test across >=2 distinct regimes. If evidence supports it, advance to A2 via the AssimilationGate. Only after >=2 distinct-regime transfer receipts + a separate PromotionAuthority may it advance to A3. This requires a network-capable environment and experiment infrastructure not available in this recovery session.",
+  "constitutional_findings": [
+    "PRESERVE_ABSTENTION: no A2/A3 mechanism created without real ablation/transfer evidence; the gate rejects transitions with missing evidence (A2_REQUIRES_ABLATION/EXPERIMENT/TRANSFER; A3_REQUIRES_TWO_DISTINCT_REGIME_TRANSFERS/PROMOTION_AUTHORITY).",
+    "MUTATION_REQUIRES_RECEIPT: every A1->A2 and A1->A3 transition produces a content-addressed AssimilationReceipt; from_dict re-verifies the claimed hash; MechanismCandidate with A2/A3 status requires a non-None promotion_authority (gate receipt).",
+    "SEPARATE_GENERATION_AND_PROMOTION: A3 requires a PromotionAuthority whose authority_id differs from every origin_source_id of the candidate (NO_SELF_PROMOTION enforced by the gate).",
+    "FROZEN_EVALUATION_CONTRACT: ExperimentReceipt/AblationReceipt/TransferReceipt pin regime, evidence_sha256, verifier_ref, and recorded_at.",
+    "NO_NORMAL_KERNEL_SELF_MUTATION: Slice 4 does not amend K0/K1 (amendment authority remains NOT_IMPLEMENTED in constitution.py).",
+    "PROVENANCE_PRIMARY_EVIDENCE: closed-model architectural hypotheses (GPT-5.6, Claude, Gemini) remain A0 hypotheses with source_fact_boundary; they are never promoted to source facts."
+  ],
+  "library_findings": [
+    "Spec section 10.2 (mechanism states A0-A3) is fully implemented: the four-state enum is present, A0/A1 require no gate receipt, A2/A3 require evidence-gated admission via AssimilationReceipt.",
+    "Spec section 10.4 (12 initial mechanism-candidate families) is covered: all 12 families have registered candidates at A0/A1.",
+    "Spec section 10.4 (retrospective registration): 8 existing MetaEngine 2.2/2.3 architecture influences (polycentric_reentry, hybrid_mesh, dialectical_graph, epistemic_gain, parallel_ecology, frozen_matrix, transformation_graph, self_organizing_metrics) are registered under their existing names, not reimplemented.",
+    "Spec section 11 (Assimilation Loop): the AssimilationGate implements the evidence-gated portion of the loop (experiment -> ablation -> transfer -> A2; + distinct-regime transfers + promotion authority -> A3). The full loop (organization tournament) is out of scope for Slice 4.",
+    "The Slice-2/3 frozen-dataclass + create()/payload()/hash via canonical_hash + from_dict claimed-hash re-verification pattern is reused for ExperimentReceipt, AblationReceipt, TransferReceipt, PromotionAuthority, and AssimilationReceipt."
+  ],
+  "policy_findings": [
+    "Canonical checkpoint metaengine-chat-2.3.0-alpha.1-cp001 remains VERIFIED_CURRENT; active policy 1868b3c7... remains ACTIVE generation 2 with self_modifying_code_allowed=false; canonical adaptation receipts remain 0; finalized epochs remain 1; release promotion remains BLOCKED; D6-G1 remains shadow-only. None of these were mutated by Slice 4.",
+    "constitution_snapshot_hash, architecture_library_snapshot_hash, and policy_snapshot_hash are unchanged from the Slice-2/3 receipts, confirming Slice 4 does not amend the constitutional kernel, architecture library, or active policy.",
+    "The 18-tool chat-facing Federation MCP allowlist is unchanged; Slice 4 adds no chat-facing tools.",
+    "No A3 mechanisms exist in the materialized library, so assert_no_a3_influence() passes and no mechanism exerts automatic influence on organization-policy generation."
+  ],
+  "next_step_allowed": true,
+  "receipt_hash": "0f4878c9c4ff7d9eba49795c8ad98b1742d14744901e84947c7c73926af57c5a"
+}

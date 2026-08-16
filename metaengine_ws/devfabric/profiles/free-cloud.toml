@@ -1,0 +1,4 @@
+profile = "free-cloud"
+allow_external = true
+require_free_quota_confirmation = true
+zero_spend = true

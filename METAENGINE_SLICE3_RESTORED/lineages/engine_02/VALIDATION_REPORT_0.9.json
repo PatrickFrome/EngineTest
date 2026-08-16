@@ -1,0 +1,31 @@
+{
+  "report_version": "DAE-VALIDATION-0.9.0-alpha.1",
+  "engine_version": "0.9.0-alpha.1",
+  "tests": {
+    "total": 77,
+    "passed": 77,
+    "failed": 0
+  },
+  "portable": {
+    "conformant": true,
+    "required_assets": 55,
+    "errors": 0,
+    "warnings": 0
+  },
+  "operator_evolution": {
+    "delta_id": "DELTA-GX1-RESIDUAL-SPLIT-001",
+    "decision": "ACCEPTED_CANDIDATE",
+    "promotion_ready": true,
+    "runtime_reachability": "FULL",
+    "baseline_registry_immutable": true,
+    "rollback_emitted": true
+  },
+  "mutant_living": {
+    "run_id": "LIVING-LOCAL_SHA256_A731F5F0A34DB63303D2D4DB4F8FC3EF1381E31F974272A72D5689E9712-50010095694A",
+    "constellations": 12,
+    "nodes": 391,
+    "edges": 612,
+    "sufficient_openness": true
+  },
+  "claim_ceiling": "EXECUTABLE_OPERATOR_EVOLUTION_CONFORMANCE_NOT_EXTERNAL_PHILOSOPHICAL_VALIDATION"
+}

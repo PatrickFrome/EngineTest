@@ -1,0 +1,208 @@
+{
+  "bank_version": "DAE-HYPOTHESIS-BANK-1.2",
+  "engine_version": "0.7.0-alpha.1",
+  "generated_at": "2026-08-11T16:15:47Z",
+  "source_id": "LOCAL-SHA256-DEFB03CA1F6A5CFC89E3FD384D3FFF6671EC27D7CFE7F47863B46CB61635ECCB",
+  "registry_version": "DAE-REFINERY-TOPICS-1.0",
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP-EMERGENT_SOURCE_LANGUE",
+      "topic_id": "EMERGENT_SOURCE_LANGUE",
+      "label": "Source-forced constellation: langue / système / différences / sens / sons",
+      "research_question": "Which distinctions, dependencies or representation failures among langue, système, différences, sens, sons become invisible when the current topic registry determines the problem in advance?",
+      "origin": "SOURCE_FORCED_REGISTRY_RESISTANCE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "SOURCE_RESISTANCE",
+        "TERM_LANGUE",
+        "TERM_SYSTEME",
+        "TERM_DIFFERENCES",
+        "TERM_SENS",
+        "TERM_SONS"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000004-2AF2F14566",
+        "OX-P000005-F86476817F",
+        "OX-P000006-BFA8006958",
+        "OX-P000007-C0E459756C",
+        "OX-P000008-499DD5A0C5",
+        "OX-P000012-51F56E5FEF",
+        "OX-P000001-8339C09421",
+        "OX-P000009-CAAEF4E24C"
+      ],
+      "evidence_count": 8,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "langue",
+        "système",
+        "différences",
+        "sens",
+        "sons"
+      ],
+      "operator_candidate": {
+        "family": "RELATION_GENESIS_PROFILE",
+        "candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+        "signal_counts": {
+          "DIFFERENTIAL": 4,
+          "REFERENCE_RELATIVE": 0,
+          "SYSTEM_FIELD": 3,
+          "ASYMMETRIC_DEPENDENCE": 1,
+          "RECIPROCITY_GATHERING": 0,
+          "DISTANCE_DIFFERENTIATION": 0,
+          "PRIORITY": 0
+        },
+        "active_signal_families": [
+          "DIFFERENTIAL",
+          "SYSTEM_FIELD",
+          "ASYMMETRIC_DEPENDENCE"
+        ],
+        "central_term_cooccurrence_segments": 4,
+        "profile_hints": [
+          "DIFFERENTIAL_CONSTITUTION"
+        ],
+        "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_RELATION_FIRST_ONTOLOGY"
+      },
+      "source_resistance_trigger": "Curated topic coverage captured 0/5 source-central terms; 5 remained outside the recognized problem-space.",
+      "revision_condition": "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations."
+    },
+    {
+      "hypothesis_id": "HYP-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION",
+      "topic_id": "EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION",
+      "label": "DIFFERENTIAL_CONSTITUTION",
+      "claim_statement": "в локальном анализе valeur и различия знаков зависят от системы, а не от полностью предзаданных положительных единиц.",
+      "research_question": "Which source-bounded discriminators support, qualify or defeat the project thesis “DIFFERENTIAL_CONSTITUTION” without presupposing the current registry?",
+      "origin": "EXPLICIT_PROJECT_THESIS_CANDIDATE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "EXPLICIT_PROJECT_THESIS",
+        "DIFFERENTIAL_CONSTITUTION",
+        "TERM_LANGUE",
+        "TERM_SYSTEME",
+        "TERM_DIFFERENCES",
+        "TERM_SENS",
+        "TERM_SONS"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000015-8B5D79EA90",
+        "OX-P000001-8339C09421",
+        "OX-P000004-2AF2F14566",
+        "OX-P000005-F86476817F",
+        "OX-P000006-BFA8006958",
+        "OX-P000007-C0E459756C",
+        "OX-P000008-499DD5A0C5",
+        "OX-P000009-CAAEF4E24C",
+        "OX-P000012-51F56E5FEF"
+      ],
+      "evidence_count": 9,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "langue",
+        "système",
+        "différences",
+        "sens",
+        "sons"
+      ],
+      "source_resistance_trigger": "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it.",
+      "revision_condition": "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss."
+    },
+    {
+      "hypothesis_id": "HYP-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST",
+      "topic_id": "EMERGENT_CLAIM_GLOBAL_RELATION_FIRST",
+      "label": "GLOBAL_RELATION_FIRST",
+      "claim_statement": "вся онтология языка доказанно сводится к отношению, и никакие положительные единицы нигде не допустимы.",
+      "research_question": "Which source-bounded discriminators support, qualify or defeat the project thesis “GLOBAL_RELATION_FIRST” without presupposing the current registry?",
+      "origin": "EXPLICIT_PROJECT_THESIS_CANDIDATE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "EXPLICIT_PROJECT_THESIS",
+        "GLOBAL_RELATION_FIRST",
+        "TERM_LANGUE",
+        "TERM_SYSTEME",
+        "TERM_DIFFERENCES",
+        "TERM_SENS",
+        "TERM_SONS"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000016-F244448C8A",
+        "OX-P000001-8339C09421",
+        "OX-P000004-2AF2F14566",
+        "OX-P000005-F86476817F",
+        "OX-P000006-BFA8006958",
+        "OX-P000007-C0E459756C",
+        "OX-P000008-499DD5A0C5",
+        "OX-P000009-CAAEF4E24C",
+        "OX-P000012-51F56E5FEF"
+      ],
+      "evidence_count": 9,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "langue",
+        "système",
+        "différences",
+        "sens",
+        "sons"
+      ],
+      "source_resistance_trigger": "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it.",
+      "revision_condition": "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss."
+    }
+  ],
+  "case_matrices": [],
+  "source_resistance": {
+    "status": "REGISTRY_BLIND_SPOT",
+    "central_terms": [
+      "langue",
+      "système",
+      "différences",
+      "sens",
+      "sons"
+    ],
+    "covered_terms": [],
+    "uncovered_terms": [
+      "langue",
+      "système",
+      "différences",
+      "sens",
+      "sons"
+    ],
+    "coverage_ratio": 0,
+    "explicit_stress_terms": [],
+    "source_native_terms": [
+      "langue",
+      "différences",
+      "système",
+      "sens",
+      "sons"
+    ],
+    "centrality_basis": "MULTILINGUAL_SOURCE_FREQUENCY_PLUS_SOURCE_DOCUMENT_FREQUENCY_WITH_OPTIONAL_EXPLICIT_STRESS_HINTS",
+    "operator_candidate": {
+      "family": "RELATION_GENESIS_PROFILE",
+      "candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "signal_counts": {
+        "DIFFERENTIAL": 4,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 3,
+        "ASYMMETRIC_DEPENDENCE": 1,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0
+      },
+      "active_signal_families": [
+        "DIFFERENTIAL",
+        "SYSTEM_FIELD",
+        "ASYMMETRIC_DEPENDENCE"
+      ],
+      "central_term_cooccurrence_segments": 4,
+      "profile_hints": [
+        "DIFFERENTIAL_CONSTITUTION"
+      ],
+      "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_RELATION_FIRST_ONTOLOGY"
+    },
+    "emergent_hypotheses": [
+      "HYP-EMERGENT_SOURCE_LANGUE",
+      "HYP-EMERGENT_CLAIM_DIFFERENTIAL_CONSTITUTION",
+      "HYP-EMERGENT_CLAIM_GLOBAL_RELATION_FIRST"
+    ],
+    "principle": "SOURCE_CENTRALITY_CAN_FORCE_TOPIC_AND_OPERATOR_REVISION_BUT_CANNOT_BY_ITSELF_VALIDATE_A_PHILOSOPHICAL_CLAIM"
+  },
+  "claim_ceiling": "HYPOTHESIS_DISCOVERY_ONLY_NOT_CORROBORATION_OR_VALIDATION"
+}

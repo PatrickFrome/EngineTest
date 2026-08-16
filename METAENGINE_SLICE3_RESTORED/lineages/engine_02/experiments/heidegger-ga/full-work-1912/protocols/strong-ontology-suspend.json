@@ -1,0 +1,40 @@
+{
+  "run_version": "DAE-PROTOCOL-RUN-1.0",
+  "run_id": "HGA-GA01-REALITAET-ONTOLOGY-001",
+  "protocol_id": "V38-ONTOLOGY-GATE",
+  "protocol_version": "1.0",
+  "subject": {
+    "id": "HGA-GA01-REALITAET-AS-FUNDAMENTAL-ONTOLOGY",
+    "description": "Сильный пробный тезис: статья 1912 года уже осуществляет фундаментальную онтологию и ставит вопрос о бытии в смысле GA 2.",
+    "source_refs": ["HGA-PJ25-1912-REALITAET#S353-S363", "HGA-KLOSTERMANN-PLAN#GA2"]
+  },
+  "operator": {"agent_id": "dae-ga1-work-pilot", "role": "automated-method-audit"},
+  "started_at": "2026-08-11T05:10:00Z",
+  "mode": "NORMAL",
+  "answers": {
+    "TARGET_MODE": {
+      "status": "UNKNOWN",
+      "evidence_refs": ["HGA-PJ25-1912-REALITAET#S356"],
+      "note": "Текст называет реальные объекты, их полагание и определение; способ бытия или смысл бытия в позднейшем техническом смысле не локализован."
+    },
+    "NO_REIFICATION": {
+      "status": "UNKNOWN",
+      "note": "Нельзя решить этот вопрос до независимого разведения раннего эпистемологического объекта и позднего вопроса о бытии."
+    },
+    "ACCESS_EXISTENCE_SPLIT": {
+      "status": "UNKNOWN",
+      "note": "Статья сама переходит от условий знания и принудительности отношений к полаганию транссубъективного; валидность этого моста остаётся спорной."
+    },
+    "DEPENDENCY_PROFILE": {
+      "status": "UNKNOWN",
+      "evidence_refs": [],
+      "note": "Происхождение, поддержание, тождество и доступ не образуют явного онтологического профиля поздней аналитики Dasein."
+    },
+    "RIVALS_PRESENT": {
+      "status": "YES",
+      "evidence_refs": ["HGA-GA01-REALITAET-ARG-001#rivals"],
+      "note": "Зафиксированы кантианский, структурно-реалистический и антикруговой rivals того же локального explanandum."
+    }
+  },
+  "declared_outcome": "SUSPEND"
+}

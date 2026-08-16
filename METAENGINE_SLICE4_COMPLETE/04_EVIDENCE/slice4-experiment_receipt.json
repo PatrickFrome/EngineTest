@@ -1,0 +1,416 @@
+{
+  "experiment_version": "METAENGINE-EXPERIMENT-SPARSE-ROUTING-1",
+  "stage_id": "METAENGINE-1-SLICE-4",
+  "mechanism_id": "sparse-conditional-routing",
+  "mechanism_card_hash": "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+  "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+  "contract_hash": "ebadbcd2ac9d83147b2a12087292c47634d2b4c085d4837b0f9f7a1b646a5662",
+  "task_suite_hash": "f86bd299218481f7465c924159cef2d0fe8d6c17c0b7f8b1e0e3d71dd4aec4b8",
+  "specialist_hashes": [
+    "502ecdb4d690bb5007f7daa0d5fc0683ba7ab6b6e427e120133a403ebcdf75a8",
+    "173dae397758d3a238781cb7f92a49dc9ab1a2d3f1459f991cca38a0f875ab78",
+    "5bed6f7a61336a81736e1db5afd56ba87395c9c185ba683f6b2bd44ddd6125ab",
+    "5cc6077529f5330f2181e45aaaf8d52eb37ac110c8b8f62a6afd2d7729d2a840",
+    "bea017a1d2a9958cacc3378857bc194e5657e1538d15dcaa5b81a581e927a710",
+    "3b688a394cd8a5e6febdca29100ef77b29b82eb33ea22768a61098ea12a159de"
+  ],
+  "arms": [
+    "CAPABILITY_ROUTED_TOP_K",
+    "DENSE_ALL_SPECIALISTS",
+    "RANDOM_TOP_K"
+  ],
+  "random_seeds": [
+    42,
+    99,
+    137
+  ],
+  "results": [
+    {
+      "arm": "CAPABILITY_ROUTED_TOP_K",
+      "task_results": [
+        {
+          "task_id": "task.code_a",
+          "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+          "arm": "CAPABILITY_ROUTED_TOP_K",
+          "selected_specialists": [
+            "spec.code",
+            "spec.general"
+          ],
+          "task_quality": 1.3,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.15,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": 2.0,
+          "reproducibility_hash": "1c6a72b13b39bf41d07204f8e6dd5f139c0f7f44f0cf2d38f73be3f3248d7b9f"
+        },
+        {
+          "task_id": "task.code_reason_b",
+          "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+          "arm": "CAPABILITY_ROUTED_TOP_K",
+          "selected_specialists": [
+            "spec.code",
+            "spec.reason"
+          ],
+          "task_quality": 1.1,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.15,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": 1.129032,
+          "reproducibility_hash": "341ab5190f627fa18e936332a34787e6b9b3aab3215740a8e1562ad9fb3ec38a"
+        },
+        {
+          "task_id": "task.general_b",
+          "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+          "arm": "CAPABILITY_ROUTED_TOP_K",
+          "selected_specialists": [
+            "spec.math",
+            "spec.code"
+          ],
+          "task_quality": 0.833333,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.15,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": 0.704545,
+          "reproducibility_hash": "2f95f69723b632dad6ecb9e696e7ade3f17a6f82ae6721ab78bc30386e6a3063"
+        },
+        {
+          "task_id": "task.math_a",
+          "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+          "arm": "CAPABILITY_ROUTED_TOP_K",
+          "selected_specialists": [
+            "spec.math",
+            "spec.general"
+          ],
+          "task_quality": 1.3,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.15,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": 2.0,
+          "reproducibility_hash": "b34060c0401f4e17ab726165c60aa31f71072590733c31d10ac715553de408ac"
+        },
+        {
+          "task_id": "task.math_logic_b",
+          "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+          "arm": "CAPABILITY_ROUTED_TOP_K",
+          "selected_specialists": [
+            "spec.math",
+            "spec.reason"
+          ],
+          "task_quality": 0.95,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.15,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": 1.590909,
+          "reproducibility_hash": "cfdecb0bad21e0ff3e32c7951868d268b183b0153cded11db86175295f1da709"
+        },
+        {
+          "task_id": "task.translate_a",
+          "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+          "arm": "CAPABILITY_ROUTED_TOP_K",
+          "selected_specialists": [
+            "spec.translate",
+            "spec.general"
+          ],
+          "task_quality": 1.3,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.15,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": 2.0,
+          "reproducibility_hash": "1d339cadc74ef116917f10ff638d07e47006ab4cae53197868bd19dbe551037d"
+        }
+      ]
+    },
+    {
+      "arm": "DENSE_ALL_SPECIALISTS",
+      "task_results": [
+        {
+          "task_id": "task.code_a",
+          "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+          "arm": "DENSE_ALL_SPECIALISTS",
+          "selected_specialists": [
+            "spec.code",
+            "spec.general",
+            "spec.math",
+            "spec.reason",
+            "spec.retrieve",
+            "spec.translate"
+          ],
+          "task_quality": 0.433333,
+          "active_resource_count": 6,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.0,
+          "activation_overhead": 0.3,
+          "deterministic_cost_proxy": 6.0,
+          "complexity_delta": 0.0,
+          "reproducibility_hash": "21e29dbef919abe69fc8db2c2365a68d87178611e4a46fa4ddd529f4408dcacb"
+        },
+        {
+          "task_id": "task.code_reason_b",
+          "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+          "arm": "DENSE_ALL_SPECIALISTS",
+          "selected_specialists": [
+            "spec.code",
+            "spec.general",
+            "spec.math",
+            "spec.reason",
+            "spec.retrieve",
+            "spec.translate"
+          ],
+          "task_quality": 0.516667,
+          "active_resource_count": 6,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.0,
+          "activation_overhead": 0.3,
+          "deterministic_cost_proxy": 6.0,
+          "complexity_delta": 0.0,
+          "reproducibility_hash": "d2d5a04372aa733d2c18288f1ee0dcfb36204b8e51f478fee4ced371281c7b7d"
+        },
+        {
+          "task_id": "task.general_b",
+          "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+          "arm": "DENSE_ALL_SPECIALISTS",
+          "selected_specialists": [
+            "spec.code",
+            "spec.general",
+            "spec.math",
+            "spec.reason",
+            "spec.retrieve",
+            "spec.translate"
+          ],
+          "task_quality": 0.488889,
+          "active_resource_count": 6,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.0,
+          "activation_overhead": 0.3,
+          "deterministic_cost_proxy": 6.0,
+          "complexity_delta": 0.0,
+          "reproducibility_hash": "f33480cd77da3a4bef855fdb952ba5bcbcc968f8b9ff847bcf892c59165d96a8"
+        },
+        {
+          "task_id": "task.math_a",
+          "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+          "arm": "DENSE_ALL_SPECIALISTS",
+          "selected_specialists": [
+            "spec.code",
+            "spec.general",
+            "spec.math",
+            "spec.reason",
+            "spec.retrieve",
+            "spec.translate"
+          ],
+          "task_quality": 0.433333,
+          "active_resource_count": 6,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.0,
+          "activation_overhead": 0.3,
+          "deterministic_cost_proxy": 6.0,
+          "complexity_delta": 0.0,
+          "reproducibility_hash": "39bd1dbb638c26d4043e7cf80240e38c284f85947b940852cf84286b066159f8"
+        },
+        {
+          "task_id": "task.math_logic_b",
+          "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+          "arm": "DENSE_ALL_SPECIALISTS",
+          "selected_specialists": [
+            "spec.code",
+            "spec.general",
+            "spec.math",
+            "spec.reason",
+            "spec.retrieve",
+            "spec.translate"
+          ],
+          "task_quality": 0.366667,
+          "active_resource_count": 6,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.0,
+          "activation_overhead": 0.3,
+          "deterministic_cost_proxy": 6.0,
+          "complexity_delta": 0.0,
+          "reproducibility_hash": "35afda7038a495a9b82f27b263c4d83644b3e89cf62d0e988878ac026c22bf5e"
+        },
+        {
+          "task_id": "task.translate_a",
+          "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+          "arm": "DENSE_ALL_SPECIALISTS",
+          "selected_specialists": [
+            "spec.code",
+            "spec.general",
+            "spec.math",
+            "spec.reason",
+            "spec.retrieve",
+            "spec.translate"
+          ],
+          "task_quality": 0.433333,
+          "active_resource_count": 6,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.0,
+          "routing_overhead": 0.0,
+          "activation_overhead": 0.3,
+          "deterministic_cost_proxy": 6.0,
+          "complexity_delta": 0.0,
+          "reproducibility_hash": "de8ade61b945229e10a907a6cdf1ac310c985f2bc1557b6e83edc9c2fc24f338"
+        }
+      ]
+    },
+    {
+      "arm": "RANDOM_TOP_K",
+      "task_results": [
+        {
+          "task_id": "task.code_a",
+          "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+          "arm": "RANDOM_TOP_K",
+          "selected_specialists": [
+            "spec.code",
+            "spec.translate"
+          ],
+          "task_quality": 0.766667,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.333333,
+          "routing_overhead": 0.1,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": 1.307692,
+          "reproducibility_hash": "7e2417ea0199eb498f731903648dced4517122d72704eece68d4951625bff667"
+        },
+        {
+          "task_id": "task.code_reason_b",
+          "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+          "arm": "RANDOM_TOP_K",
+          "selected_specialists": [
+            "spec.code",
+            "spec.translate"
+          ],
+          "task_quality": 0.666667,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.333333,
+          "routing_overhead": 0.1,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": 0.16129,
+          "reproducibility_hash": "2353b60bbcbe1575efd89cb290b0965c1991c48e860cf49ee1abff9ed005bc1a"
+        },
+        {
+          "task_id": "task.general_b",
+          "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+          "arm": "RANDOM_TOP_K",
+          "selected_specialists": [
+            "spec.code",
+            "spec.translate"
+          ],
+          "task_quality": 0.477778,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 1.0,
+          "routing_overhead": 0.1,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": -0.181818,
+          "reproducibility_hash": "23633e4d5f2ec8bf038315d9681cd051f55c7284dce33395502abd5cf904cd73"
+        },
+        {
+          "task_id": "task.math_a",
+          "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+          "arm": "RANDOM_TOP_K",
+          "selected_specialists": [
+            "spec.code",
+            "spec.translate"
+          ],
+          "task_quality": 0.1,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 1.0,
+          "routing_overhead": 0.1,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": -1.0,
+          "reproducibility_hash": "10e9190c0c6d8197d8cb509f6407bad5260aef5defec96e1c1ccc24904f9b4aa"
+        },
+        {
+          "task_id": "task.math_logic_b",
+          "regime": "REGIME_B_AMBIGUOUS_OR_OVERLAPPING_TASKS",
+          "arm": "RANDOM_TOP_K",
+          "selected_specialists": [
+            "spec.code",
+            "spec.translate"
+          ],
+          "task_quality": 0.2,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 1.0,
+          "routing_overhead": 0.1,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": -1.0,
+          "reproducibility_hash": "bafd1fe61a682cc1d60f886bbebe65b077792df19d4a494f2250acf9aec7a039"
+        },
+        {
+          "task_id": "task.translate_a",
+          "regime": "REGIME_A_SEPARABLE_SPECIALIST_TASKS",
+          "arm": "RANDOM_TOP_K",
+          "selected_specialists": [
+            "spec.code",
+            "spec.translate"
+          ],
+          "task_quality": 0.766667,
+          "active_resource_count": 2,
+          "processing_resource_units": 2.0,
+          "routing_error_rate": 0.333333,
+          "routing_overhead": 0.1,
+          "activation_overhead": 0.1,
+          "deterministic_cost_proxy": 2.0,
+          "complexity_delta": 1.307692,
+          "reproducibility_hash": "33ce59a74d5872b57fb43c6ad7e770f42d3385408c708ccce173e16f5e118408"
+        }
+      ]
+    }
+  ],
+  "ablation_comparisons": [
+    {
+      "arm": "CAPABILITY_ROUTED_TOP_K",
+      "mean_quality": 1.130556,
+      "mean_active_resource_count": 2.0,
+      "mean_routing_error_rate": 0.0
+    },
+    {
+      "arm": "DENSE_ALL_SPECIALISTS",
+      "mean_quality": 0.44537,
+      "mean_active_resource_count": 6.0,
+      "mean_routing_error_rate": 0.0
+    },
+    {
+      "arm": "RANDOM_TOP_K",
+      "mean_quality": 0.496296,
+      "mean_active_resource_count": 2.0,
+      "mean_routing_error_rate": 0.6666666666666666
+    }
+  ],
+  "local_decision": "SUPPORTED_LOCAL",
+  "truth_effect": "NONE",
+  "assimilation_effect": "NONE",
+  "receipt_hash": "7349731c3884c43dabbbd906955de646547edb0ea5b0f3e91a3df52c88b34791"
+}

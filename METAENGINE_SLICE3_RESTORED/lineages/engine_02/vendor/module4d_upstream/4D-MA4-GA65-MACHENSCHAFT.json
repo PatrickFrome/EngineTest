@@ -1,0 +1,101 @@
+{
+  "record_id": "4D-MA4-GA65-MACHENSCHAFT",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "Heidegger GA65 §§61–64 / beyng",
+      "4C MW4 diachronic trigger"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MA4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "CLAIM",
+    "description": "In Beiträge, Machenschaft names a mode in the interpretation/history of beingness in which beings appear through makeability, persistence, production and calculative handling.",
+    "claim_facets": {
+      "basis": [
+        "TXT",
+        "HIST"
+      ],
+      "force": "ASSERTED",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Machenschaft is therefore simply a pejorative term for malicious human plotting or manipulative individual behavior.",
+    "claim_facets": {
+      "basis": [
+        "TXT"
+      ],
+      "force": "WITHHELD",
+      "normativity": "EVALUATIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT18"
+    },
+    "bridge": {
+      "status": "EXPLICIT",
+      "statement": "Heidegger explicitly suspends the ordinary pejorative meaning and relocates Machenschaft to the Seinsfrage."
+    },
+    "promotion_flags": [
+      "DOMAIN",
+      "ROLE_STATUS"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "Heidegger Beiträge / history of being",
+    "native_method": "diachronic close reading",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O3",
+      "O4",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY"
+    ],
+    "rtr": "LOW"
+  },
+  "extensions": {
+    "ma4": {
+      "module_id": "MA4",
+      "version": "0.1",
+      "source_period": "late 1930s / Beiträge",
+      "bearer_level": "BEINGNESS_INTERPRETATION",
+      "makeability_dimensions": [
+        "PRODUCIBILITY",
+        "CALCULABILITY",
+        "OBJECTIFIABILITY",
+        "SELF_MAKING_INTERPRETATION"
+      ],
+      "calculability_relation": "calculation and objectifiability are later intensifications/effects of the makeability interpretation, not the sole definition",
+      "experience_relation": "Heidegger links Machenschaft with Erlebnis as a correlated concealment dynamic",
+      "causality_relation": "cause-effect dominance is treated as a historical intensification, not a universal proof",
+      "human_agency_status": "NOT_PRIMARY",
+      "scope": [
+        "METAPHYSICS",
+        "HISTORY_OF_BEING",
+        "SCIENCE"
+      ],
+      "totalization_status": "STRONG_UNIVERSAL",
+      "counterprofile": "ordinary human making and engineering practices can be described without assuming they instantiate the full history-of-being diagnosis",
+      "discriminator": "the diagnosis must explain more than the generic fact that humans make and calculate",
+      "revision_trigger": "cases where makeability language adds no discriminating explanatory gain over local technical or institutional analysis"
+    }
+  },
+  "outcome": "BLOCK"
+}

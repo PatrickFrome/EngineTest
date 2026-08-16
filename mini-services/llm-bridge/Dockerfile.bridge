@@ -1,0 +1,21 @@
+# Dockerfile for LLM Bridge (Bun + z-ai-web-dev-sdk)
+FROM oven/bun:latest
+
+WORKDIR /app
+
+# Copy bridge source
+COPY package.json .
+COPY index.ts .
+
+# Install dependencies
+RUN bun install
+
+# Expose bridge port
+EXPOSE 3031
+
+# Health check
+HEALTHCHECK --interval=15s --timeout=3s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:3031/health || exit 1
+
+# Run bridge
+CMD ["bun", "run", "dev"]

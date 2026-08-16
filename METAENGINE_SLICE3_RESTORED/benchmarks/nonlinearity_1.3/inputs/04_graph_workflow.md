@@ -1,0 +1,1 @@
+Entities A, B, C and D form a network: A depends on B, B conflicts with C, C mediates D, and A and D belong to different communities. Build local and global graph views, route specialist tasks in parallel, checkpoint state, and flag critical decisions for review.

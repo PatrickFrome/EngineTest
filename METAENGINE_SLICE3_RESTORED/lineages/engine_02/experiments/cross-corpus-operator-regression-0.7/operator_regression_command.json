@@ -1,0 +1,263 @@
+{
+  "result_version": "DAE-OPERATOR-REGRESSION-RESULT-1.1",
+  "engine_version": "0.7.0-alpha.1",
+  "generated_at": "2026-08-11T16:23:58.373Z",
+  "candidate_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+  "outcome": "SURVIVES_CROSS_CORPUS_REGRESSION",
+  "operator_state": "EXPERIMENTAL_TRANSFERABLE",
+  "recommended_action": "RETAIN_EXPERIMENTAL_FOR_FURTHER_REGRESSION",
+  "promotion_status": "EXPERIMENTAL_NOT_CORE",
+  "corpus_results": [
+    {
+      "corpus_id": "GEVIERT",
+      "label": "Heidegger Geviert origin case",
+      "control_role": "ORIGIN_POSITIVE",
+      "central_terms": [
+        "Geviert",
+        "Göttliche",
+        "Erde",
+        "Himmel",
+        "Sterbliche",
+        "Ding",
+        "Ort",
+        "Ferne",
+        "Nähe",
+        "Welt",
+        "Ereignen",
+        "Vierung",
+        "dingt",
+        "versammelt"
+      ],
+      "coverage_ratio": 0,
+      "operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "profile_hints": [
+        "CO_CONSTITUTIVE_OR_RECIPROCAL",
+        "DIFFERENCE_PRESERVING_PROXIMITY"
+      ],
+      "candidate_mutation_found": true,
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "SOURCE_CENTRALITY_AVAILABLE",
+          "passed": true,
+          "observed": "14",
+          "expected": ">=3 source-central terms"
+        },
+        {
+          "check": "CANDIDATE_MUTATION_EXPECTATION",
+          "passed": true,
+          "observed": "true",
+          "expected": "true"
+        },
+        {
+          "check": "PROFILE_HINT_CO_CONSTITUTIVE_OR_RECIPROCAL",
+          "passed": true,
+          "observed": "CO_CONSTITUTIVE_OR_RECIPROCAL,DIFFERENCE_PRESERVING_PROXIMITY",
+          "expected": "CO_CONSTITUTIVE_OR_RECIPROCAL"
+        },
+        {
+          "check": "PROFILE_HINT_DIFFERENCE_PRESERVING_PROXIMITY",
+          "passed": true,
+          "observed": "CO_CONSTITUTIVE_OR_RECIPROCAL,DIFFERENCE_PRESERVING_PROXIMITY",
+          "expected": "DIFFERENCE_PRESERVING_PROXIMITY"
+        },
+        {
+          "check": "POSITIVE_TRANSFER_ACTIVATION",
+          "passed": true,
+          "observed": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE; mutation=true",
+          "expected": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE; mutation=true"
+        }
+      ]
+    },
+    {
+      "corpus_id": "SAUSSURE",
+      "label": "Saussure value and difference transfer",
+      "control_role": "TRANSFER_POSITIVE",
+      "central_terms": [
+        "langue",
+        "système",
+        "différences",
+        "sens",
+        "sons"
+      ],
+      "coverage_ratio": 0,
+      "operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "profile_hints": [
+        "DIFFERENTIAL_CONSTITUTION"
+      ],
+      "candidate_mutation_found": true,
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "SOURCE_CENTRALITY_AVAILABLE",
+          "passed": true,
+          "observed": "5",
+          "expected": ">=3 source-central terms"
+        },
+        {
+          "check": "CANDIDATE_MUTATION_EXPECTATION",
+          "passed": true,
+          "observed": "true",
+          "expected": "true"
+        },
+        {
+          "check": "PROFILE_HINT_DIFFERENTIAL_CONSTITUTION",
+          "passed": true,
+          "observed": "DIFFERENTIAL_CONSTITUTION",
+          "expected": "DIFFERENTIAL_CONSTITUTION"
+        },
+        {
+          "check": "POSITIVE_TRANSFER_ACTIVATION",
+          "passed": true,
+          "observed": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE; mutation=true",
+          "expected": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE; mutation=true"
+        }
+      ]
+    },
+    {
+      "corpus_id": "SPINOZA",
+      "label": "Spinoza substance-mode asymmetry",
+      "control_role": "MIXED_CONTROL",
+      "central_terms": [
+        "substance",
+        "conceived",
+        "modifications",
+        "common",
+        "exists"
+      ],
+      "coverage_ratio": 0,
+      "operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "profile_hints": [
+        "ASYMMETRIC_DEPENDENCE"
+      ],
+      "candidate_mutation_found": true,
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "SOURCE_CENTRALITY_AVAILABLE",
+          "passed": true,
+          "observed": "5",
+          "expected": ">=3 source-central terms"
+        },
+        {
+          "check": "CANDIDATE_MUTATION_EXPECTATION",
+          "passed": true,
+          "observed": "true",
+          "expected": "true"
+        },
+        {
+          "check": "PROFILE_HINT_ASYMMETRIC_DEPENDENCE",
+          "passed": true,
+          "observed": "ASYMMETRIC_DEPENDENCE",
+          "expected": "ASYMMETRIC_DEPENDENCE"
+        },
+        {
+          "check": "MIXED_CONTROL_NON_COLLAPSE",
+          "passed": true,
+          "observed": "ASYMMETRIC_DEPENDENCE",
+          "expected": "LOCAL_MODE_VARIATION or ASYMMETRIC_DEPENDENCE"
+        }
+      ]
+    },
+    {
+      "corpus_id": "ARISTOTLE",
+      "label": "Aristotle primary substance and relatives",
+      "control_role": "MIXED_CONTROL",
+      "central_terms": [
+        "substance",
+        "reference",
+        "explained",
+        "predicable",
+        "present",
+        "substances"
+      ],
+      "coverage_ratio": 0,
+      "operator_candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "candidate_mutation_found": true,
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "SOURCE_CENTRALITY_AVAILABLE",
+          "passed": true,
+          "observed": "6",
+          "expected": ">=3 source-central terms"
+        },
+        {
+          "check": "CANDIDATE_MUTATION_EXPECTATION",
+          "passed": true,
+          "observed": "true",
+          "expected": "true"
+        },
+        {
+          "check": "PROFILE_HINT_ASYMMETRIC_DEPENDENCE",
+          "passed": true,
+          "observed": "ASYMMETRIC_DEPENDENCE,LOCAL_MODE_VARIATION",
+          "expected": "ASYMMETRIC_DEPENDENCE"
+        },
+        {
+          "check": "PROFILE_HINT_LOCAL_MODE_VARIATION",
+          "passed": true,
+          "observed": "ASYMMETRIC_DEPENDENCE,LOCAL_MODE_VARIATION",
+          "expected": "LOCAL_MODE_VARIATION"
+        },
+        {
+          "check": "MIXED_CONTROL_NON_COLLAPSE",
+          "passed": true,
+          "observed": "ASYMMETRIC_DEPENDENCE,LOCAL_MODE_VARIATION",
+          "expected": "LOCAL_MODE_VARIATION or ASYMMETRIC_DEPENDENCE"
+        }
+      ]
+    },
+    {
+      "corpus_id": "DESCARTES",
+      "label": "Descartes cogito negative control",
+      "control_role": "NEGATIVE_CONTROL",
+      "central_terms": [
+        "thinking",
+        "exist",
+        "mind",
+        "thought",
+        "understanding"
+      ],
+      "coverage_ratio": 0,
+      "operator_candidate": "SOURCE_FORCED_TOPIC_AND_OPERATOR_CANDIDATE",
+      "profile_hints": [],
+      "candidate_mutation_found": false,
+      "expectation_pass": true,
+      "checks": [
+        {
+          "check": "SOURCE_CENTRALITY_AVAILABLE",
+          "passed": true,
+          "observed": "5",
+          "expected": ">=3 source-central terms"
+        },
+        {
+          "check": "CANDIDATE_MUTATION_EXPECTATION",
+          "passed": true,
+          "observed": "false",
+          "expected": "false"
+        },
+        {
+          "check": "NEGATIVE_CONTROL_DISCRIMINATION",
+          "passed": true,
+          "observed": "SOURCE_FORCED_TOPIC_AND_OPERATOR_CANDIDATE; mutation=false",
+          "expected": "candidate != RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE; mutation=false"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "corpora": 5,
+    "expectations_passed": 5,
+    "positive_transfer_passed": 1,
+    "negative_controls_passed": 1,
+    "mixed_controls_passed": 2,
+    "origin_passed": true,
+    "overgeneralization_detected": false
+  },
+  "claim_ceiling": "INTERNAL_CROSS_CORPUS_OPERATOR_REGRESSION_NOT_EXTERNAL_PHILOSOPHICAL_VALIDATION_OR_CORE_PROMOTION"
+}

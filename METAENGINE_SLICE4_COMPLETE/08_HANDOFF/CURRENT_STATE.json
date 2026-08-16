@@ -1,0 +1,30 @@
+{
+  "stage": "METAENGINE-1-SLICE-4",
+  "status": "PASS_SPARSE_ROUTING_TOURNAMENT_SUPPORTED_LOCAL",
+  "git_head": "7f8224a94e7e0ad21d35827f768ce59f8540d85f",
+  "parent_governance_head": "7f8224a94e7e0ad21d35827f768ce59f8540d85f",
+  "review_receipt_hash": "382906b1d4bb34dcd4214250e80479ffd5f6873a28ab2ceb82e7afa023b3b7e2",
+  "experiment_contract_hash": "ebadbcd2ac9d83147b2a12087292c47634d2b4c085d4837b0f9f7a1b646a5662",
+  "experiment_receipt_hash": "7349731c3884c43dabbbd906955de646547edb0ea5b0f3e91a3df52c88b34791",
+  "local_decision": "SUPPORTED_LOCAL",
+  "truth_effect": "NONE",
+  "assimilation_effect": "NONE",
+  "mechanism_status": "A1_MECHANISM_HYPOTHESIS",
+  "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+  "architecture_library_snapshot_hash": "c82332a080a04daf773fdc2fa91c63da88ddf934260bab173b953170d4a2622d",
+  "policy_snapshot_hash": "1888a575abae2ba844f53a005a23c48ed5581722d2a64cf6df40f60bbda66f32",
+  "registry": {
+    "source_count": 10,
+    "permissive_ingested": 5,
+    "verified_blob_count": 13,
+    "verified_total_bytes": 150521
+  },
+  "canonical_readback": {
+    "checkpoint_id": "metaengine-chat-2.3.0-alpha.1-cp001",
+    "checkpoint_status": "VERIFIED_CURRENT",
+    "active_policy_hash": "1868b3c7d93536cddfc1db842b0cc60b04e2822acdef65933e8bfe724df8ae48",
+    "generation": 2,
+    "adaptation_receipt_count": 0,
+    "promotion_receipt_count": 2
+  }
+}

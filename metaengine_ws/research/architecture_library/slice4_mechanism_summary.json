@@ -1,0 +1,35 @@
+{
+  "slice": "METAENGINE-1-SLICE-4",
+  "mechanism_library_hash": "ca9ab0ea909a264bc2d1cf0be2fd51245efaf4ee4b76e80facbcd6db46623f93",
+  "mechanism_count": 20,
+  "a0_count": 8,
+  "a1_count": 12,
+  "a2_count": 0,
+  "a3_count": 0,
+  "has_a3_influence": false,
+  "section_10_4_families_covered": [
+    "sparse conditional routing",
+    "hybrid compressed-state/full-attention organization",
+    "latent/context compression",
+    "sparse evidence attention/retrieval",
+    "speculative multi-action/multi-plan proposal",
+    "adaptive reasoning budget",
+    "parallel hypothesis generation and critique",
+    "constitution-derived testing",
+    "residual organization paths",
+    "dynamic specialist/swarm instantiation",
+    "preserved structured state",
+    "objective-neutral load balancing"
+  ],
+  "retrospective_metaengine_influences_registered": [
+    "mec.metaengine.polycentric_reentry",
+    "mec.metaengine.hybrid_mesh",
+    "mec.metaengine.dialectical_graph",
+    "mec.metaengine.epistemic_gain",
+    "mec.metaengine.parallel_ecology",
+    "mec.metaengine.frozen_matrix",
+    "mec.metaengine.transformation_graph",
+    "mec.metaengine.self_organizing_metrics"
+  ],
+  "honesty_note": "No A2/A3 mechanisms created: real ablation/transfer evidence does not exist in this recovery environment. The AssimilationGate is exercised by unit tests only. has_a3_influence() remains False."
+}

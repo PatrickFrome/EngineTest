@@ -1,0 +1,68 @@
+[profiles.fast]
+commands = [
+  "python -m metaengine.devfabric.pytest_runner -q tests/devfabric",
+  "python -m metaengine.devfabric.pytest_runner -q tests --ignore=tests/devfabric",
+]
+
+[profiles.normal]
+commands = [
+  "uv run --locked pytest -q",
+  "uv run --locked ruff check metaengine tests",
+  "uv run --locked mypy metaengine/devfabric",
+  "uv run --locked semgrep --config devfabric/verification/semgrep metaengine",
+  "uv run --locked pip-audit --locked .",
+]
+
+[profiles.high-risk]
+commands = [
+  "uv run --locked pytest -q",
+  "uv run --locked ruff check metaengine tests",
+  "uv run --locked mypy metaengine/devfabric",
+  "uv run --locked semgrep --config devfabric/verification/semgrep metaengine",
+  "uv run --locked pip-audit --locked .",
+]
+
+[profiles.release]
+commands = [
+  "uv run --locked pytest -q",
+  "uv run --locked ruff check metaengine tests",
+  "uv run --locked mypy metaengine/devfabric",
+  "uv run --locked semgrep --config devfabric/verification/semgrep metaengine",
+  "uv run --locked pip-audit --locked .",
+]
+
+[profiles.edge]
+commands = [
+  "node --experimental-strip-types --test devfabric/cloudflare/test/budget.test.ts devfabric/cloudflare/test/config.test.ts devfabric/cloudflare/test/d1.test.ts devfabric/cloudflare/test/edge_state.test.ts devfabric/cloudflare/test/mcp_contract.test.ts devfabric/cloudflare/test/federation_contract.test.ts devfabric/cloudflare/test/federation_tools.test.ts devfabric/cloudflare/test/r2.test.ts devfabric/cloudflare/test/security.test.ts devfabric/cloudflare/test/workers_ai.test.ts devfabric/cloudflare/test/workflow.test.ts",
+  "tsc --noEmit -p devfabric/cloudflare/tsconfig.core.json",
+  "python -m metaengine.devfabric.pytest_runner -q tests/devfabric",
+  "python -m metaengine.devfabric.pytest_runner -q tests --ignore=tests/devfabric",
+]
+
+[profiles.federation]
+commands = [
+  "python -m metaengine.devfabric.pytest_runner -q tests/devfabric/test_federation_pilot.py tests/devfabric/test_federation_contracts.py tests/devfabric/test_federation_roles.py tests/devfabric/test_federation_bootstrap.py tests/devfabric/test_federation_simulator.py tests/devfabric/test_federation_conflicts.py tests/devfabric/test_federation_synchronizer.py tests/devfabric/test_federation_supabase_adapter.py",
+  "node --experimental-strip-types --test devfabric/cloudflare/test/budget.test.ts devfabric/cloudflare/test/config.test.ts devfabric/cloudflare/test/d1.test.ts devfabric/cloudflare/test/edge_state.test.ts devfabric/cloudflare/test/mcp_contract.test.ts devfabric/cloudflare/test/federation_contract.test.ts devfabric/cloudflare/test/federation_tools.test.ts devfabric/cloudflare/test/r2.test.ts devfabric/cloudflare/test/security.test.ts devfabric/cloudflare/test/workers_ai.test.ts devfabric/cloudflare/test/workflow.test.ts",
+  "tsc --noEmit -p devfabric/cloudflare/tsconfig.core.json",
+  "python -m metaengine.devfabric.isolated_suite_runner tests/devfabric --timeout-seconds 180",
+  "python -m metaengine.devfabric.pytest_runner -q tests --ignore=tests/devfabric",
+]
+
+[profiles.federation-finalization]
+commands = [
+  "python -m metaengine.devfabric.pytest_runner -q tests/devfabric/test_federation_finalization.py tests/devfabric/test_federation_synchronizer.py tests/devfabric/test_federation_simulator.py tests/devfabric/test_federation_supabase_adapter.py tests/devfabric/test_federation_pilot.py",
+  "node --experimental-strip-types --test devfabric/cloudflare/test/federation_contract.test.ts devfabric/cloudflare/test/federation_tools.test.ts",
+  "tsc --noEmit -p devfabric/cloudflare/tsconfig.core.json",
+  "python -m metaengine.devfabric.isolated_suite_runner tests/devfabric --timeout-seconds 180",
+  "python -m metaengine.devfabric.pytest_runner -q tests --ignore=tests/devfabric",
+]
+
+
+[profiles.federation-adaptation]
+commands = [
+  "python -m metaengine.devfabric.pytest_runner -q tests/devfabric/test_federation_adaptation.py tests/devfabric/test_federation_telemetry.py tests/devfabric/test_federation_adaptation_sql.py tests/devfabric/test_federation_finalization.py tests/devfabric/test_federation_supabase_adapter.py tests/devfabric/test_federation_pilot.py",
+  "node --experimental-strip-types --test devfabric/cloudflare/test/federation_contract.test.ts devfabric/cloudflare/test/federation_tools.test.ts",
+  "tsc --noEmit -p devfabric/cloudflare/tsconfig.core.json",
+  "python -m metaengine.devfabric.isolated_suite_runner tests/devfabric --timeout-seconds 180",
+  "python -m metaengine.devfabric.pytest_runner -q tests --ignore=tests/devfabric",
+]

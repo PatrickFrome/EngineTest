@@ -1,0 +1,13 @@
+{
+  "package": "MODULE-MIGRATION-4D-0.1-ENGINE-COMPATIBILITY-PROFILE",
+  "source_document": "source_document/Destruktion_4.0_MODULE-MIGRATION-4D_0.1_Machenschaft-Technik-Gestell-Bestand-Ordering.docx",
+  "core": "CORE 4.0.0-alpha.1 unchanged",
+  "upstream_package": "../module4d_upstream/module_manifest.json",
+  "upstream_archive_sha256": "b5516538d87112bdce482749db8328ad83710a54cdf1185c079e2edfe1bf27d3",
+  "upstream_integrity": "ALL_19_DECLARED_SHA256SUMS_VERIFIED",
+  "status": "STRICT_ENGINE_PROFILE_OVER_ORIGINAL_JSON_TOOLKIT",
+  "modules": ["MA4", "GE4", "BS4", "TO4"],
+  "claim_ceiling": "ENGINE-SPECIFIC STRICT PROFILE; ORIGINAL UPSTREAM RECORDS AND SCHEMAS REMAIN UNMODIFIED",
+  "compatibility_note": "The engine profile adds source-fixity and audit semantics required by DAE. It does not replace or silently rewrite the upstream 4D package.",
+  "generic_core_changes": []
+}

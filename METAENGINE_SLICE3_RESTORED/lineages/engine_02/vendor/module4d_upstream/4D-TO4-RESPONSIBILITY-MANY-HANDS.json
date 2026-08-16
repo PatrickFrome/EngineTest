@@ -1,0 +1,109 @@
+{
+  "record_id": "4D-TO4-RESPONSIBILITY-MANY-HANDS",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "SEP Philosophy of Technology 2026 §3.2.2",
+      "4B RD4 responsibility lineage"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + TO4-0.1",
+    "agent": "migration-analyst"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "PRACTICE",
+    "description": "A complex technological system is designed, deployed, operated and governed by many actors whose knowledge and control are distributed.",
+    "role": [
+      "sociotechnical-operation"
+    ],
+    "object_type": "complex_technical_system"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "Because no individual fully controls the system, responsibility disappears into an anonymous technological ordering and cannot be institutionally reassigned or redesigned.",
+    "claim_facets": {
+      "basis": [
+        "HIST",
+        "EMP"
+      ],
+      "force": "WITHHELD",
+      "normativity": "EVALUATIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT23"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "The problem of many hands is real, but current technology ethics treats institutional design, accountability and meaningful human control as possible responses rather than proof of inevitable responsibilitylessness."
+    },
+    "promotion_flags": [
+      "NORM",
+      "ROLE_STATUS"
+    ]
+  },
+  "scale_check": {
+    "applicable": false
+  },
+  "audit": {
+    "native_domain": "technology ethics / responsibility",
+    "native_method": "many-hands and control-responsibility analysis",
+    "activated_operators": [
+      "O3",
+      "O4",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "PROMOTION",
+      "INTEGRATION"
+    ],
+    "ncv": [
+      "EXPLICIT_MACHINERY",
+      "RIVAL_HANDLING"
+    ],
+    "rtr": "MEDIUM"
+  },
+  "extensions": {
+    "to4": {
+      "module_id": "TO4",
+      "version": "0.1",
+      "system": "multi-actor technological development and operation",
+      "design_or_operation_mode": "ORGANIZATIONAL_SYSTEM",
+      "goals_functions": [
+        "development",
+        "deployment",
+        "operation",
+        "risk control"
+      ],
+      "ordering_dimensions": [
+        "STANDARDIZATION",
+        "MONITORING",
+        "CONTROL",
+        "LIFECYCLE_MANAGEMENT"
+      ],
+      "criteria_tradeoffs": "control, performance, safety and responsibility can conflict",
+      "human_roles": [
+        "engineers",
+        "managers",
+        "operators",
+        "regulators",
+        "users"
+      ],
+      "governance": "institutional design can allocate accountability and correction channels",
+      "control_responsibility": "responsibility must be traced across actual knowledge, control and institutional roles",
+      "value_status": "VALUE_LADEN_FUNCTIONAL",
+      "corrigibility": "reversible design choices, review and accountability can increase corrigibility",
+      "material_environmental_dependency": "organizational and infrastructural embedding affects control",
+      "heideggerian_fit": "PARTIAL_FIT",
+      "native_method": "technology ethics / institutional responsibility analysis",
+      "revision_trigger": "cases where all meaningful channels of responsibility and control remain structurally absent despite institutional redesign"
+    }
+  },
+  "outcome": "QUALIFY"
+}

@@ -1,0 +1,36 @@
+{
+  "job_version": "DAE-DOCX-JOB-1.0",
+  "source_admission": "LOCAL_HASH",
+  "bibliographic": {
+    "author": "Plato",
+    "title": "The Republic — frozen holdout excerpt 3/3",
+    "publication": "Public-domain primary text; Project Gutenberg eBook #1497; deterministic excerpt at 75% of cleaned text",
+    "year": -375,
+    "language": "en",
+    "genre": "primary philosophical text excerpt"
+  },
+  "access_policy": {
+    "analysis_class": "DERIVATIVE_ONLY",
+    "raw_text_retention": "TRANSIENT",
+    "redistribution": "AUTHORIZED",
+    "allow_derived_outputs": true,
+    "basis": "Public-domain primary text excerpt selected deterministically before DAE execution. Project Gutenberg wrapper removed; source URL and hashes retained in holdout manifest.",
+    "restrictions_checked_at": "2026-08-11T19:20:00Z"
+  },
+  "crosswalk": {
+    "target_edition": "The Republic",
+    "status": "PAGE_LEVEL_PARTIAL",
+    "target_locator": "Project Gutenberg eBook #1497; deterministic cleaned-word interval [161613,162813) around 75%",
+    "evidence_refs": [
+      "https://www.gutenberg.org/ebooks/1497"
+    ],
+    "note": "Frozen holdout excerpt; no manual semantic selection."
+  },
+  "structure": {
+    "drop_line_patterns": [],
+    "analyze_notes": true
+  },
+  "rendering": {
+    "page_label_prefix": "H3"
+  }
+}

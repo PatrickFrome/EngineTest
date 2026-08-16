@@ -1,0 +1,59 @@
+{
+  "slice": "METAENGINE-1-SLICE-3",
+  "source_registry_hash": "34fda006ce53b3ad0fdd8f8580eeda0b23044dd37ec17a81aaf9e53a75df42d4",
+  "reference_vault_hash": "474469408cdf60a05f09765e57fe63a9560b19d42713de4e6fb6a43819b7cf03",
+  "mechanism_library_hash": "b0e31f2f5ccc3a3f84f43d2bca7a5a862760e3ae64a607ac4fbb33fa483f9685",
+  "source_count": 11,
+  "vault_entry_count": 11,
+  "stored_byte_entries": 1,
+  "blocked_entries": 10,
+  "mechanism_count": 7,
+  "a3_influence": false,
+  "observed_sources": [
+    "src.metaengine.design.1"
+  ],
+  "unobserved_blockers": [
+    {
+      "source_id": "src.claude.1",
+      "reason": "CLOSED_NO_SOURCE_BYTES"
+    },
+    {
+      "source_id": "src.deepseek.1",
+      "reason": "BLOCKED_NO_NETWORK"
+    },
+    {
+      "source_id": "src.gemini-deep-think.1",
+      "reason": "CLOSED_NO_SOURCE_BYTES"
+    },
+    {
+      "source_id": "src.glm.1",
+      "reason": "BLOCKED_NO_NETWORK"
+    },
+    {
+      "source_id": "src.gpt-5.6.1",
+      "reason": "CLOSED_NO_SOURCE_BYTES"
+    },
+    {
+      "source_id": "src.kimi-k3.1",
+      "reason": "BLOCKED_NO_NETWORK"
+    },
+    {
+      "source_id": "src.kimi-linear.1",
+      "reason": "BLOCKED_NO_NETWORK"
+    },
+    {
+      "source_id": "src.llama4.1",
+      "reason": "BLOCKED_NO_NETWORK"
+    },
+    {
+      "source_id": "src.mistral.1",
+      "reason": "BLOCKED_NO_NETWORK"
+    },
+    {
+      "source_id": "src.qwen.1",
+      "reason": "BLOCKED_NO_NETWORK"
+    }
+  ],
+  "ingestion_pass_claimed": false,
+  "ingestion_pass_reason": "Foreign source bytes cannot be fetched/verified in this recovery environment; permissive targets remain UNOBSERVED blockers. Only the internal MetaEngine design spec is OBSERVED+stored+verified."
+}

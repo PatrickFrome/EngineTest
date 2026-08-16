@@ -1,0 +1,194 @@
+{
+  "bank_version": "DAE-HYPOTHESIS-BANK-1.2",
+  "engine_version": "0.7.0-alpha.1",
+  "generated_at": "2026-08-11T16:15:57Z",
+  "source_id": "LOCAL-SHA256-4D740C619CBC4A31FA70E1AC2F58258C35B023BD4D2735B03984C17F6BB38539",
+  "registry_version": "DAE-REFINERY-TOPICS-1.0",
+  "hypotheses": [
+    {
+      "hypothesis_id": "HYP-EMERGENT_SOURCE_SUBSTANCE",
+      "topic_id": "EMERGENT_SOURCE_SUBSTANCE",
+      "label": "Source-forced constellation: substance / conceived / modifications / common / exists",
+      "research_question": "Which distinctions, dependencies or representation failures among substance, conceived, modifications, common, exists become invisible when the current topic registry determines the problem in advance?",
+      "origin": "SOURCE_FORCED_REGISTRY_RESISTANCE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "SOURCE_RESISTANCE",
+        "TERM_SUBSTANCE",
+        "TERM_CONCEIVED",
+        "TERM_MODIFICATIONS",
+        "TERM_COMMON",
+        "TERM_EXISTS"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000001-4FDA229836",
+        "OX-P000004-55AE05FB4E",
+        "OX-P000005-F404BC9D6E",
+        "OX-P000008-F9F905EDC0",
+        "OX-P000012-F5D4021A70",
+        "OX-P000015-926A77C95A",
+        "OX-P000016-4B0D94B415",
+        "OX-P000007-6CF43B272C",
+        "OX-P000009-D1CE6E309F",
+        "OX-P000010-0342D6684E",
+        "OX-P000006-FDFFF8EC19"
+      ],
+      "evidence_count": 11,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "substance",
+        "conceived",
+        "modifications",
+        "common",
+        "exists"
+      ],
+      "operator_candidate": {
+        "family": "RELATION_GENESIS_PROFILE",
+        "candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+        "signal_counts": {
+          "DIFFERENTIAL": 0,
+          "REFERENCE_RELATIVE": 0,
+          "SYSTEM_FIELD": 0,
+          "ASYMMETRIC_DEPENDENCE": 7,
+          "RECIPROCITY_GATHERING": 0,
+          "DISTANCE_DIFFERENTIATION": 0,
+          "PRIORITY": 1
+        },
+        "active_signal_families": [
+          "ASYMMETRIC_DEPENDENCE",
+          "PRIORITY"
+        ],
+        "central_term_cooccurrence_segments": 3,
+        "profile_hints": [
+          "ASYMMETRIC_DEPENDENCE"
+        ],
+        "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_RELATION_FIRST_ONTOLOGY"
+      },
+      "source_resistance_trigger": "Curated topic coverage captured 0/5 source-central terms; 5 remained outside the recognized problem-space.",
+      "revision_condition": "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations."
+    },
+    {
+      "hypothesis_id": "HYP-EMERGENT_CLAIM_ASYMMETRIC_DEPENDENCE",
+      "topic_id": "EMERGENT_CLAIM_ASYMMETRIC_DEPENDENCE",
+      "label": "ASYMMETRIC_DEPENDENCE",
+      "claim_statement": "modes are conceived through and exist in something other, while substance is conceived through itself and is declared prior to modifications.",
+      "research_question": "Which source-bounded discriminators support, qualify or defeat the project thesis “ASYMMETRIC_DEPENDENCE” without presupposing the current registry?",
+      "origin": "EXPLICIT_PROJECT_THESIS_CANDIDATE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "EXPLICIT_PROJECT_THESIS",
+        "ASYMMETRIC_DEPENDENCE",
+        "TERM_SUBSTANCE",
+        "TERM_CONCEIVED",
+        "TERM_MODIFICATIONS"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000015-926A77C95A",
+        "OX-P000001-4FDA229836",
+        "OX-P000004-55AE05FB4E",
+        "OX-P000005-F404BC9D6E",
+        "OX-P000007-6CF43B272C",
+        "OX-P000008-F9F905EDC0",
+        "OX-P000012-F5D4021A70",
+        "OX-P000016-4B0D94B415"
+      ],
+      "evidence_count": 8,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "substance",
+        "conceived",
+        "modifications"
+      ],
+      "source_resistance_trigger": "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it.",
+      "revision_condition": "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss."
+    },
+    {
+      "hypothesis_id": "HYP-EMERGENT_CLAIM_RELATION_FIRST_STRONG",
+      "topic_id": "EMERGENT_CLAIM_RELATION_FIRST_STRONG",
+      "label": "RELATION_FIRST_STRONG",
+      "claim_statement": "relation is ontologically prior to substance itself.",
+      "research_question": "Which source-bounded discriminators support, qualify or defeat the project thesis “RELATION_FIRST_STRONG” without presupposing the current registry?",
+      "origin": "EXPLICIT_PROJECT_THESIS_CANDIDATE",
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
+      "matched_groups": [
+        "EXPLICIT_PROJECT_THESIS",
+        "RELATION_FIRST_STRONG",
+        "TERM_SUBSTANCE"
+      ],
+      "evidence_segment_ids": [
+        "OX-P000016-4B0D94B415",
+        "OX-P000001-4FDA229836",
+        "OX-P000004-55AE05FB4E",
+        "OX-P000005-F404BC9D6E",
+        "OX-P000008-F9F905EDC0",
+        "OX-P000012-F5D4021A70",
+        "OX-P000015-926A77C95A"
+      ],
+      "evidence_count": 7,
+      "selectors_truncated": false,
+      "emergent_terms": [
+        "substance"
+      ],
+      "source_resistance_trigger": "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it.",
+      "revision_condition": "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss."
+    }
+  ],
+  "case_matrices": [],
+  "source_resistance": {
+    "status": "REGISTRY_BLIND_SPOT",
+    "central_terms": [
+      "substance",
+      "conceived",
+      "modifications",
+      "common",
+      "exists"
+    ],
+    "covered_terms": [],
+    "uncovered_terms": [
+      "substance",
+      "conceived",
+      "modifications",
+      "common",
+      "exists"
+    ],
+    "coverage_ratio": 0,
+    "explicit_stress_terms": [],
+    "source_native_terms": [
+      "conceived",
+      "substance",
+      "exists",
+      "common",
+      "modifications"
+    ],
+    "centrality_basis": "MULTILINGUAL_SOURCE_FREQUENCY_PLUS_SOURCE_DOCUMENT_FREQUENCY_WITH_OPTIONAL_EXPLICIT_STRESS_HINTS",
+    "operator_candidate": {
+      "family": "RELATION_GENESIS_PROFILE",
+      "candidate": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 7,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 1
+      },
+      "active_signal_families": [
+        "ASYMMETRIC_DEPENDENCE",
+        "PRIORITY"
+      ],
+      "central_term_cooccurrence_segments": 3,
+      "profile_hints": [
+        "ASYMMETRIC_DEPENDENCE"
+      ],
+      "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_RELATION_FIRST_ONTOLOGY"
+    },
+    "emergent_hypotheses": [
+      "HYP-EMERGENT_SOURCE_SUBSTANCE",
+      "HYP-EMERGENT_CLAIM_ASYMMETRIC_DEPENDENCE",
+      "HYP-EMERGENT_CLAIM_RELATION_FIRST_STRONG"
+    ],
+    "principle": "SOURCE_CENTRALITY_CAN_FORCE_TOPIC_AND_OPERATOR_REVISION_BUT_CANNOT_BY_ITSELF_VALIDATE_A_PHILOSOPHICAL_CLAIM"
+  },
+  "claim_ceiling": "HYPOTHESIS_DISCOVERY_ONLY_NOT_CORROBORATION_OR_VALIDATION"
+}

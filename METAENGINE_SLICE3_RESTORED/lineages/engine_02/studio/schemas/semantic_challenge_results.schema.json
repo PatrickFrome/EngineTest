@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/semantic_challenge_results.schema.json",
+  "type": "object",
+  "required": ["results_version", "campaign_id", "challenge_sha256", "system_id", "generated_at", "predictions", "claim_ceiling"],
+  "properties": {
+    "results_version": {"const": "DESTRUKTION-SEMANTIC-CHALLENGE-RESULTS-1.0"},
+    "campaign_id": {"type": "string"},
+    "challenge_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "system_id": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "predictions": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["case_id", "status", "confidence"],
+        "properties": {
+          "case_id": {"type": "string"},
+          "status": {"enum": ["SUPPORTED", "QUALIFIED", "REJECTED", "INSUFFICIENT"]},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "claim_ceiling": {"type": "string"}
+  },
+  "additionalProperties": false
+}

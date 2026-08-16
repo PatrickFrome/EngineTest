@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/operator_competition_manifest.schema.json",
+  "title": "Destruktion local operator competition manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["competition_version", "candidates", "targets", "scoring", "claim_ceiling"],
+  "properties": {
+    "competition_version": {"const": "DAE-OPERATOR-COMPETITION-MANIFEST-1.0"},
+    "description": {"type": "string"},
+    "candidates": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidate_id", "label", "origin_corpus_id", "origin_refinery_directory", "origin_living_analysis_file", "source_operator", "required_profile_hints", "optional_profile_hints", "incompatible_profile_hints", "rationale"],
+        "properties": {
+          "candidate_id": {"type": "string", "pattern": "^[A-Z0-9_-]+$"},
+          "label": {"type": "string", "minLength": 1},
+          "origin_corpus_id": {"type": "string", "pattern": "^[A-Z0-9_-]+$"},
+          "origin_refinery_directory": {"type": "string", "minLength": 1},
+          "origin_living_analysis_file": {"type": "string", "minLength": 1},
+          "source_operator": {"type": "string", "minLength": 3},
+          "birth_profile_hints": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+          "required_profile_hints": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+          "optional_profile_hints": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+          "incompatible_profile_hints": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+          "rationale": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["corpus_id", "label", "refinery_directory", "expected_decision", "expected_selected_candidates", "rationale"],
+        "properties": {
+          "corpus_id": {"type": "string", "pattern": "^[A-Z0-9_-]+$"},
+          "label": {"type": "string", "minLength": 1},
+          "refinery_directory": {"type": "string", "minLength": 1},
+          "expected_decision": {"enum": ["SELECT_LOCAL_WINNER", "LOCAL_COMPOSITION", "KEEP_RIVALS_UNRESOLVED", "ABSTAIN_UNRESOLVED"]},
+          "expected_selected_candidates": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z0-9_-]+$"}, "uniqueItems": true},
+          "rationale": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dominance_margin", "composition_gain_threshold"],
+      "properties": {
+        "dominance_margin": {"type": "integer", "minimum": 1, "maximum": 10},
+        "composition_gain_threshold": {"type": "integer", "minimum": 1, "maximum": 10}
+      }
+    },
+    "claim_ceiling": {"const": "INTERNAL_SOURCE_BOUNDED_OPERATOR_COMPETITION_NOT_EXTERNAL_SEMANTIC_VALIDATION"}
+  }
+}

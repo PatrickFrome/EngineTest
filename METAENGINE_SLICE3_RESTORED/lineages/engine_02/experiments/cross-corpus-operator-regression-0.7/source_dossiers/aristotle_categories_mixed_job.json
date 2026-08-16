@@ -1,0 +1,36 @@
+{
+  "job_version": "DAE-DOCX-JOB-1.0",
+  "source_admission": "LOCAL_HASH",
+  "bibliographic": {
+    "author": "Aristotle",
+    "title": "Aristotle — primary substance and relatives",
+    "publication": "Controlled cross-corpus regression dossier assembled from short public-domain primary passages",
+    "year": -350,
+    "language": "en",
+    "genre": "controlled mixed-layer research dossier"
+  },
+  "access_policy": {
+    "analysis_class": "DERIVATIVE_ONLY",
+    "raw_text_retention": "TRANSIENT",
+    "redistribution": "UNKNOWN",
+    "allow_derived_outputs": true,
+    "basis": "Short public-domain primary passages plus original project reconstructions and rivals; not a complete edition witness.",
+    "restrictions_checked_at": "2026-08-11T15:45:00Z"
+  },
+  "crosswalk": {
+    "target_edition": "Aristotle primary text",
+    "status": "PAGE_LEVEL_PARTIAL",
+    "target_locator": "Categories chapter 5 lines 30-37; chapter 7 lines 105-107",
+    "evidence_refs": [
+      "Categories chapter 5 lines 30-37; chapter 7 lines 105-107"
+    ],
+    "note": "Regression dossier only; stronger claims require reopening against the full primary context."
+  },
+  "structure": {
+    "drop_line_patterns": [],
+    "analyze_notes": true
+  },
+  "rendering": {
+    "page_label_prefix": "R"
+  }
+}

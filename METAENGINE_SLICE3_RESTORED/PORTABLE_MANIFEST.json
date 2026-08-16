@@ -1,0 +1,130 @@
+{
+  "format": "Destruktion MetaEngine Portable Manifest 1.0",
+  "metaengine_version": "2.1.0-alpha.1",
+  "portable": true,
+  "self_contained_source": true,
+  "native_dependency_bundles": "source_and_lockfiles_preserved; runtime dependency installation remains host-managed",
+  "lineage_count": 16,
+  "lineages": [
+    {
+      "engine_id": "engine_01",
+      "files": 1465,
+      "bytes": 117171817
+    },
+    {
+      "engine_id": "engine_02",
+      "files": 2277,
+      "bytes": 113254501
+    },
+    {
+      "engine_id": "engine_03",
+      "files": 4424,
+      "bytes": 319666037
+    },
+    {
+      "engine_id": "engine_04",
+      "files": 1505,
+      "bytes": 106367498
+    },
+    {
+      "engine_id": "engine_05",
+      "files": 14,
+      "bytes": 22735
+    },
+    {
+      "engine_id": "engine_06",
+      "files": 14,
+      "bytes": 22897
+    },
+    {
+      "engine_id": "engine_07",
+      "files": 14,
+      "bytes": 23961
+    },
+    {
+      "engine_id": "engine_08",
+      "files": 14,
+      "bytes": 23693
+    },
+    {
+      "engine_id": "engine_09",
+      "files": 14,
+      "bytes": 22958
+    },
+    {
+      "engine_id": "engine_10",
+      "files": 14,
+      "bytes": 22623
+    },
+    {
+      "engine_id": "engine_11",
+      "files": 14,
+      "bytes": 19788
+    },
+    {
+      "engine_id": "engine_12",
+      "files": 14,
+      "bytes": 19657
+    },
+    {
+      "engine_id": "engine_13",
+      "files": 14,
+      "bytes": 19662
+    },
+    {
+      "engine_id": "engine_14",
+      "files": 14,
+      "bytes": 19846
+    },
+    {
+      "engine_id": "engine_15",
+      "files": 14,
+      "bytes": 19779
+    },
+    {
+      "engine_id": "engine_16",
+      "files": 14,
+      "bytes": 19448
+    }
+  ],
+  "includes": [
+    "16 immutable engine lineages",
+    "meta orchestration layer",
+    "parallel experimental ecology",
+    "schemas",
+    "tests",
+    "release evidence",
+    "Neon/Supabase schema contracts"
+  ],
+  "excludes": [
+    "runtime caches",
+    "pytest caches",
+    "node_modules",
+    "virtualenvs",
+    "secrets"
+  ],
+  "entrypoints": [
+    "bin/destruktion-meta16",
+    "python -m metaengine.cli"
+  ],
+  "verification": {
+    "launcher_help": true,
+    "engine_registry": true,
+    "pytest": "42/42 passed",
+    "archive_test": false,
+    "extracted_copy_smoke": false,
+    "inventory_sha256_count": 10266
+  },
+  "library_summary": {
+    "immutable_lineage_count": 16,
+    "lineage_source_trees_included": 16,
+    "package_lockfiles_included": true,
+    "runtime_dependency_caches_vendored": false,
+    "reason": "portable source bundle; host installs dependencies from preserved manifests/lockfiles",
+    "neon_schema_contracts_included": true,
+    "supabase_schema_contracts_included": true
+  },
+  "inventory": {
+    "file_count": 10266
+  }
+}

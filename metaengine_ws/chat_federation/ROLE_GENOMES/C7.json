@@ -1,0 +1,58 @@
+{
+  "hard": {
+    "allowed_integration_modes": [
+      "EXCLUSIVE",
+      "PARALLEL",
+      "REDUNDANT",
+      "IMPLEMENT_REVIEW"
+    ],
+    "authority_boundaries": [
+      "PROPOSAL_ONLY",
+      "NO_CANONICAL_PROMOTION",
+      "FENCED_TASK_SCOPE"
+    ],
+    "mandatory_reviewers": [
+      "C6"
+    ],
+    "privacy_ceiling": "P2",
+    "prohibited_actions": [
+      "CANONICAL_BYPASS",
+      "SECRET_RETRIEVAL",
+      "DIRECT_CANONICAL_WRITE"
+    ],
+    "role": "RESEARCH_BENCHMARK",
+    "slot": "C7",
+    "subsystem_ownership": [
+      "research",
+      "benchmarks",
+      "baselines",
+      "statistics",
+      "falsification"
+    ]
+  },
+  "soft": {
+    "capability_weights": {
+      "benchmarking": 0.95,
+      "research": 0.95,
+      "statistics": 0.85
+    },
+    "concurrency_preference": 4,
+    "exploration_weight": 0.2,
+    "preferred_task_classes": [
+      "research",
+      "benchmark",
+      "baseline",
+      "falsification"
+    ],
+    "preferred_workers": [
+      "gpt-5.6-sol",
+      "web-research"
+    ],
+    "provider_priors": {},
+    "review_pairings": [
+      "C6",
+      "C1"
+    ]
+  },
+  "version": "d6-role-v1"
+}

@@ -1,0 +1,65 @@
+{
+  "alternatives": [
+    {
+      "decision": "REJECT",
+      "kind": "MINIMAL",
+      "reason": "A source-card or mechanism-card drift would not stale the development review.",
+      "summary": "Keep the old three-file Architecture Library snapshot and rely on registry hashes informally."
+    },
+    {
+      "decision": "ACCEPT",
+      "kind": "CURRENT",
+      "reason": "Smallest change that makes relevant tracked source/library drift invalidate old review receipts.",
+      "summary": "Use an explicit 46-file fail-closed allowlist covering the tracked Slice 3 library state."
+    },
+    {
+      "decision": "DEFER",
+      "kind": "LIBRARY",
+      "reason": "Would reduce manual path maintenance but adds review-engine semantics, Git coupling, and risk of accidentally including ignored/external vault state.",
+      "summary": "Teach the review engine directory globs or Git-index Merkle enumeration now."
+    },
+    {
+      "decision": "SELECTED",
+      "kind": "SYNTHESIS",
+      "reason": "Best capability/complexity ratio and fully compatible with chat-portable fail-closed recovery.",
+      "summary": "Keep the explicit allowlist now, while content-addressed registry/retrieval roots and receipt hashes provide compact internal integrity; revisit Merkle enumeration only when library scale makes maintenance costly."
+    }
+  ],
+  "architecture_library_findings": [
+    "Architecture Library review snapshot now binds 46 explicit tracked artifacts including Slice 3 design, schemas, source cards, mechanism cards, pack/verification receipts, registry, and retrieval evidence.",
+    "Ten sources are registered; five permissive packs are ingested; thirteen retained descriptors verify 150521 bytes.",
+    "All mechanism cards remain A1_MECHANISM_HYPOTHESIS and assimilation_effect remains NONE."
+  ],
+  "completed_step_commit": "18ec64ed7a27e63e71028c78df0e3ee7e85d0f2e",
+  "completed_step_id": "METAENGINE-1-SLICE-3",
+  "constitution_findings": [
+    "PROVENANCE_PRIMARY_EVIDENCE preserved: source identity is exact revision + Git blob identity + SHA-256 retained bytes.",
+    "REFERENCE_VAULT remains external and has no canonical authority.",
+    "No promotion, champion mutation, verifier mutation, or executable self-modification was introduced."
+  ],
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "kind": "SLICE_3_CONSTITUTION_LIBRARY_POLICY_ALTERNATIVE_ANALYSIS",
+  "mechanism_card_sha256": {
+    "adaptive-reasoning-budget": "2ff2aca46bce93d6b53efead27698546db20cb45c65b7882287082c45f267a97",
+    "constitution-derived-testing": "caeb5bdf35d2532d41076e4b5582afca9eb30b03dda8e068fbddd68d1c8694a2",
+    "hybrid-compressed-state-full-attention": "3df5745833c522d8ad63f8097f7237d40cb9658d313193d7943ac5a5b9615ed5",
+    "latent-context-compression": "c648eda6117240a214b8f4535bc504447e1811bbecd40df08a7ea964bea8d2f7",
+    "parallel-hypothesis-generation-and-critique": "0fb6120ba7a48962e352d176d82540deaeeb92da090313b1652f4dd78987c08b",
+    "residual-organization-paths": "5ad8c190420dbbfc6d9eaaa45ae8ffdb393b437f1450d540fb0fceea247be46e",
+    "sparse-conditional-routing": "1344fe1bf9552b728f01ab5e22a045e4fbcddd1a9c4a8d6052f4f6537c75d8cb",
+    "sparse-evidence-attention": "ff0cab865c07b7f470b199fb55b5e7dc35e1d0937cbd65aca28fc532e2ba6384"
+  },
+  "next_mechanism_selection": {
+    "assimilation_ceiling_before_experiment": "A1",
+    "mechanism_id": "sparse-conditional-routing",
+    "reason": "Directly maps to OrganizationPolicy.SPECIALIST_ROUTING, has multiple independent source origins, admits a small clean-room provider-neutral implementation, and supports causal dense/random/routed ablation under equal activation budgets.",
+    "required_experiment": "Compare dense specialist activation, random top-k, and capability-routed top-k on at least two frozen task/resource regimes with equal active-resource budget, explicit quality/cost/complexity metrics, and no canonical mutation.",
+    "status": "A1_MECHANISM_HYPOTHESIS"
+  },
+  "policy_findings": [
+    "Constitution snapshot hash remains 1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d.",
+    "Policy snapshot hash remains 1888a575abae2ba844f53a005a23c48ed5581722d2a64cf6df40f60bbda66f32.",
+    "D6-G1 active policy/champion/canonical state remains unchanged.",
+    "A new Architecture Library artifact must be explicitly admitted into the fail-closed review allowlist before it can affect the review snapshot."
+  ]
+}

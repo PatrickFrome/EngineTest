@@ -1,0 +1,10 @@
+{
+  "strategies": [
+    {
+      "strategy_id": "info_gain",
+      "experiments": 1,
+      "correct": 0,
+      "cost": 1.0
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "result_version": "DAE-MICRO-LOCAL-OPERATOR-ECOLOGY-RESULT-1.0",
+  "engine_version": "0.9.0-alpha.1",
+  "generated_at": "2026-08-11T17:08:33.251Z",
+  "outcome": "PASSES_MICRO_LOCAL_OPERATOR_ECOLOGY_REGRESSION",
+  "routing_policy": "WINDOW_LOCAL_SELECTION_COMPOSITION_UNRESOLVED_OR_ABSTENTION_WITH_PROVENANCE_PRESERVING_BOUNDARIES",
+  "promotion_status": "EXPERIMENTAL_NOT_CORE",
+  "corpus_id": "ARISTOTLE",
+  "window_results": [
+    {
+      "window_id": "AR_SUBSTANCE_PRIORITY",
+      "label": "Primary-substance priority window",
+      "evidence_segment_ids": [
+        "OX-P000004-00030EBED3",
+        "OX-P000005-654422A27F",
+        "OX-P000006-207B6C554E"
+      ],
+      "missing_segment_ids": [],
+      "provenance_pass": true,
+      "profile_hints": [
+        "ASYMMETRIC_DEPENDENCE"
+      ],
+      "decision": "SELECT_LOCAL_WINNER",
+      "selected_candidates": [
+        "SPINOZA_ASYMMETRIC_DEPENDENCE"
+      ],
+      "residual_hints": [],
+      "rationale": "One source-born operator profile covers the local target without additional composition gain.",
+      "expectation_pass": true
+    },
+    {
+      "window_id": "AR_RELATIVES_REFERENCE",
+      "label": "Relatives/reference-to-another window",
+      "evidence_segment_ids": [
+        "OX-P000007-CC24926337",
+        "OX-P000008-2416EAD5C2",
+        "OX-P000009-2666F685A0",
+        "OX-P000010-2984C7F7FA"
+      ],
+      "missing_segment_ids": [],
+      "provenance_pass": true,
+      "profile_hints": [
+        "LOCAL_MODE_VARIATION"
+      ],
+      "decision": "SELECT_LOCAL_WINNER",
+      "selected_candidates": [
+        "ARISTOTLE_LOCAL_MODE_VARIATION"
+      ],
+      "residual_hints": [],
+      "rationale": "One source-born operator profile covers the local target without additional composition gain.",
+      "expectation_pass": true
+    },
+    {
+      "window_id": "AR_RECONSTRUCTION_BRIDGE",
+      "label": "Source-bounded two-regime reconstruction window",
+      "evidence_segment_ids": [
+        "OX-P000012-A9BBC209AE",
+        "OX-P000013-D104B65607"
+      ],
+      "missing_segment_ids": [],
+      "provenance_pass": true,
+      "profile_hints": [
+        "ASYMMETRIC_DEPENDENCE",
+        "LOCAL_MODE_VARIATION"
+      ],
+      "decision": "LOCAL_COMPOSITION",
+      "selected_candidates": [
+        "ARISTOTLE_LOCAL_MODE_VARIATION",
+        "SPINOZA_ASYMMETRIC_DEPENDENCE"
+      ],
+      "residual_hints": [],
+      "rationale": "Multiple source-born operators add non-redundant local distinctions; composition is retained without promoting a global meta-ontology.",
+      "expectation_pass": true
+    },
+    {
+      "window_id": "AR_GLOBALIZATION_CHALLENGE",
+      "label": "Global relation-first challenge window",
+      "evidence_segment_ids": [
+        "OX-P000016-2BE7DE3C48",
+        "OX-P000018-7F2D5301D5",
+        "OX-P000019-EAF57BA764"
+      ],
+      "missing_segment_ids": [],
+      "provenance_pass": true,
+      "profile_hints": [],
+      "decision": "ABSTAIN_UNRESOLVED",
+      "selected_candidates": [],
+      "residual_hints": [],
+      "rationale": "The target emitted no operator-profile hints; source resistance alone is insufficient to force an operator choice.",
+      "expectation_pass": true
+    }
+  ],
+  "boundary_results": [
+    {
+      "boundary_id": "AR_B1_SUBSTANCE_TO_RELATIVES",
+      "left_window_id": "AR_SUBSTANCE_PRIORITY",
+      "right_window_id": "AR_RELATIVES_REFERENCE",
+      "status": "PRESERVE_OPERATOR_BOUNDARY",
+      "expectation_pass": true
+    },
+    {
+      "boundary_id": "AR_B2_RELATIVES_TO_RECONSTRUCTION",
+      "left_window_id": "AR_RELATIVES_REFERENCE",
+      "right_window_id": "AR_RECONSTRUCTION_BRIDGE",
+      "status": "PRESERVE_OPERATOR_BOUNDARY",
+      "expectation_pass": true
+    },
+    {
+      "boundary_id": "AR_B3_RECONSTRUCTION_TO_GLOBALIZATION",
+      "left_window_id": "AR_RECONSTRUCTION_BRIDGE",
+      "right_window_id": "AR_GLOBALIZATION_CHALLENGE",
+      "status": "UNRESOLVED_BOUNDARY",
+      "expectation_pass": true
+    }
+  ],
+  "synthesis": {
+    "global_selected_candidates": [
+      "ARISTOTLE_LOCAL_MODE_VARIATION",
+      "SPINOZA_ASYMMETRIC_DEPENDENCE"
+    ],
+    "localization_loss_count": 4,
+    "localization_loss": [
+      {
+        "window_id": "AR_SUBSTANCE_PRIORITY",
+        "candidate_id": "ARISTOTLE_LOCAL_MODE_VARIATION",
+        "loss_type": "UNWARRANTED_GLOBAL_APPLICATION"
+      },
+      {
+        "window_id": "AR_RELATIVES_REFERENCE",
+        "candidate_id": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+        "loss_type": "UNWARRANTED_GLOBAL_APPLICATION"
+      },
+      {
+        "window_id": "AR_GLOBALIZATION_CHALLENGE",
+        "candidate_id": "ARISTOTLE_LOCAL_MODE_VARIATION",
+        "loss_type": "UNWARRANTED_GLOBAL_APPLICATION"
+      },
+      {
+        "window_id": "AR_GLOBALIZATION_CHALLENGE",
+        "candidate_id": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+        "loss_type": "UNWARRANTED_GLOBAL_APPLICATION"
+      }
+    ],
+    "decision": "REJECT_GLOBAL_COLLAPSE_PRESERVE_WINDOW_PROVENANCE",
+    "expectation_pass": true
+  },
+  "provenance_graph": {
+    "nodes": [
+      {
+        "node_id": "WINDOW:AR_SUBSTANCE_PRIORITY",
+        "node_type": "MICRO_WINDOW",
+        "label": "Primary-substance priority window",
+        "evidence_segment_ids": [
+          "OX-P000004-00030EBED3",
+          "OX-P000005-654422A27F",
+          "OX-P000006-207B6C554E"
+        ],
+        "decision": "SELECT_LOCAL_WINNER"
+      },
+      {
+        "node_id": "WINDOW:AR_RELATIVES_REFERENCE",
+        "node_type": "MICRO_WINDOW",
+        "label": "Relatives/reference-to-another window",
+        "evidence_segment_ids": [
+          "OX-P000007-CC24926337",
+          "OX-P000008-2416EAD5C2",
+          "OX-P000009-2666F685A0",
+          "OX-P000010-2984C7F7FA"
+        ],
+        "decision": "SELECT_LOCAL_WINNER"
+      },
+      {
+        "node_id": "WINDOW:AR_RECONSTRUCTION_BRIDGE",
+        "node_type": "MICRO_WINDOW",
+        "label": "Source-bounded two-regime reconstruction window",
+        "evidence_segment_ids": [
+          "OX-P000012-A9BBC209AE",
+          "OX-P000013-D104B65607"
+        ],
+        "decision": "LOCAL_COMPOSITION"
+      },
+      {
+        "node_id": "WINDOW:AR_GLOBALIZATION_CHALLENGE",
+        "node_type": "MICRO_WINDOW",
+        "label": "Global relation-first challenge window",
+        "evidence_segment_ids": [
+          "OX-P000016-2BE7DE3C48",
+          "OX-P000018-7F2D5301D5",
+          "OX-P000019-EAF57BA764"
+        ],
+        "decision": "ABSTAIN_UNRESOLVED"
+      },
+      {
+        "node_id": "OPERATOR:ARISTOTLE_LOCAL_MODE_VARIATION",
+        "node_type": "SOURCE_BORN_OPERATOR",
+        "label": "ARISTOTLE_LOCAL_MODE_VARIATION",
+        "evidence_segment_ids": [],
+        "decision": "N/A"
+      },
+      {
+        "node_id": "OPERATOR:SPINOZA_ASYMMETRIC_DEPENDENCE",
+        "node_type": "SOURCE_BORN_OPERATOR",
+        "label": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+        "evidence_segment_ids": [],
+        "decision": "N/A"
+      },
+      {
+        "node_id": "BOUNDARY:AR_B1_SUBSTANCE_TO_RELATIVES",
+        "node_type": "MICRO_BOUNDARY",
+        "label": "PRESERVE_OPERATOR_BOUNDARY",
+        "evidence_segment_ids": [],
+        "decision": "PRESERVE_OPERATOR_BOUNDARY"
+      },
+      {
+        "node_id": "BOUNDARY:AR_B2_RELATIVES_TO_RECONSTRUCTION",
+        "node_type": "MICRO_BOUNDARY",
+        "label": "PRESERVE_OPERATOR_BOUNDARY",
+        "evidence_segment_ids": [],
+        "decision": "PRESERVE_OPERATOR_BOUNDARY"
+      },
+      {
+        "node_id": "BOUNDARY:AR_B3_RECONSTRUCTION_TO_GLOBALIZATION",
+        "node_type": "MICRO_BOUNDARY",
+        "label": "UNRESOLVED_BOUNDARY",
+        "evidence_segment_ids": [],
+        "decision": "UNRESOLVED_BOUNDARY"
+      }
+    ],
+    "edges": [
+      {
+        "edge_type": "WINDOW_ROUTED_TO_OPERATOR",
+        "from": "WINDOW:AR_SUBSTANCE_PRIORITY",
+        "to": "OPERATOR:SPINOZA_ASYMMETRIC_DEPENDENCE"
+      },
+      {
+        "edge_type": "WINDOW_ROUTED_TO_OPERATOR",
+        "from": "WINDOW:AR_RELATIVES_REFERENCE",
+        "to": "OPERATOR:ARISTOTLE_LOCAL_MODE_VARIATION"
+      },
+      {
+        "edge_type": "WINDOW_ROUTED_TO_OPERATOR",
+        "from": "WINDOW:AR_RECONSTRUCTION_BRIDGE",
+        "to": "OPERATOR:ARISTOTLE_LOCAL_MODE_VARIATION"
+      },
+      {
+        "edge_type": "WINDOW_ROUTED_TO_OPERATOR",
+        "from": "WINDOW:AR_RECONSTRUCTION_BRIDGE",
+        "to": "OPERATOR:SPINOZA_ASYMMETRIC_DEPENDENCE"
+      },
+      {
+        "edge_type": "WINDOW_ADJACENT_TO_WINDOW",
+        "from": "WINDOW:AR_SUBSTANCE_PRIORITY",
+        "to": "WINDOW:AR_RELATIVES_REFERENCE"
+      },
+      {
+        "edge_type": "BOUNDARY_ANNOTATES_TRANSITION",
+        "from": "BOUNDARY:AR_B1_SUBSTANCE_TO_RELATIVES",
+        "to": "WINDOW:AR_RELATIVES_REFERENCE"
+      },
+      {
+        "edge_type": "WINDOW_ADJACENT_TO_WINDOW",
+        "from": "WINDOW:AR_RELATIVES_REFERENCE",
+        "to": "WINDOW:AR_RECONSTRUCTION_BRIDGE"
+      },
+      {
+        "edge_type": "BOUNDARY_ANNOTATES_TRANSITION",
+        "from": "BOUNDARY:AR_B2_RELATIVES_TO_RECONSTRUCTION",
+        "to": "WINDOW:AR_RECONSTRUCTION_BRIDGE"
+      },
+      {
+        "edge_type": "WINDOW_ADJACENT_TO_WINDOW",
+        "from": "WINDOW:AR_RECONSTRUCTION_BRIDGE",
+        "to": "WINDOW:AR_GLOBALIZATION_CHALLENGE"
+      },
+      {
+        "edge_type": "BOUNDARY_ANNOTATES_TRANSITION",
+        "from": "BOUNDARY:AR_B3_RECONSTRUCTION_TO_GLOBALIZATION",
+        "to": "WINDOW:AR_GLOBALIZATION_CHALLENGE"
+      }
+    ]
+  },
+  "summary": {
+    "windows": 4,
+    "windows_with_valid_provenance": 4,
+    "window_expectations_passed": 4,
+    "boundaries": 3,
+    "boundary_expectations_passed": 3,
+    "local_winners": 2,
+    "local_compositions": 1,
+    "unresolved_rivals": 0,
+    "abstentions": 1,
+    "localization_loss_count": 4
+  },
+  "claim_ceiling": "INTERNAL_PREREGISTERED_MICRO_LOCAL_ROUTING_NOT_EXTERNAL_SEMANTIC_VALIDATION_OR_CORE_PROMOTION"
+}

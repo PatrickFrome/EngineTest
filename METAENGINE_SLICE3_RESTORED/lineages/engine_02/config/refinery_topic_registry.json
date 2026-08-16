@@ -1,0 +1,113 @@
+{
+  "registry_version": "DAE-REFINERY-TOPICS-1.0",
+  "claim_ceiling": "LEXICAL_TOPIC_CLUSTER_NOT_VALIDATED_HYPOTHESIS",
+  "topics": [
+    {
+      "topic_id": "REALITY_AND_REALISM",
+      "label": "Реальность и реализм",
+      "research_question": "Какие различные функции получают Realit\u00e4t, Wirklichkeit, реальность и реализм в корпусе?",
+      "minimum_distinct_groups": 2,
+      "groups": [
+        {"group_id": "REALITY", "patterns": ["Realit(?:ä|ae)t", "реальност\\p{L}*"]},
+        {"group_id": "ACTUALITY", "patterns": ["Wirklichkeit", "действительност\\p{L}*"]},
+        {"group_id": "REALISM", "patterns": ["Realismus", "реализм\\p{L}*"]}
+      ]
+    },
+    {
+      "topic_id": "ACT_CONTENT_OBJECT",
+      "label": "Акт, содержание и предмет",
+      "research_question": "Удерживается ли различение акта, содержания и предмета без взаимной редукции?",
+      "minimum_distinct_groups": 2,
+      "groups": [
+        {"group_id": "ACT", "patterns": ["(?<!\\p{L})акт(?:а|е|ом|ы|ов)?(?!\\p{L})", "Akt(?:es|e|en)?"]},
+        {"group_id": "CONTENT", "patterns": ["содержани\\p{L}*", "Inhalt\\p{L}*"]},
+        {"group_id": "OBJECT", "patterns": ["предмет\\p{L}*", "Gegenstand\\p{L}*"]}
+      ]
+    },
+    {
+      "topic_id": "REGIONAL_REALIZATION_PROFILE",
+      "label": "Региональный профиль реализации",
+      "research_question": "Различаются ли способ бытия, происхождение, поддержание, идентичность, доступ и корректирующее ограничение по типам сущего?",
+      "minimum_distinct_groups": 3,
+      "groups": [
+        {"group_id": "MODE", "patterns": ["способ\\p{L}*\\s+бытия", "Seinsweise"]},
+        {"group_id": "ORIGIN", "patterns": ["происхождени\\p{L}*", "возникновени\\p{L}*", "Ursprung"]},
+        {"group_id": "MAINTENANCE", "patterns": ["поддержани\\p{L}*", "сохранени\\p{L}*", "Erhaltung"]},
+        {"group_id": "IDENTITY", "patterns": ["идентичност\\p{L}*", "тождеств\\p{L}*", "Identit(?:ä|ae)t"]},
+        {"group_id": "ACCESS", "patterns": ["доступ\\p{L}*", "Zugang"]},
+        {"group_id": "CORRECTIVE", "patterns": ["корректирующ\\p{L}*", "ограничени\\p{L}*", "Korrektiv"]}
+      ]
+    },
+    {
+      "topic_id": "DIACHRONIC_HEIDEGGER",
+      "label": "Диахроническая гипотеза о Хайдеггере",
+      "research_question": "Какие локальные мосты действительно поддерживают заявленное развитие от ранних работ к поздним?",
+      "minimum_distinct_groups": 2,
+      "groups": [
+        {"group_id": "HEIDEGGER", "patterns": ["Heidegger", "Хайдеггер"]},
+        {"group_id": "CHRONOLOGY", "patterns": ["ранн\\p{L}*", "поздн\\p{L}*", "диахрон\\p{L}*", "Frühwerk", "Spätwerk"]},
+        {"group_id": "GA_LOCATOR", "patterns": ["(?<!\\p{L})GA\\s*\\d{1,3}(?!\\p{L})"]}
+      ]
+    },
+    {
+      "topic_id": "TERM_GENEALOGY",
+      "label": "Генеалогия realitas — Wirklichkeit — Existenz — Sein",
+      "research_question": "Можно ли построить источниково разрешённую генеалогию терминов без ретроспективного выравнивания?",
+      "minimum_distinct_groups": 3,
+      "groups": [
+        {"group_id": "REALITAS", "patterns": ["realitas"]},
+        {"group_id": "WIRKLICHKEIT", "patterns": ["Wirklichkeit"]},
+        {"group_id": "EXISTENZ", "patterns": ["Existenz"]},
+        {"group_id": "SEIN", "patterns": ["(?<!\\p{L})Sein(?:s)?(?!\\p{L})", "(?<!\\p{L})бытие(?!\\p{L})"]}
+      ]
+    },
+    {
+      "topic_id": "META_CRITIQUE",
+      "label": "Самоприменение деструкции",
+      "research_question": "Выдерживают ли тезисы проекта собственные процедуры возражения, снятия и anti-self-circulation?",
+      "minimum_distinct_groups": 2,
+      "groups": [
+        {"group_id": "SELF_APPLICATION", "patterns": ["самопримен\\p{L}*", "саморазруш\\p{L}*", "self[- ]application"]},
+        {"group_id": "META_DESTRUCTION", "patterns": ["мета[- ]?деструкц\\p{L}*", "meta[- ]destruction"]},
+        {"group_id": "CIRCULATION", "patterns": ["anti[- ]self[- ]circulation", "самоциркуляц\\p{L}*", "циркулярност\\p{L}*"]}
+      ]
+    },
+    {
+      "topic_id": "TECHNOLOGY_AND_ORDERING",
+      "label": "Machenschaft, Technik, Gestell, Bestand",
+      "research_question": "Какие различения нужны, чтобы не превращать технический объект в автоматическое свидетельство Gestell?",
+      "minimum_distinct_groups": 2,
+      "groups": [
+        {"group_id": "MACHENSCHAFT", "patterns": ["Machenschaft"]},
+        {"group_id": "TECHNIK", "patterns": ["Technik", "техник\\p{L}*"]},
+        {"group_id": "GESTELL", "patterns": ["Ge-?stell", "постав\\p{L}*"]},
+        {"group_id": "BESTAND", "patterns": ["Bestand"]}
+      ]
+    },
+    {
+      "topic_id": "IDENTITY_AND_INDIVIDUATION",
+      "label": "Индивидуация и идентичность",
+      "research_question": "Какие relata и критерии устойчивости должны предшествовать выводу об идентичности?",
+      "minimum_distinct_groups": 2,
+      "groups": [
+        {"group_id": "INDIVIDUATION", "patterns": ["индивидуац\\p{L}*", "Individuation"]},
+        {"group_id": "IDENTITY", "patterns": ["идентичност\\p{L}*", "Identit(?:ä|ae)t"]},
+        {"group_id": "RELATA", "patterns": ["relata", "релят\\p{L}*", "критери\\p{L}*\\s+тождеств\\p{L}*"]}
+      ]
+    }
+  ],
+  "case_matrix": {
+    "matrix_id": "REALIZATION_PROFILE_SEVEN_CASES",
+    "label": "Семь разнородных случаев профиля реализации",
+    "minimum_cases": 5,
+    "cases": [
+      {"case_id": "STONE", "label": "камень", "patterns": ["(?<!\\p{L})камень(?!\\p{L})", "(?<!\\p{L})Stein(?:s|e)?(?!\\p{L})"]},
+      {"case_id": "ORGANISM", "label": "организм", "patterns": ["организм\\p{L}*", "Organismus"]},
+      {"case_id": "PAIN", "label": "боль", "patterns": ["(?<!\\p{L})боль(?:ю|и)?(?!\\p{L})", "(?<!\\p{L})Schmerz(?:es|en)?(?!\\p{L})"]},
+      {"case_id": "MONEY", "label": "деньги", "patterns": ["деньг\\p{L}*", "(?<!\\p{L})Geld(?:es)?(?!\\p{L})"]},
+      {"case_id": "TECHNICAL_ARTIFACT", "label": "технический артефакт", "patterns": ["техническ\\p{L}*\\s+артефакт\\p{L}*", "technisch\\p{L}*\\s+Artefakt"]},
+      {"case_id": "MATHEMATICAL_OBJECT", "label": "математический объект", "patterns": ["математическ\\p{L}*\\s+(?:объект|предмет)\\p{L}*", "mathematisch\\p{L}*\\s+(?:Objekt|Gegenstand)"]},
+      {"case_id": "FICTIONAL_OBJECT", "label": "фикциональный объект", "patterns": ["фикциональн\\p{L}*\\s+(?:объект|предмет)\\p{L}*", "fiktiv\\p{L}*\\s+(?:Objekt|Gegenstand)"]}
+    ]
+  }
+}

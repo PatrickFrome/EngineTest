@@ -1,0 +1,21 @@
+{
+  "assimilation_effect": "NONE",
+  "card_sha256": "51a1f3751a063386feea84f0a4898480f1c90cccf8dc9756b089885b35d1e53a",
+  "mechanism_card_version": "ARCHITECTURE-MECHANISM-CARD-1",
+  "mechanism_id": "constitution-derived-testing",
+  "origin_source_ids": [
+    "anthropic-claude-public"
+  ],
+  "status": "A1_MECHANISM_HYPOTHESIS",
+  "variants": [
+    {
+      "falsification_test": "Compare prose-only governance against compiled test cases on a fixed adversarial suite.",
+      "hypothesized_effect": "Reduce drift between stated principles and evaluated behavior.",
+      "mechanism_id": "constitution-derived-testing",
+      "semantic_definition": "Compile general behavioral principles into specific positive and adversarial conformance tests.",
+      "source_fact_boundary": "The public constitution establishes a principle corpus; implementation and causal transfer details remain unobserved.",
+      "source_id": "anthropic-claude-public",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ]
+}

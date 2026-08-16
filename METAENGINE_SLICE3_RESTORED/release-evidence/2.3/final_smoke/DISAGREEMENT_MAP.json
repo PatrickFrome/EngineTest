@@ -1,0 +1,11 @@
+{
+  "conflict_count": 0,
+  "conflicts": [],
+  "disagreement_version": "16X-DISAGREEMENT-1.2",
+  "map_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "material_conflict_count": 0,
+  "policy": {
+    "majority_is_not_truth": true,
+    "material_dissent_blocks_promotion": true
+  }
+}

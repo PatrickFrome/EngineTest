@@ -1,0 +1,65 @@
+{
+  "policy_version": "DAE-OPERATOR-MUTATION-POLICY-1.2",
+  "principle": "A resistant source may revise, split, suspend or add an executable operator only when the change is reversible, source-bound, contrastively useful and regression-gated.",
+  "allowed_kinds": [
+    "SUSPEND",
+    "SPLIT",
+    "REVISE",
+    "ADD_CONDITION",
+    "ADD_OPERATOR"
+  ],
+  "executable_sections": {
+    "conditional_families": {
+      "runtime_reachability": "FULL_INCLUDING_ADD_OPERATOR",
+      "allowed_change_fields": [
+        "title",
+        "protocol_refs",
+        "triggers",
+        "diagnostic",
+        "constructive_move",
+        "self_risk",
+        "positive_model"
+      ],
+      "note": "ADD_OPERATOR may birth a new conditional family from a source-forced open-set candidate; the candidate remains unpromoted until regression and competition gates succeed."
+    },
+    "generative_gestures": {
+      "runtime_reachability": "FULL_WITH_DECLARATIVE_RUNTIME_FOR_REVISE_SPLIT_SUSPEND_ADD_OPERATOR",
+      "allowed_change_fields": [
+        "title",
+        "question",
+        "trigger",
+        "outputs",
+        "firewall",
+        "protocol_refs",
+        "activation",
+        "active_reason",
+        "inactive_reason",
+        "emission_program"
+      ],
+      "note": "Declarative runtime executes REVISE, SPLIT, SUSPEND and ADD_OPERATOR. ADD_CONDITION remains family-trigger-specific; use REVISE to alter a gesture activation AST."
+    },
+    "supporting_operation_vocabulary": {
+      "runtime_reachability": "NONE",
+      "allowed_change_fields": [
+        "role",
+        "protocol_refs",
+        "requires_any",
+        "requires_all",
+        "repeat",
+        "philosophical_function"
+      ],
+      "note": "This vocabulary is documentary in living-analysis 0.5 and is not traversed directly."
+    }
+  },
+  "gate": {
+    "minimum_incompatible_unitizations": 2,
+    "minimum_negative_tests": 1,
+    "require_same_fixture": true,
+    "require_new_gain": true,
+    "require_discriminator": true,
+    "require_cost": true,
+    "require_reversibility": true,
+    "require_non_degrading_traceability": true,
+    "promotion_requires_runtime_reachability": "FULL"
+  }
+}

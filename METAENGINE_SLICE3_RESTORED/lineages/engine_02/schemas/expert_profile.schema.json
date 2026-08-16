@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/expert_profile.schema.json",
+  "title": "Destruktion autonomous expert profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["profile_version", "profile_id", "title", "language", "domain", "decision_policy", "theses", "global_synthesis"],
+  "properties": {
+    "profile_version": {"const": "DAE-EXPERT-PROFILE-1.0"},
+    "profile_id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9._-]+$"},
+    "title": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "pattern": "^[a-z]{2,3}$"},
+    "domain": {"type": "string", "minLength": 1},
+    "decision_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["automatic_finalization", "terminal_statuses", "insufficient_is_terminal", "model_may_not_override_deterministic_gates", "supported_requires_burden_satisfaction", "confidence_floor", "confidence_cap"],
+      "properties": {
+        "automatic_finalization": {"const": true},
+        "terminal_statuses": {"const": ["SUPPORTED", "QUALIFIED", "REJECTED", "INSUFFICIENT"]},
+        "insufficient_is_terminal": {"const": true},
+        "model_may_not_override_deterministic_gates": {"const": true},
+        "supported_requires_burden_satisfaction": {"const": true},
+        "confidence_floor": {"type": "number", "minimum": 0, "maximum": 1},
+        "confidence_cap": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "theses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/thesis"}
+    },
+    "global_synthesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "core_finding", "decisive_reasons", "rejected_conclusions", "next_actions"],
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "core_finding": {"type": "string", "minLength": 1},
+        "decisive_reasons": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "rejected_conclusions": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "next_actions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      }
+    }
+  },
+  "$defs": {
+    "thesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["thesis_id", "title", "statement", "evaluation_mode", "topic_id", "case_matrix_id", "scale", "source_burden", "minimum_evidence_count", "minimum_distinct_groups", "minimum_resolved_sources", "reconstruction", "rivals", "deterministic_analysis"],
+      "properties": {
+        "thesis_id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9._-]+$"},
+        "title": {"type": "string", "minLength": 1},
+        "statement": {"type": "string", "minLength": 1},
+        "evaluation_mode": {"enum": ["CORPUS_GENRE", "INTERNAL_MODEL", "TEST_DESIGN", "UNIVERSALIZATION", "SOURCE_DEPENDENT", "META_METHOD"]},
+        "topic_id": {"type": ["string", "null"]},
+        "case_matrix_id": {"type": ["string", "null"]},
+        "scale": {"enum": ["DOCUMENT", "LOCAL", "WORK", "DIACHRONIC", "EPOCHAL", "UNIVERSAL", "METHOD"]},
+        "source_burden": {"enum": ["STRUCTURAL", "INTERNAL_DOSSIER", "PRIMARY_TEXT", "MULTI_SOURCE", "DOMAIN_HETEROGENEOUS"]},
+        "minimum_evidence_count": {"type": "integer", "minimum": 0},
+        "minimum_distinct_groups": {"type": "integer", "minimum": 0},
+        "minimum_resolved_sources": {"type": "integer", "minimum": 0},
+        "reconstruction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["A", "P", "B", "operative_relations"],
+          "properties": {
+            "A": {"type": "string", "minLength": 1},
+            "P": {"type": "string", "minLength": 1},
+            "B": {"type": "string", "minLength": 1},
+            "operative_relations": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^RT(?:0[0-9]|1[0-9]|2[0-8])$"}}
+          }
+        },
+        "rivals": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["rival_id", "statement", "discriminator"],
+            "properties": {
+              "rival_id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9._-]+$"},
+              "statement": {"type": "string", "minLength": 1},
+              "discriminator": {"type": "string", "minLength": 1}
+            }
+          }
+        },
+        "deterministic_analysis": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["key_points", "limitations", "recommendation"],
+          "properties": {
+            "key_points": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+            "limitations": {"type": "array", "items": {"type": "string", "minLength": 1}},
+            "recommendation": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    }
+  }
+}

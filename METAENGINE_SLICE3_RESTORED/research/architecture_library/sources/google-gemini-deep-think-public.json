@@ -1,0 +1,53 @@
+{
+  "allowed_use": [
+    "BEHAVIORAL_REFERENCE",
+    "PUBLIC_CAPABILITY_REFERENCE"
+  ],
+  "architecture_claims": [
+    {
+      "claim_id": "gemini-deep-think-public-description",
+      "evidence_locator": "https://deepmind.google/models/gemini/deep-think/",
+      "kind": "PUBLISHER_CLAIM",
+      "statement": "The official page describes Deep Think as a public reasoning capability; no internal source implementation is registered."
+    }
+  ],
+  "blob_descriptors": [],
+  "blockers": [
+    "BEHAVIORAL_EVIDENCE_ONLY",
+    "NO_PUBLIC_INTERNAL_SOURCE"
+  ],
+  "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+  "exact_commit_or_release": "gemini-deep-think-page-retrieved-2026-08-13",
+  "forbidden_use": [
+    "HIDDEN_ARCHITECTURE_FACT",
+    "INTERNAL_SOURCE_ASSUMPTION",
+    "RUNTIME_DEPENDENCY"
+  ],
+  "ingestion_status": "REGISTERED_ONLY",
+  "license_evidence_locator": "https://policies.google.com/terms",
+  "license_expression": "LicenseRef-Google-Public-Documentation",
+  "license_name": "Google proprietary public documentation",
+  "license_sha256": null,
+  "mechanism_candidates": [
+    {
+      "falsification_test": "Compare single-path, parallel-without-critique, and parallel-with-critique variants under equal total compute.",
+      "hypothesized_effect": "Improve hard-problem reliability by preserving competing possibilities before convergence.",
+      "mechanism_id": "parallel-hypothesis-generation-and-critique",
+      "semantic_definition": "Generate multiple candidate hypotheses and compare or critique them before selecting an answer.",
+      "source_fact_boundary": "Public reasoning descriptions motivate the behavioral hypothesis; hidden implementation details remain unknown.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ],
+  "official_source_locator": "https://deepmind.google/models/gemini/deep-think/",
+  "publisher": "Google DeepMind",
+  "record_sha256": "f874f109947c165c39363969befcce50d9162aa3ee47256b8d58105f015e768f",
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "retained_reference_paths": [],
+  "retrieved_at": "2026-08-13T20:00:00Z",
+  "source_class": "CLOSED_BEHAVIORAL_ONLY",
+  "source_id": "google-gemini-deep-think-public",
+  "source_sha256": null,
+  "source_sha256_scope": null,
+  "system_name": "Gemini Deep Think",
+  "version": "gemini-3.1-deep-think-public"
+}

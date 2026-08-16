@@ -1,0 +1,56 @@
+{
+  "manifest_version": "DAE-SOURCE-MANIFEST-1.0",
+  "source_id": "HGA-PJ25-1912-REALITAET",
+  "bibliographic": {
+    "author": "Martin Heidegger",
+    "title": "Das Realitätsproblem in der modernen Philosophie",
+    "publication": "Philosophisches Jahrbuch",
+    "year": 1912,
+    "volume": "25",
+    "printed_pages": "353–363",
+    "language": "de",
+    "source_url": "https://philosophisches-jahrbuch.de/wp-content/uploads/2018/10/PJ25_S353-363_Heidegger_Das-Realit%C3%A4tsproblem-in-der-modernen-Philosophie.pdf",
+    "genre": "critical review article and programmatic epistemological intervention"
+  },
+  "artifact": {
+    "media_type": "application/pdf",
+    "byte_length": 450707,
+    "sha256": "76972a6965f1213ee3c383d23038320a5c6a238f31c3e1effceb054b853f2791"
+  },
+  "extracted_text": {
+    "media_type": "text/plain",
+    "byte_length": 33269,
+    "sha256": "efc781598fc36268b3800a954a441c78a398b911569ba0cca203c11c92c760db",
+    "method": "Poppler pdftotext -layout over the pinned journal archive PDF",
+    "page_delimiter": "FORM_FEED",
+    "normalization": "Input bytes remain unchanged for fixity; analysis view joins OCR line wraps, removes soft hyphens and preserves page boundaries."
+  },
+  "pagination": {
+    "scheme": "PRINTED_PAGE",
+    "labels": ["353", "354", "355", "356", "357", "358", "359", "360", "361", "362", "363"]
+  },
+  "access_policy": {
+    "analysis_class": "DERIVATIVE_ONLY",
+    "raw_text_retention": "TRANSIENT",
+    "redistribution": "UNKNOWN",
+    "allow_derived_outputs": true,
+    "basis": "User-directed analysis of the journal's public article archive. No reusable full-text licence is inferred; release output is limited to hashes, locators, short lexical signals, statistics and original paraphrase.",
+    "restrictions_checked_at": "2026-08-11T05:00:00Z"
+  },
+  "crosswalk": {
+    "target_edition": "Martin Heidegger Gesamtausgabe 1, Frühe Schriften, 2nd ed. 2018",
+    "status": "PAGE_LEVEL_PARTIAL",
+    "target_locator": "GA 1, pp. 1–15; exact paragraph-by-paragraph page alignment remains unverified except the opening on GA 1 p. 1",
+    "evidence_refs": ["HGA-GA01-P001#p.1", "HGA-BEYNG-GA01-TOC#work-boundary", "HGA-PJ25-1912-REALITAET#S353-S363"],
+    "note": "The original publication is the analytic source. GA pagination is a work-level crosswalk, not a substitute for an edition-resolved textual locator."
+  },
+  "structure": {
+    "drop_line_patterns": [
+      "^\\s*\\d{3}\\s+Martin\\s+H",
+      "^\\s*Das Realitätsproblem.*\\d{3}\\s*$",
+      "^\\s*Philosophisches Jahrbuch 1912\\.",
+      "^\\s*23\\*?\\s*$"
+    ],
+    "analyze_notes": false
+  }
+}

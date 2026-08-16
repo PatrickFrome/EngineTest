@@ -1,0 +1,78 @@
+{
+  "allowed_use": [
+    "ANALYSIS",
+    "CLEAN_ROOM_REIMPLEMENTATION",
+    "REFERENCE"
+  ],
+  "architecture_claims": [
+    {
+      "claim_id": "qwen-documentation-only-retained-scope",
+      "evidence_locator": "https://github.com/QwenLM/Qwen3.6/tree/0886e34d2d6947e631b8338088a1293862243300",
+      "kind": "SOURCE_FACT",
+      "statement": "The retained pack contains official license and README bytes; it does not claim to contain the model implementation."
+    },
+    {
+      "claim_id": "qwen-hybrid-architecture-publisher-claim",
+      "evidence_locator": "https://github.com/QwenLM/Qwen3.6/blob/0886e34d2d6947e631b8338088a1293862243300/README.md",
+      "kind": "PUBLISHER_CLAIM",
+      "statement": "The official README describes a hybrid architecture lineage using gated delta networks, attention, and sparse mixture-of-experts components."
+    }
+  ],
+  "blob_descriptors": [
+    {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "media_type": "text/plain",
+      "relative_path": "LICENSE",
+      "size": 11357
+    },
+    {
+      "digest": "4d889b3dde6520ef5499c9876569ec39fae13da7f7ea03caf502ee94dbdaf9aa",
+      "digest_algorithm": "sha256",
+      "git_blob_id": "7d09becbf7ccfb3db2368548592d010f5da708d3",
+      "media_type": "text/markdown",
+      "relative_path": "README.md",
+      "size": 11768
+    }
+  ],
+  "blockers": [
+    "OFFICIAL_REPOSITORY_PACK_RETAINS_DOCUMENTATION_NOT_MODEL_IMPLEMENTATION"
+  ],
+  "epistemic_ceiling": "A1_MECHANISM_HYPOTHESIS",
+  "exact_commit_or_release": "0886e34d2d6947e631b8338088a1293862243300",
+  "forbidden_use": [
+    "AUTOMATIC_PROMOTION",
+    "AUTOMATIC_RUNTIME_DEPENDENCY"
+  ],
+  "ingestion_status": "INGESTED",
+  "license_evidence_locator": "https://github.com/QwenLM/Qwen3.6/blob/0886e34d2d6947e631b8338088a1293862243300/LICENSE",
+  "license_expression": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "mechanism_candidates": [
+    {
+      "falsification_test": "Ablate the bounded-state and full-attention paths independently under equal resource budgets.",
+      "hypothesized_effect": "Preserve global correction while reducing average context-processing cost.",
+      "mechanism_id": "hybrid-compressed-state-full-attention",
+      "semantic_definition": "Interleave bounded-state sequence processing with periodic full-attention operations.",
+      "source_fact_boundary": "The official README describes a hybrid lineage; no causal MetaEngine implementation or ablation exists.",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ],
+  "official_source_locator": "https://github.com/QwenLM/Qwen3.6/tree/0886e34d2d6947e631b8338088a1293862243300",
+  "publisher": "Qwen Team",
+  "record_sha256": "94e3add26ce503398ab3a240daf2eecd4d83d5a81e53b1162ce2c5301fe5e047",
+  "registry_schema_version": "ARCHITECTURE-SOURCE-REGISTRY-1",
+  "retained_reference_paths": [
+    "LICENSE",
+    "README.md"
+  ],
+  "retrieved_at": "2026-08-13T20:00:00Z",
+  "source_class": "PERMISSIVE_CODE",
+  "source_id": "qwen3.6-0886e34",
+  "source_sha256": "d75ef6264b51e7627c7649b3ff69c95f8f7e0f294c31f295e28b86862d29d4a5",
+  "source_sha256_scope": "RETAINED_SOURCE_PACK",
+  "system_name": "Qwen3.6",
+  "version": "0886e34"
+}

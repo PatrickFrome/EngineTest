@@ -1,0 +1,20 @@
+{
+  "command": "load_constitution_kernel + verify_constitution_conformance",
+  "completed_step_commit": "73a3f4aab2dc18997db495d657aab5185ffc6958",
+  "evidence_hash": "19437c120f795ff5db00cad8e5a7eb9f8112d10d5cf91d8f14f2ccdc98688897",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "CONSTITUTION_CONFORMANCE",
+  "observed": {
+    "amendment_authority_status": "NOT_IMPLEMENTED",
+    "conformance_report_hash": "7e6fdc041891f2a9dff95ea211c85c336bf1e62795893c7d102209365ddf364b",
+    "conformance_valid": true,
+    "constitution_hash": "d6bdb6e92b2892e1d25b520869cc8654fd1131b55698e0a34310b06e525061b5",
+    "k0_hash": "32970be26b469986079cb8b421fb6a9a9a278c70364e03937ab1e65b0b3fef63",
+    "k0_invariant_count": 12,
+    "k1_hash": "7f286c2b10778e7a608e949d97a84009b6ad9fe4b76afe595f7ca29a75ccff21",
+    "legacy_guardrail_hash": "7ca26b082e1c4dc1de5f3d098f957d0330a5b9f2cf70da12160a672c01a2eb38",
+    "mapped_invariant_count": 12,
+    "ordinary_evolution_allowed": false
+  }
+}

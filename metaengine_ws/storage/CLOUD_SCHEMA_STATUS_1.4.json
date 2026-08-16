@@ -1,0 +1,26 @@
+{
+  "version": "1.4.0-alpha.1",
+  "neon": {
+    "project_id": "falling-hat-08217783",
+    "database": "neondb",
+    "verified_tables": [
+      "polycentric_edge_ledger",
+      "polycentric_reentry_ledger",
+      "polycentric_round_ledger",
+      "useful_effect_ledger"
+    ],
+    "status": "VERIFIED_PRESENT"
+  },
+  "supabase": {
+    "project_id": "jbztmeomxtpskkvlhlcy",
+    "verified_tables": [
+      "polycentric_edge_ledger",
+      "polycentric_reentry_ledger",
+      "polycentric_round_ledger",
+      "useful_effect_ledger"
+    ],
+    "status": "VERIFIED_PRESENT"
+  },
+  "epistemic_authority": "NONE",
+  "note": "Both backends persist hash-bound coordination state; neither database can promote claims."
+}

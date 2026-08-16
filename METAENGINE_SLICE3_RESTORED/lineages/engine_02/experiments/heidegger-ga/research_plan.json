@@ -1,0 +1,168 @@
+{
+  "plan_version": "DAE-RESEARCH-PLAN-1.0",
+  "preregistration_id": "HGA-PILOT-PLAN-001",
+  "title": "Blind diachronic and translation pilot over Heidegger Gesamtausgabe",
+  "created_at": "2026-08-11T04:20:00Z",
+  "hypothesis": "Independent reviewers can distinguish local textual claims, editorial claims, reconstructions, bridges and ontological promotions across GA phases without relying only on signature vocabulary.",
+  "counter_hypothesis": "The protocol merely redescribes familiar Heideggerian periodization and loses discriminability when volume numbers, dates and signature terms are masked.",
+  "unit_of_analysis": {
+    "description": "One complete argumentative transition in the licensed German GA text, with page and section boundaries preserved.",
+    "context_rule": "Include the full paragraph and at most one adjacent paragraph on either side; never join passages across a section boundary.",
+    "stable_id_rule": "SHA-256 of edition identifier, GA volume, page range, normalized source bytes and unitization rule version."
+  },
+  "codebook": [
+    {
+      "code": "TXT",
+      "question": "Is the claim explicitly asserted in the cited German passage?",
+      "positive_criterion": "A bounded source span contains the proposition or its unambiguous grammatical equivalent.",
+      "boundary": "Do not import an editor's blurb, later self-interpretation or Russian translation choice."
+    },
+    {
+      "code": "EDT",
+      "question": "Is the claim supplied by an editor, publisher or catalog rather than Heidegger's object text?",
+      "positive_criterion": "The claim occurs in metadata, afterword, apparatus or publisher description.",
+      "boundary": "Editorial chronology may orient research but cannot substitute for primary textual evidence."
+    },
+    {
+      "code": "REC",
+      "question": "Is the claim an explicit reconstruction from more than one passage?",
+      "positive_criterion": "The inference cites its input passages and states a defeasible reconstruction rule.",
+      "boundary": "Do not relabel reconstruction as quotation or direct textual meaning."
+    },
+    {
+      "code": "BRG",
+      "question": "Does the claim cross a phase, vocabulary, work, language or level through an explicit bridge?",
+      "positive_criterion": "Source and target relata, relation type, evidence and defeating rival are all recorded.",
+      "boundary": "Lexical resemblance and Heidegger's later self-narration are not sufficient bridges."
+    },
+    {
+      "code": "ONT",
+      "question": "Does the claim promote textual or phenomenological evidence into an ontological conclusion?",
+      "positive_criterion": "The claim says what or how something is, not merely how the passage describes or accesses it.",
+      "boundary": "Access, wording, historical sequence and ontology remain separate channels."
+    }
+  ],
+  "sampling": {
+    "population": "Licensed, edition-resolved German passages from GA 1–105 relevant to the question of being, language, temporality, truth, Ereignis and technology.",
+    "strata": ["early_1912_1923", "fundamental_ontology_1924_1929", "transition_1930_1945", "late_1946_1976", "editorial_apparatus"],
+    "quotas": {
+      "early_1912_1923": 20,
+      "fundamental_ontology_1924_1929": 20,
+      "transition_1930_1945": 20,
+      "late_1946_1976": 20,
+      "editorial_apparatus": 20
+    },
+    "seed": "HGA-PILOT-2026-001",
+    "deduplication": "Keep the lexicographically first stable unit ID when normalized German spans and edition locators are identical."
+  },
+  "blinding": [
+    {
+      "phase": "MASKED_LEXICON",
+      "visible": ["German passage with signature terms replaced by typed masks"],
+      "hidden": ["GA number", "date", "title", "signature term", "project hypothesis"],
+      "risk_tested": "Whether classifications depend on Heideggerian keywords rather than transition structure."
+    },
+    {
+      "phase": "CONTEXTUAL",
+      "visible": ["German passage", "GA volume", "page", "text date", "genre"],
+      "hidden": ["other coder labels", "expected periodization", "project conclusion"],
+      "risk_tested": "Reproducibility of source/reconstruction/bridge distinctions in historical context."
+    },
+    {
+      "phase": "TRANSLATION",
+      "visible": ["German source", "three anonymized Russian renderings"],
+      "hidden": ["translator identity", "preferred project translation", "other coder labels"],
+      "risk_tested": "Whether translation choice predetermines the claimed ontology."
+    }
+  ],
+  "metrics": [
+    {
+      "id": "ALPHA-CLAIM-MODE",
+      "measure": "Nominal Krippendorff alpha with bootstrap 95% CI for TXT/EDT/REC/BRG/ONT",
+      "threshold": "alpha >= 0.80 and lower CI >= 0.67",
+      "fail_action": "Do not describe the claim-mode distinction as independently reproducible."
+    },
+    {
+      "id": "F1-BRIDGE",
+      "measure": "Pairwise multilabel F1 for bridge components and defeating rivals",
+      "threshold": "F1 >= 0.80",
+      "fail_action": "Suspend all cross-phase and cross-language conclusions."
+    }
+  ],
+  "negative_tests": [
+    {
+      "id": "N-TERM-MASK",
+      "operation": "Mask signature terms such as Dasein, Sein, Seyn, Ereignis and Gestell.",
+      "stability_criterion": "Claim-mode alpha remains >= 0.67.",
+      "fail_action": "Downgrade the method to keyword-assisted indexing."
+    },
+    {
+      "id": "N-CHRONOLOGY-SWAP",
+      "operation": "Present matched transitions with GA numbers and dates permuted during the masked phase.",
+      "stability_criterion": "Reviewers reject false developmental bridges above the preregistered rate.",
+      "fail_action": "Remove the diachronic continuity claim."
+    },
+    {
+      "id": "N-EDITORIAL-REMOVAL",
+      "operation": "Repeat reconstruction without publisher descriptions, forewords and editorial afterwords.",
+      "stability_criterion": "Every retained claim remains supported by object-text passages.",
+      "fail_action": "Relabel affected claims EDT or remove them."
+    },
+    {
+      "id": "N-TRANSLATION-SWAP",
+      "operation": "Swap anonymized Russian translations while holding the German source fixed.",
+      "stability_criterion": "Ontological status does not track translator choice alone.",
+      "fail_action": "Suspend the Russian concept passport and return to the German source."
+    }
+  ],
+  "kill_criteria": [
+    {
+      "id": "K-DATA",
+      "condition": "The German corpus lacks edition-resolved page locators or lawful reproducible access.",
+      "action": "Stop corpus-level execution; retain only the bibliographic map."
+    },
+    {
+      "id": "K-ALPHA",
+      "condition": "Claim-mode alpha or its lower CI fails the frozen threshold.",
+      "action": "Revise or merge the failed distinctions before a new preregistration."
+    },
+    {
+      "id": "K-DIACHRONY",
+      "condition": "Chronology-swap or editorial-removal tests leave the same developmental conclusions intact.",
+      "action": "Treat the periodization as circular and delete the strong developmental model."
+    },
+    {
+      "id": "K-ONTOLOGY",
+      "condition": "ONT labels cannot be distinguished from TXT/REC after term masking.",
+      "action": "Forbid ontological promotion and retain the system as a source-audit tool only."
+    }
+  ],
+  "gates": {
+    "data": {
+      "status": "BLOCKED",
+      "evidence_refs": ["HGA-CATALOG-2026-08-11"],
+      "block_if_not_passed": true,
+      "note": "A catalog snapshot and one diagnostic page do not constitute an immutable GA corpus."
+    },
+    "authorization": {
+      "status": "UNKNOWN",
+      "evidence_refs": [],
+      "block_if_not_passed": true,
+      "note": "Authorization must be established for corpus-scale acquisition and processing."
+    },
+    "license": {
+      "status": "BLOCKED",
+      "evidence_refs": ["HGA-KLOSTERMANN-PLAN"],
+      "block_if_not_passed": true,
+      "note": "Publisher metadata is accessible; a reusable full-text research corpus is not licensed by this fact."
+    },
+    "coders": {
+      "status": "BLOCKED",
+      "evidence_refs": [],
+      "block_if_not_passed": true,
+      "note": "No independent German-reading coders have been assigned."
+    }
+  },
+  "deviation_policy": "Preserve the frozen plan, record every corpus, codebook, unitization or threshold change by JSON path, and issue a new preregistration before confirmatory coding.",
+  "source_refs": ["HGA-KLOSTERMANN-PLAN", "HGA-BEYNG-CATALOG", "HGA-GA01-P001", "V38#HGA-pilot"]
+}

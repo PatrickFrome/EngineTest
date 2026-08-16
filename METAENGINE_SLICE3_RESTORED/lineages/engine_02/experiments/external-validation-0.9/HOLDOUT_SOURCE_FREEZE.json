@@ -1,0 +1,402 @@
+{
+  "version": "DESTRUKTION-HOLDOUT-SOURCE-FREEZE-1.0",
+  "selection_rule": {
+    "positions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "target_words": 1200,
+    "selection": "word-position deterministic before DAE execution",
+    "dae_involved_in_selection": false
+  },
+  "sources": [
+    {
+      "source_id": "PLATO_REPUBLIC",
+      "author": "Plato",
+      "title": "The Republic",
+      "year": "c. 375 BCE",
+      "ebook_id": 1497,
+      "source_url": "https://www.gutenberg.org/ebooks/1497",
+      "raw_sha256": "917c1cb469e1a8eba6083808764d7131da8d79140b575b4214c9d02a73ec4528",
+      "clean_sha256": "c5174ee6adf30d3157d3aca8a5d5c6bf625317aa8f88e583f96552492e20054b",
+      "clean_word_count": 216285,
+      "excerpts": [
+        {
+          "excerpt_id": "PLATO_REPUBLIC_Q1",
+          "position_fraction": 0.25,
+          "word_start": 53471,
+          "word_end": 54671,
+          "word_count": 1200,
+          "sha256": "5bb0e2a25a8223b372b8e5bd4d9e2f848f2639ab30b1e3dd088b8c78ae05861c",
+          "file": "holdout-sources/PLATO_REPUBLIC_Q1.txt",
+          "job": "holdout-jobs/PLATO_REPUBLIC_Q1.job.json"
+        },
+        {
+          "excerpt_id": "PLATO_REPUBLIC_Q2",
+          "position_fraction": 0.5,
+          "word_start": 107542,
+          "word_end": 108742,
+          "word_count": 1200,
+          "sha256": "da740f1835354d71f4e386a93fb4a6885fa0598cd85f06ee526c794a68c85e8a",
+          "file": "holdout-sources/PLATO_REPUBLIC_Q2.txt",
+          "job": "holdout-jobs/PLATO_REPUBLIC_Q2.job.json"
+        },
+        {
+          "excerpt_id": "PLATO_REPUBLIC_Q3",
+          "position_fraction": 0.75,
+          "word_start": 161613,
+          "word_end": 162813,
+          "word_count": 1200,
+          "sha256": "ea691ce846eae7e8427d125fee5c614c15dbed5639ca9d0746856bdf605adc2b",
+          "file": "holdout-sources/PLATO_REPUBLIC_Q3.txt",
+          "job": "holdout-jobs/PLATO_REPUBLIC_Q3.job.json"
+        }
+      ]
+    },
+    {
+      "source_id": "KANT_CPR",
+      "author": "Immanuel Kant",
+      "title": "The Critique of Pure Reason",
+      "year": "1781/1787",
+      "ebook_id": 4280,
+      "source_url": "https://www.gutenberg.org/ebooks/4280",
+      "raw_sha256": "9e44b1bc6042da4aeb669d4f3f585037a5488a2908e7ec225f9431c43f6720fc",
+      "clean_sha256": "dd7ea0e9efb0691ea640e5d3d13b38e81a62870e11570dd320dc577fc9ba7db2",
+      "clean_word_count": 209061,
+      "excerpts": [
+        {
+          "excerpt_id": "KANT_CPR_Q1",
+          "position_fraction": 0.25,
+          "word_start": 51665,
+          "word_end": 52865,
+          "word_count": 1200,
+          "sha256": "baa4d78db69fb66b009b04942a02bb8e9cd8c35589dc5a02936c48df0734532f",
+          "file": "holdout-sources/KANT_CPR_Q1.txt",
+          "job": "holdout-jobs/KANT_CPR_Q1.job.json"
+        },
+        {
+          "excerpt_id": "KANT_CPR_Q2",
+          "position_fraction": 0.5,
+          "word_start": 103930,
+          "word_end": 105130,
+          "word_count": 1200,
+          "sha256": "3210e339a9c2bbd60168dc77a72dcf5be73e64a0dbdbe187c83399d6677db701",
+          "file": "holdout-sources/KANT_CPR_Q2.txt",
+          "job": "holdout-jobs/KANT_CPR_Q2.job.json"
+        },
+        {
+          "excerpt_id": "KANT_CPR_Q3",
+          "position_fraction": 0.75,
+          "word_start": 156195,
+          "word_end": 157395,
+          "word_count": 1200,
+          "sha256": "9b0c302624ee1245e17ad852e15e5b28d94481250704632f0d2934fd773cb8c1",
+          "file": "holdout-sources/KANT_CPR_Q3.txt",
+          "job": "holdout-jobs/KANT_CPR_Q3.job.json"
+        }
+      ]
+    },
+    {
+      "source_id": "NIETZSCHE_BGE",
+      "author": "Friedrich Nietzsche",
+      "title": "Beyond Good and Evil",
+      "year": "1886",
+      "ebook_id": 4363,
+      "source_url": "https://www.gutenberg.org/ebooks/4363",
+      "raw_sha256": "ac99e74a7913004c2e94289dae28e6b03b6ad96c97f2fd5f72ce29caff0b4888",
+      "clean_sha256": "8d8144aff846eb06ec05e4a5ce36085027993f8ee69d6f4826e84f218b285300",
+      "clean_word_count": 62678,
+      "excerpts": [
+        {
+          "excerpt_id": "NIETZSCHE_BGE_Q1",
+          "position_fraction": 0.25,
+          "word_start": 15069,
+          "word_end": 16269,
+          "word_count": 1200,
+          "sha256": "1632d61671b15cce0dab3b0edcbf34bfc753fcc2cf469654113afe407088935b",
+          "file": "holdout-sources/NIETZSCHE_BGE_Q1.txt",
+          "job": "holdout-jobs/NIETZSCHE_BGE_Q1.job.json"
+        },
+        {
+          "excerpt_id": "NIETZSCHE_BGE_Q2",
+          "position_fraction": 0.5,
+          "word_start": 30739,
+          "word_end": 31939,
+          "word_count": 1200,
+          "sha256": "b059ecf939d46efbdabbe4eecae1f28a2a692c1eefa5b554bffc16c98a0dc13d",
+          "file": "holdout-sources/NIETZSCHE_BGE_Q2.txt",
+          "job": "holdout-jobs/NIETZSCHE_BGE_Q2.job.json"
+        },
+        {
+          "excerpt_id": "NIETZSCHE_BGE_Q3",
+          "position_fraction": 0.75,
+          "word_start": 46408,
+          "word_end": 47608,
+          "word_count": 1200,
+          "sha256": "9156e01e311dd38342bc9445d22c62b7e5603c0122336a95eea89831bfe1bf9f",
+          "file": "holdout-sources/NIETZSCHE_BGE_Q3.txt",
+          "job": "holdout-jobs/NIETZSCHE_BGE_Q3.job.json"
+        }
+      ]
+    },
+    {
+      "source_id": "HUME_EHU",
+      "author": "David Hume",
+      "title": "An Enquiry Concerning Human Understanding",
+      "year": "1748",
+      "ebook_id": 9662,
+      "source_url": "https://www.gutenberg.org/ebooks/9662",
+      "raw_sha256": "024eb4c26ddd09931cd72dd82096fcfa4a04e67d2f48d16249634f47a091d71d",
+      "clean_sha256": "15e59984b1508be3da9a0da6abc2cc4be5e48d5cd9bd53edca14677128d4e462",
+      "clean_word_count": 57808,
+      "excerpts": [
+        {
+          "excerpt_id": "HUME_EHU_Q1",
+          "position_fraction": 0.25,
+          "word_start": 13852,
+          "word_end": 15052,
+          "word_count": 1200,
+          "sha256": "5260812c697ec0da7a388ecd4ca45b72250d7bf2fe90289d6bf71f5e89638fea",
+          "file": "holdout-sources/HUME_EHU_Q1.txt",
+          "job": "holdout-jobs/HUME_EHU_Q1.job.json"
+        },
+        {
+          "excerpt_id": "HUME_EHU_Q2",
+          "position_fraction": 0.5,
+          "word_start": 28304,
+          "word_end": 29504,
+          "word_count": 1200,
+          "sha256": "df103051a0bf9a852117cec995b1f4c40fea90a92608f8ea4279cc24b4af4657",
+          "file": "holdout-sources/HUME_EHU_Q2.txt",
+          "job": "holdout-jobs/HUME_EHU_Q2.job.json"
+        },
+        {
+          "excerpt_id": "HUME_EHU_Q3",
+          "position_fraction": 0.75,
+          "word_start": 42756,
+          "word_end": 43956,
+          "word_count": 1200,
+          "sha256": "326e21f0c59c9e2c7ec73bd670a3b43e1457e03366b06033583be2595913f350",
+          "file": "holdout-sources/HUME_EHU_Q3.txt",
+          "job": "holdout-jobs/HUME_EHU_Q3.job.json"
+        }
+      ]
+    },
+    {
+      "source_id": "BERKELEY_PHK",
+      "author": "George Berkeley",
+      "title": "A Treatise Concerning the Principles of Human Knowledge",
+      "year": "1710",
+      "ebook_id": 4723,
+      "source_url": "https://www.gutenberg.org/ebooks/4723",
+      "raw_sha256": "ba577d0e3437d92faeb6fedc01715e4703ee8ae3f94b4ccb0eb5c772508c3f93",
+      "clean_sha256": "ec780704b3c59d88f21f7780dbc8ea1354da4e1f6b0d6d39d6535b11d3c156ac",
+      "clean_word_count": 37206,
+      "excerpts": [
+        {
+          "excerpt_id": "BERKELEY_PHK_Q1",
+          "position_fraction": 0.25,
+          "word_start": 8701,
+          "word_end": 9901,
+          "word_count": 1200,
+          "sha256": "935ecba8ecdaf4f3790b883922cdf61ac92288caf4b02aabdfd9b3d94ca545ab",
+          "file": "holdout-sources/BERKELEY_PHK_Q1.txt",
+          "job": "holdout-jobs/BERKELEY_PHK_Q1.job.json"
+        },
+        {
+          "excerpt_id": "BERKELEY_PHK_Q2",
+          "position_fraction": 0.5,
+          "word_start": 18003,
+          "word_end": 19203,
+          "word_count": 1200,
+          "sha256": "d49a3326037b2f98b9838cf96b3d5c7e1b01d0cb02e8c27f66c8a02b2346b73d",
+          "file": "holdout-sources/BERKELEY_PHK_Q2.txt",
+          "job": "holdout-jobs/BERKELEY_PHK_Q2.job.json"
+        },
+        {
+          "excerpt_id": "BERKELEY_PHK_Q3",
+          "position_fraction": 0.75,
+          "word_start": 27304,
+          "word_end": 28504,
+          "word_count": 1200,
+          "sha256": "e87d33a617154955cd0f97d6ea690ba35e28d6a0a10aa6366cf3db4fb1779047",
+          "file": "holdout-sources/BERKELEY_PHK_Q3.txt",
+          "job": "holdout-jobs/BERKELEY_PHK_Q3.job.json"
+        }
+      ]
+    },
+    {
+      "source_id": "LOCKE_EHU",
+      "author": "John Locke",
+      "title": "An Essay Concerning Humane Understanding, Volume I",
+      "year": "1689",
+      "ebook_id": 10615,
+      "source_url": "https://www.gutenberg.org/ebooks/10615",
+      "raw_sha256": "a12707722f72598adffbe3a211403ff9351b3c24db44d009c5debefb10cbc5e2",
+      "clean_sha256": "9f55a3b0c52fa6d88b361ecf7db31d4956fc7d6b7950b6d8646a0f8fd185b252",
+      "clean_word_count": 149762,
+      "excerpts": [
+        {
+          "excerpt_id": "LOCKE_EHU_Q1",
+          "position_fraction": 0.25,
+          "word_start": 36840,
+          "word_end": 38040,
+          "word_count": 1200,
+          "sha256": "ed969b81c8ee8831669fc2c69cfc4a9174f58259e366ba61e8129552f34f2be0",
+          "file": "holdout-sources/LOCKE_EHU_Q1.txt",
+          "job": "holdout-jobs/LOCKE_EHU_Q1.job.json"
+        },
+        {
+          "excerpt_id": "LOCKE_EHU_Q2",
+          "position_fraction": 0.5,
+          "word_start": 74281,
+          "word_end": 75481,
+          "word_count": 1200,
+          "sha256": "378a010ea3282c4576e072afe6f68d4f51deab8aa8f840d4b77512b509eeaa86",
+          "file": "holdout-sources/LOCKE_EHU_Q2.txt",
+          "job": "holdout-jobs/LOCKE_EHU_Q2.job.json"
+        },
+        {
+          "excerpt_id": "LOCKE_EHU_Q3",
+          "position_fraction": 0.75,
+          "word_start": 111721,
+          "word_end": 112921,
+          "word_count": 1200,
+          "sha256": "4d705ae562fabe33172be40827c6f66b2061d73ce955606a7a3589e7dc477d26",
+          "file": "holdout-sources/LOCKE_EHU_Q3.txt",
+          "job": "holdout-jobs/LOCKE_EHU_Q3.job.json"
+        }
+      ]
+    },
+    {
+      "source_id": "MILL_LIBERTY",
+      "author": "John Stuart Mill",
+      "title": "On Liberty",
+      "year": "1859",
+      "ebook_id": 34901,
+      "source_url": "https://www.gutenberg.org/ebooks/34901",
+      "raw_sha256": "04826b7e2d79c36301db792ceb74c7caa563723f3c521313957ee703206440f4",
+      "clean_sha256": "eb510c2b168977b9ba286e9eaabf6bd89a68925188209a74f76e1b3f0241bea9",
+      "clean_word_count": 52054,
+      "excerpts": [
+        {
+          "excerpt_id": "MILL_LIBERTY_Q1",
+          "position_fraction": 0.25,
+          "word_start": 12413,
+          "word_end": 13613,
+          "word_count": 1200,
+          "sha256": "067df59e25fed972069ba5a06fc31a7dccdb7f70636cc9d8c38dda1689497eb7",
+          "file": "holdout-sources/MILL_LIBERTY_Q1.txt",
+          "job": "holdout-jobs/MILL_LIBERTY_Q1.job.json"
+        },
+        {
+          "excerpt_id": "MILL_LIBERTY_Q2",
+          "position_fraction": 0.5,
+          "word_start": 25427,
+          "word_end": 26627,
+          "word_count": 1200,
+          "sha256": "72a5091cadd563c8fdf49ceada10ce234b8ab4c1bce9061a711383131bfe2d64",
+          "file": "holdout-sources/MILL_LIBERTY_Q2.txt",
+          "job": "holdout-jobs/MILL_LIBERTY_Q2.job.json"
+        },
+        {
+          "excerpt_id": "MILL_LIBERTY_Q3",
+          "position_fraction": 0.75,
+          "word_start": 38440,
+          "word_end": 39640,
+          "word_count": 1200,
+          "sha256": "1320524c77e6ce671018e31e119e2fe756793d94a574db1c15132dec7ba4da53",
+          "file": "holdout-sources/MILL_LIBERTY_Q3.txt",
+          "job": "holdout-jobs/MILL_LIBERTY_Q3.job.json"
+        }
+      ]
+    },
+    {
+      "source_id": "ROUSSEAU_SOCIAL_CONTRACT",
+      "author": "Jean-Jacques Rousseau",
+      "title": "The Social Contract & Discourses",
+      "year": "1762",
+      "ebook_id": 46333,
+      "source_url": "https://www.gutenberg.org/ebooks/46333",
+      "raw_sha256": "65b006fe7288b2dd82c7c32f5b4c0fdd392407c3bc04ae8c822ea8f8723603de",
+      "clean_sha256": "62e3c54e997359407913b678f27078d1f8ca6edcf4cc6de47fb9377c4668d08e",
+      "clean_word_count": 123505,
+      "excerpts": [
+        {
+          "excerpt_id": "ROUSSEAU_SOCIAL_CONTRACT_Q1",
+          "position_fraction": 0.25,
+          "word_start": 30276,
+          "word_end": 31476,
+          "word_count": 1200,
+          "sha256": "025e338b9cf8e12611e456be19d52619f4a82ce7c03af37d56736e786b712a55",
+          "file": "holdout-sources/ROUSSEAU_SOCIAL_CONTRACT_Q1.txt",
+          "job": "holdout-jobs/ROUSSEAU_SOCIAL_CONTRACT_Q1.job.json"
+        },
+        {
+          "excerpt_id": "ROUSSEAU_SOCIAL_CONTRACT_Q2",
+          "position_fraction": 0.5,
+          "word_start": 61152,
+          "word_end": 62352,
+          "word_count": 1200,
+          "sha256": "05a1298db0b092770421767ad16eab3a156fc3dc6af8a065318d73c38d24d1a4",
+          "file": "holdout-sources/ROUSSEAU_SOCIAL_CONTRACT_Q2.txt",
+          "job": "holdout-jobs/ROUSSEAU_SOCIAL_CONTRACT_Q2.job.json"
+        },
+        {
+          "excerpt_id": "ROUSSEAU_SOCIAL_CONTRACT_Q3",
+          "position_fraction": 0.75,
+          "word_start": 92028,
+          "word_end": 93228,
+          "word_count": 1200,
+          "sha256": "969f2ed7e967218841f5bfc1af56075d3248ae3314a607e7ef588d79e9524d9a",
+          "file": "holdout-sources/ROUSSEAU_SOCIAL_CONTRACT_Q3.txt",
+          "job": "holdout-jobs/ROUSSEAU_SOCIAL_CONTRACT_Q3.job.json"
+        }
+      ]
+    },
+    {
+      "source_id": "HOBBES_LEVIATHAN",
+      "author": "Thomas Hobbes",
+      "title": "Leviathan",
+      "year": "1651",
+      "ebook_id": 3207,
+      "source_url": "https://www.gutenberg.org/ebooks/3207",
+      "raw_sha256": "3de1e492641d939567a8b0de827fb13e1ad992324f9ac8b204f60475009b7294",
+      "clean_sha256": "90a5fbedc6cbad66dd979c757129800bf2d80e3ad1d2e409df1aa980daa62a6d",
+      "clean_word_count": 213346,
+      "excerpts": [
+        {
+          "excerpt_id": "HOBBES_LEVIATHAN_Q1",
+          "position_fraction": 0.25,
+          "word_start": 52736,
+          "word_end": 53936,
+          "word_count": 1200,
+          "sha256": "e628742f64e5593e40c056f88d7271bad89e22644cc88db040f0eb086b1f0802",
+          "file": "holdout-sources/HOBBES_LEVIATHAN_Q1.txt",
+          "job": "holdout-jobs/HOBBES_LEVIATHAN_Q1.job.json"
+        },
+        {
+          "excerpt_id": "HOBBES_LEVIATHAN_Q2",
+          "position_fraction": 0.5,
+          "word_start": 106073,
+          "word_end": 107273,
+          "word_count": 1200,
+          "sha256": "5d21ff76365b873ffb07af7c515207ec4ef2e7ff5e4bc14c5545d6d89e459635",
+          "file": "holdout-sources/HOBBES_LEVIATHAN_Q2.txt",
+          "job": "holdout-jobs/HOBBES_LEVIATHAN_Q2.job.json"
+        },
+        {
+          "excerpt_id": "HOBBES_LEVIATHAN_Q3",
+          "position_fraction": 0.75,
+          "word_start": 159409,
+          "word_end": 160609,
+          "word_count": 1200,
+          "sha256": "54b2095d992362354b3c1a674eab13446e3b8f5922c87e77e00d95e23864343e",
+          "file": "holdout-sources/HOBBES_LEVIATHAN_Q3.txt",
+          "job": "holdout-jobs/HOBBES_LEVIATHAN_Q3.job.json"
+        }
+      ]
+    }
+  ]
+}

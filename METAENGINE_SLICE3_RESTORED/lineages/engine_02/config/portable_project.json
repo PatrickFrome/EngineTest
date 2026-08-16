@@ -1,0 +1,429 @@
+{
+  "portable_project_version": "DAE-AI-CHAT-1.0",
+  "package_version": "0.10.0-alpha.1",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T20:14:45+03:00",
+  "title": "Destruktion 4.0 — portable AI-chat philosophical analyst",
+  "entrypoint": "00_START_HERE.md",
+  "agent_instructions": "AGENTS.md",
+  "default_language": "ru",
+  "supported_inputs": [
+    "DOCX",
+    "PDF",
+    "TXT",
+    "MD",
+    "JSON",
+    "ZIP_WITH_READABLE_FILES"
+  ],
+  "execution_profiles": {
+    "EXECUTION_AVAILABLE": {
+      "available_when": "The chat can unpack files, run Node.js 20+ and create local outputs.",
+      "procedure": [
+        "Read the bootstrap and manifest in required order.",
+        "Run portable-check before analyzing a new work.",
+        "Use the real refinery, ETY, living and expert commands.",
+        "Return both philosophical outputs and execution provenance."
+      ],
+      "provenance_label": "ENGINE_EXECUTED",
+      "claim_ceiling": "RUN_BOUND_ENGINE_OUTPUT_NOT_PHILOSOPHICAL_TRUTH_OR_EXTERNAL_VALIDATION"
+    },
+    "DOCUMENT_ONLY": {
+      "available_when": "The chat can read attachments but cannot execute Node.js or create a working directory.",
+      "procedure": [
+        "Read the self-contained document-only protocol.",
+        "Apply ETY-MIN to every central concept and ETY-FULL only when a load trigger fires.",
+        "Select nonlinear operations by the tensions of the work rather than simulating a fixed pipeline.",
+        "Mark every result as language-model execution and expose missing source evidence."
+      ],
+      "provenance_label": "DOCUMENT_ONLY_LANGUAGE_MODEL_EXECUTION",
+      "claim_ceiling": "TRACEABLE_LANGUAGE_MODEL_RECONSTRUCTION_NOT_ENGINE_EXECUTION_OR_EXTERNAL_VALIDATION"
+    }
+  },
+  "required_read_order": [
+    "00_START_HERE.md",
+    "PORTABLE_CHAT_PROJECT.md",
+    "PORTABLE_PROJECT.json",
+    "portable/DOCUMENT_ONLY_PROTOCOL.md",
+    "portable/PROJECT_STATE.md",
+    "portable/USER_COMMANDS.md"
+  ],
+  "required_asset_paths": [
+    {
+      "path": "00_START_HERE.md",
+      "role": "VISIBLE_BOOTSTRAP"
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "AGENTIC_RUNTIME_INSTRUCTIONS"
+    },
+    {
+      "path": "PORTABLE_CHAT_PROJECT.md",
+      "role": "SELF_CONTAINED_CHAT_ENTRYPOINT"
+    },
+    {
+      "path": "portable/DOCUMENT_ONLY_PROTOCOL.md",
+      "role": "NO_RUNTIME_ANALYSIS_CONTRACT"
+    },
+    {
+      "path": "portable/PROJECT_STATE.md",
+      "role": "CURRENT_PROJECT_STATE"
+    },
+    {
+      "path": "portable/USER_COMMANDS.md",
+      "role": "NATURAL_LANGUAGE_ROUTER"
+    },
+    {
+      "path": "README.md",
+      "role": "ENGINE_DOCUMENTATION"
+    },
+    {
+      "path": "PROJECT_DEVELOPMENT_REPORT_0.8.md",
+      "role": "DEVELOPMENT_ANALYSIS"
+    },
+    {
+      "path": "config/portable_project.json",
+      "role": "PORTABLE_BUILD_SOURCE"
+    },
+    {
+      "path": "config/etymology_registry.json",
+      "role": "ETYMOLOGY_REGISTRY"
+    },
+    {
+      "path": "config/living_operator_registry.json",
+      "role": "NONLINEAR_OPERATOR_REGISTRY"
+    },
+    {
+      "path": "config/living_topic_lenses.json",
+      "role": "TOPIC_LENSES"
+    },
+    {
+      "path": "docs/ETYMOLOGY_PROTOCOL.md",
+      "role": "ETY_PROTOCOL"
+    },
+    {
+      "path": "docs/EXPLORATORY_LAYER.md",
+      "role": "LIVING_LAYER_PROTOCOL"
+    },
+    {
+      "path": "docs/PROTOCOL_AUDIT_2X.md",
+      "role": "PROTOCOL_GENEALOGY"
+    },
+    {
+      "path": "schemas/portable_project.schema.json",
+      "role": "PORTABLE_SCHEMA"
+    },
+    {
+      "path": "schemas/etymology_pass.schema.json",
+      "role": "ETY_SCHEMA"
+    },
+    {
+      "path": "schemas/living_analysis.schema.json",
+      "role": "LIVING_SCHEMA"
+    },
+    {
+      "path": "schemas/expert_cycle.schema.json",
+      "role": "EXPERT_SCHEMA"
+    },
+    {
+      "path": "src/portable-project.mjs",
+      "role": "PORTABLE_VALIDATOR"
+    },
+    {
+      "path": "src/etymology.mjs",
+      "role": "ETY_EXECUTOR"
+    },
+    {
+      "path": "src/living-analysis.mjs",
+      "role": "LIVING_EXECUTOR"
+    },
+    {
+      "path": "src/expert-cycle.mjs",
+      "role": "EXPERT_EXECUTOR"
+    },
+    {
+      "path": "bin/destruktion.mjs",
+      "role": "CLI_ENTRYPOINT"
+    },
+    {
+      "path": "package.json",
+      "role": "NODE_PACKAGE"
+    },
+    {
+      "path": "package-lock.json",
+      "role": "DEPENDENCY_FIXITY"
+    },
+    {
+      "path": "experiments/heidegger-ga/user-dossier-ga1-1-2026/living-analysis-0.5/PHILOSOPHICAL_FIELD_NOTE.md",
+      "role": "REFERENCE_LIVING_OUTPUT"
+    },
+    {
+      "path": "experiments/heidegger-ga/user-dossier-ga1-1-2026/living-analysis-0.5/ETYMOLOGICAL_ANALYSIS.md",
+      "role": "REFERENCE_ETY_OUTPUT"
+    },
+    {
+      "path": "experiments/heidegger-ga/user-dossier-ga1-1-2026/expert-cycle-0.5/FINAL_ANALYTICS.md",
+      "role": "REFERENCE_EXPERT_OUTPUT"
+    },
+    {
+      "path": "schemas/hypothesis_bank.schema.json",
+      "role": "HYPOTHESIS_BANK_SCHEMA"
+    },
+    {
+      "path": "src/source-resistance.mjs",
+      "role": "SOURCE_RESISTANCE_DETECTOR"
+    },
+    {
+      "path": "src/structural-validator.mjs",
+      "role": "STRUCTURAL_VALIDATOR_WITH_OFFLINE_FALLBACK"
+    },
+    {
+      "path": "vendor/ajv-compat/2020.mjs",
+      "role": "BUNDLED_OFFLINE_SCHEMA_VALIDATOR_FALLBACK"
+    },
+    {
+      "path": "experiments/heidegger-geviert-0.6/GEVIERT_REGRESSION_REPORT.md",
+      "role": "SOURCE_RESISTANCE_REGRESSION"
+    },
+    {
+      "path": "schemas/operator_regression_manifest.schema.json",
+      "role": "OPERATOR_REGRESSION_MANIFEST_SCHEMA"
+    },
+    {
+      "path": "schemas/operator_regression_result.schema.json",
+      "role": "OPERATOR_REGRESSION_RESULT_SCHEMA"
+    },
+    {
+      "path": "src/operator-regression.mjs",
+      "role": "OPERATOR_EVOLUTION_REGRESSION_EXECUTOR"
+    },
+    {
+      "path": "experiments/cross-corpus-operator-regression-0.7/OPERATOR_REGRESSION_REPORT.md",
+      "role": "CROSS_CORPUS_OPERATOR_REGRESSION"
+    },
+    {
+      "path": "docs/OPERATOR_COMPETITION.md",
+      "role": "OPERATOR_COMPETITION_PROTOCOL"
+    },
+    {
+      "path": "schemas/operator_competition_manifest.schema.json",
+      "role": "OPERATOR_COMPETITION_MANIFEST_SCHEMA"
+    },
+    {
+      "path": "schemas/operator_competition_result.schema.json",
+      "role": "OPERATOR_COMPETITION_RESULT_SCHEMA"
+    },
+    {
+      "path": "src/operator-competition.mjs",
+      "role": "LOCAL_OPERATOR_ECOLOGY_EXECUTOR"
+    },
+    {
+      "path": "experiments/operator-competition-0.8/run/OPERATOR_COMPETITION_REPORT.md",
+      "role": "OPERATOR_COMPETITION_REGRESSION"
+    },
+    {
+      "path": "config/living_operator_registry.declarative.json",
+      "role": "EXECUTABLE_DECLARATIVE_OPERATOR_REGISTRY"
+    },
+    {
+      "path": "config/operator_mutation_policy.json",
+      "role": "OPERATOR_MUTATION_POLICY"
+    },
+    {
+      "path": "schemas/operator_delta.schema.json",
+      "role": "OPERATOR_DELTA_SCHEMA"
+    },
+    {
+      "path": "schemas/generative_gesture.schema.json",
+      "role": "DECLARATIVE_GESTURE_SCHEMA"
+    },
+    {
+      "path": "src/generative-gesture-runtime.mjs",
+      "role": "DECLARATIVE_GESTURE_RUNTIME"
+    },
+    {
+      "path": "mutation/operator-mutation-engine.mjs",
+      "role": "EXECUTABLE_OPERATOR_MUTATION_GATE"
+    },
+    {
+      "path": "PROJECT_DEVELOPMENT_REPORT_0.9.md",
+      "role": "DEVELOPMENT_ANALYSIS"
+    },
+    {
+      "path": "experiments/operator-evolution-0.9/OPERATOR_EVOLUTION_0.9_REPORT.md",
+      "role": "EXECUTABLE_OPERATOR_EVOLUTION_REGRESSION"
+    },
+    {
+      "path": "experiments/operator-evolution-0.9/mutation/mutation_receipt.json",
+      "role": "OPERATOR_MUTATION_RECEIPT"
+    },
+    {
+      "path": "experiments/operator-evolution-0.9/mutation/candidate_living_operator_registry.json",
+      "role": "CANDIDATE_OPERATOR_REGISTRY"
+    },
+    {
+      "path": "experiments/operator-evolution-0.9/mutation/rollback_target.json",
+      "role": "OPERATOR_MUTATION_ROLLBACK"
+    },
+    {
+      "path": "experiments/operator-evolution-0.9/mutant-living/living_analysis.json",
+      "role": "MUTANT_LIVING_ANALYSIS"
+    },
+    {
+      "path": "PROJECT_DEVELOPMENT_REPORT_0.10.md",
+      "role": "DEVELOPMENT_ANALYSIS"
+    },
+    {
+      "path": "docs/OPEN_SET_HERMENEUTIC_DISCOVERY.md",
+      "role": "OPEN_SET_DISCOVERY_PROTOCOL"
+    },
+    {
+      "path": "src/open-set-discovery.mjs",
+      "role": "OPEN_SET_DISCOVERY_EXECUTOR"
+    },
+    {
+      "path": "src/micro-local-ecology.mjs",
+      "role": "MICRO_LOCAL_OPERATOR_ROUTER"
+    },
+    {
+      "path": "schemas/micro_local_ecology_result.schema.json",
+      "role": "MICRO_LOCAL_ECOLOGY_SCHEMA"
+    },
+    {
+      "path": "fixtures/mutation/open-set-add-family.pass.json",
+      "role": "OPEN_SET_OPERATOR_BIRTH_FIXTURE"
+    },
+    {
+      "path": "experiments/open-set-hermeneutics-0.10/OPEN_SET_0.10_REPORT.md",
+      "role": "OPEN_SET_CONTROLLED_REGRESSION"
+    },
+    {
+      "path": "experiments/open-set-hermeneutics-0.10/micro_local_ecology_result.json",
+      "role": "MICRO_LOCAL_ECOLOGY_REGRESSION"
+    },
+    {
+      "path": "experiments/open-set-hermeneutics-0.10/mutation/mutation_receipt.json",
+      "role": "OPEN_SET_ADD_OPERATOR_RECEIPT"
+    },
+    {
+      "path": "experiments/open-set-hermeneutics-0.10/mutation/candidate_living_operator_registry.json",
+      "role": "OPEN_SET_CANDIDATE_REGISTRY"
+    },
+    {
+      "path": "scripts/augment-release-open-set-0.10.mjs",
+      "role": "OPEN_SET_RELEASE_PROVENANCE_AUGMENTER"
+    }
+  ],
+  "runtime_commands": {
+    "install": "npm install",
+    "verify": "node ./bin/destruktion.mjs portable-check",
+    "project_card": "node ./bin/destruktion.mjs portable-card",
+    "living": "node ./bin/destruktion.mjs living-cycle ./refinery-output --seed portable-chat --out ./living-output",
+    "expert": "node ./bin/destruktion.mjs expert-cycle ./refinery-output --out ./expert-output",
+    "operator_competition": "node ./bin/destruktion.mjs operator-competition ./experiments/operator-competition-0.8/operator_competition_manifest.json --out ./operator-competition-output",
+    "micro_local_ecology": "node ./bin/destruktion.mjs micro-local-ecology ./refinery-output/hypothesis_bank.json --out ./micro-local-output"
+  },
+  "routing": {
+    "FULL_ANALYSIS": {
+      "intent_examples": [
+        "прогони работу через проект",
+        "проведи полный анализ",
+        "дай финальную аналитику"
+      ],
+      "mode": "ETY_PLUS_LIVING_PLUS_EXPERT",
+      "primary_output": "PHILOSOPHICAL_FIELD_NOTE_AND_FINAL_ANALYTICS"
+    },
+    "LIVING_ANALYSIS": {
+      "intent_examples": [
+        "сделай анализ живее",
+        "найди неожиданное",
+        "проведи генеалогический анализ"
+      ],
+      "mode": "D3_EXPLORATORY",
+      "primary_output": "PHILOSOPHICAL_FIELD_NOTE"
+    },
+    "ETYMOLOGY": {
+      "intent_examples": [
+        "разбери этимологию",
+        "добавь этимологический протокол",
+        "проверь перевод понятия"
+      ],
+      "mode": "ETY_0_2",
+      "primary_output": "ETYMOLOGICAL_ANALYSIS"
+    },
+    "FINAL_EXPERT": {
+      "intent_examples": [
+        "сделай окончательный вывод",
+        "выдай финальную аналитику",
+        "оцени тезисы"
+      ],
+      "mode": "RUN_BOUND_EXPERT_ADJUDICATION",
+      "primary_output": "FINAL_ANALYTICS"
+    },
+    "PROJECT_DEVELOPMENT": {
+      "intent_examples": [
+        "продолжи развитие проекта",
+        "перейдём к следующему этапу",
+        "сделай проект живее"
+      ],
+      "mode": "SELF_DESTRUCTION_AND_OPERATOR_MUTATION_DESIGN",
+      "primary_output": "PROJECT_DELTA_AND_REGRESSION_CONTRACT"
+    },
+    "PROJECT_AUDIT": {
+      "intent_examples": [
+        "проанализируй проект",
+        "найди слабые места",
+        "проверь протоколы"
+      ],
+      "mode": "ARCHITECTURE_AND_PROTOCOL_AUDIT",
+      "primary_output": "AUDIT_WITH_REVISION_TRIGGERS"
+    }
+  },
+  "invariants": {
+    "core_frozen": true,
+    "mandatory_etymology": true,
+    "mandatory_etymological_significance": false,
+    "discovery_is_justification": false,
+    "active_move_requires_gain": true,
+    "source_claims_require_locators": true,
+    "document_only_may_claim_code_execution": false
+  },
+  "output_contract": {
+    "mandatory_etymology": true,
+    "primary_living_output": "PHILOSOPHICAL_FIELD_NOTE",
+    "final_expert_output": "FINAL_ANALYTICS",
+    "execution_provenance_required": true,
+    "source_limit_required": true,
+    "self_destruction_required": true
+  },
+  "current_state": {
+    "protocol_families": 40,
+    "living_conditional_families": 34,
+    "generative_gestures": 7,
+    "tests": 80,
+    "sample_run": {
+      "regression": "HEIDEGGER_GEVIERT_0.6",
+      "constellations": 12,
+      "nodes": 347,
+      "edges": 538,
+      "cross_constellation_edges": 57,
+      "ety_cards": 26,
+      "ety_full": 26,
+      "unresolved_ety_fields": 439,
+      "source_resistance_terms": 12,
+      "method_mutations": 1
+    },
+    "source_resistance": "IMPLEMENTED_SOURCE_FORCED_WITH_OPEN_SET_RIVAL_DISCOVERY",
+    "experimental_method_mutation": "EXECUTABLE_DECLARATIVE_WITH_ADD_OPERATOR_ROLLBACK_CANDIDATE_REGISTRY_REGRESSION_AND_LOCAL_COMPETITION",
+    "operator_competition": "IMPLEMENTED_CORPUS_LOCAL_SELECTION_COMPOSITION_UNRESOLVED_AND_ABSTENTION",
+    "open_set_operator_discovery": "IMPLEMENTED_UNKNOWN_OPERATOR_FAMILY_WITH_SOURCE_SIGNATURE",
+    "micro_local_ecology": "IMPLEMENTED_ARGUMENT_WINDOW_ROUTING_WITH_KNOWN_OPEN_SET_RIVALS_AND_ABSTENTION"
+  },
+  "excluded_from_archive": [
+    "node_modules",
+    ".git",
+    "raw user attachments",
+    "credentials and environment files",
+    "previous portable ZIP files"
+  ],
+  "claim_ceiling": "PORTABLE_AUTOMATED_OR_DOCUMENT_ONLY_PHILOSOPHICAL_ANALYSIS_WITH_EXPLICIT_EXECUTION_PROVENANCE_NOT_TRUTH_OR_EXTERNAL_VALIDATION"
+}

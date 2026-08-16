@@ -1,0 +1,23 @@
+{
+  "artifact_id": "V38-CANONICAL-2026-08-09",
+  "title": "Вопрос о бытии и русский язык — каноническая редакция v3.8",
+  "status": "SOURCE_ANALYZED_PROTOCOLS_INTEGRATED",
+  "document": {
+    "path": "vendor/v38/source_document/Вопрос_о_бытии_и_русский_язык_каноническая_редакция_v3.8 (1).docx",
+    "sha256": "8d9ae11ea434a2a8e522bd18cf1b351434d20c890c44ce8a49f2d71aeec425c7"
+  },
+  "canonical_extract": {
+    "path": "vendor/v38/extract/canonical_v3.8.md",
+    "sha256": "e6ed2875982862cd9fb3aafd98ff4a3faba8c936e1893412ba7f265d95e65466",
+    "word_count": 220177,
+    "line_count": 34150
+  },
+  "protocol_audit": {
+    "explicit_control_heading_occurrences": 123,
+    "current_occurrences": 95,
+    "archival_occurrences": 22,
+    "superseded_or_retrospective_occurrences": 6,
+    "canonicalized_protocol_families": 40,
+    "claim_ceiling": "HEADING_INVENTORY_IS_EXHAUSTIVE_FOR_EXPLICIT_PROTOCOL_CONTROLS; FAMILY_EVALUATION_REMAINS_ANALYTIC"
+  }
+}

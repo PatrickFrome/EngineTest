@@ -1,0 +1,75 @@
+{
+  "output_dir": "/mnt/data/d4next/cross_corpus_run/SPINOZA/refinery",
+  "report": {
+    "report_version": "DAE-CORPUS-REFINERY-0.1",
+    "engine_version": "0.7.0-alpha.1",
+    "generated_at": "2026-08-11T16:15:57Z",
+    "source_id": "LOCAL-SHA256-4D740C619CBC4A31FA70E1AC2F58258C35B023BD4D2735B03984C17F6BB38539",
+    "artifact_sha256": "ef0629995019ce45b8163a1e5f2e7a8a710b0defaaa78edfb696b781c08d1d90",
+    "page_run_mode": "TRANSIENT_FRESH_PAGE_RUN",
+    "counts": {
+      "ooxml_segments": 19,
+      "renderer_segments": 19,
+      "argument_segments": 7,
+      "claim_ledger_entries": 6,
+      "formulas": 0,
+      "exact_duplicate_groups": 0,
+      "near_duplicate_groups": 0,
+      "archived_tool_logs": 0,
+      "layers": {
+        "PROJECT_CLAIM": 2,
+        "RECONSTRUCTION": 3,
+        "RIVAL_OBJECTION": 3,
+        "SOURCE": 7,
+        "UNRESOLVED": 4
+      },
+      "hypotheses": 3,
+      "case_matrices": 0
+    },
+    "validation": {
+      "total_errors": 0,
+      "schemas_checked": 5,
+      "claim_ledger_lines_checked": 6
+    },
+    "gates": {
+      "corpus_preservation": "PASS",
+      "source_resolution": "SUSPEND",
+      "canonical_argument": "SUSPEND",
+      "hypothesis_use": "REVIEW"
+    },
+    "output_contract": {
+      "source_text_included": false,
+      "docx_copied": false,
+      "rendered_pdf_included": false,
+      "extracted_text_included": false,
+      "deleted_segments": 0
+    },
+    "claim_ceiling": "CORPUS_NORMALIZATION_AND_REVIEW_ROUTING_ONLY_EXTERNAL_SEMANTIC_VALIDATION_PENDING"
+  },
+  "claim_ledger_summary": {
+    "ledger_version": "DAE-CLAIM-LEDGER-SUMMARY-1.0",
+    "source_id": "LOCAL-SHA256-4D740C619CBC4A31FA70E1AC2F58258C35B023BD4D2735B03984C17F6BB38539",
+    "entry_count": 6,
+    "by_origin_layer": {
+      "PROJECT_CLAIM": 1,
+      "RECONSTRUCTION": 1,
+      "RIVAL_OBJECTION": 2,
+      "SOURCE": 2
+    },
+    "by_claim_type": {
+      "OBJECTION": 2,
+      "PROJECT_ASSERTION": 1,
+      "RECONSTRUCTION": 1,
+      "SOURCE_PASSAGE": 2
+    },
+    "by_scale": {
+      "LOCAL": 6
+    },
+    "by_status": {
+      "UNADJUDICATED": 6
+    },
+    "apb_reconstructed": 0,
+    "strongest_rival_attested": 0,
+    "claim_ceiling": "QUEUE_STATISTICS_ONLY_NOT_ARGUMENT_OR_TRUTH_COUNTS"
+  }
+}

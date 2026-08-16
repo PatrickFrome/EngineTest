@@ -1,0 +1,12 @@
+{
+  "command": "python -m pytest tests/devfabric/test_development_review.py tests/devfabric/test_development_gate.py -q",
+  "completed_step_commit": "9c92733b9b57c9b4182783958a9e3a949f065367",
+  "evidence_hash": "58e807e7d3ce7847cde413d7b6edb4b9792a37f405559f9a61565970d72d4a0b",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "PYTEST_FOCUSED",
+  "observed": {
+    "failed": 0,
+    "passed": 15
+  }
+}

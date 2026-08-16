@@ -1,0 +1,14 @@
+{
+  "command": "verify restored source against metaengine_slice1_verify_control.zip manifest",
+  "completed_step_commit": "73a3f4aab2dc18997db495d657aab5185ffc6958",
+  "evidence_hash": "00543cf4b5a98dfd85c118204837ba4f516e289ad39b492bfbc11796893409df",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "CONTROL_SOURCE_MATCH",
+  "observed": {
+    "bad": 0,
+    "file_count": 415,
+    "missing": 0,
+    "payload_root_sha256": "0abd30b3534dee8e78afc867cae6f6da7c2411a2146c6afc9c7c5015f57877f9"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/etymology_pass.schema.json",
+  "title": "Mandatory etymological-semantic protocol pass",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["pass_version", "protocol_version", "engine_version", "generated_at", "run_id", "source", "registry", "cards", "coverage", "output_contract", "claim_ceiling"],
+  "properties": {
+    "pass_version": {"const": "DAE-ETYMOLOGY-PASS-1.0"},
+    "protocol_version": {"const": "ETY-0.2"},
+    "engine_version": {"type": "string", "minLength": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "run_id": {"type": "string", "pattern": "^ETY-[A-Z0-9_-]+-[A-F0-9]{12}$"},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "artifact_sha256", "hypothesis_bank_sha256", "raw_source_included"],
+      "properties": {
+        "source_id": {"type": "string", "minLength": 1},
+        "artifact_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "hypothesis_bank_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "raw_source_included": {"const": false}
+      }
+    },
+    "registry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["registry_version", "sha256", "source_note"],
+      "properties": {
+        "registry_version": {"const": "DAE-ETYMOLOGY-REGISTRY-1.0"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "source_note": {"type": "string", "minLength": 1}
+      }
+    },
+    "cards": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/card"}},
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["central_concepts", "cards_emitted", "ety_min_executed", "ety_full_required", "ety_full_executed", "coverage_complete", "unresolved_fields", "knowledge_resolution", "interpretation"],
+      "properties": {
+        "central_concepts": {"type": "integer", "minimum": 1},
+        "cards_emitted": {"type": "integer", "minimum": 1},
+        "ety_min_executed": {"type": "integer", "minimum": 1},
+        "ety_full_required": {"type": "integer", "minimum": 0},
+        "ety_full_executed": {"type": "integer", "minimum": 0},
+        "coverage_complete": {"const": true},
+        "unresolved_fields": {"type": "integer", "minimum": 0},
+        "knowledge_resolution": {"enum": ["UNRESOLVED", "PARTIAL", "LEXICOGRAPHICALLY_SOURCED"]},
+        "interpretation": {"type": "string", "minLength": 1}
+      }
+    },
+    "output_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mandatory_execution", "mandatory_significance", "local_context_precedes_origin", "authorial_etymology_separated", "counter_etymology_required_for_full", "phenomenological_check_required_for_full", "bridge_required_for_semantic_promotion", "semantic_promotion_performed", "null_result_is_valid", "raw_source_included"],
+      "properties": {
+        "mandatory_execution": {"const": true},
+        "mandatory_significance": {"const": false},
+        "local_context_precedes_origin": {"const": true},
+        "authorial_etymology_separated": {"const": true},
+        "counter_etymology_required_for_full": {"const": true},
+        "phenomenological_check_required_for_full": {"const": true},
+        "bridge_required_for_semantic_promotion": {"const": true},
+        "semantic_promotion_performed": {"const": false},
+        "null_result_is_valid": {"const": true},
+        "raw_source_included": {"const": false}
+      }
+    },
+    "claim_ceiling": {"const": "MANDATORY_ETYMOLOGICAL_SEMANTIC_COVERAGE_NOT_CONCEPTUAL_OR_ONTOLOGICAL_PROOF"}
+  },
+  "$defs": {
+    "field": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["resolution", "value", "source_refs"],
+      "properties": {
+        "resolution": {"enum": ["FIXED_PROJECT_METADATA", "PROVISIONAL_RECONSTRUCTION", "UNRESOLVED"]},
+        "value": {"type": "string", "minLength": 1},
+        "source_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      }
+    },
+    "sourceBasis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hypothesis_ids", "selector_count", "selectors", "selectors_truncated"],
+      "properties": {
+        "hypothesis_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "selector_count": {"type": "integer", "minimum": 0},
+        "selectors": {"type": "array", "maxItems": 12, "items": {"type": "string"}, "uniqueItems": true},
+        "selectors_truncated": {"type": "boolean"}
+      }
+    },
+    "full": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["G_FORM", "G_SENSE", "G_FUNCTION", "G_CONTRAST", "G_TRANSLATION", "ETY_AUTH", "COUNTER_ETYMOLOGY", "PHENOMENOLOGICAL_CHECK", "BRIDGE_CHECK"],
+      "properties": {
+        "G_FORM": {"$ref": "#/$defs/field"},
+        "G_SENSE": {"$ref": "#/$defs/field"},
+        "G_FUNCTION": {"$ref": "#/$defs/field"},
+        "G_CONTRAST": {"$ref": "#/$defs/field"},
+        "G_TRANSLATION": {"$ref": "#/$defs/field"},
+        "ETY_AUTH": {"$ref": "#/$defs/field"},
+        "COUNTER_ETYMOLOGY": {"$ref": "#/$defs/field"},
+        "PHENOMENOLOGICAL_CHECK": {"$ref": "#/$defs/field"},
+        "BRIDGE_CHECK": {"$ref": "#/$defs/field"}
+      }
+    },
+    "card": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["card_id", "concept_id", "topic_ids", "level", "escalation_reasons", "source_basis", "ety_min", "ety_full", "anti_etymological_firewall", "generative_result", "bridge", "revision_trigger"],
+      "properties": {
+        "card_id": {"type": "string", "pattern": "^ETY-CARD-[A-Z0-9_-]+$"},
+        "concept_id": {"type": "string", "pattern": "^[A-Z0-9_-]+$"},
+        "topic_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "level": {"enum": ["ETY-MIN", "ETY-FULL"]},
+        "escalation_reasons": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "source_basis": {"$ref": "#/$defs/sourceBasis"},
+        "ety_min": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["source_form", "language", "lemma", "morphological_structure", "historical_derivation", "semantic_range", "local_sense", "philosophical_function", "translations", "translation_residual", "etymological_risk"],
+          "properties": {
+            "source_form": {"$ref": "#/$defs/field"},
+            "language": {"$ref": "#/$defs/field"},
+            "lemma": {"$ref": "#/$defs/field"},
+            "morphological_structure": {"$ref": "#/$defs/field"},
+            "historical_derivation": {"$ref": "#/$defs/field"},
+            "semantic_range": {"$ref": "#/$defs/field"},
+            "local_sense": {"$ref": "#/$defs/field"},
+            "philosophical_function": {"$ref": "#/$defs/field"},
+            "translations": {"$ref": "#/$defs/field"},
+            "translation_residual": {"$ref": "#/$defs/field"},
+            "etymological_risk": {"$ref": "#/$defs/field"}
+          }
+        },
+        "ety_full": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/full"}]},
+        "anti_etymological_firewall": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["origin_is_not_current_sense", "earliest_is_not_truest", "lexical_identity_is_not_conceptual_identity", "authorial_wordplay_is_not_historical_linguistics", "language_is_not_ontology"],
+          "properties": {
+            "origin_is_not_current_sense": {"const": true},
+            "earliest_is_not_truest": {"const": true},
+            "lexical_identity_is_not_conceptual_identity": {"const": true},
+            "authorial_wordplay_is_not_historical_linguistics": {"const": true},
+            "language_is_not_ontology": {"const": true}
+          }
+        },
+        "generative_result": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["lost_distinction", "semantic_drift", "new_question", "qualitative_gains"],
+          "properties": {
+            "lost_distinction": {"$ref": "#/$defs/field"},
+            "semantic_drift": {"$ref": "#/$defs/field"},
+            "new_question": {"$ref": "#/$defs/field"},
+            "qualitative_gains": {"type": "array", "items": {"enum": ["GG1_NEW_DISTINCTION", "GG2_NEW_QUESTION", "GG3_NEW_RIVAL"]}, "uniqueItems": true}
+          }
+        },
+        "bridge": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["candidate", "independent_support", "semantic_promotion_allowed"],
+          "properties": {
+            "candidate": {"type": ["string", "null"]},
+            "independent_support": {"enum": ["NOT_ASSESSED", "ABSENT", "PARTIAL", "AVAILABLE"]},
+            "semantic_promotion_allowed": {"const": false}
+          }
+        },
+        "revision_trigger": {"type": "string", "minLength": 1}
+      },
+      "allOf": [
+        {"if": {"properties": {"level": {"const": "ETY-FULL"}}}, "then": {"properties": {"ety_full": {"$ref": "#/$defs/full"}}, "required": ["ety_full"]}},
+        {"if": {"properties": {"level": {"const": "ETY-MIN"}}}, "then": {"properties": {"ety_full": {"type": "null"}}}}
+      ]
+    }
+  }
+}

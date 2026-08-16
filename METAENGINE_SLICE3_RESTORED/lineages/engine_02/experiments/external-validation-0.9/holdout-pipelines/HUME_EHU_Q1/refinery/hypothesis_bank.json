@@ -1,0 +1,88 @@
+{
+  "bank_version": "DAE-HYPOTHESIS-BANK-1.2",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T19:20:23Z",
+  "source_id": "LOCAL-SHA256-6C7C05633E8FF3339F6BB0229DD26764B28F4B4E46272FD53622F5BBAE6E8890",
+  "registry_version": "DAE-REFINERY-TOPICS-1.0",
+  "hypotheses": [],
+  "case_matrices": [],
+  "source_resistance": {
+    "status": "NO_STRONG_REGISTRY_RESISTANCE_DETECTED",
+    "central_terms": [],
+    "covered_terms": [],
+    "uncovered_terms": [],
+    "coverage_ratio": 1,
+    "explicit_stress_terms": [],
+    "source_native_terms": [],
+    "centrality_basis": "MULTILINGUAL_SOURCE_FREQUENCY_PLUS_SOURCE_DOCUMENT_FREQUENCY_WITH_OPTIONAL_EXPLICIT_STRESS_HINTS",
+    "operator_candidate": {
+      "family": "GENERIC_SOURCE_FORCED_REVISION",
+      "candidate": "SOURCE_FORCED_TOPIC_AND_OPERATOR_CANDIDATE",
+      "signal_counts": {
+        "DIFFERENTIAL": 0,
+        "REFERENCE_RELATIVE": 0,
+        "SYSTEM_FIELD": 0,
+        "ASYMMETRIC_DEPENDENCE": 0,
+        "RECIPROCITY_GATHERING": 0,
+        "DISTANCE_DIFFERENTIATION": 0,
+        "PRIORITY": 0
+      },
+      "active_signal_families": [],
+      "central_term_cooccurrence_segments": 0,
+      "profile_hints": [],
+      "claim_ceiling": "REPRESENTATION_TEST_CANDIDATE_NOT_SOURCE_ONTOLOGY"
+    },
+    "open_set_status": "NO_OPEN_SET_PRESSURE",
+    "open_set_candidate": {
+      "family": "UNKNOWN_OPERATOR_FAMILY",
+      "candidate": "F-OPEN-SOURCE-CBE5CFDF7C21",
+      "status": "NO_OPEN_SET_PRESSURE",
+      "source_signature": {
+        "recurrent_terms": [],
+        "recurrent_pairs": [],
+        "window_count": 0,
+        "local_profile_variation": {
+          "distinct_known_profiles": [],
+          "known_profile_transition_count": 0,
+          "unresolved_windows": 0
+        }
+      },
+      "source_trigger_terms": [],
+      "rival_unitizations": [
+        {
+          "unitization_id": "U-TERM-FIELD",
+          "description": "Treat recurrent source-native terms as a provisional local field before assigning a known ontological relation type.",
+          "analytic_consequence": "The operator asks which distinctions appear from term co-presence without presupposing relation-first, relata-first, dependence or reciprocity."
+        },
+        {
+          "unitization_id": "U-WINDOW-TRANSITION",
+          "description": "Treat changes between adjacent argument windows as the primary analytic event rather than assuming one corpus-wide profile.",
+          "analytic_consequence": "The operator preserves local regime shifts and can route different windows differently without turning variation into a universal ontology."
+        },
+        {
+          "unitization_id": "U-NEGATIVE-BOUNDARY",
+          "description": "Treat recurrent absences and broken co-occurrences as provisional boundaries of the source's problem-space.",
+          "analytic_consequence": "The operator can register what ceases to travel together without claiming that absence itself names a metaphysical structure."
+        }
+      ],
+      "proposed_executable_family": {
+        "family_id": "F-OPEN-SOURCE-CBE5CFDF7C21",
+        "title": "Open-set source family: unresolved source field",
+        "protocol_refs": [
+          "OPEN-SET-HERMENEUTIC-DISCOVERY-0.10",
+          "SOURCE-RESISTANCE / OPERATOR-MUTATION 0.1"
+        ],
+        "triggers": [],
+        "diagnostic": "What becomes visible in the local source field (unresolved terms) before it is translated into a pre-existing operator family?",
+        "constructive_move": "Compare term-field, window-transition and negative-boundary unitizations; preserve a null result when none adds a source-linked distinction.",
+        "self_risk": "Open-set discovery can become an exception factory that rewards novelty; retire the family if it does not add repeatable local discrimination beyond ordinary routing.",
+        "positive_model": "Micro-local source-signature probe with no presupposed ontology and explicit rollback to ordinary routing."
+      },
+      "claim_ceiling": "OPEN_SET_OPERATOR_CANDIDATE_NOT_DISCOVERED_ONTOLOGY_OR_CORE_PROMOTION"
+    },
+    "micro_local_windows": [],
+    "emergent_hypotheses": [],
+    "principle": "SOURCE_CENTRALITY_CAN_FORCE_TOPIC_AND_OPERATOR_REVISION_BUT_CANNOT_BY_ITSELF_VALIDATE_A_PHILOSOPHICAL_CLAIM"
+  },
+  "claim_ceiling": "HYPOTHESIS_DISCOVERY_ONLY_NOT_CORROBORATION_OR_VALIDATION"
+}

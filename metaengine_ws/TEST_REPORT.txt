@@ -1,0 +1,6 @@
+METAENGINE 16X 2.1.0-alpha.1 FINAL REGRESSION
+pytest: 42/42 passed
+parallel release-stage completed executions/checks: 64,320
+full native worlds represented: 93
+truth-promotion violations in completed native parallel evidence: 0
+worker recycling: fresh outer thread-pool every 4 heavy worlds

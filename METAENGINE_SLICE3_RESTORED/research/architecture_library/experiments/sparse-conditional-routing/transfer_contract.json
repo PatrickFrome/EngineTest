@@ -1,0 +1,376 @@
+{
+  "transfer_version": "METAENGINE-TRANSFER-TEST-1",
+  "stage_id": "METAENGINE-1-SLICE-4-TRANSFER",
+  "mechanism_id": "sparse-conditional-routing",
+  "mechanism_card_hash": "4d85480374490d4cee7c72ee3822d25278148b9984d12d7e2972d1c9abc47334",
+  "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+  "specialists": [
+    {
+      "resource_id": "hash.a",
+      "implementation_kind": "HASH_BASELINE",
+      "routing_data": [],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "hash.b",
+      "implementation_kind": "HASH_BASELINE",
+      "routing_data": [],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "hash.c",
+      "implementation_kind": "HASH_BASELINE",
+      "routing_data": [],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "hash.d",
+      "implementation_kind": "HASH_BASELINE",
+      "routing_data": [],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "lex.code",
+      "implementation_kind": "LEXICAL",
+      "routing_data": [
+        "class",
+        "code",
+        "function",
+        "method"
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "lex.data",
+      "implementation_kind": "LEXICAL",
+      "routing_data": [
+        "data",
+        "database",
+        "query",
+        "schema"
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "lex.logic",
+      "implementation_kind": "LEXICAL",
+      "routing_data": [
+        "inference",
+        "logic",
+        "proof",
+        "reasoning"
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "lex.prose",
+      "implementation_kind": "LEXICAL",
+      "routing_data": [
+        "narrative",
+        "prose",
+        "story",
+        "text"
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "sem.analytical",
+      "implementation_kind": "SEMANTIC_CLUSTER",
+      "routing_data": [
+        "cluster_analytical",
+        "cluster_formal"
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "sem.creative",
+      "implementation_kind": "SEMANTIC_CLUSTER",
+      "routing_data": [
+        "cluster_creative",
+        "cluster_informal"
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "sem.expressive",
+      "implementation_kind": "SEMANTIC_CLUSTER",
+      "routing_data": [
+        "cluster_expressive",
+        "cluster_informal"
+      ],
+      "cost": 1.0
+    },
+    {
+      "resource_id": "sem.tech",
+      "implementation_kind": "SEMANTIC_CLUSTER",
+      "routing_data": [
+        "cluster_formal",
+        "cluster_technical"
+      ],
+      "cost": 1.0
+    }
+  ],
+  "task_suite": {
+    "tasks": [
+      {
+        "task_id": "task.code_a",
+        "regime": "REGIME_A_SEPARABLE",
+        "required_tokens": [
+          "code",
+          "function"
+        ],
+        "required_clusters": [
+          "cluster_technical"
+        ],
+        "ground_truth": [
+          [
+            "hash.a",
+            0.4
+          ],
+          [
+            "hash.b",
+            0.3
+          ],
+          [
+            "hash.c",
+            0.35
+          ],
+          [
+            "hash.d",
+            0.25
+          ],
+          [
+            "lex.code",
+            0.9
+          ],
+          [
+            "lex.data",
+            0.2
+          ],
+          [
+            "lex.logic",
+            0.15
+          ],
+          [
+            "lex.prose",
+            0.1
+          ],
+          [
+            "sem.analytical",
+            0.3
+          ],
+          [
+            "sem.creative",
+            0.1
+          ],
+          [
+            "sem.expressive",
+            0.05
+          ],
+          [
+            "sem.tech",
+            0.85
+          ]
+        ]
+      },
+      {
+        "task_id": "task.inverted_b",
+        "regime": "REGIME_B_AMBIGUOUS",
+        "required_tokens": [
+          "function"
+        ],
+        "required_clusters": [
+          "cluster_formal"
+        ],
+        "ground_truth": [
+          [
+            "hash.a",
+            0.5
+          ],
+          [
+            "hash.b",
+            0.45
+          ],
+          [
+            "hash.c",
+            0.4
+          ],
+          [
+            "hash.d",
+            0.55
+          ],
+          [
+            "lex.code",
+            0.15
+          ],
+          [
+            "lex.data",
+            0.1
+          ],
+          [
+            "lex.logic",
+            0.2
+          ],
+          [
+            "lex.prose",
+            0.75
+          ],
+          [
+            "sem.analytical",
+            0.15
+          ],
+          [
+            "sem.creative",
+            0.65
+          ],
+          [
+            "sem.expressive",
+            0.7
+          ],
+          [
+            "sem.tech",
+            0.1
+          ]
+        ]
+      },
+      {
+        "task_id": "task.mixed_b",
+        "regime": "REGIME_B_AMBIGUOUS",
+        "required_tokens": [
+          "code",
+          "prose"
+        ],
+        "required_clusters": [
+          "cluster_creative",
+          "cluster_technical"
+        ],
+        "ground_truth": [
+          [
+            "hash.a",
+            0.6
+          ],
+          [
+            "hash.b",
+            0.5
+          ],
+          [
+            "hash.c",
+            0.55
+          ],
+          [
+            "hash.d",
+            0.45
+          ],
+          [
+            "lex.code",
+            0.2
+          ],
+          [
+            "lex.data",
+            0.7
+          ],
+          [
+            "lex.logic",
+            0.15
+          ],
+          [
+            "lex.prose",
+            0.2
+          ],
+          [
+            "sem.analytical",
+            0.65
+          ],
+          [
+            "sem.creative",
+            0.2
+          ],
+          [
+            "sem.expressive",
+            0.1
+          ],
+          [
+            "sem.tech",
+            0.2
+          ]
+        ]
+      },
+      {
+        "task_id": "task.prose_a",
+        "regime": "REGIME_A_SEPARABLE",
+        "required_tokens": [
+          "narrative",
+          "prose"
+        ],
+        "required_clusters": [
+          "cluster_creative"
+        ],
+        "ground_truth": [
+          [
+            "hash.a",
+            0.35
+          ],
+          [
+            "hash.b",
+            0.3
+          ],
+          [
+            "hash.c",
+            0.4
+          ],
+          [
+            "hash.d",
+            0.2
+          ],
+          [
+            "lex.code",
+            0.1
+          ],
+          [
+            "lex.data",
+            0.05
+          ],
+          [
+            "lex.logic",
+            0.15
+          ],
+          [
+            "lex.prose",
+            0.9
+          ],
+          [
+            "sem.analytical",
+            0.15
+          ],
+          [
+            "sem.creative",
+            0.85
+          ],
+          [
+            "sem.expressive",
+            0.3
+          ],
+          [
+            "sem.tech",
+            0.1
+          ]
+        ]
+      }
+    ]
+  },
+  "arms": [
+    "DENSE_ALL",
+    "RANDOM_TOP_K",
+    "ROUTED_TOP_K"
+  ],
+  "k": 2,
+  "processing_resource_units": 2.0,
+  "random_seeds": [
+    42,
+    99,
+    137
+  ],
+  "truth_effect": "NONE",
+  "assimilation_effect": "NONE",
+  "contract_hash": "766670054e3731e8aeb81bb72c60f2347517f665cff3b8e08aef7393e56f3872"
+}

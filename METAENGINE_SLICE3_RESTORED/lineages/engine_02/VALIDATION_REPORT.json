@@ -1,0 +1,110 @@
+{
+  "report_version": "DAE-VALIDATION-0.10.0-alpha.1",
+  "engine_version": "0.10.0-alpha.1",
+  "generated_at": "2026-08-11T17:23:26Z",
+  "tests": {
+    "total": 80,
+    "passed": 80,
+    "failed": 0
+  },
+  "portable": {
+    "conformant": true,
+    "required_assets": 66,
+    "errors": 0,
+    "review": 0,
+    "warnings": 0
+  },
+  "open_set_discovery": {
+    "source_resistance_status": "REGISTRY_BLIND_SPOT",
+    "known_profile_hints": [],
+    "open_set_status": "OPEN_SET_RIVAL_REQUIRED",
+    "candidate": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+    "source_trigger_terms": [
+      "thinking",
+      "understanding",
+      "exist",
+      "mind",
+      "thought"
+    ],
+    "micro_local_windows": 5,
+    "claim_ceiling": "OPEN_SET_OPERATOR_CANDIDATE_NOT_DISCOVERED_ONTOLOGY_OR_CORE_PROMOTION"
+  },
+  "micro_local_ecology": {
+    "counts": {
+      "windows": 5,
+      "known_only": 0,
+      "open_set_only": 5,
+      "rival_routes": 0,
+      "abstentions": 0,
+      "route_transitions": 0
+    },
+    "outcome": "MICRO_LOCAL_ROUTING_AVAILABLE",
+    "claim_ceiling": "LOCAL_OPERATOR_ROUTING_HEURISTIC_NOT_PHILOSOPHICAL_TRUTH_OR_OPERATOR_PROMOTION"
+  },
+  "operator_birth": {
+    "delta_id": "DELTA-DESCARTES-OPENSET-001",
+    "mutation_engine_version": "DAE-OPERATOR-MUTATION-1.3",
+    "decision": "ACCEPTED_CANDIDATE",
+    "promotion_ready": true,
+    "runtime_reachability": "FULL",
+    "behavior_changed": true,
+    "baseline_registry_sha256": "22b0529e368b217641b991dc2c34a863fda5861d147e3cbb2cd8300dfc5785df",
+    "candidate_registry_sha256": "de7df70f7518592c5c2dec43c09f1d2ac064c60a31eee3c13564d35f49ee3d46",
+    "errors": 0,
+    "review": 0,
+    "warnings": 0
+  },
+  "runtime_ab": {
+    "baseline": {
+      "constellations": 3,
+      "nodes": 101,
+      "edges": 149,
+      "open_family_nodes": 0,
+      "sufficient_openness": true
+    },
+    "mutant": {
+      "constellations": 3,
+      "nodes": 104,
+      "edges": 153,
+      "open_family_nodes": 3,
+      "sufficient_openness": true
+    }
+  },
+  "claim_ceiling": "OPEN_SET_EXECUTABLE_OPERATOR_DISCOVERY_CONFORMANCE_NOT_EXTERNAL_PHILOSOPHICAL_OR_SEMANTIC_VALIDATION",
+  "open_set_hermeneutics_0_10": {
+    "stage": "OPEN_SET_HERMENEUTIC_DISCOVERY_AND_MICRO_LOCAL_ECOLOGY",
+    "source_resistance_status": "REGISTRY_BLIND_SPOT",
+    "known_profile_hints": [],
+    "open_set_status": "OPEN_SET_RIVAL_REQUIRED",
+    "candidate": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+    "micro_local_counts": {
+      "windows": 5,
+      "known_only": 0,
+      "open_set_only": 5,
+      "rival_routes": 0,
+      "abstentions": 0,
+      "route_transitions": 0
+    },
+    "mutation_engine_version": "DAE-OPERATOR-MUTATION-1.3",
+    "mutation_decision": "ACCEPTED_CANDIDATE",
+    "runtime_reachability": "FULL",
+    "executable_behavior_changed": true,
+    "baseline": {
+      "constellations": 3,
+      "nodes": 101,
+      "edges": 149,
+      "open_family_nodes": 0
+    },
+    "mutant": {
+      "constellations": 3,
+      "nodes": 104,
+      "edges": 153,
+      "open_family_nodes": 3
+    },
+    "claim_ceiling": "OPEN_SET_EXECUTABLE_OPERATOR_DISCOVERY_CONFORMANCE_NOT_EXTERNAL_PHILOSOPHICAL_OR_SEMANTIC_VALIDATION"
+  },
+  "portable_project_current": {
+    "version": "DAE-AI-CHAT-1.0",
+    "required_assets": 66
+  }
+}

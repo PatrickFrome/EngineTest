@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "16X Claim Graph 1.2",
+  "type": "object",
+  "required": [
+    "graph_version",
+    "node_count",
+    "position_count",
+    "nodes",
+    "edges",
+    "graph_hash",
+    "claim_ceiling"
+  ],
+  "properties": {
+    "graph_version": {
+      "const": "16X-CLAIM-GRAPH-1.2"
+    },
+    "node_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "position_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "nodes": {
+      "type": "array"
+    },
+    "edges": {
+      "type": "array"
+    },
+    "graph_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": true
+}

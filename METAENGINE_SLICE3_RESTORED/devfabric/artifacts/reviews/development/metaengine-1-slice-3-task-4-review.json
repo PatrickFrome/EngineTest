@@ -1,0 +1,86 @@
+{
+  "alternatives_considered": [
+    {
+      "evidence_hashes": [
+        "77bcda04af0f76e63ff195b5f3d94c4f133a7af0154c3c2619dc47c25e84fe83",
+        "b8e13d7d97eb5dcf7b5c45909a9a34319b989fcca2bb94d3157e336f03e0504e",
+        "cd9d80197d059898fa120704a51d618ca317459448c87aaff4c11d940cabea97",
+        "d57a4618c1fe0e7b08f8da08dc5ef65afc6b4463b4e7219225876fa136166620"
+      ],
+      "kind": "CURRENT",
+      "summary": "Keep the first-wave registry/vault plus explicit retrieval evidence that independently recomputes Git blob identity and SHA-256 from retained bytes."
+    },
+    {
+      "evidence_hashes": [
+        "77bcda04af0f76e63ff195b5f3d94c4f133a7af0154c3c2619dc47c25e84fe83",
+        "85779ef28bd6c30daccca2bb331bafbe219625749373c7f26e059efb657db417"
+      ],
+      "kind": "LIBRARY",
+      "summary": "Adopt signed SLSA/in-toto attestations and remote transparency/mirror services now; deferred because Slice 3 has no independent signer or mirror and adding the framework alone would overstate assurance."
+    },
+    {
+      "evidence_hashes": [
+        "85779ef28bd6c30daccca2bb331bafbe219625749373c7f26e059efb657db417",
+        "d57a4618c1fe0e7b08f8da08dc5ef65afc6b4463b4e7219225876fa136166620"
+      ],
+      "kind": "MINIMAL",
+      "summary": "Trust tracked SourcePack descriptors and vault receipts without a separate upstream-to-CAS bridge; rejected because self-consistent metadata would not independently prove pinned Git-object identity."
+    },
+    {
+      "evidence_hashes": [
+        "0f76ddaf3aa763552a3c48f2e7febda2b1b5bba7cb267f5813a19a3bb0f8351e",
+        "77bcda04af0f76e63ff195b5f3d94c4f133a7af0154c3c2619dc47c25e84fe83",
+        "b8e13d7d97eb5dcf7b5c45909a9a34319b989fcca2bb94d3157e336f03e0504e",
+        "cd9d80197d059898fa120704a51d618ca317459448c87aaff4c11d940cabea97",
+        "d57a4618c1fe0e7b08f8da08dc5ef65afc6b4463b4e7219225876fa136166620"
+      ],
+      "kind": "SYNTHESIS",
+      "summary": "Use pinned official Git revisions, recomputed Git blob IDs, SHA-256 CAS identities, independent local verification, and tracked retrieval evidence now; add signatures/mirrors only when an independent trust root exists."
+    }
+  ],
+  "architecture_library_snapshot_hash": "d5b32e0a8b9983cd36faed2cf105ecf3670cf9490578f0d939cbbdf4b1103445",
+  "capability_hypothesis": "The architecture library can preserve exact source provenance across upstream loss or mutation while keeping foreign code outside MetaEngine Core and CONTROL.",
+  "completed_step_commit": "57aedcb4047e4a9c38d77b761308b2ee02000956",
+  "completed_step_evidence_hashes": [
+    "0f76ddaf3aa763552a3c48f2e7febda2b1b5bba7cb267f5813a19a3bb0f8351e",
+    "77bcda04af0f76e63ff195b5f3d94c4f133a7af0154c3c2619dc47c25e84fe83",
+    "85779ef28bd6c30daccca2bb331bafbe219625749373c7f26e059efb657db417",
+    "b8e13d7d97eb5dcf7b5c45909a9a34319b989fcca2bb94d3157e336f03e0504e",
+    "cd9d80197d059898fa120704a51d618ca317459448c87aaff4c11d940cabea97",
+    "d57a4618c1fe0e7b08f8da08dc5ef65afc6b4463b4e7219225876fa136166620"
+  ],
+  "completed_step_id": "METAENGINE-1-SLICE-3-TASK-4",
+  "complexity_delta": "ONE_TRACKED_RETRIEVAL_EVIDENCE_MANIFEST_PLUS_REVIEW_ARTIFACTS",
+  "constitution_hash": "1b6311bd3dd6af060f05e63d22f3a28af776c117c4cc251c9383a6b8614f240d",
+  "constitutional_findings": [
+    "PROVENANCE_PRIMARY_EVIDENCE_STRENGTHENED_BY_INDEPENDENT_GIT_BLOB_AND_SHA256_RECOMPUTATION",
+    "NO_CANONICAL_PROMOTION_OR_RUNTIME_DEPENDENCY_ADDED",
+    "FOREIGN_BYTES_REMAIN_OUTSIDE_TRACKED_CORE_AND_CONTROL",
+    "A0_A1_CEILING_PRESERVED_AND_INGESTION_NOT_TREATED_AS_ASSIMILATION"
+  ],
+  "decision": "ACCEPT_CONTINUE",
+  "library_findings": [
+    "FIRST_WAVE_HAS_TEN_REGISTERED_SOURCES_AND_FIVE_MATERIALIZED_PERMISSIVE_PACKS",
+    "THIRTEEN_LOGICAL_FILES_BIND_TO_TWELVE_UNIQUE_CAS_OBJECTS",
+    "SIGNED_ATTESTATION_AND_INDEPENDENT_MIRRORING_REMAIN_UNIMPLEMENTED_FOLLOWUP",
+    "NEXT_VALUE_COMES_FROM_REVIEW_BINDING_AND_LATER_CAUSAL_MECHANISM_TESTS_NOT_SOURCE_COUNT"
+  ],
+  "next_step_allowed": true,
+  "policy_findings": [
+    "SOURCE_CLASS_CONTINUES_TO_BOUND_ALLOWED_RETENTION_AND_USE",
+    "D6_G1_ACTIVE_POLICY_CHAMPION_AND_MCP_SURFACE_UNCHANGED",
+    "REFERENCE_VAULT_HAS_NO_CANONICAL_AUTHORITY",
+    "TASK_5_MUST_BIND_REGISTRY_ARTIFACTS_INTO_ARCHITECTURE_LIBRARY_REVIEW_SNAPSHOT_BEFORE_SLICE_CLOSE"
+  ],
+  "policy_snapshot_hash": "1888a575abae2ba844f53a005a23c48ed5581722d2a64cf6df40f60bbda66f32",
+  "rationale": "Task 4 closes the frozen RED boundary without new network or canonical authority. Every retained permissive-source byte is bound to an exact pinned revision, a recomputed Git blob object id, and an independently recomputed SHA-256 CAS digest. Restricted and closed sources remain registered-only, and ingestion does not raise any mechanism above A1.",
+  "receipt_hash": "6535dc76ea6400f9f331ff96f2b3d8cec60a6a5fa6e8dc35b119a75dbdd8b22e",
+  "relevant_mechanism_ids": [
+    "CONTENT_ADDRESSED_REFERENCE_VAULT",
+    "DUAL_HASH_PROVENANCE_BRIDGE",
+    "INDEPENDENT_BYTE_VERIFICATION",
+    "PINNED_UPSTREAM_GIT_IDENTITY"
+  ],
+  "required_followup_experiment": "METAENGINE-1-SLICE-3-TASK-5-BIND-REGISTRY-INTO-DEVELOPMENT-REVIEW-AND-CLOSE-SLICE-3",
+  "review_protocol_version": "METAENGINE-DEVELOPMENT-EVOLUTION-REVIEW-1"
+}

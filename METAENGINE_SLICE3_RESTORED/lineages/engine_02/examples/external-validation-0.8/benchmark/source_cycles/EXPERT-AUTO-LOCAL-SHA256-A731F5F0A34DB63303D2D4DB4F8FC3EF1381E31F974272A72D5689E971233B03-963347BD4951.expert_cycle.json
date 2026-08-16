@@ -1,0 +1,876 @@
+{
+  "cycle_version": "DAE-AUTONOMOUS-EXPERT-CYCLE-1.0",
+  "engine_version": "0.6.0-alpha.1",
+  "generated_at": "2026-08-11T15:33:21Z",
+  "run_id": "EXPERT-AUTO-LOCAL-SHA256-A731F5F0A34DB63303D2D4DB4F8FC3EF1381E31F974272A72D5689E971233B03-963347BD4951",
+  "profile": {
+    "profile_id": "AUTO-LOCAL-SHA256-A731F5F0A34DB63303D2D4DB4F8FC3EF1381E31F974272A72D5689E971233B03",
+    "profile_sha256": "8446e1918cd0c5273502ae5d4a8cca6a36eece16b32443610c7491612bb26591",
+    "title": "Автоматический экспертный профиль: LOCAL-SHA256-A731F5F0A34DB63303D2D4DB4F8FC3EF1381E31F974272A72D5689E971233B03",
+    "language": "und",
+    "domain": "автоматическая критическая аналитика корпуса"
+  },
+  "source": {
+    "source_id": "LOCAL-SHA256-A731F5F0A34DB63303D2D4DB4F8FC3EF1381E31F974272A72D5689E971233B03",
+    "artifact_sha256": "da622aaad49736efbe391ffba688a18b81db1f46f796ca16a3673ddcf910c0fc",
+    "refinery_manifest_sha256": "2d47e726dccf691d38c67ea942af5e456b0be6f6ecc8d77960f6e626742f22ef",
+    "claim_ledger_entries": 14,
+    "resolved_claim_level_citations": 0
+  },
+  "backend": {
+    "kind": "DETERMINISTIC_PROFILE",
+    "model": null,
+    "external_content_transferred": false,
+    "structured_output": false,
+    "deterministic_gates_enforced": true
+  },
+  "prepasses": [
+    "ETYMOLOGICAL_PASS"
+  ],
+  "etymology": {
+    "protocol_version": "ETY-0.2",
+    "run_id": "ETY-LOCAL_SHA256_A731F5F0A34DB63303D2D4DB4F8FC3EF1381E31F974272A72D5689E9712-32A18A050364",
+    "pass_sha256": "adec0283af480e18f73d4c925c3623c955f34fc0b311c678386e28960b36fcc2",
+    "cards": 26,
+    "full_cards": 26,
+    "coverage_complete": true,
+    "unresolved_fields": 439,
+    "semantic_promotion_without_independent_bridge": false
+  },
+  "passes": [
+    "RECONSTRUCTOR",
+    "CRITIC",
+    "ADJUDICATOR",
+    "SYNTHESIS"
+  ],
+  "thesis_results": [
+    {
+      "thesis_id": "AUTO_CORPUS_GENRE",
+      "title": "Статус анализируемого корпуса",
+      "statement": "Корпус должен оцениваться в соответствии с его структурно установленным жанром и происхождением слоёв, а не как автоматически единый первичный источник.",
+      "status": "SUPPORTED",
+      "confidence": 0.9,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "DOCUMENT",
+      "reconstruction": {
+        "A": "Автоматическая сегментация различает источниковые, реконструктивные, проектные, критические и процедурные слои.",
+        "P": "Жанровый статус корпуса ограничивает доказательную роль содержащихся в нём утверждений.",
+        "B": "Система должна отделять структурную характеристику документа от содержательной истинности его тезисов."
+      },
+      "operative_relations": [
+        "RT02",
+        "RT15",
+        "RT17"
+      ],
+      "evidence": {
+        "topic_id": null,
+        "topic_present": true,
+        "evidence_count": 37,
+        "distinct_group_count": 4,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 1,
+        "project_claim_selector_count": 1,
+        "selectors": [
+          "OX-P000001-558BE45E4E",
+          "OX-P000002-F0ABE8ACEE",
+          "OX-P000028-68705DBE87",
+          "OX-P000004-FE7A82725C"
+        ],
+        "selectors_truncated": true
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_UNIFIED_SOURCE",
+        "statement": "Все сегменты документа принадлежат одному источниковому голосу и могут суммироваться без различения происхождения.",
+        "impact": "DEFEATED",
+        "answer": "Структурные признаки многослойного составного контейнера непосредственно различают документ и единый первичный источник.",
+        "discriminator": "Проверить маршруты слоёв, роль контейнера и разрешение ссылок на уровне отдельных утверждений."
+      },
+      "decisive_reasons": [
+        "Роль контейнера: COMPOSITE_CONTAINER.",
+        "Непустых маршрутизированных слоёв происхождения: 4.",
+        "Разрешённых ссылок на уровне утверждений: 0."
+      ],
+      "analysis": "Структурная классификация задаёт допустимый предел последующих выводов. Роль контейнера: COMPOSITE_CONTAINER. Непустых маршрутизированных слоёв происхождения: 4. Разрешённых ссылок на уровне утверждений: 0.",
+      "limitations": [
+        "Маршрутизация происхождения остаётся консервативной и не заменяет источниковедческую проверку."
+      ],
+      "recommendation": "Сохранять происхождение каждого существенного утверждения во всех последующих проходах.",
+      "deterministic_gate": "STRUCTURAL_COMPOSITE_GENRE_CONFIRMED",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_DIACHRONIC_HEIDEGGER",
+      "title": "Диахроническая гипотеза о Хайдеггере",
+      "statement": "Корпус делает исследовательский вопрос «Какие локальные мосты действительно поддерживают заявленное развитие от ранних работ к поздним?» содержательно доступным для экспертной проверки, но сам факт тематического обнаружения ещё не является внешним подтверждением ответа.",
+      "status": "INSUFFICIENT",
+      "confidence": 0.9,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "DIACHRONIC",
+      "reconstruction": {
+        "A": "В корпусе совместно обнаружены тематические группы: HEIDEGGER, CHRONOLOGY, GA_LOCATOR.",
+        "P": "Устойчивая тематическая совместность лицензирует постановку и реконструкцию вопроса, но не истинность ответа и не авторскую атрибуцию.",
+        "B": "Тема «Диахроническая гипотеза о Хайдеггере» допускается как внутренняя аналитическая гипотеза с обязательной проверкой происхождения и сильнейшего соперника."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18",
+        "RT20",
+        "RT28"
+      ],
+      "evidence": {
+        "topic_id": "DIACHRONIC_HEIDEGGER",
+        "topic_present": true,
+        "evidence_count": 23,
+        "distinct_group_count": 3,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 14,
+        "project_claim_selector_count": 2,
+        "selectors": [
+          "OX-P000001-558BE45E4E",
+          "OX-P000013-9EBB504E6F",
+          "OX-P000015-791F0DBE20",
+          "OX-P000017-6B02D4C8BB",
+          "OX-P000032-2135ACF860",
+          "OX-P000005-A7C0AB5A6D",
+          "OX-P000007-4DC9235482",
+          "OX-P000009-3268FFFD53",
+          "OX-P000037-2371676E2D",
+          "OX-P000039-8425289A67",
+          "OX-P000041-3D76547526",
+          "OX-P000043-C869C09825"
+        ],
+        "selectors_truncated": true
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_DIACHRONIC_HEIDEGGER",
+        "statement": "Кластер порождён лексической совместностью, повтором или смешением слоёв и не выражает устойчивой аргументативной структуры.",
+        "impact": "UNRESOLVED",
+        "answer": "Доступных разрешённых свидетельств недостаточно, чтобы устранить соперника или предпочесть ему исходный тезис.",
+        "discriminator": "Разрешить происхождение селекторов, удалить влияние повторов и независимо проверить A/P/B и функцию терминов."
+      },
+      "decisive_reasons": [
+        "Тезис требует 2 разрешённых источников на уровне утверждений, доступно 0.",
+        "Частота терминов и локатороподобных маркеров не заменяет датированного источникового моста."
+      ],
+      "analysis": "Обнаружено 23 селекторных кандидатов и 3 различимых тематических групп. Автоматическое обнаружение темы — основание для анализа, но не семантическая валидация. Тезис требует 2 разрешённых источников на уровне утверждений, доступно 0. Частота терминов и локатороподобных маркеров не заменяет датированного источникового моста.",
+      "limitations": [
+        "Resolve source origin and edition locators, remove protocol/tool residue and exact duplicates, then test the question against independently coded evidence and a strongest rival."
+      ],
+      "recommendation": "Завершить внешнее разрешение источников и датированных переходов до исторического вывода.",
+      "deterministic_gate": "SOURCE_DEPENDENT_CLAIM_BLOCKED_BY_UNRESOLVED_CITATIONS",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_TECHNOLOGY_AND_ORDERING",
+      "title": "Machenschaft, Technik, Gestell, Bestand",
+      "statement": "Корпус делает исследовательский вопрос «Какие различения нужны, чтобы не превращать технический объект в автоматическое свидетельство Gestell?» содержательно доступным для экспертной проверки, но сам факт тематического обнаружения ещё не является внешним подтверждением ответа.",
+      "status": "QUALIFIED",
+      "confidence": 0.84,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "LOCAL",
+      "reconstruction": {
+        "A": "В корпусе совместно обнаружены тематические группы: GESTELL, BESTAND.",
+        "P": "Устойчивая тематическая совместность лицензирует постановку и реконструкцию вопроса, но не истинность ответа и не авторскую атрибуцию.",
+        "B": "Тема «Machenschaft, Technik, Gestell, Bestand» допускается как внутренняя аналитическая гипотеза с обязательной проверкой происхождения и сильнейшего соперника."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18"
+      ],
+      "evidence": {
+        "topic_id": "TECHNOLOGY_AND_ORDERING",
+        "topic_present": true,
+        "evidence_count": 1,
+        "distinct_group_count": 2,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 0,
+        "project_claim_selector_count": 0,
+        "selectors": [
+          "OX-P000035-61E0A93A4C"
+        ],
+        "selectors_truncated": false
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_TECHNOLOGY_AND_ORDERING",
+        "statement": "Кластер порождён лексической совместностью, повтором или смешением слоёв и не выражает устойчивой аргументативной структуры.",
+        "impact": "LIMITS_CLAIM",
+        "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод.",
+        "discriminator": "Разрешить происхождение селекторов, удалить влияние повторов и независимо проверить A/P/B и функцию терминов."
+      },
+      "decisive_reasons": [
+        "Тематический порог выполнен: 1 селекторов, 2 групп.",
+        "Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию."
+      ],
+      "analysis": "Обнаружено 1 селекторных кандидатов и 2 различимых тематических групп. Автоматическое обнаружение темы — основание для анализа, но не семантическая валидация. Тематический порог выполнен: 1 селекторов, 2 групп. Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию.",
+      "limitations": [
+        "Resolve source origin and edition locators, remove protocol/tool residue and exact duplicates, then test the question against independently coded evidence and a strongest rival."
+      ],
+      "recommendation": "Проверить гипотезу на стратифицированной выборке и против сильнейшей альтернативы.",
+      "deterministic_gate": "INTERNAL_MODEL_COHERENCE_ONLY",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_SOURCE_GEVIERT",
+      "title": "Source-forced constellation: Geviert / Göttliche / Erde / Himmel / Sterbliche / Ding",
+      "statement": "Корпус делает исследовательский вопрос «Which distinctions, co-dependencies or representation failures among Geviert, Göttliche, Erde, Himmel, Sterbliche, Ding, Ort, Ferne, Nähe, Welt become invisible when the current topic registry determines the problem in advance?» содержательно доступным для экспертной проверки, но сам факт тематического обнаружения ещё не является внешним подтверждением ответа.",
+      "status": "QUALIFIED",
+      "confidence": 0.84,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "LOCAL",
+      "reconstruction": {
+        "A": "В корпусе совместно обнаружены тематические группы: SOURCE_RESISTANCE, TERM_GEVIERT, TERM_GOTTLICHE, TERM_ERDE, TERM_HIMMEL, TERM_STERBLICHE, TERM_DING, TERM_ORT, TERM_FERNE, TERM_NAHE, TERM_WELT.",
+        "P": "Устойчивая тематическая совместность лицензирует постановку и реконструкцию вопроса, но не истинность ответа и не авторскую атрибуцию.",
+        "B": "Тема «Source-forced constellation: Geviert / Göttliche / Erde / Himmel / Sterbliche / Ding» допускается как внутренняя аналитическая гипотеза с обязательной проверкой происхождения и сильнейшего соперника."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18"
+      ],
+      "evidence": {
+        "topic_id": "EMERGENT_SOURCE_GEVIERT",
+        "topic_present": true,
+        "evidence_count": 26,
+        "distinct_group_count": 5,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 7,
+        "project_claim_selector_count": 8,
+        "selectors": [
+          "OX-P000001-558BE45E4E",
+          "OX-P000005-A7C0AB5A6D",
+          "OX-P000010-407A6F7C18",
+          "OX-P000013-9EBB504E6F",
+          "OX-P000019-D6FB861C82",
+          "OX-P000026-F696BEAD10",
+          "OX-P000008-E3F38287D5",
+          "OX-P000017-6B02D4C8BB",
+          "OX-P000029-F439C27265",
+          "OX-P000024-C3AAFF1332",
+          "OX-P000014-578110512C",
+          "OX-P000032-2135ACF860"
+        ],
+        "selectors_truncated": true
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_EMERGENT_SOURCE_GEVIERT",
+        "statement": "Кластер порождён лексической совместностью, повтором или смешением слоёв и не выражает устойчивой аргументативной структуры.",
+        "impact": "LIMITS_CLAIM",
+        "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод.",
+        "discriminator": "Разрешить происхождение селекторов, удалить влияние повторов и независимо проверить A/P/B и функцию терминов."
+      },
+      "decisive_reasons": [
+        "Тематический порог выполнен: 26 селекторов, 5 групп.",
+        "Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию."
+      ],
+      "analysis": "Обнаружено 26 селекторных кандидатов и 11 различимых тематических групп. Автоматическое обнаружение темы — основание для анализа, но не семантическая валидация. Тематический порог выполнен: 26 селекторов, 5 групп. Результат ограничен статусом внутренней модели: лексическое и структурное покрытие не устанавливает истинность или авторскую атрибуцию.",
+      "limitations": [
+        "Re-run after operator mutation. The emergent constellation is retired only if source-central terms become covered without forcing them into an unrelated legacy topic or erasing their local relations.",
+        "Curated topic coverage captured 0/12 source-central terms; 12 remained outside the recognized problem-space."
+      ],
+      "recommendation": "Проверить гипотезу на стратифицированной выборке и против сильнейшей альтернативы.",
+      "deterministic_gate": "INTERNAL_MODEL_COHERENCE_ONLY",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_CLAIM_GEVIERT_RELATA_FIRST_REJECTION",
+      "title": "GEVIERT_RELATA_FIRST_REJECTION",
+      "statement": "модель four independent relata + later relations недостаточна для реконструкции Geviert.",
+      "status": "QUALIFIED",
+      "confidence": 0.72,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "WORK",
+      "reconstruction": {
+        "A": "Досье явно сохраняет тезис «GEVIERT_RELATA_FIRST_REJECTION» как отдельный объект проверки и связывает его с source-central полем: Geviert.",
+        "P": "Явная формулировка проекта не является собственным доказательством. Тезис должен быть проверен по SOURCE-селекторам, соседнему контексту, конкурирующей unitization и цене перевода в метаязык проекта.",
+        "B": "Проверяемый тезис: модель four independent relata + later relations недостаточна для реконструкции Geviert."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18",
+        "RT20"
+      ],
+      "evidence": {
+        "topic_id": "EMERGENT_CLAIM_GEVIERT_RELATA_FIRST_REJECTION",
+        "topic_present": true,
+        "evidence_count": 14,
+        "distinct_group_count": 5,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 5,
+        "project_claim_selector_count": 4,
+        "selectors": [
+          "OX-P000019-D6FB861C82",
+          "OX-P000001-558BE45E4E",
+          "OX-P000004-FE7A82725C",
+          "OX-P000007-4DC9235482",
+          "OX-P000009-3268FFFD53",
+          "OX-P000010-407A6F7C18",
+          "OX-P000012-7C9F28048E",
+          "OX-P000013-9EBB504E6F",
+          "OX-P000016-EC53EF2F7C",
+          "OX-P000026-F696BEAD10",
+          "OX-P000030-2E9EB1A91B",
+          "OX-P000035-61E0A93A4C"
+        ],
+        "selectors_truncated": true
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_EMERGENT_CLAIM_GEVIERT_RELATA_FIRST_REJECTION",
+        "statement": "Проектная формулировка может быть эффектом выбранной unitization или метаязыка: те же исходные фрагменты могут поддерживать более слабую, иначе структурированную или несводимую реконструкцию.",
+        "impact": "LIMITS_CLAIM",
+        "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод.",
+        "discriminator": "Сопоставить тезис с точными SOURCE-селекторами и соседним контекстом, затем повторить анализ минимум с одной rival unitization; отдельно зафиксировать различия, которые каждая репрезентация делает видимыми и стирает."
+      },
+      "decisive_reasons": [
+        "Локальное доказательное поле содержит 5 SOURCE-селектор(ов) и 4 PROJECT_CLAIM-селектор(ов).",
+        "Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication.",
+        "Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта."
+      ],
+      "analysis": "Явный проектный тезис сохранён как самостоятельный объект adjudication вместо растворения в topic registry: GEVIERT_RELATA_FIRST_REJECTION. Он связан с 14 селекторными кандидатами; source-central terms: Geviert. Тезис допускается только как source-bounded reconstruction: локальные SOURCE-сегменты могут сделать его содержательно проверяемым, но не внешне подтверждённым. Локальное доказательное поле содержит 5 SOURCE-селектор(ов) и 4 PROJECT_CLAIM-селектор(ов). Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication. Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта.",
+      "limitations": [
+        "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss.",
+        "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it."
+      ],
+      "recommendation": "Проверить фактический тезис, а не только факт его тематического обнаружения; сохранить source-bounded ceiling, rival unitization и rollback при operator mutation.",
+      "deterministic_gate": "SOURCE_BOUNDED_RECONSTRUCTION_OPEN_EXTERNAL_VALIDATION_PENDING",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_CLAIM_CO_CONSTITUTIVE_HYPOTHESIS",
+      "title": "CO_CONSTITUTIVE_HYPOTHESIS",
+      "statement": "более адекватной рабочей моделью является взаимная соопределённость четырёх без их слияния.",
+      "status": "QUALIFIED",
+      "confidence": 0.72,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "WORK",
+      "reconstruction": {
+        "A": "Досье явно сохраняет тезис «CO_CONSTITUTIVE_HYPOTHESIS» как отдельный объект проверки и связывает его с source-central полем: Geviert, Göttliche, Erde, Himmel, Sterbliche, Ding.",
+        "P": "Явная формулировка проекта не является собственным доказательством. Тезис должен быть проверен по SOURCE-селекторам, соседнему контексту, конкурирующей unitization и цене перевода в метаязык проекта.",
+        "B": "Проверяемый тезис: более адекватной рабочей моделью является взаимная соопределённость четырёх без их слияния."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18",
+        "RT20"
+      ],
+      "evidence": {
+        "topic_id": "EMERGENT_CLAIM_CO_CONSTITUTIVE_HYPOTHESIS",
+        "topic_present": true,
+        "evidence_count": 21,
+        "distinct_group_count": 5,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 6,
+        "project_claim_selector_count": 7,
+        "selectors": [
+          "OX-P000020-3385DC5AD0",
+          "OX-P000004-FE7A82725C",
+          "OX-P000007-4DC9235482",
+          "OX-P000008-E3F38287D5",
+          "OX-P000010-407A6F7C18",
+          "OX-P000013-9EBB504E6F",
+          "OX-P000016-EC53EF2F7C",
+          "OX-P000019-D6FB861C82",
+          "OX-P000022-207B7CBDC0",
+          "OX-P000025-027D60C550",
+          "OX-P000029-F439C27265",
+          "OX-P000035-61E0A93A4C"
+        ],
+        "selectors_truncated": true
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_EMERGENT_CLAIM_CO_CONSTITUTIVE_HYPOTHESIS",
+        "statement": "Проектная формулировка может быть эффектом выбранной unitization или метаязыка: те же исходные фрагменты могут поддерживать более слабую, иначе структурированную или несводимую реконструкцию.",
+        "impact": "LIMITS_CLAIM",
+        "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод.",
+        "discriminator": "Сопоставить тезис с точными SOURCE-селекторами и соседним контекстом, затем повторить анализ минимум с одной rival unitization; отдельно зафиксировать различия, которые каждая репрезентация делает видимыми и стирает."
+      },
+      "decisive_reasons": [
+        "Локальное доказательное поле содержит 6 SOURCE-селектор(ов) и 7 PROJECT_CLAIM-селектор(ов).",
+        "Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication.",
+        "Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта."
+      ],
+      "analysis": "Явный проектный тезис сохранён как самостоятельный объект adjudication вместо растворения в topic registry: CO_CONSTITUTIVE_HYPOTHESIS. Он связан с 21 селекторными кандидатами; source-central terms: Geviert, Göttliche, Erde, Himmel, Sterbliche, Ding. Тезис допускается только как source-bounded reconstruction: локальные SOURCE-сегменты могут сделать его содержательно проверяемым, но не внешне подтверждённым. Локальное доказательное поле содержит 6 SOURCE-селектор(ов) и 7 PROJECT_CLAIM-селектор(ов). Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication. Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта.",
+      "limitations": [
+        "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss.",
+        "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it."
+      ],
+      "recommendation": "Проверить фактический тезис, а не только факт его тематического обнаружения; сохранить source-bounded ceiling, rival unitization и rollback при operator mutation.",
+      "deterministic_gate": "SOURCE_BOUNDED_RECONSTRUCTION_OPEN_EXTERNAL_VALIDATION_PENDING",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_CLAIM_RELATION_FIRST_STRONG",
+      "title": "RELATION_FIRST_STRONG",
+      "statement": "отношение/событие Geviert онтологически первично по отношению к Erde, Himmel, Göttliche, Sterbliche.",
+      "status": "INSUFFICIENT",
+      "confidence": 0.9,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "WORK",
+      "reconstruction": {
+        "A": "Досье явно сохраняет тезис «RELATION_FIRST_STRONG» как отдельный объект проверки и связывает его с source-central полем: Geviert, Göttliche, Erde, Himmel, Sterbliche.",
+        "P": "Явная формулировка проекта не является собственным доказательством. Тезис должен быть проверен по SOURCE-селекторам, соседнему контексту, конкурирующей unitization и цене перевода в метаязык проекта.",
+        "B": "Проверяемый тезис: отношение/событие Geviert онтологически первично по отношению к Erde, Himmel, Göttliche, Sterbliche."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18",
+        "RT20"
+      ],
+      "evidence": {
+        "topic_id": "EMERGENT_CLAIM_RELATION_FIRST_STRONG",
+        "topic_present": true,
+        "evidence_count": 19,
+        "distinct_group_count": 5,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 6,
+        "project_claim_selector_count": 5,
+        "selectors": [
+          "OX-P000021-10C56AA282",
+          "OX-P000004-FE7A82725C",
+          "OX-P000005-A7C0AB5A6D",
+          "OX-P000008-E3F38287D5",
+          "OX-P000010-407A6F7C18",
+          "OX-P000012-7C9F28048E",
+          "OX-P000015-791F0DBE20",
+          "OX-P000016-EC53EF2F7C",
+          "OX-P000019-D6FB861C82",
+          "OX-P000026-F696BEAD10",
+          "OX-P000029-F439C27265",
+          "OX-P000035-61E0A93A4C"
+        ],
+        "selectors_truncated": true
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_EMERGENT_CLAIM_RELATION_FIRST_STRONG",
+        "statement": "Проектная формулировка может быть эффектом выбранной unitization или метаязыка: те же исходные фрагменты могут поддерживать более слабую, иначе структурированную или несводимую реконструкцию.",
+        "impact": "UNRESOLVED",
+        "answer": "Доступных разрешённых свидетельств недостаточно, чтобы устранить соперника или предпочесть ему исходный тезис.",
+        "discriminator": "Сопоставить тезис с точными SOURCE-селекторами и соседним контекстом, затем повторить анализ минимум с одной rival unitization; отдельно зафиксировать различия, которые каждая репрезентация делает видимыми и стирает."
+      },
+      "decisive_reasons": [
+        "Тезис требует 1 разрешённых источников на уровне утверждений, доступно 0.",
+        "Частота терминов и локатороподобных маркеров не заменяет датированного источникового моста."
+      ],
+      "analysis": "Явный проектный тезис сохранён как самостоятельный объект adjudication вместо растворения в topic registry: RELATION_FIRST_STRONG. Он связан с 19 селекторными кандидатами; source-central terms: Geviert, Göttliche, Erde, Himmel, Sterbliche. Сильная онтологическая промоция не может быть квалифицирована только локальной совместностью терминов; нужен независимо разрешённый первичный контекст. Тезис требует 1 разрешённых источников на уровне утверждений, доступно 0. Частота терминов и локатороподобных маркеров не заменяет датированного источникового моста.",
+      "limitations": [
+        "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss.",
+        "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it."
+      ],
+      "recommendation": "Проверить фактический тезис, а не только факт его тематического обнаружения; сохранить source-bounded ceiling, rival unitization и rollback при operator mutation.",
+      "deterministic_gate": "SOURCE_DEPENDENT_CLAIM_BLOCKED_BY_UNRESOLVED_CITATIONS",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_CLAIM_DING_WORLD",
+      "title": "DING_WORLD",
+      "statement": "формула Dingen/Versammeln позволяет квалифицированно утверждать, что Ding участвует в worlding, а не лишь символизирует уже готовый Welt.",
+      "status": "QUALIFIED",
+      "confidence": 0.72,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "WORK",
+      "reconstruction": {
+        "A": "Досье явно сохраняет тезис «DING_WORLD» как отдельный объект проверки и связывает его с source-central полем: Ding, Welt, versammeln.",
+        "P": "Явная формулировка проекта не является собственным доказательством. Тезис должен быть проверен по SOURCE-селекторам, соседнему контексту, конкурирующей unitization и цене перевода в метаязык проекта.",
+        "B": "Проверяемый тезис: формула Dingen/Versammeln позволяет квалифицированно утверждать, что Ding участвует в worlding, а не лишь символизирует уже готовый Welt."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18",
+        "RT20"
+      ],
+      "evidence": {
+        "topic_id": "EMERGENT_CLAIM_DING_WORLD",
+        "topic_present": true,
+        "evidence_count": 6,
+        "distinct_group_count": 4,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 2,
+        "project_claim_selector_count": 1,
+        "selectors": [
+          "OX-P000022-207B7CBDC0",
+          "OX-P000005-A7C0AB5A6D",
+          "OX-P000010-407A6F7C18",
+          "OX-P000013-9EBB504E6F",
+          "OX-P000016-EC53EF2F7C",
+          "OX-P000035-61E0A93A4C"
+        ],
+        "selectors_truncated": false
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_EMERGENT_CLAIM_DING_WORLD",
+        "statement": "Проектная формулировка может быть эффектом выбранной unitization или метаязыка: те же исходные фрагменты могут поддерживать более слабую, иначе структурированную или несводимую реконструкцию.",
+        "impact": "LIMITS_CLAIM",
+        "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод.",
+        "discriminator": "Сопоставить тезис с точными SOURCE-селекторами и соседним контекстом, затем повторить анализ минимум с одной rival unitization; отдельно зафиксировать различия, которые каждая репрезентация делает видимыми и стирает."
+      },
+      "decisive_reasons": [
+        "Локальное доказательное поле содержит 2 SOURCE-селектор(ов) и 1 PROJECT_CLAIM-селектор(ов).",
+        "Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication.",
+        "Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта."
+      ],
+      "analysis": "Явный проектный тезис сохранён как самостоятельный объект adjudication вместо растворения в topic registry: DING_WORLD. Он связан с 6 селекторными кандидатами; source-central terms: Ding, Welt, versammeln. Тезис допускается только как source-bounded reconstruction: локальные SOURCE-сегменты могут сделать его содержательно проверяемым, но не внешне подтверждённым. Локальное доказательное поле содержит 2 SOURCE-селектор(ов) и 1 PROJECT_CLAIM-селектор(ов). Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication. Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта.",
+      "limitations": [
+        "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss.",
+        "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it."
+      ],
+      "recommendation": "Проверить фактический тезис, а не только факт его тематического обнаружения; сохранить source-bounded ceiling, rival unitization и rollback при operator mutation.",
+      "deterministic_gate": "SOURCE_BOUNDED_RECONSTRUCTION_OPEN_EXTERNAL_VALIDATION_PENDING",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_CLAIM_NEARNESS_DIFFERENCE",
+      "title": "NEARNESS_DIFFERENCE",
+      "statement": "Nähe у Heidegger сохраняет Ferne и потому задаёт модель близости без уничтожения различия.",
+      "status": "QUALIFIED",
+      "confidence": 0.72,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "WORK",
+      "reconstruction": {
+        "A": "Досье явно сохраняет тезис «NEARNESS_DIFFERENCE» как отдельный объект проверки и связывает его с source-central полем: Ferne, Nähe.",
+        "P": "Явная формулировка проекта не является собственным доказательством. Тезис должен быть проверен по SOURCE-селекторам, соседнему контексту, конкурирующей unitization и цене перевода в метаязык проекта.",
+        "B": "Проверяемый тезис: Nähe у Heidegger сохраняет Ferne и потому задаёт модель близости без уничтожения различия."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18",
+        "RT20"
+      ],
+      "evidence": {
+        "topic_id": "EMERGENT_CLAIM_NEARNESS_DIFFERENCE",
+        "topic_present": true,
+        "evidence_count": 4,
+        "distinct_group_count": 4,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 1,
+        "project_claim_selector_count": 1,
+        "selectors": [
+          "OX-P000023-28BEA2D6B4",
+          "OX-P000006-886544C19B",
+          "OX-P000014-578110512C",
+          "OX-P000035-61E0A93A4C"
+        ],
+        "selectors_truncated": false
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_EMERGENT_CLAIM_NEARNESS_DIFFERENCE",
+        "statement": "Проектная формулировка может быть эффектом выбранной unitization или метаязыка: те же исходные фрагменты могут поддерживать более слабую, иначе структурированную или несводимую реконструкцию.",
+        "impact": "LIMITS_CLAIM",
+        "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод.",
+        "discriminator": "Сопоставить тезис с точными SOURCE-селекторами и соседним контекстом, затем повторить анализ минимум с одной rival unitization; отдельно зафиксировать различия, которые каждая репрезентация делает видимыми и стирает."
+      },
+      "decisive_reasons": [
+        "Локальное доказательное поле содержит 1 SOURCE-селектор(ов) и 1 PROJECT_CLAIM-селектор(ов).",
+        "Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication.",
+        "Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта."
+      ],
+      "analysis": "Явный проектный тезис сохранён как самостоятельный объект adjudication вместо растворения в topic registry: NEARNESS_DIFFERENCE. Он связан с 4 селекторными кандидатами; source-central terms: Ferne, Nähe. Тезис допускается только как source-bounded reconstruction: локальные SOURCE-сегменты могут сделать его содержательно проверяемым, но не внешне подтверждённым. Локальное доказательное поле содержит 1 SOURCE-селектор(ов) и 1 PROJECT_CLAIM-селектор(ов). Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication. Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта.",
+      "limitations": [
+        "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss.",
+        "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it."
+      ],
+      "recommendation": "Проверить фактический тезис, а не только факт его тематического обнаружения; сохранить source-bounded ceiling, rival unitization и rollback при operator mutation.",
+      "deterministic_gate": "SOURCE_BOUNDED_RECONSTRUCTION_OPEN_EXTERNAL_VALIDATION_PENDING",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_CLAIM_PLACE_SPACE_REVERSAL",
+      "title": "PLACE_SPACE_REVERSAL",
+      "statement": "в Bauen Wohnen Denken Ort/Stätte через вещь имеет приоритет перед представлением пространства как нейтрального контейнера.",
+      "status": "QUALIFIED",
+      "confidence": 0.72,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "WORK",
+      "reconstruction": {
+        "A": "Досье явно сохраняет тезис «PLACE_SPACE_REVERSAL» как отдельный объект проверки и связывает его с source-central полем: Ort, Stätte, Wohnen.",
+        "P": "Явная формулировка проекта не является собственным доказательством. Тезис должен быть проверен по SOURCE-селекторам, соседнему контексту, конкурирующей unitization и цене перевода в метаязык проекта.",
+        "B": "Проверяемый тезис: в Bauen Wohnen Denken Ort/Stätte через вещь имеет приоритет перед представлением пространства как нейтрального контейнера."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18",
+        "RT20"
+      ],
+      "evidence": {
+        "topic_id": "EMERGENT_CLAIM_PLACE_SPACE_REVERSAL",
+        "topic_present": true,
+        "evidence_count": 5,
+        "distinct_group_count": 5,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 1,
+        "project_claim_selector_count": 1,
+        "selectors": [
+          "OX-P000024-C3AAFF1332",
+          "OX-P000009-3268FFFD53",
+          "OX-P000016-EC53EF2F7C",
+          "OX-P000033-65E86A50BC",
+          "OX-P000035-61E0A93A4C"
+        ],
+        "selectors_truncated": false
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_EMERGENT_CLAIM_PLACE_SPACE_REVERSAL",
+        "statement": "Проектная формулировка может быть эффектом выбранной unitization или метаязыка: те же исходные фрагменты могут поддерживать более слабую, иначе структурированную или несводимую реконструкцию.",
+        "impact": "LIMITS_CLAIM",
+        "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод.",
+        "discriminator": "Сопоставить тезис с точными SOURCE-селекторами и соседним контекстом, затем повторить анализ минимум с одной rival unitization; отдельно зафиксировать различия, которые каждая репрезентация делает видимыми и стирает."
+      },
+      "decisive_reasons": [
+        "Локальное доказательное поле содержит 1 SOURCE-селектор(ов) и 1 PROJECT_CLAIM-селектор(ов).",
+        "Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication.",
+        "Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта."
+      ],
+      "analysis": "Явный проектный тезис сохранён как самостоятельный объект adjudication вместо растворения в topic registry: PLACE_SPACE_REVERSAL. Он связан с 5 селекторными кандидатами; source-central terms: Ort, Stätte, Wohnen. Тезис допускается только как source-bounded reconstruction: локальные SOURCE-сегменты могут сделать его содержательно проверяемым, но не внешне подтверждённым. Локальное доказательное поле содержит 1 SOURCE-селектор(ов) и 1 PROJECT_CLAIM-селектор(ов). Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication. Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта.",
+      "limitations": [
+        "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss.",
+        "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it."
+      ],
+      "recommendation": "Проверить фактический тезис, а не только факт его тематического обнаружения; сохранить source-bounded ceiling, rival unitization и rollback при operator mutation.",
+      "deterministic_gate": "SOURCE_BOUNDED_RECONSTRUCTION_OPEN_EXTERNAL_VALIDATION_PENDING",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_CLAIM_GOD_TRANSLATION_FIREWALL",
+      "title": "GOD_TRANSLATION_FIREWALL",
+      "statement": "Göttliche нельзя без отдельного аргумента переводить как values/norms или отождествлять с Gott, Heiliges, Ereignis.",
+      "status": "QUALIFIED",
+      "confidence": 0.72,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "WORK",
+      "reconstruction": {
+        "A": "Досье явно сохраняет тезис «GOD_TRANSLATION_FIREWALL» как отдельный объект проверки и связывает его с source-central полем: Göttliche.",
+        "P": "Явная формулировка проекта не является собственным доказательством. Тезис должен быть проверен по SOURCE-селекторам, соседнему контексту, конкурирующей unitization и цене перевода в метаязык проекта.",
+        "B": "Проверяемый тезис: Göttliche нельзя без отдельного аргумента переводить как values/norms или отождествлять с Gott, Heiliges, Ereignis."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18",
+        "RT20"
+      ],
+      "evidence": {
+        "topic_id": "EMERGENT_CLAIM_GOD_TRANSLATION_FIREWALL",
+        "topic_present": true,
+        "evidence_count": 9,
+        "distinct_group_count": 5,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 2,
+        "project_claim_selector_count": 2,
+        "selectors": [
+          "OX-P000025-027D60C550",
+          "OX-P000007-4DC9235482",
+          "OX-P000008-E3F38287D5",
+          "OX-P000015-791F0DBE20",
+          "OX-P000017-6B02D4C8BB",
+          "OX-P000021-10C56AA282",
+          "OX-P000029-F439C27265",
+          "OX-P000030-2E9EB1A91B",
+          "OX-P000035-61E0A93A4C"
+        ],
+        "selectors_truncated": false
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_EMERGENT_CLAIM_GOD_TRANSLATION_FIREWALL",
+        "statement": "Проектная формулировка может быть эффектом выбранной unitization или метаязыка: те же исходные фрагменты могут поддерживать более слабую, иначе структурированную или несводимую реконструкцию.",
+        "impact": "LIMITS_CLAIM",
+        "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод.",
+        "discriminator": "Сопоставить тезис с точными SOURCE-селекторами и соседним контекстом, затем повторить анализ минимум с одной rival unitization; отдельно зафиксировать различия, которые каждая репрезентация делает видимыми и стирает."
+      },
+      "decisive_reasons": [
+        "Локальное доказательное поле содержит 2 SOURCE-селектор(ов) и 2 PROJECT_CLAIM-селектор(ов).",
+        "Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication.",
+        "Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта."
+      ],
+      "analysis": "Явный проектный тезис сохранён как самостоятельный объект adjudication вместо растворения в topic registry: GOD_TRANSLATION_FIREWALL. Он связан с 9 селекторными кандидатами; source-central terms: Göttliche. Тезис допускается только как source-bounded reconstruction: локальные SOURCE-сегменты могут сделать его содержательно проверяемым, но не внешне подтверждённым. Локальное доказательное поле содержит 2 SOURCE-селектор(ов) и 2 PROJECT_CLAIM-селектор(ов). Это делает фактический тезис содержательно проверяемым внутри досье, но не разрешает статус SUPPORTED без независимого source resolution и семантического adjudication. Rival unitization остаётся обязательной: source-central terms не должны автоматически наследовать relation ontology проекта.",
+      "limitations": [
+        "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss.",
+        "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it."
+      ],
+      "recommendation": "Проверить фактический тезис, а не только факт его тематического обнаружения; сохранить source-bounded ceiling, rival unitization и rollback при operator mutation.",
+      "deterministic_gate": "SOURCE_BOUNDED_RECONSTRUCTION_OPEN_EXTERNAL_VALIDATION_PENDING",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_CLAIM_UNIVERSAL_ONTOLOGY",
+      "title": "UNIVERSAL_ONTOLOGY",
+      "statement": "Geviert является доказанной универсальной структурой реальности как таковой.",
+      "status": "REJECTED",
+      "confidence": 0.9,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "UNIVERSAL",
+      "reconstruction": {
+        "A": "Досье явно сохраняет тезис «UNIVERSAL_ONTOLOGY» как отдельный объект проверки и связывает его с source-central полем: Geviert.",
+        "P": "Явная формулировка проекта не является собственным доказательством. Тезис должен быть проверен по SOURCE-селекторам, соседнему контексту, конкурирующей unitization и цене перевода в метаязык проекта.",
+        "B": "Проверяемый тезис: Geviert является доказанной универсальной структурой реальности как таковой."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18",
+        "RT26",
+        "RT27"
+      ],
+      "evidence": {
+        "topic_id": "EMERGENT_CLAIM_UNIVERSAL_ONTOLOGY",
+        "topic_present": true,
+        "evidence_count": 14,
+        "distinct_group_count": 5,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 5,
+        "project_claim_selector_count": 4,
+        "selectors": [
+          "OX-P000026-F696BEAD10",
+          "OX-P000001-558BE45E4E",
+          "OX-P000004-FE7A82725C",
+          "OX-P000007-4DC9235482",
+          "OX-P000009-3268FFFD53",
+          "OX-P000010-407A6F7C18",
+          "OX-P000012-7C9F28048E",
+          "OX-P000013-9EBB504E6F",
+          "OX-P000016-EC53EF2F7C",
+          "OX-P000021-10C56AA282",
+          "OX-P000030-2E9EB1A91B",
+          "OX-P000035-61E0A93A4C"
+        ],
+        "selectors_truncated": true
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_EMERGENT_CLAIM_UNIVERSAL_ONTOLOGY",
+        "statement": "Проектная формулировка может быть эффектом выбранной unitization или метаязыка: те же исходные фрагменты могут поддерживать более слабую, иначе структурированную или несводимую реконструкцию.",
+        "impact": "DECISIVE",
+        "answer": "Соперник выявляет недопустимый переход и является решающим для отвержения тезиса в текущем прогоне.",
+        "discriminator": "Сопоставить тезис с точными SOURCE-селекторами и соседним контекстом, затем повторить анализ минимум с одной rival unitization; отдельно зафиксировать различия, которые каждая репрезентация делает видимыми и стирает."
+      },
+      "decisive_reasons": [
+        "Универсальный тезис требует 3 разрешённых источников, доступно 0.",
+        "Лексическая применимость общей рамки к выбранным случаям не влечёт универсальную онтологическую структуру."
+      ],
+      "analysis": "Явный проектный тезис сохранён как самостоятельный объект adjudication вместо растворения в topic registry: UNIVERSAL_ONTOLOGY. Он связан с 14 селекторными кандидатами; source-central terms: Geviert. Универсализация требует независимого межисточникового и контрпримерного бремени; локальный корпус этого сам не даёт. Универсальный тезис требует 3 разрешённых источников, доступно 0. Лексическая применимость общей рамки к выбранным случаям не влечёт универсальную онтологическую структуру.",
+      "limitations": [
+        "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss.",
+        "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it."
+      ],
+      "recommendation": "Проверить фактический тезис, а не только факт его тематического обнаружения; сохранить source-bounded ceiling, rival unitization и rollback при operator mutation.",
+      "deterministic_gate": "UNIVERSAL_PROMOTION_REJECTED_SOURCE_AND_DOMAIN_BURDEN_UNMET",
+      "model_trace_available": false
+    },
+    {
+      "thesis_id": "AUTO_EMERGENT_CLAIM_METHOD_MUTATION",
+      "title": "METHOD_MUTATION",
+      "statement": "pairwise node-edge graph Destruktion недостаточен там, где источник запрещает начинать с изолированных relata.",
+      "status": "QUALIFIED",
+      "confidence": 0.82,
+      "finality": "FINAL_FOR_THIS_RUN",
+      "scale": "METHOD",
+      "reconstruction": {
+        "A": "Досье явно сохраняет тезис «METHOD_MUTATION» как отдельный объект проверки и связывает его с source-central полем: Geviert, Göttliche, Erde, Himmel, Sterbliche, Ding.",
+        "P": "Явная формулировка проекта не является собственным доказательством. Тезис должен быть проверен по SOURCE-селекторам, соседнему контексту, конкурирующей unitization и цене перевода в метаязык проекта.",
+        "B": "Проверяемый тезис: pairwise node-edge graph Destruktion недостаточен там, где источник запрещает начинать с изолированных relata."
+      },
+      "operative_relations": [
+        "RT15",
+        "RT18"
+      ],
+      "evidence": {
+        "topic_id": "EMERGENT_CLAIM_METHOD_MUTATION",
+        "topic_present": true,
+        "evidence_count": 21,
+        "distinct_group_count": 5,
+        "case_matrix_present": true,
+        "resolved_source_count": 0,
+        "source_layer_selector_count": 6,
+        "project_claim_selector_count": 7,
+        "selectors": [
+          "OX-P000027-7E04C88B18",
+          "OX-P000004-FE7A82725C",
+          "OX-P000007-4DC9235482",
+          "OX-P000008-E3F38287D5",
+          "OX-P000010-407A6F7C18",
+          "OX-P000013-9EBB504E6F",
+          "OX-P000016-EC53EF2F7C",
+          "OX-P000019-D6FB861C82",
+          "OX-P000022-207B7CBDC0",
+          "OX-P000025-027D60C550",
+          "OX-P000029-F439C27265",
+          "OX-P000035-61E0A93A4C"
+        ],
+        "selectors_truncated": true
+      },
+      "strongest_rival": {
+        "rival_id": "AUTO_RIVAL_EMERGENT_CLAIM_METHOD_MUTATION",
+        "statement": "Проектная формулировка может быть эффектом выбранной unitization или метаязыка: те же исходные фрагменты могут поддерживать более слабую, иначе структурированную или несводимую реконструкцию.",
+        "impact": "LIMITS_CLAIM",
+        "answer": "Соперник не уничтожает ограниченную методическую или реконструктивную ценность, но запрещает её промоцию в более сильный вывод.",
+        "discriminator": "Сопоставить тезис с точными SOURCE-селекторами и соседним контекстом, затем повторить анализ минимум с одной rival unitization; отдельно зафиксировать различия, которые каждая репрезентация делает видимыми и стирает."
+      },
+      "decisive_reasons": [
+        "Самоприменение критики является процедурным контролем против циркуляции.",
+        "Прохождение внутренней процедуры не доказывает внешнюю истинность результата."
+      ],
+      "analysis": "Явный проектный тезис сохранён как самостоятельный объект adjudication вместо растворения в topic registry: METHOD_MUTATION. Он связан с 21 селекторными кандидатами; source-central terms: Geviert, Göttliche, Erde, Himmel, Sterbliche, Ding. Метаметодический тезис оценивается как кандидат изменения процедуры, а не как свидетельство истинности объекта. Самоприменение критики является процедурным контролем против циркуляции. Прохождение внутренней процедуры не доказывает внешнюю истинность результата.",
+      "limitations": [
+        "Resolve the claim's source-bounded evidence, compare at least one independent rival representation, and retire the emergent topic if a better registered formulation covers the same distinctions without loss.",
+        "The claim is explicit in the dossier and must remain adjudicable even when no curated topic lens recognizes it."
+      ],
+      "recommendation": "Проверить фактический тезис, а не только факт его тематического обнаружения; сохранить source-bounded ceiling, rival unitization и rollback при operator mutation.",
+      "deterministic_gate": "META_METHOD_SUPPORTED_AS_CONTROL_NOT_AS_TRUTH_EVIDENCE",
+      "model_trace_available": false
+    }
+  ],
+  "global_analytics": {
+    "analytic_status": "FINAL_FOR_THIS_RUN",
+    "title": "Финальная автоматическая аналитика корпуса",
+    "core_finding": "Корпус LOCAL-SHA256-A731F5F0A34DB63303D2D4DB4F8FC3EF1381E31F974272A72D5689E971233B03 автоматически разделён на структурные слои, тематические гипотезы и проверяемые тезисы; окончательная сила каждого результата ограничена разрешением источников и типом доказательного бремени.",
+    "supported_theses": [
+      "AUTO_CORPUS_GENRE"
+    ],
+    "qualified_theses": [
+      "AUTO_TECHNOLOGY_AND_ORDERING",
+      "AUTO_EMERGENT_SOURCE_GEVIERT",
+      "AUTO_EMERGENT_CLAIM_GEVIERT_RELATA_FIRST_REJECTION",
+      "AUTO_EMERGENT_CLAIM_CO_CONSTITUTIVE_HYPOTHESIS",
+      "AUTO_EMERGENT_CLAIM_DING_WORLD",
+      "AUTO_EMERGENT_CLAIM_NEARNESS_DIFFERENCE",
+      "AUTO_EMERGENT_CLAIM_PLACE_SPACE_REVERSAL",
+      "AUTO_EMERGENT_CLAIM_GOD_TRANSLATION_FIREWALL",
+      "AUTO_EMERGENT_CLAIM_METHOD_MUTATION"
+    ],
+    "rejected_theses": [
+      "AUTO_EMERGENT_CLAIM_UNIVERSAL_ONTOLOGY"
+    ],
+    "insufficient_theses": [
+      "AUTO_DIACHRONIC_HEIDEGGER",
+      "AUTO_EMERGENT_CLAIM_RELATION_FIRST_STRONG"
+    ],
+    "decisive_reasons": [
+      "Выявлено 12 тематических гипотез и 0 гетерогенных матриц.",
+      "На уровне утверждений разрешено 0 внешних ссылок.",
+      "Каждый тезис завершён одним из четырёх терминальных статусов без превращения нехватки данных в положительный результат."
+    ],
+    "rejected_conclusions": [
+      "Лексическая совместность сама по себе доказывает истинность, авторство или универсальность тезиса."
+    ],
+    "next_actions": [
+      "Разрешить происхождение ключевых селекторов на уровне утверждений.",
+      "Проверить A/P/B, типы отношений и сильнейших соперников на независимой выборке."
+    ],
+    "final_verdict": "Корпус LOCAL-SHA256-A731F5F0A34DB63303D2D4DB4F8FC3EF1381E31F974272A72D5689E971233B03 автоматически разделён на структурные слои, тематические гипотезы и проверяемые тезисы; окончательная сила каждого результата ограничена разрешением источников и типом доказательного бремени. В текущем прогоне: SUPPORTED — 1, QUALIFIED — 9, REJECTED — 1, INSUFFICIENT — 2."
+  },
+  "output_contract": {
+    "final_analytics_emitted": true,
+    "all_theses_terminal": true,
+    "source_text_included": false,
+    "model_generated_paraphrase_included": false,
+    "uncertainty_disclosed": true,
+    "mandatory_etymology_executed": true,
+    "mandatory_etymological_significance": false
+  },
+  "claim_ceiling": "AUTONOMOUS_RUN_BOUND_EXPERT_ADJUDICATION_NOT_INFALLIBILITY_OR_EXTERNAL_VALIDATION"
+}

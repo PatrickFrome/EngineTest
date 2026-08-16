@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "lib": ["ES2022", "DOM"],
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/budget.ts",
+    "src/hash.ts",
+    "src/edge_state.ts",
+    "src/mcp_contract.ts",
+    "src/federation_contract.ts",
+    "src/federation_client.ts",
+    "src/federation_tools.ts",
+    "src/d1.ts",
+    "src/r2.ts",
+    "src/workflow_core.ts",
+    "src/workers_ai.ts"
+  ]
+}

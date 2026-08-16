@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/archive_map.schema.json",
+  "title": "Destruktion non-destructive archive map",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["archive_map_version", "engine_version", "generated_at", "source_id", "policy", "counts", "exact_duplicate_groups", "near_duplicate_groups", "archive_entries", "claim_ceiling"],
+  "properties": {
+    "archive_map_version": {"const": "DAE-ARCHIVE-MAP-1.0"},
+    "engine_version": {"type": "string"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "source_id": {"type": "string", "minLength": 3},
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["deletion", "canonicalization", "near_duplicate_action", "tool_log_action"],
+      "properties": {
+        "deletion": {"const": "FORBIDDEN"},
+        "canonicalization": {"const": "FIRST_OCCURRENCE_AS_REPRESENTATIVE_WITH_ALL_OCCURRENCES_PRESERVED"},
+        "near_duplicate_action": {"const": "LINK_ONLY_REVIEW_REQUIRED"},
+        "tool_log_action": {"const": "ARCHIVE_LAYER_WITHOUT_ERASURE"}
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["segments_total", "deleted_segments", "exact_duplicate_groups", "exact_duplicate_occurrences_archived", "near_duplicate_groups", "tool_log_segments_archived"],
+      "properties": {
+        "segments_total": {"type": "integer", "minimum": 0},
+        "deleted_segments": {"const": 0},
+        "exact_duplicate_groups": {"type": "integer", "minimum": 0},
+        "exact_duplicate_occurrences_archived": {"type": "integer", "minimum": 0},
+        "near_duplicate_groups": {"type": "integer", "minimum": 0},
+        "tool_log_segments_archived": {"type": "integer", "minimum": 0}
+      }
+    },
+    "exact_duplicate_groups": {"type": "array", "items": {"$ref": "#/$defs/group"}},
+    "near_duplicate_groups": {"type": "array", "items": {"$ref": "#/$defs/group"}},
+    "archive_entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["segment_id", "reason", "representative_segment_id", "recoverability"],
+        "properties": {
+          "segment_id": {"type": "string", "pattern": "^OX-P"},
+          "reason": {"enum": ["EXACT_DUPLICATE_OCCURRENCE", "PROTOCOL_OR_TOOL_LOG"]},
+          "representative_segment_id": {"type": ["string", "null"]},
+          "recoverability": {"const": "FULL_SELECTOR_AND_HASH_RETAINED_IN_SEGMENTATION_MANIFEST"}
+        }
+      }
+    },
+    "claim_ceiling": {"const": "NON_DESTRUCTIVE_CONSOLIDATION_MAP_ONLY_NOT_TEXTUAL_OR_SEMANTIC_EQUIVALENCE"}
+  },
+  "$defs": {
+    "group": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cluster_id", "representative_segment_id", "member_segment_ids", "member_count", "basis", "human_review_required"],
+      "properties": {
+        "cluster_id": {"type": "string", "minLength": 1},
+        "representative_segment_id": {"type": "string", "pattern": "^OX-P"},
+        "member_segment_ids": {"type": "array", "minItems": 2, "items": {"type": "string", "pattern": "^OX-P"}},
+        "member_count": {"type": "integer", "minimum": 2},
+        "basis": {"enum": ["EXACT_NORMALIZED_SHA256", "MINHASH_SHINGLE_JACCARD_CANDIDATE"]},
+        "minimum_pair_similarity": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "human_review_required": {"type": "boolean"}
+      }
+    }
+  }
+}

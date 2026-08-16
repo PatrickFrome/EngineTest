@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metaengine.local/schemas/architecture_source_record.schema.json",
+  "title": "MetaEngine Architecture Source Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "registry_schema_version",
+    "source_id",
+    "publisher",
+    "system_name",
+    "version",
+    "source_class",
+    "ingestion_status",
+    "official_source_locator",
+    "exact_commit_or_release",
+    "retrieved_at",
+    "source_sha256",
+    "source_sha256_scope",
+    "license_name",
+    "license_expression",
+    "license_sha256",
+    "license_evidence_locator",
+    "allowed_use",
+    "forbidden_use",
+    "epistemic_ceiling",
+    "architecture_claims",
+    "retained_reference_paths",
+    "blob_descriptors",
+    "mechanism_candidates",
+    "blockers",
+    "record_sha256"
+  ],
+  "properties": {
+    "registry_schema_version": {"const": "ARCHITECTURE-SOURCE-REGISTRY-1"},
+    "source_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
+    "publisher": {"type": "string", "minLength": 1},
+    "system_name": {"type": "string", "minLength": 1},
+    "version": {"type": "string", "minLength": 1},
+    "source_class": {
+      "enum": ["PERMISSIVE_CODE", "RESTRICTED_REFERENCE", "CLOSED_BEHAVIORAL_ONLY"]
+    },
+    "ingestion_status": {
+      "enum": ["REGISTERED_ONLY", "INGESTED", "BLOCKED", "SUPERSEDED"]
+    },
+    "official_source_locator": {"type": "string", "minLength": 1},
+    "exact_commit_or_release": {"type": "string", "minLength": 1},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "source_sha256": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/sha256"}]},
+    "source_sha256_scope": {
+      "oneOf": [{"type": "null"}, {"const": "RETAINED_SOURCE_PACK"}]
+    },
+    "license_name": {"type": "string", "minLength": 1},
+    "license_expression": {"type": "string", "minLength": 1},
+    "license_sha256": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/sha256"}]},
+    "license_evidence_locator": {"type": "string", "minLength": 1},
+    "allowed_use": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "forbidden_use": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "epistemic_ceiling": {"enum": ["A0_OBSERVED", "A1_MECHANISM_HYPOTHESIS"]},
+    "architecture_claims": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/architectureClaim"}
+    },
+    "retained_reference_paths": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/relativePath"}
+    },
+    "blob_descriptors": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/blobDescriptor"}
+    },
+    "mechanism_candidates": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/mechanismCandidate"}
+    },
+    "blockers": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "record_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"ingestion_status": {"const": "INGESTED"}}},
+      "then": {
+        "properties": {
+          "source_sha256": {"$ref": "#/$defs/sha256"},
+          "source_sha256_scope": {"const": "RETAINED_SOURCE_PACK"},
+          "blob_descriptors": {"minItems": 1},
+          "retained_reference_paths": {"minItems": 1}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"ingestion_status": {"const": "REGISTERED_ONLY"}}},
+      "then": {
+        "properties": {
+          "source_sha256": {"type": "null"},
+          "source_sha256_scope": {"type": "null"},
+          "license_sha256": {"type": "null"},
+          "blob_descriptors": {"maxItems": 0},
+          "retained_reference_paths": {"maxItems": 0}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"source_class": {"const": "CLOSED_BEHAVIORAL_ONLY"}}},
+      "then": {
+        "properties": {
+          "source_sha256": {"type": "null"},
+          "source_sha256_scope": {"type": "null"},
+          "license_sha256": {"type": "null"},
+          "blob_descriptors": {"maxItems": 0},
+          "retained_reference_paths": {"maxItems": 0},
+          "architecture_claims": {
+            "items": {
+              "allOf": [
+                {"$ref": "#/$defs/architectureClaim"},
+                {"properties": {"kind": {"enum": ["PUBLISHER_CLAIM", "METAENGINE_HYPOTHESIS"]}}}
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "source_class": {"const": "PERMISSIVE_CODE"},
+          "ingestion_status": {"const": "INGESTED"}
+        },
+        "required": ["source_class", "ingestion_status"]
+      },
+      "then": {
+        "properties": {
+          "license_expression": {"enum": ["MIT", "Apache-2.0"]},
+          "license_sha256": {"$ref": "#/$defs/sha256"}
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "relativePath": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"
+    },
+    "blobDescriptor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "media_type",
+        "digest_algorithm",
+        "digest",
+        "size",
+        "relative_path",
+        "git_blob_id"
+      ],
+      "properties": {
+        "media_type": {"type": "string", "minLength": 1},
+        "digest_algorithm": {"const": "sha256"},
+        "digest": {"$ref": "#/$defs/sha256"},
+        "size": {"type": "integer", "minimum": 0},
+        "relative_path": {"$ref": "#/$defs/relativePath"},
+        "git_blob_id": {
+          "oneOf": [
+            {"type": "null"},
+            {"type": "string", "pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})$"}
+          ]
+        }
+      }
+    },
+    "architectureClaim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claim_id", "kind", "statement", "evidence_locator"],
+      "properties": {
+        "claim_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
+        "kind": {"enum": ["SOURCE_FACT", "PUBLISHER_CLAIM", "METAENGINE_HYPOTHESIS"]},
+        "statement": {"type": "string", "minLength": 1},
+        "evidence_locator": {"type": "string", "minLength": 1}
+      }
+    },
+    "mechanismCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mechanism_id",
+        "status",
+        "semantic_definition",
+        "source_fact_boundary",
+        "hypothesized_effect",
+        "falsification_test"
+      ],
+      "properties": {
+        "mechanism_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
+        "status": {"enum": ["A0_OBSERVED", "A1_MECHANISM_HYPOTHESIS"]},
+        "semantic_definition": {"type": "string", "minLength": 1},
+        "source_fact_boundary": {"type": "string", "minLength": 1},
+        "hypothesized_effect": {"type": "string", "minLength": 1},
+        "falsification_test": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

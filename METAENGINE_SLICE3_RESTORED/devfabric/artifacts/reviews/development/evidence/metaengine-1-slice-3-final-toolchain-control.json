@@ -1,0 +1,81 @@
+{
+  "commands": [
+    {
+      "command": "PYTHONPATH=. python scripts/architecture_source_registry.py verify --registry research/architecture_library/registry.json --vault reference-vault",
+      "exit_status": 0,
+      "observed": {
+        "findings": [],
+        "ingested_source_count": 5,
+        "registry_snapshot_sha256": "b50ee520f2dd605fb48f94c44dbb5fd26980fbcacf6a2150aafe178d41f631e8",
+        "source_count": 10,
+        "status": "PASS",
+        "verified_blob_count": 13,
+        "verified_total_bytes": 150521
+      },
+      "phase": "REGISTRY"
+    },
+    {
+      "command": "cd devfabric/cloudflare && npm run test:core",
+      "exit_status": 0,
+      "observed": "36/36 PASS",
+      "phase": "NODE"
+    },
+    {
+      "command": "cd devfabric/cloudflare && npm run typecheck:core",
+      "exit_status": 0,
+      "observed": "PASS",
+      "phase": "TSC"
+    },
+    {
+      "command": "PYTHONPATH=. python scripts/build_devfabric_capsule.py --root . --out <external-output>",
+      "exit_status": 0,
+      "observed": {
+        "capsule_path": "/mnt/data/METAENGINE_DEVFABRIC_CONTROL_STAGE_METAENGINE1_SLICE3.zip",
+        "capsule_sha256": "222e9d576478c975380cdc930e5ea0b6a9f7f4e3984ac0ee84f0383a3e1d37d4",
+        "file_count": 488,
+        "lineage_file_count": 9839,
+        "lineage_lock_sha256": "fde3ce693062fb3efe4821ecd16cd775b1108b52492c3493028ce606a0e844a4",
+        "payload_root_sha256": "2b77444e1eb4e4ab97afd6bed18a3b67d762b17e5f5c882d6092b41683fff108",
+        "secret_hits": [],
+        "status": "PASS"
+      },
+      "phase": "CONTROL_BUILD"
+    },
+    {
+      "command": "PYTHONPATH=. python -m metaengine.devfabric.cli recover-test --control-capsule <external-output> --json",
+      "exit_status": 0,
+      "observed": {
+        "bad": [],
+        "capsule_sha256": "222e9d576478c975380cdc930e5ea0b6a9f7f4e3984ac0ee84f0383a3e1d37d4",
+        "extra": [],
+        "file_count": 488,
+        "lineage_file_count": 9839,
+        "lineage_lock_sha256": "fde3ce693062fb3efe4821ecd16cd775b1108b52492c3493028ce606a0e844a4",
+        "missing": [],
+        "payload_root_sha256": "2b77444e1eb4e4ab97afd6bed18a3b67d762b17e5f5c882d6092b41683fff108",
+        "secret_hits": [],
+        "status": "PASS"
+      },
+      "phase": "CONTROL_VERIFY"
+    }
+  ],
+  "completed_step_commit": "18ec64ed7a27e63e71028c78df0e3ee7e85d0f2e",
+  "completed_step_id": "METAENGINE-1-SLICE-3",
+  "control_summary": {
+    "capsule_sha256": "222e9d576478c975380cdc930e5ea0b6a9f7f4e3984ac0ee84f0383a3e1d37d4",
+    "file_count": 488,
+    "lineage_file_count": 9839,
+    "payload_root_sha256": "2b77444e1eb4e4ab97afd6bed18a3b67d762b17e5f5c882d6092b41683fff108",
+    "secret_hits": []
+  },
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "kind": "SLICE_3_FINAL_TOOLCHAIN_CONTROL",
+  "mcp_tool_surface": 18,
+  "output_sha256": {
+    "control_build": "86688e0d2291bbecb9cae2d09f84bf36152082e764d31fbe55da415609a9ceff",
+    "control_verify": "b1cf2bd5ec62dcd2c03ce4518027a45c4d9bf95e398396bddb0a8fdf60a86b69",
+    "node": "e8b72218ecbf09b9ec0df648d109bbc91b459d91ae36184c3cfe7fc928bf7c3d",
+    "registry": "c171f3850fef9808ab249c48a204409eb18dd8033b555a74edb4526a57b03368",
+    "tsc": "4c84fe707e14ab0b005bcf4c53861d0eb01b700d6f1528b1d5f3538f9005bd47"
+  }
+}

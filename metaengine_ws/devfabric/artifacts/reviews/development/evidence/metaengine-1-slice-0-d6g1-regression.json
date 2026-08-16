@@ -1,0 +1,12 @@
+{
+  "command": "python -m pytest tests/devfabric/test_federation_adaptation.py tests/devfabric/test_federation_finalization.py -q",
+  "completed_step_commit": "9c92733b9b57c9b4182783958a9e3a949f065367",
+  "evidence_hash": "8cd5c8e652c046c9b2c83b8c39b357587358ffb1740d5626a38fefa9b91e2e97",
+  "evidence_version": "METAENGINE-DEVELOPMENT-VERIFICATION-EVIDENCE-1",
+  "exit_status": 0,
+  "kind": "PYTEST_D6G1_REGRESSION",
+  "observed": {
+    "failed": 0,
+    "passed": 38
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/module/bs4-0.1-engine-reconstruction.json",
+  "title": "BS4-0.1 Bestand / Resourceization Profile — engine reconstruction",
+  "type": "object",
+  "required": ["module_id", "version", "resourceization_level", "availability", "substitutability", "demand_linkage", "autonomy_shift", "human_case", "context_dependence", "reversibility", "counterdescription", "discriminator", "revision_trigger"],
+  "properties": {
+    "module_id": {"const": "BS4"},
+    "version": {"const": "0.1-engine-reconstruction"},
+    "resourceization_level": {"enum": ["NONE", "FUNCTIONAL_AVAILABILITY", "SYSTEM_RESOURCE", "STRONG_STANDING_RESERVE", "CONTESTED", "UNRESOLVED"]},
+    "availability": {"type": "string", "minLength": 1},
+    "substitutability": {"type": "string", "minLength": 1},
+    "demand_linkage": {"type": "string", "minLength": 1},
+    "autonomy_shift": {"type": "string", "minLength": 1},
+    "human_case": {"enum": ["NOT_HUMAN", "NOT_MERE_RESERVE", "QUALIFIED_RESERVE_PIECE", "CONTESTED", "UNRESOLVED"]},
+    "context_dependence": {"type": "string", "minLength": 1},
+    "reversibility": {"type": "string", "minLength": 1},
+    "counterdescription": {"type": "string", "minLength": 1},
+    "discriminator": {"type": "string", "minLength": 1},
+    "revision_trigger": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

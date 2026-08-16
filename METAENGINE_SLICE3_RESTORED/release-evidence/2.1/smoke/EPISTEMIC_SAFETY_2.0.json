@@ -1,0 +1,8 @@
+{
+  "all_16_primary_scheduled": true,
+  "claim_node_delta_vs_primary": 0,
+  "deep_execution_is_sparse": true,
+  "derived_truth_promotion_violations": 0,
+  "majority_vote_used": false,
+  "native_position_delta_vs_primary": 0
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/benchmark_gold.schema.json",
+  "title": "Destruktion adjudicated benchmark gold",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["gold_version", "benchmark_id", "manifest_sha256", "adjudication", "frozen_at", "units", "claim_ceiling"],
+  "properties": {
+    "gold_version": {"const": "DAE-ADJUDICATED-GOLD-1.0"},
+    "benchmark_id": {"type": "string", "pattern": "^BENCH-[A-F0-9]{16}$"},
+    "manifest_sha256": {"$ref": "#/$defs/sha256"},
+    "adjudication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["curator_id", "independent_of_system_development", "predictions_hidden_until_gold_frozen", "source_annotation_sha256"],
+      "properties": {
+        "curator_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{1,63}$"},
+        "independent_of_system_development": {"const": true},
+        "predictions_hidden_until_gold_frozen": {"const": true},
+        "source_annotation_sha256": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/sha256"}, "uniqueItems": true}
+      }
+    },
+    "frozen_at": {"type": "string", "format": "date-time"},
+    "units": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["unit_id", "gold_status", "adjudication_method", "evidence_refs", "rationale"],
+        "properties": {
+          "unit_id": {"type": "string", "pattern": "^BU-[A-F0-9]{16}$"},
+          "gold_status": {"$ref": "#/$defs/status"},
+          "adjudication_method": {"enum": ["UNANIMOUS_AUTO_MERGE", "CURATOR_RESOLUTION"]},
+          "evidence_refs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+          "rationale": {"type": "string", "minLength": 20}
+        }
+      }
+    },
+    "claim_ceiling": {"const": "FROZEN_ADJUDICATED_BENCHMARK_GOLD_FOR_THIS_SAMPLE"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "status": {"enum": ["SUPPORTED", "QUALIFIED", "REJECTED", "INSUFFICIENT"]}
+  }
+}

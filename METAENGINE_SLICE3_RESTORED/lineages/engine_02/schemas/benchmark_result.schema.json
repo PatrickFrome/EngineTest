@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/benchmark_result.schema.json",
+  "title": "Destruktion empirical benchmark result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["result_version", "engine_version", "generated_at", "benchmark_id", "manifest_sha256", "outcome", "unit_count", "inputs", "agreement", "systems", "comparison", "promotion_gate", "issues", "claim_ceiling"],
+  "properties": {
+    "result_version": {"const": "DAE-EMPIRICAL-BENCHMARK-RESULT-1.0"},
+    "engine_version": {"type": "string", "minLength": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "benchmark_id": {"type": ["string", "null"]},
+    "manifest_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+    "outcome": {"enum": ["INVALID_BENCHMARK", "BLOCKED_PENDING_INDEPENDENT_LABELS", "BLOCKED_UNDERPOWERED", "FAIL_RELIABILITY", "FAIL_PROMOTION_GATE", "PASS_PROMOTION_GATE"]},
+    "unit_count": {"type": "integer", "minimum": 0},
+    "inputs": {"type": "object"},
+    "agreement": {"type": ["object", "null"]},
+    "systems": {"type": ["object", "null"]},
+    "comparison": {"type": ["object", "null"]},
+    "promotion_gate": {"type": "object"},
+    "issues": {"type": "array", "items": {"type": "object"}},
+    "claim_ceiling": {"const": "SAMPLE_BOUND_EMPIRICAL_VALIDATION_NOT_GENERAL_SEMANTIC_INFALLIBILITY"}
+  }
+}

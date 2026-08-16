@@ -1,0 +1,14 @@
+{
+  "name": "metaengine-llm-bridge",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible LLM bridge that proxies MetaEngine engine execution requests to z-ai-web-dev-sdk. This enables MetaEngine's LLM_MODEL adapter to perform REAL LLM execution without requiring Ollama.",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot index.ts",
+    "start": "bun index.ts"
+  },
+  "dependencies": {
+    "z-ai-web-dev-sdk": "latest"
+  }
+}

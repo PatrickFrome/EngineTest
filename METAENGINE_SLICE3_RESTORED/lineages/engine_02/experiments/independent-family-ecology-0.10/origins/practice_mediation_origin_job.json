@@ -1,0 +1,36 @@
+{
+  "job_version": "DAE-DOCX-JOB-1.0",
+  "source_admission": "LOCAL_HASH",
+  "bibliographic": {
+    "author": "Destruktion 4.0 developer benchmark",
+    "title": "Practice mediation — independent family origin",
+    "publication": "Controlled synthetic regression dossier for independent operator-family birth",
+    "year": 2026,
+    "language": "en",
+    "genre": "controlled synthetic method benchmark"
+  },
+  "access_policy": {
+    "analysis_class": "DERIVATIVE_ONLY",
+    "raw_text_retention": "TRANSIENT",
+    "redistribution": "AUTHORIZED",
+    "allow_derived_outputs": true,
+    "basis": "Original synthetic benchmark text created for internal regression; no external authorial attribution.",
+    "restrictions_checked_at": "2026-08-11T17:20:00Z"
+  },
+  "crosswalk": {
+    "target_edition": "none — synthetic developer benchmark",
+    "status": "NONE",
+    "target_locator": "synthetic internal corpus",
+    "evidence_refs": [
+      "internal synthetic benchmark"
+    ],
+    "note": "Method regression only; not evidence about any external source."
+  },
+  "structure": {
+    "drop_line_patterns": [],
+    "analyze_notes": true
+  },
+  "rendering": {
+    "page_label_prefix": "R"
+  }
+}

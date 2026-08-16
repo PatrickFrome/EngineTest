@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metaengine.local/schemas/reference_vault_entry.schema.json",
+  "title": "MetaEngine METAENGINE-1-SLICE-3 Reference Vault Entry",
+  "type": "object",
+  "required": [
+    "vault_version", "content_sha256", "size", "source_record_id", "source_class",
+    "license_name", "stored", "entry_hash"
+  ],
+  "properties": {
+    "vault_version": {"const": "METAENGINE-REFERENCE-VAULT-1"},
+    "content_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "size": {"type": "integer", "minimum": 0},
+    "source_record_id": {"type": "string", "minLength": 1},
+    "source_class": {"enum": ["PERMISSIVE_CODE", "RESTRICTED_REFERENCE", "CLOSED_BEHAVIORAL_ONLY"]},
+    "license_name": {"type": "string", "minLength": 1},
+    "license_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "stored": {"type": "boolean"},
+    "blocker_reason": {"type": ["string", "null"]},
+    "entry_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"source_class": {"const": "CLOSED_BEHAVIORAL_ONLY"}}},
+      "then": {"properties": {"stored": {"const": false}}}
+    },
+    {
+      "if": {"properties": {"stored": {"const": true}}},
+      "then": {
+        "properties": {"blocker_reason": {"type": "null"}, "size": {"minimum": 1}}
+      }
+    },
+    {
+      "if": {"properties": {"stored": {"const": false}}},
+      "then": {
+        "required": ["blocker_reason"],
+        "properties": {"blocker_reason": {"type": "string", "minLength": 1}, "size": {"const": 0}}
+      }
+    }
+  ]
+}

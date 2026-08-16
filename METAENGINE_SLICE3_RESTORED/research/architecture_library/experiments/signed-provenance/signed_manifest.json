@@ -1,0 +1,14 @@
+{
+  "payload_hash": "ad5f6d9f36e4fb15099fac9209c807c31700cc2dbde5944200e9f3f28c238d0f",
+  "payload": {
+    "manifest_version": "METAENGINE-SIGNED-MANIFEST-1",
+    "receipt_hashes": [
+      "36f6a486e1144ceed5135d72a2737a2463229c6342cd9b94e589a0268462710e",
+      "51da1e538a9bec515f4be6fe82251f77d92434f228d3d062de12f24ef08546a1"
+    ],
+    "manifest_hash": "ad5f6d9f36e4fb15099fac9209c807c31700cc2dbde5944200e9f3f28c238d0f"
+  },
+  "signature_hex": "2e5d0e7ebfc06433543e5e2a5e8576eab3b6ac243c199df2d7cf4d2d1824e5b1ba960738a9313c021a1c1c1d1077f72cce25d043d3835695a260861ad4e96104",
+  "public_key_hex": "ed1746e16fd34ac178b4c7aea958e17a86afd4a3167770638b5cc06669009123",
+  "algorithm": "Ed25519"
+}

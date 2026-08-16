@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/research_plan_lock.schema.json",
+  "title": "Destruktion local preregistration lock",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["lock_version", "preregistration_id", "canonical_sha256", "frozen_at", "timestamp_authority", "engine_version", "frozen_snapshot", "claim_ceiling"],
+  "properties": {
+    "lock_version": {"const": "DAE-RESEARCH-LOCK-1.0"},
+    "preregistration_id": {"type": "string", "minLength": 1},
+    "canonical_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "frozen_at": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,3})?Z$"},
+    "timestamp_authority": {"const": "LOCAL_SYSTEM_CLOCK_UNTRUSTED"},
+    "engine_version": {"type": "string", "minLength": 1},
+    "frozen_snapshot": {"type": "object"},
+    "claim_ceiling": {"const": "LOCAL_CONTENT_INTEGRITY_NOT_PUBLIC_PREREGISTRATION"}
+  }
+}

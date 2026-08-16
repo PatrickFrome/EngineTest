@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-08-12",
+  "deployment": "NO_DEPLOYMENT_PERFORMED",
+  "npm_probe": {
+    "command": "npm install --package-lock-only --ignore-scripts --no-audit --no-fund",
+    "exit_code": 124,
+    "package_lock_created": false,
+    "result": "TIMEOUT_REGISTRY_UNREACHABLE_OR_UNRESPONSIVE",
+    "timeout_seconds": 15
+  },
+  "package_lock": "UNRESOLVED_OFFLINE",
+  "package_manifest": "PINNED",
+  "reason": "The execution host cannot reach the npm registry; package-lock.json is never fabricated.",
+  "status_version": "METAENGINE-STAGE-D-NODE-TOOLCHAIN-1",
+  "wrangler_preview": "NOT_RUN_NO_LOCAL_PACKAGE"
+}

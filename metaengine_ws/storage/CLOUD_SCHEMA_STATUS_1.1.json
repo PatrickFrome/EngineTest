@@ -1,0 +1,16 @@
+{
+  "coordination_contract": "DESTRUKTION-16X-EPISTEMIC-COORDINATION-1.1",
+  "neon": {
+    "project_id": "falling-hat-08217783",
+    "database": "neondb",
+    "verified_tables": ["arbitration_ledger","claim_edge_ledger","claim_ledger","claim_position_ledger","disagreement_ledger","review_ledger","routing_ledger"],
+    "status": "DEPLOYED_AND_VERIFIED"
+  },
+  "supabase": {
+    "project_id": "jbztmeomxtpskkvlhlcy",
+    "verified_tables": ["arbitration_ledger","claim_edge_ledger","claim_ledger","claim_position_ledger","disagreement_ledger","review_ledger","routing_ledger"],
+    "status": "DEPLOYED_AND_VERIFIED"
+  },
+  "credentials_bundled": false,
+  "epistemic_authority": false
+}

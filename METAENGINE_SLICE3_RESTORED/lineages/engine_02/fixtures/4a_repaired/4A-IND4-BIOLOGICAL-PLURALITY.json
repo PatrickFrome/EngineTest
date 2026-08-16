@@ -1,0 +1,132 @@
+{
+  "record_id": "4A-IND4-BIOLOGICAL-PLURALITY",
+  "api_version": "TRC-0.3",
+  "profile": "ANALYTIC",
+  "provenance": {
+    "source_refs": [
+      "W4A-08#plural-individuality-criteria",
+      "LEGACY-BR-A-2.25#biological-stress-test"
+    ],
+    "method_version": "CORE 4.0.0-alpha.1 + MODULE-4A-0.2-repair + DAE-0.1",
+    "agent": "automation-repair-pass",
+    "derived_from": [
+      "MODULE-MIGRATION-4A-0.1/4A-IND4-BIOLOGICAL-PLURALITY"
+    ],
+    "activity_id": "MODULE-MIGRATION-4A-0.2-SEMANTIC-REPAIR",
+    "timestamp": "2026-08-11T12:00:00Z",
+    "artifact_hash": "sha256:7bc1ab6d749c4d19940a7db27c603168d83e90a534f731e0abcd698f12747aa7"
+  },
+  "from_node": {
+    "node_id": "A",
+    "kind": "OTHER",
+    "description": "A biological system with organismal, symbiotic, metabolic and lineage structures.",
+    "role": [
+      "candidate-unit-field"
+    ],
+    "object_type": "biological_system"
+  },
+  "to_node": {
+    "node_id": "B",
+    "kind": "CLAIM",
+    "description": "The system counts as one biological individual under a specified criterion and scale.",
+    "claim_facets": {
+      "basis": [
+        "EMP",
+        "HIST"
+      ],
+      "force": "CONDITIONAL",
+      "normativity": "DESCRIPTIVE"
+    }
+  },
+  "transition": {
+    "inference_mode": "RECONSTRUCTIVE",
+    "relation": {
+      "rt_id": "RT00"
+    },
+    "bridge": {
+      "status": "CONTESTED",
+      "statement": "Physiological and evolutionary individuality can select different but structured units; the chosen unit must be indexed to explanandum and criterion."
+    },
+    "promotion_flags": [
+      "SCOPE",
+      "DOMAIN"
+    ]
+  },
+  "scale_check": {
+    "applicable": true,
+    "c_support": "C3",
+    "g_target": "G2",
+    "gap": "NONE",
+    "bridge_burden": "Do not promote one biological criterion to all kinds/levels of individuality."
+  },
+  "audit": {
+    "native_domain": "philosophy of biology",
+    "native_method": "evolutionary/physiological individuality analysis",
+    "activated_operators": [
+      "O0",
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O6",
+      "O7",
+      "O9"
+    ],
+    "trv": [
+      "UNDERDETERMINATION",
+      "HETEROGENEITY"
+    ],
+    "ncv": [
+      "RIVAL_HANDLING",
+      "SCOPE_CONTROL"
+    ],
+    "rtr": "MEDIUM"
+  },
+  "extensions": {
+    "ind4": {
+      "module_id": "IND4",
+      "version": "0.1",
+      "domain": "biology",
+      "candidate_unit": "system indexed to physiological or evolutionary individuality",
+      "boundary_criterion": [
+        "BIOLOGICAL",
+        "CAUSAL_DYNAMIC",
+        "FUNCTIONAL"
+      ],
+      "integration_mechanism": "metabolic/control integration or Darwinian lineage/fitness alignment depending on explanandum",
+      "granularity": "organism / holobiont / group / lineage",
+      "nesting": "nested biological individuals may be admissible",
+      "overlap": "criterion-dependent overlap remains possible",
+      "counterpartition": "alternative partition by physiological versus evolutionary criterion",
+      "discriminator": "metabolic cohesion, reproduction/lineage, fitness alignment, immune/control dynamics",
+      "revision_trigger": "A case where the candidate partition loses explanatory advantage over its counterpartition."
+    },
+    "audit_semantics": {
+      "schema_version": "0.1",
+      "transition_role": "INFERENCE_AUDIT",
+      "relation_applies_to": "TO_CLAIM",
+      "relation_rationale": "Physiological and evolutionary criteria select different candidate units; RT00 preserves underdetermination until the explanandum fixes a warranted relation type.",
+      "semantic_review_status": "REPAIRED_PENDING_EXPERT",
+      "human_review_required": true,
+      "review_notes": [
+        "RT21 was removed because biological individuality is not a normative obligation or permission relation."
+      ]
+    }
+  },
+  "outcome": "UNDERDETERMINED",
+  "rivals": [
+    {
+      "description": "Physiological integration determines the relevant biological individual.",
+      "relation_rt_id": "RT14",
+      "bridge": "Specify integration, control and functional contribution criteria.",
+      "discriminator": "Compare explanatory performance on metabolic and immune-control cases."
+    },
+    {
+      "description": "Evolutionary lineage and fitness alignment determine the relevant biological individual.",
+      "relation_rt_id": "RT27",
+      "bridge": "Specify lineage, reproduction and selection-level criteria.",
+      "discriminator": "Compare explanatory performance on selection and reproduction cases."
+    }
+  ]
+}

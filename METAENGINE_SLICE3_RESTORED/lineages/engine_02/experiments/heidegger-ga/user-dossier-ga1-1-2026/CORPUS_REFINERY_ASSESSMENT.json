@@ -1,0 +1,93 @@
+{
+  "assessment_version": "DAE-CORPUS-REFINERY-ASSESSMENT-0.1",
+  "engine_version": "0.2.4-alpha.1",
+  "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+  "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+  "outcome": "PASS_WITH_SEMANTIC_PROMOTION_SUSPENDED",
+  "competing_segmentations": {
+    "ooxml_native_paragraphs": 33870,
+    "renderer_native_units": 13242,
+    "argument_native_windows": 10569,
+    "authority_note": "OOXML order is source-container native; renderer units use technical R0001-R0697 pages; argument windows are deterministic review units. None is automatically privileged as the philosophical segmentation."
+  },
+  "layer_routing": {
+    "PROJECT_CLAIM": 104,
+    "PROTOCOL_TOOL_LOG": 105,
+    "RECONSTRUCTION": 160,
+    "RIVAL_OBJECTION": 140,
+    "SOURCE": 810,
+    "UNRESOLVED": 32551,
+    "unresolved_share": 0.961057,
+    "interpretation": "The high unresolved share is an intentional abstention. A routing label is a review candidate and never establishes authorship, quotation status or philosophical role."
+  },
+  "claim_ledger": {
+    "entries": 2387,
+    "unadjudicated": 2318,
+    "archived_duplicate": 16,
+    "archived_tool_log": 53,
+    "apb_reconstructed": 0,
+    "strongest_rival_attested": 0,
+    "diachronic_candidates": 96,
+    "epochal_candidates": 11,
+    "universal_candidates": 85,
+    "decision": "REVIEW_QUEUE_ONLY"
+  },
+  "source_resolution": {
+    "catalog_alias_targets": 4,
+    "ga_volume_locator_candidates": 51,
+    "ga_locator_occurrences": 495,
+    "pseudo_citation_occurrences": 336,
+    "pseudo_citation_clusters": 44,
+    "hyperlinks": 0,
+    "resolved_claim_level_citations": 0,
+    "gate": "SUSPEND"
+  },
+  "preservation": {
+    "exact_duplicate_groups": 46,
+    "exact_duplicate_occurrences_archived": 71,
+    "near_duplicate_candidate_groups_at_jaccard_0_72": 0,
+    "tool_log_paragraphs_archived": 53,
+    "deleted_segments": 0,
+    "interpretation": "Exact repetition is measurable but limited. The run found no high-overlap non-exact groups at the frozen lexical threshold; semantic similarity must therefore not be simulated by deletion or automatic merging."
+  },
+  "omml": {
+    "formula_containers": 1139,
+    "math_text_runs": 3908,
+    "subscript_structures": 216,
+    "exact_formula_groups": 44,
+    "raw_formula_text_included": false,
+    "claim_ceiling": "STRUCTURE_AND_FIXITY_ONLY"
+  },
+  "hypothesis_bank": {
+    "topic_clusters": [
+      "REALITY_AND_REALISM",
+      "ACT_CONTENT_OBJECT",
+      "REGIONAL_REALIZATION_PROFILE",
+      "DIACHRONIC_HEIDEGGER",
+      "TERM_GENEALOGY",
+      "META_CRITIQUE",
+      "TECHNOLOGY_AND_ORDERING",
+      "IDENTITY_AND_INDIVIDUATION"
+    ],
+    "seven_case_matrix_complete": true,
+    "cases": [
+      "STONE",
+      "ORGANISM",
+      "PAIN",
+      "MONEY",
+      "TECHNICAL_ARTIFACT",
+      "MATHEMATICAL_OBJECT",
+      "FICTIONAL_OBJECT"
+    ],
+    "gate": "REVIEW_NOT_CORROBORATED"
+  },
+  "privacy_audit": {
+    "eligible_source_paragraphs_checked_for_verbatim_leak": 1210,
+    "verbatim_paragraph_leaks": 0,
+    "internal_text_key_present": false,
+    "raw_text_included": false,
+    "all_ledger_apb_null": true
+  },
+  "next_gate": "STRATIFIED_INDEPENDENT_CODING_OF_CANDIDATES_AND_NON_CANDIDATES_PLUS_SOURCE_RESOLUTION",
+  "final_verdict": "CORPUS_REFINERY_SOLVES_STRUCTURE_PRESERVATION_AND_REVIEW_ROUTING_BUT_CORRECTLY_SUSPENDS_CANONICAL_ARGUMENT_SOURCE_RESOLUTION_AND_SEMANTIC_VALIDATION"
+}

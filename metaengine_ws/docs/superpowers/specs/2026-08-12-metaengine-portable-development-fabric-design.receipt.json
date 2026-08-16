@@ -1,0 +1,19 @@
+{
+  "schema": "metaengine.design.receipt.v1",
+  "date": "2026-08-12",
+  "status": "WRITTEN_SPEC_REVIEW_GATE",
+  "source_artifact_sha256": "8e7a9f483192180b5f870e5301253cfe2266f5392754cbc680854b505f8a54b0",
+  "spec_path": "docs/superpowers/specs/2026-08-12-metaengine-portable-development-fabric-design.md",
+  "spec_sha256": "b6b97e58f1ff3de01e731276d7cb7b7b0b07211aff005b1837ea0543b5920dc3",
+  "git_repository_present": false,
+  "self_review": {
+    "placeholder_scan": "PASS",
+    "canonical_authority_check": "PASS",
+    "zero_spend_check": "PASS",
+    "provider_lock_in_check": "PASS",
+    "secret_design_check": "PASS",
+    "neon_role_check": "PASS",
+    "ai_authority_check": "PASS"
+  },
+  "next_gate": "USER_WRITTEN_SPEC_APPROVAL_BEFORE_IMPLEMENTATION_PLAN"
+}

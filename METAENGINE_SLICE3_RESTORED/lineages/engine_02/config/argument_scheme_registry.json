@@ -1,0 +1,78 @@
+{
+  "registry_version": "DAE-ARGUMENT-SCHEMES-1.0",
+  "model_lineage": [
+    "Argument Interchange Format: information nodes and inference/conflict/preference applications",
+    "Carneades: argument schemes, critical questions, premise roles, burdens and issue-specific proof standards",
+    "Destruktion v3.8: GATE-12, rivals, bridge burden, POWER/NORM and KILL criteria"
+  ],
+  "claim_ceiling": "GRAPH_INTERNAL_ACCEPTABILITY_NOT_TRUTH",
+  "schemes": [
+    {
+      "id": "SOURCE-CLAIM",
+      "title": "Claim from a source passage",
+      "critical_questions": [
+        {"id": "CQ-EXACT-LOCATOR", "prompt": "Is the exact passage, edition, date and genre available?"},
+        {"id": "CQ-CONTEXT", "prompt": "Does the local and historical context support this reading?"},
+        {"id": "CQ-RECONSTRUCTION", "prompt": "Are quotation, reconstruction and project extension separated?"}
+      ]
+    },
+    {
+      "id": "BRIDGE-INFERENCE",
+      "title": "Typed transition A through bridge P to B",
+      "critical_questions": [
+        {"id": "CQ-RELATION-TYPE", "prompt": "Is the operative relation type explicit?"},
+        {"id": "CQ-BRIDGE-EVIDENCE", "prompt": "Is the bridge independently evidenced?"},
+        {"id": "CQ-SCALE", "prompt": "Does the support match the conclusion's scale?"},
+        {"id": "CQ-RIVAL", "prompt": "Has the strongest live rival been represented?"}
+      ]
+    },
+    {
+      "id": "ABDUCTIVE-RECONSTRUCTION",
+      "title": "Best available reconstruction",
+      "critical_questions": [
+        {"id": "CQ-EXPLANANDUM", "prompt": "Do alternatives explain the same phenomenon at the same level?"},
+        {"id": "CQ-ALTERNATIVES", "prompt": "Were plausible alternative reconstructions considered?"},
+        {"id": "CQ-DISCRIMINATOR", "prompt": "What evidence would distinguish the reconstruction?"}
+      ]
+    },
+    {
+      "id": "CAUSAL-CLAIM",
+      "title": "Causal claim",
+      "critical_questions": [
+        {"id": "CQ-MECHANISM", "prompt": "Is a causal mechanism or intervention model stated?"},
+        {"id": "CQ-CONFOUNDERS", "prompt": "Have confounders and selection effects been addressed?"},
+        {"id": "CQ-COUNTERFACTUAL", "prompt": "Is interventional or counterfactual support available?"}
+      ]
+    },
+    {
+      "id": "NORMATIVE-CLAIM",
+      "title": "Normative or institutional claim",
+      "critical_questions": [
+        {"id": "CQ-NORM-SOURCE", "prompt": "What is the source and type of the norm?"},
+        {"id": "CQ-AUTHORITY", "prompt": "Is the authority competent and publicly accountable?"},
+        {"id": "CQ-PROPORTIONALITY", "prompt": "Are burden, harm and less restrictive alternatives assessed?"},
+        {"id": "CQ-APPEAL", "prompt": "Can affected parties contest and appeal the decision?"}
+      ]
+    },
+    {
+      "id": "TRANSLATION-CLAIM",
+      "title": "Cross-language or cross-tradition claim",
+      "critical_questions": [
+        {"id": "CQ-HISTORICAL-LAYER", "prompt": "Is the source term tied to its historical phase and function?"},
+        {"id": "CQ-ALTERNATIVE-TRANSLATIONS", "prompt": "Are alternative translations and their losses explicit?"},
+        {"id": "CQ-ETYMOLOGY-LIMIT", "prompt": "Is etymology kept separate from present meaning and ontology?"},
+        {"id": "CQ-COUNTEREXAMPLE", "prompt": "Is there a negative case where the translation misleads?"}
+      ]
+    },
+    {
+      "id": "EPOCHAL-TOTALIZATION",
+      "title": "Epochal or universal meta-diagnosis",
+      "critical_questions": [
+        {"id": "CQ-INDEPENDENT-CORPUS", "prompt": "Does an independent and heterogeneous corpus support the scale?"},
+        {"id": "CQ-COUNTERGENEALOGY", "prompt": "Is a countergenealogy represented?"},
+        {"id": "CQ-CONCRETE-DISCRIMINATION", "prompt": "Do concrete profiles distinguish the diagnosis from rivals?"},
+        {"id": "CQ-KILL", "prompt": "Is a predeclared condition for downgrading or deleting the diagnosis present?"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "lock_version": "DESTRUKTION-HOLDOUT-LOCK-0.9",
+  "benchmark_id": "HB-8B928271E125A87B",
+  "locked_at": "2026-08-11T19:25:40Z",
+  "manifest_sha256": "a119e0ff7012bd1402bc6b849f9b1d9f1d2c98ef1897c96e40b1c23ba5955b84",
+  "sealed_dae_predictions_sha256": "2b488c2da5b3d94e6ca85ffa42fd7d1c315fb5a64b979f96f04007cb51033810",
+  "dae_observations_sha256": "253509fd0b0bd0123a03dc13f1692c3e46f9140a7b13d60be8feb2838af4a537",
+  "blind_packet_sha256": {
+    "A": "5549981723b982c4f8ec36e380a0ba2eafca1054e84c883329e384022274d20a",
+    "B": "dcb4e946c676729d595b33a5568be8b53aa9d87f03b86bdf48554c8f9d4ec966"
+  },
+  "source_freeze_sha256": "a409a6f212bc9365824e16fcf30782ef7d3bc64db932608095d3c3894c15eca3",
+  "claim_ceiling": "LOCAL_CRYPTOGRAPHIC_FIXITY_LOCK_NOT_PUBLIC_TIMESTAMP_AUTHORITY"
+}

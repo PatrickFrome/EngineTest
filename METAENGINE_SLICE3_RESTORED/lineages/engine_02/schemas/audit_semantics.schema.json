@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/automation/audit-semantics-0.1.json",
+  "title": "DAE Audit Semantics Extension 0.1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "transition_role",
+    "relation_applies_to",
+    "relation_rationale",
+    "semantic_review_status",
+    "human_review_required"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "transition_role": {
+      "enum": [
+        "INFERENCE_AUDIT",
+        "OBJECT_RELATION",
+        "STATE_TRANSITION",
+        "MIXED",
+        "UNRESOLVED"
+      ]
+    },
+    "relation_applies_to": {
+      "enum": [
+        "FROM_CLAIM",
+        "TO_CLAIM",
+        "BETWEEN_RELATA",
+        "TRANSITION",
+        "UNRESOLVED"
+      ]
+    },
+    "relation_rationale": {
+      "type": "string",
+      "minLength": 20
+    },
+    "semantic_review_status": {
+      "enum": [
+        "STRUCTURAL_ONLY",
+        "REPAIRED_PENDING_EXPERT",
+        "EXPERT_REVIEWED",
+        "GOLD",
+        "REJECTED"
+      ]
+    },
+    "human_review_required": {
+      "type": "boolean"
+    },
+    "object_relata": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["relatum_id", "description"],
+        "properties": {
+          "relatum_id": {"type": "string", "minLength": 1},
+          "description": {"type": "string", "minLength": 1},
+          "kind": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "review_notes": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    }
+  },
+  "additionalProperties": false
+}

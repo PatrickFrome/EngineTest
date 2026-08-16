@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/expert_cycle.schema.json",
+  "title": "Destruktion autonomous expert cycle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cycle_version", "engine_version", "generated_at", "run_id", "profile", "source", "backend", "passes", "thesis_results", "global_analytics", "output_contract", "claim_ceiling"],
+  "properties": {
+    "cycle_version": {"const": "DAE-AUTONOMOUS-EXPERT-CYCLE-1.0"},
+    "engine_version": {"type": "string", "minLength": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "run_id": {"type": "string", "pattern": "^EXPERT-[A-Z0-9_-]+-[A-F0-9]{12}$"},
+    "profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["profile_id", "profile_sha256", "title", "language", "domain"],
+      "properties": {
+        "profile_id": {"type": "string"},
+        "profile_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "title": {"type": "string"},
+        "language": {"type": "string"},
+        "domain": {"type": "string"}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "artifact_sha256", "refinery_manifest_sha256", "claim_ledger_entries", "resolved_claim_level_citations"],
+      "properties": {
+        "source_id": {"type": "string"},
+        "artifact_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "refinery_manifest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "claim_ledger_entries": {"type": "integer", "minimum": 0},
+        "resolved_claim_level_citations": {"type": "integer", "minimum": 0}
+      }
+    },
+    "backend": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "model", "external_content_transferred", "structured_output", "deterministic_gates_enforced"],
+      "properties": {
+        "kind": {"enum": ["DETERMINISTIC_PROFILE", "OPENAI_RESPONSES"]},
+        "model": {"type": ["string", "null"]},
+        "external_content_transferred": {"type": "boolean"},
+        "structured_output": {"type": "boolean"},
+        "deterministic_gates_enforced": {"const": true}
+      }
+    },
+    "prepasses": {"type": "array", "items": {"enum": ["ETYMOLOGICAL_PASS"]}, "uniqueItems": true},
+    "etymology": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["protocol_version", "run_id", "pass_sha256", "cards", "full_cards", "coverage_complete", "unresolved_fields", "semantic_promotion_without_independent_bridge"],
+      "properties": {
+        "protocol_version": {"const": "ETY-0.2"},
+        "run_id": {"pattern": "^ETY-[A-Z0-9_-]+-[A-F0-9]{12}$"},
+        "pass_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "cards": {"type": "integer", "minimum": 1},
+        "full_cards": {"type": "integer", "minimum": 0},
+        "coverage_complete": {"const": true},
+        "unresolved_fields": {"type": "integer", "minimum": 0},
+        "semantic_promotion_without_independent_bridge": {"const": false}
+      }
+    },
+    "passes": {"const": ["RECONSTRUCTOR", "CRITIC", "ADJUDICATOR", "SYNTHESIS"]},
+    "thesis_results": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/result"}
+    },
+    "global_analytics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["analytic_status", "title", "core_finding", "supported_theses", "qualified_theses", "rejected_theses", "insufficient_theses", "decisive_reasons", "rejected_conclusions", "next_actions", "final_verdict"],
+      "properties": {
+        "analytic_status": {"const": "FINAL_FOR_THIS_RUN"},
+        "title": {"type": "string", "minLength": 1},
+        "core_finding": {"type": "string", "minLength": 1},
+        "supported_theses": {"type": "array", "items": {"type": "string"}},
+        "qualified_theses": {"type": "array", "items": {"type": "string"}},
+        "rejected_theses": {"type": "array", "items": {"type": "string"}},
+        "insufficient_theses": {"type": "array", "items": {"type": "string"}},
+        "decisive_reasons": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "rejected_conclusions": {"type": "array", "items": {"type": "string"}},
+        "next_actions": {"type": "array", "items": {"type": "string"}},
+        "final_verdict": {"type": "string", "minLength": 1}
+      }
+    },
+    "output_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["final_analytics_emitted", "all_theses_terminal", "source_text_included", "model_generated_paraphrase_included", "uncertainty_disclosed"],
+      "properties": {
+        "final_analytics_emitted": {"const": true},
+        "all_theses_terminal": {"const": true},
+        "source_text_included": {"const": false},
+        "model_generated_paraphrase_included": {"type": "boolean"},
+        "uncertainty_disclosed": {"const": true}
+        ,"mandatory_etymology_executed": {"const": true}
+        ,"mandatory_etymological_significance": {"const": false}
+      }
+    },
+    "claim_ceiling": {"const": "AUTONOMOUS_RUN_BOUND_EXPERT_ADJUDICATION_NOT_INFALLIBILITY_OR_EXTERNAL_VALIDATION"}
+  },
+  "$defs": {
+    "result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["thesis_id", "title", "statement", "status", "confidence", "finality", "scale", "reconstruction", "operative_relations", "evidence", "strongest_rival", "decisive_reasons", "analysis", "limitations", "recommendation", "deterministic_gate", "model_trace_available"],
+      "properties": {
+        "thesis_id": {"type": "string"},
+        "title": {"type": "string"},
+        "statement": {"type": "string"},
+        "status": {"enum": ["SUPPORTED", "QUALIFIED", "REJECTED", "INSUFFICIENT"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "finality": {"const": "FINAL_FOR_THIS_RUN"},
+        "scale": {"enum": ["DOCUMENT", "LOCAL", "WORK", "DIACHRONIC", "EPOCHAL", "UNIVERSAL", "METHOD"]},
+        "reconstruction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["A", "P", "B"],
+          "properties": {
+            "A": {"type": "string"},
+            "P": {"type": "string"},
+            "B": {"type": "string"}
+          }
+        },
+        "operative_relations": {"type": "array", "items": {"type": "string", "pattern": "^RT"}},
+        "evidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["topic_id", "topic_present", "evidence_count", "distinct_group_count", "case_matrix_present", "resolved_source_count", "selectors", "selectors_truncated"],
+          "properties": {
+            "topic_id": {"type": ["string", "null"]},
+            "topic_present": {"type": "boolean"},
+            "evidence_count": {"type": "integer", "minimum": 0},
+            "distinct_group_count": {"type": "integer", "minimum": 0},
+            "case_matrix_present": {"type": "boolean"},
+            "resolved_source_count": {"type": "integer", "minimum": 0},
+            "source_layer_selector_count": {"type": "integer", "minimum": 0},
+            "project_claim_selector_count": {"type": "integer", "minimum": 0},
+            "selectors": {"type": "array", "items": {"type": "string"}},
+            "selectors_truncated": {"type": "boolean"}
+          }
+        },
+        "strongest_rival": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["rival_id", "statement", "impact", "answer", "discriminator"],
+          "properties": {
+            "rival_id": {"type": "string"},
+            "statement": {"type": "string"},
+            "impact": {"enum": ["DEFEATED", "LIMITS_CLAIM", "DECISIVE", "UNRESOLVED"]},
+            "answer": {"type": "string"},
+            "discriminator": {"type": "string"}
+          }
+        },
+        "decisive_reasons": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "analysis": {"type": "string"},
+        "limitations": {"type": "array", "items": {"type": "string"}},
+        "recommendation": {"type": "string"},
+        "deterministic_gate": {"type": "string"},
+        "model_trace_available": {"type": "boolean"}
+      }
+    }
+  }
+}

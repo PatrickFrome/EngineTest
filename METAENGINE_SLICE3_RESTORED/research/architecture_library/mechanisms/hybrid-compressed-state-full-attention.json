@@ -1,0 +1,31 @@
+{
+  "assimilation_effect": "NONE",
+  "card_sha256": "53c5fbd87e2fc635e5d92bf3d6a0cfcdd5d7110c6877fad3d0e5055bf3cdf4e2",
+  "mechanism_card_version": "ARCHITECTURE-MECHANISM-CARD-1",
+  "mechanism_id": "hybrid-compressed-state-full-attention",
+  "origin_source_ids": [
+    "kimi-linear-8c1d85e",
+    "qwen3.6-0886e34"
+  ],
+  "status": "A1_MECHANISM_HYPOTHESIS",
+  "variants": [
+    {
+      "falsification_test": "Compare compressed-only, attention-only, and hybrid variants under equal memory and quality targets.",
+      "hypothesized_effect": "Lower long-context state cost without losing global error correction.",
+      "mechanism_id": "hybrid-compressed-state-full-attention",
+      "semantic_definition": "Combine a compressed recurrent or delta state path with periodic global attention.",
+      "source_fact_boundary": "The official source describes KDA/global-MLA organization; independent MetaEngine transfer is untested.",
+      "source_id": "kimi-linear-8c1d85e",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    },
+    {
+      "falsification_test": "Ablate the bounded-state and full-attention paths independently under equal resource budgets.",
+      "hypothesized_effect": "Preserve global correction while reducing average context-processing cost.",
+      "mechanism_id": "hybrid-compressed-state-full-attention",
+      "semantic_definition": "Interleave bounded-state sequence processing with periodic full-attention operations.",
+      "source_fact_boundary": "The official README describes a hybrid lineage; no causal MetaEngine implementation or ablation exists.",
+      "source_id": "qwen3.6-0886e34",
+      "status": "A1_MECHANISM_HYPOTHESIS"
+    }
+  ]
+}

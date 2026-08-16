@@ -1,0 +1,10 @@
+{
+  "delta_id": "DELTA-DESCARTES-OPENSET-001",
+  "target": {
+    "registry_section": "conditional_families",
+    "operator_id": "__NEW__"
+  },
+  "rollback_action": "REMOVE_ADDED_OPERATOR",
+  "added_operator_id": "F-OPEN-THINKING_UNDERSTANDING_EXIST-995658EA1060",
+  "restore": null
+}

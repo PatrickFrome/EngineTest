@@ -1,0 +1,260 @@
+{
+  "packet_version": "DAE-BLIND-PACKET-1.0",
+  "benchmark_id": "BENCH-B516B04EB5AB556F",
+  "manifest_sha256": "491338f0758b706a5d4eba69d78393281342755a48f434bf2f949fabaa127c77",
+  "packet_id": "PACKET-B-31564CF19FF2",
+  "assignment_token": "E2680D87D0510EB0FBC05583",
+  "blinding": {
+    "system_status_removed": true,
+    "system_confidence_removed": true,
+    "system_reasons_removed": true,
+    "predictions_file_disclosed": false
+  },
+  "codebook": {
+    "codebook_id": "DAE-EXPERT-STATUS-1.0",
+    "labels": {
+      "SUPPORTED": "Доступное свидетельство достаточно поддерживает тезис именно в заявленном масштабе; решающее ограничение не обнаружено.",
+      "QUALIFIED": "Содержательное ядро поддержано, но тезис требует явного ограничения масштаба, модальности, происхождения или области применимости.",
+      "REJECTED": "Доступное свидетельство или решающее контрсоображение противоречит тезису; простого добавления данных недостаточно без его пересмотра.",
+      "INSUFFICIENT": "Доступного и разрешённого свидетельства недостаточно, чтобы выбрать поддержку либо отклонение; это воздержание, а не отрицание."
+    },
+    "decision_rule": "Сначала проверяется достаточность и происхождение свидетельства, затем масштаб тезиса и сильнейший соперник. REJECTED означает отрицательное решение, INSUFFICIENT — отсутствие достаточного решения."
+  },
+  "instructions": {
+    "independent_source_review": "Откройте разрешённую копию источника с указанным SHA-256 и вынесите решение независимо от DAE и других кодировщиков.",
+    "selector_role": "Candidate evidence selectors — только навигационные подсказки системы, а не gold-доказательство. Проверяйте контекст и при необходимости приводите собственные локаторы.",
+    "status_required": true,
+    "evidence_required": true
+  },
+  "units": [
+    {
+      "unit_id": "BU-30B0AC2EC04197ED",
+      "source": {
+        "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+        "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+        "source_access_required": true
+      },
+      "thesis": {
+        "thesis_id": "META_CRITIQUE",
+        "title": "Самоприменение деструктивного метода",
+        "statement": "Требование применять критику происхождения, различения отношений и проверки соперников к собственным понятиям проекта является методически обоснованным, но не подтверждает выводы проекта само по себе.",
+        "scale": "METHOD"
+      },
+      "candidate_evidence_selectors": [
+        "OX-P001454-055459EA0E",
+        "OX-P017303-1491866ADC"
+      ]
+    },
+    {
+      "unit_id": "BU-3F88A445A2EC82D7",
+      "source": {
+        "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+        "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+        "source_access_required": true
+      },
+      "thesis": {
+        "thesis_id": "UNIVERSAL_ONTOLOGY_PROMOTION",
+        "title": "Переход к универсальной онтологии",
+        "statement": "Материалы досье достаточны для утверждения единой универсальной онтологии реализации всех типов сущего.",
+        "scale": "UNIVERSAL"
+      },
+      "candidate_evidence_selectors": [
+        "OX-P000313-373154D4D2",
+        "OX-P000329-CE61198631",
+        "OX-P000886-B39C1E8327",
+        "OX-P002420-833E49B995",
+        "OX-P003130-8E4CF72034",
+        "OX-P005004-03B2B7E8AB",
+        "OX-P005082-28E56F9E76",
+        "OX-P006932-69D23A688D",
+        "OX-P026623-4BC47A6E39",
+        "OX-P031014-37D465A880",
+        "OX-P031967-F2E9C23B42",
+        "OX-P033039-EC663E21D0"
+      ]
+    },
+    {
+      "unit_id": "BU-4C72077718639D59",
+      "source": {
+        "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+        "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+        "source_access_required": true
+      },
+      "thesis": {
+        "thesis_id": "REGIONAL_REALIZATION_PROFILE",
+        "title": "Региональный профиль реализации",
+        "statement": "Профиль из способа бытия, происхождения, поддержания, тождества, доступа и корректирующего ограничения является сильной исследовательской моделью для сравнения разных типов сущего, но не доказанной общей онтологией.",
+        "scale": "METHOD"
+      },
+      "candidate_evidence_selectors": [
+        "OX-P000313-373154D4D2",
+        "OX-P000329-CE61198631",
+        "OX-P000886-B39C1E8327",
+        "OX-P002420-833E49B995",
+        "OX-P003130-8E4CF72034",
+        "OX-P005004-03B2B7E8AB",
+        "OX-P005082-28E56F9E76",
+        "OX-P006932-69D23A688D",
+        "OX-P026623-4BC47A6E39",
+        "OX-P031014-37D465A880",
+        "OX-P031967-F2E9C23B42",
+        "OX-P033039-EC663E21D0"
+      ]
+    },
+    {
+      "unit_id": "BU-803D20E689BA414E",
+      "source": {
+        "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+        "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+        "source_access_required": true
+      },
+      "thesis": {
+        "thesis_id": "REALITY_PROBLEM_RECONSTRUCTION",
+        "title": "Реконструкция проблемы реальности",
+        "statement": "Досье продуктивно реконструирует проблему реальности как узел различий между актом, содержанием, предметом, действительностью и реализмом, но эта реконструкция пока имеет внутридокументный статус.",
+        "scale": "WORK"
+      },
+      "candidate_evidence_selectors": [
+        "OX-P000001-5D78ADC8AF",
+        "OX-P000108-368047DD6D",
+        "OX-P000294-2943CB5C8E",
+        "OX-P000654-F6C8D79A8D",
+        "OX-P000852-229E9CD543",
+        "OX-P001396-BFBA0BB7C7",
+        "OX-P007807-4E5D9A53F1",
+        "OX-P009418-8F59240974",
+        "OX-P012217-8FA728AB62",
+        "OX-P015367-E92851F09C",
+        "OX-P029591-81D6DF58BA",
+        "OX-P033769-B3A1764FD2"
+      ]
+    },
+    {
+      "unit_id": "BU-8C0334C8EEFF9993",
+      "source": {
+        "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+        "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+        "source_access_required": true
+      },
+      "thesis": {
+        "thesis_id": "ACT_CONTENT_OBJECT_DISTINCTION",
+        "title": "Различение акта, содержания и предмета",
+        "statement": "Трёхчленное различение акта, содержания и предмета образует содержательно полезную аналитическую ось досье, однако его историческая и систематическая обязательность ещё не установлена.",
+        "scale": "WORK"
+      },
+      "candidate_evidence_selectors": [
+        "OX-P000006-AA2A5BCEB0",
+        "OX-P000046-745D9A3740",
+        "OX-P000374-D5A136C300",
+        "OX-P000395-23F516CC82",
+        "OX-P000410-C521F5CD4A",
+        "OX-P000944-44701A2713",
+        "OX-P002001-77CF69827F",
+        "OX-P002896-3B5FE4831C",
+        "OX-P008832-51D90FEEDE",
+        "OX-P010000-B4234BBE3A",
+        "OX-P014530-9E9BA61189",
+        "OX-P032375-FAB81D0990"
+      ]
+    },
+    {
+      "unit_id": "BU-9643F85281C28603",
+      "source": {
+        "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+        "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+        "source_access_required": true
+      },
+      "thesis": {
+        "thesis_id": "SEVEN_CASE_STRESS_TEST",
+        "title": "Стресс-тест на семи случаях",
+        "statement": "Набор из камня, организма, боли, денег, технического артефакта, математического и фикционального объекта образует методически ценный гетерогенный стресс-тест для регионального профиля.",
+        "scale": "METHOD"
+      },
+      "candidate_evidence_selectors": [
+        "OX-P000189-F2D6286ADE",
+        "OX-P005606-23241104CA",
+        "OX-P006671-B1A9FAE5DC",
+        "OX-P028518-B0681C1C65",
+        "OX-P031014-37D465A880"
+      ]
+    },
+    {
+      "unit_id": "BU-A79BD194196C808B",
+      "source": {
+        "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+        "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+        "source_access_required": true
+      },
+      "thesis": {
+        "thesis_id": "DOSSIER_GENRE",
+        "title": "Статус и жанр корпуса",
+        "statement": "Представленный DOCX является составным исследовательским досье с первичными фрагментами, реконструкциями, проектными тезисами, возражениями и журналами процедур, а не самостоятельным первичным текстом GA 1.",
+        "scale": "DOCUMENT"
+      },
+      "candidate_evidence_selectors": [
+        "OX-P000001-5D78ADC8AF",
+        "OX-P000015-05964599CE",
+        "OX-P000068-E99D520D3A",
+        "OX-P000072-50EF1293CE",
+        "OX-P001391-31C4AF9266"
+      ]
+    },
+    {
+      "unit_id": "BU-C20CF0CBD94B6966",
+      "source": {
+        "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+        "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+        "source_access_required": true
+      },
+      "thesis": {
+        "thesis_id": "TERM_GENEALOGY",
+        "title": "Генеалогия realitas — Wirklichkeit — Existenz — Sein",
+        "statement": "Досье устанавливает исторически и семантически контролируемую генеалогию терминов realitas, Wirklichkeit, Existenz и Sein.",
+        "scale": "DIACHRONIC"
+      },
+      "candidate_evidence_selectors": [
+        "OX-P000559-742AA6FC44",
+        "OX-P002459-5BE4EA99DB",
+        "OX-P003690-8381C1DBB5",
+        "OX-P004194-CF23A475D1",
+        "OX-P005098-737D1A338F",
+        "OX-P006936-97AB0E9306",
+        "OX-P007228-CFE6CF1D1A",
+        "OX-P008769-6901DA4167",
+        "OX-P013343-5E13AD6410",
+        "OX-P015713-61C88F0BB8",
+        "OX-P016833-0619A247B6",
+        "OX-P022115-F8868FEBAF"
+      ]
+    },
+    {
+      "unit_id": "BU-DCAE0355A017805F",
+      "source": {
+        "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+        "artifact_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+        "source_access_required": true
+      },
+      "thesis": {
+        "thesis_id": "DIACHRONIC_HEIDEGGER",
+        "title": "Диахроническая траектория Хайдеггера",
+        "statement": "Досье устанавливает непрерывную и содержательно определённую траекторию от ранней проблемы реальности к поздним темам техники, Gestell и Bestand.",
+        "scale": "DIACHRONIC"
+      },
+      "candidate_evidence_selectors": [
+        "OX-P000001-5D78ADC8AF",
+        "OX-P000112-DAC3B981CA",
+        "OX-P000273-88FDE3F1B6",
+        "OX-P000513-C14B6B9C91",
+        "OX-P000881-21AE2491C2",
+        "OX-P001103-D40190F0FC",
+        "OX-P001464-41BD1E501A",
+        "OX-P001653-FB839BD0A2",
+        "OX-P001883-0ED6D3BB3A",
+        "OX-P002379-6DE295E06D",
+        "OX-P002704-B2DB144612",
+        "OX-P003012-C6DCBC3025"
+      ]
+    }
+  ],
+  "claim_ceiling": "BLIND_ANNOTATION_MATERIAL_NOT_GOLD_OR_SYSTEM_OUTPUT"
+}

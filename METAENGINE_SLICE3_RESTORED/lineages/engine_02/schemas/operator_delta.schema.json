@@ -1,0 +1,373 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://destruktion.local/schemas/operator_delta.schema.json",
+  "title": "Destruktion operator mutation delta",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "operator_delta_version",
+    "delta_id",
+    "created_at",
+    "name",
+    "status",
+    "resistant_source",
+    "incompatible_unitizations",
+    "target",
+    "observed_failure",
+    "mutation",
+    "before_after_test",
+    "acceptance_gate"
+  ],
+  "properties": {
+    "operator_delta_version": {
+      "const": "DAE-OPERATOR-DELTA-1.0"
+    },
+    "delta_id": {
+      "type": "string",
+      "pattern": "^DELTA-[A-Z0-9._-]{3,96}$"
+    },
+    "created_at": {
+      "type": "string",
+      "minLength": 10
+    },
+    "name": {
+      "type": "string",
+      "minLength": 3
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "READY_FOR_GATE",
+        "ACCEPTED_CANDIDATE",
+        "REJECTED",
+        "REVIEW"
+      ]
+    },
+    "resistant_source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "selector",
+        "why_resistant"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selector": {
+          "type": "string",
+          "minLength": 1
+        },
+        "span_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "why_resistant": {
+          "type": "string",
+          "minLength": 12
+        }
+      }
+    },
+    "incompatible_unitizations": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "unitization_id",
+          "description",
+          "analytic_consequence"
+        ],
+        "properties": {
+          "unitization_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 8
+          },
+          "analytic_consequence": {
+            "type": "string",
+            "minLength": 8
+          }
+        }
+      }
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "registry_section",
+        "operator_id"
+      ],
+      "properties": {
+        "registry_section": {
+          "enum": [
+            "generative_gestures",
+            "supporting_operation_vocabulary",
+            "conditional_families"
+          ]
+        },
+        "operator_id": {
+          "type": "string",
+          "minLength": 2
+        }
+      }
+    },
+    "observed_failure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "failure_type",
+        "description",
+        "lost_distinction"
+      ],
+      "properties": {
+        "failure_type": {
+          "enum": [
+            "OVERCOMPRESSION",
+            "FALSE_UNIVERSALIZATION",
+            "RITUAL_APPLICATION",
+            "CATEGORY_CAPTURE",
+            "TRACEABILITY_LOSS",
+            "NEGATIVE_CASE_BLINDNESS",
+            "RIVAL_UNITIZATION_COLLAPSE",
+            "OTHER"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 12
+        },
+        "lost_distinction": {
+          "type": "string",
+          "minLength": 8
+        }
+      }
+    },
+    "mutation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "proposal",
+        "cost",
+        "reversibility"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "SUSPEND",
+            "SPLIT",
+            "REVISE",
+            "ADD_CONDITION",
+            "ADD_OPERATOR"
+          ]
+        },
+        "proposal": {
+          "type": "string",
+          "minLength": 8
+        },
+        "cost": {
+          "type": "string",
+          "minLength": 5
+        },
+        "reversibility": {
+          "type": "string",
+          "minLength": 5
+        },
+        "changes": {
+          "type": "object"
+        },
+        "trigger_additions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "trigger_removals": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "variants": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "new_id",
+              "changes",
+              "unitization_refs"
+            ],
+            "properties": {
+              "new_id": {
+                "type": "string",
+                "minLength": 3
+              },
+              "changes": {
+                "type": "object"
+              },
+              "unitization_refs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        },
+        "new_operator": {
+          "type": "object",
+          "minProperties": 1
+        }
+      }
+    },
+    "before_after_test": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fixture",
+        "before_observation",
+        "after_observation",
+        "new_gains",
+        "discriminator",
+        "negative_tests"
+      ],
+      "properties": {
+        "fixture": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "source_id",
+            "selector",
+            "same_material",
+            "probe_text"
+          ],
+          "properties": {
+            "source_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "selector": {
+              "type": "string",
+              "minLength": 1
+            },
+            "same_material": {
+              "const": true
+            },
+            "probe_text": {
+              "type": "string",
+              "minLength": 3
+            }
+          }
+        },
+        "before_observation": {
+          "type": "string",
+          "minLength": 8
+        },
+        "after_observation": {
+          "type": "string",
+          "minLength": 8
+        },
+        "new_gains": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "GG1_NEW_DISTINCTION",
+              "GG2_NEW_RELATION",
+              "GG3_NEW_RIVAL",
+              "GG4_NEW_TEST",
+              "GG5_NEW_RESIDUAL",
+              "GG6_NEW_RESEARCH_BRANCH"
+            ]
+          }
+        },
+        "discriminator": {
+          "type": "string",
+          "minLength": 8
+        },
+        "traceability": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "before_routes",
+            "after_routes"
+          ],
+          "properties": {
+            "before_routes": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "after_routes": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "negative_tests": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "passed"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 2
+              },
+              "passed": {
+                "type": "boolean"
+              },
+              "note": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "acceptance_gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "new_distinction_required",
+        "source_traceability_must_not_degrade",
+        "negative_tests_must_not_regress"
+      ],
+      "properties": {
+        "new_distinction_required": {
+          "const": true
+        },
+        "source_traceability_must_not_degrade": {
+          "const": true
+        },
+        "negative_tests_must_not_regress": {
+          "const": true
+        }
+      }
+    }
+  }
+}

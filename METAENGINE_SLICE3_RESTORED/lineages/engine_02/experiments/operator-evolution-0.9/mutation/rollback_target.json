@@ -1,0 +1,64 @@
+{
+  "delta_id": "DELTA-GX1-RESIDUAL-SPLIT-001",
+  "target": {
+    "registry_section": "generative_gestures",
+    "operator_id": "GX1"
+  },
+  "restore": {
+    "gesture_id": "GX1",
+    "title": "Residual Probe",
+    "question": "What is excluded from view precisely because the concept succeeds?",
+    "trigger": "A concept explains a broad class while leaving an identifiable phenomenon outside its frame.",
+    "outputs": [
+      "RESIDUAL_CANDIDATE",
+      "SELF_CRITIQUE"
+    ],
+    "firewall": "A residual is a candidate phenomenon, not proof that the successful concept is false.",
+    "protocol_refs": [
+      "2.0 §8.3",
+      "2.17.M",
+      "D3-EXPLORATORY §3"
+    ],
+    "activation": {
+      "all": [
+        {
+          "op": "gte",
+          "path": "hypothesis.evidence_count",
+          "value": 10
+        },
+        {
+          "op": "truthy",
+          "path": "lens.positive_kernel"
+        },
+        {
+          "op": "truthy",
+          "path": "lens.self_critique"
+        }
+      ]
+    },
+    "active_reason": "The topic recurs in {{hypothesis.evidence_count}} selector candidates and has an identifiable success/blindness tension.",
+    "inactive_reason": "No broad successful explanatory field with a determinate residual is yet visible.",
+    "emission_program": [
+      {
+        "role": "RESIDUAL_CANDIDATE",
+        "node_key": "SUCCESS_BLINDNESS",
+        "title": "Residual produced by explanatory success",
+        "proposition": "The success of “{{lens.positive_kernel}}” may exclude this phenomenon from view: {{lens.self_critique}}",
+        "parents": [
+          "QUESTION"
+        ],
+        "residual_kind": "R3-R"
+      },
+      {
+        "role": "SELF_CRITIQUE",
+        "node_key": "SUCCESS_SELF_CRITIQUE",
+        "title": "Self-critique from the residual",
+        "proposition": "{{lens.self_critique}}",
+        "parents": [
+          "NODE:SUCCESS_BLINDNESS"
+        ],
+        "residual_kind": "R3-R"
+      }
+    ]
+  }
+}

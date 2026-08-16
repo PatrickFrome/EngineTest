@@ -1,0 +1,48 @@
+# METAENGINE — .dockerignore
+
+# Git
+.git
+.gitignore
+
+# Node modules
+node_modules
+.next
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+.venv
+venv
+
+# Test artifacts
+.pytest_cache
+.coverage
+htmlcov
+
+# Storage (will be mounted as volume)
+storage/phase*
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+dev.log
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Documentation (not needed in container)
+*.md
+!README.md

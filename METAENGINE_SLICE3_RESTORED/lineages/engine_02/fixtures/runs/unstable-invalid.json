@@ -1,0 +1,29 @@
+{
+  "run_id": "4A-DEMO-IDENTITY-BEFORE-RELATA",
+  "engine_version": "0.2.3-alpha.1",
+  "core_version": "CORE 4.0.0-alpha.1",
+  "description": "Negative fixture: ID4 is attempted immediately after KC4 leaves relata unstable.",
+  "execution": [
+    {
+      "step": 1,
+      "record_id": "demo-em4",
+      "module_id": "EM4",
+      "relata_stability_before": "NOT_APPLICABLE",
+      "relata_stability_after": "NOT_APPLICABLE"
+    },
+    {
+      "step": 2,
+      "record_id": "demo-kc4",
+      "module_id": "KC4",
+      "relata_stability_before": "NOT_APPLICABLE",
+      "relata_stability_after": "UNSTABLE"
+    },
+    {
+      "step": 3,
+      "record_id": "demo-id4",
+      "module_id": "ID4",
+      "relata_stability_before": "UNSTABLE",
+      "relata_stability_after": "UNSTABLE"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "16X-RECURSIVE-INTERWOVEN-ARCHITECTURE-1.3",
+  "mode": "ALL_16_CROSS_BRED_PLUS_CORE4_RECURSIVE_REENTRY_WITHOUT_NATIVE_REWRITE",
+  "pairwise_bridge_contract": {
+    "directed_pairs": 240,
+    "self_pairs": 0,
+    "modes": [
+      "DIRECT_TYPED_REUSE",
+      "CONTEXT_OR_CRITIQUE_PROJECTION"
+    ],
+    "truth_promotion_allowed": false
+  },
+  "hybrid_organs": [
+    "SEMANTIC_DISCOVERY_CELL",
+    "EVIDENCE_GRAPH_CELL",
+    "RESEARCH_SOCIETY_CELL",
+    "EVOLUTIONARY_LAB_CELL",
+    "MEMORY_CONTINUITY_CELL",
+    "DIALECTICAL_FUSION_CELL"
+  ],
+  "derived_artifact_ceiling": "SECOND_ORDER_GENERATIVE_UNTIL_REGROUNDED_ON_ORIGINAL_SOURCE",
+  "native_lineages": "IMMUTABLE",
+  "core4_recursive_reentry": {
+    "engines": [
+      "engine_01",
+      "engine_02",
+      "engine_03",
+      "engine_04"
+    ],
+    "rounds": 2,
+    "derived_context_truth_effect": "NONE",
+    "return_to_primary_source_required": true
+  }
+}

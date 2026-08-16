@@ -1,0 +1,105 @@
+{
+  "competition_version": "DAE-OPERATOR-COMPETITION-MANIFEST-1.0",
+  "description": "Preregistered local competition among source-born relation profiles. The benchmark tests selection on Geviert/Saussure/Spinoza, local composition on Aristotle, and abstention on Descartes rather than forcing a universal operator.",
+  "candidates": [
+    {
+      "candidate_id": "GEVIERT_CO_CONSTITUTIVE_GATHERING",
+      "label": "Geviert-born co-constitutive gathering profile",
+      "origin_corpus_id": "GEVIERT",
+      "origin_refinery_directory": "corpora/GEVIERT/refinery",
+      "origin_living_analysis_file": "corpora/GEVIERT/living/living_analysis.json",
+      "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "birth_profile_hints": ["CO_CONSTITUTIVE_OR_RECIPROCAL"],
+      "required_profile_hints": ["CO_CONSTITUTIVE_OR_RECIPROCAL"],
+      "optional_profile_hints": ["DIFFERENCE_PRESERVING_PROXIMITY"],
+      "incompatible_profile_hints": ["ASYMMETRIC_DEPENDENCE"],
+      "rationale": "Born from the Geviert resistant-source run; it must not silently colonize one-way dependence cases."
+    },
+    {
+      "candidate_id": "SAUSSURE_DIFFERENTIAL_CONSTITUTION",
+      "label": "Saussure-born differential constitution profile",
+      "origin_corpus_id": "SAUSSURE",
+      "origin_refinery_directory": "corpora/SAUSSURE/refinery",
+      "origin_living_analysis_file": "corpora/SAUSSURE/living/living_analysis.json",
+      "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "birth_profile_hints": ["DIFFERENTIAL_CONSTITUTION"],
+      "required_profile_hints": ["DIFFERENTIAL_CONSTITUTION"],
+      "optional_profile_hints": [],
+      "incompatible_profile_hints": [],
+      "rationale": "Born from a non-Heideggerian differential system; it competes as a local profile rather than a synonym for Geviert."
+    },
+    {
+      "candidate_id": "SPINOZA_ASYMMETRIC_DEPENDENCE",
+      "label": "Spinoza-born asymmetric dependence profile",
+      "origin_corpus_id": "SPINOZA",
+      "origin_refinery_directory": "corpora/SPINOZA/refinery",
+      "origin_living_analysis_file": "corpora/SPINOZA/living/living_analysis.json",
+      "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "birth_profile_hints": ["ASYMMETRIC_DEPENDENCE"],
+      "required_profile_hints": ["ASYMMETRIC_DEPENDENCE"],
+      "optional_profile_hints": [],
+      "incompatible_profile_hints": ["CO_CONSTITUTIVE_OR_RECIPROCAL"],
+      "rationale": "Born from substance-mode asymmetry; its purpose is to block reciprocal flattening."
+    },
+    {
+      "candidate_id": "ARISTOTLE_LOCAL_MODE_VARIATION",
+      "label": "Aristotle-born local relation-mode variation profile",
+      "origin_corpus_id": "ARISTOTLE",
+      "origin_refinery_directory": "corpora/ARISTOTLE/refinery",
+      "origin_living_analysis_file": "corpora/ARISTOTLE/living/living_analysis.json",
+      "source_operator": "RELATION_GENESIS_PROFILE_WITH_CO_EMERGENT_RELATA_CANDIDATE",
+      "birth_profile_hints": ["LOCAL_MODE_VARIATION"],
+      "required_profile_hints": ["LOCAL_MODE_VARIATION"],
+      "optional_profile_hints": [],
+      "incompatible_profile_hints": [],
+      "rationale": "Born from a corpus where substance priority and relatives require different local regimes; it tests composition without a global meta-ontology."
+    }
+  ],
+  "targets": [
+    {
+      "corpus_id": "GEVIERT",
+      "label": "Heidegger Geviert",
+      "refinery_directory": "corpora/GEVIERT/refinery",
+      "expected_decision": "SELECT_LOCAL_WINNER",
+      "expected_selected_candidates": ["GEVIERT_CO_CONSTITUTIVE_GATHERING"],
+      "rationale": "The origin corpus should locally recover its gathering/proximity profile without importing asymmetry or differential-system operators."
+    },
+    {
+      "corpus_id": "SAUSSURE",
+      "label": "Saussure value/difference",
+      "refinery_directory": "corpora/SAUSSURE/refinery",
+      "expected_decision": "SELECT_LOCAL_WINNER",
+      "expected_selected_candidates": ["SAUSSURE_DIFFERENTIAL_CONSTITUTION"],
+      "rationale": "Differential constitution should win without translating langue/value into Geviert."
+    },
+    {
+      "corpus_id": "SPINOZA",
+      "label": "Spinoza substance/mode",
+      "refinery_directory": "corpora/SPINOZA/refinery",
+      "expected_decision": "SELECT_LOCAL_WINNER",
+      "expected_selected_candidates": ["SPINOZA_ASYMMETRIC_DEPENDENCE"],
+      "rationale": "One-way dependence should dominate and reciprocal co-constitution should be penalized."
+    },
+    {
+      "corpus_id": "ARISTOTLE",
+      "label": "Aristotle substance/relatives",
+      "refinery_directory": "corpora/ARISTOTLE/refinery",
+      "expected_decision": "LOCAL_COMPOSITION",
+      "expected_selected_candidates": ["SPINOZA_ASYMMETRIC_DEPENDENCE", "ARISTOTLE_LOCAL_MODE_VARIATION"],
+      "rationale": "No single imported profile should erase the fact that different local relation regimes coexist; asymmetry and local variation should compose."
+    },
+    {
+      "corpus_id": "DESCARTES",
+      "label": "Descartes cogito negative control",
+      "refinery_directory": "corpora/DESCARTES/refinery",
+      "expected_decision": "ABSTAIN_UNRESOLVED",
+      "expected_selected_candidates": [],
+      "rationale": "A central philosophical source with no relation-genesis profile must be allowed to defeat the entire candidate ecology rather than receive a forced winner."
+    }
+  ],
+  "scoring": {
+    "dominance_margin": 2,
+    "composition_gain_threshold": 1
+  },
+  "claim_ceiling": "INTERNAL_SOURCE_BOUNDED_OPERATOR_COMPETITION_NOT_EXTERNAL_SEMANTIC_VALIDATION"
+}

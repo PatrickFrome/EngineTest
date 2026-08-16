@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cross World Freeze Barrier 2.1",
+  "type": "object",
+  "required": [
+    "barrier",
+    "all_worlds_completed",
+    "completed",
+    "failed",
+    "elapsed_s",
+    "no_cross_world_read_before_freeze",
+    "freeze_hash"
+  ],
+  "properties": {
+    "barrier": {
+      "const": "CROSS_WORLD_FREEZE_BARRIER"
+    },
+    "all_worlds_completed": {
+      "type": "boolean"
+    },
+    "completed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "failed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "elapsed_s": {
+      "type": "number",
+      "minimum": 0
+    },
+    "no_cross_world_read_before_freeze": {
+      "const": true
+    },
+    "freeze_hash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    }
+  },
+  "additionalProperties": false
+}

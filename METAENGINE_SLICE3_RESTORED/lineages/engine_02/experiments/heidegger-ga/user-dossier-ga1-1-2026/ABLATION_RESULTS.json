@@ -1,0 +1,38 @@
+{
+  "ablation_version": "DAE-DOCX-UNICODE-ABLATION-0.1",
+  "source_id": "HGA-USER-DOSSIER-GA01-REALITAET-2026",
+  "source_docx_sha256": "10a338bedb0e9b13a7fba21d04e27e1762e33e7d02e9028c6f6f99e1bfd69453",
+  "stable_extracted_text_sha256": "8cbef7a8fe342b576b092a9df3aecd154801a39e125b8a3c0320836dbf5d3b2d",
+  "comparison": {
+    "before_unicode_boundary_fix": {
+      "method_version": "DAE-PAGED-LEXICAL-CANDIDATE-0.3",
+      "units": 13242,
+      "candidate_records": 6,
+      "ambiguous_units": 0,
+      "russian_language_markers": 0,
+      "validation_errors": 0,
+      "interpretation": "Invalid recall result for a predominantly Cyrillic corpus: JavaScript ASCII word boundaries suppressed Russian markers and relation signals."
+    },
+    "after_unicode_boundary_fix": {
+      "method_version": "DAE-PAGED-LEXICAL-CANDIDATE-0.4",
+      "units": 13242,
+      "candidate_records": 840,
+      "ambiguous_units": 340,
+      "russian_language_markers": 8179,
+      "validation_errors": 0,
+      "interpretation": "Unicode-aware letter/number boundaries restore Russian candidate routing; the output remains a review queue, not a precision or semantic-validity result."
+    }
+  },
+  "candidate_multiplier": 140,
+  "stable_across_runs": {
+    "docx_sha256": true,
+    "extracted_text_sha256": true,
+    "rendered_page_count": true,
+    "unit_count": true
+  },
+  "not_stable_across_runs": {
+    "transient_pdf_sha256": true,
+    "reason": "The renderer writes run-dependent PDF container metadata. The DOCX and extracted-text hashes, not the transient PDF hash, are the reproducibility anchors."
+  },
+  "verdict": "THE_PRE_FIX_RUN_IS_RETAINED_ONLY_AS_A_NEGATIVE_ABLATION; THE_POST_FIX_RUN_RESTORES_CYRILLIC_ROUTING_WITHOUT_ESTABLISHING_PRECISION_OR_PHILOSOPHICAL_CORRECTNESS"
+}

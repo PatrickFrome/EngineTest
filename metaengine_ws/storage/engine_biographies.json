@@ -1,0 +1,1534 @@
+{
+  "biography_version": "16X-ENGINE-BIOGRAPHIES-2.0",
+  "engines": {
+    "engine_01": {
+      "engine_id": "engine_01",
+      "observations": 11,
+      "domains": {
+        "PHILOSOPHICAL_HERMENEUTICS": {
+          "n": 9,
+          "mean_gain": 0.7694
+        },
+        "SEMANTIC_SCOPE": {
+          "n": 2,
+          "mean_gain": 0.815
+        },
+        "EVIDENCE_RESEARCH": {
+          "n": 7,
+          "mean_gain": 0.7393
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 9,
+          "mean_gain": 0.7694
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 9,
+          "mean_gain": 0.7411
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 5,
+          "mean_gain": 0.709
+        },
+        "MEMORY_LONGITUDINAL": {
+          "n": 7,
+          "mean_gain": 0.7564
+        },
+        "OPTIMIZATION": {
+          "n": 3,
+          "mean_gain": 0.7383
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_02": {
+          "n": 4,
+          "mean_gain": 0.8312
+        },
+        "engine_03": {
+          "n": 5,
+          "mean_gain": 0.8
+        },
+        "engine_04": {
+          "n": 4,
+          "mean_gain": 0.8537
+        },
+        "engine_09": {
+          "n": 3,
+          "mean_gain": 0.558
+        },
+        "engine_05": {
+          "n": 1,
+          "mean_gain": 0.558
+        }
+      },
+      "mean_realized_gain": 0.7505,
+      "mean_cost": 1.8,
+      "last_runs": [
+        {
+          "run_id": "meta20-d98504bb-b79e-41a1-a71a-14373a8b11f4",
+          "round": 1,
+          "gain": 0.955,
+          "cost": 1.8
+        },
+        {
+          "run_id": "meta20-d98504bb-b79e-41a1-a71a-14373a8b11f4",
+          "round": 3,
+          "gain": 0.675,
+          "cost": 1.8
+        },
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 3,
+          "gain": 0.745,
+          "cost": 1.8
+        },
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 4,
+          "gain": 0.585,
+          "cost": 1.8
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 1,
+          "gain": 0.865,
+          "cost": 1.8
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 3,
+          "gain": 0.72,
+          "cost": 1.8
+        },
+        {
+          "run_id": "meta20-a5ffe949-5324-46ce-aeca-ad364755f382",
+          "round": 1,
+          "gain": 0.955,
+          "cost": 1.8
+        },
+        {
+          "run_id": "meta20-a5ffe949-5324-46ce-aeca-ad364755f382",
+          "round": 3,
+          "gain": 0.675,
+          "cost": 1.8
+        },
+        {
+          "run_id": "meta20-a5ffe949-5324-46ce-aeca-ad364755f382",
+          "round": 4,
+          "gain": 0.585,
+          "cost": 1.8
+        },
+        {
+          "run_id": "meta20-300e4ab0-4e97-4b0c-9560-8d2e9b5cb094",
+          "round": 1,
+          "gain": 0.82,
+          "cost": 1.8
+        },
+        {
+          "run_id": "meta20-300e4ab0-4e97-4b0c-9560-8d2e9b5cb094",
+          "round": 3,
+          "gain": 0.675,
+          "cost": 1.8
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_02": {
+      "engine_id": "engine_02",
+      "observations": 5,
+      "domains": {
+        "PHILOSOPHICAL_HERMENEUTICS": {
+          "n": 5,
+          "mean_gain": 0.845
+        },
+        "SEMANTIC_SCOPE": {
+          "n": 1,
+          "mean_gain": 0.82
+        },
+        "EVIDENCE_RESEARCH": {
+          "n": 2,
+          "mean_gain": 0.82
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 5,
+          "mean_gain": 0.845
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 3,
+          "mean_gain": 0.865
+        },
+        "MEMORY_LONGITUDINAL": {
+          "n": 4,
+          "mean_gain": 0.8513
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 1,
+          "mean_gain": 0.82
+        },
+        "OPTIMIZATION": {
+          "n": 1,
+          "mean_gain": 0.82
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_03": {
+          "n": 4,
+          "mean_gain": 0.82
+        },
+        "engine_04": {
+          "n": 4,
+          "mean_gain": 0.8312
+        },
+        "engine_01": {
+          "n": 4,
+          "mean_gain": 0.8312
+        },
+        "engine_05": {
+          "n": 1,
+          "mean_gain": 0.675
+        },
+        "engine_14": {
+          "n": 1,
+          "mean_gain": 0.603
+        },
+        "engine_12": {
+          "n": 1,
+          "mean_gain": 0.675
+        }
+      },
+      "mean_realized_gain": 0.845,
+      "mean_cost": 1.9,
+      "last_runs": [
+        {
+          "run_id": "meta20-d98504bb-b79e-41a1-a71a-14373a8b11f4",
+          "round": 1,
+          "gain": 0.82,
+          "cost": 1.9
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 1,
+          "gain": 0.955,
+          "cost": 1.9
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 2,
+          "gain": 0.675,
+          "cost": 1.9
+        },
+        {
+          "run_id": "meta20-a5ffe949-5324-46ce-aeca-ad364755f382",
+          "round": 1,
+          "gain": 0.82,
+          "cost": 1.9
+        },
+        {
+          "run_id": "meta20-300e4ab0-4e97-4b0c-9560-8d2e9b5cb094",
+          "round": 1,
+          "gain": 0.955,
+          "cost": 1.9
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_03": {
+      "engine_id": "engine_03",
+      "observations": 9,
+      "domains": {
+        "PHILOSOPHICAL_HERMENEUTICS": {
+          "n": 8,
+          "mean_gain": 0.7531
+        },
+        "SEMANTIC_SCOPE": {
+          "n": 3,
+          "mean_gain": 0.7233
+        },
+        "EVIDENCE_RESEARCH": {
+          "n": 6,
+          "mean_gain": 0.7617
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 8,
+          "mean_gain": 0.7531
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 8,
+          "mean_gain": 0.7581
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 3,
+          "mean_gain": 0.8
+        },
+        "MEMORY_LONGITUDINAL": {
+          "n": 5,
+          "mean_gain": 0.771
+        },
+        "OPTIMIZATION": {
+          "n": 2,
+          "mean_gain": 0.77
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_02": {
+          "n": 4,
+          "mean_gain": 0.82
+        },
+        "engine_04": {
+          "n": 8,
+          "mean_gain": 0.7818
+        },
+        "engine_01": {
+          "n": 5,
+          "mean_gain": 0.8
+        },
+        "engine_07": {
+          "n": 4,
+          "mean_gain": 0.657
+        }
+      },
+      "mean_realized_gain": 0.765,
+      "mean_cost": 1.6,
+      "last_runs": [
+        {
+          "run_id": "meta20-d98504bb-b79e-41a1-a71a-14373a8b11f4",
+          "round": 1,
+          "gain": 0.865,
+          "cost": 1.6
+        },
+        {
+          "run_id": "meta20-d98504bb-b79e-41a1-a71a-14373a8b11f4",
+          "round": 2,
+          "gain": 0.675,
+          "cost": 1.6
+        },
+        {
+          "run_id": "meta20-d98504bb-b79e-41a1-a71a-14373a8b11f4",
+          "round": 3,
+          "gain": 0.63,
+          "cost": 1.6
+        },
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 2,
+          "gain": 0.86,
+          "cost": 1.6
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 1,
+          "gain": 0.82,
+          "cost": 1.6
+        },
+        {
+          "run_id": "meta20-a5ffe949-5324-46ce-aeca-ad364755f382",
+          "round": 1,
+          "gain": 0.865,
+          "cost": 1.6
+        },
+        {
+          "run_id": "meta20-a5ffe949-5324-46ce-aeca-ad364755f382",
+          "round": 2,
+          "gain": 0.675,
+          "cost": 1.6
+        },
+        {
+          "run_id": "meta20-300e4ab0-4e97-4b0c-9560-8d2e9b5cb094",
+          "round": 1,
+          "gain": 0.82,
+          "cost": 1.6
+        },
+        {
+          "run_id": "meta20-300e4ab0-4e97-4b0c-9560-8d2e9b5cb094",
+          "round": 2,
+          "gain": 0.675,
+          "cost": 1.6
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_04": {
+      "engine_id": "engine_04",
+      "observations": 10,
+      "domains": {
+        "PHILOSOPHICAL_HERMENEUTICS": {
+          "n": 7,
+          "mean_gain": 0.7772
+        },
+        "SEMANTIC_SCOPE": {
+          "n": 2,
+          "mean_gain": 0.77
+        },
+        "EVIDENCE_RESEARCH": {
+          "n": 5,
+          "mean_gain": 0.788
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 9,
+          "mean_gain": 0.7728
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 9,
+          "mean_gain": 0.7722
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 3,
+          "mean_gain": 0.8
+        },
+        "MEMORY_LONGITUDINAL": {
+          "n": 5,
+          "mean_gain": 0.78
+        },
+        "WORKFLOW_ORCHESTRATION": {
+          "n": 2,
+          "mean_gain": 0.7575
+        },
+        "OPTIMIZATION": {
+          "n": 2,
+          "mean_gain": 0.77
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_02": {
+          "n": 4,
+          "mean_gain": 0.8312
+        },
+        "engine_03": {
+          "n": 8,
+          "mean_gain": 0.7818
+        },
+        "engine_01": {
+          "n": 4,
+          "mean_gain": 0.8537
+        },
+        "engine_07": {
+          "n": 5,
+          "mean_gain": 0.6742
+        }
+      },
+      "mean_realized_gain": 0.7816,
+      "mean_cost": 2.2,
+      "last_runs": [
+        {
+          "run_id": "meta20-d98504bb-b79e-41a1-a71a-14373a8b11f4",
+          "round": 1,
+          "gain": 0.865,
+          "cost": 2.2
+        },
+        {
+          "run_id": "meta20-d98504bb-b79e-41a1-a71a-14373a8b11f4",
+          "round": 2,
+          "gain": 0.675,
+          "cost": 2.2
+        },
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 2,
+          "gain": 0.86,
+          "cost": 2.2
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 1,
+          "gain": 0.865,
+          "cost": 2.2
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 3,
+          "gain": 0.93,
+          "cost": 2.2
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 4,
+          "gain": 0.585,
+          "cost": 2.2
+        },
+        {
+          "run_id": "meta20-a5ffe949-5324-46ce-aeca-ad364755f382",
+          "round": 1,
+          "gain": 0.865,
+          "cost": 2.2
+        },
+        {
+          "run_id": "meta20-a5ffe949-5324-46ce-aeca-ad364755f382",
+          "round": 2,
+          "gain": 0.675,
+          "cost": 2.2
+        },
+        {
+          "run_id": "meta20-300e4ab0-4e97-4b0c-9560-8d2e9b5cb094",
+          "round": 1,
+          "gain": 0.82,
+          "cost": 2.2
+        },
+        {
+          "run_id": "meta20-300e4ab0-4e97-4b0c-9560-8d2e9b5cb094",
+          "round": 2,
+          "gain": 0.675,
+          "cost": 2.2
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_05": {
+      "engine_id": "engine_05",
+      "observations": 6,
+      "domains": {
+        "EVIDENCE_RESEARCH": {
+          "n": 1,
+          "mean_gain": 0.883
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 1,
+          "mean_gain": 0.883
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 3,
+          "mean_gain": 0.7747
+        },
+        "PHILOSOPHICAL_HERMENEUTICS": {
+          "n": 3,
+          "mean_gain": 0.5897
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 5,
+          "mean_gain": 0.642
+        },
+        "MEMORY_LONGITUDINAL": {
+          "n": 3,
+          "mean_gain": 0.5897
+        },
+        "WORKFLOW_ORCHESTRATION": {
+          "n": 2,
+          "mean_gain": 0.7205
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_07": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_09": {
+          "n": 2,
+          "mean_gain": 0.7705
+        },
+        "engine_14": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_06": {
+          "n": 3,
+          "mean_gain": 0.7597
+        },
+        "engine_13": {
+          "n": 2,
+          "mean_gain": 0.838
+        },
+        "engine_15": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "engine_12": {
+          "n": 5,
+          "mean_gain": 0.68
+        },
+        "engine_02": {
+          "n": 1,
+          "mean_gain": 0.675
+        },
+        "engine_01": {
+          "n": 1,
+          "mean_gain": 0.558
+        },
+        "engine_10": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_11": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_08": {
+          "n": 2,
+          "mean_gain": 0.7205
+        }
+      },
+      "mean_realized_gain": 0.6822,
+      "mean_cost": 0.65,
+      "last_runs": [
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 1,
+          "gain": 0.883,
+          "cost": 0.65
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 2,
+          "gain": 0.743,
+          "cost": 0.65
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 3,
+          "gain": 0.558,
+          "cost": 0.65
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 4,
+          "gain": 0.468,
+          "cost": 0.65
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 1,
+          "gain": 0.838,
+          "cost": 0.65
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 2,
+          "gain": 0.603,
+          "cost": 0.65
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_06": {
+      "engine_id": "engine_06",
+      "observations": 3,
+      "domains": {
+        "EVIDENCE_RESEARCH": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 3,
+          "mean_gain": 0.7747
+        },
+        "WORKFLOW_ORCHESTRATION": {
+          "n": 2,
+          "mean_gain": 0.743
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 2,
+          "mean_gain": 0.743
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_07": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_09": {
+          "n": 2,
+          "mean_gain": 0.793
+        },
+        "engine_14": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_13": {
+          "n": 2,
+          "mean_gain": 0.838
+        },
+        "engine_15": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "engine_05": {
+          "n": 3,
+          "mean_gain": 0.7597
+        },
+        "engine_12": {
+          "n": 3,
+          "mean_gain": 0.7147
+        },
+        "engine_10": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_11": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_08": {
+          "n": 2,
+          "mean_gain": 0.7205
+        }
+      },
+      "mean_realized_gain": 0.7747,
+      "mean_cost": 0.9,
+      "last_runs": [
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 1,
+          "gain": 0.838,
+          "cost": 0.9
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 1,
+          "gain": 0.883,
+          "cost": 0.9
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 2,
+          "gain": 0.603,
+          "cost": 0.9
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_07": {
+      "engine_id": "engine_07",
+      "observations": 7,
+      "domains": {
+        "PHILOSOPHICAL_HERMENEUTICS": {
+          "n": 4,
+          "mean_gain": 0.7905
+        },
+        "SEMANTIC_SCOPE": {
+          "n": 1,
+          "mean_gain": 0.883
+        },
+        "EVIDENCE_RESEARCH": {
+          "n": 4,
+          "mean_gain": 0.768
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 5,
+          "mean_gain": 0.781
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 7,
+          "mean_gain": 0.7444
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 3,
+          "mean_gain": 0.7297
+        },
+        "WORKFLOW_ORCHESTRATION": {
+          "n": 1,
+          "mean_gain": 0.743
+        },
+        "MEMORY_LONGITUDINAL": {
+          "n": 3,
+          "mean_gain": 0.7597
+        },
+        "OPTIMIZATION": {
+          "n": 1,
+          "mean_gain": 0.883
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_03": {
+          "n": 4,
+          "mean_gain": 0.657
+        },
+        "engine_04": {
+          "n": 5,
+          "mean_gain": 0.6742
+        },
+        "engine_09": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_14": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_06": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_13": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_15": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_05": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_12": {
+          "n": 1,
+          "mean_gain": 0.703
+        }
+      },
+      "mean_realized_gain": 0.7444,
+      "mean_cost": 0.85,
+      "last_runs": [
+        {
+          "run_id": "meta20-d98504bb-b79e-41a1-a71a-14373a8b11f4",
+          "round": 2,
+          "gain": 0.883,
+          "cost": 0.85
+        },
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 1,
+          "gain": 0.703,
+          "cost": 0.85
+        },
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 2,
+          "gain": 0.603,
+          "cost": 0.85
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 3,
+          "gain": 0.743,
+          "cost": 0.85
+        },
+        {
+          "run_id": "meta20-a5ffe949-5324-46ce-aeca-ad364755f382",
+          "round": 2,
+          "gain": 0.883,
+          "cost": 0.85
+        },
+        {
+          "run_id": "meta20-300e4ab0-4e97-4b0c-9560-8d2e9b5cb094",
+          "round": 2,
+          "gain": 0.883,
+          "cost": 0.85
+        },
+        {
+          "run_id": "meta20-300e4ab0-4e97-4b0c-9560-8d2e9b5cb094",
+          "round": 4,
+          "gain": 0.513,
+          "cost": 0.85
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_08": {
+      "engine_id": "engine_08",
+      "observations": 2,
+      "domains": {
+        "WORKFLOW_ORCHESTRATION": {
+          "n": 2,
+          "mean_gain": 0.7205
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 2,
+          "mean_gain": 0.7205
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 2,
+          "mean_gain": 0.7205
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_10": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_11": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_12": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_05": {
+          "n": 2,
+          "mean_gain": 0.7205
+        },
+        "engine_13": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "engine_06": {
+          "n": 2,
+          "mean_gain": 0.7205
+        },
+        "engine_09": {
+          "n": 1,
+          "mean_gain": 0.838
+        }
+      },
+      "mean_realized_gain": 0.7205,
+      "mean_cost": 0.65,
+      "last_runs": [
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 1,
+          "gain": 0.838,
+          "cost": 0.65
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 2,
+          "gain": 0.603,
+          "cost": 0.65
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_09": {
+      "engine_id": "engine_09",
+      "observations": 5,
+      "domains": {
+        "EVIDENCE_RESEARCH": {
+          "n": 3,
+          "mean_gain": 0.6063
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 3,
+          "mean_gain": 0.6063
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 5,
+          "mean_gain": 0.652
+        },
+        "WORKFLOW_ORCHESTRATION": {
+          "n": 1,
+          "mean_gain": 0.883
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 3,
+          "mean_gain": 0.6663
+        },
+        "MEMORY_LONGITUDINAL": {
+          "n": 2,
+          "mean_gain": 0.558
+        },
+        "OPTIMIZATION": {
+          "n": 1,
+          "mean_gain": 0.558
+        },
+        "PHILOSOPHICAL_HERMENEUTICS": {
+          "n": 2,
+          "mean_gain": 0.558
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_07": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_14": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_06": {
+          "n": 2,
+          "mean_gain": 0.793
+        },
+        "engine_13": {
+          "n": 2,
+          "mean_gain": 0.7705
+        },
+        "engine_15": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_05": {
+          "n": 2,
+          "mean_gain": 0.7705
+        },
+        "engine_12": {
+          "n": 2,
+          "mean_gain": 0.703
+        },
+        "engine_01": {
+          "n": 3,
+          "mean_gain": 0.558
+        },
+        "engine_10": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_11": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_08": {
+          "n": 1,
+          "mean_gain": 0.838
+        }
+      },
+      "mean_realized_gain": 0.652,
+      "mean_cost": 0.8,
+      "last_runs": [
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 1,
+          "gain": 0.703,
+          "cost": 0.8
+        },
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 3,
+          "gain": 0.558,
+          "cost": 0.8
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 1,
+          "gain": 0.883,
+          "cost": 0.8
+        },
+        {
+          "run_id": "meta20-a5ffe949-5324-46ce-aeca-ad364755f382",
+          "round": 3,
+          "gain": 0.558,
+          "cost": 0.8
+        },
+        {
+          "run_id": "meta20-300e4ab0-4e97-4b0c-9560-8d2e9b5cb094",
+          "round": 3,
+          "gain": 0.558,
+          "cost": 0.8
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_10": {
+      "engine_id": "engine_10",
+      "observations": 2,
+      "domains": {
+        "WORKFLOW_ORCHESTRATION": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 2,
+          "mean_gain": 0.653
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_11": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_12": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_05": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_08": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_13": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_06": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_09": {
+          "n": 1,
+          "mean_gain": 0.703
+        }
+      },
+      "mean_realized_gain": 0.653,
+      "mean_cost": 0.65,
+      "last_runs": [
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 1,
+          "gain": 0.703,
+          "cost": 0.65
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 2,
+          "gain": 0.603,
+          "cost": 0.65
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_11": {
+      "engine_id": "engine_11",
+      "observations": 2,
+      "domains": {
+        "WORKFLOW_ORCHESTRATION": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 2,
+          "mean_gain": 0.653
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_10": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_12": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_05": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_08": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_13": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_06": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_09": {
+          "n": 1,
+          "mean_gain": 0.703
+        }
+      },
+      "mean_realized_gain": 0.653,
+      "mean_cost": 0.6,
+      "last_runs": [
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 1,
+          "gain": 0.703,
+          "cost": 0.6
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 2,
+          "gain": 0.603,
+          "cost": 0.6
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_12": {
+      "engine_id": "engine_12",
+      "observations": 5,
+      "domains": {
+        "EVIDENCE_RESEARCH": {
+          "n": 1,
+          "mean_gain": 0.883
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 1,
+          "mean_gain": 0.883
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 3,
+          "mean_gain": 0.7297
+        },
+        "PHILOSOPHICAL_HERMENEUTICS": {
+          "n": 2,
+          "mean_gain": 0.698
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 4,
+          "mean_gain": 0.6755
+        },
+        "MEMORY_LONGITUDINAL": {
+          "n": 2,
+          "mean_gain": 0.698
+        },
+        "WORKFLOW_ORCHESTRATION": {
+          "n": 2,
+          "mean_gain": 0.653
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_07": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_09": {
+          "n": 2,
+          "mean_gain": 0.703
+        },
+        "engine_14": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_06": {
+          "n": 3,
+          "mean_gain": 0.7147
+        },
+        "engine_13": {
+          "n": 2,
+          "mean_gain": 0.7705
+        },
+        "engine_15": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "engine_05": {
+          "n": 5,
+          "mean_gain": 0.68
+        },
+        "engine_02": {
+          "n": 1,
+          "mean_gain": 0.675
+        },
+        "engine_10": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_11": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_08": {
+          "n": 2,
+          "mean_gain": 0.653
+        }
+      },
+      "mean_realized_gain": 0.717,
+      "mean_cost": 0.55,
+      "last_runs": [
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 1,
+          "gain": 0.883,
+          "cost": 0.55
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 2,
+          "gain": 0.883,
+          "cost": 0.55
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 4,
+          "gain": 0.513,
+          "cost": 0.55
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 1,
+          "gain": 0.703,
+          "cost": 0.55
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 2,
+          "gain": 0.603,
+          "cost": 0.55
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_13": {
+      "engine_id": "engine_13",
+      "observations": 2,
+      "domains": {
+        "EVIDENCE_RESEARCH": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 2,
+          "mean_gain": 0.838
+        },
+        "WORKFLOW_ORCHESTRATION": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 1,
+          "mean_gain": 0.838
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_07": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_09": {
+          "n": 2,
+          "mean_gain": 0.7705
+        },
+        "engine_14": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_06": {
+          "n": 2,
+          "mean_gain": 0.838
+        },
+        "engine_15": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "engine_05": {
+          "n": 2,
+          "mean_gain": 0.838
+        },
+        "engine_12": {
+          "n": 2,
+          "mean_gain": 0.7705
+        },
+        "engine_10": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_11": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_08": {
+          "n": 1,
+          "mean_gain": 0.838
+        }
+      },
+      "mean_realized_gain": 0.838,
+      "mean_cost": 0.75,
+      "last_runs": [
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 1,
+          "gain": 0.838,
+          "cost": 0.75
+        },
+        {
+          "run_id": "meta20-d8e7a34f-fe47-4de7-b11e-bf2bffd198da",
+          "round": 1,
+          "gain": 0.838,
+          "cost": 0.75
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_14": {
+      "engine_id": "engine_14",
+      "observations": 2,
+      "domains": {
+        "EVIDENCE_RESEARCH": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "PHILOSOPHICAL_HERMENEUTICS": {
+          "n": 1,
+          "mean_gain": 0.603
+        },
+        "GRAPH_RELATIONAL": {
+          "n": 1,
+          "mean_gain": 0.603
+        },
+        "MEMORY_LONGITUDINAL": {
+          "n": 1,
+          "mean_gain": 0.603
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_07": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_09": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_06": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_13": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_15": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_05": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_12": {
+          "n": 2,
+          "mean_gain": 0.653
+        },
+        "engine_02": {
+          "n": 1,
+          "mean_gain": 0.603
+        }
+      },
+      "mean_realized_gain": 0.653,
+      "mean_cost": 0.75,
+      "last_runs": [
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 1,
+          "gain": 0.703,
+          "cost": 0.75
+        },
+        {
+          "run_id": "meta20-ef982df3-9659-4da8-8d50-26640008b382",
+          "round": 2,
+          "gain": 0.603,
+          "cost": 0.75
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_15": {
+      "engine_id": "engine_15",
+      "observations": 1,
+      "domains": {
+        "EVIDENCE_RESEARCH": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "HYPOTHESIS_EXPERIMENT": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "MULTI_PERSPECTIVE": {
+          "n": 1,
+          "mean_gain": 0.838
+        }
+      },
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {
+        "engine_07": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_09": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_14": {
+          "n": 1,
+          "mean_gain": 0.703
+        },
+        "engine_06": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "engine_13": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "engine_05": {
+          "n": 1,
+          "mean_gain": 0.838
+        },
+        "engine_12": {
+          "n": 1,
+          "mean_gain": 0.838
+        }
+      },
+      "mean_realized_gain": 0.838,
+      "mean_cost": 0.85,
+      "last_runs": [
+        {
+          "run_id": "meta20-24be00f6-f36a-417d-90c7-3527628c4194",
+          "round": 1,
+          "gain": 0.838,
+          "cost": 0.85
+        }
+      ],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    },
+    "engine_16": {
+      "engine_id": "engine_16",
+      "observations": 0,
+      "domains": {},
+      "effects": {},
+      "failure_modes": {},
+      "pair_synergy": {},
+      "mean_realized_gain": 0.5,
+      "mean_cost": 1.0,
+      "last_runs": [],
+      "claim_ceiling": "SCHEDULER_PRIOR_NOT_EPISTEMIC_AUTHORITY"
+    }
+  },
+  "topologies": {
+    "EVIDENCE_FIRST": {
+      "n": 1,
+      "mean_gain": 0.6525
+    },
+    "ADVERSARIAL_FORK": {
+      "n": 2,
+      "mean_gain": 0.585
+    },
+    "GRAPH_FIRST": {
+      "n": 1,
+      "mean_gain": 0.4905
+    },
+    "WORKFLOW_SWARM": {
+      "n": 2,
+      "mean_gain": 0.549
+    }
+  },
+  "claim_ceiling": "EMPIRICAL_SPECIALIZATION_MEMORY_NOT_TRUTH_WEIGHT",
+  "biography_hash": "bb6330abe098cbfe2da63ae8b2ffebeb478768743763bf95385233f930e1e077"
+}

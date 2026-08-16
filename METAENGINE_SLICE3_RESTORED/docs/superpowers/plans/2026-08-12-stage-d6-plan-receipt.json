@@ -1,0 +1,47 @@
+{
+  "base_design_commit": "ec93dd15f685707a11f5e40b4f425dd211ca525a",
+  "files": [
+    {
+      "bytes": 12613,
+      "path": "docs/superpowers/plans/2026-08-12-stage-d6-a-federation-contracts.md",
+      "sha256": "c44a0936533891b5dd3061b3bd5b3eff0b12162a56e77eb05e94acb7a5a241d6"
+    },
+    {
+      "bytes": 6935,
+      "path": "docs/superpowers/plans/2026-08-12-stage-d6-b-local-simulator.md",
+      "sha256": "fba4f149fad677c150e1cc246908d86573afbd9530d6cc33a337d4c188497ef9"
+    },
+    {
+      "bytes": 5328,
+      "path": "docs/superpowers/plans/2026-08-12-stage-d6-c-portable-bootstrap.md",
+      "sha256": "39b81d01f9f68729784a71781c8fd016f11898088930527be9876db5de1e3d16"
+    },
+    {
+      "bytes": 15004,
+      "path": "docs/superpowers/plans/2026-08-12-stage-d6-d-supabase-ledger.md",
+      "sha256": "ace4253a719e547d1be9cc31e2e49d3c9d4ac271a455e8febcba4e46b2caf98d"
+    },
+    {
+      "bytes": 4658,
+      "path": "docs/superpowers/plans/2026-08-12-stage-d6-e-mcp-surface.md",
+      "sha256": "452f735a41ef7c628acc1fc9a6f26853f904a5115ee6896c167951c1fb0a9328"
+    },
+    {
+      "bytes": 4666,
+      "path": "docs/superpowers/plans/2026-08-12-stage-d6-f-integration-gate.md",
+      "sha256": "73fbf1e8f95da2b1208fe2e2f52cd4140abf3a61454ac44b40de6a3c3d130b33"
+    },
+    {
+      "bytes": 7488,
+      "path": "docs/superpowers/plans/2026-08-12-stage-d6-federated-chat-fabric.md",
+      "sha256": "73d383eed0127e959f4b9849449a41b9dd3ac70995493793b4cf7160453b0eb4"
+    },
+    {
+      "bytes": 5273,
+      "path": "docs/superpowers/plans/2026-08-12-stage-d6-g-adaptive-specialization.md",
+      "sha256": "0c47328a41728c7b772abf17bfd58cb7dbd7f7b36afc2846780114715cb3f185"
+    }
+  ],
+  "plan_set_version": "METAENGINE-D6-IMPLEMENTATION-PLAN-1",
+  "receipt_hash": "85d4a113aa6cd1e7e54e250d162767dd9d29ccbe6bcc0d02c61e2545b255420f"
+}

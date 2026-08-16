@@ -1,0 +1,1 @@
+Three studies report that intervention X improves outcome Y, while two studies report no effect under different conditions. Verify the evidence, distinguish support from contradiction, identify missing citations and design a discriminating test rather than resolving the conflict by majority vote.
