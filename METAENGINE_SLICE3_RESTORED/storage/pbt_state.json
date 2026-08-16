@@ -1,5 +1,5 @@
 {
-  "generation": 60,
+  "generation": 61,
   "population_size": 8,
   "policies": [
     {
@@ -9,11 +9,11 @@
       "exploration_rate": 0.05,
       "temperature": 0.471,
       "fitness": 0.8699129999999999,
-      "tasks_evaluated": 186,
+      "tasks_evaluated": 192,
       "generation": 29,
       "parent_id": "gen24-policy1",
       "alive": true,
-      "evaluated_at": "2026-08-16T14:20:55Z"
+      "evaluated_at": "2026-08-16T14:26:40Z"
     },
     {
       "policy_id": "gen47-policy0",
@@ -22,11 +22,11 @@
       "exploration_rate": 0.038,
       "temperature": 0.392,
       "fitness": 0.865933,
-      "tasks_evaluated": 78,
+      "tasks_evaluated": 84,
       "generation": 47,
       "parent_id": "gen27-policy0",
       "alive": true,
-      "evaluated_at": "2026-08-16T14:20:55Z"
+      "evaluated_at": "2026-08-16T14:26:40Z"
     },
     {
       "policy_id": "gen58-policy0",
@@ -35,21 +35,21 @@
       "exploration_rate": 0.038,
       "temperature": 0.392,
       "fitness": 0.865933,
-      "tasks_evaluated": 12,
+      "tasks_evaluated": 18,
       "generation": 58,
       "parent_id": "gen27-policy0",
       "alive": true,
-      "evaluated_at": "2026-08-16T14:20:55Z"
+      "evaluated_at": "2026-08-16T14:26:40Z"
     },
     {
-      "policy_id": "gen60-policy1",
-      "max_rounds": 8,
-      "max_deep_engines": 8,
-      "exploration_rate": 0.051,
-      "temperature": 0.533,
+      "policy_id": "gen61-policy1",
+      "max_rounds": 7,
+      "max_deep_engines": 10,
+      "exploration_rate": 0.06,
+      "temperature": 0.538,
       "fitness": 0.0,
       "tasks_evaluated": 0,
-      "generation": 60,
+      "generation": 61,
       "parent_id": "gen29-policy1",
       "alive": true,
       "evaluated_at": ""
@@ -61,11 +61,11 @@
       "exploration_rate": 0.047,
       "temperature": 0.416,
       "fitness": 0.865953,
-      "tasks_evaluated": 120,
+      "tasks_evaluated": 126,
       "generation": 40,
       "parent_id": "gen29-policy1",
       "alive": true,
-      "evaluated_at": "2026-08-16T14:20:55Z"
+      "evaluated_at": "2026-08-16T14:26:40Z"
     },
     {
       "policy_id": "gen27-policy0",
@@ -74,11 +74,11 @@
       "exploration_rate": 0.039,
       "temperature": 0.43,
       "fitness": 0.870513,
-      "tasks_evaluated": 198,
+      "tasks_evaluated": 204,
       "generation": 27,
       "parent_id": "gen24-policy1",
       "alive": true,
-      "evaluated_at": "2026-08-16T14:20:55Z"
+      "evaluated_at": "2026-08-16T14:26:40Z"
     },
     {
       "policy_id": "gen51-policy1",
@@ -87,25 +87,25 @@
       "exploration_rate": 0.047,
       "temperature": 0.416,
       "fitness": 0.865953,
-      "tasks_evaluated": 54,
+      "tasks_evaluated": 60,
       "generation": 51,
       "parent_id": "gen29-policy1",
       "alive": true,
-      "evaluated_at": "2026-08-16T14:20:55Z"
+      "evaluated_at": "2026-08-16T14:26:40Z"
     },
     {
-      "policy_id": "gen60-policy0",
+      "policy_id": "gen61-policy0",
       "max_rounds": 8,
       "max_deep_engines": 8,
-      "exploration_rate": 0.043,
-      "temperature": 0.436,
+      "exploration_rate": 0.042,
+      "temperature": 0.352,
       "fitness": 0.0,
       "tasks_evaluated": 0,
-      "generation": 60,
+      "generation": 61,
       "parent_id": "gen27-policy0",
       "alive": true,
       "evaluated_at": ""
     }
   ],
-  "updated_at": "2026-08-16T14:20:55Z"
+  "updated_at": "2026-08-16T14:26:40Z"
 }

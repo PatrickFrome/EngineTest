@@ -1,15 +1,257 @@
 {
   "state": "RUNNING",
-  "started_at": "2026-08-16T14:22:24Z",
+  "started_at": "2026-08-16T14:31:49Z",
   "task_bank_size": 105,
-  "rounds_completed": 1541,
-  "current_round": 1542,
+  "rounds_completed": 1606,
+  "current_round": 1607,
   "best_fitness": 0.566665,
   "best_round": 1,
   "history": [
     {
-      "round_id": 1522,
-      "started_at": "2026-08-16T14:19:31Z",
+      "round_id": 1587,
+      "started_at": "2026-08-16T14:28:52Z",
+      "tasks_total": 26,
+      "elapsed_sec": 0.012,
+      "avg_fitness": 0.566665,
+      "avg_combined_score": 0.233335,
+      "avg_deterministic_score": 0.233335,
+      "avg_dialectical_depth": 1.0,
+      "avg_constitution_score": 0.75,
+      "avg_runtime_sec": 0.001,
+      "total_rival_forks": 150,
+      "total_sublations": 52,
+      "total_evidence_discriminators": 52,
+      "total_dialectical_nodes": 543,
+      "pass_rate": 0.3462,
+      "crashes": 0,
+      "zai_judge_used": 0,
+      "zai_judge_skipped": 26,
+      "categories": {
+        "ARITHMETIC": {
+          "count": 4,
+          "fitness": 1.8,
+          "pass": 0,
+          "depth": 4.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "LOGIC": {
+          "count": 3,
+          "fitness": 1.7999999999999998,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "REASONING": {
+          "count": 2,
+          "fitness": 1.375,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.6875,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "ANALYSIS": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "SAFETY": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "PHILOSOPHY": {
+          "count": 3,
+          "fitness": 1.9583,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6528,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "SCIENCE": {
+          "count": 2,
+          "fitness": 1.1,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "ETHICS": {
+          "count": 2,
+          "fitness": 1.15,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "MATH": {
+          "count": 3,
+          "fitness": 1.65,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "CODE": {
+          "count": 1,
+          "fitness": 0.7,
+          "pass": 1,
+          "depth": 1.0,
+          "avg_fitness": 0.7,
+          "pass_rate": 1.0,
+          "avg_depth": 1.0
+        },
+        "HISTORY": {
+          "count": 1,
+          "fitness": 0.45,
+          "pass": 0,
+          "depth": 1.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        }
+      }
+    },
+    {
+      "round_id": 1588,
+      "started_at": "2026-08-16T14:29:00Z",
+      "tasks_total": 26,
+      "elapsed_sec": 0.012,
+      "avg_fitness": 0.566665,
+      "avg_combined_score": 0.233335,
+      "avg_deterministic_score": 0.233335,
+      "avg_dialectical_depth": 1.0,
+      "avg_constitution_score": 0.75,
+      "avg_runtime_sec": 0.001,
+      "total_rival_forks": 150,
+      "total_sublations": 52,
+      "total_evidence_discriminators": 52,
+      "total_dialectical_nodes": 543,
+      "pass_rate": 0.3462,
+      "crashes": 0,
+      "zai_judge_used": 0,
+      "zai_judge_skipped": 26,
+      "categories": {
+        "ARITHMETIC": {
+          "count": 4,
+          "fitness": 1.8,
+          "pass": 0,
+          "depth": 4.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "LOGIC": {
+          "count": 3,
+          "fitness": 1.7999999999999998,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "REASONING": {
+          "count": 2,
+          "fitness": 1.375,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.6875,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "ANALYSIS": {
+          "count": 3,
+          "fitness": 1.8499999999999999,
+          "pass": 2,
+          "depth": 3.0,
+          "avg_fitness": 0.6167,
+          "pass_rate": 0.6667,
+          "avg_depth": 1.0
+        },
+        "SAFETY": {
+          "count": 2,
+          "fitness": 0.9,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "PHILOSOPHY": {
+          "count": 3,
+          "fitness": 1.9583,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.6528,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "SCIENCE": {
+          "count": 2,
+          "fitness": 1.1,
+          "pass": 1,
+          "depth": 2.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.5,
+          "avg_depth": 1.0
+        },
+        "ETHICS": {
+          "count": 2,
+          "fitness": 1.15,
+          "pass": 0,
+          "depth": 2.0,
+          "avg_fitness": 0.575,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        },
+        "MATH": {
+          "count": 3,
+          "fitness": 1.65,
+          "pass": 1,
+          "depth": 3.0,
+          "avg_fitness": 0.55,
+          "pass_rate": 0.3333,
+          "avg_depth": 1.0
+        },
+        "CODE": {
+          "count": 1,
+          "fitness": 0.7,
+          "pass": 1,
+          "depth": 1.0,
+          "avg_fitness": 0.7,
+          "pass_rate": 1.0,
+          "avg_depth": 1.0
+        },
+        "HISTORY": {
+          "count": 1,
+          "fitness": 0.45,
+          "pass": 0,
+          "depth": 1.0,
+          "avg_fitness": 0.45,
+          "pass_rate": 0.0,
+          "avg_depth": 1.0
+        }
+      }
+    },
+    {
+      "round_id": 1589,
+      "started_at": "2026-08-16T14:29:09Z",
       "tasks_total": 26,
       "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
@@ -129,129 +371,8 @@
       }
     },
     {
-      "round_id": 1523,
-      "started_at": "2026-08-16T14:19:40Z",
-      "tasks_total": 26,
-      "elapsed_sec": 0.014,
-      "avg_fitness": 0.566665,
-      "avg_combined_score": 0.233335,
-      "avg_deterministic_score": 0.233335,
-      "avg_dialectical_depth": 1.0,
-      "avg_constitution_score": 0.75,
-      "avg_runtime_sec": 0.001,
-      "total_rival_forks": 150,
-      "total_sublations": 52,
-      "total_evidence_discriminators": 52,
-      "total_dialectical_nodes": 543,
-      "pass_rate": 0.3462,
-      "crashes": 0,
-      "zai_judge_used": 0,
-      "zai_judge_skipped": 26,
-      "categories": {
-        "ARITHMETIC": {
-          "count": 4,
-          "fitness": 1.8,
-          "pass": 0,
-          "depth": 4.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "LOGIC": {
-          "count": 3,
-          "fitness": 1.7999999999999998,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "REASONING": {
-          "count": 2,
-          "fitness": 1.375,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.6875,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "ANALYSIS": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "SAFETY": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "PHILOSOPHY": {
-          "count": 3,
-          "fitness": 1.9583,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6528,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "SCIENCE": {
-          "count": 2,
-          "fitness": 1.1,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "ETHICS": {
-          "count": 2,
-          "fitness": 1.15,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "MATH": {
-          "count": 3,
-          "fitness": 1.65,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "CODE": {
-          "count": 1,
-          "fitness": 0.7,
-          "pass": 1,
-          "depth": 1.0,
-          "avg_fitness": 0.7,
-          "pass_rate": 1.0,
-          "avg_depth": 1.0
-        },
-        "HISTORY": {
-          "count": 1,
-          "fitness": 0.45,
-          "pass": 0,
-          "depth": 1.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        }
-      }
-    },
-    {
-      "round_id": 1524,
-      "started_at": "2026-08-16T14:19:49Z",
+      "round_id": 1590,
+      "started_at": "2026-08-16T14:29:18Z",
       "tasks_total": 26,
       "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
@@ -371,8 +492,8 @@
       }
     },
     {
-      "round_id": 1525,
-      "started_at": "2026-08-16T14:19:57Z",
+      "round_id": 1591,
+      "started_at": "2026-08-16T14:29:26Z",
       "tasks_total": 26,
       "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
@@ -492,8 +613,8 @@
       }
     },
     {
-      "round_id": 1526,
-      "started_at": "2026-08-16T14:20:06Z",
+      "round_id": 1592,
+      "started_at": "2026-08-16T14:29:35Z",
       "tasks_total": 26,
       "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
@@ -613,10 +734,10 @@
       }
     },
     {
-      "round_id": 1527,
-      "started_at": "2026-08-16T14:20:15Z",
+      "round_id": 1593,
+      "started_at": "2026-08-16T14:29:43Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.016,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -734,10 +855,10 @@
       }
     },
     {
-      "round_id": 1528,
-      "started_at": "2026-08-16T14:20:23Z",
+      "round_id": 1594,
+      "started_at": "2026-08-16T14:29:52Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.045,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -855,10 +976,10 @@
       }
     },
     {
-      "round_id": 1529,
-      "started_at": "2026-08-16T14:20:32Z",
+      "round_id": 1595,
+      "started_at": "2026-08-16T14:30:00Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.054,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -976,10 +1097,10 @@
       }
     },
     {
-      "round_id": 1530,
-      "started_at": "2026-08-16T14:20:41Z",
+      "round_id": 1596,
+      "started_at": "2026-08-16T14:30:10Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -1097,10 +1218,10 @@
       }
     },
     {
-      "round_id": 1531,
-      "started_at": "2026-08-16T14:20:49Z",
+      "round_id": 1597,
+      "started_at": "2026-08-16T14:30:18Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.016,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -1218,10 +1339,10 @@
       }
     },
     {
-      "round_id": 1532,
-      "started_at": "2026-08-16T14:20:58Z",
+      "round_id": 1598,
+      "started_at": "2026-08-16T14:30:27Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.016,
+      "elapsed_sec": 0.012,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -1339,10 +1460,10 @@
       }
     },
     {
-      "round_id": 1533,
-      "started_at": "2026-08-16T14:21:07Z",
+      "round_id": 1599,
+      "started_at": "2026-08-16T14:30:36Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.016,
+      "elapsed_sec": 0.012,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -1460,10 +1581,10 @@
       }
     },
     {
-      "round_id": 1534,
-      "started_at": "2026-08-16T14:21:16Z",
+      "round_id": 1600,
+      "started_at": "2026-08-16T14:30:45Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.014,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -1581,10 +1702,10 @@
       }
     },
     {
-      "round_id": 1535,
-      "started_at": "2026-08-16T14:21:24Z",
+      "round_id": 1601,
+      "started_at": "2026-08-16T14:30:54Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.016,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -1702,10 +1823,10 @@
       }
     },
     {
-      "round_id": 1536,
-      "started_at": "2026-08-16T14:21:33Z",
+      "round_id": 1602,
+      "started_at": "2026-08-16T14:31:03Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.016,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -1823,10 +1944,10 @@
       }
     },
     {
-      "round_id": 1537,
-      "started_at": "2026-08-16T14:21:41Z",
+      "round_id": 1603,
+      "started_at": "2026-08-16T14:31:13Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.016,
+      "elapsed_sec": 0.012,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -1944,10 +2065,10 @@
       }
     },
     {
-      "round_id": 1538,
-      "started_at": "2026-08-16T14:21:50Z",
+      "round_id": 1604,
+      "started_at": "2026-08-16T14:31:22Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.015,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -2065,10 +2186,10 @@
       }
     },
     {
-      "round_id": 1539,
-      "started_at": "2026-08-16T14:21:59Z",
+      "round_id": 1605,
+      "started_at": "2026-08-16T14:31:30Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.015,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
@@ -2186,131 +2307,10 @@
       }
     },
     {
-      "round_id": 1540,
-      "started_at": "2026-08-16T14:22:07Z",
+      "round_id": 1606,
+      "started_at": "2026-08-16T14:31:40Z",
       "tasks_total": 26,
-      "elapsed_sec": 0.015,
-      "avg_fitness": 0.566665,
-      "avg_combined_score": 0.233335,
-      "avg_deterministic_score": 0.233335,
-      "avg_dialectical_depth": 1.0,
-      "avg_constitution_score": 0.75,
-      "avg_runtime_sec": 0.001,
-      "total_rival_forks": 150,
-      "total_sublations": 52,
-      "total_evidence_discriminators": 52,
-      "total_dialectical_nodes": 543,
-      "pass_rate": 0.3462,
-      "crashes": 0,
-      "zai_judge_used": 0,
-      "zai_judge_skipped": 26,
-      "categories": {
-        "ARITHMETIC": {
-          "count": 4,
-          "fitness": 1.8,
-          "pass": 0,
-          "depth": 4.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "LOGIC": {
-          "count": 3,
-          "fitness": 1.7999999999999998,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "REASONING": {
-          "count": 2,
-          "fitness": 1.375,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.6875,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "ANALYSIS": {
-          "count": 3,
-          "fitness": 1.8499999999999999,
-          "pass": 2,
-          "depth": 3.0,
-          "avg_fitness": 0.6167,
-          "pass_rate": 0.6667,
-          "avg_depth": 1.0
-        },
-        "SAFETY": {
-          "count": 2,
-          "fitness": 0.9,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "PHILOSOPHY": {
-          "count": 3,
-          "fitness": 1.9583,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.6528,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "SCIENCE": {
-          "count": 2,
-          "fitness": 1.1,
-          "pass": 1,
-          "depth": 2.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.5,
-          "avg_depth": 1.0
-        },
-        "ETHICS": {
-          "count": 2,
-          "fitness": 1.15,
-          "pass": 0,
-          "depth": 2.0,
-          "avg_fitness": 0.575,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        },
-        "MATH": {
-          "count": 3,
-          "fitness": 1.65,
-          "pass": 1,
-          "depth": 3.0,
-          "avg_fitness": 0.55,
-          "pass_rate": 0.3333,
-          "avg_depth": 1.0
-        },
-        "CODE": {
-          "count": 1,
-          "fitness": 0.7,
-          "pass": 1,
-          "depth": 1.0,
-          "avg_fitness": 0.7,
-          "pass_rate": 1.0,
-          "avg_depth": 1.0
-        },
-        "HISTORY": {
-          "count": 1,
-          "fitness": 0.45,
-          "pass": 0,
-          "depth": 1.0,
-          "avg_fitness": 0.45,
-          "pass_rate": 0.0,
-          "avg_depth": 1.0
-        }
-      }
-    },
-    {
-      "round_id": 1541,
-      "started_at": "2026-08-16T14:22:16Z",
-      "tasks_total": 26,
-      "elapsed_sec": 0.015,
+      "elapsed_sec": 0.013,
       "avg_fitness": 0.566665,
       "avg_combined_score": 0.233335,
       "avg_deterministic_score": 0.233335,
