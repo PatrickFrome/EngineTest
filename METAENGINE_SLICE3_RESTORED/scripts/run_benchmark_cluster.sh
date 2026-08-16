@@ -41,6 +41,14 @@ case "$CMD" in
     rm -f "$STORAGE_DIR"/massive_benchmark_*shard*.pid 2>/dev/null
     rm -f "$STORAGE_DIR"/cluster_*.json 2>/dev/null
 
+    # Load .env.local if present (for LLM API keys: GROQ, OPENROUTER, etc.)
+    if [ -f .env.local ]; then
+        set -a
+        source .env.local 2>/dev/null || true
+        set +a
+        echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] loaded .env.local"
+    fi
+
     for i in $(seq 0 $((N-1))); do
       SHARD_ID=$i
       INSTANCE_ID="shard${i}"

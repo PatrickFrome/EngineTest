@@ -91,15 +91,15 @@ DEFAULT_PROVIDERS: list[ProviderConfig] = [
         priority=11,
     ),
     ProviderConfig(
-        name="openrouter-llama-free",
-        litellm_model="openrouter/meta-llama/llama-3.1-8b-instruct:free",
+        name="openrouter-gemma-free",
+        litellm_model="openrouter/google/gemma-4-26b-a4b-it:free",
         api_key_env="OPENROUTER_API_KEY",
         free_tier_rpm=20,
         priority=20,
     ),
     ProviderConfig(
-        name="openrouter-mistral-free",
-        litellm_model="openrouter/mistralai/mistral-7b-instruct:free",
+        name="openrouter-nemotron-free",
+        litellm_model="openrouter/nvidia/nemotron-3-nano-30b-a3b:free",
         api_key_env="OPENROUTER_API_KEY",
         free_tier_rpm=20,
         priority=21,
@@ -264,11 +264,14 @@ class MultiProviderValidator:
             state.last_error = err_str
             state.last_error_at = time.time()
             state.requests_failed += 1
-            # On 429 (rate limit): cooldown for 60s
-            if "429" in err_str or "rate limit" in err_str.lower():
-                state.cooldown_until = time.time() + 60.0
+            # On 429 (rate limit): cooldown for 300s (OpenRouter free tier is strict)
+            if "429" in err_str or "rate limit" in err_str.lower() or "RateLimitError" in err_str:
+                state.cooldown_until = time.time() + 300.0  # 5 min cooldown
             # On auth error: mark unavailable permanently
             elif "401" in err_str or "authentication" in err_str.lower() or "invalid api key" in err_str.lower():
+                state.available = False
+            # On 403 Forbidden: mark unavailable (Groq issue)
+            elif "403" in err_str or "Forbidden" in err_str:
                 state.available = False
             return None
 
