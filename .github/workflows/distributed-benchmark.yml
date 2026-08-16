@@ -1,0 +1,230 @@
+# .github/workflows/distributed-benchmark.yml
+# Distributed MetaEngine benchmark runner on GitHub Actions free tier.
+#
+# Public repositories get 2000 minutes/month free for Linux runners.
+# Each runner: 2-core CPU, 7 GB RAM, 14 GB SSD — much more than our sandbox!
+#
+# This workflow runs N parallel shards, each processing 1/8 of the task bank.
+# Results are uploaded as artifacts AND pushed to Turso cloud DB.
+#
+# Schedule:
+#   - cron: runs every 6 hours (4 times/day × 8 shards = 32 shards/day)
+#   - workflow_dispatch: manual trigger from GitHub Actions tab
+#
+# To enable:
+#   1. Push this repo to GitHub (public for free tier)
+#   2. Set repository secrets:
+#      - TURSO_DB_TOKEN   (Turso API token — already have one)
+#      - TURSO_DB_HOST    (Turso DB hostname — already have one)
+#   3. Optional: set any of these to enable LLM judges:
+#      - GROQ_API_KEY, OPENROUTER_API_KEY, TOGETHER_API_KEY,
+#        GEMINI_API_KEY, HUGGINGFACE_API_KEY, COHERE_API_KEY
+#   4. The workflow runs automatically every 6 hours.
+#
+# Manual trigger:
+#   Go to Actions tab → "Distributed MetaEngine Benchmark" → Run workflow
+
+name: Distributed MetaEngine Benchmark
+
+on:
+  schedule:
+    # Every 6 hours — 4 runs/day
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      shard_count:
+        description: 'Number of parallel shards (1-8)'
+        required: false
+        default: '8'
+        type: choice
+        options:
+          - '2'
+          - '4'
+          - '6'
+          - '8'
+      tasks_per_shard:
+        description: 'Tasks per shard per round (0 = full shard)'
+        required: false
+        default: '0'
+      rounds:
+        description: 'Rounds per shard (0 = infinite until timeout)'
+        required: false
+        default: '0'
+
+# Cancel any in-progress run when a new one starts
+concurrency:
+  group: distributed-benchmark
+  cancel-in-progress: false
+
+# GitHub Actions hard timeout: 6 hours per job
+# We set 5h45m to leave buffer for upload + cleanup
+jobs:
+  benchmark-shard:
+    name: Shard ${{ matrix.shard }}/${{ matrix.shard_count }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 345  # 5h45m
+    strategy:
+      fail-fast: false
+      matrix:
+        # 8 shards — GitHub Actions allows up to 20 concurrent jobs on free tier
+        shard_count: [8]
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('METAENGINE_SLICE3_RESTORED/pyproject.toml') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        working-directory: METAENGINE_SLICE3_RESTORED
+        run: |
+          python -m pip install --upgrade pip
+          # Install only what the benchmark runner actually needs (not the full MetaEngine stack)
+          pip install structlog litellm
+          # Optional: install botorch/torch if available (large download, may skip on free tier)
+          pip install botorch || echo "botorch install skipped — heuristic surrogate will be used"
+
+      - name: Verify installation
+        working-directory: METAENGINE_SLICE3_RESTORED
+        env:
+          TURSO_DB_TOKEN: ${{ secrets.TURSO_DB_TOKEN }}
+          TURSO_DB_HOST: ${{ secrets.TURSO_DB_HOST }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HUGGINGFACE_API_KEY: ${{ secrets.HUGGINGFACE_API_KEY }}
+          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+        run: |
+          python3 scripts/run_massive_benchmark.py --help | head -5
+          echo ""
+          echo "=== Turso connectivity ==="
+          python3 -c "
+          import json, urllib.request, os
+          token = os.getenv('TURSO_DB_TOKEN', '')
+          host = os.getenv('TURSO_DB_HOST', '')
+          if not token or not host:
+              print('TURSO_DB_TOKEN/HOST not set — cloud sync will be skipped')
+          else:
+              req = urllib.request.Request(
+                  f'https://{host}/v2/pipeline',
+                  data=json.dumps({'requests':[{'type':'execute','stmt':{'sql':'SELECT 1'}}]}).encode(),
+                  headers={'Authorization': f'Bearer {token}', 'Content-Type':'application/json'},
+                  method='POST',
+              )
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  print('Turso reachable:', json.loads(resp.read().decode())['results'][0].get('type') == 'ok')
+          "
+          echo ""
+          echo "=== Multi-provider validator ==="
+          python3 metaengine/multi_provider_validator.py | head -15
+
+      - name: Run benchmark shard (timeout-protected)
+        working-directory: METAENGINE_SLICE3_RESTORED
+        env:
+          TURSO_DB_TOKEN: ${{ secrets.TURSO_DB_TOKEN }}
+          TURSO_DB_HOST: ${{ secrets.TURSO_DB_HOST }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HUGGINGFACE_API_KEY: ${{ secrets.HUGGINGFACE_API_KEY }}
+          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+        run: |
+          echo "=== Starting shard ${{ matrix.shard }}/${{ matrix.shard_count }} ==="
+          # Use 'timeout' command to ensure we exit before the job timeout
+          # (5h45m job - 15m buffer = 5h30m = 330m = 19800s)
+          SHARD_ID=${{ matrix.shard }}
+          SHARD_COUNT=${{ matrix.shard_count }}
+          INSTANCE_ID="gha-shard${SHARD_ID}"
+          MAX_WORKERS=2  # GitHub runner has 2 cores
+
+          timeout 19800 python3 scripts/run_massive_benchmark.py \
+            --rounds 0 \
+            --tasks-per-round 0 \
+            --max-workers $MAX_WORKERS \
+            --sleep-between-rounds 5 \
+            --instance-id "$INSTANCE_ID" \
+            --shard-id $SHARD_ID \
+            --shard-count $SHARD_COUNT \
+            2>&1 | tee -a storage/massive_benchmark_${INSTANCE_ID}.log || true
+          echo ""
+          echo "=== Shard ${{ matrix.shard }} completed or timed out ==="
+
+      - name: Upload benchmark artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-shard-${{ matrix.shard }}-${{ github.run_id }}
+          path: |
+            METAENGINE_SLICE3_RESTORED/storage/massive_benchmark_gha-shard${{ matrix.shard }}.log
+            METAENGINE_SLICE3_RESTORED/storage/massive_benchmark_status_gha-shard${{ matrix.shard }}.json
+            METAENGINE_SLICE3_RESTORED/storage/massive_benchmark_rounds_gha-shard${{ matrix.shard }}.jsonl
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Show final status
+        if: always()
+        working-directory: METAENGINE_SLICE3_RESTORED
+        run: |
+          INSTANCE_ID="gha-shard${{ matrix.shard }}"
+          echo "=== Final status for $INSTANCE_ID ==="
+          cat "storage/massive_benchmark_status_${INSTANCE_ID}.json" 2>/dev/null || echo "Status file not found"
+          echo ""
+          echo "=== Rounds log ==="
+          cat "storage/massive_benchmark_rounds_${INSTANCE_ID}.jsonl" 2>/dev/null | tail -5 || echo "Rounds log not found"
+
+
+  aggregate:
+    name: Aggregate cluster results
+    needs: benchmark-shard
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        working-directory: METAENGINE_SLICE3_RESTORED
+        run: |
+          python -m pip install --upgrade pip
+          pip install structlog litellm
+
+      - name: Run analyze_and_improve
+        working-directory: METAENGINE_SLICE3_RESTORED
+        env:
+          TURSO_DB_TOKEN: ${{ secrets.TURSO_DB_TOKEN }}
+          TURSO_DB_HOST: ${{ secrets.TURSO_DB_HOST }}
+        run: |
+          python3 scripts/analyze_and_improve.py --use-turso --verbose 2>&1 | tee storage/analysis_report.log
+          echo ""
+          echo "=== Analysis complete ==="
+          ls -la storage/benchmark_analysis_*.json storage/improvement_patches_*.json 2>/dev/null | tail -5
+
+      - name: Upload analysis report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: analysis-report-${{ github.run_id }}
+          path: |
+            METAENGINE_SLICE3_RESTORED/storage/benchmark_analysis_*.json
+            METAENGINE_SLICE3_RESTORED/storage/benchmark_analysis_*.md
+            METAENGINE_SLICE3_RESTORED/storage/improvement_patches_*.json
+            METAENGINE_SLICE3_RESTORED/storage/analysis_report.log
+          retention-days: 90
+          if-no-files-found: warn
