@@ -89,10 +89,15 @@ jobs:
         working-directory: METAENGINE_SLICE3_RESTORED
         run: |
           python -m pip install --upgrade pip
+          # Install the metaengine package itself (in editable mode) so
+          # `from metaengine.orchestrator import ...` works at runtime.
+          pip install -e . --no-deps
           # Install only what the benchmark runner actually needs (not the full MetaEngine stack)
           pip install structlog litellm
           # Optional: install botorch/torch if available (large download, may skip on free tier)
           pip install botorch || echo "botorch install skipped — heuristic surrogate will be used"
+          # Verify the import works
+          python3 -c "from metaengine.orchestrator import MetaOrchestrator; print('metaengine import OK')"
 
       - name: Verify installation
         working-directory: METAENGINE_SLICE3_RESTORED
