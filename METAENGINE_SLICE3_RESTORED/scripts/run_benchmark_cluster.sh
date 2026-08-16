@@ -58,7 +58,7 @@ case "$CMD" in
         --tasks-per-round 0 \
         --max-workers "$MAX_WORKERS" \
         --sleep-between-rounds 5 \
-        --no-zai \
+        --no-zai --minimal-output \
         --instance-id "$INSTANCE_ID" \
         --shard-id "$SHARD_ID" \
         --shard-count "$N" \
