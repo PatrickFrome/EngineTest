@@ -1,0 +1,165 @@
+{
+  "cycle_count": 2,
+  "cycles": [
+    {
+      "cycle_id": 1,
+      "started_at": "2026-08-16T08:14:14Z",
+      "duration_sec": 10.06,
+      "queries": [
+        "free LLM API providers 2026 no credit card",
+        "gemini free API tier limits",
+        "free serverless function providers"
+      ],
+      "search_results_total": 15,
+      "candidates_found": 4,
+      "working_providers": 2,
+      "patches_generated": 2
+    },
+    {
+      "cycle_id": 2,
+      "started_at": "2026-08-16T08:15:51Z",
+      "duration_sec": 9.87,
+      "queries": [
+        "free OpenAI-compatible API endpoints list",
+        "cohere trial API free",
+        "free colabs kaggle free GPU"
+      ],
+      "search_results_total": 15,
+      "candidates_found": 3,
+      "working_providers": 3,
+      "patches_generated": 3
+    }
+  ],
+  "all_discovered_providers": [
+    {
+      "provider_name": "groq",
+      "category": "llm_api",
+      "api_endpoint": "https://api.groq.com/openai",
+      "api_docs_url": "https://genai.club/blog/free-llm-api-no-credit-card-9-providers-that-work-in-2026",
+      "signup_url": "https://genai.club",
+      "free_tier_rpm": 0,
+      "litellm_model_hint": "groq/llama-3.1-70b-versatile",
+      "works": true,
+      "probe_response": "HTTP 403",
+      "probe_error": "",
+      "probe_latency_ms": 23.253821000253083,
+      "discovered_at": "2026-08-16T08:14:05Z",
+      "source_query": "free LLM API providers 2026 no credit card",
+      "source_url": "https://genai.club/blog/free-llm-api-no-credit-card-9-providers-that-work-in-2026"
+    },
+    {
+      "provider_name": "openai",
+      "category": "llm_api",
+      "api_endpoint": "https://api.openai.com/v1",
+      "api_docs_url": "https://github.com/amardeeplakshkar/awesome-free-llm-apis",
+      "signup_url": "https://github.com",
+      "free_tier_rpm": 0,
+      "litellm_model_hint": "openai/gpt-4o-mini",
+      "works": true,
+      "probe_response": "HTTP 403",
+      "probe_error": "",
+      "probe_latency_ms": 19.357796001713723,
+      "discovered_at": "2026-08-16T08:14:05Z",
+      "source_query": "free LLM API providers 2026 no credit card",
+      "source_url": "https://github.com/amardeeplakshkar/awesome-free-llm-apis"
+    },
+    {
+      "provider_name": "mistral",
+      "category": "llm_api",
+      "api_endpoint": "https://api.mistral.ai/v1",
+      "api_docs_url": "https://ianlpaterson.com/blog/free-llm-api-2026/",
+      "signup_url": "https://ianlpaterson.com",
+      "free_tier_rpm": 0,
+      "litellm_model_hint": "mistral/mistral-large-latest",
+      "works": false,
+      "probe_response": "HTTP 404",
+      "probe_error": "HTTP 404",
+      "probe_latency_ms": 261.9484200004081,
+      "discovered_at": "2026-08-16T08:14:05Z",
+      "source_query": "free LLM API providers 2026 no credit card",
+      "source_url": "https://ianlpaterson.com/blog/free-llm-api-2026/"
+    },
+    {
+      "provider_name": "gemini",
+      "category": "llm_api",
+      "api_endpoint": "https://generativelanguage.googleapis.com/v1",
+      "api_docs_url": "https://pecollective.com/tools/gemini-free-tier-guide/",
+      "signup_url": "https://pecollective.com",
+      "free_tier_rpm": 0,
+      "litellm_model_hint": "gemini/gemini-1.5-flash",
+      "works": false,
+      "probe_response": "HTTP 404",
+      "probe_error": "HTTP 404",
+      "probe_latency_ms": 48.08613099885406,
+      "discovered_at": "2026-08-16T08:14:08Z",
+      "source_query": "gemini free API tier limits",
+      "source_url": "https://pecollective.com/tools/gemini-free-tier-guide/"
+    },
+    {
+      "provider_name": "cohere",
+      "category": "llm_api",
+      "api_endpoint": "https://api.cohere.ai/v1",
+      "api_docs_url": "https://cohere.com/blog/free-developer-tier-announcement",
+      "signup_url": "https://cohere.com",
+      "free_tier_rpm": 0,
+      "litellm_model_hint": "cohere/command-r",
+      "works": true,
+      "probe_response": "HTTP 401",
+      "probe_error": "",
+      "probe_latency_ms": 286.1680529967998,
+      "discovered_at": "2026-08-16T08:15:46Z",
+      "source_query": "cohere trial API free",
+      "source_url": "https://cohere.com/blog/free-developer-tier-announcement"
+    }
+  ],
+  "working_providers": [
+    {
+      "provider_name": "openai",
+      "category": "llm_api",
+      "api_endpoint": "https://api.openai.com/v1",
+      "api_docs_url": "https://github.com/tashfeenahmed/freellmapi",
+      "signup_url": "https://github.com",
+      "free_tier_rpm": 0,
+      "litellm_model_hint": "openai/gpt-4o-mini",
+      "works": true,
+      "probe_response": "HTTP 403",
+      "probe_error": "",
+      "probe_latency_ms": 24.51165099773789,
+      "discovered_at": "2026-08-16T08:15:42Z",
+      "source_query": "free OpenAI-compatible API endpoints list",
+      "source_url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    {
+      "provider_name": "groq",
+      "category": "llm_api",
+      "api_endpoint": "https://api.groq.com/openai",
+      "api_docs_url": "https://freellm.net/models/",
+      "signup_url": "https://freellm.net",
+      "free_tier_rpm": 0,
+      "litellm_model_hint": "groq/llama-3.1-70b-versatile",
+      "works": true,
+      "probe_response": "HTTP 403",
+      "probe_error": "",
+      "probe_latency_ms": 32.93915800168179,
+      "discovered_at": "2026-08-16T08:15:42Z",
+      "source_query": "free OpenAI-compatible API endpoints list",
+      "source_url": "https://freellm.net/models/"
+    },
+    {
+      "provider_name": "cohere",
+      "category": "llm_api",
+      "api_endpoint": "https://api.cohere.ai/v1",
+      "api_docs_url": "https://cohere.com/blog/free-developer-tier-announcement",
+      "signup_url": "https://cohere.com",
+      "free_tier_rpm": 0,
+      "litellm_model_hint": "cohere/command-r",
+      "works": true,
+      "probe_response": "HTTP 401",
+      "probe_error": "",
+      "probe_latency_ms": 286.1680529967998,
+      "discovered_at": "2026-08-16T08:15:46Z",
+      "source_query": "cohere trial API free",
+      "source_url": "https://cohere.com/blog/free-developer-tier-announcement"
+    }
+  ]
+}
