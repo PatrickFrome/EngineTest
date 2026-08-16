@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-08-16T08:43:04Z",
-  "total": 1,
-  "working": 1,
-  "providers": [
-    {
-      "provider_name": "anthropic",
-      "category": "llm_api",
-      "api_endpoint": "https://api.anthropic.com/v1",
-      "api_docs_url": "https://claude.com/pricing",
-      "signup_url": "https://claude.com",
-      "free_tier_rpm": 0,
-      "litellm_model_hint": "anthropic/claude-3-5-sonnet-20240620",
-      "works": true,
-      "probe_response": "HTTP 403",
-      "probe_error": "",
-      "probe_latency_ms": 24.149704000592465,
-      "discovered_at": "2026-08-16T08:42:55Z",
-      "source_query": "anthropic free API tier",
-      "source_url": "https://claude.com/pricing"
-    }
-  ]
+  "updated_at": "2026-08-16T09:33:05Z",
+  "total": 0,
+  "working": 0,
+  "providers": []
 }
