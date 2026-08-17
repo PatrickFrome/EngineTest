@@ -97,6 +97,8 @@ SHARD_ID = 0
 SHARD_COUNT = 1
 MINIMAL_OUTPUT = False  # Set True via --minimal-output flag
 COMPRESS_OUTPUTS = False  # Set True via --compress-outputs flag
+DISABLE_CACHE = False  # Set True via --no-cache flag
+CACHE_TTL_SEC = 300  # 5 minutes (was 1 hour — too long for continuous rounds)
 
 # Make `metaengine` package importable from the script regardless of CWD.
 # This must happen BEFORE any `from metaengine...` import below.
@@ -831,17 +833,18 @@ def run_metaengine(task: BenchTask, run_dir: Path, max_workers: int = 4,
     Returns dict with: synthesis, engine_answer, dialectical_counts,
     constitution, runtime_sec, status, error.
     """
-    # Tier 2.4: Check result cache first
-    cache_key = hashlib.sha256(
-        f"{task.prompt}|{task.task_id}".encode()
-    ).hexdigest()[:32]
-    cache_dir = STORAGE / "result_cache"
-    cache_file = cache_dir / f"{cache_key}.json"
-    if cache_file.is_file():
-        try:
-            mtime = cache_file.stat().st_mtime
-            age_sec = time.time() - mtime
-            if age_sec < 3600:  # 1 hour TTL
+    # Tier 2.4: Check result cache first (unless --no-cache)
+    if not DISABLE_CACHE:
+        cache_key = hashlib.sha256(
+            f"{task.prompt}|{task.task_id}".encode()
+        ).hexdigest()[:32]
+        cache_dir = STORAGE / "result_cache"
+        cache_file = cache_dir / f"{cache_key}.json"
+        if cache_file.is_file():
+            try:
+                mtime = cache_file.stat().st_mtime
+                age_sec = time.time() - mtime
+                if age_sec < CACHE_TTL_SEC:
                 cached = json.loads(cache_file.read_text(encoding="utf-8"))
                 _log_msg = f"[cache] HIT for {task.task_id} (age={age_sec:.0f}s)"
                 # Print to log if HUMAN_LOG is set
@@ -1365,6 +1368,10 @@ def main() -> int:
     ap.add_argument("--compress-outputs", action="store_true",
                     help="Write .json.gz instead of .json for large outputs (>10KB). "
                          "Saves ~80 percent disk space.")
+    ap.add_argument("--no-cache", action="store_true",
+                    help="Disable result caching. Each round runs fresh MetaEngine.")
+    ap.add_argument("--cache-ttl", type=int, default=300,
+                    help="Result cache TTL in seconds (default: 300 = 5 min).")
     args = ap.parse_args()
 
     # Apply instance identity
@@ -1372,8 +1379,10 @@ def main() -> int:
     SHARD_ID = args.shard_id
     SHARD_COUNT = args.shard_count
     # Apply output-mode flags (Tier 1 improvements: minimal-output, compress-outputs)
-    global MINIMAL_OUTPUT, COMPRESS_OUTPUTS
+    global MINIMAL_OUTPUT, COMPRESS_OUTPUTS, DISABLE_CACHE, CACHE_TTL_SEC
     MINIMAL_OUTPUT = args.minimal_output
+    DISABLE_CACHE = args.no_cache
+    CACHE_TTL_SEC = args.cache_ttl
     COMPRESS_OUTPUTS = args.compress_outputs
     if MINIMAL_OUTPUT:
         log("[config] MINIMAL_OUTPUT enabled — large output files will be deleted after reading")
